@@ -57,6 +57,7 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 **When:** they want slides. Also read `format-prepare.md`.
 **Offer:** a short deck for the part of the lesson that belongs on a projector: not the whole lesson. Use their material as given. Derive teaching content from the waypoint's checkpoint and success criteria, and don't go beyond them. Turn success criteria into "I can…" statements. For a hinge waypoint, include a check slide on the likely misconception and put the cascade risk in a speaker note. Leave a visible placeholder wherever it depends on their class (`> [Recall question from last lesson]`) with a note on what to supply. Suggest only images they can get: search terms, something to photograph in the room, or a table or diagram instead. Don't suggest AI-generated images. Aim for 6 to 10 slides unless they say otherwise, with something to do or discuss at least every third slide.
+**If they have these, use them (all optional):** the plan's lesson (its Shape becomes the slide order; cliff notes go in speaker notes); a glossary (key terms on a vocabulary slide where they first appear, the misconception in the check slide or a note); a resource plan (point to the resources it lists, and assume only equipment the teacher has confirmed); a worked example for this lesson (use it for the demonstrate slides instead of inventing one). For several lessons, do one per reply and offer the next.
 
 ## Anything else
 

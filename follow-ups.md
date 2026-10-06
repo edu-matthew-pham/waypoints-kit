@@ -2,6 +2,8 @@
 
 Optional extras a teacher can ask for once they have a plan (or even just a standard). None is required and none blocks another. Each reads the teacher's plan if there is one, and produces its own piece of Markdown that they keep. Offer them in a line after a plan; don't run them unasked.
 
+Slides for a lesson use these if they exist, and don't need them.
+
 Output is plain Markdown by default. If the teacher says where it's going (Schoolbox, Docs, Word), keep to simple headings, lists and bold, and avoid wide tables. They can paste Markdown straight into Waypoints Print ("Copy for Docs"), which handles rich-text copy. If they ask for HTML, give simple HTML.
 
 ## Glossary

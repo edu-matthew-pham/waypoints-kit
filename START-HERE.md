@@ -26,6 +26,10 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 - Everything is a draft for the teacher to review. Say what you assumed.
 - Plain language. No jargon dumps; use the framework's words (waypoint, hinge, width) but explain them in a clause the first time.
 
+## Use what's there
+
+Nothing beyond a standard is required. If the teacher has also given you (in the chat, or in files if they're working in a Project) a plan, a glossary, a resource plan, a worked example or notes on how lessons went, use them: they make the result better and more theirs. If they aren't there, carry on without them. Don't ask for them unless the answer would change. When you use one, say so in a few words ("using your glossary for the vocabulary slide") so the teacher can see what shaped the result. Never assume something exists that you haven't seen.
+
 ## Keep to these four
 
 (Everything else is suggestion.)
