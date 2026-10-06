@@ -33,6 +33,10 @@ Save the plan it gives you. When things change, paste it back with the link:
 **Slides for a lesson**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
 
+## If your AI can't open links
+
+Download [`waypoints-kit-all.md`](waypoints-kit-all.md) (the whole kit in one file) and attach it to a chat, or paste its text. Then paste the standard's "Copy markdown" export from [ACARA Progressions](https://acara.learningwaypoints.com) and ask your question. If you use a Project, keep the file in it and it's there every time.
+
 ## Standards
 
 Node files for the ACARA F–10 standards (about 1,500 across all learning areas) live in `data/`, copied from [ACARA Progressions](https://acara.learningwaypoints.com), which is where they are authored and browsed. The AI finds the right one through the [index](index/README.md), so you only need to give it the standard code or topic. If it can't open the file, open the standard in Progressions, use "Copy markdown", and paste it into the chat.
@@ -40,6 +44,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 ## What's here
 
 - `START-HERE.md`: the file the AI reads first.
+- `waypoints-kit-all.md`: the whole kit in one file, for assistants that can't open links.
 - `core.md`: the framework on one page.
 - `moves.md`: the suggestions the AI can offer.
 - `plan-format.md`: a plan layout that's easy to save and change.
@@ -49,6 +54,6 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 - `index/`: every standard with a node file, by subject.
 - `data/`: the node files and glossaries, copied from Progressions.
 - `examples/`: sample output.
-- `tools/`: `build_index.py` regenerates `index/` from the Progressions data.
+- `tools/`: `build_index.py` regenerates `index/` from the Progressions data; `build_bundle.py` regenerates `waypoints-kit-all.md`.
 
 This is a proof of concept. Expect it to change. If you want a copy that won't change under you, use the `v0.1` branch (replace `main` with `v0.1` in the links above); it is the first version, without plan adaptation.
