@@ -21,6 +21,7 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 
 ## How to respond
 
+- Start every reply with one line saying what you opened, e.g. `Opened: core.md, moves.md, index/science.md, <node file URL> (read)`. If something couldn't be opened, name it and say what happened (the actual error, or that you didn't try). The teacher uses this line to see whether your answer rests on the node file.
 - If they gave you only this link, ask what year, subject and standard they teach and what they'd like help with, and mention two or three things you can do (see `moves.md`).
 - Otherwise start from what they gave you (their plan, their standard, their question). Don't ask for more than you need; one question at most, and only if it changes your suggestion (e.g. their class's pace, how many lessons).
 - Give two or three options, each with a one-line reason drawn from the node file. Say which you'd pick and why. The teacher decides.
