@@ -13,25 +13,25 @@ No account, no install. Everything here is Markdown and JSON.
 ## Starter prompts
 
 **Look at my plan**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
 
 **Where will my class stall?**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
 
 **Make a plan I can change later**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Make me a plan.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Make me a plan.
 
 Save the plan it gives you. When things change, paste it back with the link:
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. Here is my plan: [paste]. I've lost two lessons. What should change?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. Here is my plan: [paste]. I've lost two lessons. What should change?
 
 **A fuller unit plan**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. I teach Year 7 Science, standard AC9S7U01, with 8 lessons. Make me a fuller unit plan.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, with 8 lessons. Make me a fuller unit plan.
 
 **Glossary, resource plan or student view**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. Here is my plan: [paste]. Give me a glossary for students.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. Here is my plan: [paste]. Give me a glossary for students.
 
 **Slides for a lesson**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Before you answer, look up my standard in the index it points to, open that standard's node file link, and base your answer on it. Tell me which file you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
 
 ## Standards
 
