@@ -38,6 +38,11 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 **When:** they want more depth than the short plan, or ask for a lesson to be expanded. Also read `plan-format.md` and `unit-plan-extended.md`.
 **Do:** follow `unit-plan-extended.md`: a preamble per waypoint, optional extra fields per lesson, one waypoint per reply. After any short plan, mention in a line that this is available.
 
+## Glossary, resource plan, student view
+
+**When:** they ask for key vocabulary, what each lesson needs, or something for students. Also read `follow-ups.md`.
+**Do:** follow it. These are optional extras that read the teacher's plan; offer them in a line after a plan, don't run them unasked.
+
 ## Adapt my plan
 
 **When:** they paste a plan (in the plan format or their own) and something has changed: fewer or more lessons, a class that is behind or ahead, a lesson that ran differently, a swap they want.

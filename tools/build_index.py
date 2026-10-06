@@ -57,6 +57,35 @@ def main(src):
         with open(os.path.join(out_dir, f"{subject}.md"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
 
+    # Glossary files: {subject}/*_glossary.json with teacher_glossary entries keyed by descriptor_code
+    gl_rows = []
+    for path in sorted(glob.glob(os.path.join(src, "**", "*_glossary.json"), recursive=True)):
+        rel = os.path.relpath(path, src).replace(os.sep, "/")
+        try:
+            with open(path, encoding="utf-8") as fh:
+                g = json.load(fh)
+        except Exception:
+            continue
+        entries = g.get("teacher_glossary") if isinstance(g, dict) else None
+        if not entries:
+            continue
+        codes = sorted({e.get("descriptor_code", "") for e in entries if e.get("descriptor_code")})
+        gl_rows.append((rel.split("/")[0], ", ".join(str(y) for y in g.get("year_levels", [])), len(entries), codes, rel))
+    gl = [
+        "# Glossaries",
+        "",
+        f"Pre-built vocabulary for some subjects. Fetch at `{BASE_URL}<path>`. Each file has `teacher_glossary` (definition, likely misconception, response) and `student_glossary` (plain definition, example). Filter entries by `descriptor_code`; `first_waypoint` says where a term first appears.",
+        "",
+        "If a standard's code isn't listed under any file below, there is no pre-built glossary for it: draft one from the node file.",
+        "",
+        "| Subject | Years | Terms | Path | Standards covered |",
+        "|---|---|---|---|---|",
+    ]
+    for subj, yrs, n, codes, rel in gl_rows:
+        gl.append(f"| {subj} | {yrs} | {n} | `{rel}` | {', '.join(codes)} |")
+    with open(os.path.join(out_dir, "glossaries.md"), "w", encoding="utf-8") as fh:
+        fh.write("\n".join(gl) + "\n")
+
     readme = [
         "# Index of standards",
         "",
@@ -65,6 +94,8 @@ def main(src):
     ]
     for subject, rows in sorted(by_subject.items()):
         readme.append(f"- [{subject}]({subject}.md): {len(rows)} standards")
+    readme.append("")
+    readme.append("- [glossaries](glossaries.md): pre-built vocabulary files (some subjects only)")
     with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(readme) + "\n")
     print({s: len(r) for s, r in sorted(by_subject.items())})

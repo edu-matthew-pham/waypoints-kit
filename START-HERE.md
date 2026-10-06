@@ -15,6 +15,7 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 4. `format-prepare.md`: only if they want slides.
 5. `plan-format.md`: only if they want a plan made or adapted.
 6. `unit-plan-extended.md`: only if they ask for a fuller unit plan or more depth on a lesson. Offer it after a short plan; don't use it by default.
+7. `follow-ups.md`: only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
 
 ## How to respond
 
