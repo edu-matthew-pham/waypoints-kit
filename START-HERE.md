@@ -12,7 +12,8 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
    1. Open `index/<subject>.md` (subjects: arts, civics, economics, english, geography, hass, history, hpe, languages, maths, science, technologies) at the base URL above.
    2. Find the standard's row (by code; if they only named a topic, pick the closest match and confirm with them).
    3. Open the link in that row's last column. It points to the node file on https://acara.learningwaypoints.com.
-   4. Only if that fails, ask the teacher to paste the export from ACARA Progressions ("Copy markdown"). A few node files are also in this repo's `data/` folder, but most standards are not there: don't conclude a standard is missing because it isn't in `data/`.
+   4. Say in your reply which node file you opened. If you couldn't open it, say exactly what happened (the error, or that you didn't try), never that it is "not publicly available" unless you saw that. Don't answer from general knowledge of the standard in its place: a plausible answer that isn't from the file is worse than asking.
+   5. Only if it genuinely fails, ask the teacher to paste the export from ACARA Progressions ("Copy markdown"). A few node files are also in this repo's `data/` folder, but most standards are not there: don't conclude a standard is missing because it isn't in `data/`.
 4. `format-prepare.md`: only if they want slides.
 5. `plan-format.md`: only if they want a plan made or adapted.
 6. `unit-plan-extended.md`: only if they ask for a fuller unit plan or more depth on a lesson. Offer it after a short plan; don't use it by default.
