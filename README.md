@@ -37,8 +37,6 @@ Save the plan it gives you. When things change, paste it back with the link:
 
 Node files for the ACARA F–10 standards (about 1,500 across all learning areas) are served by [ACARA Progressions](https://acara.learningwaypoints.com). The AI finds the right one through the [index](index/README.md), so you only need to give it the standard code or topic. If it can't fetch the file, open the standard in Progressions, use "Copy markdown", and paste it into the chat.
 
-A few node files are also kept in `data/` as a fallback.
-
 ## What's here
 
 - `START-HERE.md`: the file the AI reads first.
@@ -49,7 +47,6 @@ A few node files are also kept in `data/` as a fallback.
 - `follow-ups.md`: optional extras: glossary, resource plan, student view.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `index/`: every standard with a node file, by subject.
-- `data/`: a few node files kept as a fallback.
 - `examples/`: sample output.
 - `tools/`: `build_index.py` regenerates `index/` from the Progressions data.
 
