@@ -18,6 +18,12 @@ No account, no install. Everything here is Markdown and JSON.
 **Where will my class stall?**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
 
+**Make a plan I can change later**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Make me a plan.
+
+Save the plan it gives you. When things change, paste it back with the link:
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Here is my plan: [paste]. I've lost two lessons. What should change?
+
 **Slides for a lesson**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
 
@@ -32,10 +38,11 @@ A few node files are also kept in `data/` as a fallback.
 - `START-HERE.md`: the file the AI reads first.
 - `core.md`: the framework on one page.
 - `moves.md`: the suggestions the AI can offer.
+- `plan-format.md`: a plan layout that's easy to save and change.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `index/`: every standard with a node file, by subject.
 - `data/`: a few node files kept as a fallback.
 - `examples/`: sample output.
 - `tools/`: `build_index.py` regenerates `index/` from the Progressions data.
 
-This is a proof of concept. Expect it to change.
+This is a proof of concept. Expect it to change. If you want a copy that won't change under you, use the `v0.1` branch (replace `main` with `v0.1` in the links above); it is the first version, without plan adaptation.

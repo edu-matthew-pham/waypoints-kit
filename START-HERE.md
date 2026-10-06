@@ -13,6 +13,7 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
    - A few node files are also in this repo's `data/` folder as a fallback.
    - If you can't fetch it, ask the teacher to paste the export from ACARA Progressions (https://acara.learningwaypoints.com, "Copy markdown").
 4. `format-prepare.md`: only if they want slides.
+5. `plan-format.md`: only if they want a plan made or adapted.
 
 ## How to respond
 
