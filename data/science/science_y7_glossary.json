@@ -1,0 +1,1830 @@
+{
+  "subject": "Science",
+  "year_levels": [
+    "7"
+  ],
+  "generated": "2026-06-07",
+  "teacher_glossary": [
+    {
+      "term": "Classification",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The systematic organisation of living things into groups based on shared characteristics. Classification enables scientists to identify, name and communicate about organisms consistently. It is purposeful and constructed \u2014 different classification systems organise by different criteria depending on the priorities of those who made them.",
+      "failure_mode": "Students confuse classification with simple sorting or listing \u2014 grouping organisms by a single surface feature (e.g. colour) without a systematic basis or purpose.",
+      "failure_type": "misconception",
+      "why_it_matters": "If classification is just sorting, students cannot understand why formal systems like Linnaean taxonomy exist, why classification systems change over time, or why feature selection matters when constructing dichotomous keys.",
+      "response": "Compare classification with everyday sorting (sorting laundry by colour vs organising a library by subject, author, title). Ask: what makes the library system more useful than the laundry sort? What would break if you used colour to organise a library?",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Classification system",
+          "definition": "A structured framework for organising organisms into groups \u2014 such as Linnaean taxonomy or Aboriginal and Torres Strait Islander classification systems based on Country.",
+          "failure_mode": "Students treat 'classification system' as interchangeable with the act of classifying \u2014 missing that different systems organise by different criteria and reveal different priorities about what matters.",
+          "failure_type": "narrow_repertoire",
+          "response": "Compare two classification systems for the same set of organisms (e.g. Linnaean vs a First Nations system). Ask: what does each system prioritise? What is visible in one that is invisible in the other?",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Biodiversity",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The variety of living organisms on Earth, including diversity within species, between species, and of ecosystems. Biodiversity encompasses all kingdoms \u2014 plants, animals, fungi, protists and bacteria \u2014 not only the organisms most visible to humans.",
+      "failure_mode": "Students think biodiversity means 'lots of animals' \u2014 limiting it to large, visible animal species and missing plant, fungal, microbial and ecosystem diversity.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If biodiversity is only animal variety, students cannot understand why classification systems must encompass all kingdoms, or why loss of microbial or plant diversity has ecological consequences.",
+      "response": "Present biodiversity examples across all kingdoms \u2014 include bacteria, fungi and protists alongside animals and plants. Ask students to identify which environment in a set is most biodiverse, including one rich in microbial diversity.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Taxonomy",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The branch of science concerned with naming, describing and classifying organisms into a hierarchical system of groups based on shared characteristics. The hierarchy is nested \u2014 each level sits within a broader group sharing fewer features, from the broadest level (kingdom) to the most specific (species).",
+      "failure_mode": "Students memorise the hierarchy levels as a list without understanding that each level represents a nested group \u2014 organisms in the same genus share more features than organisms in the same phylum because the group is narrower.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If taxonomy is a memorised sequence rather than a nested hierarchy, students cannot explain why classification at different levels reveals different degrees of relatedness. The structural logic that underpins all classification reasoning is lost.",
+      "response": "Use a nested boxes or Russian dolls model showing how each level fits inside the next. Ask students to explain what happens to the number of shared features as you move from kingdom toward species.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Kingdom",
+          "definition": "The broadest traditional grouping in Linnaean taxonomy. The major kingdoms \u2014 animals, plants, fungi, protists and bacteria \u2014 are each defined by fundamental differences in cell structure, nutrition and reproduction.",
+          "failure_mode": "Students assign organisms to kingdoms based on superficial resemblance (e.g. coral is a plant because it doesn't move, mushroom is a plant because it grows in soil) rather than defining features of each kingdom.",
+          "failure_type": "misconception",
+          "response": "Present organisms that challenge superficial assignment (coral, mushroom, Euglena). Require students to justify placement using defining kingdom features \u2014 not appearance or behaviour.",
+          "response_type": "repertoire_building"
+        },
+        {
+          "term": "Linnaean hierarchy",
+          "definition": "The nested classification system developed by Carl Linnaeus, organising organisms from broadest group (kingdom) to most specific (species): kingdom, phylum, class, order, family, genus, species.",
+          "failure_mode": "Students memorise the level names as a sequence without understanding that each level is nested within the one above, representing progressively more shared features.",
+          "failure_type": "fragile_skill",
+          "response": "Use a visual nesting model and ask students to explain what happens to shared features at each level. Have them place a familiar organism at every level to see the narrowing.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Boundary case",
+          "definition": "An organism that does not fit neatly into existing classification categories \u2014 such as Euglena (characteristics of both plants and animals) or viruses (debated whether they are living).",
+          "failure_mode": "Students treat boundary cases as errors in the classification system rather than informative cases that reveal what the system assumes and where its definitions break down.",
+          "failure_type": "flawed_reasoning",
+          "response": "Present a boundary case and ask: what does this organism's difficulty tell us about the rules our classification system uses? What would we need to change to accommodate it?",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Species"
+        }
+      ]
+    },
+    {
+      "term": "Observable features",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Characteristics of an organism that can be directly seen, measured or detected \u2014 such as body covering, number of limbs, leaf shape, or method of locomotion. Observable features are the basis for classification decisions in taxonomy and dichotomous keys.",
+      "failure_mode": "Students select features that are not reliably observable (e.g. diet, habitat, internal anatomy) or not useful for distinguishing organisms (e.g. 'is alive') when classifying or constructing keys.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "Unreliable feature selection undermines both taxonomy and key construction. The feature-selection skill identified in N2's hinge_reason is the foundation for all classification tool use \u2014 students who cannot identify useful observable features cannot construct functional keys.",
+      "response": "Give students sets of organisms and ask them to rank features from most to least useful for telling organisms apart. Build a class reference list of reliable observable features across kingdoms.",
+      "response_type": "repertoire_building"
+    },
+    {
+      "term": "Dichotomous key",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A classification tool that uses a series of paired statements based on observable features to identify organisms. At each decision point, the user chooses between exactly two mutually exclusive options, progressively narrowing identification until a single organism is reached.",
+      "failure_mode": "Students follow key steps procedurally \u2014 tracing arrows to reach an answer \u2014 without understanding the binary decision logic at each step. They cannot explain what observable feature is being checked or why the two options are mutually exclusive.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Procedural key-following without conceptual understanding of binary decision logic produces key constructions that are structurally broken. Students who cannot explain why each decision point works cannot reverse the process to construct their own keys \u2014 this is the Node 3 hinge.",
+      "response": "At each decision point, require students to state: 'What observable feature am I checking? What are the two possible outcomes? Why are they mutually exclusive?' before moving to the next step.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Binary decision",
+          "definition": "A choice between exactly two mutually exclusive options based on a single observable feature \u2014 the fundamental logic unit of a dichotomous key.",
+          "failure_mode": "Students construct decision points with overlapping options (e.g. 'big or small' where the boundary is undefined), subjective criteria, or more than two outcomes \u2014 breaking the binary structure that makes keys reliable.",
+          "failure_type": "fragile_skill",
+          "response": "Before committing a decision to a key, have students test it: can every organism in the set go to exactly one of the two options with no ambiguity? If not, the decision point needs rewriting.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Decision point",
+          "definition": "A specific location in a dichotomous key where the user must choose between two options based on an observable feature. Each decision point eliminates organisms that don't match the chosen option, narrowing identification.",
+          "failure_mode": "Students cannot name the observable feature being checked at a decision point \u2014 they follow the path mechanically without understanding what each branch tests or why it separates organisms.",
+          "failure_type": "fragile_skill",
+          "response": "At every decision point, require the student to state the feature name and both possible outcomes before choosing: 'At this point I am checking [feature]. The two options are [A] and [B].'",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Discriminating feature",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 2,
+      "width_tier": "typical",
+      "definition": "An observable feature that reliably separates one group of organisms from another \u2014 producing a clean binary split where all members of one group share the feature and all members of the other do not. Not all observable features are discriminating: a feature that varies within a group (e.g. colour in many bird species) fails to discriminate.",
+      "failure_mode": "Students select non-discriminating features when constructing keys \u2014 features that work for some organisms in the set but not others, or features that overlap between groups, producing keys that misclassify.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Non-discriminating feature selection is the most common cause of broken dichotomous keys. Node 2's hinge_reason identifies feature-selection skill as the bridge between taxonomy knowledge and key construction \u2014 without it, key construction in Node 4 fails.",
+      "response": "Have students test proposed features against the full organism set before committing them to a key. Ask: 'Does this feature split the set cleanly into two groups with no exceptions? If not, find a feature that does.'",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Reclassification",
+      "descriptor_code": "AC9S7U01",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "The reassignment of an organism from one taxonomic group to another based on new evidence \u2014 such as DNA analysis revealing that organisms previously grouped by appearance are not closely related, or that organisms in different groups share a recent common ancestor.",
+      "failure_mode": "Students describe reclassification as scientists 'changing their minds' or 'getting it wrong' \u2014 treating it as evidence that science is unreliable rather than evidence that science self-corrects in response to new data.",
+      "failure_type": "misconception",
+      "why_it_matters": "If reclassification equals unreliability, students develop a flawed understanding of the nature of science that undermines confidence in all scientific conclusions. The evaluative step \u2014 understanding what reclassification reveals about how science works \u2014 is explicitly assessed.",
+      "response": "Scaffold the reasoning chain: what was the old classification? What new evidence emerged? What changed? Then ask: does reclassification show science is broken, or that science is working? Require an evidence-based argument.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "DNA analysis"
+        }
+      ]
+    },
+    {
+      "term": "Food web",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A model showing the interconnected feeding relationships between organisms in an ecosystem. Unlike a food chain, a food web represents multiple overlapping pathways of energy flow, revealing that most organisms have more than one food source and more than one predator.",
+      "failure_mode": "Students draw food webs with arrows pointing from consumer to food source \u2014 reversing the direction of energy flow. Arrows in a food web must show the direction energy moves: from the organism being eaten to the organism eating it.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Reversed arrows make every subsequent energy flow and cascade prediction wrong. If arrows point toward food sources, students read the web as 'what eats what' rather than 'where energy flows' \u2014 and cannot trace energy loss through trophic levels.",
+      "response": "Explicitly label arrows as 'energy flows to' rather than 'is eaten by.' Have students trace a single energy pathway from producer to top consumer and check that every arrow points in the direction energy travels.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Food chain",
+          "definition": "A single linear pathway showing energy flow from one organism to the next \u2014 producer to primary consumer to secondary consumer. A simplified model that shows one route through a food web.",
+          "failure_mode": "Students think food chains and food webs are interchangeable \u2014 missing that a food chain shows only one pathway while a food web shows the interconnected reality. This leads to oversimplified cascade predictions.",
+          "failure_type": "misconception",
+          "response": "Compare a food chain and food web for the same ecosystem. Ask: what information is present in the web but missing from the chain? What prediction would you get wrong using only the chain?",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Producer",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "An organism that makes its own food from non-living sources \u2014 typically through photosynthesis using sunlight. Producers are the entry point for energy in almost all food webs and include plants, algae and some bacteria. All energy in a food web traces back to producers.",
+      "failure_mode": "Students think producers are only large green plants \u2014 missing algae, phytoplankton and photosynthetic bacteria, which are the dominant producers in aquatic ecosystems.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If producers are only land plants, students cannot explain energy flow in aquatic ecosystems \u2014 which contain the majority of Earth's biomass. Aquatic food webs become inexplicable.",
+      "response": "Present food webs from aquatic and terrestrial ecosystems side by side. Ask students to identify the producer in each \u2014 the aquatic examples force recognition of non-plant producers.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Consumer",
+          "definition": "An organism that obtains energy by eating other organisms. Primary consumers eat producers; secondary consumers eat primary consumers; tertiary consumers eat secondary consumers.",
+          "failure_mode": "Students classify consumers by what they 'prefer' to eat rather than by their trophic position \u2014 an omnivore that eats both plants and animals gets misplaced because it occupies multiple trophic levels simultaneously.",
+          "failure_type": "misconception",
+          "response": "Use a food web to show how the same organism can be a primary consumer (when eating plants) and a secondary consumer (when eating herbivores). Trophic position depends on the pathway, not the organism.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Decomposer",
+          "definition": "An organism \u2014 typically bacteria or fungi \u2014 that breaks down dead organic matter, returning nutrients to the soil or water. Decomposers connect to every trophic level because all organisms eventually die and are decomposed.",
+          "failure_mode": "Students omit decomposers from food webs or place them only at the end of a chain \u2014 missing that decomposers process dead matter from every trophic level, not just top consumers.",
+          "failure_type": "misconception",
+          "response": "Ask students to draw arrows from every organism in a food web to the decomposer. The resulting diagram makes the decomposer's role in nutrient cycling visible at every level.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Primary consumer",
+          "definition": "An organism that eats producers directly \u2014 a herbivore. Primary consumers are the first trophic level above producers.",
+          "failure_mode": "Students think 'primary' means 'most important' rather than 'first in the energy pathway from producers.'",
+          "failure_type": "misconception",
+          "response": "Trace energy from producer through the web and number each step. Primary = first consumer in the chain, secondary = second. The numbering makes the positional meaning clear.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Secondary consumer",
+          "definition": "An organism that eats primary consumers \u2014 a carnivore or omnivore that obtains energy at least two steps from the producer.",
+          "failure_mode": "Students assume secondary consumers eat only primary consumers, missing that many secondary consumers are omnivores that also eat producers.",
+          "failure_type": "narrow_repertoire",
+          "response": "Present an omnivore in a food web and trace all its feeding pathways. Ask: is this organism a primary consumer, secondary consumer, or both? The answer depends on which pathway you trace.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Ecosystem",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A community of living organisms (biotic factors) interacting with each other and with the non-living components of their environment (abiotic factors). An ecosystem includes all the feeding relationships, energy flows and matter cycles within a defined area.",
+      "failure_mode": "Students think an ecosystem is just a place or habitat \u2014 a location where organisms live \u2014 without recognising that the interactions between organisms and their environment are what define it.",
+      "failure_type": "misconception",
+      "why_it_matters": "If an ecosystem is just a location, students cannot reason about how changes to one component (abiotic or biotic) cascade through the system. The interaction concept is what makes prediction possible.",
+      "response": "Compare 'habitat' with 'ecosystem' explicitly. A pond is a habitat; the ecosystem includes all organisms in the pond plus their interactions with water temperature, sunlight, dissolved oxygen and each other.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Energy flow",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The one-way transfer of energy through an ecosystem, beginning with producers capturing sunlight and passing through consumers at each trophic level. Energy is lost as heat at every transfer \u2014 it flows through the system but does not cycle back. This distinguishes energy flow from matter cycling.",
+      "failure_mode": "Students conflate energy flow with matter cycling \u2014 believing energy cycles through the ecosystem and can be recovered, rather than understanding that energy flows one way and is progressively lost as heat at each trophic level.",
+      "failure_type": "misconception",
+      "why_it_matters": "The energy/matter conflation produces systematically wrong cascade predictions. Students who think energy cycles predict recovery rather than loss \u2014 they expect populations to bounce back rather than decline when energy input is reduced. This error propagates into every prediction task in Nodes 3 and 4.",
+      "response": "Use a side-by-side diagram: energy enters from the sun, passes through trophic levels with loss at each step, and exits as heat (one-way arrow). Matter cycles between organisms and environment (circular arrows). Ask students to label which diagram shows energy and which shows matter.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "10% rule",
+          "definition": "The approximation that only about 10% of the energy at one trophic level is transferred to the next \u2014 the remaining 90% is lost as heat through life processes. Used to explain why food webs have few trophic levels and why top predators are rare.",
+          "failure_mode": "Students apply the 10% rule mechanically without understanding why energy is lost \u2014 they memorise the number without connecting it to the biological reality that organisms use most of their energy for life processes.",
+          "failure_type": "fragile_skill",
+          "response": "Ask students to account for where the 90% goes: movement, growth, reproduction, body heat. Then calculate how much energy reaches a tertiary consumer from 10,000 kJ at the producer level \u2014 the dramatic reduction makes the rule concrete.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Matter cycling",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The continuous movement of matter (nutrients, water, carbon) through an ecosystem \u2014 from the environment into organisms and back again through decomposition, respiration and other processes. Unlike energy, matter is not lost from the system; it cycles repeatedly between living and non-living components.",
+      "failure_mode": "Students conflate matter cycling with energy flow \u2014 believing that matter, like energy, is used up and lost at each trophic level rather than cycling back through the ecosystem.",
+      "failure_type": "misconception",
+      "why_it_matters": "If matter is lost like energy, students cannot explain decomposition, nutrient return or why ecosystems are sustainable over time. The distinction between one-way energy flow and cyclical matter movement is foundational for AC9S9U03 (Carbon Cycle).",
+      "response": "Trace a single carbon atom through a food web: absorbed by a plant during photosynthesis, eaten by a herbivore, released as CO\u2082 through respiration, reabsorbed by another plant. The atom returns \u2014 energy does not.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Trophic level",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A position in a food web defined by the number of energy transfers from the producer. Producers occupy the first trophic level; primary consumers the second; secondary consumers the third. Each trophic level contains less available energy than the one below it.",
+      "failure_mode": "Students treat trophic levels as fixed categories for organisms rather than positions in an energy pathway \u2014 they assign an organism a single trophic level even when it feeds at multiple levels in a food web.",
+      "failure_type": "misconception",
+      "why_it_matters": "If trophic levels are fixed organism labels, students cannot reason about omnivores or complex food webs where the same organism occupies different trophic positions depending on the pathway. Energy flow calculations become impossible for real ecosystems.",
+      "response": "Present an omnivore in a food web and ask students to identify its trophic level for each feeding pathway. The organism occupies trophic level 2 when eating plants and trophic level 3 when eating herbivores \u2014 it is pathway-dependent.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Energy pyramid",
+          "definition": "A diagram showing the amount of energy available at each trophic level, with producers at the broad base and top consumers at the narrow peak. The pyramid shape reflects progressive energy loss at each transfer.",
+          "failure_mode": "Students interpret the pyramid as a hierarchy of importance or population size rather than a representation of available energy \u2014 they think organisms at the top are 'most important' rather than 'fewest because energy is scarce.'",
+          "failure_type": "misconception",
+          "response": "Ask: why is the pyramid wide at the bottom and narrow at the top? Connect each level's width to the amount of energy available, not to importance. Then ask why there are few top predators \u2014 the energy explanation makes it concrete.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Biomass"
+        }
+      ]
+    },
+    {
+      "term": "Abiotic factor",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A non-living component of an ecosystem that affects living organisms \u2014 such as temperature, water availability, sunlight, soil pH, wind and salinity. Changes to abiotic factors cascade through food webs by affecting producers first, then the consumers that depend on them.",
+      "failure_mode": "Students list abiotic factors correctly but cannot trace how a change to one factor cascades through multiple populations in a food web \u2014 they predict only the immediate first-order effect.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Single-step prediction misses the cascade that defines ecosystem response. A drought doesn't just reduce plant growth \u2014 it reduces herbivore populations, which reduces predator populations, which may allow other herbivore populations to increase. Missing the cascade means missing the ecosystem-level consequence.",
+      "response": "Scaffold multi-step reasoning: what changes first? What depends on that? What depends on that? Require students to trace at least three steps through a food web before concluding. Use sentence starters: 'This means that... which causes... which leads to...'",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Biotic factor",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "A living component of an ecosystem that affects other living organisms \u2014 such as predators, prey, competitors, parasites, and decomposers. Changes to biotic factors cascade through food webs as the removal or introduction of one species affects every species connected to it.",
+      "failure_mode": "Students predict only the immediate effect of species removal or introduction without tracing the cascade through the full food web \u2014 they identify what the removed species ate or was eaten by, but stop there.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Biotic cascade reasoning requires holding the whole food web in mind simultaneously \u2014 the same multi-step reasoning skill required for carbon flow in AC9S9U03. Students who stop at first-order effects treat ecosystems as simple chains rather than interconnected webs.",
+      "response": "Present a food web and remove one species. Ask students to predict effects on every connected species, then the species connected to those, tracing at least two steps beyond the immediate effect. Compare predictions with a real trophic cascade case study.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Invasive species",
+          "definition": "A species introduced to an ecosystem where it did not naturally occur, which disrupts existing food web relationships \u2014 often because it has no natural predators in the new ecosystem and outcompetes native species.",
+          "failure_mode": "Students describe invasive species as 'bad animals' without connecting the disruption to specific food web mechanisms \u2014 competition for resources, predation on native species, or displacement of existing trophic roles.",
+          "failure_type": "flawed_reasoning",
+          "response": "Construct a food web before and after an invasive species introduction. Ask: what new feeding relationships appear? What existing relationships are disrupted? What populations increase or decrease and why?",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Population",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "All the organisms of one species living in a particular area at a particular time. In ecosystem science, population size is what changes when abiotic or biotic factors shift \u2014 food web predictions are about population increases, decreases or stability.",
+      "failure_mode": "Students confuse population with community or ecosystem \u2014 using 'population' to refer to all organisms in an area rather than all organisms of one species.",
+      "failure_type": "misconception",
+      "why_it_matters": "If population means all organisms, cascade predictions become incoherent \u2014 students cannot track how one species' population change affects another specific species' population. The specificity of 'one species in one area' is what makes predictions testable.",
+      "response": "Give students a food web and ask them to identify three different populations within it. Emphasise: each species in the web is a separate population. The food web shows how populations interact, not how one population works.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Cascade effect",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A chain of population changes triggered by a single change to an abiotic or biotic factor in an ecosystem. The initial change affects one population, which affects populations connected to it in the food web, which in turn affects further populations \u2014 the effects cascade through the web.",
+      "failure_mode": "Students describe the initial change and one consequence but do not trace the chain further \u2014 they predict first-order effects only, missing the multi-step cascade that reveals the full ecosystem impact.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "First-order-only prediction is the most common reasoning gap in this standard. Real ecosystem responses involve multiple steps \u2014 a drought reduces plants, which reduces herbivores, which reduces predators, which may release pressure on other herbivore populations. Stopping at step one misses the systemic response.",
+      "response": "Use a chain-of-reasoning scaffold: Change \u2192 First effect \u2192 Second effect \u2192 Third effect. Require students to complete at least three links before writing their prediction. Provide the food web as a visual reference throughout.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Trophic cascade",
+          "definition": "A specific type of cascade effect triggered by a change at the top of the food web \u2014 typically the removal or introduction of a top predator \u2014 that cascades down through multiple trophic levels.",
+          "failure_mode": "Students describe the trophic cascade event (e.g. wolves removed, elk increased) without tracing the full chain through the food web to vegetation and other species affected by the vegetation change.",
+          "failure_type": "flawed_reasoning",
+          "response": "Use the Yellowstone wolf reintroduction as a case study. Require students to trace effects from wolves \u2192 elk \u2192 vegetation \u2192 riverbank erosion \u2192 beaver habitat \u2014 the multi-step chain makes the trophic cascade concept concrete.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Model",
+      "descriptor_code": "AC9S7U02",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "A simplified representation of a real system, designed to help explain, predict or communicate. In science, models deliberately leave out some details to make the system understandable \u2014 a food web model represents feeding relationships but omits factors like disease, weather variation and seasonal changes.",
+      "failure_mode": "Students think scientific models are physical replicas or exact copies of reality \u2014 they do not recognise that models are deliberate simplifications with assumptions, and that what a model leaves out affects the reliability of predictions made from it.",
+      "failure_type": "misconception",
+      "why_it_matters": "If models are copies, students cannot evaluate their limitations or explain why predictions from models are uncertain. Model evaluation \u2014 identifying what is missing and how that affects predictions \u2014 is directly assessed at Node 5.",
+      "response": "Present a simple and complex model of the same ecosystem. Ask: what can the simple model predict? What would it get wrong? What does the complex model add? This makes 'limitation' concrete rather than abstract.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Rotation",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The spinning of Earth on its own axis, completing one full turn approximately every 24 hours. Rotation causes the cycle of day and night as different parts of Earth's surface face toward or away from the sun.",
+      "failure_mode": "Students confuse rotation with revolution \u2014 using the terms interchangeably or believing that Earth's spinning around its axis is the same as its orbit around the sun.",
+      "failure_type": "misconception",
+      "why_it_matters": "If rotation and revolution are conflated, students cannot correctly assign causes to phenomena \u2014 they attribute seasons to rotation or day/night to revolution. The 3D spatial model required for eclipse and season explanations depends on distinguishing these two simultaneous cycles.",
+      "response": "Use a physical model: spin a globe on its axis (rotation = day/night) while walking it around a lamp (revolution = year). Ask students to identify which motion causes day/night and which causes the year \u2014 the simultaneous demonstration makes the distinction physical.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Revolution",
+          "definition": "The movement of Earth in its orbit around the sun, completing one full orbit approximately every 365.25 days. Revolution combined with axial tilt produces the cycle of seasons.",
+          "failure_mode": "Students think revolution means spinning \u2014 the everyday meaning of 'revolve' interferes with the astronomical meaning of orbiting around another body.",
+          "failure_type": "misconception",
+          "response": "Explicitly contrast: rotation = spin on axis (like a basketball on a finger), revolution = orbit around another body (like running around a track). Have students demonstrate both simultaneously with a model.",
+          "response_type": "consolidation"
+        }
+      ]
+    },
+    {
+      "term": "Axial tilt",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The angle at which Earth's axis of rotation is tilted relative to its orbital plane \u2014 approximately 23.5\u00b0. The axis maintains the same orientation in space throughout Earth's orbit, meaning different hemispheres receive more direct sunlight at different points in the orbit. Axial tilt is the cause of seasons.",
+      "failure_mode": "Students know Earth's axis is tilted but cannot connect the tilt to seasonal effects \u2014 they state the fact without explaining how a fixed tilt produces changing solar angles as Earth orbits.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "Axial tilt is the causal mechanism for seasons. Students who know the tilt exists but cannot explain how it produces seasonal change will default to the distance misconception (seasons caused by proximity to the sun) because it offers a simpler causal story.",
+      "response": "Use a globe with a fixed tilt angle orbiting a lamp. At each quarter-orbit position, ask: which hemisphere is tilted toward the sun? What season does that hemisphere experience? The fixed tilt producing changing effects at different orbital positions is the key insight.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Moon phases",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The changing appearance of the moon as seen from Earth over a lunar cycle, caused by the changing angle at which sunlight illuminates the moon's surface relative to the observer. The sequence \u2014 new moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, third quarter, waning crescent \u2014 repeats approximately every 29.5 days.",
+      "failure_mode": "Students explain moon phases as caused by Earth's shadow falling on the moon \u2014 confusing phases with lunar eclipses. In reality, phases are caused by the moon's position relative to Earth and the sun, which changes how much of the illuminated side we can see.",
+      "failure_type": "misconception",
+      "why_it_matters": "The shadow misconception persists directly into eclipse explanation. Students who think phases are caused by Earth's shadow will explain lunar eclipses as extreme moon phases and cannot distinguish the two phenomena \u2014 this is the Node 2 hinge.",
+      "response": "Use a ball and lamp model. Move the ball around a central observer, asking students to draw what they see at each position. The key moment: when the ball is beside the observer, half is lit \u2014 but no shadow from the observer falls on it. Phases are about viewing angle, not shadow.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Lunar cycle",
+          "definition": "The complete sequence of moon phases from one new moon to the next, taking approximately 29.5 days. The lunar cycle is caused by the moon orbiting Earth, which continuously changes the angle between sun, moon and observer.",
+          "failure_mode": "Students confuse the length of the lunar cycle with individual phase durations \u2014 or think each phase lasts one night rather than understanding the continuous transition across approximately 29.5 days.",
+          "failure_type": "misconception",
+          "response": "Show a month of real moon phase photographs with dates. Ask students to calculate how many days the full cycle takes and how many days each named phase lasts \u2014 the continuous change becomes visible.",
+          "response_type": "consolidation"
+        }
+      ]
+    },
+    {
+      "term": "Eclipse",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "An event in which one celestial body passes into the shadow of another, temporarily blocking light. Eclipses require precise alignment of the sun, moon and Earth. They do not occur every month because the moon's orbital plane is tilted approximately 5\u00b0 relative to Earth's orbital plane \u2014 alignment only occurs when the moon crosses this plane at the right time.",
+      "failure_mode": "Students cannot explain why eclipses do not occur every month \u2014 they understand the alignment required but not the role of the moon's orbital tilt in making that alignment rare.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "Eclipse rarity is directly assessed in the success criteria. Without the orbital tilt explanation, students treat eclipses as randomly occurring rather than as predictable events governed by orbital geometry.",
+      "response": "Use a tilted hoop to represent the moon's orbit around a globe. Show that the moon passes above or below the sun-Earth line most months \u2014 only when it crosses the line at new moon or full moon does an eclipse occur.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Solar eclipse",
+          "definition": "An eclipse in which the moon passes between the sun and Earth, casting a shadow on Earth's surface. The moon blocks sunlight from reaching a small area of Earth. Solar eclipses occur at new moon \u2014 but only when the moon's orbital tilt brings it into the sun-Earth line.",
+          "failure_mode": "Students think solar eclipses should happen every new moon \u2014 they understand the sun-moon-Earth alignment but not why the moon's orbital tilt prevents alignment most months.",
+          "failure_type": "fragmentation",
+          "response": "Model the tilted orbit: at most new moons, the moon passes above or below the sun-Earth line. Only when new moon coincides with the moon crossing the orbital plane does a solar eclipse occur.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Lunar eclipse",
+          "definition": "An eclipse in which Earth passes between the sun and moon, casting Earth's shadow on the moon. The moon moves into Earth's shadow and appears darkened or reddish. Lunar eclipses occur at full moon \u2014 but only when alignment is precise.",
+          "failure_mode": "Students confuse lunar eclipses with moon phases \u2014 specifically, they think a lunar eclipse is just an extreme phase caused by Earth's shadow, rather than a distinct event requiring precise orbital alignment.",
+          "failure_type": "misconception",
+          "response": "Compare directly: during a normal full moon, Earth's shadow misses the moon (no eclipse). During a lunar eclipse, the alignment is exact and Earth's shadow falls on the moon. The difference is alignment, not phase.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Umbra",
+          "definition": "The darkest, central part of a shadow where all direct light from the source is completely blocked. During a solar eclipse, only observers within the umbra see a total eclipse.",
+          "failure_mode": "Students swap umbra and penumbra \u2014 calling the lighter outer shadow the umbra and the darker inner shadow the penumbra, or thinking penumbra means 'no shadow at all.'",
+          "failure_type": "fragile_skill",
+          "response": "Use a torch and ball to cast a shadow on a wall. Identify the dark centre (umbra) and lighter edge (penumbra). Mnemonic: umbra = umbrella of total darkness at the centre.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Penumbra",
+          "definition": "The lighter, outer region of a shadow where only part of the light source is blocked. During a solar eclipse, observers in the penumbra see a partial eclipse \u2014 some sunlight is still visible around the moon's edge.",
+          "failure_mode": "Students think the penumbra is not a shadow at all \u2014 rather than understanding it as a region of partial shadow where some but not all light is blocked.",
+          "failure_type": "misconception",
+          "response": "In the torch-and-ball model, have students stand in the penumbra region and observe that some light reaches them \u2014 it's dimmer, not dark. Partial shadow, not no shadow.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Moon's orbital tilt",
+          "definition": "The approximately 5\u00b0 angle between the moon's orbital plane and Earth's orbital plane around the sun. This tilt is the reason eclipses do not occur every month \u2014 most months, the moon passes above or below the sun-Earth line rather than through it.",
+          "failure_mode": "Students learn the orbital tilt fact without connecting it to eclipse frequency \u2014 they state that the moon's orbit is tilted but cannot explain how this prevents monthly eclipses.",
+          "failure_type": "fragmentation",
+          "response": "Use a tilted ring around a globe to show the moon's orbit. At each full moon and new moon position, ask: does the moon cross the sun-Earth line this month? The visual makes the connection between tilt and eclipse rarity concrete.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Seasons",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The annual cycle of weather and daylight patterns caused by Earth's axial tilt. As Earth orbits the sun, the tilted axis means each hemisphere alternates between being tilted toward the sun (summer \u2014 higher solar angle, longer days) and away from it (winter \u2014 lower solar angle, shorter days). Seasons are not caused by distance from the sun.",
+      "failure_mode": "Students explain seasons as caused by Earth being closer to the sun in summer and further away in winter \u2014 the distance misconception. This is extremely persistent and directly assessed.",
+      "failure_type": "misconception",
+      "why_it_matters": "The distance misconception produces confidently wrong answers that students defend vigorously. It cannot explain why the Northern and Southern hemispheres experience opposite seasons simultaneously \u2014 which is a direct test of understanding. Students who hold this misconception produce systematically wrong season explanations.",
+      "response": "Ask: if seasons are caused by distance, why does Australia have summer when the UK has winter \u2014 they're the same distance from the sun. The opposite-hemisphere test directly contradicts the distance explanation and forces the tilt explanation.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Solar angle",
+          "definition": "The angle at which sunlight strikes Earth's surface at a given location. Higher solar angles (sun more directly overhead) concentrate energy on a smaller area, producing more heating. Solar angle varies by latitude and season due to axial tilt.",
+          "failure_mode": "Students can name solar angle as a factor in seasons without connecting it to heating \u2014 they state that the angle changes but cannot explain why a higher angle means more heating per unit area.",
+          "failure_type": "fragmentation",
+          "response": "Shine a torch straight down on a surface (high angle \u2014 small bright spot) then at a low angle (same light spread over a larger area, dimmer). Ask: which produces more heating per square metre? The torch demonstration makes the angle-heating connection physical.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Day length",
+          "definition": "The number of hours of daylight at a given location, which varies across the year due to axial tilt. The hemisphere tilted toward the sun has longer days; the hemisphere tilted away has shorter days. Day length is the second mechanism (alongside solar angle) by which tilt produces seasons.",
+          "failure_mode": "Students know day length changes across the year but cannot explain why \u2014 they describe the pattern without connecting it to axial tilt and Earth's orbital position.",
+          "failure_type": "fragmentation",
+          "response": "Use a globe with a lamp to show how the terminator (day/night boundary) falls at different orbital positions. At the June position, the Southern Hemisphere has more area in darkness \u2014 shorter days. At December, it reverses.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Hemisphere",
+          "definition": "One half of Earth, divided by the equator into Northern and Southern hemispheres. The hemispheres experience opposite seasons simultaneously because when one is tilted toward the sun, the other is tilted away.",
+          "failure_mode": "Students do not connect opposite hemispheric seasons to axial tilt \u2014 they may know that Australia and the UK have opposite seasons but cannot explain why using the tilt model.",
+          "failure_type": "fragmentation",
+          "response": "Use a globe tilted toward a lamp. Ask students to identify which hemisphere is tilted toward the sun and which is tilted away. Then ask: what season is each experiencing? Rotate the globe to the opposite orbital position and repeat.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Latitude"
+        },
+        {
+          "term": "Insolation"
+        },
+        {
+          "term": "Six-season calendar"
+        },
+        {
+          "term": "Light intensity"
+        }
+      ]
+    },
+    {
+      "term": "Tides",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "The regular rise and fall of sea levels caused primarily by the gravitational pull of the moon on Earth's oceans. The moon's gravity pulls water toward it, creating a bulge of higher water (high tide) on the side of Earth facing the moon and a second bulge on the opposite side. As Earth rotates, locations pass through these bulges, experiencing two high tides and two low tides daily.",
+      "failure_mode": "Students think tides are caused by the moon 'pushing' water or by wind, rather than by gravitational pull. Or they understand the near-side bulge but cannot explain the far-side bulge.",
+      "failure_type": "misconception",
+      "why_it_matters": "Tides integrate the lunar cycle, the Earth-moon-sun model and gravitational force into a single explanatory account. Students who cannot explain the gravitational mechanism cannot distinguish spring from neap tides or connect tidal patterns to moon position.",
+      "response": "Use a diagram showing the moon's gravity pulling water toward it on the near side while the far side bulges because it is pulled less strongly than Earth's centre. Connect to the rotation: as Earth spins, a coastal location rotates through both bulges in one day.",
+      "response_type": "integration",
+      "sub_terms": [
+        {
+          "term": "Spring tides",
+          "definition": "Tides with the greatest tidal range (highest high tides, lowest low tides), occurring when the sun, moon and Earth are aligned \u2014 at new moon and full moon. The sun's gravitational pull reinforces the moon's, producing larger tidal bulges.",
+          "failure_mode": "Students think spring tides occur only in the spring season \u2014 confusing the tidal term with the season name. Or they cannot connect spring tides to the specific moon positions (new and full moon) that cause them.",
+          "failure_type": "misconception",
+          "response": "Show a diagram of sun-moon-Earth alignment at new moon and full moon. Ask: when the sun and moon pull in the same direction (or directly opposite), what happens to the tidal bulge? The alignment explanation replaces the seasonal confusion.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Neap tides",
+          "definition": "Tides with the smallest tidal range (least difference between high and low tide), occurring when the sun and moon are at right angles relative to Earth \u2014 at first quarter and third quarter moon. The sun's gravitational pull partially counteracts the moon's.",
+          "failure_mode": "Students cannot distinguish neap from spring tides or connect each to the correct moon position \u2014 they know two types exist but confuse which alignment produces which effect.",
+          "failure_type": "fragile_skill",
+          "response": "Place the neap and spring tide diagrams side by side. Ask: in which arrangement do the sun and moon work together? In which do they work against each other? Label each with the moon phase that produces it.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Tide chart",
+          "definition": "A graphical representation of predicted tide heights over time for a specific coastal location, showing the cyclic pattern of high and low tides. Tide charts reveal spring and neap cycles when read across a lunar month.",
+          "failure_mode": "Students can read individual high and low points on a tide chart but cannot identify the spring-neap pattern across a month \u2014 they read the chart point-by-point rather than recognising the repeating cycle.",
+          "failure_type": "fragile_skill",
+          "response": "Give students a month-long tide chart and ask them to mark the highest highs and lowest lows. Then overlay a lunar calendar \u2014 the spring tides align with new and full moons, making the pattern visible.",
+          "response_type": "consolidation"
+        }
+      ]
+    },
+    {
+      "term": "Gravitational pull",
+      "descriptor_code": "AC9S7U03",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "The attractive force that a massive object exerts on other objects. In the Earth-sun-moon system, the moon's gravitational pull on Earth's oceans is the primary cause of tides, while the sun's gravitational pull modifies the tidal pattern. Gravitational pull depends on mass and distance.",
+      "failure_mode": "Students think gravity only pulls things 'down' toward the ground \u2014 they do not recognise that gravitational pull acts between any two masses, including between the moon and Earth's oceans.",
+      "failure_type": "misconception",
+      "why_it_matters": "If gravity is only 'down,' students cannot explain how the moon causes tides or how gravitational interactions govern the Earth-sun-moon system. The concept is extended in AC9S7U04 (Forces and Motion) where gravitational force is explored in terms of mass dependence.",
+      "response": "Ask: if gravity only pulls down, how does the moon affect our oceans from space? The question exposes the limitation of 'gravity = down' and opens the door to gravity as a pull between any two masses.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Force",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A push or pull acting on an object, measured in newtons (N). Forces are vector quantities \u2014 they have both magnitude (size) and direction. Multiple forces can act on an object simultaneously, and their combined effect determines whether the object's motion changes.",
+      "failure_mode": "Students think of force as a single push or pull rather than recognising that multiple forces act simultaneously on every object \u2014 they identify the 'obvious' force (a hand pushing) but omit others (friction, gravity, normal force).",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If students identify only one force, they cannot construct complete force diagrams or determine whether forces are balanced or unbalanced. Every subsequent node depends on identifying all forces acting \u2014 the hinge_reason for Node 1 identifies force diagram errors as propagating into every later node.",
+      "response": "For every scenario, require students to identify and name all forces before drawing. Use a checklist: gravity? normal force? friction? applied force? air resistance? The checklist builds the habit of checking for forces beyond the obvious one.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Vector",
+          "definition": "A quantity that has both magnitude (size) and direction. Forces are vectors \u2014 a 10 N force pushing right is different from a 10 N force pushing left. Vectors are represented as arrows where length shows magnitude and the arrowhead shows direction.",
+          "failure_mode": "Students treat force arrows as labels (pointing at the object) rather than vectors showing direction and relative size \u2014 arrow length and direction carry no meaning in their diagrams.",
+          "failure_type": "fragile_skill",
+          "response": "Give students two force diagrams for the same scenario \u2014 one with correct vector arrows, one with random arrow sizes. Ask which correctly shows the forces and why. The comparison makes vector meaning explicit.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Magnitude",
+          "definition": "The size or strength of a force, measured in newtons (N). In a force diagram, magnitude is represented by the length of the arrow \u2014 a longer arrow means a stronger force.",
+          "failure_mode": "Students draw all force arrows the same length regardless of the forces' actual relative sizes \u2014 the diagram looks neat but carries no quantitative information about which forces are stronger.",
+          "failure_type": "fragile_skill",
+          "response": "Give numerical force values and require arrow lengths to be proportional. A 20 N force arrow should be twice the length of a 10 N force arrow. Practice with a ruler builds the convention.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Direction",
+          "definition": "The way a force acts \u2014 up, down, left, right, or at an angle. Direction determines whether forces add together (same direction), cancel out (opposite directions), or produce a change in direction (at an angle).",
+          "failure_mode": "Students draw force arrows starting from the wrong point on the object or pointing away from the correct direction \u2014 particularly for normal force (drawn downward instead of upward) and friction (drawn in the direction of motion instead of opposing it).",
+          "failure_type": "fragile_skill",
+          "response": "For each force, ask: which direction does this force act? Start the arrow at the object's centre and point it in the direction the force pushes or pulls. Check: does friction oppose motion? Does normal force push away from the surface?",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Normal force",
+          "definition": "The support force exerted by a surface on an object resting on it, acting perpendicular to the surface. For an object on a horizontal surface, the normal force acts upward and is equal in magnitude to the gravitational force when forces are balanced.",
+          "failure_mode": "Students omit normal force from diagrams \u2014 they draw gravity pulling down but nothing pushing up, even when the object is stationary on a surface. Or they confuse normal force with applied force.",
+          "failure_type": "narrow_repertoire",
+          "response": "Ask: if gravity pulls this book down, why doesn't it fall through the table? The table pushes back \u2014 that's normal force. Require students to draw both gravity and normal force for every object resting on a surface.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Aerofoil"
+        },
+        {
+          "term": "Simple machines"
+        }
+      ]
+    },
+    {
+      "term": "Force diagram",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A diagram showing all forces acting on an object as vector arrows, with correct relative magnitude and direction. Force diagrams are reasoning tools \u2014 they are how students identify whether forces are balanced or unbalanced and predict the resulting motion. Also called free body diagrams.",
+      "failure_mode": "Students treat force diagrams as illustrations rather than reasoning tools \u2014 they draw arrows decoratively without using the diagram to determine whether forces are balanced and what the motion outcome should be.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Force diagrams are the reasoning tool used across all subsequent nodes. Students with imprecise or decorative diagrams cannot correctly identify balanced or unbalanced states, predict motion changes, or distinguish mass from weight. The Node 1 hinge_reason identifies force diagram errors as propagating into every subsequent node.",
+      "response": "After drawing every force diagram, require students to answer: are the forces balanced or unbalanced? What will happen to the object's motion? The diagram-to-prediction chain makes the diagram a reasoning tool rather than an illustration.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Balanced forces",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Forces acting on an object that are equal in magnitude and opposite in direction, resulting in no change to the object's motion. An object with balanced forces either stays stationary or continues moving at constant velocity \u2014 balanced does not mean 'no forces acting.'",
+      "failure_mode": "Students think balanced forces mean no forces are acting \u2014 rather than equal and opposite forces cancelling out. This misconception makes them unable to explain why an object moving at constant velocity has balanced forces.",
+      "failure_type": "misconception",
+      "why_it_matters": "The 'balanced = no forces' misconception propagates into every subsequent node. Students who hold it cannot explain constant velocity, cannot correctly predict motion states from force diagrams, and cannot understand Newton's First Law. It is the most common and persistent misconception in this standard.",
+      "response": "Present an object moving at constant velocity (e.g. car at steady speed). Ask: are forces acting? Draw the force diagram. Students discover that driving force and friction are equal and opposite \u2014 balanced forces with motion. The constant velocity case directly contradicts the 'balanced = no forces = no motion' chain.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Equilibrium",
+          "definition": "The state of an object when all forces acting on it are balanced \u2014 the net force is zero. An object in equilibrium may be stationary or moving at constant velocity.",
+          "failure_mode": "Students think equilibrium means nothing is happening \u2014 no forces, no motion. They miss that equilibrium is a dynamic state where forces are present but balanced, and motion can be occurring.",
+          "failure_type": "misconception",
+          "response": "Present an object at constant velocity and a stationary object side by side. Both are in equilibrium \u2014 both have balanced forces. The moving example breaks the 'equilibrium = stillness' association.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Newton's First Law",
+          "definition": "An object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an unbalanced force. At Year 7, this is understood qualitatively as the principle underlying balanced force reasoning.",
+          "failure_mode": "Students state Newton's First Law but cannot apply it \u2014 they recite the definition without connecting it to force diagram analysis or using it to predict motion states from balanced/unbalanced assessments.",
+          "failure_type": "fragmentation",
+          "response": "After every force diagram analysis, ask: does Newton's First Law predict the motion you identified? The repeated connection between the law and the diagram builds application rather than recitation.",
+          "response_type": "integration"
+        },
+        {
+          "term": "Constant velocity",
+          "definition": "Movement at unchanging speed in an unchanging direction. An object at constant velocity has balanced forces \u2014 the driving force equals the opposing force. Constant velocity is the key case that disproves the misconception that balanced forces mean no motion.",
+          "failure_mode": "Students think constant velocity requires a continuous applied force with no opposing force \u2014 they do not recognise that constant velocity means balanced forces, not zero forces.",
+          "failure_type": "misconception",
+          "response": "Ask: a car drives at a steady 60 km/h on a flat road. Is there friction? Is there a driving force? Are they equal? The car is moving \u2014 but forces are balanced. This is the case that breaks the misconception.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Unbalanced forces",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Forces acting on an object that do not cancel out \u2014 the net force is not zero. Unbalanced forces cause a change in motion: the object speeds up, slows down, or changes direction. Any change in motion requires an unbalanced force.",
+      "failure_mode": "Students apply unbalanced force reasoning only to obvious acceleration (car speeding up) and miss that slowing down and changing direction also require unbalanced forces \u2014 they do not recognise deceleration or turning as force-caused changes.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If unbalanced forces only cause speeding up, students cannot explain braking, falling, turning or projectile motion using force reasoning. The generalisation \u2014 any change in motion requires an unbalanced force \u2014 is what makes force reasoning universally applicable.",
+      "response": "Present four scenarios: starting, stopping, speeding up, turning. For each, ask: is the motion changing? Draw the force diagram. Identify the unbalanced force. The range of scenarios builds the generalisation that any motion change = unbalanced force.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Spearthrower"
+        }
+      ]
+    },
+    {
+      "term": "Acceleration",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "A change in an object's velocity \u2014 its speed, direction, or both. At Year 7, acceleration is understood qualitatively: a greater unbalanced force produces a greater acceleration, and a greater mass produces a smaller acceleration for the same force.",
+      "failure_mode": "Students think acceleration means only 'speeding up' \u2014 they do not recognise slowing down (deceleration) or changing direction as forms of acceleration.",
+      "failure_type": "misconception",
+      "why_it_matters": "If acceleration is only speeding up, students cannot explain braking as negative acceleration or turning as directional acceleration. The qualitative force-mass-acceleration relationship assessed at Node 5 requires understanding all three forms of acceleration.",
+      "response": "Present three cases: a car speeding up, a car braking, and a car turning a corner at constant speed. Ask: is the velocity changing in each case? All three are acceleration \u2014 the definition is 'change in velocity,' not 'going faster.'",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Deceleration",
+          "definition": "A decrease in speed \u2014 acceleration in the direction opposite to the object's motion. Deceleration is not a separate concept from acceleration; it is acceleration where the unbalanced force opposes the direction of travel.",
+          "failure_mode": "Students think deceleration is fundamentally different from acceleration \u2014 a separate category rather than acceleration in the opposite direction. This prevents them from applying force-acceleration reasoning to braking scenarios.",
+          "failure_type": "misconception",
+          "response": "Draw force diagrams for a car speeding up and a car braking. In both cases, an unbalanced force causes acceleration \u2014 the only difference is the direction of the net force relative to motion. Deceleration is acceleration, just in the opposite direction.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Gravitational force",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The attractive force between any two objects that have mass. On Earth, gravitational force pulls objects toward the centre of the Earth. The strength of gravitational force depends on mass \u2014 more massive objects experience a greater gravitational force. Extends gravitational pull from AC9S7U03 with the mass-dependence relationship.",
+      "failure_mode": "Students think gravitational force is a property of Earth alone rather than a force between any two masses \u2014 they cannot extend the concept to the moon, other planets, or objects in space.",
+      "failure_type": "misconception",
+      "why_it_matters": "If gravity is an Earth-only property, students cannot reason about gravitational force on other planets, between celestial bodies, or in the mass-force relationship. The concept is extended quantitatively (F=ma) in AC9S10U05 (Newton's Laws) \u2014 students who treat gravity as Earth-specific cannot access the universal treatment.",
+      "response": "Compare gravitational force on Earth, Moon and Mars for the same object. Mass stays constant; gravitational force changes. Ask: what determines how strong gravity is? The comparison across bodies forces the generalisation beyond Earth.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Gravitational field strength",
+          "definition": "The strength of the gravitational field at a location, measured in N/kg. On Earth's surface, g \u2248 9.8 N/kg (often rounded to 10 N/kg at Year 7). Weight = mass \u00d7 gravitational field strength. Different planets and moons have different values of g.",
+          "failure_mode": "Students treat g as a fixed universal constant rather than a value that varies by location \u2014 they cannot explain why weight changes on different planets while mass does not.",
+          "failure_type": "misconception",
+          "response": "Give students a table of g values for Earth, Moon and Mars. Calculate the weight of the same object at each location. Ask: what changed? What stayed the same? The calculation makes the variable nature of g concrete.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Mass",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The amount of matter in an object, measured in kilograms (kg). Mass is a property of the object itself \u2014 it does not change with location. Mass determines how much gravitational force an object experiences and how much it resists acceleration.",
+      "failure_mode": "Students conflate mass and weight \u2014 using the terms interchangeably, saying 'I weigh 60 kilograms' rather than 'my mass is 60 kg and my weight on Earth is about 600 N.'",
+      "failure_type": "misconception",
+      "why_it_matters": "Mass/weight confusion propagates directly into AC9S10U05 (Newton's Laws of Motion). F=ma is meaningless if students conflate mass and weight \u2014 they substitute weight for mass in calculations, producing systematically wrong answers. The distinction must be functional, not just definitional.",
+      "response": "Compare the same object on Earth and on the Moon: mass is identical (same amount of matter), weight changes (different gravitational force). Ask: which measurement stays the same regardless of where you are? The location-change test makes the distinction functional.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Weight",
+      "descriptor_code": "AC9S7U04",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The gravitational force acting on an object, measured in newtons (N). Weight = mass \u00d7 gravitational field strength (W = mg). Unlike mass, weight changes with location because gravitational field strength varies between planets, moons and other bodies.",
+      "failure_mode": "Students define weight correctly but revert to treating it as mass in practice \u2014 they calculate weight correctly when prompted but use 'weight' to mean 'mass' in everyday discussion and unstructured problems.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Definitional knowledge without functional application means the distinction collapses under assessment pressure. Students who can define weight but default to mass/weight conflation in practice will make systematic errors in force calculations.",
+      "response": "In every force problem involving gravity, require students to calculate weight explicitly using W = mg before proceeding. The habitual calculation builds functional use of the distinction, not just definitional recall.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Particle theory",
+      "descriptor_code": "AC9S7U05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A scientific model explaining the behaviour of matter in terms of tiny particles. The four key ideas are: all matter is made of particles; particles are in constant motion; particles are attracted to each other; the spacing, motion and attraction between particles differ across states and determine observable properties.",
+      "failure_mode": "Students cannot reliably reproduce all four components of the model \u2014 they remember particles and spacing but omit motion or attraction, producing an incomplete model that cannot explain properties like viscosity or changes of state.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "The four-component model is the explanatory framework for all subsequent nodes. Students who hold an incomplete model treat particle diagrams decoratively rather than as reasoning tools \u2014 they draw diagrams without using them to explain properties. This is the Node 1 hinge.",
+      "response": "Use a four-point checklist every time students explain a property: particles \u2014 spacing \u2014 motion \u2014 attraction. Require all four to be addressed in every particle theory explanation. The checklist builds completeness as a habit.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Particle diagram",
+      "descriptor_code": "AC9S7U05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A visual representation of how particles are arranged, spaced and moving in a substance. Particle diagrams are reasoning tools \u2014 they should be used to explain observable properties (density, compressibility, viscosity) and predict behaviour, not just to label states of matter.",
+      "failure_mode": "Students draw particle diagrams as decorative illustrations rather than using them as explanatory tools \u2014 the diagram is added after the explanation rather than being the basis for it.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If particle diagrams are decorative, students cannot use the particle model to explain properties or predict behaviour. The pattern-recognition built through using diagrams as reasoning tools in Node 2 is what enables the explanatory move in Node 3. Node 2's hinge_reason identifies this directly.",
+      "response": "Reverse the task order: give students a particle diagram and ask them to predict the substance's properties from the diagram before revealing what the substance is. This makes the diagram the starting point for reasoning rather than an afterthought.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "States of matter",
+      "descriptor_code": "AC9S7U05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The three common forms in which matter exists \u2014 solid, liquid and gas \u2014 each characterised by a distinct arrangement, motion and attraction between particles. The state of a substance determines its observable properties and can change when energy is added or removed.",
+      "failure_mode": "Students identify states by macroscopic appearance only ('hard = solid, wet = liquid, invisible = gas') without connecting to the particle-level differences that define each state.",
+      "failure_type": "misconception",
+      "why_it_matters": "If states are defined by appearance rather than particle arrangement, students cannot explain why some substances defy expectations (e.g. liquid mercury is a shiny metal, glass is an amorphous solid). The particle-level definition is what makes the model explanatory rather than descriptive.",
+      "response": "Present substances that challenge appearance-based classification: mercury (liquid metal), glass (solid but transparent), steam (invisible gas). For each, ask: what state is this? How do you know from the particle model, not from how it looks?",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Solid",
+          "definition": "A state of matter in which particles are closely packed in a fixed, regular arrangement with strong attractions between them. Particles vibrate in fixed positions but do not move freely. Solids have a definite shape and volume.",
+          "failure_mode": "Students think particles in a solid are completely still \u2014 not vibrating. This prevents them from explaining how solids expand when heated or how energy input leads to melting.",
+          "failure_type": "misconception",
+          "response": "Use an animation or vibrating model to show particles in a solid oscillating in fixed positions. Ask: if the particles were completely still, what would happen if we added heat energy? The vibration is what increases when energy is added.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Liquid",
+          "definition": "A state of matter in which particles are close together but not in fixed positions \u2014 they can slide past each other. Attractions between particles are weaker than in solids but still significant. Liquids have a definite volume but take the shape of their container.",
+          "failure_mode": "Students confuse the liquid and gas particle models \u2014 drawing liquid particles widely spaced (like a gas) or gas particles close together (like a liquid). The spacing distinction is what they miss.",
+          "failure_type": "fragile_skill",
+          "response": "Place solid, liquid and gas particle diagrams side by side and ask students to rank by spacing. Liquids are close to solids in spacing but differ in arrangement (not fixed). The comparison clarifies the liquid's intermediate position.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Gas",
+          "definition": "A state of matter in which particles are widely spaced, move rapidly in all directions, and have very weak attractions between them. Gases have no fixed shape or volume \u2014 they expand to fill their container.",
+          "failure_mode": "Students think gas particles move slowly or stay in one area of the container \u2014 they do not connect the rapid, random motion of gas particles to the macroscopic property of filling any container.",
+          "failure_type": "misconception",
+          "response": "Use a perfume-in-a-room demonstration or animation: spray perfume at one end and it reaches the other end. Ask: how did the scent particles get there? The rapid random motion of gas particles explains the observation.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Physical properties",
+      "descriptor_code": "AC9S7U05",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Characteristics of a substance that can be observed or measured without changing the substance's chemical composition \u2014 such as density, compressibility, viscosity, melting point and boiling point. Physical properties are explained at the particle level by differences in particle arrangement, motion and attraction.",
+      "failure_mode": "Students list physical properties without connecting them to the particle model \u2014 they treat properties as standalone facts rather than as consequences of particle behaviour that can be explained and predicted.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "Using particle theory explanatorily \u2014 not just descriptively \u2014 is directly prerequisite for AC9S7U06 (Pure Substances and Mixtures). Selecting and justifying separation techniques requires explaining property differences at the particle level. Node 3's hinge_reason identifies this explicitly.",
+      "response": "For every physical property, require a particle-level explanation: what about the particles causes this property? Use the format: '[Property] occurs because the particles are [arrangement/motion/attraction description].' The sentence frame forces the explanatory connection.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Density",
+          "definition": "The mass per unit volume of a substance (how much matter is packed into a given space). At the particle level, density depends on how closely particles are packed and the mass of individual particles. Solids are generally denser than liquids, which are denser than gases.",
+          "failure_mode": "Students think density is the same as weight ('heavy things are dense') without recognising that density is mass per unit volume \u2014 a small piece of lead is denser than a large piece of wood, even though the wood may be heavier.",
+          "failure_type": "misconception",
+          "response": "Compare a small steel ball and a large wooden block. Which is denser? Which is heavier? The two answers differ \u2014 density is about how tightly packed the mass is, not total mass.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Compressibility",
+          "definition": "How much a substance can be squeezed into a smaller volume. Gases are highly compressible because particles are widely spaced; liquids and solids are nearly incompressible because particles are already close together.",
+          "failure_mode": "Students state that gases are compressible without explaining why in terms of particle spacing \u2014 or they think liquids should be compressible because they 'flow.'",
+          "failure_type": "fragmentation",
+          "response": "Use a syringe demonstration: seal the end and push \u2014 air compresses, water does not. Ask: what is different about the particle spacing in each that explains this? The physical demonstration grounds the particle explanation.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Viscosity",
+          "definition": "A measure of how easily a liquid flows \u2014 how much it resists flowing. At the particle level, viscosity depends on the strength of attraction between particles and how easily they can slide past each other. High viscosity (honey) = strong attractions; low viscosity (water) = weaker attractions.",
+          "failure_mode": "Students describe viscosity as 'thickness' without connecting it to particle attractions \u2014 they think viscosity is about how much stuff is in the liquid rather than how strongly particles attract each other.",
+          "failure_type": "misconception",
+          "response": "Compare honey and water: both are liquids, but honey flows much more slowly. Ask: what is different about the particles? The answer is attraction strength, not particle number or size.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Diffusion",
+          "definition": "The net movement of particles from an area of higher concentration to an area of lower concentration, driven by the random motion of particles. Diffusion occurs in liquids and gases and is faster in gases because particles move more rapidly and are more widely spaced.",
+          "failure_mode": "Students describe diffusion as particles 'wanting' to spread out \u2014 attributing purpose or intention to particle movement rather than understanding it as a statistical consequence of random motion.",
+          "failure_type": "misconception",
+          "response": "Use a drop of food colouring in water. Ask: do the dye particles 'know' where to go? No \u2014 each particle moves randomly. But because there are more dye particles in one spot, random movement naturally spreads them out. Purpose-free explanation.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Melting point"
+        }
+      ]
+    },
+    {
+      "term": "Changes of state",
+      "descriptor_code": "AC9S7U05",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The transformation of a substance from one state of matter to another \u2014 caused by adding or removing energy. During a change of state, energy changes the arrangement and motion of particles rather than raising the temperature. The substance's chemical composition does not change.",
+      "failure_mode": "Students confuse temperature change with state change \u2014 they think energy input always raises temperature, and cannot explain why temperature plateaus during melting or boiling even though energy is still being added.",
+      "failure_type": "misconception",
+      "why_it_matters": "The temperature-plateau concept is directly assessed in success criteria. If energy input always means temperature rise, students cannot interpret heating curves, cannot explain why ice stays at 0\u00b0C while melting, and cannot distinguish the energy that changes arrangement from the energy that changes temperature.",
+      "response": "Analyse a heating curve together. At the plateau: ask 'is energy still being added?' (yes) 'is temperature rising?' (no) 'so where is the energy going?' (changing particle arrangement, not temperature). The contradiction between energy input and constant temperature is the key teaching moment.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Melting",
+          "definition": "The change of state from solid to liquid, occurring when energy input increases particle motion until particles can overcome their fixed arrangement and begin to slide past each other. Requires energy input.",
+          "failure_mode": "Students describe melting as particles 'breaking apart' rather than overcoming fixed positions \u2014 they think the particles separate widely rather than maintaining close spacing while gaining freedom to move.",
+          "failure_type": "misconception",
+          "response": "Compare particle diagrams for solid and liquid \u2014 particles are still close together in both states. Ask: what changed? Arrangement and motion changed; spacing barely changed. Melting is about freedom of movement, not separation.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Freezing",
+          "definition": "The change of state from liquid to solid, occurring when energy is removed and particle motion decreases until particles lock into fixed positions. Freezing is the reverse of melting and releases energy.",
+          "failure_mode": "Students do not recognise freezing as the reverse of melting or that it releases energy \u2014 they think freezing just 'happens when it's cold' without connecting it to energy removal and particle behaviour change.",
+          "failure_type": "fragmentation",
+          "response": "Present melting and freezing as mirror processes: melting adds energy and frees particles; freezing removes energy and locks particles. Ask: if melting requires energy input, what does freezing require? The symmetry makes the energy direction clear.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Evaporation",
+          "definition": "The change of state from liquid to gas, occurring at the surface of a liquid when particles with enough energy escape the attractions of neighbouring particles. Unlike boiling, evaporation occurs below boiling point and only at the surface. Requires energy input.",
+          "failure_mode": "Students confuse evaporation with boiling \u2014 they think evaporation only happens at boiling point rather than occurring at any temperature when surface particles have sufficient energy.",
+          "failure_type": "misconception",
+          "response": "Ask: why does a puddle dry up on a warm day when the temperature is well below 100\u00b0C? The answer \u2014 some surface particles have enough energy to escape \u2014 distinguishes evaporation from boiling.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Condensation",
+          "definition": "The change of state from gas to liquid, occurring when gas particles lose enough energy that attractions between them cause them to cluster together. Condensation is the reverse of evaporation and releases energy.",
+          "failure_mode": "Students think condensation is water appearing 'from nowhere' \u2014 they do not connect the water droplets on a cold glass to water vapour in the air losing energy and changing state.",
+          "failure_type": "misconception",
+          "response": "Breathe on a cold window or place a cold can on a table. Ask: where did the water come from? It was already in the air as invisible water vapour \u2014 the cold surface removed energy, causing the gas particles to condense into visible liquid.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Energy input and output",
+          "definition": "Energy must be added (input) for changes from more ordered to less ordered states (melting, evaporation, sublimation) and is released (output) for changes from less ordered to more ordered states (freezing, condensation). During state changes, energy changes particle arrangement rather than temperature.",
+          "failure_mode": "Students cannot consistently identify whether energy is added or removed for each state change \u2014 they guess rather than reasoning from the particle model about whether particles are gaining or losing freedom of movement.",
+          "failure_type": "fragile_skill",
+          "response": "Arrange all state changes on a diagram from most ordered (solid) to least ordered (gas). Arrows going right require energy input; arrows going left release energy. The visual pattern replaces guessing with reasoning.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Heating and cooling curve",
+          "definition": "A graph showing temperature change over time as a substance is heated or cooled. Sloping sections show temperature change within a state; flat sections (plateaus) show state changes where added energy changes particle arrangement rather than temperature.",
+          "failure_mode": "Students cannot interpret plateau regions on heating curves \u2014 they expect temperature to rise continuously and think flat sections mean the heater is broken or no energy is being added.",
+          "failure_type": "misconception",
+          "response": "Give students a heating curve and ask them to label each section: what state is the substance in? Is it changing state or changing temperature? What is the energy doing in the flat sections? The section-by-section analysis builds interpretation skill.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Sublimation"
+        }
+      ]
+    },
+    {
+      "term": "Pure substance",
+      "descriptor_code": "AC9S7U06",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A substance composed of only one type of particle \u2014 either a single element or a single compound. At the particle level, a pure substance has uniform composition throughout: every particle is identical. Pure substances have fixed, predictable physical properties (e.g. a specific melting point).",
+      "failure_mode": "Students classify substances as 'pure' based on appearance or common usage ('pure water from the tap,' 'pure orange juice') rather than applying the particle-level definition \u2014 one type of particle throughout.",
+      "failure_type": "misconception",
+      "why_it_matters": "If 'pure' means 'clean' or 'natural,' students cannot distinguish pure substances from homogeneous mixtures at the particle level \u2014 and technique selection in Nodes 3\u20135 depends on knowing what type of mixture is present. This is the Node 1 hinge.",
+      "response": "Present tap water, distilled water and filtered river water. Ask: which is a pure substance? Students must apply the particle-level test (one type of particle only), not appearance. Distilled water is the only pure substance \u2014 even 'clean' tap water contains dissolved minerals.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Mixture",
+      "descriptor_code": "AC9S7U06",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A substance composed of two or more different types of particles that are physically combined but not chemically bonded. The components of a mixture retain their individual properties and can be separated by physical methods. Mixtures may be homogeneous (uniform throughout) or heterogeneous (visibly different regions).",
+      "failure_mode": "Students think mixtures must be visibly mixed \u2014 they classify clear, uniform solutions (saltwater, cordial) as pure substances because the components are not visible. The homogeneous/heterogeneous distinction is the gap.",
+      "failure_type": "misconception",
+      "why_it_matters": "If solutions look pure, students misidentify them and select inappropriate separation techniques. The particle-level distinction \u2014 different types of particles mixed together vs one type of particle \u2014 is the only reliable test and is directly assessed in success criteria.",
+      "response": "Show particle diagrams for a pure substance and a solution side by side. Both look uniform to the eye, but the diagrams show different particle types in the solution. Ask: how can you tell these apart without a particle diagram? (Answer: test physical properties \u2014 a solution has different boiling point, density, etc.)",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Homogeneous mixture",
+          "definition": "A mixture that is uniform throughout \u2014 the different particle types are evenly distributed, so every sample has the same composition. Solutions are the most common type. Homogeneous mixtures cannot be distinguished from pure substances by appearance alone.",
+          "failure_mode": "Students confuse homogeneous mixtures with pure substances because both look uniform \u2014 the 'homo = same' prefix reinforces the misconception that it's the same as pure.",
+          "failure_type": "misconception",
+          "response": "Draw particle diagrams for a pure substance (all same particles) and a homogeneous mixture (different particles evenly mixed). Ask: both look uniform \u2014 what's different at the particle level? The diagram makes the hidden difference visible.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Heterogeneous mixture",
+          "definition": "A mixture where the different components are visibly distinct \u2014 different regions have different compositions. Examples include sand and water, oil and vinegar, or a salad. Heterogeneous mixtures can often be separated by simple physical methods.",
+          "failure_mode": "Students think all mixtures are heterogeneous \u2014 that you should always be able to see the different parts. They miss that homogeneous mixtures exist and look uniform.",
+          "failure_type": "narrow_repertoire",
+          "response": "Present a range: sand in water (heterogeneous \u2014 visible), saltwater (homogeneous \u2014 invisible), oil and vinegar (heterogeneous), cordial (homogeneous). Ask students to sort. The clear solutions are the key cases.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Solution",
+          "definition": "A homogeneous mixture in which one substance (the solute) is dissolved in another (the solvent). The solute particles are evenly distributed among the solvent particles at the molecular level, making the mixture uniform throughout.",
+          "failure_mode": "Students think dissolving means the solute 'disappears' \u2014 they believe the dissolved substance is gone rather than understanding that its particles are spread between the solvent particles and are still present.",
+          "failure_type": "misconception",
+          "response": "Dissolve salt in water, then taste (or evaporate to recover). Ask: if the salt disappeared, where did the taste come from? Where did the white crystals come from when we evaporated? The solute is still there \u2014 just spread out.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Solvent",
+          "definition": "The substance in a solution that does the dissolving \u2014 typically the component present in the greater amount. Water is the most common solvent.",
+          "failure_mode": "Students confuse solvent and solute \u2014 they cannot reliably identify which component dissolves and which is dissolved, especially when the solvent is not water.",
+          "failure_type": "fragile_skill",
+          "response": "Use the mnemonic: the solvent is the substance that 'solves' the problem of mixing \u2014 it's the host. In saltwater, water is the solvent (host) and salt is the solute (guest). Practice with multiple examples until the pattern is automatic.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Solute",
+          "definition": "The substance in a solution that is dissolved \u2014 typically the component present in the smaller amount. The solute particles are distributed among the solvent particles.",
+          "failure_mode": "Students think the solute ceases to exist when dissolved \u2014 'it's gone now.' This connects to the broader misconception that dissolving means disappearing.",
+          "failure_type": "misconception",
+          "response": "After dissolving a substance, recover it by evaporation. The recovered solute proves it was present all along \u2014 dissolved does not mean destroyed.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Separation technique",
+      "descriptor_code": "AC9S7U06",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A physical method used to separate the components of a mixture by exploiting differences in their physical properties \u2014 such as particle size, boiling point, solubility, or density. The key conceptual principle is that every technique works because the components have different values for a specific physical property.",
+      "failure_mode": "Students apply separation techniques by rote (memorising which technique goes with which mixture) rather than reasoning from property differences \u2014 they cannot justify their choice or adapt when given an unfamiliar mixture.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Rote technique selection fails for unfamiliar mixtures \u2014 the Node 5 capstone task. The property-technique mapping identified in Node 2's hinge_reason is the conceptual engine for all technique selection. Students who memorise pairings cannot transfer to new scenarios.",
+      "response": "For every technique, require students to name the property difference being exploited before naming the technique. Format: 'The components differ in [property], so I would use [technique] because it separates based on [property].' The property-first reasoning replaces rote recall.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Filtration",
+          "definition": "A separation technique that uses a barrier (filter paper, mesh) to separate insoluble solid particles from a liquid based on particle size. The liquid passes through the filter; the solid particles are too large to pass and are retained.",
+          "failure_mode": "Students confuse filtration with evaporation \u2014 both involve separating a solid from a liquid, but filtration separates insoluble solids by particle size while evaporation recovers dissolved solids by removing the liquid.",
+          "failure_type": "misconception",
+          "response": "Present two mixtures: sand in water and salt in water. Ask: which can be filtered? Try filtering both \u2014 sand is caught, salt passes through. The comparison makes the insoluble/soluble distinction concrete.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Evaporation",
+          "definition": "A separation technique that removes a liquid from a solution by heating until the liquid evaporates, leaving the dissolved solid behind. Exploits the difference in boiling point between the solvent and solute. At Year 7, this extends the particle-level process from AC9S7U05 to its use as a separation method.",
+          "failure_mode": "Students confuse evaporation with distillation \u2014 both use heat to separate, but evaporation discards the vapour while distillation collects it. Students who miss this distinction cannot explain when each is appropriate.",
+          "failure_type": "misconception",
+          "response": "Ask: in evaporation, what happens to the liquid? (It escapes as vapour \u2014 we don't collect it.) In distillation, what happens to the vapour? (We cool it and collect it.) The 'what happens to the vapour' question is the key distinction.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Distillation",
+          "definition": "A separation technique that separates liquids with different boiling points by heating the mixture until one component evaporates, then cooling the vapour to collect it as a purified liquid. Unlike evaporation, distillation collects the vapour \u2014 it is used when the liquid component is the target product.",
+          "failure_mode": "Students confuse distillation with evaporation because both involve heating \u2014 they do not recognise that the critical difference is whether the vapour is collected (distillation) or discarded (evaporation).",
+          "failure_type": "misconception",
+          "response": "Compare the equipment: evaporation uses an open dish (vapour escapes); distillation uses a condenser (vapour is cooled and collected). Ask: when would you want to keep the liquid rather than the solid? That's when you use distillation.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Chromatography",
+          "definition": "A separation technique that separates dissolved components of a mixture based on differences in how they travel through a medium (such as filter paper). Components that are more attracted to the mobile phase travel further; components more attracted to the stationary phase travel less. Used to identify unknown components in a mixture.",
+          "failure_mode": "Students describe chromatography as 'the colours separate on paper' without understanding the mechanism \u2014 differential attraction to the stationary and mobile phases that causes components to travel at different rates.",
+          "failure_type": "fragile_skill",
+          "response": "After running a chromatography experiment, ask: why did some colours travel further than others? The answer \u2014 different attractions to the paper vs the solvent \u2014 is the mechanism. Colours don't 'choose' to separate; they travel at different rates because of property differences.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Volatility",
+          "definition": "A measure of how easily a substance evaporates \u2014 how readily its particles escape from the liquid phase into the gas phase. More volatile substances have weaker attractions between particles and lower boiling points. Volatility is the property difference exploited by distillation.",
+          "failure_mode": "Students do not connect volatility to boiling point or particle attractions \u2014 they use it as a standalone label without understanding the particle-level mechanism that makes one substance more volatile than another.",
+          "failure_type": "fragmentation",
+          "response": "Compare water and ethanol: ethanol evaporates faster (more volatile) because its particle attractions are weaker, giving it a lower boiling point. Ask: how does this property difference let distillation separate them?",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Crystallisation"
+        },
+        {
+          "term": "Hand-picking"
+        },
+        {
+          "term": "Sieving"
+        },
+        {
+          "term": "Winnowing"
+        },
+        {
+          "term": "Yandying"
+        },
+        {
+          "term": "Cold-pressing"
+        },
+        {
+          "term": "Steam distilling"
+        },
+        {
+          "term": "Rf values"
+        }
+      ]
+    }
+  ],
+  "student_glossary": [
+    {
+      "term": "Classification",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "minimum",
+      "definition": "Organising living things into groups based on their features. Scientists classify organisms so they can identify them, study them and communicate about them clearly.",
+      "example": "A library organises books by subject, author and title \u2014 classification organises living things by their features in a similar systematic way.",
+      "sub_terms": [
+        {
+          "term": "Classification system",
+          "definition": "A set of rules for how to organise living things into groups. Different cultures and scientists have created different classification systems based on what they think is most important.",
+          "example": "Linnaean taxonomy groups organisms by physical features and evolutionary relationships, while some Aboriginal and Torres Strait Islander systems classify organisms by their role on Country."
+        }
+      ]
+    },
+    {
+      "term": "Biodiversity",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "minimum",
+      "definition": "The variety of all living things on Earth \u2014 including animals, plants, fungi, bacteria and every other type of organism, not just the ones we see most often.",
+      "example": "A coral reef has high biodiversity because it contains thousands of different species of fish, corals, algae, bacteria and other organisms living together."
+    },
+    {
+      "term": "Taxonomy",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "minimum",
+      "definition": "The science of naming and classifying living things into groups that fit inside each other \u2014 from very broad groups (like kingdoms) down to very specific groups (like species). The more levels two organisms share, the more closely related they are.",
+      "example": "A dog and a wolf are in the same genus (Canis) \u2014 they share more features with each other than with a cat, which is in a different family.",
+      "sub_terms": [
+        {
+          "term": "Kingdom",
+          "definition": "The biggest group in the classification system. The major kingdoms are animals, plants, fungi, protists and bacteria \u2014 each defined by big differences in how organisms are built and how they get energy.",
+          "example": "A mushroom looks like it grows from the ground like a plant, but it's in the fungi kingdom because it doesn't make its own food \u2014 it breaks down dead material."
+        },
+        {
+          "term": "Linnaean hierarchy",
+          "definition": "The classification system that organises living things from the broadest group (kingdom) to the most specific (species): kingdom, phylum, class, order, family, genus, species.",
+          "example": "Humans are classified as: kingdom Animalia, phylum Chordata, class Mammalia, order Primates, family Hominidae, genus Homo, species sapiens."
+        },
+        {
+          "term": "Boundary case",
+          "definition": "An organism that doesn't fit neatly into the usual classification groups \u2014 it has features of more than one group, or scientists disagree about where it belongs.",
+          "example": "Euglena can make its own food like a plant but also moves and eats like an animal \u2014 it doesn't fit cleanly into either kingdom."
+        },
+        {
+          "term": "Species",
+          "definition": "The most specific level in the classification system \u2014 a group of organisms that are very similar and can reproduce with each other.",
+          "example": "All domestic dogs belong to the same species (Canis familiaris), even though a chihuahua and a Great Dane look very different."
+        }
+      ]
+    },
+    {
+      "term": "Observable features",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "minimum",
+      "definition": "Characteristics of an organism you can directly see or measure \u2014 like body covering, number of legs, leaf shape, or how it moves. These are what scientists use to sort organisms into groups.",
+      "example": "When classifying insects, you might observe the number of wings, whether the body has segments, and the type of mouthparts \u2014 all things you can see directly."
+    },
+    {
+      "term": "Dichotomous key",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "minimum",
+      "definition": "A tool that helps you identify an organism by answering a series of yes-or-no questions about its features. Each question has exactly two choices, and each choice leads you closer to identifying what the organism is.",
+      "example": "A key might ask: 'Does the organism have legs? Yes \u2192 go to question 3. No \u2192 go to question 2.' Each answer narrows down the possibilities until you reach the name.",
+      "sub_terms": [
+        {
+          "term": "Binary decision",
+          "definition": "A choice between exactly two options based on one feature \u2014 like 'has wings' or 'does not have wings.' Every question in a dichotomous key is a binary decision.",
+          "example": "'Does the leaf have smooth edges or jagged edges?' is a binary decision \u2014 there are only two options and every leaf must fit one of them."
+        },
+        {
+          "term": "Decision point",
+          "definition": "A place in a dichotomous key where you have to choose between two options. Each decision point checks one specific feature and sends you down a different path depending on your answer.",
+          "example": "At a decision point that asks 'Does the animal have fur?', you look at the organism, decide yes or no, and follow that path to the next question."
+        }
+      ]
+    },
+    {
+      "term": "Discriminating feature",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "typical",
+      "definition": "A feature that cleanly separates one group of organisms from another \u2014 every organism in one group has the feature and every organism in the other group does not. Good dichotomous keys use discriminating features at every decision point.",
+      "example": "'Has six legs' is a discriminating feature for insects \u2014 all insects have six legs and no non-insects in your set do. But 'is brown' probably isn't discriminating because brown organisms appear in many different groups."
+    },
+    {
+      "term": "Reclassification",
+      "descriptor_code": "AC9S7U01",
+      "width_tier": "minimum",
+      "definition": "When scientists move an organism from one classification group to another because new evidence \u2014 like DNA testing \u2014 shows it was in the wrong group. This is a normal part of how science improves over time.",
+      "example": "Scientists used to classify giant pandas with raccoons because they looked similar, but DNA evidence showed pandas are actually bears \u2014 so they were reclassified into the bear family.",
+      "sub_terms": [
+        {
+          "term": "DNA analysis",
+          "definition": "A scientific technique that examines an organism's genetic material to determine how closely related it is to other organisms \u2014 often revealing relationships that can't be seen from appearance alone.",
+          "example": "DNA analysis showed that whales are more closely related to hippos than to fish, even though whales live in the ocean and look nothing like hippos."
+        }
+      ]
+    },
+    {
+      "term": "Food web",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A diagram showing how energy flows between organisms in an ecosystem through feeding relationships. Arrows point from the organism being eaten to the organism eating it \u2014 showing the direction energy travels.",
+      "example": "In a grassland food web, arrows go from grass \u2192 rabbit \u2192 fox, but also from grass \u2192 grasshopper \u2192 frog \u2192 snake, showing that energy takes many different paths.",
+      "sub_terms": [
+        {
+          "term": "Food chain",
+          "definition": "A single pathway showing energy flow from one organism to the next \u2014 like one route through a food web. Food chains are simpler but show less information than a food web.",
+          "example": "Grass \u2192 rabbit \u2192 fox is a food chain. But in the real ecosystem, the rabbit also eats clover and is also eaten by eagles \u2014 the food web shows all of these connections."
+        }
+      ]
+    },
+    {
+      "term": "Producer",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A living thing that makes its own food, usually by using sunlight. Producers are where all the energy in a food web starts \u2014 without them, nothing else can survive.",
+      "example": "On land, grass and trees are producers. In the ocean, tiny floating algae called phytoplankton are the main producers \u2014 they make food from sunlight just like plants do.",
+      "sub_terms": [
+        {
+          "term": "Consumer",
+          "definition": "A living thing that gets energy by eating other organisms. Consumers are named by their position in the food web: primary consumers eat producers, secondary consumers eat primary consumers.",
+          "example": "A rabbit eating grass is a primary consumer. A fox eating the rabbit is a secondary consumer \u2014 it's two energy transfers from the producer."
+        },
+        {
+          "term": "Decomposer",
+          "definition": "An organism \u2014 usually bacteria or fungi \u2014 that breaks down dead plants and animals, returning nutrients to the soil or water so producers can use them again.",
+          "example": "When a tree falls in a forest, fungi and bacteria break it down over time. The nutrients go back into the soil where new plants can absorb them."
+        },
+        {
+          "term": "Primary consumer",
+          "definition": "An organism that eats producers directly \u2014 a herbivore. 'Primary' means first in the energy pathway, not most important.",
+          "example": "A caterpillar eating a leaf is a primary consumer \u2014 it's the first consumer in the chain from the plant."
+        },
+        {
+          "term": "Secondary consumer",
+          "definition": "An organism that eats primary consumers. It gets energy that has been transferred twice \u2014 from producer to primary consumer to secondary consumer.",
+          "example": "A bird eating the caterpillar is a secondary consumer \u2014 the energy started in the leaf, went to the caterpillar, then to the bird."
+        }
+      ]
+    },
+    {
+      "term": "Ecosystem",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "All the living things in an area plus the non-living things they interact with \u2014 like temperature, water, sunlight and soil. An ecosystem isn't just a place; it's all the interactions happening in that place.",
+      "example": "A pond ecosystem includes the fish, frogs, plants and algae (living things) plus the water temperature, sunlight, dissolved oxygen and mud (non-living things) \u2014 and all the ways they affect each other."
+    },
+    {
+      "term": "Energy flow",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "The one-way movement of energy through an ecosystem. Energy enters from the sun, passes through producers and consumers, and is lost as heat at every step \u2014 it doesn't cycle back like matter does.",
+      "example": "If grass captures 10,000 kJ of energy from the sun, a rabbit might get about 1,000 kJ from eating the grass, and a fox might get about 100 kJ from eating the rabbit. Most energy is lost as heat at each step.",
+      "sub_terms": [
+        {
+          "term": "10% rule",
+          "definition": "The idea that only about 10% of the energy at one level of a food web gets passed to the next level. The other 90% is used by the organism for moving, growing and staying alive.",
+          "example": "If plants in a field contain 10,000 kJ of energy, herbivores get about 1,000 kJ, and the carnivores that eat them get about 100 kJ \u2014 that's why there are lots of plants, fewer herbivores and very few top predators."
+        }
+      ]
+    },
+    {
+      "term": "Matter cycling",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "The way materials like nutrients, water and carbon move in circles through an ecosystem \u2014 from the environment into living things and back again. Unlike energy, matter doesn't get used up; it keeps cycling.",
+      "example": "A carbon atom might be in the air as CO\u2082, then absorbed by a plant, eaten by a herbivore, breathed out as CO\u2082 again, and absorbed by another plant \u2014 the same atom going round and round."
+    },
+    {
+      "term": "Trophic level",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A feeding level in a food web. Producers are the first trophic level, primary consumers the second, secondary consumers the third. Each level up has less energy available.",
+      "example": "In a simple chain of seaweed \u2192 sea urchin \u2192 sea otter, seaweed is trophic level 1, sea urchin is level 2, and sea otter is level 3.",
+      "sub_terms": [
+        {
+          "term": "Energy pyramid",
+          "definition": "A triangle-shaped diagram showing how much energy is available at each trophic level \u2014 wide at the bottom (lots of energy in producers) and narrow at the top (very little energy left for top predators).",
+          "example": "An energy pyramid for a savanna might show 10,000 kJ in grasses at the bottom, 1,000 kJ in zebras in the middle, and 100 kJ in lions at the top."
+        },
+        {
+          "term": "Biomass",
+          "definition": "The total mass of living material at a trophic level. Like energy, biomass generally decreases at higher trophic levels.",
+          "example": "In a forest, the total mass of all the trees (producers) is much greater than the total mass of all the caterpillars eating them, which is greater than the total mass of all the birds eating the caterpillars."
+        }
+      ]
+    },
+    {
+      "term": "Abiotic factor",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A non-living part of an ecosystem that affects living things \u2014 like temperature, rainfall, sunlight, wind or soil type. When abiotic factors change, the effects ripple through the whole food web.",
+      "example": "A drought (less rainfall) means less water for plants, so plant growth decreases. Fewer plants means less food for herbivores, which means less food for predators \u2014 one abiotic change affects everything."
+    },
+    {
+      "term": "Biotic factor",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A living part of an ecosystem that affects other living things \u2014 like predators, prey, competitors or disease. When a biotic factor changes (like a species being removed or introduced), the effects cascade through the food web.",
+      "example": "If foxes are removed from an ecosystem, rabbit populations might increase because there's less predation. But then plant populations might decrease because there are too many rabbits eating them.",
+      "sub_terms": [
+        {
+          "term": "Invasive species",
+          "definition": "A species brought into an ecosystem where it doesn't naturally belong, which causes problems because it has no natural predators and outcompetes native species for food and space.",
+          "example": "Cane toads were introduced to Australia to eat beetles, but they had no natural predators here. Their population exploded, and they poison native animals that try to eat them \u2014 disrupting the entire food web."
+        }
+      ]
+    },
+    {
+      "term": "Population",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "All the organisms of one species living in one area at one time. When scientists predict how ecosystems respond to change, they track what happens to the population of each species.",
+      "example": "All the kangaroos living in a particular national park are one population. All the eucalyptus trees in the same park are a different population. A food web shows how these populations are connected."
+    },
+    {
+      "term": "Cascade effect",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A chain reaction in an ecosystem where one change causes another, which causes another, rippling through the food web. The effects go beyond the first species affected \u2014 they cascade through connected populations.",
+      "example": "A disease kills most of the rabbits \u2192 foxes have less food so their population drops \u2192 with fewer foxes, mice populations increase \u2192 with more mice, owl populations increase. One change cascades through the whole web.",
+      "sub_terms": [
+        {
+          "term": "Trophic cascade",
+          "definition": "A cascade that starts with a change to a top predator and ripples all the way down through the food web, affecting every level below.",
+          "example": "When wolves were reintroduced to Yellowstone, they reduced elk numbers. With fewer elk eating young trees, forests regrew along rivers. This brought back beavers, songbirds and even changed how rivers flowed."
+        }
+      ]
+    },
+    {
+      "term": "Model",
+      "descriptor_code": "AC9S7U02",
+      "width_tier": "minimum",
+      "definition": "A simplified version of something real, designed to help us understand it, make predictions or explain it to others. A model deliberately leaves some things out to make the important parts clearer.",
+      "example": "A food web diagram is a model \u2014 it shows feeding relationships but leaves out factors like disease, weather and seasonal changes. This makes it useful for predicting feeding effects, but it can't predict everything."
+    },
+    {
+      "term": "Rotation",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "Earth spinning on its own axis \u2014 like a top spinning in place. One full spin takes about 24 hours and gives us the cycle of day and night.",
+      "example": "When your side of Earth faces the sun, it's daytime. As Earth rotates, your side turns away from the sun and it becomes night \u2014 one full rotation is one day.",
+      "sub_terms": [
+        {
+          "term": "Revolution",
+          "definition": "Earth's movement in a big orbit around the sun \u2014 one full trip takes about 365 days (one year). This is different from rotation, which is Earth spinning on its own axis.",
+          "example": "Think of rotation as a basketball spinning on your finger (the ball turns on the spot) and revolution as you walking in a circle around the room while holding the spinning ball."
+        }
+      ]
+    },
+    {
+      "term": "Axial tilt",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "Earth's axis (the imaginary line it spins around) is tilted at about 23.5\u00b0 \u2014 it doesn't spin straight up and down. This tilt stays pointing the same direction all year, which is what causes the seasons.",
+      "example": "Imagine holding a globe tilted and walking it around a lamp. At some points in the orbit, the top half leans toward the lamp (summer for the Northern Hemisphere). At the opposite point, it leans away (winter)."
+    },
+    {
+      "term": "Moon phases",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "The changing shape of the moon as we see it from Earth across a month. The moon doesn't actually change shape \u2014 the amount of its sunlit side that we can see changes as it orbits Earth. Phases are NOT caused by Earth's shadow.",
+      "example": "When the moon is between Earth and the sun, we see the dark side (new moon). When Earth is between the sun and moon, we see the fully lit side (full moon). In between, we see crescents and quarters.",
+      "sub_terms": [
+        {
+          "term": "Lunar cycle",
+          "definition": "The complete set of moon phases from one new moon to the next, taking about 29.5 days. The phases change gradually \u2014 they don't suddenly switch from one to the next.",
+          "example": "If you photograph the moon every night for a month, you'd see it gradually change from new moon to full moon and back again over about 29.5 days."
+        }
+      ]
+    },
+    {
+      "term": "Eclipse",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "An event where one object in space moves into the shadow of another, temporarily blocking light. Eclipses need the sun, moon and Earth to line up precisely \u2014 this doesn't happen every month because the moon's orbit is slightly tilted.",
+      "example": "Imagine three people standing in a line with a torch. The person in the middle blocks the light from reaching the person at the end \u2014 that's like an eclipse. But if the middle person is standing slightly to the side, the light gets through \u2014 that's most months.",
+      "sub_terms": [
+        {
+          "term": "Solar eclipse",
+          "definition": "When the moon passes directly between the sun and Earth, blocking sunlight from reaching a small area on Earth. This can only happen at new moon \u2014 and only when the moon's tilted orbit brings it exactly into the sun-Earth line.",
+          "example": "During a total solar eclipse, the moon covers the sun completely for a few minutes and the sky goes dark in the middle of the day \u2014 but only for people in a narrow path on Earth."
+        },
+        {
+          "term": "Lunar eclipse",
+          "definition": "When Earth passes directly between the sun and moon, casting Earth's shadow on the moon. This can only happen at full moon \u2014 the moon turns a dark reddish colour as it moves through Earth's shadow.",
+          "example": "During a lunar eclipse, anyone on the night side of Earth can see the moon darken and turn red over a few hours \u2014 unlike solar eclipses, which are only visible from a small area."
+        },
+        {
+          "term": "Umbra",
+          "definition": "The darkest part of a shadow, right in the centre, where all the light is completely blocked.",
+          "example": "If you hold your hand close to a wall with a lamp behind you, the very darkest part of the shadow (where your hand blocks all the light) is the umbra."
+        },
+        {
+          "term": "Penumbra",
+          "definition": "The lighter part of a shadow around the edges, where only some of the light is blocked. It's dimmer than normal but not completely dark.",
+          "example": "The fuzzy, lighter edge around your hand's shadow on the wall is the penumbra \u2014 some light gets past the edges of your hand."
+        },
+        {
+          "term": "Moon's orbital tilt",
+          "definition": "The moon's orbit around Earth is tilted about 5\u00b0 compared to Earth's orbit around the sun. This tilt means the moon usually passes above or below the sun-Earth line instead of through it \u2014 which is why eclipses don't happen every month.",
+          "example": "Imagine a hula hoop tilted slightly \u2014 a ball rolling around it would only cross the flat table level twice per lap. The moon only crosses the sun-Earth line twice per orbit, and an eclipse can only happen at those crossing points."
+        }
+      ]
+    },
+    {
+      "term": "Seasons",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "The yearly pattern of weather and daylight changes caused by Earth's axial tilt \u2014 NOT by being closer to or further from the sun. When your hemisphere is tilted toward the sun, you get summer (sun higher in the sky, longer days). When it's tilted away, you get winter.",
+      "example": "Australia has summer in December because the Southern Hemisphere is tilted toward the sun then. At the same time, the UK has winter because the Northern Hemisphere is tilted away \u2014 same distance from the sun, opposite seasons.",
+      "sub_terms": [
+        {
+          "term": "Solar angle",
+          "definition": "How high the sun appears in the sky. When the sun is high (high solar angle), its energy is concentrated on a smaller area, so it feels hotter. When the sun is low (low solar angle), the same energy is spread over a larger area, so it feels cooler.",
+          "example": "Shine a torch straight down on a table \u2014 you get a small, bright circle. Tilt the torch at an angle \u2014 the light spreads out and gets dimmer. That's why midday sun (high angle) is hotter than sunrise sun (low angle)."
+        },
+        {
+          "term": "Day length",
+          "definition": "The number of hours of daylight, which changes across the year because of Earth's tilt. In summer, your hemisphere is tilted toward the sun so you get longer days. In winter, it's tilted away so days are shorter.",
+          "example": "In Canberra, a summer day in December has about 14.5 hours of daylight, but a winter day in June has only about 10 hours \u2014 the tilt changes how long the sun is above the horizon."
+        },
+        {
+          "term": "Hemisphere",
+          "definition": "One half of Earth, split by the equator. The Northern Hemisphere (above the equator) and Southern Hemisphere (below) always have opposite seasons because when one is tilted toward the sun, the other is tilted away.",
+          "example": "When it's summer in Australia (Southern Hemisphere), it's winter in Canada (Northern Hemisphere) \u2014 even though both countries are the same distance from the sun."
+        },
+        {
+          "term": "Latitude",
+          "definition": "How far north or south a place is from the equator. Latitude affects how much the seasons change \u2014 places near the equator have mild seasons, while places near the poles have extreme differences between summer and winter.",
+          "example": "Darwin (close to the equator) has fairly similar temperatures year-round, but Hobart (further south) has much colder winters and warmer summers \u2014 latitude makes the seasonal difference bigger."
+        },
+        {
+          "term": "Insolation",
+          "definition": "The amount of solar energy hitting a surface. Insolation varies by latitude, season and time of day because of changes in solar angle and day length.",
+          "example": "A solar panel in Darwin receives more insolation than one in Hobart because the sun is higher in the sky for more of the year \u2014 more direct sunlight means more energy."
+        },
+        {
+          "term": "Six-season calendar",
+          "definition": "A way of describing seasonal patterns used by many Aboriginal and Torres Strait Islander peoples, based on changes they observe in the natural world \u2014 like flowering plants, animal behaviour, wind patterns and rainfall \u2014 rather than the four astronomical seasons used in European tradition.",
+          "example": "The Ngunnawal people of the Canberra region recognise seasons based on when certain plants flower, when particular animals breed, and when weather patterns shift \u2014 these ecological markers often don't line up with the four-season calendar."
+        },
+        {
+          "term": "Light intensity",
+          "definition": "How strong or concentrated sunlight is when it reaches Earth's surface. Light intensity depends on solar angle \u2014 when the sun is higher, light is more concentrated and intense.",
+          "example": "At noon in summer, the sun is nearly overhead and the light feels strong and hot. At noon in winter, the sun is lower in the sky and the light is weaker \u2014 same sun, different intensity because of the angle."
+        }
+      ]
+    },
+    {
+      "term": "Tides",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "The regular rise and fall of sea levels, mainly caused by the moon's gravitational pull on Earth's oceans. Most coastal places experience two high tides and two low tides each day.",
+      "example": "If you visit the beach in the morning and the water is up near the dunes (high tide), then return in the afternoon and the water has retreated far down the sand (low tide) \u2014 that's tides caused by the moon's gravity.",
+      "sub_terms": [
+        {
+          "term": "Spring tides",
+          "definition": "Extra-large tides that happen when the sun, moon and Earth are lined up \u2014 at new moon and full moon. The sun's gravity adds to the moon's gravity, making the tides bigger. Nothing to do with the spring season!",
+          "example": "At full moon, the high tides are noticeably higher and the low tides are lower than usual \u2014 that's a spring tide. Fishers and surfers pay attention to these because they mean bigger water movements."
+        },
+        {
+          "term": "Neap tides",
+          "definition": "Smaller tides that happen when the sun and moon are at right angles to each other \u2014 at first quarter and third quarter moon. The sun's gravity partially cancels out the moon's, making the tides smaller.",
+          "example": "At quarter moon, you might barely notice the tide changing \u2014 the difference between high and low tide is much smaller than during a spring tide."
+        },
+        {
+          "term": "Tide chart",
+          "definition": "A graph showing predicted high and low tide times and heights for a specific beach or harbour. Reading a tide chart across a whole month reveals the spring-neap pattern repeating with the lunar cycle.",
+          "example": "Before a beach trip, you might check a tide chart to find when low tide is \u2014 the chart shows wavy lines going up and down, with the biggest waves during spring tides and smallest during neap tides."
+        }
+      ]
+    },
+    {
+      "term": "Gravitational pull",
+      "descriptor_code": "AC9S7U03",
+      "width_tier": "minimum",
+      "definition": "The pulling force that any object with mass exerts on other objects. The bigger the mass, the stronger the pull. The moon's gravitational pull on Earth's oceans is what causes tides.",
+      "example": "The moon's gravity is strong enough to pull the ocean toward it, creating a bulge of water (high tide) on the side of Earth facing the moon \u2014 even though the moon is nearly 400,000 km away."
+    },
+    {
+      "term": "Force",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "A push or pull acting on an object. Forces have a size (how strong the push or pull is) and a direction (which way it acts). Most objects have several forces acting on them at the same time.",
+      "example": "A book on a table has gravity pulling it down and the table pushing it up \u2014 two forces acting at the same time. If you push it sideways, that's a third force.",
+      "sub_terms": [
+        {
+          "term": "Vector",
+          "definition": "Something that has both a size and a direction. Forces are vectors \u2014 a 10 N push to the right is different from a 10 N push to the left, even though the size is the same.",
+          "example": "An arrow on a force diagram is a vector \u2014 its length shows how strong the force is, and its direction shows which way the force acts."
+        },
+        {
+          "term": "Magnitude",
+          "definition": "The size or strength of a force, measured in newtons (N). On a force diagram, bigger forces are shown with longer arrows.",
+          "example": "If gravity pulls a ball down with 5 N and you push it up with 10 N, the upward arrow should be twice as long as the downward arrow \u2014 showing the magnitude difference."
+        },
+        {
+          "term": "Direction",
+          "definition": "The way a force acts \u2014 up, down, left, right, or at an angle. Forces in opposite directions work against each other; forces in the same direction add together.",
+          "example": "Friction always acts in the opposite direction to movement \u2014 if a box slides right, friction pushes left."
+        },
+        {
+          "term": "Normal force",
+          "definition": "The push a surface makes against an object resting on it. If a book sits on a table, the table pushes up on the book \u2014 that upward push is the normal force, and it's what stops the book falling through.",
+          "example": "You can feel normal force right now \u2014 the chair is pushing up against you with exactly the right amount of force to balance gravity. If the chair disappeared, you'd fall."
+        },
+        {
+          "term": "Aerofoil",
+          "definition": "A shape designed to produce useful forces when air flows over it \u2014 like the cross-section of a wing or a boomerang. The curved shape makes air move differently over the top and bottom surfaces.",
+          "example": "First Peoples of Australia designed boomerangs with an aerofoil shape \u2014 the curved profile creates forces that make the boomerang fly in a curved path and return."
+        },
+        {
+          "term": "Simple machines",
+          "definition": "Devices that change the size or direction of a force to make tasks easier \u2014 like levers, pulleys, ramps and wedges. They don't reduce the total work needed, but they let you use a smaller force over a longer distance.",
+          "example": "A wheelbarrow is a lever \u2014 you push down on the handles with a small force over a big distance, and it lifts a heavy load a small distance."
+        }
+      ]
+    },
+    {
+      "term": "Force diagram",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "A drawing that shows all the forces acting on an object as arrows. The arrows point in the direction each force acts, and their length shows how strong each force is. Force diagrams help you work out what will happen to an object's motion.",
+      "example": "For a ball falling through the air, you'd draw a long arrow pointing down (gravity \u2014 strong) and a shorter arrow pointing up (air resistance \u2014 weaker). The unbalanced downward force tells you the ball accelerates downward."
+    },
+    {
+      "term": "Balanced forces",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "When all the forces on an object cancel each other out \u2014 they're equal in size but act in opposite directions. Balanced forces mean no change in motion. The object either stays still or keeps moving at the same speed in the same direction.",
+      "example": "A car driving at a steady 60 km/h on a flat road has balanced forces \u2014 the engine pushes forward with the same force that friction and air resistance push backward. Forces are acting, but they cancel out.",
+      "sub_terms": [
+        {
+          "term": "Equilibrium",
+          "definition": "When all forces on an object are balanced and the net force is zero. An object in equilibrium can be still or moving at a constant speed \u2014 equilibrium doesn't mean nothing is happening.",
+          "example": "A skydiver falling at terminal velocity is in equilibrium \u2014 gravity pulls down and air resistance pushes up with equal force. They're moving fast, but their speed isn't changing."
+        },
+        {
+          "term": "Newton's First Law",
+          "definition": "An object stays still or keeps moving at constant speed in a straight line unless an unbalanced force acts on it. This explains why you need forces to start, stop or change the motion of objects.",
+          "example": "A hockey puck sliding on ice keeps going because there's very little friction to slow it down \u2014 Newton's First Law in action. It only stops when friction or hitting something provides an unbalanced force."
+        },
+        {
+          "term": "Constant velocity",
+          "definition": "Moving at the same speed in the same direction without changing. An object at constant velocity has balanced forces \u2014 this is the key example that proves balanced forces don't mean 'no motion.'",
+          "example": "A plane cruising at 900 km/h at a steady altitude has constant velocity \u2014 the thrust equals the drag, and lift equals weight. All forces are balanced, but the plane is definitely moving."
+        }
+      ]
+    },
+    {
+      "term": "Unbalanced forces",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "When the forces on an object don't cancel out \u2014 one direction has more force than the other. Unbalanced forces cause a change in motion: the object speeds up, slows down, or changes direction.",
+      "example": "When you kick a stationary ball, your foot applies an unbalanced force \u2014 there's a big force forward and nothing pushing back equally. The ball accelerates in the direction of the net force.",
+      "sub_terms": [
+        {
+          "term": "Spearthrower",
+          "definition": "A tool used by First Peoples of Australia (also called a woomera) that extends the arm's throwing length, increasing the force applied to a spear and therefore its acceleration and speed.",
+          "example": "A spearthrower acts as a lever \u2014 the extra length means the spear is pushed for longer, applying more force. First Peoples of Australia engineered this tool to optimise the unbalanced force on the spear."
+        }
+      ]
+    },
+    {
+      "term": "Acceleration",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "Any change in an object's speed or direction. Acceleration doesn't just mean speeding up \u2014 slowing down and changing direction are also acceleration because the velocity is changing.",
+      "example": "A car speeding up, a car braking, and a car turning a corner are all accelerating \u2014 in each case, the velocity is changing because an unbalanced force is acting.",
+      "sub_terms": [
+        {
+          "term": "Deceleration",
+          "definition": "Slowing down \u2014 acceleration in the direction opposite to movement. Deceleration isn't a separate idea from acceleration; it's just acceleration that makes you go slower instead of faster.",
+          "example": "When a car brakes, friction provides an unbalanced force backward (opposite to motion). This is deceleration \u2014 the car accelerates in the backward direction, which makes it slow down."
+        }
+      ]
+    },
+    {
+      "term": "Gravitational force",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "The pulling force between any two objects that have mass. On Earth, gravity pulls everything toward the centre of the Earth. The more mass an object has, the stronger the gravitational force on it.",
+      "example": "A bowling ball experiences a greater gravitational force than a tennis ball because it has more mass \u2014 that's why it's harder to lift. On the Moon, both would experience less gravitational force because the Moon has less mass than Earth.",
+      "sub_terms": [
+        {
+          "term": "Gravitational field strength",
+          "definition": "A number that tells you how strong gravity is at a particular location, measured in N/kg. On Earth it's about 10 N/kg. On the Moon it's about 1.6 N/kg. You use it to calculate weight: weight = mass \u00d7 g.",
+          "example": "A 50 kg person on Earth: weight = 50 \u00d7 10 = 500 N. The same person on the Moon: weight = 50 \u00d7 1.6 = 80 N. Same mass, different weight \u2014 because g is different."
+        }
+      ]
+    },
+    {
+      "term": "Mass",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "The amount of matter in an object, measured in kilograms (kg). Mass stays the same no matter where you are \u2014 your mass on Earth is the same as your mass on the Moon.",
+      "example": "An astronaut with a mass of 70 kg has a mass of 70 kg whether they're on Earth, on the Moon, or floating in space \u2014 the amount of matter in their body doesn't change."
+    },
+    {
+      "term": "Weight",
+      "descriptor_code": "AC9S7U04",
+      "width_tier": "minimum",
+      "definition": "The force of gravity pulling on an object, measured in newtons (N). Weight depends on where you are because gravity is different on different planets. Weight = mass \u00d7 gravitational field strength.",
+      "example": "The same 70 kg astronaut weighs about 700 N on Earth but only about 112 N on the Moon \u2014 their mass hasn't changed, but the Moon's weaker gravity means less gravitational force pulling on them."
+    },
+    {
+      "term": "Particle theory",
+      "descriptor_code": "AC9S7U05",
+      "width_tier": "minimum",
+      "definition": "A model that explains how matter behaves by describing tiny particles too small to see. The four key ideas are: everything is made of particles, particles are always moving, particles are attracted to each other, and the spacing between particles differs in solids, liquids and gases.",
+      "example": "When you smell perfume from across a room, particle theory explains it: tiny perfume particles are moving randomly through the air, spreading out from where they started."
+    },
+    {
+      "term": "Particle diagram",
+      "descriptor_code": "AC9S7U05",
+      "width_tier": "minimum",
+      "definition": "A drawing showing how particles are arranged and spaced in a substance. You can use particle diagrams to explain why substances have certain properties \u2014 they're thinking tools, not just pictures to label.",
+      "example": "A particle diagram for a gas shows particles spread far apart and moving in all directions \u2014 this explains why you can compress a gas (there's space between particles to push them closer together)."
+    },
+    {
+      "term": "States of matter",
+      "descriptor_code": "AC9S7U05",
+      "width_tier": "minimum",
+      "definition": "The three main forms matter comes in \u2014 solid, liquid and gas. Each state has a different arrangement and movement of particles, which is what gives each state its properties.",
+      "example": "Water can exist as ice (solid \u2014 particles locked in place), liquid water (particles sliding past each other), or steam (gas \u2014 particles flying around freely). Same particles, different arrangement.",
+      "sub_terms": [
+        {
+          "term": "Solid",
+          "definition": "A state where particles are packed tightly in a fixed pattern, vibrating in place but not moving around. Solids keep their shape because the particles can't move past each other.",
+          "example": "A block of ice holds its shape because the water particles are locked into a fixed arrangement \u2014 they vibrate but can't slide past each other."
+        },
+        {
+          "term": "Liquid",
+          "definition": "A state where particles are still close together but can slide past each other \u2014 they're not locked in fixed positions like in a solid. Liquids take the shape of their container but keep the same volume.",
+          "example": "Pour water from a glass into a bowl \u2014 it changes shape but the amount stays the same. The particles are close together (so the volume doesn't change) but can move around (so the shape changes)."
+        },
+        {
+          "term": "Gas",
+          "definition": "A state where particles are spread far apart and move rapidly in all directions. Gases fill whatever container they're in because the particles are free to spread out as far as they can.",
+          "example": "When you open a jar of cookies, you can smell them across the room \u2014 gas particles carrying the scent spread out rapidly to fill the entire space."
+        }
+      ]
+    },
+    {
+      "term": "Physical properties",
+      "descriptor_code": "AC9S7U05",
+      "width_tier": "minimum",
+      "definition": "Characteristics of a substance you can observe or measure without changing what the substance is made of \u2014 like density, how easily it flows, whether you can squish it, and when it melts or boils. Particle theory explains why substances have these properties.",
+      "example": "Honey flows slowly (high viscosity) because its particles are strongly attracted to each other. Water flows easily (low viscosity) because its particle attractions are weaker. Same liquid state, different properties \u2014 explained by particles.",
+      "sub_terms": [
+        {
+          "term": "Density",
+          "definition": "How much mass is packed into a given space. Dense substances have particles packed tightly together or have heavier individual particles. A small piece of something dense can be heavier than a large piece of something less dense.",
+          "example": "A small piece of lead sinks in water because lead is denser \u2014 its particles are heavier and packed tightly. A beach ball floats because the air inside is much less dense than water."
+        },
+        {
+          "term": "Compressibility",
+          "definition": "How much you can squeeze a substance into a smaller space. Gases are easy to compress because there's lots of space between particles. Solids and liquids are almost impossible to compress because particles are already close together.",
+          "example": "You can push a syringe plunger in when it's full of air (particles move closer together), but you can't push it in when it's full of water \u2014 the water particles are already as close as they can get."
+        },
+        {
+          "term": "Viscosity",
+          "definition": "How easily a liquid flows. Thick, slow liquids like honey have high viscosity (strong particle attractions). Thin, fast-flowing liquids like water have low viscosity (weaker particle attractions).",
+          "example": "If you pour honey and water down a tilted plate, the water reaches the bottom first because its particles slide past each other more easily \u2014 weaker attractions mean lower viscosity."
+        },
+        {
+          "term": "Diffusion",
+          "definition": "The spreading out of particles from where there are lots of them to where there are fewer. It happens because particles move randomly \u2014 they don't 'try' to spread out, it just happens naturally when particles are moving around.",
+          "example": "Drop food colouring into water and it gradually spreads throughout the glass without stirring \u2014 the dye particles randomly bump and move in all directions until they're evenly spread."
+        },
+        {
+          "term": "Melting point",
+          "definition": "The temperature at which a solid changes into a liquid. At the melting point, particles gain enough energy to overcome their fixed arrangement and start sliding past each other.",
+          "example": "Ice melts at 0\u00b0C \u2014 at this temperature, the water particles have enough energy to break out of their fixed solid arrangement and become a flowing liquid."
+        }
+      ]
+    },
+    {
+      "term": "Changes of state",
+      "descriptor_code": "AC9S7U05",
+      "width_tier": "minimum",
+      "definition": "When a substance changes from one state of matter to another \u2014 like ice melting into water or water evaporating into steam. Changes of state happen when you add or remove energy, which changes how the particles are arranged and move.",
+      "example": "When you heat ice, it melts into water, then if you keep heating it evaporates into steam. The water particles are the same \u2014 only their arrangement and movement change.",
+      "sub_terms": [
+        {
+          "term": "Melting",
+          "definition": "When a solid changes into a liquid because energy is added. The particles gain enough energy to start sliding past each other instead of being locked in place \u2014 but they stay close together.",
+          "example": "When butter melts in a warm pan, the particles gain energy and start moving past each other \u2014 the butter goes from a fixed solid shape to a liquid that flows."
+        },
+        {
+          "term": "Freezing",
+          "definition": "When a liquid changes into a solid because energy is removed. The particles slow down and lock into fixed positions. Freezing is the reverse of melting.",
+          "example": "When you put water in a freezer, the particles lose energy and slow down until they lock into the fixed arrangement of ice."
+        },
+        {
+          "term": "Evaporation",
+          "definition": "When particles at the surface of a liquid gain enough energy to escape into the air as a gas. Evaporation can happen at any temperature \u2014 not just at boiling point.",
+          "example": "A puddle dries up on a warm day even though the temperature is nowhere near 100\u00b0C \u2014 the fastest-moving particles at the surface have enough energy to escape into the air."
+        },
+        {
+          "term": "Condensation",
+          "definition": "When gas particles lose energy and come together to form a liquid. Condensation is the reverse of evaporation \u2014 you see it when water droplets form on a cold surface.",
+          "example": "Water droplets form on the outside of a cold drink can \u2014 water vapour in the air hits the cold surface, loses energy, and changes from invisible gas to visible liquid drops."
+        },
+        {
+          "term": "Energy input and output",
+          "definition": "To go from a more organised state to a less organised state (solid \u2192 liquid \u2192 gas), you need to add energy. To go the other way (gas \u2192 liquid \u2192 solid), energy is released. During the actual change of state, the temperature stays the same even though energy is being added or removed.",
+          "example": "While ice is melting, the temperature stays at 0\u00b0C even though the stove is on \u2014 the energy is being used to change the particle arrangement, not to raise the temperature. That's why the graph goes flat."
+        },
+        {
+          "term": "Heating and cooling curve",
+          "definition": "A graph showing how temperature changes over time as a substance is heated or cooled. The sloping parts show temperature changing within a state. The flat parts show state changes \u2014 where energy is changing particle arrangement instead of temperature.",
+          "example": "Heat ice from -10\u00b0C: the temperature rises (slope), then stays at 0\u00b0C while it melts (flat), then rises again as the water heats up (slope), then stays at 100\u00b0C while it boils (flat)."
+        },
+        {
+          "term": "Sublimation",
+          "definition": "When a solid changes directly into a gas without becoming a liquid first. The particles go straight from a fixed, tightly packed arrangement to being widely spaced and moving freely.",
+          "example": "Dry ice (frozen CO\u2082) sublimes \u2014 it goes straight from a solid to a gas, which is why it produces that dramatic fog effect without leaving a puddle of liquid."
+        }
+      ]
+    },
+    {
+      "term": "Pure substance",
+      "descriptor_code": "AC9S7U06",
+      "width_tier": "minimum",
+      "definition": "A substance made of only one type of particle \u2014 every particle in it is exactly the same. Pure substances have fixed properties like a specific melting point. 'Pure' in science doesn't mean 'clean' or 'natural' \u2014 it means only one type of particle.",
+      "example": "Distilled water is a pure substance \u2014 it's made only of water particles. Tap water is not pure in the scientific sense because it contains dissolved minerals alongside the water particles."
+    },
+    {
+      "term": "Mixture",
+      "descriptor_code": "AC9S7U06",
+      "width_tier": "minimum",
+      "definition": "A substance made of two or more different types of particles physically mixed together. The different substances in a mixture keep their own properties and can be separated using physical methods.",
+      "example": "Saltwater is a mixture \u2014 salt particles and water particles are mixed together but neither has changed. You can get the salt back by evaporating the water.",
+      "sub_terms": [
+        {
+          "term": "Homogeneous mixture",
+          "definition": "A mixture that looks the same throughout \u2014 you can't see the different parts because they're evenly mixed at the particle level. Solutions are the most common type.",
+          "example": "Saltwater looks like pure water \u2014 it's clear and uniform. But at the particle level, there are salt particles scattered evenly among the water particles. It's a mixture, even though it looks 'pure.'"
+        },
+        {
+          "term": "Heterogeneous mixture",
+          "definition": "A mixture where you can see the different parts \u2014 they're not evenly mixed, so different regions look different.",
+          "example": "A bowl of cereal in milk is a heterogeneous mixture \u2014 you can clearly see the cereal pieces and the milk as separate components."
+        },
+        {
+          "term": "Solution",
+          "definition": "A type of mixture where one substance (the solute) is dissolved in another (the solvent) so completely that it looks like one substance. The dissolved substance hasn't disappeared \u2014 its particles are just spread out evenly between the other particles.",
+          "example": "When you stir sugar into tea, the sugar dissolves \u2014 you can't see it anymore, but you can taste it. The sugar particles are spread evenly among the water particles."
+        },
+        {
+          "term": "Solvent",
+          "definition": "The substance that does the dissolving in a solution \u2014 usually the one there's more of. Water is the most common solvent.",
+          "example": "In saltwater, water is the solvent \u2014 it's the substance the salt dissolves into."
+        },
+        {
+          "term": "Solute",
+          "definition": "The substance that gets dissolved in a solution \u2014 usually the one there's less of. The solute is still present even though you can't see it.",
+          "example": "In saltwater, salt is the solute \u2014 it dissolves into the water but is still there (you can taste it, and you can get it back by evaporating the water)."
+        }
+      ]
+    },
+    {
+      "term": "Separation technique",
+      "descriptor_code": "AC9S7U06",
+      "width_tier": "minimum",
+      "definition": "A method for separating the parts of a mixture using differences in their physical properties. Every technique works because the substances in the mixture have different properties \u2014 like different boiling points, particle sizes, or solubility.",
+      "example": "You can separate sand from water by filtration because sand particles are bigger than the holes in filter paper but water particles are small enough to pass through \u2014 the technique works because of the difference in particle size.",
+      "sub_terms": [
+        {
+          "term": "Filtration",
+          "definition": "Separating an insoluble solid from a liquid by pouring the mixture through filter paper. The solid gets caught in the paper and the liquid passes through. Only works for solids that haven't dissolved.",
+          "example": "You can filter sand out of water because the sand grains are too big to fit through the filter paper. But you can't filter salt out of water because dissolved salt particles are too small \u2014 they pass right through."
+        },
+        {
+          "term": "Evaporation",
+          "definition": "Separating a dissolved solid from a liquid by heating the liquid until it evaporates away, leaving the solid behind. You keep the solid and lose the liquid.",
+          "example": "To get salt from saltwater, heat the water until it evaporates. The water turns to steam and escapes, leaving salt crystals behind in the dish."
+        },
+        {
+          "term": "Distillation",
+          "definition": "Separating liquids with different boiling points by heating the mixture so one liquid evaporates first, then cooling the vapour to collect it as a pure liquid. Unlike evaporation, you keep the liquid \u2014 you collect the vapour instead of letting it escape.",
+          "example": "To get pure water from saltwater, you distil it: heat the saltwater so the water evaporates, then cool the steam to collect pure liquid water. The salt stays behind."
+        },
+        {
+          "term": "Chromatography",
+          "definition": "Separating dissolved substances by how fast they travel through a material like filter paper. Different substances travel at different speeds because of differences in how they're attracted to the paper vs the liquid.",
+          "example": "Put a dot of black ink on filter paper and dip the edge in water. As the water travels up the paper, you see the ink separate into different colours \u2014 the black ink was actually a mixture of different dyes."
+        },
+        {
+          "term": "Volatility",
+          "definition": "How easily a substance evaporates. Substances with weak particle attractions evaporate easily (high volatility) and have low boiling points. Distillation works by exploiting differences in volatility.",
+          "example": "Nail polish remover evaporates much faster than water if you leave both in open dishes \u2014 it's more volatile because its particles escape into the air more easily."
+        },
+        {
+          "term": "Crystallisation",
+          "definition": "Separating a dissolved solid from a solution by cooling or evaporating slowly so that the solid forms crystals. Similar to evaporation but done slowly to produce larger, purer crystals.",
+          "example": "Dissolve as much sugar as possible in hot water, then let it cool slowly. Sugar crystals form as the water can hold less dissolved sugar at lower temperatures \u2014 this is how rock candy is made."
+        },
+        {
+          "term": "Hand-picking",
+          "definition": "A separation technique used by First Nations Australians and others, where components of a mixture are sorted by hand based on visible differences like colour, size or shape.",
+          "example": "Sorting different types of seeds or removing stones from a grain harvest \u2014 the components are visibly different, so you can pick them apart by hand."
+        },
+        {
+          "term": "Sieving",
+          "definition": "Separating particles of different sizes by passing a mixture through a mesh or screen. Smaller particles fall through; larger ones are retained. Similar to filtration but for dry mixtures.",
+          "example": "Sifting flour removes lumps \u2014 the fine flour passes through the mesh while larger clumps are caught on top."
+        },
+        {
+          "term": "Winnowing",
+          "definition": "A separation technique that uses wind or airflow to separate lighter particles from heavier ones \u2014 exploiting differences in density and surface area. Used by First Nations Australians and cultures worldwide for processing seeds and grains.",
+          "example": "Tossing grain into the air on a windy day \u2014 the lighter husks blow away while the heavier grain seeds fall back down. Wind separates them by weight."
+        },
+        {
+          "term": "Yandying",
+          "definition": "A separation technique used by First Nations Australians that uses a shallow dish to separate materials of different densities \u2014 heavier particles settle while lighter particles are washed or blown away. Exploits the same property difference as gold panning.",
+          "example": "Using a yandi (shallow wooden dish) to separate seeds from sand and debris \u2014 the different densities of the materials allow them to be separated by gentle shaking and tilting."
+        },
+        {
+          "term": "Cold-pressing",
+          "definition": "A separation technique that extracts oils or liquids from plant material by applying mechanical pressure without heat. Used by First Nations Australians and in modern food production.",
+          "example": "Pressing native seeds to extract oil \u2014 the mechanical force squeezes the liquid out of the solid plant material without needing to heat it."
+        },
+        {
+          "term": "Steam distilling",
+          "definition": "A form of distillation that uses steam to extract volatile compounds (like essential oils) from plant material. The steam carries the volatile substances, which are then cooled and collected separately. Used by First Nations Australians for extracting medicinal compounds.",
+          "example": "Passing steam through eucalyptus leaves extracts the essential oils \u2014 the steam carries the volatile oil particles, which are then cooled and collected as a liquid."
+        },
+        {
+          "term": "Rf values",
+          "definition": "A number used in chromatography that tells you how far a substance travelled compared to how far the solvent travelled. Each substance has a characteristic Rf value, which helps identify unknown components.",
+          "example": "If the solvent front moved 10 cm and a dye spot moved 7 cm, the Rf value is 7/10 = 0.7. You can compare this number to known values to identify the dye."
+        }
+      ]
+    }
+  ]
+}

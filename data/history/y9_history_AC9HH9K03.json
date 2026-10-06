@@ -1,0 +1,120 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K03",
+    "title": "European Contact, Settlement and Impact on First Nations Peoples",
+    "description": "the causes and effects of European contact and extension of settlement, including their impact on the First Nations Peoples of Australia",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the effects of contact and colonisation on societies in earlier periods and examine perspectives of colonisers and colonised (AC9HH8K09, AC9HH8K14). They have not yet examined the specific legal and ideological framework of Australian colonisation (terra nullius), the full scope of colonisation's effects on First Nations Australians, or the range of First Nations responses including the Stolen Generations.",
+    "progression_endpoint": "Students investigate the causes and effects of European contact and settlement in Australia — including the legal fiction of terra nullius, frontier conflict, disease, industry, and the forcible removal of children — and examine how First Nations Australians responded to and were impacted by colonisation.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The legal and ideological basis of colonisation — terra nullius",
+        "progression_checkpoint": "Students can explain the concept of terra nullius and its role in the legal framework of Australian colonisation, and describe what Cook's instructions reveal about British intentions.",
+        "minimum_width": "Students define terra nullius as the legal fiction that Australia was uninhabited or unclaimed before British arrival, explain that this was used to justify taking land without treaty, and note Cook's instructions as evidence of British intentions.",
+        "typical_width": "Students examine Cook's secret Admiralty instructions (1768) and what they reveal about the tension between consent and possession; explain terra nullius as a legal concept that denied existing ownership by First Nations Australians; explain how this differs from colonisation in North America and New Zealand where treaties were negotiated; describe the consequences — no treaty, no recognition of prior ownership, no compensation — for First Nations Australians across the following two centuries.",
+        "wider": [
+          "Examine the legal challenge to terra nullius culminating in Mabo v Queensland (1992) — tracing the continuity between the original legal fiction and its eventual overturning",
+          "Compare the British approach (terra nullius) with treaty-based colonisation in New Zealand (Treaty of Waitangi, 1840) — examining what difference the legal framework made in practice"
+        ],
+        "hinge": true,
+        "hinge_reason": "Terra nullius is the foundational legal-ideological context for all subsequent effects of colonisation on First Nations Australians. Students who do not understand why land was taken without treaty cannot understand frontier conflict (N2) — the violence was produced by a system that refused to recognise First Nations ownership. It is also prerequisite for understanding the Stolen Generations (N4) as part of an ongoing colonial project.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe colonisation effects without understanding the legal framework that made them possible. Making terra nullius explicit — as a deliberate legal fiction with specific consequences — is the scaffold for understanding why First Nations Australians lost land, faced violence, and were subject to colonial laws and policies.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains terra nullius as a legal concept and describes its consequences for First Nations Australians",
+          "Describes what Cook's instructions reveal about British intentions toward existing inhabitants"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Frontier conflict, disease and dispossession",
+        "progression_checkpoint": "Students can describe the effects of European settlement on First Nations Australians — including frontier warfare, massacres, disease, and removal from land — and explain how these effects operated.",
+        "minimum_width": "Students describe frontier conflict as systemic (not isolated incidents), identify introduced disease as a major cause of population collapse, and describe the mechanisms of dispossession — removal from land, relocation to reserves and missions.",
+        "typical_width": "Students describe the scale and geography of frontier conflict, including specific massacres; explain the role of introduced diseases (smallpox, measles) in causing catastrophic population decline before or alongside direct violence; describe the removal of First Nations Australians from their traditional lands to protectorates, reserves and missions — what these institutions were, who controlled them, what conditions were like; examine the economic exploitation of First Nations labour in industries established on their traditional lands; connect dispossession to the legal framework of terra nullius from N1.",
+        "wider": [
+          "Investigate the history of a specific massacre or frontier conflict event — examining what sources exist, what they reveal, and what the event tells us about settler-colonial violence in Australia",
+          "Examine how First Nations Australians contributed to colonial industries (pearling, pastoral, fishing) established on their traditional lands — exploring the intersection of dispossession and economic exploitation"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly understand frontier conflict as physical violence without understanding the multiple simultaneous mechanisms — disease, legal exclusion, removal to missions — that together constituted the dispossession process. Multiple examples across different mechanisms and regions prevent oversimplification."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least three distinct effects of colonisation on First Nations Australians — including disease, violence and dispossession",
+          "Explains the mechanisms by which at least two of these effects operated"
+        ]
+      },
+      {
+        "id": 3,
+        "label": "First Nations responses to colonisation",
+        "progression_checkpoint": "Students can describe the range of ways First Nations Australians responded to colonisation — including resistance, adaptation, and contribution to colonial industries — and explain what shaped each response.",
+        "minimum_width": "Students describe at least two distinct types of response (e.g. armed resistance, adoption of settler practices, contributions to colonial industries) and explain what circumstances shaped each.",
+        "typical_width": "Students describe resistance — frontier warfare, specific leaders and strategies; accommodation and adaptation — adopting Christianity, working within colonial structures, contributing to industries on traditional lands; the complexity of responses that were simultaneously resistant and adaptive; examine how First Nations Australians found ways to maintain cultural identity and connections to country within the colonial system; connect the diversity of responses to the diversity of circumstances, colonial relationships, and individual choices.",
+        "wider": [
+          "Investigate a specific First Nations leader or community whose response to colonisation involved both resistance and strategic adaptation — examining how agency was exercised under colonial constraint",
+          "Examine how First Nations Australians described their own experiences of colonisation using available sources — letters, petitions, oral histories — to centre their perspectives in the historical account"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly frame First Nations responses as either resistance or passive victimhood without recognising the complex, strategic, and varied nature of responses under extreme constraint. Making the full range visible — and explaining what shaped each response — requires explicit scaffolding."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least two distinct types of First Nations response to colonisation with examples",
+          "Explains what circumstances shaped which responses were available or chosen"
+        ],
+        "related_standards": ["AC9HH9S06"]
+      },
+      {
+        "id": 4,
+        "label": "The Stolen Generations — forcible removal of children",
+        "progression_checkpoint": "Students can describe the forcible removal of First Nations children from their families, including the motivations for removal, the practices and laws in place, and the experiences of those separated.",
+        "minimum_width": "Students describe that First Nations children were forcibly removed from families under colonial and state policies, identify at least two motivations given for removal, and describe the experience of separation for children and families.",
+        "typical_width": "Students describe the ideological motivations for removal — assimilation ideology, the belief that Aboriginal cultures were dying out, the intent to 'breed out' Aboriginal identity; the specific laws and government structures that enabled removal (Protection Acts, Boards); the range of experiences — children sent to institutions, domestic service, separated from language and culture, denied contact with family; the long-term effects on individuals, families and communities; connect to the earlier colonial project of dispossession from N1–N2 — removal as a continuation of the project to eliminate First Nations culture and presence.",
+        "wider": [
+          "Examine personal accounts from members of the Stolen Generations — survivor testimonies, the Bringing Them Home report — to ground the general pattern in specific human experiences",
+          "Connect the Stolen Generations to the long-term intergenerational effects documented in contemporary data — examining how historical policy continues to shape contemporary outcomes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "Personal testimony from the Stolen Generations is among the most powerful and important source material in Australian history — survivor accounts provide a depth of understanding that policy description alone cannot. The intergenerational effects connection is historically significant and connects to contemporary relevance.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Individual survivor testimonies and case studies accumulate into an understanding of the Stolen Generations as a systemic and widespread practice, not an isolated series of events. Multiple personal accounts build the picture that statistics and policy descriptions alone cannot.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes the forcible removal of First Nations children — including motivations, laws and practices",
+          "Describes the experiences of separation for children and families, using at least one specific example or account"
+        ],
+        "related_standards": ["AC9HH9S03", "AC9HH9S06"]
+      }
+    ]
+  }
+}

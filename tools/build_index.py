@@ -3,7 +3,7 @@
 
 Usage:  python3 tools/build_index.py /path/to/acara-progressions/static/data
 
-Reads every node file (JSON with a top-level "standard" that has "nodes"),
+Reads every node file (Progressions static/data, copied into the kit's data/ folder) (JSON with a top-level "standard" that has "nodes"),
 and writes index/<subject>.md plus index/README.md into the kit root.
 Re-run whenever the Progressions data changes.
 """
@@ -13,7 +13,7 @@ import os
 import sys
 from collections import defaultdict
 
-BASE_URL = "https://acara.learningwaypoints.com/data/"
+BASE_URL = "https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/"
 
 
 def year_key(y):

@@ -1,0 +1,69 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K07",
+    "title": "Australian Society in Relation to Other Nations by 1914",
+    "description": "the development of Australian society in relation to other nations in the world by 1914, including the effects of ideas and movements of people",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the development of the new Federal Parliament and its social legislation (AC9HH9K04, AC9HH9K05). They have not yet examined how Australian Federal social legislation compared internationally, how women's roles and rights developed in the new federation, or how Australia's position in the world — as a British dominion, as a Pacific nation — shaped its identity by 1914.",
+    "progression_endpoint": "Students investigate how the major social legislation of the new Federal Government affected living and working conditions, and explain the continuities and changes in the role of women by 1914, including advocacy for women's rights, suffrage, political representation and pacificism.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Federal social legislation and its effects — Australia in comparative context",
+        "progression_checkpoint": "Students can describe the major social legislation of the new Federal Government and explain how it affected living and working conditions, situating Australia's approach in comparative international context.",
+        "minimum_width": "Students describe at least three pieces of Federal social legislation (Harvester Judgment, Immigration Restriction Act 1901, old-age pension, Defence Act 1903) and explain the effect of each on living and working conditions.",
+        "typical_width": "Students describe the Harvester Judgment (minimum wage), the Immigration Restriction Act 1901 (White Australia policy), invalid and old-age pensions (state welfare), maternity allowance, the Defence Act 1903 (military structure); explain how each affected living and working conditions; situate these in international context — Australia was among the first nations to implement old-age pensions and a minimum wage, making it a noted social laboratory; explain how the White Australia policy reflected and reinforced racial attitudes about who the nation was for.",
+        "wider": [
+          "Examine how Australia was perceived internationally as a 'social laboratory' — what foreign observers (including American and British progressives) found notable about Australian social legislation",
+          "Evaluate the Immigration Restriction Act — examining its intent, its mechanism (the dictation test), and the contradictions between 'progressive' social legislation and racially exclusive nationhood"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly examine individual pieces of legislation without understanding the combined picture — an internationally notable social experiment in state-regulated capitalism operating within a racially exclusive national framework. Multiple examples build this complex portrait."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least three pieces of Federal social legislation and explains the effect of each",
+          "Situates Australian social legislation in comparative context — explaining in what ways it was internationally notable"
+        ],
+        "related_standards": ["AC9HH9K05"]
+      },
+      {
+        "id": 2,
+        "label": "Women's roles and rights — continuities and changes by 1914",
+        "progression_checkpoint": "Students can explain the continuities and changes in women's roles in Australian society by 1914 — including advocacy for rights, suffrage, political representation and pacificism — and identify key figures who shaped these changes.",
+        "minimum_width": "Students describe at least two changes in women's roles by 1914 (e.g. achieving the vote, entering some professions, public advocacy) and identify at least two key figures.",
+        "typical_width": "Students trace the continuities — women's domestic and caring roles remained primary; women excluded from many professions, trades and public roles; limited property rights persisting in some states; and the changes — the federal vote (1902), state vote in most colonies earlier, women entering teaching and nursing as professions, women's public advocacy roles (temperance, suffrage, peace movements); examine specific figures (Elizabeth Macquarie, Caroline Chisholm, Catherine Helen Spence, Louisa Lawson, Muriel Matters, Vida Goldstein) and what their activism achieved and what it did not; explain how Australia's position compared to Britain and the USA on women's political rights by 1914.",
+        "wider": [
+          "Examine the pacificism of figures like Vida Goldstein — connecting women's rights advocacy to anti-militarism, and explaining why this connection was made by some women at this time",
+          "Investigate the experience of working-class women — whose lives were shaped more by labour conditions than by suffrage campaigns — and examine what is missing from accounts focused on suffragist leaders"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The pacificism connection anticipates the WW1 descriptors and offers a genuinely cross-descriptor thread. The working-class women's experience extension challenges students to examine who gets written into history and whose experience remains marginal.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly equate women's rights history with suffrage — the vote as the single story — without recognising the continuities in women's domestic and economic subordination, or the range of advocacy that extended beyond the vote.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes at least two changes and two continuities in women's roles in Australian society by 1914",
+          "Identifies at least two key figures in women's advocacy and explains what each contributed"
+        ],
+        "related_standards": ["AC9HH9K04", "AC9HH9K11"]
+      }
+    ]
+  }
+}

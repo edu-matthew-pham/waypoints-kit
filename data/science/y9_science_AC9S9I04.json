@@ -1,0 +1,91 @@
+{
+  "year_level": "9-10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I04",
+    "title": "Select and Construct Appropriate Representations",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "description": "select and construct appropriate representations, including tables, graphs, descriptive statistics, models and mathematical relationships, to organise and process data and information",
+    "prior_knowledge": "Students can select and construct tables, graphs and models to represent data (AC9S7I04). They have not yet selected among descriptive statistics as appropriate for a data type, used mathematical relationships to process data, or applied representations such as Sankey diagrams or Sankey-like proportional models.",
+    "progression_endpoint": "Students select and construct appropriate representations for organising and processing data — including tables, graphs, descriptive statistics (mean, median, range), models and mathematical relationships — and can explain the rationale for choosing one representation over another for a given data type or investigation question.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Selecting appropriate representations",
+        "progression_checkpoint": "Students can select the most appropriate representation for a given data type or investigation question and explain the rationale for their choice.",
+        "minimum_width": "Select an appropriate graph or table type for one described data set and explain why it is more appropriate than at least one alternative (e.g. why a line graph is more appropriate than a bar graph for continuous data showing a trend).",
+        "typical_width": "Select appropriate representations across multiple data scenarios — including when to use tables (raw data), line graphs (trends over continuous variables), bar graphs (category comparisons), scatter plots (relationships between variables) — and explain the selection rationale for each.",
+        "wider": [
+          "Examine when a mathematical relationship (formula) is more informative than a graph alone — e.g. calculating carbon storage using a formula rather than just graphing biomass data.",
+          "Compare the information provided by molecular models and balanced symbolic equations when examining conservation of mass — examining how different representations of the same data reveal different aspects (AC9S9U07 connection)."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who default to a single representation type (e.g. always bar graph) regardless of data type cannot process data effectively and will produce representations that obscure rather than reveal patterns. The ability to select an appropriate representation is the prerequisite for the pattern analysis at AC9S9I05.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Representation selection requires explicit reasoning: 'What type of data is this? What question am I answering? What does this representation make visible or hide?' Students need this decision framework modelled before they can apply it independently.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can select an appropriate representation and explain the rationale — not just produce the representation.",
+          "Can identify when an alternative representation would be less appropriate and explain why.",
+          "Does not default to a single graph type for all data."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Descriptive statistics: selecting the appropriate measure",
+        "progression_checkpoint": "Students can identify the most appropriate descriptive statistic (mean, median or range) for a given data set and explain why — recognising that mean and median can differ and that each is appropriate in different contexts.",
+        "minimum_width": "Identify which of mean, median or range is most appropriate to summarise a described data set and give one reason for the choice (e.g. median is appropriate when the data set contains outliers that would skew the mean).",
+        "typical_width": "Select the most appropriate descriptive statistics for two or three different data scenarios, explaining the rationale for each — including cases where mean and median differ significantly (skewed data) and where range is more informative than a central measure.",
+        "wider": [
+          "Apply descriptive statistics to identify which sample properties are most appropriate for making generalisations from a given data set — connecting statistical choice to the validity of the scientific claim.",
+          "Examine how summarising data with only the mean can hide important features (e.g. a bimodal distribution) — building appreciation that statistical choice affects what the data says."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "consolidation",
+            "reason": "Students often apply mean by default without considering appropriateness. Practice across varied data types — including skewed and normally distributed — builds the discrimination needed for appropriate selection."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can calculate mean, median and range for a small data set.",
+          "Can identify which measure is most appropriate for a described data type and explain why.",
+          "Does not default to mean for all data without considering whether it is appropriate."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Constructing and using mathematical relationships",
+        "progression_checkpoint": "Students can apply mathematical relationships (formulae, ratios, proportional reasoning) to process data, and construct representations that accurately reflect quantitative relationships.",
+        "minimum_width": "Apply one given formula or ratio to process a data set (e.g. applying a carbon storage formula to biomass measurements, or applying a ratio to construct a proportional Sankey diagram) and explain what the processed result represents.",
+        "typical_width": "Apply mathematical relationships to process data across two or three investigation contexts, construct representations where numerical proportionality is required (e.g. Sankey diagrams with scaled arrows), and explain how mathematical processing transforms raw data into meaningful scientific information.",
+        "wider": [
+          "Use spreadsheet software to present data in tabular and graphical forms — examining how digital tools manage the construction of accurate proportional representations that would be tedious by hand.",
+          "Apply ratios to accurately represent usable and waste energy in Sankey diagrams — connecting mathematical relationship application to the AC9S9U05 content."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can apply a given formula correctly to process data.",
+          "Can construct a representation where numerical values determine proportional layout (e.g. Sankey diagram).",
+          "Can explain what the processed representation reveals that raw data does not."
+        ],
+        "related_standards": ["AC9S9I05", "AC9S9U05", "AC9S9U07"]
+      }
+    ]
+  }
+}

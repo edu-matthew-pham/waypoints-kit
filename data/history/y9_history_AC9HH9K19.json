@@ -1,0 +1,67 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K19",
+    "title": "Key Features of an Asian Society — 18th and Early 19th Century",
+    "description": "the key social, cultural, economic and political features of an Asian society during the 18th and early 19th Century",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the key features of societies across multiple domains (AC9HH8K07, AC9HH8K12). They have not yet examined Asian societies in the modern period — the political structures, cultural systems, and economic foundations of Qing China, Mughal India, or Tokugawa Japan before European contact became transformative.",
+    "progression_endpoint": "Students investigate the significant economic, political and cultural features of a chosen Asian society — from: Qing dynasty China (Emperor, cultural features), Mughal India (territorial extent, Emperor, art and architecture), or Tokugawa Japan (Shogunate's influence on political, economic and social development).",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The Asian society chosen — political structure and authority",
+        "progression_checkpoint": "Students can describe the political structure and basis of authority in their chosen Asian society — explaining who held power, how authority was organised, and what legitimised rule.",
+        "minimum_width": "Students describe the political structure of the chosen society and the basis of its ruler's authority — e.g. the Qing Emperor's Mandate of Heaven, the Mughal Emperor's divine and military authority, the Tokugawa Shogun's feudal control — with at least two specific features.",
+        "typical_width": "Students describe the full political apparatus — the Emperor/Shogun's role and powers, the administrative hierarchy beneath them, the mechanisms of control (bureaucracy, military, law, ideology); explain what legitimised rule in this society's own terms; describe the stability and instability of the political system; examine the role of specific rulers or political decisions in shaping the society during this period.",
+        "wider": [
+          "Compare the political structure of the chosen Asian society with European political structures of the same period — absolute monarchy, parliamentary systems — identifying similarities and differences",
+          "Examine how political authority in the chosen society dealt with internal challenge — rebellion, succession disputes, regional autonomy — to understand the limits of central power"
+        ],
+        "hinge": true,
+        "hinge_reason": "Political structure is the foundation for understanding social and cultural features (N2) and — critically — for understanding how the society responded to European contact in K20. Students who do not understand the political architecture cannot explain why European contact produced different responses in different Asian societies.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe Asian rulers as powerful without understanding the specific structures and legitimating ideologies — Mandate of Heaven, Shogunal feudalism, Mughal divine kingship — that organised political authority. Making these explicit is the scaffold for the contact-and-change analysis in K20.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Describes the political structure of the chosen society with at least two specific features",
+          "Explains what legitimised rule in the society's own terms"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Social structure, economy and cultural expression",
+        "progression_checkpoint": "Students can describe the social structure, economic foundations, and significant cultural features of their chosen Asian society.",
+        "minimum_width": "Students describe the social hierarchy, the economic basis (trade, agriculture, tribute), and at least one major cultural feature (art, architecture, literature) of the chosen society.",
+        "typical_width": "Students describe the social hierarchy in their chosen society — the scholar-gentry in Qing China, the caste system under Mughal administration, the rigid samurai-commoner hierarchy of Tokugawa Japan; the economic foundations — tributary systems, agricultural taxation, trade controls; significant cultural features — the Confucian examination system and its cultural role in China, Mughal art and architecture (Taj Mahal, miniature painting), Japanese Noh and Kabuki theatre, samurai aesthetic culture; explain how cultural expression reflected and reinforced political and social values.",
+        "wider": [
+          "Examine a specific cultural artefact from the chosen society — a painting, building, text, or ceremonial object — as a historical source that reveals something about the society's values and worldview",
+          "Investigate the role of religion in the chosen society — Confucianism in China, Islam in the Mughal Empire, Buddhism and Shinto in Japan — and how religious institutions shaped social and political life"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need sufficient encounter with the chosen society's features across multiple domains — political, social, economic, cultural — before they can engage the contact-and-change analysis that K20 requires. Surface familiarity with one feature is insufficient."
+          }
+        ],
+        "success_criteria": [
+          "Describes the social hierarchy and economic foundations of the chosen society",
+          "Describes at least one major cultural feature and explains how it reflected the society's values"
+        ]
+      }
+    ]
+  }
+}

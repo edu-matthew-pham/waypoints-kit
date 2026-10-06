@@ -1,0 +1,87 @@
+{
+  "year_level": "9-10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I07",
+    "title": "Construct Evidence-Based Arguments Ethically",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "description": "construct arguments based on analysis of a variety of evidence to support conclusions or evaluate claims, and consider any ethical issues and cultural protocols associated with accessing, using or citing secondary data or information",
+    "prior_knowledge": "Students can construct evidence-based arguments (AC9S7I07). They have not yet applied ethical considerations and cultural protocols specifically to secondary data use, or constructed arguments based on analysis of multiple sources — including evaluation of source credibility as part of the argument.",
+    "progression_endpoint": "Students construct arguments based on analysis of a variety of evidence — evaluating the credibility and relevance of multiple sources to support a conclusion or evaluate a claim. Students consider ethical issues associated with accessing, using and citing secondary data, and apply cultural protocols when working with First Nations knowledges — including acknowledging contributions and the relationship between Indigenous knowledge and contemporary science.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Constructing multi-source arguments",
+        "progression_checkpoint": "Students can construct an argument that draws on multiple sources of evidence, evaluating the credibility of each source and explaining how the evidence collectively supports the conclusion.",
+        "minimum_width": "Construct an argument for one claim using evidence from at least two sources, identify the credibility basis for each source, and explain how the two sources together support (or complicate) the conclusion.",
+        "typical_width": "Construct an argument based on multiple sources — including at least one primary and one secondary source — evaluating the credibility, relevance and consistency of evidence, and explaining how the combined evidence supports the conclusion more strongly than any single source would.",
+        "wider": [
+          "Examine secondary data to determine the credibility of the source and the validity and reproducibility of the data — applying AC9S9I06 validity criteria to the evidence selection process.",
+          "Identify multiple sources of evidence consistent with a scientific claim (e.g. the effectiveness of a vaccine) and explain why consistency across independent sources strengthens the argument.",
+          "Research methods used by scientists in studies reported in media — evaluating the validity of headlines against the original evidence to build critical media literacy as an argument skill."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who construct arguments from a single source — or who select evidence without evaluating credibility — cannot distinguish a well-supported argument from an opinion. The multi-source, credibility-evaluated argument structure is the capstone inquiry skill; weakness here undermines the argument quality regardless of source content.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The structure of a multi-source argument needs explicit scaffolding: 'Claim → Evidence 1 (credibility basis, how it supports) → Evidence 2 (credibility basis, how it supports) → how they work together.' Students often produce description of sources rather than an argument that uses them. Model the distinction.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can construct an argument using at least two sources with explicit credibility evaluation.",
+          "Can explain how the evidence collectively supports the conclusion — not just list the sources.",
+          "Does not construct an argument from a single source — uses multiple independent sources."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Ethical issues in secondary data use",
+        "progression_checkpoint": "Students can identify ethical issues associated with accessing, using and citing secondary data — including data privacy, correct attribution, and relevance to the investigation question.",
+        "minimum_width": "Identify at least one ethical issue associated with using secondary data (e.g. data containing personal information, incorrect attribution, using data from a source with a conflict of interest) and explain why it is an ethical concern.",
+        "typical_width": "Identify and explain multiple ethical issues in secondary data use — including privacy, attribution, and relevance — and describe practices that address each (anonymisation, citation, relevance checking).",
+        "wider": [
+          "Examine secondary data to ensure it does not contain personal information that could harm individuals, is correctly cited and is relevant to the investigation question — applying all three criteria simultaneously to a described data set.",
+          "Examine how incorrect attribution of scientific data affects both the original researchers and the integrity of the argument that uses the data."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least one ethical concern in a described secondary data use scenario.",
+          "Can describe a practice that addresses the identified concern.",
+          "Does not treat ethics in data use as purely about plagiarism — recognises privacy and relevance as separate concerns."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Cultural protocols with First Nations knowledges",
+        "progression_checkpoint": "Students can apply cultural protocols when accessing, using or citing First Nations knowledges — including acknowledging the co-contributions of Indigenous knowledge and contemporary science, and constructing arguments that recognise these relationships appropriately.",
+        "minimum_width": "Describe one cultural protocol relevant to working with First Nations knowledges in a scientific context (e.g. acknowledging the source community, obtaining appropriate permission) and explain why it matters.",
+        "typical_width": "Apply cultural protocols across a described scenario involving First Nations knowledge — acknowledging the relationship between First Peoples' knowledges and contemporary science, recognising co-contributions in arriving at shared understandings, and avoiding misrepresentation or extraction of knowledge without attribution.",
+        "wider": [
+          "Acknowledge and construct an argument for contributions to medicine of First Nations Australians' knowledges of physiological pathways and contemporary medicinal delivery systems — demonstrating how an argument can genuinely integrate Indigenous knowledge as evidence rather than as token context.",
+          "Examine the concept of working 'both ways' — acknowledging and identifying the relationship between First Peoples' knowledges and contemporary science in arriving at shared understandings — and discuss what this means for how evidence is presented in an argument."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can describe at least one cultural protocol relevant to using First Nations knowledge in a scientific argument.",
+          "Can construct an argument that appropriately acknowledges First Nations knowledge contributions.",
+          "Does not treat First Nations knowledge as merely contextual decoration — can use it as substantive evidence."
+        ],
+        "related_standards": ["AC9S9I06", "AC9S9H01", "AC9S9H03"]
+      }
+    ]
+  }
+}

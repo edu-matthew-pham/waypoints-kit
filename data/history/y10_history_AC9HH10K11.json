@@ -1,0 +1,127 @@
+{
+  "year_level": "10",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH10K11",
+    "title": "Civil Rights Events and Methods",
+    "description": "the significant events and methods in the movement for the civil rights of First Nations Australians and the extent to which they contributed to change",
+    "strand": "History (Knowledge and Understanding)",
+    "mode": "A",
+    "prior_knowledge": "Students have examined the legislative framework, early campaigns, and the Stolen Generations (K09) and the contributions of individuals and groups (K10). They understand the evaluation framework for extent of change. They have not yet examined the specific chronology of civil rights events from the 1960s onwards, the influence of the US civil rights movement, or the post-Mabo trajectory of reconciliation.",
+    "progression_endpoint": "Students explain the significant events and methods in the movement for First Nations civil rights, including the influence of the US civil rights movement, a chronology of key events from 1962 to the Uluru Statement, and evaluate the extent to which they contributed to change.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "The US civil rights movement as influence and model",
+        "progression_checkpoint": "Students can explain the influence of the US civil rights movement on First Nations Australian activism, including how the Freedom Rides model was adapted to the Australian context.",
+        "minimum_width": "Students explain how the US civil rights movement influenced Australian First Nations activism; describe the Australian Freedom Rides and explain how they drew on the US model.",
+        "typical_width": "Students examine the US civil rights movement of the 1960s — Montgomery bus boycott, Freedom Rides, March on Washington — as a model of direct action that demonstrated the effectiveness of public confrontation with segregation; explain how Charles Perkins and Student Action for Aborigines adapted the Freedom Rides model to New South Wales in 1965; examine what the Australian Freedom Rides exposed (segregated facilities, discrimination in country towns) and how media coverage changed public opinion in cities.",
+        "wider": [
+          "Compare the US and Australian civil rights contexts — examining the structural similarities (racial segregation, legal exclusion, organised nonviolent direct action) and differences (land rights as a specifically Australian dimension, different constitutional frameworks)",
+          "Investigate the role of television in both the US and Australian civil rights movements — analysing how visual media changed the political dynamics of civil rights campaigns by making segregation visible to urban audiences"
+        ],
+        "hinge": true,
+        "hinge_reason": "The US influence node establishes that the Australian civil rights movement was part of a global moment, not an isolated development. It also introduces the direct action method that several subsequent events (Tent Embassy, Freedom Rides) use. Students who miss this connection cannot explain the timing of the Australian movement's intensification in the 1960s.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat the Australian Freedom Rides as a domestic event without examining its deliberate drawing on the US model. Making the influence explicit — Perkins and Student Action for Aborigines consciously modelled their action on the US Freedom Rides — gives the event analytical depth and connects Australian history to global patterns of civil rights activism.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least two ways the US civil rights movement influenced Australian First Nations activism",
+          "Describes the Australian Freedom Rides and explains how they drew on the US model",
+          "Explains how media coverage of the Freedom Rides changed public opinion in cities"
+        ],
+        "related_standards": ["AC9HH10K09", "AC9HH10K20", "AC9HH10S06"]
+      },
+      {
+        "id": 2,
+        "label": "Key events — legal and political changes, 1962–1992",
+        "progression_checkpoint": "Students can create a chronological account of key civil rights events from 1962 to the Mabo decision, explaining how each contributed to legal or political change.",
+        "minimum_width": "Students sequence at least four key events from 1962 to 1992 and explain the type of change each produced.",
+        "typical_width": "Students trace: the right to vote federally (1962), Freedom Rides (1965), the 1967 Referendum (what it changed constitutionally and what it did not), the Tent Embassy (1972 — its demand, method, and outcome), the Pilbara Strike, Palm Island Strike, Wave Hill Walk-Off (land rights through industrial action), the Mabo decision (1992 — the overturning of terra nullius and its legal significance); categorise each event by the type of change it produced (legal, political, social); explain the Mabo decision's significance in particular — why overturning terra nullius was constitutionally important.",
+        "wider": [
+          "Examine the 1967 Referendum in depth — analysing what the two constitutional changes actually meant in practice, why a 90.77% yes vote did not immediately transform conditions, and how this gap between formal and practical change shapes the evaluation of its significance",
+          "Investigate the Mabo case's legal journey — examining how Eddie Koiki Mabo and the Meriam people pursued their claim through the courts for a decade, and what the case reveals about the relationship between legal strategy and land rights"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The 1967 Referendum's gap between formal and practical change, and the Mabo legal journey, are analytically rich directions that develop students' understanding of how legal and constitutional change operates — and why it is necessary but not sufficient for social change.",
+        "response_modes": [
+          {
+            "mode": "repertoire_building",
+            "reason": "Students need a working chronology of key events and their outcomes before they can evaluate the extent of change. A categorised timeline — event, method, type of change produced — builds the knowledge base for the evaluation in N4.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Sequences at least four key events from 1962 to 1992 with the correct type of change each produced",
+          "Explains the 1967 Referendum's constitutional significance and at least one limit of that change",
+          "Explains the significance of the Mabo decision and the concept of terra nullius"
+        ],
+        "related_standards": ["AC9HH10K09", "AC9HH10K10", "AC9HH10S05"]
+      },
+      {
+        "id": 3,
+        "label": "Key events — reconciliation and recognition, 1992–present",
+        "progression_checkpoint": "Students can explain the significant events in the reconciliation and recognition phase of the civil rights movement, from the Redfern Speech to the Uluru Statement from the Heart.",
+        "minimum_width": "Students explain at least three events in the reconciliation phase and explain what each contributed.",
+        "typical_width": "Students trace: the Wik decision (1996), Keating's Redfern Speech (1992 — its significance as a statement of responsibility by a prime minister), the Bringing Them Home report (1997) and its recommendations, the first Sorry Day (1998), the Apology to the Stolen Generations (2008 — what it said and what it did not include), the Uluru Statement from the Heart (2017 — its three demands: Voice, Treaty, Truth); explain how Reconciliation is an ongoing process, not a single event; examine the gap between symbolic recognition and structural change.",
+        "wider": [
+          "Examine the political debate over the Apology — analysing the Howard government's refusal to apologise and the Rudd government's decision to apologise, and what the debate reveals about how political leaders understand historical responsibility",
+          "Investigate the Uluru Statement from the Heart in depth — examining its three pillars, the process that produced it, and the arguments for and against a constitutionally enshrined Voice to Parliament"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The Uluru Statement and the Voice debate are live contemporary questions that connect historical study directly to present-day politics. The apology debate raises genuinely contested questions about political responsibility and historical acknowledgement that students can engage with analytically.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand reconciliation as a process with multiple phases and components — not as a single event or a completed project. Scaffolding the distinction between symbolic recognition (apology, Sorry Day) and structural change (land rights, closing the gap) is the key analytical move.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least three events in the reconciliation phase and what each contributed",
+          "Explains the Uluru Statement from the Heart and its three demands",
+          "Explains why reconciliation is an ongoing process — distinguishing symbolic recognition from structural change"
+        ],
+        "related_standards": ["AC9HH10K13", "AC9HH10S07", "AC9HH10S08"]
+      },
+      {
+        "id": 4,
+        "label": "Extent of change — methods, outcomes, and limits",
+        "progression_checkpoint": "Students can evaluate the extent to which significant events and methods contributed to change — analysing which methods were most effective, what types of change resulted, and what limits remain.",
+        "minimum_width": "Students construct an evaluative argument about the extent of change, covering at least two different methods and two different types of change produced.",
+        "typical_width": "Students draw on N1–N3 to evaluate: which methods (direct action, legal challenge, political negotiation, media strategy, international pressure) produced which types of change; why legal change (1967 Referendum, Mabo) did not automatically produce social change; why symbolic change (Apology) did not resolve structural inequality; evaluate the extent of change overall — what has changed since 1962, what structural inequalities persist, and why.",
+        "wider": [
+          "Compare the effectiveness of different methods across the timeline — arguing which approach produced the most durable change and why",
+          "Evaluate the civil rights movement using the closing-the-gap data — assessing whether the political and legal changes documented in N2–N3 have translated into measurable improvements in health, education, employment, and life expectancy outcomes"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "This node integrates the US influence context (N1), the legal-political chronology (N2), and the reconciliation phase (N3) into an overall evaluation of the movement's effectiveness. Tasks requiring students to evaluate across multiple methods and types of change work well here."
+          }
+        ],
+        "success_criteria": [
+          "Evaluates the effectiveness of at least two different methods, with evidence",
+          "Explains why legal or formal change did not automatically produce social change — with a specific example",
+          "Constructs an overall judgement about the extent of change since 1962, acknowledging both what changed and what limits remain"
+        ],
+        "related_standards": ["AC9HH10K10", "AC9HH10K13", "AC9HH10S07", "AC9HH10S08"]
+      }
+    ]
+  }
+}

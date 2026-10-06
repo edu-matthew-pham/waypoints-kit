@@ -1,0 +1,1718 @@
+{
+  "subject": "Science",
+  "year_levels": [
+    "9"
+  ],
+  "generated": "2026-06-06",
+  "teacher_glossary": [
+    {
+      "term": "Stimulus",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A detectable change in the internal or external environment that triggers a response from the body. External stimuli include light, sound, temperature and pressure; internal stimuli include blood glucose level, blood pressure and body temperature. Identifying the stimulus is the first step in tracing any response pathway.",
+      "failure_mode": "Students treat stimulus and response as a single undifferentiated event \u2014 'the body just reacts' \u2014 without distinguishing the detected change from the body's coordinated response to it.",
+      "failure_type": "misconception",
+      "why_it_matters": "If stimulus and response are undifferentiated, students cannot place the receptor, command centre and effector as distinct steps in the pathway (N2), and cannot locate where deviation is detected in a feedback loop (N5).",
+      "response": "Present a stimulus scenario and ask: what changed? (stimulus) What detected the change? (receptor) What happened next? (response pathway). Separating detection from response makes the distinction operational.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Internal stimulus",
+          "definition": "A change inside the body that is detected by internal receptors \u2014 blood glucose level, blood pressure, core temperature, blood pH.",
+          "failure_mode": "Students default to external stimuli (touch, sound, light) and do not recognise internal changes \u2014 blood glucose level, core temperature, blood pH \u2014 as stimuli at all. They treat stimuli as events that happen TO the body from outside rather than changes the body detects within itself.",
+          "failure_type": "misconception",
+          "response": "Present a scenario with no external change: you skip lunch and feel shaky. Ask: what is the stimulus? (Blood glucose dropping \u2014 internal.) What detected it? (Chemoreceptors in the pancreas.) The no-external-event scenario forces recognition of internal stimuli.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "External stimulus",
+          "definition": "A change outside the body detected by sensory receptors \u2014 light, sound, temperature, touch, chemical signals."
+        }
+      ]
+    },
+    {
+      "term": "Receptor",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A specialised structure that detects a specific stimulus \u2014 the entry point of the receptor \u2192 command centre \u2192 effector pathway. Receptors are specific: thermoreceptors detect temperature, photoreceptors detect light, chemoreceptors detect chemical changes. Receptor specificity means each receptor detects only one type of stimulus.",
+      "failure_mode": "Students conflate the stimulus with the receptor \u2014 they treat the response as starting from the stimulus itself rather than requiring a specific detection structure. They say 'the body detects heat' without identifying which receptor does the detecting.",
+      "failure_type": "misconception",
+      "why_it_matters": "If the receptor is not held distinct from the stimulus, students cannot place it correctly in the pathway or locate where deviation is detected in a feedback loop. The receptor is the component that makes detection possible \u2014 without it, the loop has no input.",
+      "response": "Require students to name the specific receptor for a given stimulus as a distinct component before tracing any response pathway. Ask: what structure detects this change? The naming forces the distinction.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Command centre",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The part of the body that receives information from receptors, processes it, and sends instructions to effectors \u2014 typically the brain, spinal cord (nervous system) or a gland (endocrine system). The command centre is the decision-making component of the response pathway \u2014 it determines what response is appropriate and initiates it.",
+      "failure_mode": "Students skip the command centre and treat stimulus-response as a direct receptor-to-effector connection \u2014 they do not recognise that information must be processed and a response selected before the effector acts.",
+      "failure_type": "misconception",
+      "why_it_matters": "If the command centre is skipped, the pathway model collapses to a reflex arc with no processing step. Students cannot distinguish where nervous vs endocrine signalling differs (N3), cannot explain why the same stimulus can produce different responses in different contexts, and cannot locate the processing failure in feedback disorders (N7).",
+      "response": "Present a stimulus that could produce two different responses depending on context (e.g. hand touching hot vs warm surface). Ask: what decides which response? The decision-point reveals the command centre's role \u2014 without it, every stimulus would produce the same response regardless of context.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Effector",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A muscle or gland that carries out the response directed by the command centre. Muscles produce movement responses; glands produce chemical (hormonal) responses. The effector is the output component of the pathway \u2014 it produces the observable change that addresses the stimulus.",
+      "failure_mode": "Students confuse effectors with receptors \u2014 they think the structure that responds is the same as the structure that detects, particularly in cases where the effector is near the stimulus location (e.g. sweating in response to heat detected in the skin).",
+      "failure_type": "misconception",
+      "why_it_matters": "If effector and receptor are conflated, students cannot trace complete pathways, cannot identify which component fails in a disorder, and cannot explain why damage to effectors produces different consequences from damage to receptors.",
+      "response": "For a named response pathway, ask students to label receptor, command centre and effector separately. Then ask: if the effector is damaged but the receptor works, can the body detect the stimulus? (Yes.) Can it respond? (No.) The asymmetry reveals they are different components.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Nervous system",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The body system that coordinates rapid, short-duration responses using electrical signals transmitted along nerves. The nervous system implements the receptor \u2192 command centre \u2192 effector pathway via sensory neurons (receptor to brain), the brain or spinal cord (command centre), and motor neurons (command centre to effector). Nervous responses are fast (milliseconds), specific to a target, and short-lived.",
+      "failure_mode": "Students treat the nervous and endocrine systems as entirely separate rather than as two implementations of the same pathway model \u2014 they learn each system's features in isolation without recognising the shared receptor \u2192 command centre \u2192 effector architecture.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "The descriptor requires students to 'compare the role of body systems.' Comparison requires a common framework \u2014 the pathway model \u2014 applied to both systems. Students who learn each system separately cannot compare them systematically on signal type, speed, duration and specificity.",
+      "response": "Map the nervous system pathway onto the receptor \u2192 command centre \u2192 effector template explicitly. Then map the endocrine system onto the same template. The parallel mapping makes comparison structural rather than a list of unconnected facts.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Electrical signal",
+          "definition": "The signal type used by the nervous system \u2014 rapid impulses transmitted along nerve cells. Electrical signals are fast (milliseconds), travel along specific neural pathways, and produce short-duration responses."
+        }
+      ]
+    },
+    {
+      "term": "Endocrine system",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The body system that coordinates slower, longer-duration responses using chemical signals (hormones) released into the bloodstream. Glands act as command centres, releasing hormones that travel via blood to target organs (effectors). Endocrine responses are slower (seconds to hours), widespread (hormones reach all tissues via blood), and sustained.",
+      "failure_mode": "Students think the endocrine system is less important because it is slower \u2014 they do not recognise that sustained, widespread responses (growth, metabolism, blood glucose regulation) require the endocrine system's characteristics.",
+      "failure_type": "misconception",
+      "why_it_matters": "If slower means less important, students cannot explain why blood glucose regulation uses hormones (sustained response needed), cannot predict which system coordinates a given stimulus, and produce an unbalanced comparison that privileges speed over other dimensions.",
+      "response": "Present a stimulus requiring a sustained response (e.g. blood glucose regulation over hours). Ask: would a fast, short electrical signal be effective here? (No \u2014 the response needs to last hours.) The mismatch reveals why the endocrine system's characteristics are adaptive, not inferior.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Hormone",
+          "definition": "A chemical messenger produced by a gland and released into the bloodstream, travelling to target organs where it produces a specific effect. Hormones are the signal type of the endocrine system \u2014 slower than electrical signals but longer-lasting and more widespread.",
+          "failure_mode": "Students think hormones act locally at the gland that produces them \u2014 they do not understand that hormones travel through the bloodstream to distant target organs. This means they cannot trace endocrine pathways or explain why a gland in the brain can affect organs throughout the body.",
+          "failure_type": "misconception",
+          "response": "Trace insulin's journey: produced in the pancreas, released into the bloodstream, travels to liver and muscle cells throughout the body. Ask: does insulin only affect the pancreas? (No \u2014 it affects distant organs.) The journey makes bloodstream transport concrete.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Gland",
+          "definition": "An organ that produces and releases hormones into the bloodstream \u2014 the endocrine system's command centre. Examples include the pituitary gland, thyroid, pancreas and adrenal glands."
+        },
+        {
+          "term": "Target organ",
+          "definition": "The organ or tissue that responds to a specific hormone \u2014 the endocrine system's effector. Only cells with the correct receptor for a given hormone will respond to it.",
+          "failure_mode": "Students think hormones affect all organs equally once released into the bloodstream \u2014 they miss that only cells with the specific receptor for that hormone will respond, making hormone action targeted despite travelling everywhere.",
+          "failure_type": "misconception",
+          "response": "Ask: insulin travels in the blood past your brain, lungs, skin and muscles. Do all of those respond to insulin? (No \u2014 mainly liver and muscle cells, because they have insulin receptors.) The selective-response question reveals receptor specificity.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Homeostasis",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 5,
+      "width_tier": "typical",
+      "definition": "The maintenance of a stable internal environment within narrow limits, despite changes in the external environment. Homeostasis is essential for cell function \u2014 enzymes, membrane transport and chemical reactions all require conditions within specific ranges. Negative feedback is the primary mechanism by which homeostasis is achieved.",
+      "failure_mode": "Students define homeostasis as 'keeping things the same' rather than 'maintaining conditions within a functional range despite external change' \u2014 they miss the dynamic, active regulation and think the body simply stays constant passively.",
+      "failure_type": "misconception",
+      "why_it_matters": "If homeostasis is passive constancy, students cannot understand why negative feedback is necessary (active correction is needed because conditions are constantly being pushed off-set-point), and cannot explain why feedback failure in disorders (N7) produces progressive deterioration rather than a one-off change.",
+      "response": "Present a scenario where external conditions change (exercise raises body temperature). Ask: does body temperature stay exactly the same? (No \u2014 it rises slightly.) Does the body respond? (Yes \u2014 sweating, vasodilation.) The response to a disturbance makes homeostasis an active process, not passive constancy.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Negative feedback",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "A regulatory mechanism in which a deviation from a set point triggers a corrective response that returns the variable toward the set point. The mechanism has four components: set point (the target value), deviation (change detected by receptor), corrective response (action by effector), and return detection (receptor detects that the variable is returning to set point and reduces the response). It is called 'negative' because the response opposes the deviation \u2014 not because the feedback is harmful.",
+      "failure_mode": "Students interpret 'negative' as meaning 'bad' \u2014 they think negative feedback is a harmful process rather than understanding that 'negative' means the response opposes (negates) the direction of change.",
+      "failure_type": "misconception",
+      "why_it_matters": "If negative feedback is 'bad,' students look for positive feedback as the 'good' regulatory mechanism and cannot explain why homeostasis depends on opposing deviations. The misunderstanding also prevents students from distinguishing negative from positive feedback based on whether the response opposes or amplifies the change.",
+      "response": "Emphasise the directional meaning: deviation goes UP \u2192 response pushes DOWN (opposes). Deviation goes DOWN \u2192 response pushes UP (opposes). The response is always in the opposite direction to the deviation \u2014 that's what 'negative' means. Compare with positive feedback where the response amplifies the deviation.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Set point",
+          "definition": "The target value a negative feedback system maintains \u2014 the normal operating level for the regulated variable (e.g. 37\u00b0C for body temperature, 5 mmol/L for blood glucose).",
+          "failure_mode": "Students confuse the set point with the corrective response \u2014 they identify 'sweating' as the set point for temperature regulation rather than '37\u00b0C.' This conflation means they cannot trace the loop's logic: the set point is the target the system aims for, the corrective response is the action taken to return to it.",
+          "failure_type": "misconception",
+          "response": "Ask: what is the body TRYING to maintain? (37\u00b0C \u2014 that's the set point.) What does the body DO to get back to it? (Sweating \u2014 that's the corrective response.) The set point doesn't change; the response does.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Deviation",
+          "definition": "A change in the regulated variable away from the set point, detected by a receptor. Deviation is what triggers the corrective response \u2014 without deviation, the feedback system is inactive."
+        },
+        {
+          "term": "Corrective response",
+          "definition": "The action taken by the effector to return the variable toward the set point \u2014 e.g. sweating to reduce body temperature, insulin release to lower blood glucose. The response opposes the direction of the deviation."
+        },
+        {
+          "term": "Return detection",
+          "definition": "The receptor's ongoing monitoring that detects when the variable returns to or approaches the set point, triggering a reduction in the corrective response. This prevents overcorrection and completes the loop.",
+          "failure_mode": "Students omit return detection from feedback loops entirely \u2014 they draw a three-step loop (detect deviation \u2192 send signal \u2192 correct) without the step where the receptor checks whether the correction worked and scales back the response. This produces loops that overcorrect indefinitely.",
+          "failure_type": "fragile_skill",
+          "response": "Ask: if you start sweating when you're hot, when do you stop? What detects that you've cooled enough? The receptor re-checks the variable and reduces the corrective response \u2014 without this fourth step, you'd sweat until hypothermic.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Positive feedback",
+          "definition": "A regulatory mechanism in which the response amplifies the initial change rather than opposing it \u2014 pushing the variable further from the starting point. Used in specific biological contexts (childbirth contractions, blood clotting) where rapid escalation toward completion is needed. Contrasts with negative feedback.",
+          "failure_mode": "Students interpret 'positive' as 'good' and 'negative' as 'bad' \u2014 they think positive feedback is the normal, healthy mechanism and negative feedback is a harmful one, reversing the actual relationship (negative feedback maintains homeostasis; positive feedback is rare and context-specific).",
+          "failure_type": "misconception",
+          "response": "Ask: in childbirth, contractions get stronger and stronger \u2014 is that 'good' or 'bad'? (Neither \u2014 it's amplification toward a specific endpoint.) Then: temperature regulation opposes deviation \u2014 is that 'good' or 'bad'? (Neither \u2014 it's opposition to maintain stability.) Positive = amplifying; negative = opposing. The words describe direction, not value.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Feedback system disorder",
+      "descriptor_code": "AC9S9U01",
+      "first_waypoint": 7,
+      "width_tier": "minimum",
+      "definition": "A condition in which one or more components of a negative feedback loop fails, disrupting homeostasis. The specific component that fails determines the nature of the disorder: receptor failure means deviation is not detected, command centre failure means no corrective signal is sent, and effector failure means the corrective response cannot be carried out. Type 1 diabetes (effector \u2014 pancreatic cells destroyed, no insulin production) and hypothyroidism (gland \u2014 insufficient thyroid hormone production) are canonical examples.",
+      "failure_mode": "Students describe disorders as 'the body not working' without locating the failure within the loop architecture \u2014 they cannot identify which specific component has failed or explain why the failure produces the particular symptoms observed.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "The descriptor requires students to 'describe the operation of a negative feedback mechanism' \u2014 understanding how failure at different loop components produces different consequences is the analytical application of the model. Students who cannot locate the failure cannot explain why treatments target specific components (e.g. insulin replacement targets the effector gap in type 1 diabetes).",
+      "response": "For a named disorder, ask: which component of the feedback loop has failed \u2014 receptor, command centre, effector, or return detection? Then ask: what is the consequence of that specific component failing? The component-identification exercise applies the four-part model diagnostically.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Gamete",
+      "descriptor_code": "AC9S9U02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A reproductive cell specialised for sexual reproduction \u2014 sperm (male) and egg (female) in animals, pollen and ovule in plants. Gametes are structurally adapted for their function: sperm are small, motile and produced in large numbers; eggs are large, nutrient-rich and produced in small numbers. The structure-function principle from AC9S8U01 applies directly \u2014 each gamete feature serves a reproductive purpose.",
+      "failure_mode": "Students treat gametes as interchangeable undifferentiated cells \u2014 they do not connect the structural differences between sperm and egg to their distinct reproductive functions, and cannot explain why millions of sperm are needed but only one egg.",
+      "failure_type": "misconception",
+      "why_it_matters": "Form-function relationships in gametes are the foundation for understanding reproductive organ systems (N2) and fertilisation success (N3). Students who cannot explain WHY sperm are small and motile while eggs are large and stationary cannot analyse reproductive strategies as survival trade-offs.",
+      "response": "Present sperm and egg side by side with structural features labelled. For each feature, ask: what does this feature enable the gamete to do? The function-from-form reasoning makes each feature purposeful rather than arbitrary.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Sperm",
+          "definition": "The male gamete \u2014 small, motile, produced in very large numbers. Structural features (tail for motility, streamlined head, mitochondria for energy) are adaptations for reaching and fusing with the egg.",
+          "failure_mode": "Students know sperm swim but cannot connect structural features (tail, mitochondria, streamlined shape) to the function of reaching the egg \u2014 they describe features without explaining their purpose.",
+          "failure_type": "fragmentation",
+          "response": "For each sperm feature (tail, mitochondria, streamlined head), ask: what would happen if this feature were missing? The loss-of-function thought experiment makes each feature's role concrete.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Egg",
+          "definition": "The female gamete \u2014 large, immobile, nutrient-rich, produced in small numbers. The large size provides energy and nutrients for early embryo development; immobility means the sperm must travel to it.",
+          "failure_mode": "Students think eggs are large 'because they just are' rather than connecting size to the function of providing nutrients for early development.",
+          "failure_type": "fragmentation",
+          "response": "Ask: why does the egg need to be so much larger than the sperm? What does the extra size contain? (Nutrients and energy stores for early development.) The size difference has a functional explanation.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Pollen",
+          "definition": "The male reproductive structure in plants, containing male gametes. Pollen grains are adapted for dispersal \u2014 by wind (small, light, produced in huge quantities) or by insects (sticky, larger, with attractant features).",
+          "failure_mode": "Students know pollen exists but cannot connect pollen form to dispersal function \u2014 they do not explain why wind-pollinated pollen (small, light, smooth, produced in vast quantities) differs from insect-pollinated pollen (sticky, spiky, larger, with colour/scent attractants).",
+          "failure_type": "fragmentation",
+          "response": "Show images of wind-pollinated and insect-pollinated pollen grains side by side. Ask: which is designed for wind? How can you tell? The structural comparison applies the same form-function reasoning established for sperm and egg.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Ovule",
+          "definition": "The female reproductive structure in plants, containing the egg cell. After fertilisation, the ovule develops into a seed."
+        }
+      ]
+    },
+    {
+      "term": "Reproductive organ",
+      "descriptor_code": "AC9S9U02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A structure that is part of the reproductive system, serving gamete production, gamete transport, or fertilisation. Animal reproductive organs form integrated systems where each structure supports a step in the gamete pathway. Plant reproductive organs (stamen, carpel) are located within the flower and support pollination and fertilisation.",
+      "failure_mode": "Students list reproductive organs as isolated parts rather than understanding them as an integrated system \u2014 they name structures but cannot explain how they work together to achieve fertilisation.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "The descriptor requires students to 'describe the form and function of reproductive organs.' Function means how each organ contributes to the system's purpose. Students who list parts without connecting them to the reproductive sequence cannot meet the 'function' demand.",
+      "response": "Trace the gamete pathway through the system: production \u2192 maturation \u2192 transport \u2192 fertilisation. For each step, ask: which organ performs this step? The pathway-tracing approach gives structure to what would otherwise be a parts list.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Stamen",
+          "definition": "The male reproductive organ of a flower, consisting of the anther (produces pollen) and filament (supports the anther). The stamen's form supports pollen production and dispersal.",
+          "failure_mode": "Students confuse the stamen (male, produces pollen) with the carpel (female, contains ovules) \u2014 they cannot reliably assign male and female labels to plant reproductive structures.",
+          "failure_type": "fragile_skill",
+          "response": "Link to the gamete form-function from N1: stamen produces pollen (male gamete carrier) \u2192 stamen is male. Carpel contains ovules (female gamete) \u2192 carpel is female. The gamete connection makes the assignment logical rather than memorised.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Carpel",
+          "definition": "The female reproductive organ of a flower, consisting of the stigma (receives pollen), style (pollen tube pathway) and ovary (contains ovules). The carpel's form supports pollen capture, fertilisation and seed development."
+        },
+        {
+          "term": "Ovary",
+          "definition": "The structure in plants (within the carpel) or animals that contains and protects the egg cells or ovules. After fertilisation in plants, the ovary develops into the fruit."
+        }
+      ]
+    },
+    {
+      "term": "Sexual reproduction",
+      "descriptor_code": "AC9S9U02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Reproduction involving the fusion of gametes from two parents to produce offspring that are genetically unique. Sexual reproduction is slower, costlier and produces fewer offspring than asexual reproduction, but generates genetic variation \u2014 the key survival advantage. Variation means some offspring are likely to survive even if environmental conditions change.",
+      "failure_mode": "Students understand that sexual reproduction produces variation but treat variation as a byproduct rather than as the adaptive advantage \u2014 they say 'offspring are different' without connecting this to survival under changing conditions.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "The variation-survival link is the conceptual core of the descriptor's 'analyse how reproduction enables survival' demand. Without it, students cannot compare sexual and asexual strategies in terms of survival trade-offs (N5), and the analysis reduces to listing differences rather than evaluating advantages.",
+      "response": "Present a scenario: a population faces a new disease. Ask: which population is more likely to have some survivors \u2014 one where all offspring are identical, or one where every offspring is genetically different? The scenario makes variation's survival value concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Fertilisation",
+          "definition": "The fusion of a male and female gamete to form a new cell (zygote) that will develop into an offspring. Fertilisation combines genetic material from two parents, producing a genetically unique organism. Can be internal (within the body) or external (outside the body, e.g. in water).",
+          "failure_mode": "Students equate fertilisation with sexual reproduction itself \u2014 they think 'fertilisation' and 'sexual reproduction' are synonyms, missing that fertilisation is one step (gamete fusion) within a larger process that includes gamete production, transfer and development.",
+          "failure_type": "misconception",
+          "response": "Ask: is pollination the same as fertilisation? (No \u2014 pollination is transfer; fertilisation is fusion.) Is fertilisation the same as reproduction? (No \u2014 reproduction includes everything from gamete production through to offspring development.) The step-within-a-process framing prevents the conflation.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Genetic variation",
+      "descriptor_code": "AC9S9U02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Differences in genetic makeup among offspring, arising from the random combination of gametes during sexual reproduction. Genetic variation is the mechanism by which a species hedges against environmental change \u2014 in a varied population, some individuals are more likely to have traits suited to new conditions. Genetic variation is the link between sexual reproduction and species survival.",
+      "failure_mode": "Students state that sexual reproduction produces variation but cannot explain WHY variation helps survival \u2014 they treat 'different offspring' as an observation rather than a survival mechanism.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Without the variation-survival connection, the comparison between sexual and asexual reproduction in N5 reduces to a feature list rather than a survival analysis. The descriptor says 'analyse how the processes enable survival' \u2014 analyse requires a causal mechanism, not just a description.",
+      "response": "Run a simple simulation: 10 identical organisms face a new challenge (only organisms with trait X survive). Zero survive. Repeat with 10 varied organisms \u2014 some have trait X and survive. The survival difference makes variation's function visible.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Asexual reproduction",
+      "descriptor_code": "AC9S9U02",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "Reproduction involving a single parent, producing offspring that are genetically identical to the parent. Asexual reproduction is faster, less costly and produces more offspring than sexual reproduction, making it advantageous for rapid colonisation in stable environments. The trade-off: genetic uniformity means the entire population is vulnerable if conditions change. Strategies include binary fission (bacteria), budding (yeast, hydra), fragmentation (starfish), and vegetative reproduction (plants).",
+      "failure_mode": "Students think asexual reproduction is 'simpler and worse' than sexual reproduction \u2014 they do not recognise that it is an adaptive strategy with genuine advantages (speed, efficiency) in specific environmental contexts.",
+      "failure_type": "misconception",
+      "why_it_matters": "If asexual reproduction is inferior, students cannot analyse it as a survival strategy with context-dependent advantages \u2014 the 'analyse' demand requires evaluating each strategy on its merits, not ranking them.",
+      "response": "Present a stable, resource-rich environment and ask: which strategy colonises it faster \u2014 producing genetically identical offspring rapidly, or producing varied offspring slowly? The rapid-colonisation scenario reveals asexual reproduction's genuine advantage.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Binary fission",
+          "definition": "Asexual reproduction in single-celled organisms where the cell divides into two genetically identical daughter cells. Extremely rapid \u2014 some bacteria can divide every 20 minutes.",
+          "failure_mode": "Students confuse binary fission with mitosis \u2014 they treat both as 'cell division' without distinguishing that binary fission is reproduction (producing a new organism) while mitosis is growth or repair within a multicellular organism.",
+          "failure_type": "misconception",
+          "response": "Ask: when a bacterium divides by binary fission, how many organisms exist afterwards? (Two.) When a skin cell divides by mitosis, how many organisms exist? (Still one.) Binary fission produces new organisms; mitosis produces new cells within the same organism.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Budding",
+          "definition": "Asexual reproduction where a new organism grows as an outgrowth of the parent and eventually separates \u2014 used by yeast and hydra."
+        },
+        {
+          "term": "Vegetative reproduction",
+          "definition": "Asexual reproduction in plants using non-reproductive structures \u2014 runners (strawberries), tubers (potatoes), bulbs (onions). Produces genetically identical plants rapidly.",
+          "failure_mode": "Students do not recognise vegetative reproduction as reproduction \u2014 they classify runners, tubers and bulbs as 'just growing' rather than as a reproductive strategy producing genetically identical new organisms.",
+          "failure_type": "misconception",
+          "response": "Ask: if a strawberry plant sends out a runner that roots and grows into a new plant, how many organisms are there now? (Two.) Is the new plant genetically identical to the parent? (Yes.) Then this IS reproduction \u2014 a new organism was produced. The organism-count question reframes growth as reproduction.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Fragmentation",
+          "definition": "Asexual reproduction where an organism breaks into pieces and each piece regenerates into a complete organism \u2014 used by starfish and some worms."
+        }
+      ]
+    },
+    {
+      "term": "Earth's spheres",
+      "descriptor_code": "AC9S9U03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The four interacting components of the Earth system: geosphere (solid Earth \u2014 rocks, soil, minerals), biosphere (all living organisms), hydrosphere (all water \u2014 oceans, rivers, ice), and atmosphere (the layer of gases). The four-sphere framework is the structural scaffold for the carbon cycle \u2014 each process in the cycle moves carbon between specific spheres.",
+      "failure_mode": "Students cannot locate processes in specific spheres \u2014 they treat photosynthesis, combustion and respiration as events without identifying which spheres are involved, preventing them from representing carbon movement as sphere-to-sphere flows.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "The four-sphere framework is the structural scaffold the carbon cycle diagram depends on. Students who cannot assign processes to spheres cannot represent carbon flows as directional arrows between spheres in N3\u2013N5, and cannot explain what 'sphere interaction' means.",
+      "response": "Give students a list of processes (photosynthesis, respiration, combustion, dissolution, volcanic eruption) and ask them to identify which sphere the carbon starts in and which sphere it moves to. The two-sphere identification for each process builds the flow-diagram thinking the carbon cycle requires.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Geosphere",
+          "definition": "The solid Earth \u2014 rocks, soil, minerals, fossil fuel deposits, carbonate rock. Carbon is stored in the geosphere as fossil fuels (coal, oil, gas) and carbonate rocks (limestone) over geological timescales."
+        },
+        {
+          "term": "Biosphere",
+          "definition": "All living organisms and organic matter. Carbon enters the biosphere through photosynthesis and leaves through respiration and decomposition.",
+          "failure_mode": "Students include only living organisms in the biosphere and exclude dead organic matter \u2014 leaf litter, soil humus, dead wood. This means they underestimate the biosphere's carbon store and cannot explain where decomposition fits in the carbon cycle.",
+          "failure_type": "misconception",
+          "response": "Ask: a fallen tree in a forest \u2014 is it in the biosphere? (Yes \u2014 it's organic matter, even though it's dead.) What happens to its carbon? (Decomposers respire it back to atmosphere.) The dead-material inclusion reveals the biosphere as a carbon store, not just a collection of living things.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Hydrosphere",
+          "definition": "All water on Earth \u2014 oceans, rivers, lakes, ice. The ocean is a major carbon store, absorbing CO\u2082 from the atmosphere and holding dissolved carbon.",
+          "failure_mode": "Students forget the ocean as a carbon store \u2014 they focus on atmospheric CO\u2082 and fossil fuels but omit dissolved ocean carbon, which is the largest actively cycling store. This produces incomplete carbon cycle diagrams missing a major reservoir.",
+          "failure_type": "fragile_skill",
+          "response": "Ask: where does about a quarter of human CO\u2082 emissions end up? (Dissolved in the ocean.) Present a carbon cycle diagram without the ocean and ask what's missing. The omission exercise makes the hydrosphere's role visible.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Atmosphere",
+          "definition": "The layer of gases surrounding Earth. Carbon is stored in the atmosphere primarily as CO\u2082. Atmospheric CO\u2082 concentration is the variable most directly affected by combustion and deforestation."
+        }
+      ]
+    },
+    {
+      "term": "Carbon cycle",
+      "descriptor_code": "AC9S9U03",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The continuous movement of carbon between Earth's four spheres through biological, chemical and geological processes. Carbon is neither created nor destroyed \u2014 it moves between stores (atmosphere, biosphere, hydrosphere, geosphere) at different rates. The carbon cycle diagram is the representation the descriptor explicitly demands.",
+      "failure_mode": "Students think of the carbon cycle as a linear sequence (carbon goes from A to B to C) rather than a cycle with multiple simultaneous pathways \u2014 they cannot represent the cycle as a diagram with arrows running in multiple directions between multiple spheres.",
+      "failure_type": "misconception",
+      "why_it_matters": "If the carbon cycle is linear, students cannot explain how carbon returns to stores it left, cannot represent multiple simultaneous flows in a diagram, and cannot analyse how human activity perturbs one flow without understanding what other flows are operating at the same time.",
+      "response": "Build the cycle incrementally: start with one flow (photosynthesis: atmosphere \u2192 biosphere). Add its reverse (respiration: biosphere \u2192 atmosphere). Then add combustion (geosphere \u2192 atmosphere). At each step, ask: does the diagram show carbon flowing in only one direction? (No \u2014 multiple arrows, multiple directions.) The incremental build makes the multi-directional nature visible.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Carbon store",
+          "definition": "A location where carbon accumulates and is held \u2014 atmospheric CO\u2082, dissolved ocean carbon, organic matter in living and dead organisms, fossil fuels, and carbonate rocks. Stores differ in size and timescale: atmospheric carbon cycles in years; fossil fuel carbon is stored for millions of years.",
+          "failure_mode": "Students treat all carbon stores as equivalent \u2014 they do not distinguish fast-cycling stores (atmospheric CO\u2082, living organisms) from slow stores (fossil fuels, carbonate rock) and therefore cannot explain why releasing fossil fuel carbon is a net perturbation while burning wood is not.",
+          "failure_type": "misconception",
+          "response": "Compare two stores: CO\u2082 in the atmosphere (cycles through in years) vs carbon in coal (stored for 300 million years). Ask: if you add carbon from each store to the atmosphere, which one was the atmosphere already cycling? The timescale distinction explains why fossil fuel combustion perturbs the cycle.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Carbon sequestration",
+          "definition": "The process of capturing and storing carbon, removing it from the atmosphere. Natural sequestration occurs through photosynthesis (biosphere) and ocean absorption (hydrosphere). Technological sequestration attempts to accelerate or supplement natural processes.",
+          "failure_mode": "Students think carbon sequestration is only technological \u2014 carbon capture machines and underground storage \u2014 and miss that natural sequestration (photosynthesis by forests, absorption by oceans) is vastly larger and already operating.",
+          "failure_type": "misconception",
+          "response": "Ask: what is the biggest carbon sequestration system on Earth? (The ocean, absorbing ~25% of CO\u2082 emissions, and terrestrial photosynthesis.) Then: is planting trees sequestration? (Yes \u2014 natural sequestration.) The scale comparison reframes sequestration as primarily natural.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Photosynthesis",
+      "descriptor_code": "AC9S9U03",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The process by which plants use light energy to convert CO\u2082 and water into glucose and oxygen. In the carbon cycle, photosynthesis moves carbon from the atmosphere to the biosphere \u2014 it is the primary biological mechanism that removes CO\u2082 from the air and stores it as organic carbon in living tissue.",
+      "failure_mode": "Students know photosynthesis as a cellular process but cannot reframe it as a sphere-crossing carbon flow \u2014 they describe what happens inside a cell without locating the carbon movement between atmosphere and biosphere.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "The descriptor requires representing the carbon cycle as sphere interactions. Students who cannot locate photosynthesis as an atmosphere \u2192 biosphere flow cannot draw the corresponding arrow on a carbon cycle diagram, and cannot explain why deforestation increases atmospheric CO\u2082 (removing the biosphere's CO\u2082-absorption capacity).",
+      "response": "Ask students to trace a carbon atom: where does the carbon start? (CO\u2082 in the atmosphere.) Where does it end up after photosynthesis? (Glucose in the plant \u2014 biosphere.) Draw the arrow. The atom-tracing exercise reframes the cellular process as a sphere flow.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Respiration",
+      "descriptor_code": "AC9S9U03",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The process by which organisms release energy from glucose, producing CO\u2082 and water. In the carbon cycle, respiration moves carbon from the biosphere to the atmosphere \u2014 it is the reverse carbon flow to photosynthesis. All living organisms respire \u2014 including plants \u2014 making respiration a continuous, universal carbon flow.",
+      "failure_mode": "Students confuse respiration with breathing \u2014 they think only animals respire and that respiration is the act of inhaling and exhaling rather than a cellular chemical process that releases CO\u2082.",
+      "failure_type": "misconception",
+      "why_it_matters": "If only animals respire, the carbon cycle is incomplete \u2014 plant respiration is a significant biosphere \u2192 atmosphere flow. Students who equate respiration with breathing cannot represent the full cycle or explain why ecosystems produce CO\u2082 even without animals.",
+      "response": "Ask: do plants respire? (Yes \u2014 all living cells respire, including plant cells.) Then: if plants photosynthesise AND respire, what determines whether a forest is a net carbon sink or source? The dual-process question forces the distinction between breathing and cellular respiration.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Decomposition",
+          "definition": "The breakdown of dead organic matter by bacteria and fungi, releasing CO\u2082 to the atmosphere. Decomposition is biologically a form of respiration \u2014 microorganisms respire using the dead material as their energy source. In the carbon cycle, decomposition returns carbon from the biosphere to the atmosphere.",
+          "failure_mode": "Students treat decomposition as a fundamentally different process from respiration \u2014 they recognise that animals respire but do not classify decomposition as microbial respiration using dead organic matter as the energy source.",
+          "failure_type": "misconception",
+          "response": "Ask: what are decomposers doing with the dead material? (Using it as food \u2014 breaking it down for energy.) What process releases energy from food and produces CO\u2082? (Respiration.) So decomposition IS respiration \u2014 just performed by microorganisms on dead matter. The reclassification unifies the two carbon flows.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Combustion",
+      "descriptor_code": "AC9S9U03",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "A chemical reaction in which a substance reacts rapidly with oxygen, releasing heat and light, and producing CO\u2082 and water. In the carbon cycle, combustion of fossil fuels moves carbon from the geosphere to the atmosphere \u2014 releasing carbon that was sequestered over millions of years in a matter of hours. Human industrial and transport combustion is the primary perturbation to the natural carbon cycle.",
+      "failure_mode": "Students treat fossil fuel combustion as equivalent to burning wood \u2014 they do not recognise that fossil fuel carbon was removed from the cycle millions of years ago, so burning it adds new carbon to the actively cycling pool rather than recycling recently fixed carbon.",
+      "failure_type": "misconception",
+      "why_it_matters": "The timescale distinction is why fossil fuel combustion perturbs the carbon cycle while wood burning does not (in a replanted forest). Students who miss this cannot explain why atmospheric CO\u2082 is rising \u2014 the answer is that carbon stored on geological timescales is being released on human timescales, faster than natural processes can re-absorb it.",
+      "response": "Compare two combustion events: burning a log (carbon fixed by photosynthesis 50 years ago) vs burning coal (carbon fixed 300 million years ago). Ask: which adds 'new' carbon to the atmospheric pool? The timescale comparison reveals why fossil fuel combustion is a net addition while biomass burning can be carbon-neutral.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Fossil fuel",
+          "definition": "A carbon-rich material (coal, oil, natural gas) formed from ancient organisms buried and compressed over millions of years. Fossil fuels represent carbon removed from the active cycle and stored in the geosphere on geological timescales.",
+          "failure_mode": "Students think fossil fuels formed from dinosaurs \u2014 the word 'fossil' triggers the association. In fact, coal formed primarily from ancient plant matter (Carboniferous forests) and oil/gas from marine microorganisms. The misconception matters because it obscures the photosynthetic origin of fossil carbon.",
+          "failure_type": "misconception",
+          "response": "Ask: coal is mostly carbon from what kind of ancient organism? (Plants \u2014 giant ferns and trees from 300 million years ago.) What process originally captured that carbon from the atmosphere? (Photosynthesis.) The photosynthesis connection ties fossil fuel formation back to the carbon cycle.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Greenhouse effect",
+      "descriptor_code": "AC9S9U03",
+      "first_waypoint": 4,
+      "width_tier": "typical",
+      "definition": "The process by which greenhouse gases (primarily CO\u2082, CH\u2084, H\u2082O) in the atmosphere absorb and re-emit infrared radiation emitted by Earth's surface, warming the lower atmosphere. At Year 9, the greenhouse effect is introduced as the mechanism connecting increased atmospheric CO\u2082 (from combustion) to increased heat retention \u2014 the link between carbon cycle perturbation and climate change.",
+      "failure_mode": "Students know 'CO\u2082 causes global warming' as a fact without understanding the mechanism \u2014 they cannot explain how CO\u2082 traps heat or locate the greenhouse effect within the carbon cycle's sphere interactions.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "Without the mechanism, students cannot explain why increasing CO\u2082 concentration increases warming, cannot connect carbon cycle perturbation to climate consequences, and arrive at Year 10 (AC9S10U04) without the foundation for energy balance reasoning.",
+      "response": "Trace the energy flow: sunlight in \u2192 absorbed by surface \u2192 surface emits infrared \u2192 CO\u2082 absorbs and re-emits some infrared back down \u2192 surface receives extra energy. Then ask: what happens to this process if more CO\u2082 is added? The flow-tracing makes the mechanism visible.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Particle model",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A scientific model that explains energy transfer in terms of particle motion, collisions and interactions. The particle model accounts for conduction (energy transfer through particle collisions in solids), convection (bulk particle movement in fluids) and electrical current (directed electron flow). It is one of two models students must evaluate for usefulness in explaining different energy transfer phenomena.",
+      "failure_mode": "Students use the particle model descriptively ('heat moves through the metal') without engaging the mechanism \u2014 they do not identify particle collisions as the transfer mechanism in conduction or density-driven movement as the mechanism in convection.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "The descriptor requires students to 'use wave and particle models to describe energy transfer.' Using the model means applying its mechanism to explain phenomena, not just naming the model. Students who cannot engage the mechanism cannot evaluate when the particle model is more useful than the wave model (N5).",
+      "response": "For each phenomenon, require the mechanism: conduction \u2014 what are the particles doing? (Colliding, passing on kinetic energy.) Convection \u2014 why do particles move? (Heated particles expand, become less dense, rise.) The mechanism question prevents surface-level naming.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Conduction",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Energy transfer through a material by particle-to-particle collisions without bulk movement of the material. In solids, closely packed particles transfer kinetic energy through collisions \u2014 metals conduct well because their particles are close and include free electrons that enhance transfer. Conduction is explained by the particle model: the mechanism is collision, not flow.",
+      "failure_mode": "Students say 'heat travels through the metal' as if heat flows like a liquid \u2014 they do not identify particle collisions as the mechanism, treating conduction as movement of heat rather than transfer of kinetic energy between particles.",
+      "failure_type": "misconception",
+      "why_it_matters": "If heat 'flows,' the particle model adds nothing \u2014 the mechanism is invisible. Students cannot then compare the particle model's explanation (collision mechanism) with the wave model's explanation (wave propagation) because they haven't engaged either model's mechanism.",
+      "response": "Animate or diagram a chain of particles: the first vibrates, collides with the second, which vibrates, collides with the third. Ask: did any particle move across the material? (No \u2014 only the energy transferred.) The particle-by-particle transfer is the mechanism.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Convection",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Energy transfer through a fluid (liquid or gas) by bulk movement of particles carrying kinetic energy. Heated particles expand, become less dense and rise; cooler, denser particles sink to replace them, creating a convection current. Unlike conduction, particles themselves move \u2014 carrying energy with them.",
+      "failure_mode": "Students confuse convection with conduction \u2014 they apply the same 'heat travels through it' explanation to both, missing that convection involves actual particle movement (bulk flow) while conduction involves only energy transfer between stationary particles.",
+      "failure_type": "misconception",
+      "why_it_matters": "Distinguishing conduction from convection is a key application of the particle model. Students who conflate them cannot explain why convection only occurs in fluids (particles must be free to move) or why convection is faster than conduction (bulk movement vs collision-by-collision).",
+      "response": "Compare heating a metal rod (conduction \u2014 particles vibrate but stay in place) with heating water in a beaker (convection \u2014 particles physically rise and circulate). Ask: do the particles in the metal move to a new location? (No.) Do the water particles? (Yes.) The movement distinction separates the two mechanisms.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Convection current",
+          "definition": "The circular flow pattern created when heated particles rise and cooler particles sink to replace them. Convection currents drive wind patterns, ocean circulation and the movement of magma beneath Earth's surface.",
+          "failure_mode": "Students draw convection as heat rising in a straight line upward rather than as a circular current with both rising (warm, less dense) and sinking (cool, denser) components completing the loop.",
+          "failure_type": "fragile_skill",
+          "response": "Heat water in a beaker with a drop of dye at the bottom. Ask students to trace the FULL path: dye rises at the heated side, moves across the top, sinks at the cooler side, moves back along the bottom. The complete loop \u2014 not just 'hot air rises' \u2014 is the convection current.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Wave model",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A scientific model that explains energy transfer as a disturbance propagating through a medium or through space. Wave properties \u2014 frequency, amplitude, wavelength \u2014 describe the characteristics of the transferred energy. The wave model explains sound (longitudinal waves through matter) and electromagnetic radiation (transverse waves that can travel through a vacuum). It is the second of two models students must evaluate.",
+      "failure_mode": "Students think waves carry matter from one place to another rather than transferring energy through a medium \u2014 they imagine particles travelling with the wave rather than oscillating in place as the wave passes through.",
+      "failure_type": "misconception",
+      "why_it_matters": "If waves carry matter, the distinction between wave and particle models collapses. The wave model's explanatory power depends on energy transfer WITHOUT bulk particle movement \u2014 the exact opposite of convection. Students who miss this cannot evaluate when each model is more useful.",
+      "response": "Use a slinky spring: push one end and a compression wave travels to the other end \u2014 but does any coil actually travel across the room? (No \u2014 each coil oscillates in place.) The wave transferred energy without moving matter.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Frequency",
+          "definition": "The number of wave oscillations per second, measured in hertz (Hz). In sound, frequency determines pitch (higher frequency = higher pitch). In electromagnetic radiation, frequency determines energy (higher frequency = higher energy).",
+          "failure_mode": "Students confuse frequency with wave speed \u2014 they think higher frequency means the wave travels faster, rather than understanding that frequency describes how many oscillations occur per second while speed depends on the medium.",
+          "failure_type": "misconception",
+          "response": "Play two sounds of different pitch in the same room. Ask: did the higher-pitched sound arrive at your ear faster? (No \u2014 both travelled at the same speed through air.) Frequency changed; speed did not. The demonstration separates the two properties.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Amplitude",
+          "definition": "The maximum displacement of a wave from its resting position. In sound, amplitude determines loudness (greater amplitude = louder sound). In light, amplitude determines brightness.",
+          "failure_mode": "Students confuse amplitude with frequency \u2014 they think a louder sound must also be higher pitched, conflating the two independent wave properties.",
+          "failure_type": "misconception",
+          "response": "Play a loud low note and a quiet high note. Ask: which is louder? (The low note.) Which is higher pitched? (The high note.) Loudness (amplitude) and pitch (frequency) vary independently \u2014 a sound can be loud and low or quiet and high.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Wavelength",
+          "definition": "The distance between consecutive identical points on a wave (peak to peak or compression to compression). Wavelength and frequency are inversely related for waves travelling at the same speed.",
+          "failure_mode": "Students treat wavelength and frequency as independent properties \u2014 they do not recognise the inverse relationship (for waves at constant speed, higher frequency means shorter wavelength). This prevents them from using one property to predict the other across the electromagnetic spectrum.",
+          "failure_type": "misconception",
+          "response": "Draw waves at two different frequencies in the same space (representing same speed). Ask: which has more waves per second? (Higher frequency.) Which has shorter distance between peaks? (Same one \u2014 shorter wavelength.) The visual makes the inverse relationship unavoidable.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Sound",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A form of energy transferred as a longitudinal wave through a medium (solid, liquid or gas). Sound waves consist of compressions (regions of high particle density) and rarefactions (regions of low density) moving through the medium. Sound requires a medium \u2014 it cannot travel through a vacuum because there are no particles to compress.",
+      "failure_mode": "Students think sound can travel through a vacuum \u2014 they do not connect sound propagation to the need for particles to compress and rarefy. This misconception often persists because students hear sound depicted in space in media.",
+      "failure_type": "misconception",
+      "why_it_matters": "Medium-dependence is the key feature that distinguishes sound from electromagnetic radiation \u2014 sound needs particles; EM radiation does not. Students who think sound travels through vacuums cannot make this distinction, which is central to evaluating model usefulness in N5.",
+      "response": "Present the bell-in-a-vacuum-jar demonstration (or video): as air is removed, the bell becomes inaudible despite still being struck. Ask: what was removed? (Air \u2014 the medium.) What does this prove? (Sound needs a medium of particles to travel through.)",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Longitudinal wave",
+          "definition": "A wave in which particles oscillate parallel to the direction the wave travels \u2014 compressions and rarefactions alternate along the wave's path. Sound is the primary example.",
+          "failure_mode": "Students apply the transverse wave model to sound \u2014 they draw sound waves as up-and-down sine curves and think air particles move perpendicular to the wave direction, missing that sound is a compression wave where particles oscillate parallel to the direction of travel.",
+          "failure_type": "misconception",
+          "response": "Use a slinky: push it along its length (longitudinal \u2014 compressions travel along the spring) vs shake it side to side (transverse \u2014 peaks travel along the spring). Ask: which one matches how sound travels through air? The physical comparison makes the parallel-vs-perpendicular distinction visible.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Compression",
+          "definition": "A region in a longitudinal wave where particles are pushed together, creating high density and high pressure.",
+          "failure_mode": "Students cannot distinguish compressions from rarefactions \u2014 they use the terms interchangeably or reverse them, describing compressions as spread-out regions and rarefactions as bunched-up regions.",
+          "failure_type": "fragile_skill",
+          "response": "Use a slinky: push one end to create a compression (coils bunched together = high density). Point to the bunched region: this is a compression (think 'compressed = squished together'). The stretched region behind it is a rarefaction (think 'rare = spread out, few particles'). The mnemonic anchors the distinction.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Rarefaction",
+          "definition": "A region in a longitudinal wave where particles are spread apart, creating low density and low pressure."
+        },
+        {
+          "term": "Medium",
+          "definition": "The material a wave travels through \u2014 solid, liquid or gas. Sound requires a medium; electromagnetic radiation does not."
+        }
+      ]
+    },
+    {
+      "term": "Static electricity",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The build-up of electric charge on an object due to the transfer of electrons between materials. When two materials are rubbed together, electrons transfer from one to the other \u2014 one becomes negatively charged (gains electrons), the other positively charged (loses electrons). The particle model explains static electricity: the mechanism is electron transfer, not charge creation.",
+      "failure_mode": "Students think rubbing creates charge rather than transferring it \u2014 they believe charge is produced by friction rather than redistributed between materials.",
+      "failure_type": "misconception",
+      "why_it_matters": "If charge is created by rubbing, conservation of charge is violated and students cannot explain why one object becomes positive while the other becomes negative. The particle model requires electron transfer \u2014 electrons move from one material to another, leaving one positive and the other negative.",
+      "response": "Rub a balloon on hair. Ask: is the balloon now negative? (Yes \u2014 gained electrons.) Is the hair now positive? (Yes \u2014 lost electrons.) Where did the electrons come from? (The hair.) Were electrons created? (No \u2014 transferred.) The accounting exercise makes conservation of charge concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Charge",
+          "definition": "A property of matter that produces electric force. Electrons carry negative charge; protons carry positive charge. Like charges repel; opposite charges attract. Charge is conserved \u2014 it transfers between objects but is not created or destroyed.",
+          "failure_mode": "Students think charge is a substance that flows into or out of objects \u2014 like pouring water \u2014 rather than understanding charge as a property of matter (electrons) that is redistributed by transfer.",
+          "failure_type": "misconception",
+          "response": "Ask: when you charge a balloon by rubbing, did you add something new to it? (You added electrons from your hair.) Did those electrons exist before? (Yes \u2014 they were in your hair.) Charge was redistributed, not created or poured in.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Electron transfer",
+          "definition": "The movement of electrons from one material to another during contact or friction. Electron transfer is the particle-level mechanism behind static electricity \u2014 materials don't gain or lose 'charge'; they gain or lose electrons."
+        }
+      ]
+    },
+    {
+      "term": "Electrical current",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The directed flow of electrons through a conductor, driven by voltage. Current is explained by the particle model: electrons (negative charges) flow from negative to positive terminal through the conductor. Conductors have free electrons that can move; insulators have bound electrons that cannot.",
+      "failure_mode": "Students think current is consumed by components \u2014 they believe current 'uses up' as it passes through a light bulb, so less current flows out of the bulb than flows in. This violates conservation of charge and misrepresents current as a substance rather than a flow.",
+      "failure_type": "misconception",
+      "why_it_matters": "If current is consumed, the particle model of electron flow breaks \u2014 electrons would disappear inside components. This misconception prevents students from understanding circuits, resistance and energy transfer in electrical systems. It also prevents meaningful comparison with wave energy transfer.",
+      "response": "Use the analogy of water flowing in a closed pipe loop: water passes through every point in the loop at the same rate. Nothing is consumed \u2014 energy is transferred from the water to the device, but the water itself keeps flowing. Similarly, electrons keep flowing; energy is transferred to the component.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Voltage",
+          "definition": "The energy difference that drives electron flow \u2014 the 'push' that moves electrons through a conductor. Measured in volts. Higher voltage means more energy per electron and greater current flow.",
+          "failure_mode": "Students treat voltage and current as the same thing \u2014 they use the terms interchangeably and cannot explain why a circuit can have high voltage but low current (or vice versa).",
+          "failure_type": "misconception",
+          "response": "Use the water analogy: voltage is the height difference (pressure driving flow); current is the amount of water flowing per second. A tall narrow waterfall has high pressure but low flow; a wide gentle stream has low pressure but high flow. The analogy separates the two concepts.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Conductor",
+          "definition": "A material with free electrons that can move through it, allowing electrical current to flow. Metals are good conductors because their outer electrons are loosely bound and free to move.",
+          "failure_mode": "Students classify conductors and insulators by memorised lists \u2014 'metals conduct, rubber insulates' \u2014 without connecting to the particle model explanation: conductors have free electrons that can flow; insulators have bound electrons that cannot.",
+          "failure_type": "fragmentation",
+          "response": "Ask: WHY do metals conduct? (Their outer electrons are free to move through the material.) WHY doesn't rubber conduct? (Its electrons are tightly bound.) The free-electron mechanism turns a memorised list into a predictive model \u2014 students can predict whether a novel material will conduct.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Insulator",
+          "definition": "A material with no free electrons \u2014 electrons are tightly bound and cannot flow. Rubber, plastic and glass are common insulators."
+        }
+      ]
+    },
+    {
+      "term": "Electromagnetic spectrum",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The continuous range of electromagnetic radiation arranged by frequency and wavelength \u2014 from low-frequency radio waves to high-frequency gamma rays. All electromagnetic waves are transverse, travel at the speed of light in a vacuum, and do not require a medium. Higher frequency corresponds to higher energy. The spectrum includes radio, microwave, infrared, visible light, ultraviolet, X-ray and gamma radiation.",
+      "failure_mode": "Students think different parts of the electromagnetic spectrum are fundamentally different types of energy rather than the same type of wave (transverse EM wave) at different frequencies \u2014 they treat radio waves and gamma rays as unrelated.",
+      "failure_type": "misconception",
+      "why_it_matters": "If EM wave types are unrelated, students cannot use the wave model to explain why they all travel at the same speed in a vacuum, cannot apply frequency-energy relationships across the spectrum, and cannot evaluate the wave model's explanatory range in N5.",
+      "response": "Present the spectrum as a single continuous band with frequency increasing left to right. Ask: what is the SAME across all parts? (All transverse EM waves, all travel at c in vacuum.) What is DIFFERENT? (Only frequency and wavelength.) The same-wave-different-frequency framing unifies the spectrum.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Transverse wave",
+          "definition": "A wave in which particles (or fields) oscillate perpendicular to the direction the wave travels. All electromagnetic waves are transverse \u2014 contrasting with sound, which is longitudinal."
+        },
+        {
+          "term": "Electromagnetic radiation",
+          "definition": "Energy transferred as oscillating electric and magnetic fields \u2014 a transverse wave that can travel through a vacuum. Includes all types on the electromagnetic spectrum.",
+          "failure_mode": "Students think electromagnetic radiation requires a medium to travel through \u2014 they apply the sound model (needs air/water/solid) to light and radio waves, and cannot explain how sunlight reaches Earth through the vacuum of space.",
+          "failure_type": "misconception",
+          "response": "Ask: sound cannot travel through a vacuum \u2014 can light? (Yes \u2014 sunlight crosses space.) What does this tell you about light's mechanism? (It doesn't need particles to propagate.) The space-crossing observation is the key evidence that EM radiation is fundamentally different from sound.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Photon",
+      "descriptor_code": "AC9S9U04",
+      "first_waypoint": 5,
+      "width_tier": "typical",
+      "definition": "A particle of light \u2014 a discrete packet of electromagnetic energy. The concept of the photon arises because some phenomena (the photoelectric effect) cannot be explained by the wave model alone: light sometimes behaves as a stream of particles rather than a continuous wave. Photons represent the case where neither the wave model nor the particle model alone is sufficient \u2014 an introduction to wave-particle duality.",
+      "failure_mode": "Students try to classify light as EITHER a wave OR a particle \u2014 they seek a single correct answer rather than recognising that both models are useful for different phenomena and that light's dual nature reveals the limits of classical models.",
+      "failure_type": "misconception",
+      "why_it_matters": "The descriptor requires students to 'examine the usefulness of each model for explaining phenomena.' The photon is the concept that reveals models as tools with domains of usefulness, not literal descriptions. Students who insist on one correct model cannot meet the evaluation demand.",
+      "response": "Present two phenomena: diffraction of light (wave model explains it) and the photoelectric effect (particle model explains it). Ask: which model is 'right'? (Both are useful for different phenomena.) Then: what does this tell us about scientific models? (They are tools, not truths.) The dual-evidence exercise makes model evaluation concrete.",
+      "response_type": "integration"
+    },
+    {
+      "term": "Conservation of energy",
+      "descriptor_code": "AC9S9U05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The law stating that energy cannot be created or destroyed \u2014 only transferred between objects or transformed from one form to another. The total energy in a closed system remains constant. 'Wasted' energy is not lost; it is transferred to the environment, typically as heat or sound, and becomes unavailable for useful work.",
+      "failure_mode": "Students believe energy is 'used up' or 'disappears' during transformations \u2014 they think a light bulb 'consumes' energy rather than transforming electrical energy into light and heat, with the total remaining constant.",
+      "failure_type": "misconception",
+      "why_it_matters": "If energy is consumed, efficiency cannot be defined as a ratio (you cannot divide useful output by total input if some input 'vanishes'). Conservation is the law the entire standard applies \u2014 every efficiency calculation and Sankey diagram depends on total energy being conserved.",
+      "response": "Present a system where energy appears to vanish (bouncing ball loses height each bounce). Ask: where did the energy go? Trace it to heat and sound. Then ask: is the total energy before the first bounce equal to the total energy after the last bounce? (Yes \u2014 if you include the heat and sound.) The accounting exercise makes conservation concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Energy transfer",
+          "definition": "Energy moving from one object or location to another without changing form \u2014 e.g. heat flowing from a hot object to a cold one. The particle model (conduction, convection) and wave model (radiation) describe transfer mechanisms."
+        },
+        {
+          "term": "Energy transformation",
+          "definition": "Energy changing from one form to another \u2014 e.g. electrical to light in a bulb, chemical to kinetic in muscles. In every transformation, total energy is conserved but some is transformed into less useful forms (typically heat)."
+        },
+        {
+          "term": "Wasted energy",
+          "definition": "Energy transferred to the environment in a form that is not useful for the intended purpose \u2014 typically heat and sound. Wasted energy is not destroyed (conservation still holds); it is dissipated into the surroundings and becomes unavailable for useful work.",
+          "failure_mode": "Students think 'wasted' energy is a design flaw that better engineering could eliminate \u2014 they do not understand that some energy dissipation as heat is thermodynamically inevitable in any real energy transformation.",
+          "failure_type": "misconception",
+          "response": "Ask: can you design a light bulb with zero heat output? (No \u2014 some electrical energy will always become heat.) Even an LED, the most efficient option, still wastes ~60% as heat. The 'even the best' framing reveals inevitability rather than poor design.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Efficiency",
+      "descriptor_code": "AC9S9U05",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The proportion of total energy input that is converted to useful output energy, calculated as: efficiency = useful output \u00f7 total input (expressed as a fraction or percentage). No real system achieves 100% efficiency because some energy is always transferred as heat, sound or other non-useful forms. Efficiency is a measure of how well a system converts input energy into useful output \u2014 not a measure of total energy.",
+      "failure_mode": "Students confuse efficiency with total output \u2014 they think a system that produces more output is more efficient, regardless of how much input it required. A 100W bulb is not more efficient than a 10W LED just because it produces more total light.",
+      "failure_type": "misconception",
+      "why_it_matters": "If efficiency equals output quantity, students cannot evaluate systems comparatively (the descriptor's 'analyse system efficiency' demand). A coal power station produces more electricity than a solar panel but is less efficient \u2014 the ratio, not the quantity, is the analytical tool.",
+      "response": "Present two systems with different total outputs but different efficiencies (e.g. incandescent bulb: 100J in, 5J light, 95J heat = 5% vs LED: 10J in, 4J light, 6J heat = 40%). Ask: which produces more light? (Incandescent.) Which is more efficient? (LED.) Why? The comparison separates output quantity from output proportion.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Useful output",
+          "definition": "The energy a system converts into the form intended for its purpose \u2014 light from a lamp, motion from an engine, heat from a heater. All other energy outputs are 'wasted.'",
+          "failure_mode": "Students misidentify which energy output is 'useful' \u2014 they count heat from a light bulb as useful because it can be felt, or count sound from a motor as useful because it is noticeable. The useful output depends on the system's PURPOSE, not on whether the output is detectable.",
+          "failure_type": "fragile_skill",
+          "response": "Ask: a light bulb produces light and heat. Which is useful? (Light \u2014 that's the purpose.) A heater produces heat and light (the glow). Which is useful NOW? (Heat \u2014 the purpose changed.) The same output can be useful or wasted depending on purpose.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Total input",
+          "definition": "All the energy supplied to a system before any transformation \u2014 the denominator in the efficiency calculation. By conservation of energy, total input equals total output (useful + wasted)."
+        }
+      ]
+    },
+    {
+      "term": "Sankey diagram",
+      "descriptor_code": "AC9S9U05",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A flow diagram that represents energy inputs, useful outputs and wasted energy in a system, using arrow widths proportional to energy quantities. The input arrow on the left splits into a useful output arrow (continuing forward) and wasted energy arrows (branching off, typically downward). Sankey diagrams make conservation of energy visible \u2014 the total width of all output arrows equals the input arrow width.",
+      "failure_mode": "Students read arrow direction but not arrow width \u2014 they treat Sankey diagrams as qualitative flow charts rather than quantitative representations where width encodes energy amount. They identify where energy goes but not how much goes to each output.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "The Sankey diagram's value is quantitative \u2014 it shows efficiency visually (useful arrow width \u00f7 input arrow width). Students who read it qualitatively cannot read efficiency from the diagram, cannot construct diagrams from data, and lose the tool's analytical power.",
+      "response": "Give students a Sankey diagram and ask: what proportion of the input arrow width becomes useful output? Require them to measure or estimate widths. Then ask them to calculate efficiency from the widths. The width-reading exercise establishes the quantitative convention.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Atom",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The smallest unit of an element that retains the element's identity. At Year 9, the simple undifferentiated particle model is replaced by the nuclear model: a dense central nucleus containing protons (positive charge, relative mass 1) and neutrons (no charge, relative mass 1), surrounded by electrons (negative charge, negligible mass) in shells. The number of protons (atomic number) determines which element the atom is.",
+      "failure_mode": "Students cannot correctly assign protons, neutrons and electrons to an atom from its atomic and mass numbers \u2014 they confuse mass number with atomic number or cannot calculate neutron count as mass number minus atomic number.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Correct particle counts are the foundation for isotope definitions (N2), understanding nuclear instability (N3), and tracking changes during decay (N4). Every error in particle assignment propagates through all subsequent calculations.",
+      "response": "Drill the three-step assignment: atomic number = protons = electrons (for neutral atoms); mass number = protons + neutrons; neutrons = mass number \u2212 atomic number. Apply to five elements, checking each step. The procedural sequence prevents conflation.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Proton",
+          "definition": "A positively charged subatomic particle in the nucleus. Proton number (atomic number) determines the element's identity \u2014 change the proton count and you change the element."
+        },
+        {
+          "term": "Neutron",
+          "definition": "An uncharged subatomic particle in the nucleus with approximately the same mass as a proton. Neutron count can vary within the same element \u2014 atoms with different neutron counts are isotopes."
+        },
+        {
+          "term": "Electron",
+          "definition": "A negatively charged subatomic particle with negligible mass, found in shells around the nucleus. Electrons determine chemical bonding behaviour; their number equals the proton count in a neutral atom.",
+          "failure_mode": "Students think electrons orbit the nucleus in fixed circular paths like planets around the sun \u2014 they draw precise orbital lines rather than understanding electrons as occupying shells (energy levels) with probabilistic distribution.",
+          "failure_type": "misconception",
+          "response": "Ask: does the Earth ever jump from its orbit to a different orbit? (No.) Do electrons? (Yes \u2014 they jump between shells when absorbing or releasing energy.) The jump behaviour reveals that electron shells are energy levels, not fixed paths \u2014 fundamentally different from planetary orbits.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Nucleus",
+          "definition": "The dense central core of an atom containing protons and neutrons. The nucleus contains nearly all of an atom's mass but occupies a tiny fraction of its volume.",
+          "failure_mode": "Students think the nucleus fills most of the atom \u2014 they draw it as a large central mass rather than understanding it occupies a tiny fraction of the atom's volume while containing nearly all its mass. This matters because Rutherford's gold foil experiment specifically revealed the nucleus as small and dense.",
+          "failure_type": "misconception",
+          "response": "Scale comparison: if an atom were the size of a football stadium, the nucleus would be a marble on the centre spot. Ask: where is most of the atom? (Empty space with electrons.) Where is most of the mass? (The marble-sized nucleus.) The scale makes the density concentration vivid.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Atomic number",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The number of protons in the nucleus of an atom \u2014 the defining characteristic of an element. All atoms of the same element have the same atomic number; changing the atomic number changes the element. Atomic number also determines the element's position in the periodic table.",
+      "failure_mode": "Students confuse atomic number with mass number \u2014 they add protons and neutrons when asked for atomic number, or use atomic number where mass number is needed.",
+      "failure_type": "misconception",
+      "why_it_matters": "Atomic number determines element identity; mass number determines the isotope. Confusing them means students cannot define isotopes (same atomic number, different mass number) and cannot track element changes during radioactive decay (alpha decay changes atomic number; mass number also changes).",
+      "response": "Present two atoms: carbon-12 (6p, 6n) and carbon-14 (6p, 8n). Ask: same atomic number? (Yes \u2014 both have 6 protons.) Same mass number? (No \u2014 12 vs 14.) Same element? (Yes \u2014 atomic number determines element.) The isotope pair makes the distinction concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Mass number",
+          "definition": "The total number of protons and neutrons in the nucleus. Mass number identifies the specific isotope \u2014 carbon-12 has mass number 12 (6 protons + 6 neutrons); carbon-14 has mass number 14 (6 protons + 8 neutrons)."
+        }
+      ]
+    },
+    {
+      "term": "Isotope",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Atoms of the same element (same proton number) with different numbers of neutrons (different mass number). Isotopes have identical chemical properties (determined by protons/electrons) but different nuclear properties \u2014 some isotopes are stable while others are unstable and undergo radioactive decay. Carbon-12 (stable) and carbon-14 (radioactive) are isotopes of carbon.",
+      "failure_mode": "Students think isotopes are different elements \u2014 they see 'carbon-12' and 'carbon-14' as different substances rather than as the same element with different neutron counts.",
+      "failure_type": "misconception",
+      "why_it_matters": "If isotopes are different elements, students cannot understand why some atoms of the same element are radioactive while others are not, and cannot follow decay sequences where atomic number changes (meaning the element actually does change \u2014 a genuinely different situation from having different isotopes of the same element).",
+      "response": "Present carbon-12, carbon-13 and carbon-14 side by side: same proton count (6), same electron configuration, same chemical behaviour \u2014 different neutron counts, different nuclear stability. Ask: are these the same element? (Yes.) The same atom? (No.) The distinction is neutron count, not element identity.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Nuclear stability",
+          "definition": "Whether a nucleus will remain intact or undergo radioactive decay. Stability depends on the neutron-to-proton ratio \u2014 too many or too few neutrons relative to protons makes the nucleus unstable.",
+          "failure_mode": "Students treat nuclear stability as binary \u2014 an isotope is either 'stable' or 'radioactive' with nothing in between. They do not understand that stability exists on a spectrum determined by the neutron-to-proton ratio, and that isotopes near the boundary may have extremely long half-lives.",
+          "failure_type": "misconception",
+          "response": "Present three isotopes: carbon-12 (stable), carbon-14 (half-life 5,730 years), and francium-223 (half-life 22 minutes). Ask: are all unstable isotopes equally unstable? (No \u2014 the range is enormous.) What determines where on the spectrum an isotope sits? (The neutron-to-proton ratio.)",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Carbon-14",
+          "definition": "A radioactive isotope of carbon with 6 protons and 8 neutrons. Carbon-14 undergoes beta decay with a half-life of 5,730 years and is used in radiocarbon dating to determine the age of organic materials."
+        }
+      ]
+    },
+    {
+      "term": "Radioactive decay",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The spontaneous emission of particles or energy from an unstable nucleus as it transitions toward a more stable configuration. Three types of decay are recognised at this level: alpha (emission of a helium nucleus), beta (emission of an electron from the nucleus), and gamma (emission of high-energy electromagnetic radiation). Decay is random at the individual atom level but statistically predictable for large samples.",
+      "failure_mode": "Students think radioactive decay can be triggered or stopped by external conditions \u2014 they believe heating, cooling or chemical treatment can cause or prevent decay. In fact, decay is a nuclear process unaffected by temperature, pressure or chemical state.",
+      "failure_type": "misconception",
+      "why_it_matters": "If decay is controllable, students cannot understand half-life as a constant (N4), cannot use radiometric dating (which assumes constant decay rate), and misinterpret radiation safety (shielding blocks radiation but does not stop decay).",
+      "response": "Ask: if you heat a radioactive sample, does it decay faster? (No.) If you dissolve it in acid? (No.) Radioactive decay is a nuclear process \u2014 it depends only on nuclear structure, not on temperature, pressure or chemical environment. The invariance is what makes half-life a reliable clock.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Alpha decay",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Radioactive decay in which the nucleus emits an alpha particle \u2014 a helium nucleus consisting of 2 protons and 2 neutrons. Alpha decay reduces the atomic number by 2 and the mass number by 4, changing the element. Alpha particles are the largest and slowest decay emission \u2014 they are stopped by a sheet of paper or a few centimetres of air but are highly ionising at close range.",
+      "failure_mode": "Students cannot track the changes to atomic number and mass number during alpha decay \u2014 they know 'something is emitted' but cannot calculate the daughter nucleus's identity (new element, lower atomic number by 2, lower mass by 4).",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Tracking nuclear changes is required for tracing decay sequences in N5. Students who cannot calculate the daughter product from alpha decay cannot follow a multi-step decay chain toward stability \u2014 the descriptor's explicit endpoint.",
+      "response": "Write the decay equation template: parent \u2192 daughter + alpha particle. Fill in numbers: if parent has atomic number Z and mass number A, daughter has Z\u22122 and A\u22124. Apply to uranium-238 \u2192 thorium-234 + alpha. The template makes the arithmetic systematic.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Beta decay",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Radioactive decay in which a neutron in the nucleus converts to a proton and an electron \u2014 the electron is emitted as a beta particle. Beta decay increases the atomic number by 1 (new proton) but does not change the mass number, changing the element. Beta particles are smaller and faster than alpha particles \u2014 stopped by a few millimetres of aluminium.",
+      "failure_mode": "Students think beta particles are electrons from the electron shells rather than from the nucleus \u2014 they do not understand that a neutron converts to a proton plus an electron inside the nucleus.",
+      "failure_type": "misconception",
+      "why_it_matters": "If the beta electron comes from the shells, the atomic number should not change (no new proton). The nuclear conversion (neutron \u2192 proton + electron) is the mechanism that explains why atomic number increases by 1 \u2014 a new proton appears. Without this mechanism, the element change is inexplicable.",
+      "response": "Trace the nuclear conversion step by step: before \u2014 the nucleus has Z protons and (A\u2212Z) neutrons. One neutron converts: Z+1 protons, (A\u2212Z\u22121) neutrons, one electron emitted. The proton count increased by 1 \u2014 that's why the element changes. Ask: where did the new proton come from? (A neutron converted.)",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Gamma radiation",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "High-energy electromagnetic radiation emitted from a nucleus, typically following alpha or beta decay when the daughter nucleus is in an excited state. Gamma emission releases energy but does not change the atomic number or mass number \u2014 no particles are emitted, only energy. Gamma rays are the most penetrating form of nuclear radiation \u2014 reduced but not fully stopped by thick lead or concrete.",
+      "failure_mode": "Students conflate gamma radiation with alpha and beta emissions \u2014 they think gamma involves particle emission and changes the nucleus, or they confuse gamma's high penetrating power with high mass.",
+      "failure_type": "misconception",
+      "why_it_matters": "Gamma is qualitatively different from alpha and beta: it is electromagnetic radiation, not a particle; it changes neither atomic number nor mass number. Students who conflate the three types cannot track decay sequences (gamma doesn't change the element) and cannot explain why different shielding materials stop different types.",
+      "response": "Present the three types as a comparison: alpha emits a particle (2p+2n), beta emits a particle (electron), gamma emits energy only (no particle, no mass). Ask: which changes the element? (Alpha and beta \u2014 they change proton count.) Which does not? (Gamma \u2014 no nuclear change.) The no-change feature distinguishes gamma from the particle emissions.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Penetrating power",
+          "definition": "The ability of radiation to pass through materials. Alpha: stopped by paper or skin. Beta: stopped by aluminium sheet. Gamma: reduced by thick lead or concrete. Penetrating power increases as particle mass decreases \u2014 alpha (heaviest, least penetrating), beta (lighter, more penetrating), gamma (no mass, most penetrating).",
+          "failure_mode": "Students equate penetrating power with danger \u2014 they think gamma radiation is the most dangerous because it is the most penetrating, missing that alpha particles are the most ionising and most damaging inside the body (e.g. if inhaled or ingested) despite being stopped by skin externally.",
+          "failure_type": "misconception",
+          "response": "Present two scenarios: standing 1 metre from a source (gamma is the concern \u2014 it reaches you) vs inhaling radioactive dust (alpha is the concern \u2014 it ionises lung tissue at close range). Ask: which type is more dangerous in each case? The context-dependent answer breaks the 'most penetrating = most dangerous' assumption.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Half-life",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The time taken for half the radioactive nuclei in a sample to decay. Half-life is constant for a given isotope and is unaffected by temperature, pressure or chemical environment. After one half-life, 50% remains; after two, 25%; after three, 12.5%. Half-life determines an isotope's suitability for applications: short half-lives for medical imaging (rapid decay = brief exposure), long half-lives for geological dating (slow decay = measurable over millions of years).",
+      "failure_mode": "Students think half-life means 'the time for the sample to completely decay' or that after two half-lives nothing remains \u2014 they do not understand the exponential halving pattern where some material always remains.",
+      "failure_type": "misconception",
+      "why_it_matters": "If half-life means complete decay, students cannot calculate remaining quantities, cannot interpret decay curves, and cannot explain why radioactive waste remains hazardous for many half-lives. The halving pattern is also the basis for radiometric dating calculations.",
+      "response": "Start with 100 atoms. After 1 half-life: 50. After 2: 25. After 3: 12.5. Ask: does it ever reach zero? (Mathematically, no \u2014 it keeps halving.) The decreasing-but-never-zero pattern makes the exponential decay visible and corrects the 'complete decay' misconception.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Decay curve",
+          "definition": "A graph showing the number of radioactive nuclei remaining (or activity) plotted against time. The curve is exponential \u2014 steep initially, flattening over time \u2014 and half-life can be read as the time for any point on the curve to halve.",
+          "failure_mode": "Students cannot read half-life from a decay curve \u2014 they look for where the curve hits the x-axis (zero) rather than finding the time at which the quantity halves from any starting point.",
+          "failure_type": "fragile_skill",
+          "response": "Give students a decay curve and ask them to find the half-life by picking ANY point on the curve, halving its y-value, and reading across to find the corresponding time interval. Repeat from a different starting point \u2014 the interval is the same. The repeated-halving exercise establishes the graphical method.",
+          "response_type": "consolidation"
+        }
+      ]
+    },
+    {
+      "term": "Decay sequence",
+      "descriptor_code": "AC9S9U06",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "A series of radioactive decay events in which an unstable isotope undergoes successive alpha and/or beta decays, each producing a new element, until a stable isotope is reached. The decay sequence demonstrates the descriptor's claim that 'natural radioactive decay results in stable atoms' \u2014 the sequence ends when the neutron-to-proton ratio reaches a stable configuration.",
+      "failure_mode": "Students can describe individual decay types but cannot chain them into a sequence \u2014 they treat each decay as an isolated event rather than a step in a pathway from unstable to stable.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "The decay sequence is the descriptor's explicit endpoint: 'describe how natural radioactive decay results in stable atoms.' Students who cannot trace a sequence from unstable isotope to stable end product have not met this demand \u2014 they know decay types but cannot integrate them into the stability narrative.",
+      "response": "Trace a short decay chain: uranium-238 \u2192 (alpha) \u2192 thorium-234 \u2192 (beta) \u2192 protactinium-234. At each step, ask: what was emitted? What are the new atomic and mass numbers? Is the product stable? (If not, continue.) The step-by-step tracking makes the sequence a connected pathway rather than isolated events.",
+      "response_type": "integration"
+    },
+    {
+      "term": "Chemical reaction",
+      "descriptor_code": "AC9S9U07",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A process in which reactants are converted into products \u2014 new substances with different properties are formed. At Year 9, the key conceptual shift is understanding that chemical reactions involve the rearrangement of atoms, not the creation or destruction of matter. Observable indicators (colour change, gas production, precipitate, energy change) provide evidence that a reaction has occurred.",
+      "failure_mode": "Students identify chemical reactions by surface features alone (fizzing, colour change) without connecting these observations to the formation of new substances with different properties \u2014 they cannot distinguish chemical change from physical change at the particle level.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If chemical reactions are identified only by surface features, students cannot connect to the atom rearrangement model in N2 or understand why balanced equations are necessary. The particle-level framing \u2014 atoms rearrange to form new substances \u2014 is the scaffold for all equation work.",
+      "response": "Present a chemical reaction and a physical change side by side (e.g. dissolving salt vs burning magnesium). Ask: in which case are new substances formed? The new-substance test distinguishes chemical from physical change at the level required for equation writing.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Reactant",
+          "definition": "A starting substance that is consumed or transformed during a chemical reaction \u2014 it appears on the left side of a chemical equation. Reactant atoms are rearranged to form products."
+        },
+        {
+          "term": "Product",
+          "definition": "A new substance formed during a chemical reaction \u2014 it appears on the right side of a chemical equation. Products have different properties from reactants because the atoms are arranged differently."
+        }
+      ]
+    },
+    {
+      "term": "Atom rearrangement",
+      "descriptor_code": "AC9S9U07",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The mechanistic model of chemical reactions: atoms present in the reactants break their existing bonds, rearrange, and form new bonds to produce products. The type and number of atoms is unchanged \u2014 only their arrangement changes. This model explains why mass is conserved (same atoms before and after) and why equations must be balanced (same atom count on both sides).",
+      "failure_mode": "Students understand chemical change only at the observable level \u2014 new substance formed \u2014 without the atom-level mechanism. They cannot explain WHY balancing an equation is a meaningful scientific constraint rather than an arbitrary mathematical rule.",
+      "failure_type": "misconception",
+      "why_it_matters": "Without the atom rearrangement model, balancing equations is a procedural exercise without conceptual grounding. Students who balance by rote cannot explain why subscripts cannot be changed (they define the substance) while coefficients can (they adjust the quantity), and cannot connect balanced equations to conservation of mass.",
+      "response": "Use molecular models (physical or digital) to build reactants, then physically break them apart and rebuild as products. Count atoms before and after \u2014 they match. Ask: were any atoms created or destroyed? (No.) Why must the equation show the same atoms on both sides? (Because the atoms are rearranged, not created.) The physical model makes rearrangement tangible.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Bond breaking",
+          "definition": "The process of separating atoms that are joined in reactant molecules. Bond breaking requires energy input \u2014 it is the first step in atom rearrangement.",
+          "failure_mode": "Students think bond breaking releases energy \u2014 they associate breaking with explosion and therefore with energy release. In fact, bond breaking requires energy input (endothermic); it is bond forming that releases energy (exothermic). This reversal is one of the most persistent misconceptions in chemistry.",
+          "failure_type": "misconception",
+          "response": "Ask: does it take effort to pull two magnets apart? (Yes \u2014 you put energy in.) Does it release energy when they snap together? (Yes \u2014 you hear the click and feel the pull.) Breaking bonds = pulling apart = energy in. Forming bonds = snapping together = energy out. The magnet analogy makes the direction intuitive.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Bond forming",
+          "definition": "The process of atoms joining in new arrangements to form product molecules. Bond forming releases energy \u2014 it is the second step in atom rearrangement.",
+          "failure_mode": "Students think bond forming requires energy input \u2014 the complement of the bond-breaking misconception. They reason that 'making something' must cost energy, missing that atoms releasing energy as they form stable bonds is what makes exothermic reactions possible.",
+          "failure_type": "misconception",
+          "response": "Return to the magnet analogy: when two magnets snap together, did you need to push them? (No \u2014 they pulled together on their own and released energy as the click.) Bond forming is the same \u2014 atoms pull together and release energy. The 'making = costs energy' intuition is wrong for bonds.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Word equation",
+      "descriptor_code": "AC9S9U07",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A representation of a chemical reaction using the names of reactants and products connected by an arrow: reactants \u2192 products. Word equations identify what reacts and what is formed but do not show quantities, atom counts, or chemical formulas. They are the first formal representation of reactions and the foundation for symbolic equation writing.",
+      "failure_mode": "Students omit products \u2014 particularly water or CO\u2082 in combustion reactions \u2014 because they focus on the 'main' product and forget that all products must be included for the equation to represent the complete reaction.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Missing products in word equations propagate into symbolic equations and violate conservation of mass \u2014 if a product is omitted, atoms appear to vanish. The habit of listing ALL products must be established at the word equation level before symbolic notation is introduced.",
+      "response": "For every combustion reaction, require students to list all products explicitly: fuel + oxygen \u2192 carbon dioxide + water. Ask: what do hydrocarbons contain? (Carbon and hydrogen.) Where does each element end up? (Carbon \u2192 CO\u2082, hydrogen \u2192 H\u2082O.) The element-tracking prevents product omission.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Balanced chemical equation",
+      "descriptor_code": "AC9S9U07",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "A symbolic representation of a chemical reaction using chemical formulas, with coefficients adjusted so that the number of atoms of each element is equal on both sides. Balancing demonstrates conservation of mass: same atoms in, same atoms out. Only coefficients (numbers in front of formulas) may be changed \u2014 subscripts (numbers within formulas) define the substance and cannot be altered.",
+      "failure_mode": "Students change subscripts instead of coefficients to balance equations \u2014 they alter the chemical formula of a substance (e.g. changing H\u2082O to H\u2082O\u2082) rather than adjusting the quantity of unchanged molecules. This produces a balanced atom count for a different reaction.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Changing subscripts changes the substance \u2014 H\u2082O\u2082 is hydrogen peroxide, not water. Students who balance by changing subscripts produce equations for reactions that didn't occur. The coefficient-only rule preserves substance identity while adjusting quantity \u2014 this distinction is fundamental to all subsequent chemistry.",
+      "response": "Write H\u2082O and H\u2082O\u2082 on the board. Ask: are these the same substance? (No \u2014 one is water, one is hydrogen peroxide.) Then: if we need more water molecules, do we change the formula or put a number in front? (Number in front \u2014 2H\u2082O.) The substance-identity exercise makes the subscript/coefficient distinction consequential.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Coefficient",
+          "definition": "The number placed in front of a chemical formula in a balanced equation, indicating how many molecules of that substance are involved. Coefficients can be adjusted to balance the equation \u2014 they change the quantity of molecules, not the substance."
+        },
+        {
+          "term": "Subscript",
+          "definition": "The small number within a chemical formula indicating how many atoms of an element are in one molecule. Subscripts define the substance and CANNOT be changed during balancing \u2014 changing a subscript changes the substance."
+        }
+      ]
+    },
+    {
+      "term": "Conservation of mass",
+      "descriptor_code": "AC9S9U07",
+      "first_waypoint": 5,
+      "width_tier": "minimum",
+      "definition": "The principle that the total mass of reactants equals the total mass of products in a chemical reaction \u2014 because atoms are rearranged, not created or destroyed. In a closed system, mass before and after a reaction is identical. In an open system, mass may appear to change because gases escape to or enter from the atmosphere \u2014 but total mass (including gases) is still conserved.",
+      "failure_mode": "Students think mass changes in chemical reactions \u2014 they observe that burning steel wool increases in mass (oxygen from air combines with iron) or that burning a candle decreases in mass (CO\u2082 and H\u2082O escape as gas) and conclude that mass is not conserved.",
+      "failure_type": "misconception",
+      "why_it_matters": "Conservation of mass is the law the entire standard is built to demonstrate. Students who think mass changes cannot connect balanced equations to physical reality, cannot explain open-system mass discrepancies, and arrive at Year 10 chemistry without the quantitative foundation for stoichiometry.",
+      "response": "Conduct the same reaction in an open and closed system. Open: burning steel wool on a balance (mass increases \u2014 oxygen from air is a reactant). Closed: same reaction in a sealed flask (mass unchanged). Ask: did the total mass change in either case? (No \u2014 in the open system, the 'extra' mass was oxygen from the air that became part of the product.)",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Closed system",
+          "definition": "A system where no matter enters or leaves \u2014 only energy can cross the boundary. In a closed system, mass before and after a reaction is identical, directly demonstrating conservation of mass.",
+          "failure_mode": "Students think sealing a container prevents the reaction from occurring \u2014 they confuse 'closed system' (matter cannot enter or leave) with 'stopped system' (nothing happens). In fact, reactions proceed normally in closed systems; the seal simply ensures all products are retained for mass measurement.",
+          "failure_type": "misconception",
+          "response": "Seal baking soda and vinegar in a flask on a balance. Ask: will they react? (Yes \u2014 fizzing occurs.) Did the mass change? (No.) The sealed-but-reacting demonstration separates 'closed' from 'stopped.'",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Open system",
+          "definition": "A system where matter (typically gases) can enter or leave. Apparent mass changes in open systems are explained by gases escaping (mass appears to decrease) or gases from the environment reacting with the sample (mass appears to increase)."
+        }
+      ]
+    }
+  ],
+  "student_glossary": [
+    {
+      "term": "Stimulus",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "A change in your environment \u2014 either inside or outside your body \u2014 that your body detects and responds to.",
+      "example": "Touching a hot pan is an external stimulus; a drop in blood sugar after skipping lunch is an internal stimulus.",
+      "sub_terms": [
+        {
+          "term": "Internal stimulus",
+          "definition": "A change happening inside your body \u2014 like blood sugar dropping or body temperature rising."
+        },
+        {
+          "term": "External stimulus",
+          "definition": "A change happening outside your body \u2014 like a loud noise, bright light, or hot surface."
+        }
+      ]
+    },
+    {
+      "term": "Receptor",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "A specialised structure in your body that detects a specific type of change. Each receptor only detects one kind of stimulus \u2014 thermoreceptors detect temperature, photoreceptors detect light.",
+      "example": "When you step outside on a cold day, thermoreceptors in your skin detect the temperature drop \u2014 that's the first step in your body's response."
+    },
+    {
+      "term": "Command centre",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "The part of the body that receives information from receptors, decides what to do, and sends instructions to the part that carries out the response. Usually the brain or spinal cord (nervous system) or a gland (endocrine system).",
+      "example": "When your skin receptors detect cold, they send a signal to your brain (command centre), which then sends instructions to your muscles to shiver."
+    },
+    {
+      "term": "Effector",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "A muscle or gland that carries out the response your command centre has directed \u2014 it's the part that actually does something about the stimulus.",
+      "example": "When you're cold, your muscles (effectors) shiver to generate heat; when you're hot, your sweat glands (effectors) produce sweat to cool you down."
+    },
+    {
+      "term": "Nervous system",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "The body system that sends fast, short electrical signals along nerves to coordinate quick responses. It uses the same receptor \u2192 command centre \u2192 effector pathway as the endocrine system, but with electrical signals instead of chemical ones.",
+      "example": "Pulling your hand away from a hot stove takes milliseconds \u2014 that's the nervous system sending electrical signals from receptor to brain to muscle almost instantly.",
+      "sub_terms": [
+        {
+          "term": "Electrical signal",
+          "definition": "The type of signal the nervous system uses \u2014 fast impulses that travel along nerve cells in milliseconds."
+        }
+      ]
+    },
+    {
+      "term": "Endocrine system",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "The body system that uses chemical messengers called hormones, released into your bloodstream, to coordinate slower but longer-lasting responses. The same pathway model applies (receptor \u2192 command centre \u2192 effector) but using hormones instead of electrical signals.",
+      "example": "When your blood sugar rises after a meal, your pancreas (a gland) releases insulin (a hormone) into your blood, which signals cells throughout your body to absorb glucose \u2014 this takes minutes, not milliseconds, but lasts much longer.",
+      "sub_terms": [
+        {
+          "term": "Hormone",
+          "definition": "A chemical messenger made by a gland and carried through the bloodstream to target organs, where it triggers a specific response.",
+          "example": "Insulin is a hormone made by the pancreas \u2014 it travels through your blood to tell cells to absorb glucose."
+        },
+        {
+          "term": "Gland",
+          "definition": "An organ that makes and releases hormones \u2014 the endocrine system's version of a command centre.",
+          "example": "The thyroid gland in your neck releases hormones that control how fast your body uses energy."
+        },
+        {
+          "term": "Target organ",
+          "definition": "The organ or tissue that a hormone acts on \u2014 only cells with the right receptor for that hormone will respond.",
+          "example": "Insulin's target is your liver and muscle cells \u2014 they have insulin receptors that tell them to absorb glucose from the blood."
+        }
+      ]
+    },
+    {
+      "term": "Homeostasis",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "typical",
+      "definition": "Your body's ability to keep its internal conditions stable \u2014 like temperature, blood sugar and water balance \u2014 even when the outside environment changes. It's not passive; your body is constantly making active adjustments.",
+      "example": "On a hot day, your body temperature starts to rise \u2014 but sweating and increased blood flow to your skin actively cool you back toward 37\u00b0C. That active correction is homeostasis at work."
+    },
+    {
+      "term": "Negative feedback",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "A control system where your body detects a change from normal and responds by pushing things back the other way. 'Negative' doesn't mean 'bad' \u2014 it means the response opposes the change. It has four parts: a set point (the target), deviation (the change), corrective response (the fix), and return detection (checking it worked).",
+      "example": "If your body temperature rises above 37\u00b0C, you start sweating (corrective response opposing the rise). As your temperature drops back toward 37\u00b0C, the sweating slows down (return detection) \u2014 that's a complete negative feedback loop.",
+      "sub_terms": [
+        {
+          "term": "Set point",
+          "definition": "The normal target value your body tries to maintain \u2014 like 37\u00b0C for temperature or about 5 mmol/L for blood sugar."
+        },
+        {
+          "term": "Deviation",
+          "definition": "When a body variable moves away from its set point \u2014 a receptor detects this and starts the feedback response."
+        },
+        {
+          "term": "Corrective response",
+          "definition": "The action your body takes to push the variable back toward the set point \u2014 like sweating to cool down or shivering to warm up."
+        },
+        {
+          "term": "Return detection",
+          "definition": "When the receptor detects that the variable is heading back to normal and signals the body to ease off the corrective response \u2014 this prevents overcorrection."
+        },
+        {
+          "term": "Positive feedback",
+          "definition": "The opposite of negative feedback \u2014 the response amplifies the change instead of opposing it. Rare in the body, but used when rapid escalation is needed (like contractions during childbirth getting stronger and stronger)."
+        }
+      ]
+    },
+    {
+      "term": "Feedback system disorder",
+      "descriptor_code": "AC9S9U01",
+      "width_tier": "minimum",
+      "definition": "A condition where part of a negative feedback loop breaks down, so the body can't maintain homeostasis properly. The key question is: which part of the loop failed \u2014 the receptor, the command centre, or the effector?",
+      "example": "In type 1 diabetes, the effector has failed \u2014 the pancreatic cells that produce insulin are destroyed, so even though the body detects high blood sugar, it can't produce the hormone to fix it."
+    },
+    {
+      "term": "Gamete",
+      "descriptor_code": "AC9S9U02",
+      "width_tier": "minimum",
+      "definition": "A special cell made for reproduction \u2014 sperm (male) and egg (female) in animals, pollen and ovule in plants. Each gamete's shape and features are designed for its specific job in reproduction.",
+      "example": "Sperm cells have tails for swimming and are tiny; egg cells are much larger because they carry nutrients for the developing embryo \u2014 each feature has a purpose.",
+      "sub_terms": [
+        {
+          "term": "Sperm",
+          "definition": "The male reproductive cell \u2014 small, with a tail for swimming, packed with mitochondria for energy. Produced in millions because most don't reach the egg.",
+          "example": "A sperm cell is about 1/20th the size of an egg \u2014 it doesn't need to carry nutrients, just genetic material and enough energy to reach the egg."
+        },
+        {
+          "term": "Egg",
+          "definition": "The female reproductive cell \u2014 much larger than sperm because it's packed with nutrients and energy stores that the embryo needs in its first days of development.",
+          "example": "A chicken's egg yolk is actually a single huge cell \u2014 the yolk is the nutrient store that feeds the developing chick."
+        },
+        {
+          "term": "Pollen",
+          "definition": "The plant equivalent of sperm \u2014 tiny grains that carry male genetic material, designed to be carried by wind or insects to reach the female part of another flower."
+        },
+        {
+          "term": "Ovule",
+          "definition": "The plant equivalent of an egg \u2014 found inside the flower's ovary, it develops into a seed after fertilisation."
+        }
+      ]
+    },
+    {
+      "term": "Reproductive organ",
+      "descriptor_code": "AC9S9U02",
+      "width_tier": "minimum",
+      "definition": "A body part that helps produce, transport or protect gametes, or support fertilisation. These organs work together as a system \u2014 each one handles a different step in the reproductive process.",
+      "example": "In a flower, the stamen produces pollen, the stigma catches it, the style provides a pathway, and the ovary protects the ovules \u2014 each organ does one job in the chain.",
+      "sub_terms": [
+        {
+          "term": "Stamen",
+          "definition": "The male part of a flower that produces pollen grains on the anther at its tip."
+        },
+        {
+          "term": "Carpel",
+          "definition": "The female part of a flower \u2014 includes the stigma (catches pollen), style (pollen tube grows through it) and ovary (contains ovules)."
+        },
+        {
+          "term": "Ovary",
+          "definition": "The part of the plant or animal that contains and protects egg cells. In plants, the ovary becomes the fruit after fertilisation."
+        }
+      ]
+    },
+    {
+      "term": "Sexual reproduction",
+      "descriptor_code": "AC9S9U02",
+      "width_tier": "minimum",
+      "definition": "Reproduction that involves two parents combining their genetic material to produce offspring that are genetically unique. It's slower and uses more energy than asexual reproduction, but the payoff is variation \u2014 different offspring have different traits, so some are likely to survive even if conditions change.",
+      "example": "Siblings from the same parents look different because each one received a random combination of genes \u2014 that variation means the family isn't wiped out if one disease strikes.",
+      "sub_terms": [
+        {
+          "term": "Fertilisation",
+          "definition": "When a sperm and egg (or pollen and ovule) join together, combining genetic material from both parents to make a new, genetically unique organism.",
+          "example": "In fish, fertilisation happens outside the body \u2014 the female releases eggs into the water and the male releases sperm over them."
+        }
+      ]
+    },
+    {
+      "term": "Genetic variation",
+      "descriptor_code": "AC9S9U02",
+      "width_tier": "minimum",
+      "definition": "The genetic differences between offspring produced by sexual reproduction. Because each offspring gets a random mix of genes from both parents, every individual is genetically unique. This variation is the reason sexual reproduction helps species survive \u2014 when conditions change, some individuals are more likely to have the right traits.",
+      "example": "If a new disease appears, a population of genetically varied individuals might include some who are naturally resistant \u2014 a population of identical clones would have no such insurance."
+    },
+    {
+      "term": "Asexual reproduction",
+      "descriptor_code": "AC9S9U02",
+      "width_tier": "minimum",
+      "definition": "Reproduction using only one parent, producing offspring that are genetically identical copies. It's faster and uses less energy than sexual reproduction, which makes it great for quickly filling a stable environment \u2014 but the downside is that if conditions change, every individual is equally vulnerable.",
+      "example": "A strawberry plant sends out runners that grow into new plants \u2014 each one is a genetic clone, produced quickly without needing pollen from another plant.",
+      "sub_terms": [
+        {
+          "term": "Binary fission",
+          "definition": "How bacteria reproduce \u2014 the cell splits into two identical copies. Some bacteria can do this every 20 minutes.",
+          "example": "One bacterium can become over a million in just 10 hours through binary fission \u2014 that's the speed advantage of asexual reproduction."
+        },
+        {
+          "term": "Budding",
+          "definition": "A new organism grows as a little bump on the parent and eventually breaks off \u2014 like yeast cells growing a mini-me."
+        },
+        {
+          "term": "Vegetative reproduction",
+          "definition": "When plants reproduce without seeds \u2014 using runners (strawberries), tubers (potatoes), or bulbs (onions) to make genetically identical new plants."
+        },
+        {
+          "term": "Fragmentation",
+          "definition": "When an organism breaks into pieces and each piece grows into a complete new organism \u2014 some starfish can regenerate from a single arm."
+        }
+      ]
+    },
+    {
+      "term": "Earth's spheres",
+      "descriptor_code": "AC9S9U03",
+      "width_tier": "minimum",
+      "definition": "The four big parts of the Earth system that interact with each other: the geosphere (rocks and soil), biosphere (living things), hydrosphere (water), and atmosphere (air). Carbon moves between all four of these.",
+      "example": "A tree (biosphere) absorbs CO\u2082 from the air (atmosphere), and when it dies and is buried, the carbon can end up in rock or coal (geosphere) \u2014 carbon doesn't stay in one place.",
+      "sub_terms": [
+        {
+          "term": "Geosphere",
+          "definition": "The solid Earth \u2014 rocks, soil, minerals, and fossil fuels buried underground."
+        },
+        {
+          "term": "Biosphere",
+          "definition": "All living things \u2014 plants, animals, fungi, bacteria."
+        },
+        {
+          "term": "Hydrosphere",
+          "definition": "All the water on Earth \u2014 oceans, rivers, lakes, and ice."
+        },
+        {
+          "term": "Atmosphere",
+          "definition": "The layer of gases around Earth \u2014 where CO\u2082 and other gases are found."
+        }
+      ]
+    },
+    {
+      "term": "Carbon cycle",
+      "descriptor_code": "AC9S9U03",
+      "width_tier": "minimum",
+      "definition": "The continuous movement of carbon between Earth's four spheres through processes like photosynthesis, respiration and combustion. Carbon isn't created or destroyed \u2014 it just moves from one store to another.",
+      "example": "A carbon atom might be in CO\u2082 in the air, get absorbed by a plant through photosynthesis, eaten by an animal, released back to the air through respiration, dissolved in the ocean, and eventually end up in limestone rock \u2014 all part of the carbon cycle.",
+      "sub_terms": [
+        {
+          "term": "Carbon store",
+          "definition": "A place where carbon builds up and stays for a while \u2014 the atmosphere, ocean, living things, fossil fuels, and rocks are all carbon stores.",
+          "example": "Coal is a carbon store that has held carbon for hundreds of millions of years; CO\u2082 in the atmosphere is a store that cycles much faster."
+        },
+        {
+          "term": "Carbon sequestration",
+          "definition": "Capturing carbon and locking it away \u2014 trees do this naturally through photosynthesis; scientists are developing technologies to do it artificially."
+        }
+      ]
+    },
+    {
+      "term": "Photosynthesis",
+      "descriptor_code": "AC9S9U03",
+      "width_tier": "minimum",
+      "definition": "The process plants use to make food from CO\u2082 and water using sunlight. In the carbon cycle, it's the main way carbon moves from the atmosphere into living things \u2014 every plant that grows is pulling carbon out of the air.",
+      "example": "When a tree grows, it's literally building itself out of carbon from the air \u2014 the wood, leaves and roots are all made from CO\u2082 that was in the atmosphere."
+    },
+    {
+      "term": "Respiration",
+      "descriptor_code": "AC9S9U03",
+      "width_tier": "minimum",
+      "definition": "The process all living things use to release energy from food, producing CO\u2082 as a waste product. In the carbon cycle, respiration moves carbon from living things back into the atmosphere. Plants respire too \u2014 not just animals.",
+      "example": "Every breath you exhale contains CO\u2082 \u2014 that carbon was in your food, which came from plants, which got it from the air. Respiration returns it to the atmosphere.",
+      "sub_terms": [
+        {
+          "term": "Decomposition",
+          "definition": "When bacteria and fungi break down dead organisms, releasing CO\u2082 \u2014 it's basically microorganisms respiring using dead material as food.",
+          "example": "A fallen log in a forest slowly rots \u2014 decomposers are breaking it down and releasing the carbon back to the atmosphere as CO\u2082."
+        }
+      ]
+    },
+    {
+      "term": "Combustion",
+      "descriptor_code": "AC9S9U03",
+      "width_tier": "minimum",
+      "definition": "Burning \u2014 a chemical reaction where a substance reacts with oxygen, releasing CO\u2082, water and energy. When we burn fossil fuels, we're releasing carbon that was stored underground for millions of years, adding it to the atmosphere much faster than natural processes can remove it.",
+      "example": "Burning a tank of petrol releases carbon that was trapped underground as oil for 300 million years \u2014 in one car trip, millions of years of stored carbon enter the atmosphere.",
+      "sub_terms": [
+        {
+          "term": "Fossil fuel",
+          "definition": "Coal, oil and natural gas \u2014 formed from ancient organisms buried for millions of years. Burning them releases ancient carbon into the atmosphere.",
+          "example": "Coal is made from trees and plants that lived hundreds of millions of years ago \u2014 when you burn coal, you're releasing carbon that hasn't been in the atmosphere since before dinosaurs existed."
+        }
+      ]
+    },
+    {
+      "term": "Greenhouse effect",
+      "descriptor_code": "AC9S9U03",
+      "width_tier": "typical",
+      "definition": "The process where CO\u2082 and other gases in the atmosphere trap heat that Earth's surface is trying to radiate back to space. More CO\u2082 in the atmosphere means more heat trapped \u2014 that's the connection between burning fossil fuels and climate change.",
+      "example": "Without any greenhouse effect, Earth would be frozen at about \u221218\u00b0C. The natural amount of CO\u2082 keeps us warm \u2014 but adding extra CO\u2082 from fossil fuels traps too much heat."
+    },
+    {
+      "term": "Particle model",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "A way of explaining energy transfer by thinking about what individual particles (atoms, molecules, electrons) are doing. It explains conduction (particles bumping into each other), convection (particles moving in bulk) and electrical current (electrons flowing).",
+      "example": "A metal spoon in hot soup gets warm because the fast-vibrating particles at the hot end collide with their neighbours, passing energy along particle by particle \u2014 that's the particle model of conduction."
+    },
+    {
+      "term": "Conduction",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "Energy transfer through a material by particles bumping into each other \u2014 the particles don't move to new locations, they just pass energy along through collisions. Works best in solids where particles are close together.",
+      "example": "Hold one end of a metal rod in a flame and the other end gradually gets hot \u2014 energy is passed along from particle to particle through collisions, not because anything flows through the metal."
+    },
+    {
+      "term": "Convection",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "Energy transfer in liquids and gases where heated particles actually move \u2014 they expand, become lighter (less dense) and rise, while cooler particles sink to replace them, creating a circular flow called a convection current.",
+      "example": "Hot air rises from a heater, travels across the ceiling, cools and sinks on the other side \u2014 that's a convection current heating your room.",
+      "sub_terms": [
+        {
+          "term": "Convection current",
+          "definition": "The circular flow pattern created when hot particles rise and cool particles sink \u2014 it's what drives wind, ocean currents, and the heating in your home."
+        }
+      ]
+    },
+    {
+      "term": "Wave model",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "A way of explaining energy transfer as a wave \u2014 a disturbance that moves through a material (or through space) without the material itself moving. The wave has properties like frequency, amplitude and wavelength that describe its characteristics.",
+      "example": "When you drop a stone in a pond, ripples spread outward \u2014 the water bobs up and down but doesn't actually travel across the pond. The energy travels; the water stays put.",
+      "sub_terms": [
+        {
+          "term": "Frequency",
+          "definition": "How many waves pass a point per second (measured in hertz). Higher frequency = higher pitch for sound, higher energy for light."
+        },
+        {
+          "term": "Amplitude",
+          "definition": "How big the wave is \u2014 the height from resting position to the peak. Bigger amplitude = louder sound or brighter light."
+        },
+        {
+          "term": "Wavelength",
+          "definition": "The distance from one wave peak to the next. Longer wavelength = lower frequency."
+        }
+      ]
+    },
+    {
+      "term": "Sound",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "Energy that travels as a wave through a material \u2014 air, water or solid. Sound waves work by squeezing particles together (compression) then spreading them apart (rarefaction), passing energy along. Sound CANNOT travel through a vacuum because there are no particles to squeeze.",
+      "example": "In space, no one can hear you scream \u2014 there are no air particles to carry the sound wave. On Earth, the sound of your voice travels because air particles pass the compressions and rarefactions along to the listener's ear.",
+      "sub_terms": [
+        {
+          "term": "Longitudinal wave",
+          "definition": "A wave where particles vibrate in the same direction the wave travels \u2014 sound is the main example."
+        },
+        {
+          "term": "Compression",
+          "definition": "The squished-together part of a sound wave where particles are close and pressure is high."
+        },
+        {
+          "term": "Rarefaction",
+          "definition": "The stretched-apart part of a sound wave where particles are spread out and pressure is low."
+        },
+        {
+          "term": "Medium",
+          "definition": "The material a wave travels through \u2014 solid, liquid or gas. Sound needs a medium; light doesn't."
+        }
+      ]
+    },
+    {
+      "term": "Static electricity",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "A build-up of electric charge on an object, caused by electrons being transferred from one material to another. Rubbing doesn't create charge \u2014 it moves electrons from one surface to the other, leaving one positive and the other negative.",
+      "example": "Rubbing a balloon on your hair transfers electrons from your hair to the balloon \u2014 the balloon becomes negative (extra electrons) and your hair becomes positive (lost electrons). That's why they attract each other.",
+      "sub_terms": [
+        {
+          "term": "Charge",
+          "definition": "A property that creates electric force \u2014 electrons are negative, protons are positive. Like charges push apart; opposite charges pull together."
+        },
+        {
+          "term": "Electron transfer",
+          "definition": "Electrons physically moving from one material to another \u2014 this is what causes static electricity. No new charge is created; it's just redistributed."
+        }
+      ]
+    },
+    {
+      "term": "Electrical current",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "A flow of electrons through a conductor, pushed by voltage. The electrons aren't used up as they pass through components \u2014 they transfer energy to the component and keep flowing, like water in a loop of pipes.",
+      "example": "In a circuit with a battery and a light bulb, electrons flow from the battery through the wire, through the bulb (transferring energy as light and heat), and back to the battery \u2014 the same number of electrons flow in and out.",
+      "sub_terms": [
+        {
+          "term": "Voltage",
+          "definition": "The 'push' that drives electrons through a circuit \u2014 higher voltage means more energy per electron."
+        },
+        {
+          "term": "Conductor",
+          "definition": "A material that lets electrons flow through it \u2014 metals are good conductors because their outer electrons are free to move."
+        },
+        {
+          "term": "Insulator",
+          "definition": "A material that blocks electron flow \u2014 rubber, plastic and glass are insulators because their electrons are locked in place."
+        }
+      ]
+    },
+    {
+      "term": "Electromagnetic spectrum",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "minimum",
+      "definition": "The complete range of electromagnetic waves, arranged from low-frequency radio waves to high-frequency gamma rays. They're all the same type of wave (transverse), they all travel at the speed of light, and they all work without a medium \u2014 the only difference is frequency.",
+      "example": "Radio waves, microwaves, visible light, X-rays and gamma rays are all electromagnetic waves \u2014 they differ only in frequency and wavelength, like different notes on the same instrument.",
+      "sub_terms": [
+        {
+          "term": "Transverse wave",
+          "definition": "A wave where the vibration is sideways to the direction the wave travels \u2014 like shaking a rope up and down. All electromagnetic waves are transverse."
+        },
+        {
+          "term": "Electromagnetic radiation",
+          "definition": "Energy that travels as a wave of oscillating electric and magnetic fields \u2014 it can travel through empty space, which is why sunlight reaches Earth."
+        }
+      ]
+    },
+    {
+      "term": "Photon",
+      "descriptor_code": "AC9S9U04",
+      "width_tier": "typical",
+      "definition": "A 'particle' of light \u2014 a tiny packet of energy. Some experiments show light behaving as a wave (diffraction, interference), but others show it behaving as a stream of particles (the photoelectric effect). This means neither model alone is complete \u2014 light has both wave and particle properties.",
+      "example": "Solar panels work because photons (light particles) hit the panel and knock electrons loose \u2014 the wave model can't explain this, but the particle model can. Yet the same light diffracts around edges, which only the wave model explains."
+    },
+    {
+      "term": "Conservation of energy",
+      "descriptor_code": "AC9S9U05",
+      "width_tier": "minimum",
+      "definition": "Energy can never be created or destroyed \u2014 it can only be transferred from one place to another or transformed from one type to another. When energy seems to 'disappear' (like a ball bouncing lower each time), it has actually been transferred to the environment as heat and sound.",
+      "example": "A bouncing ball loses height each bounce \u2014 but the energy hasn't vanished. It's been transferred to heat (the ball and floor warm up slightly) and sound (you hear the bounce). The total energy is the same; it's just spread out.",
+      "sub_terms": [
+        {
+          "term": "Energy transfer",
+          "definition": "Energy moving from one object to another \u2014 like heat flowing from a hot mug to your cold hands."
+        },
+        {
+          "term": "Energy transformation",
+          "definition": "Energy changing type \u2014 like a battery's chemical energy becoming light energy in a torch.",
+          "example": "When you turn on a light, electrical energy transforms into light energy and heat energy \u2014 the total stays the same."
+        },
+        {
+          "term": "Wasted energy",
+          "definition": "Energy that ends up as heat or sound instead of doing the useful job \u2014 it's not 'lost,' it's just no longer useful.",
+          "example": "A car engine converts only about 25% of petrol's energy into motion \u2014 the other 75% becomes heat. That heat isn't destroyed; it's just wasted."
+        }
+      ]
+    },
+    {
+      "term": "Efficiency",
+      "descriptor_code": "AC9S9U05",
+      "width_tier": "minimum",
+      "definition": "How much of the energy you put into a system actually does the useful job \u2014 calculated as useful output \u00f7 total input. No real system is 100% efficient because some energy always ends up as heat or sound. Efficiency is about proportion, not total amount.",
+      "example": "An LED bulb might be 40% efficient (40% of electrical energy becomes light, 60% becomes heat). An old incandescent bulb is only 5% efficient (95% becomes heat). The LED is more efficient even though an incandescent might produce more total light if given more power.",
+      "sub_terms": [
+        {
+          "term": "Useful output",
+          "definition": "The energy that does what the system is designed to do \u2014 light from a lamp, movement from a motor."
+        },
+        {
+          "term": "Total input",
+          "definition": "All the energy going into the system \u2014 by conservation of energy, this always equals useful output plus wasted energy."
+        }
+      ]
+    },
+    {
+      "term": "Sankey diagram",
+      "descriptor_code": "AC9S9U05",
+      "width_tier": "minimum",
+      "definition": "A special flow diagram where arrow width shows how much energy goes where. A thick arrow comes in from the left (total input), and it splits into arrows for useful output and wasted energy \u2014 the thicker the useful arrow compared to the input, the more efficient the system.",
+      "example": "In a Sankey diagram for a light bulb, a wide input arrow splits into a thin useful-light arrow and a much wider heat arrow \u2014 you can see at a glance that most energy is wasted as heat."
+    },
+    {
+      "term": "Atom",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "The building block of all matter. At Year 9, you learn that atoms aren't solid balls \u2014 they have a tiny, dense centre called a nucleus (containing protons and neutrons) with even tinier electrons whizzing around it in shells.",
+      "example": "A carbon atom has 6 protons and 6 neutrons in its nucleus, with 6 electrons in shells around it. The proton count (6) is what makes it carbon rather than any other element.",
+      "sub_terms": [
+        {
+          "term": "Proton",
+          "definition": "A positive particle in the nucleus. The number of protons defines which element the atom is."
+        },
+        {
+          "term": "Neutron",
+          "definition": "A neutral particle in the nucleus \u2014 same mass as a proton but no charge. Different atoms of the same element can have different numbers of neutrons."
+        },
+        {
+          "term": "Electron",
+          "definition": "A tiny negative particle orbiting the nucleus in shells. Electrons are involved in chemical bonding."
+        },
+        {
+          "term": "Nucleus",
+          "definition": "The dense centre of an atom where protons and neutrons are packed together. Almost all the atom's mass is here, even though it's incredibly small."
+        }
+      ]
+    },
+    {
+      "term": "Atomic number",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "The number of protons in an atom's nucleus \u2014 this is what determines which element it is. Every carbon atom has 6 protons; every oxygen atom has 8. Change the proton count and you change the element.",
+      "example": "Carbon has atomic number 6 (6 protons). If a carbon atom gained a proton, it would become nitrogen (atomic number 7) \u2014 it's literally a different element.",
+      "sub_terms": [
+        {
+          "term": "Mass number",
+          "definition": "The total count of protons plus neutrons in the nucleus. Carbon-12 has mass number 12 (6 protons + 6 neutrons)."
+        }
+      ]
+    },
+    {
+      "term": "Isotope",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "Atoms of the same element with different numbers of neutrons. They're still the same element (same proton count, same chemical behaviour) but they have different masses. Some isotopes are stable; others are unstable and radioactive.",
+      "example": "Carbon-12 (6 protons, 6 neutrons) and carbon-14 (6 protons, 8 neutrons) are both carbon \u2014 same element, same chemistry. But carbon-14 is unstable and slowly decays, which is why scientists use it to date ancient objects.",
+      "sub_terms": [
+        {
+          "term": "Nuclear stability",
+          "definition": "Whether a nucleus stays together or falls apart over time \u2014 depends on having the right balance of protons and neutrons."
+        },
+        {
+          "term": "Carbon-14",
+          "definition": "A radioactive form of carbon used to date objects up to about 50,000 years old \u2014 it decays with a half-life of 5,730 years."
+        }
+      ]
+    },
+    {
+      "term": "Radioactive decay",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "When an unstable nucleus spontaneously releases particles or energy to become more stable. You can't speed it up, slow it down, or stop it \u2014 no amount of heating, cooling, or chemical treatment changes the decay rate. It happens on its own.",
+      "example": "A lump of uranium will steadily decay whether it's in a freezer or an oven, dissolved in acid or left on a shelf \u2014 the decay rate depends only on nuclear structure, not external conditions."
+    },
+    {
+      "term": "Alpha decay",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "A type of radioactive decay where the nucleus spits out an alpha particle \u2014 a chunk containing 2 protons and 2 neutrons (basically a helium nucleus). This reduces the atomic number by 2 and mass number by 4, turning the atom into a different element.",
+      "example": "Uranium-238 undergoes alpha decay: it loses 2 protons and 2 neutrons, becoming thorium-234. The uranium atom has literally turned into a different element."
+    },
+    {
+      "term": "Beta decay",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "A type of radioactive decay where a neutron inside the nucleus converts into a proton and an electron \u2014 the electron is fired out as a beta particle. This increases the atomic number by 1 (new proton created) but the mass number stays the same.",
+      "example": "Carbon-14 undergoes beta decay: one of its neutrons becomes a proton, turning it from carbon (6 protons) into nitrogen (7 protons). The mass number stays at 14."
+    },
+    {
+      "term": "Gamma radiation",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "Pure energy released from a nucleus \u2014 no particles are emitted, so the atomic number and mass number don't change. Gamma rays are the most penetrating type of nuclear radiation \u2014 they can pass through paper and aluminium, and are only reduced by thick lead or concrete.",
+      "example": "After alpha or beta decay, the new nucleus often has excess energy \u2014 it releases this as a burst of gamma radiation, like shaking off extra energy to settle into a stable state.",
+      "sub_terms": [
+        {
+          "term": "Penetrating power",
+          "definition": "How far radiation can travel through materials. Alpha: stopped by paper. Beta: stopped by aluminium. Gamma: needs thick lead or concrete. The less mass the radiation has, the more penetrating it is."
+        }
+      ]
+    },
+    {
+      "term": "Half-life",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "The time it takes for half the radioactive atoms in a sample to decay. After one half-life, half remains. After two, a quarter. After three, an eighth. It never reaches zero \u2014 it just keeps halving. Each isotope has its own fixed half-life that nothing can change.",
+      "example": "Carbon-14 has a half-life of 5,730 years. If you start with 100g, after 5,730 years you'd have 50g; after 11,460 years, 25g; after 17,190 years, 12.5g \u2014 always halving.",
+      "sub_terms": [
+        {
+          "term": "Decay curve",
+          "definition": "A graph showing how much radioactive material remains over time \u2014 it starts steep and gradually flattens, forming a characteristic curve shape. You can read half-life from any point by finding when the amount halves."
+        }
+      ]
+    },
+    {
+      "term": "Decay sequence",
+      "descriptor_code": "AC9S9U06",
+      "width_tier": "minimum",
+      "definition": "A chain of decay events where an unstable atom decays, producing a new atom that may also be unstable and decay again, and so on \u2014 until a stable atom is finally produced. This is what the standard means by 'radioactive decay results in stable atoms.'",
+      "example": "Uranium-238 doesn't just decay once \u2014 it goes through 14 decay steps (a mix of alpha and beta decays) before finally becoming stable lead-206. Each step produces a different element."
+    },
+    {
+      "term": "Chemical reaction",
+      "descriptor_code": "AC9S9U07",
+      "width_tier": "minimum",
+      "definition": "A process where starting substances (reactants) are transformed into completely new substances (products) with different properties. The key idea is that the atoms themselves don't change \u2014 they just rearrange into new combinations.",
+      "example": "When iron rusts, iron atoms and oxygen atoms rearrange to form iron oxide \u2014 a completely different substance with different properties. The iron and oxygen atoms are still there; they're just arranged differently.",
+      "sub_terms": [
+        {
+          "term": "Reactant",
+          "definition": "A starting substance that gets used up or changed in a reaction \u2014 it goes on the left side of the equation."
+        },
+        {
+          "term": "Product",
+          "definition": "A new substance formed by the reaction \u2014 it goes on the right side of the equation.",
+          "example": "In iron + oxygen \u2192 iron oxide, iron and oxygen are reactants; iron oxide is the product."
+        }
+      ]
+    },
+    {
+      "term": "Atom rearrangement",
+      "descriptor_code": "AC9S9U07",
+      "width_tier": "minimum",
+      "definition": "What actually happens in a chemical reaction at the atomic level: existing bonds between atoms break, and the atoms reconnect in new arrangements to form new substances. No atoms are created or destroyed \u2014 they just change partners.",
+      "example": "In 2H\u2082 + O\u2082 \u2192 2H\u2082O, the hydrogen molecules and oxygen molecule break apart, and the atoms reconnect as water molecules. Count the atoms: same number of H and O on both sides.",
+      "sub_terms": [
+        {
+          "term": "Bond breaking",
+          "definition": "Separating atoms that are joined together \u2014 this takes energy (that's why many reactions need heat to start)."
+        },
+        {
+          "term": "Bond forming",
+          "definition": "Atoms joining together in new combinations \u2014 this releases energy."
+        }
+      ]
+    },
+    {
+      "term": "Word equation",
+      "descriptor_code": "AC9S9U07",
+      "width_tier": "minimum",
+      "definition": "A way of writing a chemical reaction using the names of the substances: reactants on the left, products on the right, with an arrow between them. It tells you WHAT reacts and WHAT is formed, but doesn't show how many atoms or molecules are involved.",
+      "example": "methane + oxygen \u2192 carbon dioxide + water \u2014 this tells you what goes in and what comes out, but not the numbers."
+    },
+    {
+      "term": "Balanced chemical equation",
+      "descriptor_code": "AC9S9U07",
+      "width_tier": "minimum",
+      "definition": "A symbolic equation using chemical formulas where the number of each type of atom is the same on both sides. You balance it by putting numbers in front of formulas (coefficients) \u2014 NEVER by changing the small numbers inside formulas (subscripts), because that would change the substance.",
+      "example": "CH\u2084 + 2O\u2082 \u2192 CO\u2082 + 2H\u2082O is balanced: 1 carbon, 4 hydrogens and 4 oxygens on each side. The '2' in front of O\u2082 means two oxygen molecules \u2014 we didn't change what O\u2082 is, just how many.",
+      "sub_terms": [
+        {
+          "term": "Coefficient",
+          "definition": "The big number in front of a formula \u2014 it tells you how many molecules. You CAN change coefficients when balancing.",
+          "example": "In 2H\u2082O, the 2 means two water molecules. Each is still H\u2082O \u2014 we just need two of them."
+        },
+        {
+          "term": "Subscript",
+          "definition": "The small number inside a formula \u2014 it tells you how many atoms of that element are in one molecule. You CANNOT change subscripts when balancing because that changes the substance.",
+          "example": "H\u2082O has subscript 2 on H \u2014 meaning 2 hydrogen atoms per water molecule. Changing it to H\u2083O would be a completely different substance."
+        }
+      ]
+    },
+    {
+      "term": "Conservation of mass",
+      "descriptor_code": "AC9S9U07",
+      "width_tier": "minimum",
+      "definition": "The total mass of everything before a reaction equals the total mass of everything after \u2014 because atoms are rearranged, not created or destroyed. If mass seems to change, something entered or left the system (usually a gas).",
+      "example": "Burning steel wool on a balance makes it heavier \u2014 not because mass was created, but because oxygen from the air combined with the iron. The oxygen's mass was already there; it just wasn't on the balance.",
+      "sub_terms": [
+        {
+          "term": "Closed system",
+          "definition": "A sealed container where nothing gets in or out \u2014 perfect for proving conservation of mass because the mass on the balance can't change.",
+          "example": "Seal a flask containing baking soda and vinegar \u2014 they react and produce gas, but the total mass stays exactly the same because the gas can't escape."
+        },
+        {
+          "term": "Open system",
+          "definition": "A container open to the air where gases can escape or enter \u2014 mass seems to change but it's just because you're not weighing everything.",
+          "example": "A burning candle seems to lose mass because the CO\u2082 and water vapour float away \u2014 but if you could weigh all the gases, the total would be the same."
+        }
+      ]
+    }
+  ]
+}

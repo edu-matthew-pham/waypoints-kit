@@ -1,0 +1,1994 @@
+{
+  "subject": "Science",
+  "year_levels": [
+    "9",
+    "10"
+  ],
+  "generated": "2026-06-06",
+  "teacher_glossary": [
+    {
+      "term": "Validation",
+      "descriptor_code": "AC9S9H01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The process by which scientific claims are checked, tested and evaluated by the scientific community before being accepted as reliable knowledge. Validation exists because individual scientists' work may contain bias, error or limited evidence \u2014 community mechanisms are needed to catch these problems.",
+      "failure_mode": "Students treat peer review as bureaucratic formality rather than an epistemically necessary process \u2014 they cannot explain why validation is needed beyond 'it's the rule.'",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If validation is just a rule to follow rather than a response to real limitations of individual knowledge production, students cannot explain why claims are sometimes rejected or why consensus builds slowly through accumulating evidence.",
+      "response": "Present a case where an unchecked claim caused harm (e.g. the Wakefield MMR fraud). Ask students to identify what went wrong and what process could have caught it \u2014 the case makes the epistemic function of validation concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Bias",
+          "definition": "A systematic tendency to favour particular outcomes or interpretations, which can be unconscious as well as deliberate. In science, bias can affect experimental design, data interpretation and reporting.",
+          "failure_mode": "Students think bias only means deliberate dishonesty \u2014 they miss that unconscious bias (e.g. confirmation bias, selection bias) affects even well-intentioned scientists.",
+          "failure_type": "misconception",
+          "response": "Give examples of unconscious bias in everyday life (noticing evidence that confirms what you already believe) and connect to scientific contexts where the same tendency operates.",
+          "response_type": "context_breadth"
+        },
+        {
+          "term": "Scientific claim",
+          "definition": "A statement about the natural world that is supported by evidence from observation or investigation. Scientific claims require validation because they are knowledge claims \u2014 assertions about how the world works \u2014 not just opinions."
+        }
+      ]
+    },
+    {
+      "term": "Peer review",
+      "descriptor_code": "AC9S9H01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A formal evaluation process in which submitted scientific work is assessed by independent experts (peers) in the same field. Peer review can result in acceptance, revision or rejection of a paper, and reviewers assess methodology, evidence quality and whether conclusions are supported by the data.",
+      "failure_mode": "Students describe peer review as 'getting someone else to read it' \u2014 they miss that reviewers are evaluating specific things (methodology, evidence, conclusions) and that the process has defined outcomes (accept, revise, reject).",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If peer review is just 'reading,' students cannot explain how it functions as a quality filter or why the same paper might be accepted by one journal and rejected by another based on reviewer assessment of evidence quality.",
+      "response": "Walk through the stages of a real peer review cycle \u2014 submission, editor screening, reviewer assignment, reviewer reports, author revision, editorial decision \u2014 asking students what is being evaluated at each stage.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Editor",
+          "definition": "The person at a scientific journal who receives submitted papers, makes an initial assessment of whether the work fits the journal's scope, and selects appropriate reviewers. The editor makes the final decision on acceptance, revision or rejection based on reviewer recommendations."
+        },
+        {
+          "term": "Reviewer",
+          "definition": "An independent expert in the same field who evaluates a submitted paper's methodology, evidence and conclusions. Reviewers provide detailed feedback and a recommendation \u2014 their assessment is the substance of the peer review process."
+        },
+        {
+          "term": "Revision",
+          "definition": "A peer review outcome in which the paper is not yet accepted but the reviewers identify specific changes needed before it can be published \u2014 the most common outcome, requiring the author to address identified weaknesses and resubmit."
+        },
+        {
+          "term": "Rejection",
+          "definition": "A peer review outcome in which the paper is not accepted for publication \u2014 typically because the methodology is flawed, the evidence does not support the conclusions, or the work does not meet the journal's standards. Rejection does not mean the research is worthless \u2014 it may be revised and submitted elsewhere."
+        },
+        {
+          "term": "Acceptance",
+          "definition": "A peer review outcome in which the paper is approved for publication, indicating that the methodology, evidence and conclusions meet the standards required by the journal and its reviewers."
+        }
+      ]
+    },
+    {
+      "term": "Publication",
+      "descriptor_code": "AC9S9H01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The formal dissemination of scientific findings through journals, conference proceedings or other reviewed channels. Publication makes scientific work available for scrutiny, replication and citation by the broader scientific community \u2014 it is the mechanism through which private findings become public knowledge.",
+      "failure_mode": "Students treat publication as simply 'making it public' \u2014 they miss that scientific publication involves peer review and that not all publicly available information (blogs, social media, press releases) has undergone this process.",
+      "failure_type": "misconception",
+      "why_it_matters": "If all public information is equivalent to published science, students cannot evaluate source credibility or understand why peer-reviewed sources carry more epistemic weight than media reports.",
+      "response": "Compare a peer-reviewed journal article with a news article reporting on the same research. Ask students to identify what process each went through before becoming available \u2014 the comparison surfaces the distinction.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Submission",
+          "definition": "The act of sending a completed scientific manuscript to a journal for consideration. Submission begins the formal publication and peer review process."
+        },
+        {
+          "term": "Open-access publication",
+          "definition": "A publication model where scientific papers are freely available to anyone, rather than restricted to paid subscribers. Open-access increases accessibility but raises questions about how peer review and publication costs are funded."
+        },
+        {
+          "term": "Pre-print server",
+          "definition": "An online platform where scientists share manuscripts before formal peer review and publication. Pre-prints speed up knowledge dissemination but have not yet undergone the validation process of peer review."
+        }
+      ]
+    },
+    {
+      "term": "Scientific consensus",
+      "descriptor_code": "AC9S9H01",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "The broadly accepted position among scientists on a topic, built from the accumulation of consistent evidence across multiple independent studies over time. Scientific consensus is not a vote \u2014 it reflects the weight of evidence, and it can change as new evidence emerges.",
+      "failure_mode": "Students think scientific consensus means all scientists agree, or that it is established by a single decisive study \u2014 they miss that consensus builds gradually from independent lines of evidence and can include unresolved disagreements on details.",
+      "failure_type": "misconception",
+      "why_it_matters": "If consensus is 'everyone agrees,' students cannot make sense of cases where individual scientists disagree with the consensus (e.g. early resistance to plate tectonics) or explain why consensus on climate change coexists with ongoing debate about specific mechanisms.",
+      "response": "Trace how consensus built on a specific topic (e.g. global warming) \u2014 showing multiple independent evidence lines converging over decades. Ask students to explain why one dissenting study does not overturn the consensus.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Knowledge refinement",
+          "definition": "The ongoing process by which scientific understanding is revised, corrected or extended as new evidence accumulates \u2014 including cases where initially rejected claims are later validated."
+        },
+        {
+          "term": "Accumulating evidence",
+          "definition": "The process by which multiple independent studies contribute consistent findings over time, gradually building the evidential basis for scientific consensus. Accumulation is distinct from replication (reproducing one study) \u2014 it describes the broader pattern of converging evidence from different methods, contexts and research groups."
+        }
+      ]
+    },
+    {
+      "term": "Replication",
+      "descriptor_code": "AC9S9H01",
+      "first_waypoint": 2,
+      "width_tier": "wider",
+      "definition": "The independent reproduction of a scientific study by different researchers to verify the original findings. A single peer-reviewed study contributes to knowledge, but established scientific knowledge requires consistent results across multiple independent replications.",
+      "failure_mode": "Students think one successful study is sufficient to establish scientific knowledge \u2014 they treat peer review and publication as the endpoint rather than one step in a longer validation process that requires replication.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If one study is enough, students cannot explain why some published findings are later overturned or why scientists emphasise reproducibility \u2014 the distinction between 'published' and 'established knowledge' collapses.",
+      "response": "Present two cases: one where a published finding was replicated and became established, and one where it failed replication and was withdrawn. Ask students what replication added that peer review alone did not.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Science-technology relationship",
+      "descriptor_code": "AC9S9H02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The two-directional, iterative relationship between science and technology in which advances in each enable advances in the other. Technology provides tools that make new scientific observations possible; scientific understanding provides the theoretical foundation for new technological development. The relationship is ongoing \u2014 not a one-time sequence.",
+      "failure_mode": "Students treat the science-technology relationship as sequential ('science happens first, then technology is built') rather than iterative \u2014 they cannot identify cases where technology preceded and enabled the scientific understanding.",
+      "failure_type": "misconception",
+      "why_it_matters": "If the relationship is one-directional, students cannot analyse cases where technology-enabled discovery (e.g. electron microscope enabling cell ultrastructure knowledge) and will misattribute all technological development to prior scientific understanding.",
+      "response": "Present a timeline of a specific domain (e.g. medical imaging) showing how each advance was enabled by the other in alternating sequence. Ask students to identify which direction the relationship operates at each step.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Iterative",
+          "definition": "Repeating in cycles, where each cycle builds on the previous one. In the science-technology relationship, iterative means the process of mutual enablement continues indefinitely \u2014 it does not have a final step."
+        },
+        {
+          "term": "Theoretical foundation",
+          "definition": "The scientific understanding that makes a technology conceptually possible \u2014 the knowledge of mechanisms, properties or principles that engineers apply when designing a technology."
+        },
+        {
+          "term": "Enabling",
+          "definition": "The specific relationship in which one advance makes another possible that was previously inaccessible. Technology enables science when it opens a domain of observation that was invisible before (e.g. electron microscope enabling cell ultrastructure). Science enables technology when it provides understanding of a mechanism that can be engineered (e.g. understanding EM radiation enabling radar). 'Enables' is stronger than 'helps' \u2014 it means the advance could not have occurred without it."
+        }
+      ]
+    },
+    {
+      "term": "Engineering",
+      "descriptor_code": "AC9S9H02",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "The application of scientific understanding to design, build and optimise machines, structures, systems and processes. Engineering is distinct from both science (which seeks to understand) and technology (the tools and products) \u2014 engineering is the design discipline that uses scientific knowledge to create technological solutions.",
+      "failure_mode": "Students conflate engineering with either science ('they're both about discovery') or technology ('engineering just means building things') \u2014 missing that engineering specifically applies scientific principles to solve practical problems.",
+      "failure_type": "misconception",
+      "why_it_matters": "If engineering is indistinguishable from science or technology, students cannot trace the specific pathway by which scientific understanding becomes a technological product \u2014 the design and optimisation step is invisible.",
+      "response": "Use a specific example (e.g. cochlear implant) and ask students to identify separately: what science was needed, what engineering decisions were made, and what technology resulted. The three-way distinction becomes visible through the case.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Energy efficiency",
+          "definition": "The ratio of useful energy output to total energy input in a machine or process, often expressed as a percentage. Engineering design applies scientific understanding of energy conservation to maximise useful energy output and minimise waste."
+        }
+      ]
+    },
+    {
+      "term": "Adoption",
+      "descriptor_code": "AC9S9H03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The process by which scientific knowledge or practices are taken up and used broadly by society. Adoption requires more than scientific validity \u2014 it depends on a combination of factors including economic feasibility, accessibility, government support, community trust and cultural alignment. Valid science that lacks favourable conditions across these factors may not be adopted.",
+      "failure_mode": "Students treat scientific validity as the only factor needed for adoption \u2014 'if the science is right, people will use it.' They cannot explain why well-evidenced practices sometimes face resistance or why adoption timelines vary dramatically.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If validity is sufficient for adoption, students cannot meaningfully analyse cases where economically or culturally unfavourable conditions blocked uptake, or where strong non-scientific factors drove adoption of weakly evidenced practices. The multi-factor analysis collapses into 'good science wins.'",
+      "response": "Open with a concrete counter-example: 'We have known for decades that smoking causes cancer \u2014 why did it take so long for smoking rates to fall?' The case forces identification of non-scientific factors (economic interests, cultural norms, addiction, policy delays) that delayed adoption of the scientific evidence.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Adoption factor",
+          "definition": "A condition or influence that affects whether scientific knowledge or a science-based practice is taken up by society. Factor categories include evidence quality, economic feasibility, accessibility, government support, community trust and cultural alignment.",
+          "failure_mode": "Students list factors generically ('economic, social, political') without explaining how each specifically operated in a named case \u2014 the analysis stays at the label level rather than tracing the mechanism.",
+          "failure_type": "fragile_skill",
+          "response": "For each named case, require students to trace the specific mechanism: 'Which factor? How did it operate? What would have been different if that factor had been absent?' The mechanism tracing prevents label-only analysis.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Evidence quality",
+          "definition": "The strength, reliability and reproducibility of the scientific evidence supporting a practice or technology. Higher evidence quality (multiple independent studies, large sample sizes, peer review) generally supports adoption, though it is not sufficient alone."
+        },
+        {
+          "term": "Economic feasibility",
+          "definition": "Whether the cost of implementing a science-based practice or technology is affordable for the intended users \u2014 including manufacturing cost, infrastructure requirements and ongoing expenses relative to the benefits."
+        },
+        {
+          "term": "Accessibility",
+          "definition": "Whether scientific knowledge or a science-based practice is available and understandable to the people who would use it \u2014 including geographic availability, language accessibility and technical complexity."
+        },
+        {
+          "term": "Government support",
+          "definition": "Policy decisions, funding, legislation or infrastructure that governments provide to enable or encourage adoption \u2014 including subsidies, regulations, public education campaigns and research funding."
+        },
+        {
+          "term": "Community trust",
+          "definition": "The level of public confidence in the scientific evidence, the institutions promoting adoption, and the safety or benefit of the practice. Low community trust can prevent adoption even when evidence quality is high."
+        },
+        {
+          "term": "Cultural alignment",
+          "definition": "The degree to which a science-based practice is compatible with the values, beliefs and customs of the community where adoption is sought. Practices that conflict with cultural values face additional adoption barriers regardless of evidence quality."
+        },
+        {
+          "term": "Citizen science",
+          "definition": "Scientific research conducted with participation from members of the general public, often involving data collection or observation. Citizen science connects to adoption through the accessibility and community trust factors."
+        },
+        {
+          "term": "Adoption trajectory",
+          "definition": "The speed and path of uptake over time \u2014 whether adoption was rapid, gradual or stalled, and what factor changes shifted the trajectory."
+        },
+        {
+          "term": "Adoption barrier",
+          "definition": "A factor or condition that prevents or slows the adoption of scientific knowledge or practices by society. Barriers can be economic (too expensive), cultural (conflicts with values), institutional (no government support) or epistemic (low community trust in the evidence). Analysing adoption requires identifying barriers as well as enablers."
+        },
+        {
+          "term": "Factor interaction",
+          "definition": "The way multiple adoption factors operate simultaneously, where the combination of factors \u2014 not any single factor alone \u2014 determines whether adoption occurs. A practice may have strong evidence but fail adoption because economic and cultural factors are unfavourable at the same time."
+        }
+      ]
+    },
+    {
+      "term": "Research funding",
+      "descriptor_code": "AC9S9H04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The financial resources allocated to support scientific research, provided by governments, industries, foundations and other bodies. Funding decisions determine which research questions are pursued and which are not \u2014 making research funding the primary mechanism through which societal priorities shape scientific investigation.",
+      "failure_mode": "Students think scientists freely choose what to investigate based on curiosity alone \u2014 they do not recognise that research requires funding and that funding bodies have priorities that determine what research gets done.",
+      "failure_type": "misconception",
+      "why_it_matters": "If research direction is driven by curiosity alone, students cannot explain systematic patterns in what gets researched (e.g. why biomedical research receives more funding than environmental research in some periods) or analyse how shifting societal values change research priorities.",
+      "response": "Scaffold the causal chain explicitly: 'A scientist needs equipment, time and a lab. These require money. Money comes from funding bodies with priorities. Therefore the research that gets done reflects those priorities.' Then ask students to identify the funding source and priority behind a named research program.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Funding bodies",
+          "definition": "Organisations that provide money for scientific research, including government agencies (ARC, NHMRC in Australia), private foundations and industry. Each funding body has criteria and priorities that shape which research proposals are supported."
+        },
+        {
+          "term": "Commercial viability",
+          "definition": "Whether a research direction can generate financial returns through products or services. Commercial viability is one mechanism by which market incentives shape which research is funded and pursued."
+        }
+      ]
+    },
+    {
+      "term": "Societal values",
+      "descriptor_code": "AC9S9H04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The priorities, needs and ethical commitments held by a society at a given time \u2014 including health needs, environmental concerns, economic goals, cultural values and security priorities. Societal values influence research direction through multiple mechanisms: government mandate, market incentive, community advocacy and regulatory pressure.",
+      "failure_mode": "Students treat all research as driven by the same mechanism \u2014 typically government funding \u2014 and cannot distinguish between different pathways by which societal values shape research (e.g. government mandate vs. market incentive vs. community advocacy).",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If there is only one mechanism, students cannot analyse why the same societal value (e.g. health improvement) produces different research patterns depending on whether it operates through government policy, private industry or community-directed research.",
+      "response": "Compare two cases where the same value drove research through different mechanisms \u2014 e.g. health needs driving government-funded vaccine research vs. industry-funded pharmaceutical development. Ask students to identify the mechanism in each and how it shaped what research was done.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Green chemistry",
+          "definition": "The design of chemical products and processes that reduce or eliminate hazardous substances. Green chemistry research is driven by environmental values, regulatory pressure and increasingly by commercial incentive as manufacturers seek sustainable processes."
+        },
+        {
+          "term": "Government mandate",
+          "definition": "Direct policy or legislative direction that shapes research priorities \u2014 governments fund specific research programs, set national research agendas, or require investigation of particular issues through regulation."
+        },
+        {
+          "term": "Market incentive",
+          "definition": "Commercial forces that shape research direction \u2014 companies fund research that is likely to produce profitable products or processes, directing scientific investigation toward commercially viable questions."
+        },
+        {
+          "term": "Community advocacy",
+          "definition": "Grassroots demand from communities that drives research in particular directions \u2014 communities affected by health issues, environmental degradation or other concerns advocate for research attention and funding."
+        },
+        {
+          "term": "Regulatory pressure",
+          "definition": "Legal or compliance requirements that direct research and development \u2014 regulations on emissions, safety standards or environmental impact create demand for scientific solutions to meet the requirements."
+        }
+      ]
+    },
+    {
+      "term": "Investigable question",
+      "descriptor_code": "AC9S9I01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A scientific question that can be answered through observable, measurable evidence. An investigable question names or implies variables that can be measured, is specific enough to address through a single investigation, and cannot be answered by opinion alone. At Year 9, investigable questions target a specific relationship between variables rather than simply exploring a phenomenon.",
+      "failure_mode": "Students write questions that are too vague to investigate ('How do plants grow?'), not measurable ('Is photosynthesis important?'), or answerable by opinion rather than evidence \u2014 they cannot identify what makes a question testable.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "The question quality determines the investigation quality. A question that is too vague, not measurable, or not about a testable relationship cannot lead to a valid investigation method \u2014 unfocused questions produce unfocused investigation designs at AC9S9I02.",
+      "response": "Model the evaluation explicitly: 'Does this question name variables? Can those variables be measured? Could one investigation address it?' Present contrasting pairs (investigable vs. non-investigable) and ask students to apply these criteria to identify and fix the non-investigable ones.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Variable",
+          "definition": "A factor in an investigation that can change or be measured. At Year 9, investigable questions must name or imply the variables involved in the relationship being tested."
+        },
+        {
+          "term": "Testable",
+          "definition": "Able to be answered by collecting observable or measurable evidence rather than by opinion, belief or definition."
+        },
+        {
+          "term": "Empirical",
+          "definition": "Based on observable, measurable evidence rather than theory, opinion or authority alone. An empirical question is one that can be answered by collecting data. The boundary between empirical and non-empirical questions (philosophical, ethical, definitional) is what defines the scope of scientific investigation."
+        }
+      ]
+    },
+    {
+      "term": "Reasoned prediction",
+      "descriptor_code": "AC9S9I01",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A statement of an expected outcome that includes a scientific reason for the expectation. A reasoned prediction has two mandatory components: what will happen (the expected outcome) and why it will happen (a reason grounded in scientific knowledge). It is distinct from a guess, which lacks a scientific basis.",
+      "failure_mode": "Students routinely drop the reasoning component \u2014 they write predictions as guesses ('I think the plant will grow taller') without the 'because' clause grounded in scientific knowledge. The prediction becomes indistinguishable from intuition.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Without the reasoning component, a prediction cannot be evaluated against scientific knowledge \u2014 there is no basis for judging whether the prediction is scientifically sound or for connecting the result back to an explanation. The prediction loses its function in the investigation cycle.",
+      "response": "Treat the because-clause as mandatory and non-negotiable. After every prediction, ask: 'What science tells you this will happen?' If the student cannot provide a scientific reason, the prediction is a guess and needs revision. Consistent practice with the expected-outcome + reason format builds the habit.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Hypothesis",
+      "descriptor_code": "AC9S9I01",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A testable, refutable statement that specifies the predicted relationship between variables, typically written in an if-then-because structure. A scientific hypothesis must be specific enough that evidence could either support or refute it \u2014 if no possible result could prove it wrong, it is not a scientific hypothesis.",
+      "failure_mode": "Students write vague or unfalsifiable hypotheses (e.g. 'plants will grow differently') that cannot be tested because no specific result would refute them. The conclusion stage of the investigation collapses \u2014 there is nothing to support or reject.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "A hypothesis that cannot be tested cannot be advanced or rejected, and the entire investigation loses its logical structure. The hypothesis is what connects the question to the method to the conclusion \u2014 if it is vague, every subsequent stage is undermined.",
+      "response": "Scaffold the refutability concept with concrete counter-examples: 'Plants respond to their environment \u2014 true, but untestable because no result could prove it wrong. Now compare: If light intensity increases, then photosynthesis rate will increase \u2014 what result would refute this?' The contrast makes refutability concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Refutability",
+          "definition": "The property of a hypothesis that makes it scientifically useful \u2014 it must be possible for evidence to prove it wrong. A hypothesis that cannot be refuted by any possible result does not predict anything testable.",
+          "failure_mode": "Students do not understand why unfalsifiable hypotheses are a problem \u2014 they think a broad hypothesis is 'safer' because it cannot be wrong, missing that this is precisely why it is not scientific.",
+          "failure_type": "flawed_reasoning",
+          "response": "Ask students to identify what result would refute their hypothesis. If they cannot name one, the hypothesis needs to be made more specific until a refuting result can be described.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "If-then-because structure",
+          "definition": "The formal format for a hypothesis: 'If [independent variable is changed in this way], then [dependent variable will change in this way], because [scientific reason].' The structure ensures the hypothesis specifies the relationship, the expected direction and the scientific basis.",
+          "failure_mode": "Students omit the 'because' clause or write it as a restatement of the 'then' rather than an independent scientific reason \u2014 the hypothesis becomes a prediction without theoretical grounding.",
+          "failure_type": "fragile_skill",
+          "response": "Check each component separately: 'What are you changing? What do you expect to happen? What science explains why?' If any component is missing or circular, require revision before proceeding.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Independent variable",
+          "definition": "The variable deliberately changed by the investigator to test its effect. At Year 9, students must name the independent variable in their hypothesis and specify the direction or nature of the change.",
+          "failure_mode": "Students name the independent variable but cannot articulate the predicted direction of its effect on the dependent variable \u2014 the hypothesis specifies what is changed but not what change is expected.",
+          "failure_type": "fragile_skill",
+          "response": "Require students to complete the sentence: 'When I increase/decrease [IV], [DV] will increase/decrease/stay the same because...' The sentence frame forces specification of direction.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Dependent variable",
+          "definition": "The variable measured in response to changes in the independent variable. At Year 9, students must specify what they will measure and how, connecting the DV to the hypothesis prediction.",
+          "failure_mode": "Students confuse the dependent variable with general observations \u2014 they describe what they will 'look at' rather than what they will specifically measure, making their data collection unfocused.",
+          "failure_type": "fragile_skill",
+          "response": "Ask: 'What exactly will you measure? What units will you use? How will you record it?' If the student cannot answer these, their DV is not yet specific enough for the investigation.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Null hypothesis",
+          "definition": "The prediction that there is no effect \u2014 that the independent variable does not affect the dependent variable. Used alongside the experimental hypothesis in formal investigations to provide a baseline for comparison."
+        },
+        {
+          "term": "Explanatory model",
+          "definition": "A theoretical explanation of how or why a phenomenon occurs, from which testable predictions and hypotheses can be generated. At Year 9, students develop hypotheses intended to test or explore explanatory models."
+        }
+      ]
+    },
+    {
+      "term": "Validity",
+      "descriptor_code": "AC9S9I02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The extent to which an investigation method measures what it claims to measure. A valid method ensures that the results are due to the independent variable, not to uncontrolled confounding factors. Validity is about the truthfulness of the measurement \u2014 whether the data actually answers the question being asked.",
+      "failure_mode": "Students confuse validity with reliability or reproducibility \u2014 'the experiment is valid because we got the same result three times.' Getting consistent results is reproducibility; validity is whether the method actually tests what it claims to test.",
+      "failure_type": "misconception",
+      "why_it_matters": "If validity means 'consistent results,' students cannot identify a method that reliably produces the wrong answer (consistently measuring the wrong thing). The distinction between 'consistently measured' and 'correctly measured' collapses, and method evaluation becomes impossible.",
+      "response": "Present a method that is reproducible but not valid \u2014 e.g. measuring plant height with a ruler that starts at 1cm rather than 0. The results will be consistent (reproducible) but systematically wrong (not valid). Ask: 'Is this valid? Is it reproducible? Can something be one without the other?'",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Internal validity",
+          "definition": "Whether the results of an investigation are genuinely due to the independent variable rather than confounding factors. Internal validity asks: 'Can I be sure the IV caused the change in the DV?'"
+        },
+        {
+          "term": "External validity",
+          "definition": "Whether the results of an investigation can be generalised beyond the specific conditions of the study. External validity asks: 'Would these results hold in other contexts?'"
+        },
+        {
+          "term": "Confounding variable",
+          "definition": "An uncontrolled variable that changes alongside the independent variable and could provide an alternative explanation for the results. Confounding variables are the primary threat to internal validity \u2014 if present, the investigator cannot determine whether the IV or the confound caused the observed effect.",
+          "failure_mode": "Students identify controlled variables as a checklist but cannot identify specific confounds \u2014 they list what they held constant without reasoning about what else could have varied and affected the results.",
+          "failure_type": "flawed_reasoning",
+          "response": "After students list controlled variables, ask: 'What else could have changed during your investigation that you didn't control? How would that affect your results?' The question shifts from 'what did I control?' to 'what might I have missed?'",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Reproducibility",
+      "descriptor_code": "AC9S9I02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The extent to which an investigation method can be repeated by other researchers to obtain consistent results. A reproducible method is described in sufficient detail that another person following it would get the same outcome. Reproducibility is about the method's clarity and precision, not about whether the conclusions are correct.",
+      "failure_mode": "Students think reproducibility means 'I can do it again' rather than 'someone else can do it and get the same result.' They write methods as personal narratives ('first I got the beaker') rather than instructions another person could follow.",
+      "failure_type": "misconception",
+      "why_it_matters": "If reproducibility is personal repetition, students cannot evaluate whether their method is detailed enough for independent replication \u2014 a core requirement of scientific investigation. Methods that work for the author but cannot be followed by others are not scientifically reproducible.",
+      "response": "Have students swap investigation plans and attempt to follow each other's methods. The gaps in detail become immediately visible when someone else tries to use the instructions \u2014 this makes 'reproducible by others' concrete.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Method",
+          "definition": "The detailed, step-by-step procedure for conducting an investigation. A scientific method must be written with enough precision that another person could follow it to reproduce the investigation independently.",
+          "failure_mode": "Students write narrative recounts of what they did ('first I got the beaker, then I poured some water') rather than structured instructions with specific quantities, equipment and procedures \u2014 the method cannot be reproduced because it lacks precision.",
+          "failure_type": "fragile_skill",
+          "response": "Apply the 'stranger test': could someone who was not present follow this method and get the same result? If any step requires assumptions about quantities, timing or equipment, the method needs more detail.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Reliability",
+          "definition": "The consistency of results across repeated measurements using the same method. Reliable results show little variation when the investigation is repeated under the same conditions. Closely related to reproducibility, but reliability focuses on the consistency of the data, while reproducibility focuses on whether the method can be followed by others.",
+          "failure_mode": "Students confuse reliability with accuracy \u2014 'my result is reliable because it's close to the textbook answer.' Reliability is about consistency across measurements (tight grouping), not closeness to a true value (which is accuracy).",
+          "failure_type": "misconception",
+          "response": "Use a target analogy: a cluster of arrows tightly grouped but off-centre is reliable but not accurate; arrows spread across the target but centred on average are accurate but not reliable. Ask students to classify data sets as reliable, accurate, both or neither.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Source of error",
+      "descriptor_code": "AC9S9I02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Any factor in an investigation that introduces inaccuracy into the results, reducing the validity or reliability of conclusions. Sources of error include measurement limitations, procedural inconsistencies and environmental factors. Identifying sources of error is part of planning \u2014 they should be anticipated and controlled, not just documented after the fact.",
+      "failure_mode": "Students identify sources of error generically ('human error,' 'mistakes were made') rather than naming specific, identifiable factors and explaining how each affects the results. Generic error identification provides no basis for improving the method.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If error identification is generic, the method cannot be improved \u2014 'be more careful' is not a control strategy. Specific error identification drives specific method refinement; generic error identification is just procedural decoration.",
+      "response": "Ban 'human error' as a response. Require students to name the specific factor (e.g. 'parallax when reading the meniscus,' 'temperature fluctuations in the room,' 'timing started late') and describe how it specifically affected the data.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Controlled variable",
+          "definition": "A variable held constant throughout an investigation to ensure that any change in the dependent variable is due to the independent variable alone. Controlling variables is the primary method for protecting internal validity.",
+          "failure_mode": "Students confuse 'controlled variable' with 'control group' or list controlled variables without explaining why each must be held constant \u2014 the connection between variable control and validity is missing.",
+          "failure_type": "misconception",
+          "response": "For each controlled variable a student identifies, ask: 'What would happen to your results if this varied?' The consequence reasoning connects variable control to validity rather than treating it as a checklist item.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Random error",
+          "definition": "Error that varies unpredictably between measurements \u2014 sometimes too high, sometimes too low \u2014 caused by factors beyond the investigator's control. Random error is reduced by increasing sample size and repeating measurements, not by being more careful.",
+          "failure_mode": "Students think all errors are random and can be eliminated by 'being more careful' \u2014 they miss that random error is inherent variation in measurement, reduced by repeating (averaging), not by effort.",
+          "failure_type": "misconception",
+          "response": "Have students take 10 measurements of the same thing and plot them. The scatter IS random error \u2014 it doesn't go away with care, but the mean becomes more reliable as measurements increase.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Systematic error",
+          "definition": "Error that consistently biases all measurements in the same direction \u2014 always too high or always too low \u2014 caused by a flaw in the method or equipment. Systematic error is not reduced by repeating measurements; it requires identifying and removing the cause.",
+          "failure_mode": "Students do not recognise that some errors affect all measurements the same way \u2014 they think repeating the investigation will fix any error, missing that systematic errors persist through repetition.",
+          "failure_type": "misconception",
+          "response": "Present data where all values are consistently 2\u00b0C too high. Ask: 'Will taking more measurements fix this? What else could we do?' The case shows that repetition cannot fix a systematic bias \u2014 you have to find and fix the cause.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Control group",
+          "definition": "A group in an experiment that is not exposed to the independent variable, providing a baseline for comparison. Distinct from controlled variable \u2014 a control group is a comparison condition, while a controlled variable is a factor held constant across all groups."
+        }
+      ]
+    },
+    {
+      "term": "Risk assessment",
+      "descriptor_code": "AC9S9I02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A systematic evaluation of potential hazards in an investigation, including identification of each hazard, assessment of its likelihood and severity, and description of control measures to reduce risk. Risk assessment is part of investigation planning, not an afterthought.",
+      "failure_mode": "Students treat risk assessment as a compliance exercise \u2014 listing obvious hazards ('don't drink the chemicals') without systematically evaluating likelihood, severity or specific control measures for the actual investigation they are planning.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "A perfunctory risk assessment does not protect anyone. If students cannot evaluate hazard severity and likelihood for their specific investigation context, they cannot make informed safety decisions when unexpected situations arise during practical work.",
+      "response": "Require the four-column format: hazard, likelihood, severity, control measure. For each hazard, the student must explain why the control measure specifically addresses that hazard \u2014 the connection prevents generic listing.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Hazard",
+          "definition": "A potential source of harm in an investigation \u2014 including chemical, biological, physical and environmental hazards specific to the investigation context."
+        },
+        {
+          "term": "Control measure",
+          "definition": "A specific action taken to reduce the risk from an identified hazard \u2014 e.g. wearing safety glasses, using a fume cupboard, limiting quantities."
+        }
+      ]
+    },
+    {
+      "term": "Ethical issues",
+      "descriptor_code": "AC9S9I02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Moral considerations relevant to investigation design, including the welfare of animals used in investigations, the wellbeing of human participants, and cultural sensitivity when working near or on Country/Place. Ethical issues constrain what investigations can be conducted and how.",
+      "failure_mode": "Students treat ethical issues as limited to 'don't hurt animals' \u2014 they cannot identify ethical considerations relevant to human participants, cultural sensitivity or the broader implications of investigation design choices.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If ethical awareness is limited to animal welfare, students cannot navigate the full range of ethical considerations in scientific investigation \u2014 including privacy, informed consent and cultural protocols that apply in field work and community-based research.",
+      "response": "Present investigation scenarios across different ethical dimensions \u2014 one involving animals, one involving human participants, one involving field work on Country. Ask students to identify the ethical issue in each and how the investigation design should respond to it.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Heritage sites",
+          "definition": "Places of cultural, historical or spiritual significance, particularly to First Nations Australians. When planning field investigations, there are legal and ethical responsibilities to identify, respect and report heritage sites and artefacts on Country/Place."
+        }
+      ]
+    },
+    {
+      "term": "Precision",
+      "descriptor_code": "AC9S9I03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The degree of exactness of a measurement, determined by the smallest increment the instrument can detect. Precision describes how closely repeated measurements agree with each other and how many significant figures the instrument supports. A more precise instrument provides finer detail \u2014 a pipette is more precise than a measuring cylinder for volume measurement.",
+      "failure_mode": "Students confuse precision with accuracy \u2014 they think a 'precise' measurement is one that is close to the true value. Precision is about the fineness of the measurement and the consistency of repeated values, not about correctness.",
+      "failure_type": "misconception",
+      "why_it_matters": "If precision means 'correct,' students cannot select equipment based on required measurement detail, cannot explain why a more precise instrument is needed for some investigations, and will record data to arbitrary significant figures unrelated to instrument capability.",
+      "response": "Use the target analogy alongside real instrument comparisons: a cluster of arrows tightly grouped but off-centre is precise but not accurate. Then compare a measuring cylinder (\u00b10.5 mL) with a pipette (\u00b10.05 mL) \u2014 ask which is more precise and why it matters for the investigation.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Instrument precision",
+          "definition": "The smallest measurement increment an instrument can reliably detect \u2014 determines the maximum number of significant figures that can be recorded from that instrument. A ruler marked in millimetres has a precision of \u00b10.5 mm."
+        },
+        {
+          "term": "Units",
+          "definition": "Standardised labels for measurement quantities (m, g, s, \u00b0C, mL). Recording data without correct units makes it uninterpretable \u2014 a value of '45' without units could be grams, millilitres or degrees."
+        }
+      ]
+    },
+    {
+      "term": "Accuracy",
+      "descriptor_code": "AC9S9I03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The closeness of a measured value to the true or accepted value. An accurate measurement is one that correctly represents the quantity being measured. Accuracy is distinct from precision \u2014 a set of measurements can be precise (tightly clustered) without being accurate (close to the true value), and vice versa.",
+      "failure_mode": "Students use 'accurate' and 'precise' interchangeably, or think both just mean 'good measurement.' They cannot distinguish a set of measurements that are consistent but wrong (precise, not accurate) from ones that are correct on average but scattered (accurate, not precise).",
+      "failure_type": "misconception",
+      "why_it_matters": "The accuracy-precision distinction determines different improvement strategies: inaccuracy suggests systematic error (fix the method or calibrate the equipment); imprecision suggests random error (take more measurements). Conflating the two prevents students from diagnosing and addressing data quality issues.",
+      "response": "Present four data sets mapped to a target diagram: high accuracy + high precision, high accuracy + low precision, low accuracy + high precision, low accuracy + low precision. Ask students to classify each and identify what would fix each problem \u2014 calibration or repetition.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Significant figures",
+      "descriptor_code": "AC9S9I03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The number of meaningful digits in a recorded measurement, reflecting the precision of the instrument used. Recording more significant figures than the instrument supports implies false precision; recording fewer loses available information. The number of significant figures in recorded data should match the instrument's capability.",
+      "failure_mode": "Students record data to arbitrary significant figures \u2014 either copying all digits from a calculator (implying false precision) or rounding too aggressively (losing information the instrument actually provided). They do not connect the number of recorded digits to the instrument's precision.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Significant figure errors cascade into analysis and conclusions. Data recorded to false precision cannot be retrospectively corrected, and conclusions drawn from over-precise data appear more certain than the evidence supports \u2014 undermining the validity of the entire investigation.",
+      "response": "For each instrument used, ask: 'What is the smallest increment this instrument can measure? How many digits should you record?' Build the habit of checking instrument precision before recording any data value.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Sample size",
+      "descriptor_code": "AC9S9I03",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The number of data points, measurements or trials collected in an investigation. Larger sample sizes reduce the effect of random variation on results, producing more reliable data. However, appropriate sample size depends on the investigation context \u2014 variability in what is being measured, required confidence, and practical constraints all determine what constitutes a useful sample size.",
+      "failure_mode": "Students default to 'more is always better' without considering what sample size is appropriate for the specific investigation \u2014 or they choose a sample size of three because that is the classroom convention, without understanding why three may or may not be sufficient.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If sample size decisions are unjustified, students cannot evaluate whether their data is sufficient to support their conclusions or explain why results from a very small sample are less reliable \u2014 the connection between sample size and conclusion confidence is absent.",
+      "response": "Ask students to justify their sample size for a specific investigation: 'Why this number? What would change if you had fewer? More? What practical constraints limit you?' The justification practice builds the reasoning habit.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Data table",
+          "definition": "An organised structure with labelled columns (including units), consistent formatting and space for repeated measurements. The data table is the primary recording tool for investigations \u2014 it must be constructed before data collection begins.",
+          "failure_mode": "Students record data in running text, unstructured lists or tables without column headers, units or consistent formatting \u2014 the data becomes unusable for analysis because structure was not planned before collection.",
+          "failure_type": "fragile_skill",
+          "response": "Require students to construct the data table before starting the investigation \u2014 with columns labelled, units included and space for the planned number of trials. Review the table structure before data collection begins.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Replicability",
+          "definition": "Whether another person can conduct the same investigation and obtain consistent results. Related to reproducibility (AC9S9I02) but emphasised here in the context of whether equipment selection and sample size enable consistent data collection."
+        },
+        {
+          "term": "Data logger",
+          "definition": "A digital tool that automatically records measurements at set intervals, enabling higher-frequency data collection and larger sample sizes than manual recording allows. Data logger settings (sampling rate, scale range) require precision decisions matching the investigation needs."
+        }
+      ]
+    },
+    {
+      "term": "Measuring equipment",
+      "descriptor_code": "AC9S9I03",
+      "first_waypoint": 1,
+      "width_tier": "typical",
+      "definition": "The instruments selected to generate and record data in an investigation. Equipment selection at Year 9 is based on the precision required \u2014 choosing between instruments that measure the same quantity but to different levels of precision (e.g. measuring cylinder vs. pipette, spring balance vs. electronic balance).",
+      "failure_mode": "Students select equipment based on availability or familiarity rather than the precision required by the investigation \u2014 they do not match the instrument to the measurement need.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If equipment selection is arbitrary, the data may lack the precision needed to detect the effect being investigated \u2014 small differences that matter for the conclusion become invisible because the instrument cannot resolve them.",
+      "response": "Present two instruments for the same measurement (e.g. 100 mL measuring cylinder vs. 10 mL pipette) and ask: 'Which would you choose to measure exactly 7.5 mL? Why?' The choice makes equipment-precision matching concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Thermometer",
+          "definition": "Instrument for measuring temperature. Laboratory thermometers typically read to \u00b10.5\u00b0C or \u00b11\u00b0C; digital thermometers may provide higher precision."
+        },
+        {
+          "term": "Measuring cylinder",
+          "definition": "Instrument for measuring liquid volume. Available in various sizes with different precisions \u2014 a 10 mL cylinder is more precise than a 100 mL cylinder for small volumes."
+        },
+        {
+          "term": "Force meter",
+          "definition": "Instrument for measuring force in newtons. Spring-based force meters have a fixed range and precision determined by the spring constant."
+        },
+        {
+          "term": "Balance",
+          "definition": "Instrument for measuring mass. Electronic balances typically provide higher precision (\u00b10.01 g or \u00b10.1 g) than beam balances."
+        },
+        {
+          "term": "Stopwatch",
+          "definition": "Instrument for measuring time intervals. Instrument precision is high (\u00b10.01 s) but human reaction time (~0.2 s) is the limiting factor \u2014 this is a common example of the difference between instrument precision and measurement precision."
+        }
+      ]
+    },
+    {
+      "term": "Representation",
+      "descriptor_code": "AC9S9I04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A visual or structural format used to organise and display data \u2014 including tables, graphs, models and mathematical relationships. At Year 9, the emphasis is on selecting the most appropriate representation for a given data type and investigation question, not just constructing any representation.",
+      "failure_mode": "Students default to a single graph type (typically bar graph) regardless of data type \u2014 they do not select a representation based on the nature of the data or the question being answered. The selection is habitual, not reasoned.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "An inappropriate representation obscures rather than reveals patterns. A bar graph used for continuous trend data hides the trend; a line graph used for categorical data implies a false continuum. If selection is not deliberate, the representation undermines the analysis it is supposed to support.",
+      "response": "Model the selection decision explicitly: 'What type of data is this \u2014 continuous or categorical? What question am I answering \u2014 trend, comparison or relationship? Which representation makes the answer visible?' Present the same data in two representations and ask which reveals the pattern more clearly.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Scale (axis)",
+          "definition": "The numerical range and increment chosen for a graph axis. Scale decisions include starting value, increment size, and whether the scale is uniform (equal increments throughout). Scale choices determine whether patterns are visible, exaggerated or hidden.",
+          "failure_mode": "Students select non-uniform scales, omit breaks when not starting at zero, or compress data into unreadable ranges \u2014 patterns become invisible or the visual impression is misleading.",
+          "failure_type": "fragile_skill",
+          "response": "Before students draw any graph, require them to determine the scale first: 'What is your minimum value? Maximum? What increment makes the data readable?' Review the scale before plotting begins.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Line graph",
+          "definition": "A graph that shows how a variable changes in response to a continuous independent variable, with data points connected by lines to show the trend. Appropriate when the independent variable is continuous (e.g. time, temperature) and the question is about a trend or rate of change."
+        },
+        {
+          "term": "Bar graph",
+          "definition": "A graph that compares values across discrete categories using separate bars. Appropriate when the independent variable is categorical (e.g. different materials, different species) and the question is about comparison rather than trend."
+        },
+        {
+          "term": "Scatter plot",
+          "definition": "A graph that plots individual data points to show the relationship between two continuous variables, without connecting the points. Appropriate when investigating whether and how two variables are related \u2014 the pattern of scatter reveals the type and strength of the relationship."
+        },
+        {
+          "term": "Table",
+          "definition": "An organised arrangement of raw data in rows and columns with headers and units. Tables display exact values and are the primary format for recording data during an investigation \u2014 they precede graphical representation."
+        },
+        {
+          "term": "x-axis",
+          "definition": "The horizontal axis of a graph, typically representing the independent variable."
+        },
+        {
+          "term": "y-axis",
+          "definition": "The vertical axis of a graph, typically representing the dependent variable."
+        },
+        {
+          "term": "Continuous variable",
+          "definition": "A variable that can take any value within a range and is measured on a scale \u2014 such as temperature, time, mass or concentration. Continuous data is represented with line graphs or scatter plots because the values between measured points are meaningful."
+        },
+        {
+          "term": "Categorical variable",
+          "definition": "A variable that falls into distinct groups or categories \u2014 such as species, material type or treatment condition. Categorical data is represented with bar graphs because there are no meaningful values between categories."
+        }
+      ]
+    },
+    {
+      "term": "Descriptive statistics",
+      "descriptor_code": "AC9S9I04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Summary measures that describe key features of a data set \u2014 at Year 9, the core measures are mean, median and range. Selecting the appropriate descriptive statistic depends on the distribution of the data and what aspect of it needs to be communicated. The choice of statistic affects what the data appears to say.",
+      "failure_mode": "Students apply mean by default to all data sets without considering whether it is appropriate \u2014 they do not recognise that mean can be misleading for skewed data or data with outliers.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If mean is the only summary measure students use, they will produce misleading summaries of skewed data sets \u2014 the mean of a data set with extreme outliers does not represent the typical value. Statistical choice affects the validity of claims made from the data.",
+      "response": "Present a data set with an outlier (e.g. test scores: 65, 68, 70, 72, 95). Calculate both mean and median. Ask: 'Which better represents the typical score? Why?' Repeat with a symmetrical data set where mean and median agree \u2014 the contrast builds selection judgement.",
+      "response_type": "repertoire_building"
+    },
+    {
+      "term": "Mean",
+      "descriptor_code": "AC9S9I04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The arithmetic average of a data set, calculated by summing all values and dividing by the number of values. Mean is the most commonly used measure of central tendency but is sensitive to extreme values \u2014 a single outlier can shift the mean significantly away from the typical value.",
+      "failure_mode": "Students calculate the mean correctly but use it uncritically for all data \u2014 including skewed data where the mean is pulled away from the centre by extreme values. They treat mean as the only way to summarise data.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If the mean is always used, summaries of skewed data will be misleading \u2014 students' conclusions will not represent the typical value in the data set, and claims based on the mean will overstate or understate the central tendency.",
+      "response": "Present data sets where mean and median differ substantially and ask: 'If you had to describe the typical value, which measure would you choose? Why?' The comparison forces the student to evaluate rather than default.",
+      "response_type": "repertoire_building"
+    },
+    {
+      "term": "Median",
+      "descriptor_code": "AC9S9I04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The middle value when a data set is arranged in order. Median is not affected by extreme values and is the preferred measure of central tendency for skewed data or data sets containing outliers. If the data set has an even number of values, the median is the mean of the two middle values.",
+      "failure_mode": "Students do not know when to prefer median over mean \u2014 they either never use median or use it only when told to, without understanding that skewed data or outliers make median more representative than mean.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Without median as a tool, students have no way to produce a representative summary of skewed data. They are limited to mean, which misrepresents the data in precisely the cases where summary statistics matter most.",
+      "response": "Present a real-world context where median matters (e.g. household income data where a few very high incomes skew the mean). Ask students to calculate both and explain which better represents 'typical' \u2014 the real-world context makes the choice meaningful.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Range",
+      "descriptor_code": "AC9S9I04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "The difference between the highest and lowest values in a data set, indicating the spread of the data. Range provides information about variability that central tendency measures (mean, median) do not \u2014 a data set can have the same mean but very different ranges, indicating different levels of consistency.",
+      "failure_mode": "Students report the highest and lowest values rather than calculating the difference, or they do not recognise that range provides information about consistency and variability that mean and median cannot.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Without range, students have no measure of how spread out their data is \u2014 they cannot distinguish between a reliable data set (small range) and an unreliable one (large range) when both have similar means.",
+      "response": "Present two data sets with the same mean but very different ranges. Ask: 'Which set would you trust more? Why?' The comparison makes range's function as a reliability indicator concrete.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Mathematical relationship",
+      "descriptor_code": "AC9S9I04",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A formula, ratio or proportional expression applied to process raw data into meaningful scientific information. At Year 9, this includes applying given formulae to calculate derived quantities, using ratios to express proportional relationships, and constructing representations where numerical accuracy is required (e.g. scaled Sankey diagrams).",
+      "failure_mode": "Students can substitute values into a formula but cannot explain what the processed result represents \u2014 the mathematical step is mechanical rather than connected to scientific meaning.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "If mathematical processing is disconnected from scientific meaning, students produce correct numbers they cannot interpret. The calculation is not the end point \u2014 understanding what the result reveals about the phenomenon is the purpose of mathematical processing in science.",
+      "response": "After every calculation, ask: 'What does this number tell you about the science? How does the processed result differ from the raw data, and why is the processed version more useful?' The interpretation question follows every mathematical step.",
+      "response_type": "integration",
+      "sub_terms": [
+        {
+          "term": "Sankey diagram",
+          "definition": "A flow diagram where arrow width is proportional to the quantity being represented \u2014 typically used to show energy transfer and transformation, with wider arrows representing larger quantities. Constructing an accurate Sankey diagram requires applying ratios to determine arrow widths.",
+          "failure_mode": "Students draw Sankey diagram arrows at arbitrary widths rather than scaling them proportionally to the quantities \u2014 the diagram becomes a sketch rather than a quantitative representation.",
+          "failure_type": "fragile_skill",
+          "response": "Provide the quantitative data and require students to calculate arrow widths as proportions of the total before drawing. Compare a correctly scaled diagram with an unscaled sketch and ask which provides useful information.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Ratio",
+          "definition": "A comparison of two quantities expressed as a proportion. In data processing, ratios are used to calculate relative values (e.g. percentage efficiency, proportional representation in diagrams)."
+        },
+        {
+          "term": "Formula",
+          "definition": "A mathematical expression that defines a relationship between variables, used to process raw data into derived quantities (e.g. speed = distance \u00f7 time, efficiency = useful energy \u00f7 total energy \u00d7 100)."
+        },
+        {
+          "term": "Bimodal distribution",
+          "definition": "A data distribution with two distinct peaks rather than one. Mean and median can both misrepresent bimodal data by falling between the two peaks where few actual data points exist."
+        }
+      ]
+    },
+    {
+      "term": "Pattern",
+      "descriptor_code": "AC9S9I05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A repeating or regular feature in data that can be described precisely by naming the variables involved, the nature of the regularity, and the conditions under which it holds. At Year 9, students must describe patterns with sufficient precision to distinguish them from trends and relationships.",
+      "failure_mode": "Students describe patterns in vague terms ('it goes up,' 'there is a pattern') rather than naming both variables and specifying the nature of the regularity. The description is too imprecise to analyse scientifically or to identify anomalies against.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If pattern description is vague, the subsequent analysis collapses \u2014 anomalies cannot be identified against an imprecise pattern, and scientific explanations cannot address unspecified regularities. The precision of description determines whether the analysis is substantive.",
+      "response": "Require students to complete a structured description: 'As [variable 1] increases/decreases, [variable 2] increases/decreases/stays constant, and the relationship is [proportional/inverse/non-linear].' Reject descriptions that do not name both variables and the direction of change.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Data point",
+          "definition": "A single measurement or observation recorded during an investigation. Multiple data points are needed to establish a pattern \u2014 a single data point cannot demonstrate regularity.",
+          "failure_mode": "Students treat a single data point as evidence of a pattern or use one measurement to claim a relationship exists \u2014 they do not recognise that patterns require multiple data points showing regularity.",
+          "failure_type": "flawed_reasoning",
+          "response": "Present a scatter plot with one data point and ask: 'Is there a pattern here?' Then add points progressively. Ask at each stage whether a pattern has emerged \u2014 the exercise shows that pattern claims require sufficient data.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Trend",
+      "descriptor_code": "AC9S9I05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A directional change in one variable as another variable changes \u2014 the data values generally increase, decrease or remain constant over the range measured. A trend describes the overall direction of the data, which may include individual variation around the trend line.",
+      "failure_mode": "Students confuse trend with pattern \u2014 they use the terms interchangeably or describe a trend without specifying direction. They may also treat every fluctuation as significant rather than identifying the overall directional tendency.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If trend and pattern are interchangeable, students cannot precisely describe what they observe in data \u2014 the analytical vocabulary needed for scientific explanation and for identifying anomalies is not available.",
+      "response": "Present data with a clear overall trend but individual variation (e.g. temperature data with daily fluctuations around an upward trend). Ask students to identify the trend separately from the variation \u2014 the distinction becomes visible in real data.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Relationship",
+      "descriptor_code": "AC9S9I05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The way one variable changes in response to changes in another variable. Relationships can be described by their type \u2014 proportional (constant ratio), inverse (one increases as the other decreases), non-linear (curved), or no relationship (no systematic covariance). Identifying a relationship is the analytical step that connects data observation to scientific explanation.",
+      "failure_mode": "Students identify that two variables change together but describe all relationships as either 'they increase together' or 'there is a relationship' \u2014 they cannot distinguish proportional from inverse from non-linear relationships or describe the nature of the covariance precisely.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "Different relationship types imply different scientific mechanisms. If all relationships are described the same way, students cannot connect their data to specific scientific explanations or distinguish between fundamentally different phenomena.",
+      "response": "Present three data sets with different relationship types (proportional, inverse, non-linear) and require students to describe each precisely. The comparison across types builds the vocabulary for describing what is different about each.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Proportional",
+          "definition": "A relationship where one variable increases by a constant ratio as the other increases \u2014 doubling one doubles the other. On a graph, a proportional relationship appears as a straight line through the origin."
+        },
+        {
+          "term": "Inverse",
+          "definition": "A relationship where one variable decreases as the other increases. On a graph, an inverse relationship curves downward \u2014 as one variable gets larger, the rate of decrease in the other slows."
+        },
+        {
+          "term": "Non-linear",
+          "definition": "A relationship that does not follow a straight line \u2014 the rate of change varies across the data range. Non-linear relationships require more complex mathematical descriptions than proportional relationships."
+        },
+        {
+          "term": "Correlation",
+          "definition": "Two variables changing together in a systematic way. Correlation does not establish causation \u2014 two variables may correlate because both are affected by a third factor rather than because one causes the other."
+        },
+        {
+          "term": "Causation",
+          "definition": "A relationship where one variable directly produces a change in another \u2014 the cause brings about the effect. Establishing causation requires controlled investigation, not just correlation. Two variables can correlate strongly without one causing the other \u2014 both may be caused by a third factor."
+        }
+      ]
+    },
+    {
+      "term": "Anomaly",
+      "descriptor_code": "AC9S9I05",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A data point or observation that does not fit the identified pattern or trend. Anomalies may result from measurement error, procedural variation or genuine scientific outliers \u2014 and the appropriate response differs depending on the cause. Anomaly identification requires an established pattern against which deviation is assessed.",
+      "failure_mode": "Students treat all anomalies the same \u2014 either discarding them automatically ('it must be wrong') or ignoring them ('it doesn't matter'). They do not evaluate whether an anomaly indicates error or genuine variation requiring investigation.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Automatic discard hides potentially important findings; automatic inclusion corrupts analysis. If students cannot evaluate anomalies, they cannot make reasoned decisions about data quality \u2014 a skill required for valid conclusion-drawing at AC9S9I06.",
+      "response": "Present an anomalous data point and ask students to generate two explanations: one that treats it as error and one that treats it as genuine. Then ask: 'What additional evidence would you need to decide between these?' The evaluation framework is the skill.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Outlier",
+          "definition": "A data point that falls significantly outside the range of the other values in a data set. Outlier is often used interchangeably with anomaly, but strictly refers to the statistical distance from other values rather than deviation from a pattern.",
+          "failure_mode": "Students use 'outlier' to mean 'any result I don't like' rather than a data point that genuinely falls significantly outside the established pattern \u2014 the term becomes a licence to discard inconvenient data without justification.",
+          "failure_type": "flawed_reasoning",
+          "response": "Require students to justify any data removal: 'What makes this an outlier? How far is it from the pattern? Could there be a legitimate reason for this value?' If they cannot justify removal, the data point stays.",
+          "response_type": "structured_reasoning"
+        }
+      ]
+    },
+    {
+      "term": "Extrapolation",
+      "descriptor_code": "AC9S9I05",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Extending a pattern or trend beyond the range of measured data to predict values that were not directly observed. Extrapolation assumes the relationship continues unchanged beyond the measured range \u2014 an assumption that may or may not be valid. The further the extrapolation extends beyond the data, the less reliable the prediction.",
+      "failure_mode": "Students extrapolate from data without recognising the assumptions required \u2014 they treat predicted values beyond the data range as equally reliable to measured values within it. They do not evaluate when extrapolation is or is not justified.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Uncritical extrapolation produces predictions that appear data-supported but are actually assumption-dependent. If students cannot identify the assumption (that the pattern continues unchanged), they cannot evaluate the reliability of extrapolated predictions \u2014 a key reasoning skill for AC9S9I06 conclusion evaluation.",
+      "response": "Show a heating curve measured from 20\u00b0C to 80\u00b0C and ask students to predict the value at 120\u00b0C. Then reveal the actual data \u2014 which may plateau or change direction. The gap between prediction and reality makes the extrapolation assumption visible.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Secondary source",
+      "descriptor_code": "AC9S9I06",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Information obtained from other researchers' published work rather than from one's own investigation. Secondary sources include journal articles, textbooks, databases and media reports. At Year 9, evaluating secondary sources requires applying validity criteria \u2014 not all secondary sources are equally credible.",
+      "failure_mode": "Students treat all published sources as equally valid \u2014 a Wikipedia article, a peer-reviewed journal paper and a news headline receive the same epistemic weight. They do not apply criteria to differentiate source credibility.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If all sources are equally credible, students cannot construct arguments that prioritise stronger evidence or identify when a claim is poorly supported. Source evaluation is the foundation for evidence-based reasoning at AC9S9I07.",
+      "response": "Present three sources on the same topic \u2014 a peer-reviewed article, a news report and a social media post. Ask students to rank credibility and identify the specific features of each that support or undermine trust. The ranking exercise forces criteria application.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Credibility",
+          "definition": "The extent to which a source can be trusted to provide accurate, evidence-based information. Credibility is assessed through multiple criteria including whether the work is peer-reviewed, the author's expertise, the date of publication and whether the underlying data is transparent.",
+          "failure_mode": "Students assess credibility based on surface features ('it looks professional,' 'it's on a proper website') rather than applying substantive criteria like peer review status, author expertise and data transparency.",
+          "failure_type": "fragile_skill",
+          "response": "Provide a checklist of credibility criteria (peer reviewed? author expertise? date? data accessible?) and require students to evaluate each source against every criterion \u2014 not just give an overall impression.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Primary source",
+          "definition": "Data or findings obtained directly from one's own investigation, as distinct from information obtained from others' published work."
+        },
+        {
+          "term": "Author expertise",
+          "definition": "Whether the author has relevant qualifications, experience or institutional affiliation in the field they are writing about \u2014 one criterion for assessing source credibility."
+        },
+        {
+          "term": "Data transparency",
+          "definition": "Whether the underlying data, methods and analysis are available for scrutiny \u2014 a source that presents conclusions without showing the supporting evidence is less credible than one that makes its data accessible."
+        }
+      ]
+    },
+    {
+      "term": "Assumption",
+      "descriptor_code": "AC9S9I06",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Something taken for granted in a method or conclusion without explicit testing or justification. All investigation methods contain assumptions \u2014 about the representativeness of samples, the constancy of conditions, the appropriateness of instruments, or the applicability of models. Identifying assumptions is essential for evaluating how much confidence to place in conclusions.",
+      "failure_mode": "Students cannot see assumptions because they are, by definition, invisible \u2014 taken for granted. They treat methods as assumption-free and accept conclusions without identifying what must be true for the conclusion to hold.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If students cannot identify assumptions, they cannot evaluate conclusion validity \u2014 they will accept or reject conclusions based on whether they 'seem right' rather than on what the evidence and method actually support. Assumption identification is the analytical foundation for all conclusion evaluation.",
+      "response": "Teach the explicit question: 'What would have to be true for this method to work / for this conclusion to follow?' Model this across multiple examples \u2014 the question structure makes invisible assumptions identifiable. Start with everyday examples before moving to scientific methods.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Conflicting evidence",
+      "descriptor_code": "AC9S9I06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Evidence that supports a different conclusion from the one being advanced. Conflicting evidence may come from within the same investigation (anomalous results) or from other studies on the same topic. The presence of conflicting evidence does not automatically invalidate a conclusion \u2014 its significance depends on the quality and quantity of the conflicting data relative to the supporting data.",
+      "failure_mode": "Students either ignore conflicting evidence entirely (focusing only on data that supports their conclusion) or treat any conflicting evidence as equally undermining regardless of its quality or quantity \u2014 they cannot evaluate the significance of conflict.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If conflicting evidence is invisible or automatically disqualifying, students cannot produce balanced evaluations of conclusions. They either present one-sided arguments or abandon valid conclusions based on minor contradictions \u2014 neither reflects how scientific evaluation works.",
+      "response": "Present evidence for and against a conclusion and ask: 'Does the conflicting evidence change the conclusion? How much? What would you need to see to change your mind?' The evaluation of significance is the skill \u2014 not just noticing the conflict.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Alternative conclusion",
+          "definition": "A different valid interpretation of the same evidence set. Constructing an alternative conclusion requires identifying how the same data could support a different claim if different assumptions are applied or if conflicting evidence is weighted differently.",
+          "failure_mode": "Students cannot construct alternative conclusions from the same evidence \u2014 they treat the first conclusion they reach as the only possible one, missing that the same data can support multiple interpretations depending on assumptions and weighting.",
+          "failure_type": "narrow_repertoire",
+          "response": "After students state their conclusion, ask: 'What is another conclusion this evidence could support? What would someone who disagreed with you say?' Require the alternative to be plausible, not just contrarian.",
+          "response_type": "repertoire_building"
+        }
+      ]
+    },
+    {
+      "term": "Uncertainty",
+      "descriptor_code": "AC9S9I06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Areas where the evidence is incomplete, the results are ambiguous, or the method has limitations that affect confidence in the conclusion. Uncertainty is inherent in scientific investigation \u2014 acknowledging it is a strength, not a weakness, because it communicates the limits of what the evidence can support.",
+      "failure_mode": "Students treat uncertainty as failure \u2014 'our experiment didn't work properly' \u2014 rather than as an inherent feature of scientific investigation that should be identified and communicated. They either ignore uncertainty or treat it as equally damaging regardless of magnitude.",
+      "failure_type": "misconception",
+      "why_it_matters": "If uncertainty means failure, students will either hide it (presenting conclusions with false confidence) or be paralysed by it (concluding nothing because everything is uncertain). Neither reflects scientific reasoning, which requires calibrated confidence \u2014 stating conclusions with appropriate qualifications.",
+      "response": "Present a conclusion with explicit uncertainty and ask: 'Is this conclusion wrong? Or is it the best answer the evidence supports, with stated limitations?' The reframing of uncertainty from weakness to honesty changes how students approach it.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Evidence-based argument",
+      "descriptor_code": "AC9S9I07",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "An argument in which a claim is supported by evidence from multiple evaluated sources, with the credibility and relevance of each source explicitly assessed. At Year 9, an evidence-based argument must draw on at least two sources and explain how the evidence collectively supports the conclusion \u2014 not just list sources alongside a claim.",
+      "failure_mode": "Students construct arguments from a single source or list multiple sources without evaluating their credibility \u2014 the argument becomes 'I found this' rather than 'this evidence from these credible sources supports this claim because...' Description of sources replaces argument that uses them.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "An argument from one source or from unevaluated sources cannot distinguish a well-supported claim from an opinion. If students cannot construct multi-source, credibility-evaluated arguments, the capstone inquiry skill collapses \u2014 all their investigation, analysis and evaluation work has no vehicle for expression.",
+      "response": "Scaffold the argument structure explicitly: 'Claim \u2192 Evidence 1 (credibility basis, how it supports) \u2192 Evidence 2 (credibility basis, how it supports) \u2192 how they work together to make the case stronger than either alone.' Require students to complete this structure before writing the argument in prose.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Counter-argument",
+          "definition": "An argument that opposes the main claim, drawing on evidence that supports a different conclusion. Addressing counter-arguments strengthens an evidence-based argument by demonstrating that opposing positions have been considered and responded to.",
+          "failure_mode": "Students present counter-arguments as straw men \u2014 stating the weakest possible version of the opposing position and dismissing it, rather than engaging with the strongest evidence against their claim.",
+          "failure_type": "flawed_reasoning",
+          "response": "Require students to state the strongest counter-argument they can find \u2014 the one most difficult for their claim to survive. Then ask how their evidence addresses it. If they cannot address the strongest counter-argument, they need more evidence or a more qualified claim.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Relevance",
+          "definition": "Whether evidence actually supports the specific claim being made, as opposed to being about the same general topic but not addressing the claim directly. Relevant evidence speaks to the claim; related evidence is about the same topic but does not advance the argument."
+        },
+        {
+          "term": "Claim",
+          "definition": "A statement about the natural world that requires evidence to support it. In scientific argument, a claim is distinct from a fact (established beyond reasonable doubt) and from an opinion (not evidence-dependent). Claims are what arguments are built to support or evaluate."
+        }
+      ]
+    },
+    {
+      "term": "Ethical issues in data use",
+      "descriptor_code": "AC9S9I07",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Moral considerations associated with accessing, using and citing secondary data \u2014 including data privacy (not using data that could identify individuals), correct attribution (properly citing sources and acknowledging contributions), and relevance (not using data out of context to support claims it was not intended to support). Distinct from ethical issues in investigation design (AC9S9I02).",
+      "failure_mode": "Students treat ethics in data use as limited to plagiarism \u2014 they do not recognise data privacy and relevance as separate ethical concerns. Attribution is understood as 'don't copy,' but the broader responsibility of ethical data handling is absent.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If ethics means only 'don't plagiarise,' students will use data containing personal information without recognising the harm, cite data out of its original context to support unintended claims, and miss the broader professional responsibility scientists have when handling others' data.",
+      "response": "Present three scenarios: one involving personal data, one involving incorrect attribution, one involving data used out of context. Ask students to identify the ethical issue in each \u2014 the range prevents ethics from collapsing into a single concern.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Citation",
+          "definition": "The formal acknowledgment of the source of data or ideas used in an argument. Correct citation credits the original researchers and allows others to verify the evidence. At Year 9, citation is an ethical obligation, not just an academic convention.",
+          "failure_mode": "Students treat citation as a formatting requirement rather than an ethical obligation \u2014 they cite to avoid getting in trouble rather than to credit contributors and enable verification.",
+          "failure_type": "misconception",
+          "response": "Frame citation as answering: 'If someone wanted to check this evidence, could they find the original?' and 'Have the people who did this work been credited?' The verification and credit framing shifts citation from compliance to purpose.",
+          "response_type": "structured_reasoning"
+        },
+        {
+          "term": "Data privacy",
+          "definition": "The obligation to ensure that secondary data used in an argument does not contain information that could identify individuals or cause them harm \u2014 particularly relevant when using survey data, health data or community-level information."
+        }
+      ]
+    },
+    {
+      "term": "Cultural protocols",
+      "descriptor_code": "AC9S9I07",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The practices and principles that govern appropriate access to, use of, and engagement with First Nations knowledges. Cultural protocols include acknowledging the source community, obtaining appropriate permission before using knowledge, recognising the co-contributions of Indigenous knowledge and contemporary science, and avoiding misrepresentation or extraction of knowledge without attribution.",
+      "failure_mode": "Students treat First Nations knowledge as contextual decoration \u2014 mentioning it as background rather than engaging with it as substantive evidence that requires specific protocols for respectful use.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If Indigenous knowledge is decorative, students both disrespect the knowledge systems involved and miss genuine opportunities to integrate rich evidence into their arguments. Cultural protocols exist to enable genuine engagement, not to restrict it.",
+      "response": "Present a case where First Nations knowledge has been genuinely integrated into a scientific argument (e.g. traditional fire management informing contemporary bushfire research). Ask students to identify what protocols were followed and what made the integration respectful rather than extractive.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Co-contribution",
+          "definition": "The recognition that First Nations knowledges and contemporary science can each contribute to shared understandings \u2014 neither is subordinate to the other. In argument construction, co-contribution means presenting Indigenous knowledge as evidence in its own right, not as context for Western science."
+        },
+        {
+          "term": "Misrepresentation",
+          "definition": "Presenting knowledge inaccurately, out of context, or in a way that distorts its meaning or significance. Misrepresentation of First Nations knowledges includes using concepts without understanding their full cultural context or attributing meaning that the knowledge holders would not recognise."
+        }
+      ]
+    },
+    {
+      "term": "Purpose",
+      "descriptor_code": "AC9S9I08",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The reason a scientific text is being created \u2014 to inform, to persuade, to report findings, or to propose action. Purpose determines what content is included, how it is structured, and what level of evidence is required. At Year 9, students must identify the purpose before making communication choices, not after.",
+      "failure_mode": "Students produce texts without considering purpose \u2014 they default to a single format (usually a report) regardless of what the communication task requires. The text is not shaped by intent; it is shaped by habit.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If purpose does not drive communication choices, students produce texts that are technically correct but functionally inappropriate \u2014 a report when a persuasive piece was needed, or a formal text when an accessible one was required. Communication that ignores purpose fails to communicate.",
+      "response": "Before any writing task, require students to state the purpose in one sentence: 'This text is to [inform/persuade/report/propose]. The reader needs to [understand/be convinced/know the findings/take action].' Review the purpose statement before writing begins.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Audience",
+      "descriptor_code": "AC9S9I08",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The intended reader or viewer of a scientific text \u2014 including their existing knowledge, their information needs, and the context in which they will encounter the text. Audience determines language register, the amount of background explanation needed, and which technical terms require definition. At Year 9, students must adjust their communication for different audiences rather than writing for a single assumed reader.",
+      "failure_mode": "Students write for their teacher as the only audience \u2014 using a level of assumed knowledge that would exclude non-specialists, or conversely, over-explaining to specialists. They do not adjust for the actual stated audience.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If the audience is always the teacher, students develop only one communication mode. This limits their ability to communicate science outside the classroom \u2014 to community groups, policy makers, younger students or the general public \u2014 which is a core function of scientific literacy.",
+      "response": "Assign the same content to two different audiences (e.g. write about climate data for a scientific conference and for a local newspaper). The forced comparison makes audience-driven choices visible and deliberate.",
+      "response_type": "repertoire_building"
+    },
+    {
+      "term": "Scientific investigation report",
+      "descriptor_code": "AC9S9I08",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A formal written account of a scientific investigation with a defined structure: a background paragraph referencing relevant scientific knowledge, a results section that explains findings using scientific knowledge (not just states what happened), and a discussion that evaluates the validity and reproducibility of the method. The report communicates not just what was found but why it matters and how confident we should be in it.",
+      "failure_mode": "Students write the results section as a description of what happened ('the temperature went up') rather than an explanation using scientific knowledge ('the temperature increased because kinetic energy of particles increased'). The discussion section becomes 'we could have been more accurate' rather than a genuine validity and reproducibility analysis.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "A report that describes without explaining and discusses without analysing fails its purpose as a scientific document. The results-explanation distinction and the validity-discussion depth are the specific features that make a Year 9 report different from a Year 7 one \u2014 without them, the writing has not progressed.",
+      "response": "Provide a checklist for each section: Background \u2014 'Does it reference the scientific knowledge needed to understand the investigation?' Results \u2014 'Does it explain WHY, not just WHAT?' Discussion \u2014 'Does it identify specific validity or reproducibility issues in this method?' Require students to self-assess against the checklist before submission.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Background paragraph",
+          "definition": "The opening section of a report that provides the scientific context for the investigation \u2014 referencing the relevant scientific knowledge that the investigation builds on or tests. It is not a description of what you did; it is why the investigation matters scientifically."
+        },
+        {
+          "term": "Results explanation",
+          "definition": "The section of a report that uses scientific knowledge to explain why the results occurred \u2014 not just what happened. 'The reaction was faster' is a result; 'the reaction was faster because higher temperature increases particle kinetic energy and collision frequency' is a results explanation."
+        },
+        {
+          "term": "Validity and reproducibility discussion",
+          "definition": "The section of a report that evaluates specific strengths and limitations of the method \u2014 identifying actual threats to validity and reproducibility in this investigation, not generic statements like 'we could have been more accurate.'"
+        }
+      ]
+    },
+    {
+      "term": "Text features",
+      "descriptor_code": "AC9S9I08",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The structural and language elements selected when constructing a text \u2014 including content selection (what to include and exclude), language choices (register, terminology, sentence structure), visual elements (diagrams, graphs, images) and structural features (headings, paragraphs, captions). At Year 9, text feature selection must be purpose- and audience-driven.",
+      "failure_mode": "Students include text features by default rather than by design \u2014 they add diagrams because 'reports have diagrams' rather than because the diagram communicates something the text cannot. Feature selection is habitual rather than strategic.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If text features are habitual rather than purposeful, students cannot adapt their communication for different contexts. Every text looks the same regardless of purpose and audience \u2014 the communication choices that define effective scientific writing are absent.",
+      "response": "For each text feature included, ask: 'Why this feature? What does it communicate that the text alone cannot? Would the audience need this?' If the feature cannot be justified, it should be reconsidered.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Register",
+          "definition": "The level of formality and technicality in language, adjusted for purpose and audience. Scientific register uses precise terminology and formal structure; conversational register uses everyday language and simpler structure. Shifting register deliberately is the skill \u2014 students must be able to write in both, not just the one they default to.",
+          "failure_mode": "Students write in a single register regardless of audience \u2014 either always formal-scientific (alienating non-specialist readers) or always casual (losing precision for specialist readers). They cannot deliberately shift register when the audience changes.",
+          "failure_type": "narrow_repertoire",
+          "response": "Ask students to write the same finding in two registers \u2014 one for a journal and one for a Year 6 student. The forced shift makes register a conscious choice rather than a default.",
+          "response_type": "repertoire_building"
+        },
+        {
+          "term": "Scientific language",
+          "definition": "Precise technical terminology appropriate to the subject and year level. At Year 9, students are expected to use scientific terms correctly and explain them when writing for non-specialist audiences.",
+          "failure_mode": "Students either avoid scientific terms entirely (writing in everyday language that loses precision) or use them as decoration without understanding their meaning \u2014 inserting technical words to sound scientific without connecting them to their definitions.",
+          "failure_type": "fragile_skill",
+          "response": "For each scientific term a student uses, ask: 'Can you explain what this means in your own words?' If they cannot, the term is decoration and needs to be either understood or replaced with language they can explain.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Culturally responsive communication",
+          "definition": "Communication that considers cultural sensitivities, avoids offensive narratives, language or imagery, and follows cultural protocols when discussing First Nations Australians' knowledges. Culturally responsive communication is an active design choice, not a restriction \u2014 it shapes content and language to be respectful and accurate."
+        }
+      ]
+    }
+  ],
+  "student_glossary": [
+    {
+      "term": "Validation",
+      "descriptor_code": "AC9S9H01",
+      "width_tier": "minimum",
+      "definition": "The process of checking and testing scientific claims before they are accepted as reliable knowledge. Scientists can make mistakes or have biases, so the scientific community has processes to catch errors before claims become accepted science.",
+      "example": "A scientist discovers a new drug works in their lab, but their results need to be checked by other experts before the drug can be considered effective \u2014 that checking process is validation.",
+      "sub_terms": [
+        {
+          "term": "Bias",
+          "definition": "A tendency to favour certain results or interpretations, often without realising it. Everyone has biases \u2014 in science, they can affect how experiments are designed and how results are interpreted.",
+          "example": "If you expect a plant to grow faster with more fertiliser, you might unconsciously measure the tallest part more carefully \u2014 that's bias affecting your data."
+        },
+        {
+          "term": "Scientific claim",
+          "definition": "A statement about how the natural world works, backed up by evidence from experiments or observations.",
+          "example": "Saying 'I think plants need light' is an opinion. Saying 'plants require light for photosynthesis, based on experiments showing no growth in darkness' is a scientific claim."
+        }
+      ]
+    },
+    {
+      "term": "Peer review",
+      "descriptor_code": "AC9S9H01",
+      "width_tier": "minimum",
+      "definition": "A process where independent experts evaluate a scientist's work before it is published. Reviewers check the methods, evidence and conclusions, and can recommend the work be accepted, revised or rejected.",
+      "example": "Before a research paper is published in a science journal, two or three experts in that field read through it and check whether the experiment was done properly and the conclusions make sense.",
+      "sub_terms": [
+        {
+          "term": "Editor",
+          "definition": "The person at a science journal who decides whether a submitted paper should be sent out for review, and who makes the final decision on whether to publish it.",
+          "example": "When a scientist submits a paper, the journal editor reads it first to decide whether it's worth sending to expert reviewers."
+        },
+        {
+          "term": "Reviewer",
+          "definition": "An expert in the same field who reads a submitted paper and checks whether the methods, evidence and conclusions are sound.",
+          "example": "If a biologist submits a paper about cell division, the reviewers would be other biologists who can judge whether the experiments were done properly."
+        },
+        {
+          "term": "Revision",
+          "definition": "When peer reviewers say a paper needs changes before it can be published \u2014 the author has to fix the problems and resubmit it.",
+          "example": "A reviewer might ask for a larger sample size, clearer graphs, or a better explanation of the method before accepting the paper."
+        },
+        {
+          "term": "Rejection",
+          "definition": "When peer reviewers decide a paper should not be published \u2014 usually because the evidence or methods are not strong enough for that journal.",
+          "example": "A paper might be rejected because the sample size was too small to support the conclusions \u2014 the scientist could improve the study and try a different journal."
+        },
+        {
+          "term": "Acceptance",
+          "definition": "When peer reviewers approve a paper for publication \u2014 meaning the methods, evidence and conclusions meet the journal's standards."
+        }
+      ]
+    },
+    {
+      "term": "Publication",
+      "descriptor_code": "AC9S9H01",
+      "width_tier": "minimum",
+      "definition": "The formal sharing of scientific findings through journals or other reviewed channels. Scientific publication is different from just posting something online \u2014 it means the work has been through peer review.",
+      "example": "When a scientist's paper is published in a journal like Nature, it means experts have reviewed the work \u2014 a blog post about the same topic hasn't been through that process.",
+      "sub_terms": [
+        {
+          "term": "Submission",
+          "definition": "Sending your finished research paper to a journal so it can be reviewed and potentially published."
+        },
+        {
+          "term": "Open-access publication",
+          "definition": "Scientific papers that anyone can read for free online, rather than needing to pay or have a university subscription.",
+          "example": "Some journals charge authors a fee to make their paper open-access so anyone in the world can read the research without paying."
+        },
+        {
+          "term": "Pre-print server",
+          "definition": "A website where scientists share their research papers before they've been through peer review \u2014 so the work is public but hasn't been formally checked yet.",
+          "example": "During COVID-19, many researchers posted findings on pre-print servers so other scientists could see the results quickly \u2014 but some of those findings were later found to have errors that peer review would have caught."
+        }
+      ]
+    },
+    {
+      "term": "Scientific consensus",
+      "descriptor_code": "AC9S9H01",
+      "width_tier": "typical",
+      "definition": "The position that most scientists accept on a topic, based on the weight of evidence from many independent studies over time. It is not a vote \u2014 it builds gradually as more and more evidence points the same way.",
+      "example": "The scientific consensus on climate change didn't come from one study \u2014 it built over decades as thousands of independent studies from different countries all pointed to the same conclusion.",
+      "sub_terms": [
+        {
+          "term": "Knowledge refinement",
+          "definition": "The ongoing process of updating scientific understanding as new evidence comes in \u2014 including cases where ideas that were first rejected are later accepted.",
+          "example": "Marshall and Warren's discovery that bacteria cause stomach ulcers was rejected at first, but as more evidence accumulated, scientific understanding was refined to accept it."
+        },
+        {
+          "term": "Accumulating evidence",
+          "definition": "When many different studies by different scientists all point to the same conclusion over time. It is not just one study being repeated \u2014 it is different types of evidence from different places all agreeing.",
+          "example": "Climate change consensus built because ice core data, temperature records, sea level measurements and atmospheric CO\u2082 readings all independently pointed the same direction over decades."
+        }
+      ]
+    },
+    {
+      "term": "Replication",
+      "descriptor_code": "AC9S9H01",
+      "width_tier": "wider",
+      "definition": "When different scientists independently repeat a study to check whether they get the same results. One study passing peer review is a good start, but for knowledge to become established, other researchers need to be able to reproduce it.",
+      "example": "If a team in Sydney discovers a new chemical reaction, scientists in London and Tokyo should be able to follow the same method and get the same result \u2014 that's replication confirming the finding."
+    },
+    {
+      "term": "Science-technology relationship",
+      "descriptor_code": "AC9S9H02",
+      "width_tier": "minimum",
+      "definition": "The two-way connection between science and technology, where each helps the other advance. New technology lets scientists make discoveries they couldn't before, and new scientific understanding lets engineers build technology that didn't exist before. This keeps going back and forth \u2014 it doesn't stop.",
+      "example": "Understanding electromagnetic radiation (science) led to X-ray machines (technology), which then let doctors discover new things about the human body (more science), which led to better imaging like MRI (more technology).",
+      "sub_terms": [
+        {
+          "term": "Iterative",
+          "definition": "Repeating in cycles, each time building on what came before.",
+          "example": "The science-technology relationship is iterative \u2014 like a conversation that keeps going, where each reply builds on the last."
+        },
+        {
+          "term": "Theoretical foundation",
+          "definition": "The scientific knowledge that makes a technology possible in the first place.",
+          "example": "Understanding how radio waves work was the theoretical foundation for developing mobile phone technology."
+        },
+        {
+          "term": "Enabling",
+          "definition": "When one advance makes another possible that couldn't have happened without it. Stronger than 'helping' \u2014 it means the discovery or invention was impossible before.",
+          "example": "The electron microscope didn't just help scientists study cells \u2014 it enabled them to see structures inside cells that were completely invisible before. Without it, that knowledge was inaccessible."
+        }
+      ]
+    },
+    {
+      "term": "Engineering",
+      "descriptor_code": "AC9S9H02",
+      "width_tier": "typical",
+      "definition": "Using scientific knowledge to design and build things that solve practical problems. Engineering is different from science (understanding how things work) and technology (the tools themselves) \u2014 it is the design work that connects the two.",
+      "example": "Graeme Clark used scientific knowledge about how nerves carry sound signals to engineer the cochlear implant \u2014 the science told him what was possible, and the engineering made it real.",
+      "sub_terms": [
+        {
+          "term": "Energy efficiency",
+          "definition": "How much of the energy put into a machine actually does useful work, rather than being wasted as heat or sound.",
+          "example": "A car engine is only about 25% energy efficient \u2014 most of the fuel's energy is lost as heat. Engineers use science to design more efficient engines."
+        }
+      ]
+    },
+    {
+      "term": "Adoption",
+      "descriptor_code": "AC9S9H03",
+      "width_tier": "minimum",
+      "definition": "When scientific knowledge or science-based practices get widely used by society. Just because science proves something works doesn't mean everyone will start using it \u2014 factors like cost, trust, government support and cultural values all affect whether adoption happens.",
+      "example": "Solar panels have been around for decades, but widespread adoption only happened when manufacturing costs dropped, governments offered rebates, and community concern about climate change grew \u2014 the science alone wasn't enough.",
+      "sub_terms": [
+        {
+          "term": "Adoption factor",
+          "definition": "Something that affects whether a scientific practice gets widely used \u2014 like cost, accessibility, government policy, community trust or cultural values.",
+          "example": "One reason traditional fire management practices took so long to be adopted in mainstream bushfire policy is that cultural barriers and institutional resistance were adoption factors working against uptake."
+        },
+        {
+          "term": "Evidence quality",
+          "definition": "How strong and reliable the scientific evidence is for something working \u2014 based on how many studies have been done, how well they were designed, and whether results were consistent."
+        },
+        {
+          "term": "Economic feasibility",
+          "definition": "Whether something is affordable enough for people, businesses or governments to actually use it."
+        },
+        {
+          "term": "Accessibility",
+          "definition": "Whether people can actually access and understand a science-based practice or technology \u2014 not just whether it exists."
+        },
+        {
+          "term": "Government support",
+          "definition": "When governments help adoption along through funding, laws, subsidies or public awareness campaigns."
+        },
+        {
+          "term": "Community trust",
+          "definition": "Whether people trust the science, the scientists, and the organisations promoting a practice enough to actually use it."
+        },
+        {
+          "term": "Cultural alignment",
+          "definition": "Whether a science-based practice fits with a community's values and beliefs \u2014 practices that clash with culture face extra resistance."
+        },
+        {
+          "term": "Citizen science",
+          "definition": "Scientific research that involves ordinary people helping with tasks like collecting data or making observations.",
+          "example": "Birdwatchers who log their sightings on apps like eBird are doing citizen science \u2014 their observations help scientists track bird populations."
+        },
+        {
+          "term": "Adoption trajectory",
+          "definition": "How quickly or slowly a scientific practice gets taken up by society over time.",
+          "example": "Recycling had a slow adoption trajectory at first, but once councils provided bins and made it easy, uptake sped up dramatically."
+        },
+        {
+          "term": "Adoption barrier",
+          "definition": "Something that prevents or slows down a scientific practice being widely used \u2014 like high cost, cultural resistance, or lack of government support.",
+          "example": "Electric cars existed for decades before widespread adoption \u2014 the barriers were high cost, limited range, and lack of charging infrastructure."
+        },
+        {
+          "term": "Factor interaction",
+          "definition": "When multiple adoption factors work together at the same time \u2014 it is usually the combination of factors, not just one, that determines whether adoption happens.",
+          "example": "Solar panels became widely adopted when cost dropped AND government rebates appeared AND environmental concern grew \u2014 no single factor alone would have been enough."
+        }
+      ]
+    },
+    {
+      "term": "Research funding",
+      "descriptor_code": "AC9S9H04",
+      "width_tier": "minimum",
+      "definition": "The money provided to support scientific research. Scientists need funding for equipment, labs and time \u2014 and the organisations that provide funding decide which research gets supported based on their priorities.",
+      "example": "When COVID-19 hit, governments around the world redirected billions in research funding toward vaccine development \u2014 the societal need changed the funding priority overnight.",
+      "sub_terms": [
+        {
+          "term": "Funding bodies",
+          "definition": "Organisations that provide money for research, like government agencies, private companies or charities.",
+          "example": "In Australia, the NHMRC funds health research and the ARC funds broader scientific research \u2014 each has different priorities for what they'll fund."
+        },
+        {
+          "term": "Commercial viability",
+          "definition": "Whether research can lead to products or services that make money \u2014 this affects whether private companies will fund it.",
+          "example": "Pharmaceutical companies fund research into common diseases because treatments will have a large market \u2014 rare diseases get less commercial funding because fewer people need the treatment."
+        }
+      ]
+    },
+    {
+      "term": "Societal values",
+      "descriptor_code": "AC9S9H04",
+      "width_tier": "minimum",
+      "definition": "What a society cares about at a particular time \u2014 like health, the environment, economic growth or cultural heritage. These values shape which scientific research gets funded and pursued.",
+      "example": "Growing concern about climate change (a societal value) has driven huge increases in renewable energy research \u2014 thirty years ago, that research received far less funding because the concern wasn't as widespread.",
+      "sub_terms": [
+        {
+          "term": "Green chemistry",
+          "definition": "Designing chemical processes that are less harmful to the environment \u2014 an example of research driven by environmental values.",
+          "example": "Many manufacturers are switching to green chemistry processes because society increasingly values environmental sustainability, and regulations are starting to require it."
+        },
+        {
+          "term": "Government mandate",
+          "definition": "When the government directly decides to fund or require certain research through laws or funding programs.",
+          "example": "The Australian government funding the CSIRO to research bushfire behaviour is a government mandate shaping research direction."
+        },
+        {
+          "term": "Market incentive",
+          "definition": "When companies fund research because they can sell the results \u2014 commercial profit drives the research direction.",
+          "example": "Pharmaceutical companies invest heavily in diabetes research because diabetes treatments have a huge market \u2014 the profit potential drives the research."
+        },
+        {
+          "term": "Community advocacy",
+          "definition": "When communities push for research on issues that affect them \u2014 their voices and campaigns influence what gets studied.",
+          "example": "Communities near contaminated sites campaigning for water quality research is community advocacy shaping scientific priorities."
+        },
+        {
+          "term": "Regulatory pressure",
+          "definition": "When laws or rules require companies to meet standards, which drives research into how to meet those standards.",
+          "example": "Emissions regulations require cars to pollute less \u2014 this creates regulatory pressure that drives research into cleaner engines and electric vehicles."
+        }
+      ]
+    },
+    {
+      "term": "Investigable question",
+      "descriptor_code": "AC9S9I01",
+      "width_tier": "minimum",
+      "definition": "A question that can be answered by collecting measurable evidence \u2014 not by opinion. A good investigable question names the variables involved and is specific enough that you could design one experiment to answer it.",
+      "example": "'Does temperature affect how fast sugar dissolves in water?' is investigable because you can measure both temperature and dissolving time. 'Is sugar interesting?' is not \u2014 you can't measure that.",
+      "sub_terms": [
+        {
+          "term": "Variable",
+          "definition": "Something in an investigation that can change or be measured.",
+          "example": "In an experiment about plant growth, variables might include light intensity (what you change), plant height (what you measure) and soil type (what you keep the same)."
+        },
+        {
+          "term": "Testable",
+          "definition": "Able to be answered by collecting evidence you can observe or measure, not just by giving an opinion.",
+          "example": "'Which brand of battery lasts longest?' is testable \u2014 you can measure it. 'Which brand is best?' is not \u2014 'best' is an opinion."
+        },
+        {
+          "term": "Empirical",
+          "definition": "Based on evidence you can observe or measure, rather than just theory or opinion.",
+          "example": "'Does increasing temperature speed up dissolving?' is an empirical question \u2014 you can measure it. 'Is it wrong to test on animals?' is an ethical question, not an empirical one."
+        }
+      ]
+    },
+    {
+      "term": "Reasoned prediction",
+      "descriptor_code": "AC9S9I01",
+      "width_tier": "minimum",
+      "definition": "A statement that says what you expect to happen AND gives a scientific reason why. It is not a guess \u2014 you need to explain your reasoning using science you already know.",
+      "example": "'I predict that increasing the temperature will speed up the reaction because particles move faster at higher temperatures and collide more often' \u2014 the prediction says what will happen and why."
+    },
+    {
+      "term": "Hypothesis",
+      "descriptor_code": "AC9S9I01",
+      "width_tier": "minimum",
+      "definition": "A testable statement that predicts the relationship between variables, written so that evidence could prove it right or wrong. Usually written as 'If... then... because...' to make sure it includes what you're changing, what you expect to happen, and why.",
+      "example": "'If light intensity increases, then the rate of photosynthesis will increase, because more light energy is available for the chloroplasts to use' \u2014 this can be tested and a specific result could prove it wrong.",
+      "sub_terms": [
+        {
+          "term": "Refutability",
+          "definition": "The idea that a proper hypothesis must be possible to prove wrong. If no result could show your hypothesis is incorrect, it's not really predicting anything useful.",
+          "example": "'Plants respond to their environment' can't be proven wrong (it's always true), so it's not a useful hypothesis. 'Increasing fertiliser concentration increases plant height' CAN be proven wrong \u2014 that makes it refutable."
+        },
+        {
+          "term": "If-then-because structure",
+          "definition": "The format for writing a hypothesis: 'If [what you change], then [what you expect to happen], because [the science behind it].'",
+          "example": "'If the concentration of acid increases, then the rate of reaction will increase, because there are more acid particles available to collide with the reactant.'"
+        },
+        {
+          "term": "Independent variable",
+          "definition": "The variable you deliberately change in an experiment to test its effect.",
+          "example": "If you're testing whether temperature affects enzyme activity, temperature is the independent variable \u2014 it's what you're choosing to change."
+        },
+        {
+          "term": "Dependent variable",
+          "definition": "The variable you measure to see if it changes in response to what you did.",
+          "example": "If you're testing whether temperature affects enzyme activity, the rate of reaction is the dependent variable \u2014 it's what you measure to see the effect."
+        },
+        {
+          "term": "Null hypothesis",
+          "definition": "The prediction that nothing will happen \u2014 that changing the independent variable has no effect on the dependent variable.",
+          "example": "If your hypothesis is 'more light increases photosynthesis,' the null hypothesis is 'light intensity has no effect on photosynthesis rate.'"
+        },
+        {
+          "term": "Explanatory model",
+          "definition": "A scientific explanation of how or why something happens, which you can use to generate predictions and hypotheses to test.",
+          "example": "The particle model of matter is an explanatory model \u2014 it explains why heating a gas increases pressure, and you can write hypotheses to test predictions from it."
+        }
+      ]
+    },
+    {
+      "term": "Validity",
+      "descriptor_code": "AC9S9I02",
+      "width_tier": "minimum",
+      "definition": "Whether your investigation method actually tests what it's supposed to test. A valid experiment makes sure the results are caused by what you changed (the independent variable), not by something else you didn't control.",
+      "example": "If you're testing whether fertiliser affects plant growth but one plant gets more sunlight than the others, your results aren't valid \u2014 you can't tell whether the growth was caused by fertiliser or sunlight.",
+      "sub_terms": [
+        {
+          "term": "Internal validity",
+          "definition": "Whether you can be sure the independent variable actually caused the change you measured, and nothing else did.",
+          "example": "If all your controlled variables stayed constant, your experiment has good internal validity \u2014 the IV is the most likely cause of the results."
+        },
+        {
+          "term": "External validity",
+          "definition": "Whether your results would apply in other situations beyond your specific experiment.",
+          "example": "If you tested plant growth in a greenhouse, the results might not apply to outdoor conditions \u2014 that's a limitation of external validity."
+        },
+        {
+          "term": "Confounding variable",
+          "definition": "Something you didn't control that changed during your experiment and might have caused your results instead of your independent variable. Confounds are why controlling variables matters \u2014 if something else changed, you can't be sure what caused the effect.",
+          "example": "You're testing whether music helps study performance, but the music group also studied in a quieter room. The room noise is a confounding variable \u2014 you can't tell if the results are due to music or room noise."
+        }
+      ]
+    },
+    {
+      "term": "Reproducibility",
+      "descriptor_code": "AC9S9I02",
+      "width_tier": "minimum",
+      "definition": "Whether someone else could follow your method and get the same results. A reproducible method is written clearly enough that a person who wasn't there could repeat it exactly.",
+      "example": "If your method says 'add some water and heat it for a bit,' nobody can reproduce that. If it says 'add 50 mL of water and heat to 80\u00b0C for 5 minutes,' anyone can.",
+      "sub_terms": [
+        {
+          "term": "Method",
+          "definition": "The step-by-step instructions for how to do your investigation, written precisely enough for someone else to follow.",
+          "example": "A good method doesn't just say what you did \u2014 it includes specific amounts, equipment names, times and temperatures so anyone could repeat it."
+        },
+        {
+          "term": "Reliability",
+          "definition": "How consistent your results are when you repeat the same measurement. If you get similar results each time, your data is reliable.",
+          "example": "If you measure the same object's mass five times and get 45.2g, 45.1g, 45.3g, 45.2g, 45.1g \u2014 that's reliable. If you get 45.2g, 48.7g, 42.1g, 46.9g, 44.0g \u2014 that's not."
+        }
+      ]
+    },
+    {
+      "term": "Source of error",
+      "descriptor_code": "AC9S9I02",
+      "width_tier": "minimum",
+      "definition": "Anything in your investigation that could make your results less accurate. Sources of error include equipment limitations, things you couldn't perfectly control, and inconsistencies in your procedure.",
+      "example": "If you're timing a reaction with a stopwatch and your reaction time adds about 0.3 seconds each time you click, that's a specific source of error \u2014 much more useful than just saying 'human error.'",
+      "sub_terms": [
+        {
+          "term": "Controlled variable",
+          "definition": "A variable you keep the same throughout your experiment so you know any change in your results was caused by what you deliberately changed.",
+          "example": "If you're testing how temperature affects dissolving rate, you need to keep the amount of water, amount of sugar and stirring speed the same \u2014 those are your controlled variables."
+        },
+        {
+          "term": "Random error",
+          "definition": "Error that varies unpredictably \u2014 sometimes your measurement is a bit too high, sometimes a bit too low. You can't eliminate it, but you can reduce its effect by taking more measurements and averaging.",
+          "example": "If you measure how long a pendulum takes to swing 10 times and get slightly different results each time, that variation is random error \u2014 taking more measurements and averaging gives a more reliable answer."
+        },
+        {
+          "term": "Systematic error",
+          "definition": "Error that pushes all your measurements in the same direction \u2014 always too high or always too low. Repeating the experiment won't fix it because the same bias is there every time.",
+          "example": "If your thermometer reads 2\u00b0C too high because it wasn't calibrated properly, every temperature you record will be 2\u00b0C too high \u2014 no amount of repeating will fix that."
+        },
+        {
+          "term": "Control group",
+          "definition": "A group in your experiment that doesn't receive the treatment you're testing \u2014 it gives you a baseline to compare against. Different from 'controlled variable' \u2014 a control group is a comparison condition, not a variable you keep constant.",
+          "example": "If you're testing whether fertiliser helps plant growth, the control group is the plants that get no fertiliser \u2014 they show you what 'normal' growth looks like so you can compare."
+        }
+      ]
+    },
+    {
+      "term": "Risk assessment",
+      "descriptor_code": "AC9S9I02",
+      "width_tier": "minimum",
+      "definition": "A plan that identifies dangers in your investigation and explains how you'll manage them. It should cover what the hazard is, how likely it is, how serious it could be, and what you'll do to reduce the risk.",
+      "example": "If your investigation uses a Bunsen burner, your risk assessment would identify the burn hazard, note it's likely if you're not careful, rate the severity as moderate, and list control measures like tying back hair and using a heat mat.",
+      "sub_terms": [
+        {
+          "term": "Hazard",
+          "definition": "Something in your investigation that could cause harm \u2014 like chemicals, heat, sharp objects or electrical equipment."
+        },
+        {
+          "term": "Control measure",
+          "definition": "A specific action you take to reduce the danger from a hazard \u2014 like wearing safety glasses or using a fume cupboard."
+        }
+      ]
+    },
+    {
+      "term": "Ethical issues",
+      "descriptor_code": "AC9S9I02",
+      "width_tier": "minimum",
+      "definition": "Moral questions about what is right and wrong when planning an investigation \u2014 including how animals are treated, whether human participants are looked after, and whether you're being respectful of cultural heritage sites.",
+      "example": "If your investigation involves surveying people about their health, ethical issues include: Do participants know what you're doing with their data? Can they choose not to participate? Is their information kept private?",
+      "sub_terms": [
+        {
+          "term": "Heritage sites",
+          "definition": "Places that have cultural or spiritual importance, especially to First Nations Australians. If you're doing field work, you need to know about and respect any heritage sites in the area.",
+          "example": "If your field investigation is near a river, there may be heritage sites along the waterway \u2014 you have a responsibility to find out and avoid disturbing them."
+        }
+      ]
+    },
+    {
+      "term": "Precision",
+      "descriptor_code": "AC9S9I03",
+      "width_tier": "minimum",
+      "definition": "How exact a measurement is \u2014 determined by the smallest unit the instrument can detect. A more precise instrument gives you finer detail. Precision is NOT the same as accuracy \u2014 you can be precise (consistent) without being accurate (correct).",
+      "example": "A pipette that measures to \u00b10.05 mL is more precise than a measuring cylinder that measures to \u00b10.5 mL \u2014 if you need to measure exactly 5.25 mL, you need the pipette.",
+      "sub_terms": [
+        {
+          "term": "Instrument precision",
+          "definition": "The smallest measurement an instrument can reliably detect \u2014 this limits how many digits you should record.",
+          "example": "A ruler marked in millimetres has a precision of about \u00b10.5 mm \u2014 you shouldn't record measurements from it to the nearest 0.01 mm."
+        },
+        {
+          "term": "Units",
+          "definition": "Standard labels for measurements like metres, grams, seconds or degrees Celsius. Without units, a number is meaningless.",
+          "example": "Writing '45' tells you nothing. Writing '45\u00b0C' tells you it's a temperature. Always include units."
+        }
+      ]
+    },
+    {
+      "term": "Accuracy",
+      "descriptor_code": "AC9S9I03",
+      "width_tier": "minimum",
+      "definition": "How close a measurement is to the actual true value. You can be precise without being accurate \u2014 imagine hitting the same wrong spot on a target every time. That's precise but not accurate.",
+      "example": "If the real temperature is 25.0\u00b0C and your thermometer reads 24.9\u00b0C, 25.1\u00b0C and 25.0\u00b0C, those measurements are accurate. If it reads 27.0\u00b0C, 27.1\u00b0C and 26.9\u00b0C, they're precise (consistent) but not accurate (all too high)."
+    },
+    {
+      "term": "Significant figures",
+      "descriptor_code": "AC9S9I03",
+      "width_tier": "minimum",
+      "definition": "The number of meaningful digits in a measurement, based on how precise your instrument is. Recording more digits than your instrument can actually measure is claiming false precision \u2014 like saying you're 172.456 cm tall when you only used a tape measure marked in centimetres.",
+      "example": "If your balance reads to the nearest 0.1 g, you should record 12.3 g \u2014 not 12 g (losing information) or 12.300 g (implying your balance is more precise than it actually is)."
+    },
+    {
+      "term": "Sample size",
+      "descriptor_code": "AC9S9I03",
+      "width_tier": "minimum",
+      "definition": "How many measurements or trials you collect in your investigation. More measurements generally give more reliable results because random variation averages out \u2014 but the right sample size depends on what you're investigating and what's practical.",
+      "example": "Measuring the bounce height of a ball 3 times might not show a clear pattern, but measuring it 10 times gives you a much more reliable average \u2014 the random variation in each bounce evens out.",
+      "sub_terms": [
+        {
+          "term": "Data table",
+          "definition": "An organised table you set up before your experiment, with labelled columns, units, and space for all your measurements.",
+          "example": "Before starting, set up a table with columns for 'Trial number,' 'Temperature (\u00b0C),' and 'Time to dissolve (s)' \u2014 don't just write numbers on a page as you go."
+        },
+        {
+          "term": "Replicability",
+          "definition": "Whether someone else doing the same experiment with the same equipment would get similar results.",
+          "example": "If your method is clear enough and your equipment is appropriate, another student should be able to replicate your results \u2014 that's replicability."
+        },
+        {
+          "term": "Data logger",
+          "definition": "A digital device that records measurements automatically at set time intervals \u2014 useful when you need lots of data points or measurements too fast to record by hand.",
+          "example": "A temperature data logger can record every second during a cooling experiment, giving you hundreds of data points that would be impossible to collect manually."
+        }
+      ]
+    },
+    {
+      "term": "Measuring equipment",
+      "descriptor_code": "AC9S9I03",
+      "width_tier": "typical",
+      "definition": "The instruments you choose to collect data in your investigation. At Year 9, you need to select equipment based on the precision your investigation requires \u2014 not just what's available.",
+      "example": "If you need to measure exactly 25.0 mL, a 25 mL pipette is a better choice than a 100 mL measuring cylinder \u2014 the pipette gives you the precision you need.",
+      "sub_terms": [
+        {
+          "term": "Thermometer",
+          "definition": "Measures temperature, usually to the nearest 0.5\u00b0C or 1\u00b0C."
+        },
+        {
+          "term": "Measuring cylinder",
+          "definition": "Measures liquid volume. Smaller cylinders give more precise measurements for small volumes."
+        },
+        {
+          "term": "Force meter",
+          "definition": "Measures force in newtons using a spring mechanism."
+        },
+        {
+          "term": "Balance",
+          "definition": "Measures mass. Electronic balances are typically more precise than beam balances."
+        },
+        {
+          "term": "Stopwatch",
+          "definition": "Measures time intervals. The instrument is very precise, but your reaction time limits the actual precision of the measurement.",
+          "example": "A stopwatch displays hundredths of a second, but your finger takes about 0.2 seconds to react \u2014 so your timing is really only precise to about \u00b10.2 s."
+        }
+      ]
+    },
+    {
+      "term": "Representation",
+      "descriptor_code": "AC9S9I04",
+      "width_tier": "minimum",
+      "definition": "A way of displaying data \u2014 like a table, graph or diagram \u2014 that helps you see patterns and answer questions. At Year 9, you need to choose the right type of representation for your data, not just use any graph.",
+      "example": "If you're comparing the heights of different plant species, a bar graph works. If you're tracking how one plant grew over time, a line graph is better. Choosing the wrong one hides the pattern.",
+      "sub_terms": [
+        {
+          "term": "Scale (axis)",
+          "definition": "The numbers and spacing you choose for your graph axes. A good scale makes patterns visible; a bad one hides them or makes them look misleading.",
+          "example": "If your data ranges from 20 to 30, starting your y-axis at 0 wastes space and compresses the data. Starting at 18 spreads it out \u2014 but you must indicate the break."
+        },
+        {
+          "term": "Line graph",
+          "definition": "A graph showing how something changes as a continuous variable increases \u2014 data points are connected to show the trend.",
+          "example": "Use a line graph to show how temperature changed over time during a heating experiment."
+        },
+        {
+          "term": "Bar graph",
+          "definition": "A graph comparing values across separate categories using bars that don't touch.",
+          "example": "Use a bar graph to compare the average height of different plant species \u2014 each species is a separate category."
+        },
+        {
+          "term": "Scatter plot",
+          "definition": "A graph showing individual data points for two variables, without connecting them \u2014 used to see whether and how the variables are related.",
+          "example": "Plotting each student's study hours against their test score as a scatter plot lets you see whether more study is associated with higher scores."
+        },
+        {
+          "term": "Table",
+          "definition": "An organised grid of data with labelled columns and units \u2014 where you record your raw measurements.",
+          "example": "Before you make any graph, your data should be in a table with clear headings like 'Temperature (\u00b0C)' and 'Time (s).'"
+        },
+        {
+          "term": "x-axis",
+          "definition": "The horizontal (bottom) axis \u2014 usually shows the independent variable (what you changed)."
+        },
+        {
+          "term": "y-axis",
+          "definition": "The vertical (side) axis \u2014 usually shows the dependent variable (what you measured)."
+        },
+        {
+          "term": "Continuous variable",
+          "definition": "A variable measured on a scale where values between your measurements are meaningful \u2014 like temperature, time or mass. Use line graphs or scatter plots for continuous data.",
+          "example": "Temperature is continuous \u2014 25.5\u00b0C is a real value between 25\u00b0C and 26\u00b0C. That's why you connect the dots on a line graph."
+        },
+        {
+          "term": "Categorical variable",
+          "definition": "A variable that falls into separate groups with nothing meaningful in between \u2014 like types of material, species or colours. Use bar graphs for categorical data.",
+          "example": "If you're comparing the strength of wood, steel and plastic, those are categories \u2014 there's no material 'between' wood and steel, so a bar graph is right."
+        }
+      ]
+    },
+    {
+      "term": "Descriptive statistics",
+      "descriptor_code": "AC9S9I04",
+      "width_tier": "minimum",
+      "definition": "Numbers that summarise your data set \u2014 at Year 9, the key ones are mean (average), median (middle value) and range (spread). Choosing the right statistic matters because different ones can tell different stories about the same data.",
+      "example": "For the data set 2, 3, 3, 4, 20: the mean is 6.4 but the median is 3. The mean is dragged up by that one high value \u2014 the median better represents the typical value here."
+    },
+    {
+      "term": "Mean",
+      "descriptor_code": "AC9S9I04",
+      "width_tier": "minimum",
+      "definition": "The average \u2014 add up all values and divide by how many there are. It is the most common summary but can be misleading if your data has extreme values that pull the average away from the centre.",
+      "example": "Five students scored 65, 70, 72, 68 and 95 on a test. The mean is 74, but most students scored around 68\u201372. The one high score pulls the mean up."
+    },
+    {
+      "term": "Median",
+      "descriptor_code": "AC9S9I04",
+      "width_tier": "minimum",
+      "definition": "The middle value when you put all your data in order. Unlike mean, median isn't affected by extreme values \u2014 it stays near the centre of the data even if one value is very high or low.",
+      "example": "For scores 65, 68, 70, 72, 95 \u2014 the median is 70 (the middle value). That's closer to what most students actually scored than the mean of 74."
+    },
+    {
+      "term": "Range",
+      "descriptor_code": "AC9S9I04",
+      "width_tier": "minimum",
+      "definition": "The difference between the highest and lowest values \u2014 it tells you how spread out your data is. Two data sets can have the same average but very different ranges.",
+      "example": "Data set A: 48, 50, 52 (range = 4). Data set B: 30, 50, 70 (range = 40). Both have a mean of 50, but set A is much more consistent."
+    },
+    {
+      "term": "Mathematical relationship",
+      "descriptor_code": "AC9S9I04",
+      "width_tier": "minimum",
+      "definition": "A formula or ratio you apply to your raw data to work out something new. The formula turns measurements into meaningful scientific information \u2014 like calculating efficiency from energy input and output values.",
+      "example": "You measured that a motor used 100 J of energy and produced 75 J of useful work. Applying the efficiency formula (75 \u00f7 100 \u00d7 100 = 75%) turns raw measurements into a meaningful result.",
+      "sub_terms": [
+        {
+          "term": "Sankey diagram",
+          "definition": "A flow diagram where the width of each arrow is proportional to the quantity it represents \u2014 commonly used to show energy transfers where wider arrows mean more energy.",
+          "example": "In a Sankey diagram for a light bulb, the input arrow (100 J) splits into a thinner useful light arrow (10 J) and a wider waste heat arrow (90 J) \u2014 the widths show you most energy becomes heat."
+        },
+        {
+          "term": "Ratio",
+          "definition": "A comparison of two quantities showing their relative size \u2014 like '3 out of 4' or '75%.'",
+          "example": "If 30 out of 40 seeds germinated, the ratio is 30:40 or 3:4, which is 75% germination."
+        },
+        {
+          "term": "Formula",
+          "definition": "A mathematical expression that shows how quantities are related, like speed = distance \u00f7 time.",
+          "example": "Using the formula speed = distance \u00f7 time, if a ball rolled 2 metres in 0.5 seconds, its speed was 4 m/s."
+        },
+        {
+          "term": "Bimodal distribution",
+          "definition": "Data that has two peaks instead of one \u2014 the average falls between the peaks where few actual values are, making it misleading.",
+          "example": "If half the class scored around 50% and half scored around 80%, the mean of 65% doesn't represent anyone \u2014 the data is bimodal."
+        }
+      ]
+    },
+    {
+      "term": "Pattern",
+      "descriptor_code": "AC9S9I05",
+      "width_tier": "minimum",
+      "definition": "A regular feature in your data that you can describe precisely \u2014 naming the variables involved and how they behave. 'It goes up' is not a pattern description; 'as temperature increases, dissolving time decreases' is.",
+      "example": "In a cooling experiment, the pattern might be: 'As time increases, the water temperature decreases rapidly at first, then more slowly as it approaches room temperature.'",
+      "sub_terms": [
+        {
+          "term": "Data point",
+          "definition": "A single measurement in your data set. You can't claim a pattern from one data point \u2014 patterns need multiple measurements showing regularity.",
+          "example": "One student scoring 85% doesn't show a pattern. Ten students all scoring between 80\u201390% after using a study method starts to show one."
+        }
+      ]
+    },
+    {
+      "term": "Trend",
+      "descriptor_code": "AC9S9I05",
+      "width_tier": "minimum",
+      "definition": "The overall direction your data is heading \u2014 generally increasing, decreasing or staying constant \u2014 even if individual values fluctuate along the way.",
+      "example": "Australia's average temperature shows an upward trend over the past century, even though individual years go up and down \u2014 the overall direction is clearly increasing."
+    },
+    {
+      "term": "Relationship",
+      "descriptor_code": "AC9S9I05",
+      "width_tier": "minimum",
+      "definition": "How one variable responds when another changes. Relationships can be proportional (both increase at the same rate), inverse (one goes up as the other goes down), or non-linear (the rate of change varies). Describing the type of relationship, not just 'they're related,' is the skill.",
+      "example": "The relationship between force and acceleration is proportional \u2014 doubling the force doubles the acceleration. The relationship between distance and gravitational force is inverse \u2014 as distance increases, the force decreases.",
+      "sub_terms": [
+        {
+          "term": "Proportional",
+          "definition": "When one variable increases, the other increases by the same ratio \u2014 doubling one doubles the other.",
+          "example": "If doubling the number of batteries doubles the brightness, the relationship is proportional."
+        },
+        {
+          "term": "Inverse",
+          "definition": "When one variable increases, the other decreases.",
+          "example": "As you move further from a light source, the brightness decreases \u2014 that's an inverse relationship."
+        },
+        {
+          "term": "Non-linear",
+          "definition": "A relationship where the rate of change isn't constant \u2014 the graph curves rather than being a straight line.",
+          "example": "A ball thrown upward slows down, stops, then speeds up again \u2014 the height-time graph is curved, showing a non-linear relationship."
+        },
+        {
+          "term": "Correlation",
+          "definition": "When two variables change together in a pattern \u2014 but that doesn't mean one causes the other.",
+          "example": "Ice cream sales and sunburn rates are correlated (both increase in summer), but ice cream doesn't cause sunburn \u2014 hot weather causes both."
+        },
+        {
+          "term": "Causation",
+          "definition": "When one thing directly makes another thing happen \u2014 not just that they change together, but that one actually causes the other. Proving causation requires a controlled experiment, not just spotting a pattern.",
+          "example": "Ice cream sales and drowning rates both increase in summer (correlation), but ice cream doesn't cause drowning \u2014 hot weather causes both. To prove causation, you'd need a controlled experiment."
+        }
+      ]
+    },
+    {
+      "term": "Anomaly",
+      "descriptor_code": "AC9S9I05",
+      "width_tier": "minimum",
+      "definition": "A data point that doesn't fit the pattern you've identified. Before throwing it out, you need to figure out why it's different \u2014 it might be a measurement mistake, or it might be telling you something important.",
+      "example": "If nine trials give results between 4.5 and 5.5, but one gives 12.3, that's an anomaly. Maybe you misread the scale \u2014 or maybe something genuinely different happened in that trial.",
+      "sub_terms": [
+        {
+          "term": "Outlier",
+          "definition": "A value that falls far outside the range of the rest of your data. Don't remove it just because it's inconvenient \u2014 you need a reason.",
+          "example": "If you're measuring reaction times and everyone gets 0.2\u20130.4 seconds but one person gets 1.8 seconds, that's an outlier. Maybe they were distracted \u2014 or maybe they have slower reflexes. You need to decide which before removing it."
+        }
+      ]
+    },
+    {
+      "term": "Extrapolation",
+      "descriptor_code": "AC9S9I05",
+      "width_tier": "minimum",
+      "definition": "Predicting values beyond the range you actually measured, by extending the pattern. This assumes the pattern continues unchanged \u2014 which may not be true. The further you extrapolate, the less reliable your prediction.",
+      "example": "If you measured plant growth for 4 weeks and it grew 2 cm each week, you might extrapolate that it will be 10 cm at week 5. But the plant might slow down or stop growing \u2014 your prediction assumes constant growth, which may not hold."
+    },
+    {
+      "term": "Secondary source",
+      "descriptor_code": "AC9S9I06",
+      "width_tier": "minimum",
+      "definition": "Information from other people's research \u2014 like journal articles, textbooks or news reports \u2014 rather than from your own investigation. Not all secondary sources are equally trustworthy, so you need to evaluate them.",
+      "example": "A peer-reviewed journal article about vaccine effectiveness is a more credible secondary source than a social media post making the same claim \u2014 the journal article has been checked by experts.",
+      "sub_terms": [
+        {
+          "term": "Credibility",
+          "definition": "How trustworthy a source is \u2014 assessed by checking things like whether it's been peer reviewed, who wrote it, when it was published, and whether you can see the actual data.",
+          "example": "A study by a university research team published in a science journal is more credible than an article by an anonymous blogger \u2014 you can check the researchers' expertise and see their methods."
+        },
+        {
+          "term": "Primary source",
+          "definition": "Data you collected yourself through your own investigation.",
+          "example": "The measurements you took in your experiment are primary source data. A textbook graph showing someone else's results is a secondary source."
+        },
+        {
+          "term": "Author expertise",
+          "definition": "Whether the person who wrote the source actually knows about the topic through their qualifications or experience.",
+          "example": "A climate scientist writing about global warming has author expertise. A celebrity giving opinions about climate science does not."
+        },
+        {
+          "term": "Data transparency",
+          "definition": "Whether a source shows you the actual data and methods behind its conclusions, rather than just telling you the answer.",
+          "example": "A study that includes its data tables and describes its method is transparent. A news article that just says 'scientists found that...' without showing the evidence is not."
+        }
+      ]
+    },
+    {
+      "term": "Assumption",
+      "descriptor_code": "AC9S9I06",
+      "width_tier": "minimum",
+      "definition": "Something you take for granted without testing it. Every investigation has assumptions \u2014 about your sample being representative, your conditions staying the same, your instruments working properly. If an assumption turns out to be wrong, your conclusion might not hold.",
+      "example": "If you test how temperature affects reaction rate using water from the tap, you're assuming the water is the same each time. If the water quality varies, your assumption is wrong and your results might not be valid."
+    },
+    {
+      "term": "Conflicting evidence",
+      "descriptor_code": "AC9S9I06",
+      "width_tier": "minimum",
+      "definition": "Evidence that points to a different conclusion from the one you reached. Finding conflicting evidence doesn't automatically mean your conclusion is wrong \u2014 you need to evaluate how strong the conflicting evidence is compared to the supporting evidence.",
+      "example": "If your experiment shows fertiliser increases plant growth, but a published study found no effect, that's conflicting evidence. You'd need to compare the methods and sample sizes to decide which result is more reliable.",
+      "sub_terms": [
+        {
+          "term": "Alternative conclusion",
+          "definition": "A different answer the same evidence could support, if you make different assumptions or weight the evidence differently.",
+          "example": "Your data shows students who eat breakfast score higher on tests. Your conclusion: breakfast improves test performance. Alternative conclusion: students from more stable homes are more likely to both eat breakfast and perform well \u2014 it might not be the breakfast causing the higher scores."
+        }
+      ]
+    },
+    {
+      "term": "Uncertainty",
+      "descriptor_code": "AC9S9I06",
+      "width_tier": "minimum",
+      "definition": "Places where your evidence is incomplete or your results could be interpreted in more than one way. Uncertainty is normal in science \u2014 acknowledging it honestly is better than pretending your conclusion is more certain than it actually is.",
+      "example": "After testing three fertiliser types, you might conclude Type A works best \u2014 but with a sample size of 5 plants per group, there's uncertainty about whether the difference would hold with 50 plants. Saying 'Type A appeared most effective in this small trial' is more honest than 'Type A is the best.'"
+    },
+    {
+      "term": "Evidence-based argument",
+      "descriptor_code": "AC9S9I07",
+      "width_tier": "minimum",
+      "definition": "An argument where your claim is backed up by evidence from multiple trustworthy sources. You need to explain why your sources are credible and how the evidence supports your specific claim \u2014 not just list what you found.",
+      "example": "Instead of 'vaccines work because I read it online,' a strong argument says: 'Multiple peer-reviewed studies with large sample sizes have found vaccination reduces infection rates by 80\u201395%. These studies were conducted independently in different countries, making the combined evidence strong.'",
+      "sub_terms": [
+        {
+          "term": "Counter-argument",
+          "definition": "The strongest argument against your claim. Addressing it shows you've considered the other side \u2014 but you need to engage with it properly, not just dismiss it.",
+          "example": "If you're arguing that renewable energy should replace coal, a fair counter-argument is that renewable energy is intermittent (the sun doesn't always shine). Address it by discussing battery storage \u2014 don't just say 'but coal is bad.'"
+        },
+        {
+          "term": "Relevance",
+          "definition": "Whether your evidence actually supports the specific claim you're making, rather than just being about the same general topic.",
+          "example": "If you're arguing that exercise improves mental health, a study about exercise improving cardiovascular fitness is related but not directly relevant \u2014 you need evidence specifically about mental health outcomes."
+        },
+        {
+          "term": "Claim",
+          "definition": "A statement about the world that needs evidence to back it up. In science, a claim is different from a fact (already proven) and an opinion (not based on evidence) \u2014 it is something you're arguing is true based on your evidence.",
+          "example": "'Vaccination reduces infection rates' is a scientific claim \u2014 it requires evidence to support it. 'Vaccines were developed in the 18th century' is a fact. 'I don't like needles' is an opinion."
+        }
+      ]
+    },
+    {
+      "term": "Ethical issues in data use",
+      "descriptor_code": "AC9S9I07",
+      "width_tier": "minimum",
+      "definition": "Questions about right and wrong when using other people's data \u2014 including whether the data contains personal information, whether you've properly credited the source, and whether you're using it in the way it was intended.",
+      "example": "If you use survey data about health in your community, you need to make sure individual people can't be identified from the data, you credit the researchers who collected it, and you don't use it to claim something the data doesn't actually show.",
+      "sub_terms": [
+        {
+          "term": "Citation",
+          "definition": "Formally crediting where your evidence came from. It is not just a formatting rule \u2014 it is about giving credit and letting others verify your evidence.",
+          "example": "If you use data from a CSIRO report, cite it so the reader can find the original report and check the data for themselves."
+        },
+        {
+          "term": "Data privacy",
+          "definition": "Making sure the data you use doesn't reveal personal information about individuals that could cause harm.",
+          "example": "If a survey includes people's names, addresses or health conditions, you can't include those details in your argument \u2014 the data needs to be anonymised."
+        }
+      ]
+    },
+    {
+      "term": "Cultural protocols",
+      "descriptor_code": "AC9S9I07",
+      "width_tier": "minimum",
+      "definition": "The rules and practices for respectfully using First Nations knowledges in science. This means acknowledging the community the knowledge comes from, getting appropriate permission, and treating the knowledge as valuable evidence \u2014 not just background decoration.",
+      "example": "If you're writing about how traditional fire management reduces bushfire risk, you should acknowledge the specific First Nations communities whose knowledge this comes from, and present it as genuine evidence alongside scientific studies \u2014 not as a footnote.",
+      "sub_terms": [
+        {
+          "term": "Co-contribution",
+          "definition": "Recognising that First Nations knowledge and Western science can both contribute to understanding \u2014 neither one is 'better' than the other.",
+          "example": "Traditional ecological knowledge about seasonal animal behaviour and scientific population studies can both contribute to conservation \u2014 co-contribution means using both as evidence."
+        },
+        {
+          "term": "Misrepresentation",
+          "definition": "Presenting someone's knowledge inaccurately or out of context \u2014 a particular concern when using First Nations knowledges.",
+          "example": "Taking a specific practice from one community and describing it as 'what all Aboriginal people do' is misrepresentation \u2014 it generalises and distorts the knowledge."
+        }
+      ]
+    },
+    {
+      "term": "Purpose",
+      "descriptor_code": "AC9S9I08",
+      "width_tier": "minimum",
+      "definition": "The reason you're writing \u2014 to inform, persuade, report your findings, or propose an action. Your purpose decides what you include, how you write it, and how detailed you need to be.",
+      "example": "A lab report has the purpose of reporting findings with evidence. A social media post about the same topic has the purpose of informing the public in an accessible way. Same science, different purpose, different text."
+    },
+    {
+      "term": "Audience",
+      "descriptor_code": "AC9S9I08",
+      "width_tier": "minimum",
+      "definition": "Who you're writing for \u2014 including what they already know and what they need from your text. You should adjust your language, detail and structure based on your audience.",
+      "example": "Explaining photosynthesis to your science teacher is different from explaining it to a Year 3 student. Same concept, but you'd use different words, different examples, and different amounts of detail."
+    },
+    {
+      "term": "Scientific investigation report",
+      "descriptor_code": "AC9S9I08",
+      "width_tier": "minimum",
+      "definition": "A formal write-up of your investigation that includes: a background section explaining the science behind it, a results section that explains why things happened (not just what happened), and a discussion that honestly evaluates how good your method was.",
+      "example": "In the results section, don't just write 'the temperature went up.' Write 'the temperature increased because adding energy increased the kinetic energy of the water particles' \u2014 explain the science behind what you observed.",
+      "sub_terms": [
+        {
+          "term": "Background paragraph",
+          "definition": "The opening section that explains the science behind your investigation \u2014 not what you did, but why it matters and what science is involved.",
+          "example": "If your investigation is about reaction rates, your background would explain particle theory and collision frequency \u2014 the science that explains what you're testing."
+        },
+        {
+          "term": "Results explanation",
+          "definition": "Using scientific knowledge to explain why your results happened, not just describing what you saw.",
+          "example": "'The reaction was faster at higher temperatures' is a result. 'The reaction was faster because increased temperature gives particles more kinetic energy, so they collide more frequently and with more force' is a results explanation."
+        },
+        {
+          "term": "Validity and reproducibility discussion",
+          "definition": "An honest evaluation of your method's strengths and weaknesses \u2014 identifying specific issues, not just saying 'we could have been more accurate.'",
+          "example": "Instead of 'our results could be more accurate,' write: 'Room temperature varied between trials, which may have affected the reaction rate inconsistently \u2014 a water bath would have controlled this variable.'"
+        }
+      ]
+    },
+    {
+      "term": "Text features",
+      "descriptor_code": "AC9S9I08",
+      "width_tier": "minimum",
+      "definition": "The choices you make about what to include in your text \u2014 the language, diagrams, headings, structure and level of detail. These should be deliberate choices based on your purpose and audience, not just habits.",
+      "example": "A graph might be essential in a lab report but unnecessary in a social media post. A diagram of a body system might help a Year 6 student but be too basic for a science teacher. Choose features that help your specific audience.",
+      "sub_terms": [
+        {
+          "term": "Register",
+          "definition": "How formal or technical your language is. You need to be able to switch between registers \u2014 scientific register for reports and everyday register for public communication.",
+          "example": "Scientific register: 'The exothermic reaction released thermal energy, increasing the temperature of the surrounding water.' Everyday register: 'The reaction gave off heat and warmed up the water.'"
+        },
+        {
+          "term": "Scientific language",
+          "definition": "Precise science terms used correctly \u2014 not just thrown in to sound smart. If you use a scientific term, you should be able to explain what it means.",
+          "example": "Writing 'the mitochondria underwent cellular respiration to produce ATP' is only good scientific language if you actually understand what each term means. If you can't explain it, use simpler words."
+        },
+        {
+          "term": "Culturally responsive communication",
+          "definition": "Writing in a way that is respectful of cultural differences and follows protocols when discussing First Nations knowledges \u2014 avoiding stereotypes, offensive language or misrepresentation.",
+          "example": "When writing about traditional fire management, acknowledge the specific communities whose knowledge you're discussing and present their knowledge as genuine expertise \u2014 not as a curiosity or a footnote."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K23",
+    "title": "Experiences and Perspectives of Colonisers and Asian Peoples",
+    "description": "different experiences and perspectives of colonisers and Asian peoples from the time and the impact of changes to society, including events, ideas, beliefs and values",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can examine perspectives and experiences of different groups in colonial contexts (AC9HH9K06, AC9HH8K04, AC9HH8K09). They have not yet applied this skill to Asian colonial contexts, or examined how historians have interpreted the significance of Western colonial influences on Asian societies.",
+    "progression_endpoint": "Students compare and contrast different perspectives about the effect of European colonisation on Asian countries — including colonisers and Asian peoples — and compare the similarities and differences in historians' views about the significance of Western colonial influences.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Colonial and Asian perspectives on European contact — contrasting accounts",
+        "progression_checkpoint": "Students can compare and contrast the perspectives of European colonisers and Asian peoples on the same colonial encounter, identifying what each perspective emphasised and what it omitted.",
+        "minimum_width": "Students describe the European coloniser perspective on at least one colonial event or process in the chosen society, and contrast it with an Asian perspective on the same event or process.",
+        "typical_width": "Students examine specific contrasting perspectives — British views of the Indian Raj vs Indian nationalist views; Dutch views of the Cultivation System vs Javanese peasant experiences; views of samurai on Meiji modernisation vs foreign views; Boxer Rebellion as 'anti-foreign barbarism' (European view) vs 'righteous resistance to imperialism' (Chinese view); examine what values, interests and worldviews shaped each perspective; explain why the same events were experienced and described so differently; apply source analysis skills to evaluate the reliability and usefulness of sources from each perspective.",
+        "wider": [
+          "Examine a specific primary source from a colonised Asian person — a petition, letter, speech, or memoir — and analyse how it represents the colonial experience from the inside",
+          "Investigate how European accounts of Asian colonisation were shaped by racial and civilisational ideologies — examining what assumptions the sources make that are invisible from within but visible in retrospect"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly present one perspective as 'correct' rather than analysing how different perspectives reflect different positions, values and interests. Making the perspective-analysis framework explicit — what a source emphasises, what it omits, what value system it reflects — is the core analytical skill for this node."
+          }
+        ],
+        "success_criteria": [
+          "Describes the European coloniser perspective on a colonial event or process in the chosen society",
+          "Contrasts this with an Asian perspective on the same event, explaining what each emphasises and what each omits"
+        ],
+        "related_standards": ["AC9HH9S03", "AC9HH9S06"]
+      },
+      {
+        "id": 2,
+        "label": "Historiographical debate — how historians interpret Western colonial influence",
+        "progression_checkpoint": "Students can compare similarities and differences in historians' views about the significance of Western colonial influences on the chosen Asian society.",
+        "minimum_width": "Students describe at least two different historical interpretations of Western colonial influence on the chosen society and explain on what grounds historians hold different views.",
+        "typical_width": "Students describe the range of historical interpretations — colonial apologist views (colonial infrastructure, legal systems, education as beneficial legacy), post-colonial critiques (economic extraction, cultural destruction, political subjugation), nationalist historiographies (resistance and independence as the primary story), Marxist frameworks (capitalism and class as the central analysis), world-systems approaches (integration into global economic hierarchies); explain what evidence and what values underpin each interpretation; acknowledge that the same infrastructure investment can be evaluated differently depending on what questions the historian asks and what framework they use.",
+        "wider": [
+          "Evaluate the 'balance sheet of empire' argument — that colonial rule produced net benefits or net harms for Asian societies — examining what evidence each side presents and what values shape the judgement",
+          "Examine how historians from former colonising nations and historians from formerly colonised nations have tended to differ in their interpretations — and what this reveals about how national experience shapes historical perspective"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The 'balance sheet of empire' debate and the national-origin-of-historians question are both substantive and engaging — they require students to think about historiography itself as shaped by perspective, which is a sophisticated analytical move that connects to the skills strand.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat historical interpretation as a question of factual accuracy — historians disagree because some have the wrong facts — rather than as a question of framework, values and questions asked. Making the framework-dependency of interpretation explicit is the key analytical move.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Describes at least two different historical interpretations of Western colonial influence on the chosen society",
+          "Explains on what grounds historians hold different views — what evidence, framework or values lead to different conclusions"
+        ],
+        "related_standards": ["AC9HH9S07"]
+      }
+    ]
+  }
+}

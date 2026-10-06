@@ -1,0 +1,95 @@
+{
+  "year_level": "9",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH9K18",
+    "title": "Significant Individuals and Groups in Promoting Ideas",
+    "description": "the role of a significant individual or group such as agricultural and factory workers, inventors and entrepreneurs, landowners, politicians and religious groups in promoting and enacting some of the ideas that emerged during the Industrial Revolution",
+    "strand": "Knowledge and Understanding",
+    "mode": "A",
+    "prior_knowledge": "Students can describe the role of significant individuals and groups in historical change (AC9HH8K05, AC9HH8K10, AC9HH8K15) and understand the ideas that emerged during the Industrial Revolution (AC9HH9K17). They have not yet applied the concept of historical agency — the role of individuals in promoting and enacting ideas — to the Industrial Revolution context, or examined how responses to ideas shaped the trajectory of industrial society.",
+    "progression_endpoint": "Students explain responses to particular ideas — including how religious groups responded to Darwin's ideas, and how workers responded to capitalism or socialism — and investigate the role played by a specific individual or group in promoting a key idea, including figures such as Adam Smith, Florence Nightingale, Pope Leo XIII, and William Cuffay.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Historical agency — how individuals and groups promote ideas",
+        "progression_checkpoint": "Students can explain what it means for an individual or group to promote an idea — the distinction between holding an idea and actively working to advance it — and describe the range of strategies available (writing, organising, campaigning, legislating).",
+        "minimum_width": "Students explain that promoting an idea involves active effort to persuade others and enact change, identify at least two strategies for promoting ideas (e.g. writing, public speaking, organising, lobbying), and apply this to one example.",
+        "typical_width": "Students describe the range of strategies available — publishing (pamphlets, books, newspapers), public speaking and oration, political organisation and campaigning, religious networks, direct action and industrial organisation; explain that the same idea can be promoted by different actors using different strategies; explain that responses to ideas — opposition, revision, partial adoption — are also historically significant forms of agency; connect to the ideas framework from K17.",
+        "wider": [
+          "Compare the effectiveness of different strategies for promoting ideas — when was publishing more effective than organising? When did religious networks reach audiences that secular advocates could not?",
+          "Examine how ideas that were initially suppressed or marginalised eventually gained acceptance — what changed to make them viable?"
+        ],
+        "hinge": true,
+        "hinge_reason": "The agency framework is the prerequisite for the individual/group case studies. Students who cannot distinguish promoting an idea from simply holding it cannot evaluate why specific individuals were significant — what specifically they did that made a difference.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe historical figures as important without articulating what specifically they did to promote an idea. Making the action-mechanism explicit — what did they do, how did they do it, what changed as a result — is the scaffold for meaningful individual investigations.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains the distinction between holding an idea and actively promoting it",
+          "Identifies at least two strategies for promoting ideas and describes how each works"
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Responses to ideas — Darwin, capitalism and socialism",
+        "progression_checkpoint": "Students can explain how different groups responded to specific ideas — including how religious groups responded to Darwin's evolutionary theory, and how workers responded to capitalism and socialism.",
+        "minimum_width": "Students describe one case of a group responding to an idea — e.g. religious responses to Darwin, workers embracing socialism — and explain what the response was and why it was made.",
+        "typical_width": "Students describe Darwin's On the Origin of Species (1859) and the spectrum of religious responses — outright rejection, theological accommodation, revision of literal interpretation, enthusiastic secular embrace; describe working-class responses to capitalism (trade unionism as resistance, socialist movement as alternative) and to socialism (enthusiasm among industrial workers, fear among skilled workers, rejection by others); explain what motivated each response — what values, interests or worldviews shaped how different groups received and responded to the same idea; examine how responses shaped what ultimately happened to each idea.",
+        "wider": [
+          "Examine the theological debate within Christianity about evolution — from initial rejection to the accommodation most mainstream churches eventually reached — as a case study in how institutions adapt to challenging ideas",
+          "Compare the reception of socialism in Britain (reformist, parliamentary) with Russia (revolutionary) — examining how different social and political conditions produced different responses to the same idea"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Students commonly describe responses to ideas as uniformly positive or negative without recognising the diversity of responses within any given group. Multiple examples across different ideas and different responding groups build the nuanced picture the descriptor requires."
+          }
+        ],
+        "success_criteria": [
+          "Describes at least one group's response to a specific idea, explaining what the response was and why",
+          "Explains how values, interests or worldviews shaped how a group received a particular idea"
+        ],
+        "related_standards": ["AC9HH9K17"]
+      },
+      {
+        "id": 3,
+        "label": "Investigating a significant individual — role in promoting a key idea",
+        "progression_checkpoint": "Students can investigate the role played by a specific individual in promoting a key idea from the Industrial Revolution period — describing what they did, what idea they promoted, and what they achieved.",
+        "minimum_width": "Students select one figure from the period (from: Adam Smith, Florence Nightingale, Pope Leo XIII, William Cuffay, or equivalent), describe what idea they promoted, and explain at least two specific things they did to promote it and what they achieved.",
+        "typical_width": "Students conduct a structured investigation of one figure: what idea or reform they championed; what their context was (class, occupation, time period, constraints they faced); what strategies they used; what opposition they faced; what they achieved in their lifetime and what legacy they left; evaluate their significance — was their achievement in promoting the idea itself, or in enacting concrete change, or in inspiring others? Examples: Adam Smith systematising free market capitalism through The Wealth of Nations; Florence Nightingale using statistical evidence to reform nursing and hospital sanitation; Pope Leo XIII articulating Catholic social teaching on workers' rights; William Cuffay as a Chartist leader transported to Tasmania.",
+        "wider": [
+          "Investigate a figure not on the standard list — a local figure, a woman, a non-European activist — whose role in promoting industrial-era ideas is less well known but equally important",
+          "Evaluate the 'great individual' theory of historical change — to what extent did these individuals shape events, and to what extent did events create the conditions that made these individuals effective?"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The 'great individual' evaluation connects the individual case study to a genuine historiographical debate about agency and structure — a sophisticated analytical move. Investigating non-standard figures (women, non-Europeans) deepens the picture of who promoted ideas in this period.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly describe historical figures through biographical narrative rather than through an analytical framework. Structuring the investigation around idea-strategies-achievement-evaluation produces a more analytically rigorous account.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies a specific figure, describes the idea they promoted, and explains at least two things they did to promote it",
+          "Evaluates what the figure achieved — whether in their lifetime, through long-term legacy, or in inspiring others"
+        ],
+        "related_standards": ["AC9HH9K17", "AC9HH9S07"]
+      }
+    ]
+  }
+}

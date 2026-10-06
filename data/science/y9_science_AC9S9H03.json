@@ -1,0 +1,72 @@
+{
+  "year_level": "9-10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9H03",
+    "title": "Factors in Science Adoption",
+    "strand": "Human Endeavour",
+    "mode": "A",
+    "description": "analyse the key factors that contribute to science knowledge and practices being adopted more broadly by society",
+    "prior_knowledge": "Students can explain how scientific knowledge and its applications affect people's lives (AC9S7H03) and examine how scientific communication shapes policy (AC9S7H04). They have not yet systematically analysed the factors that determine whether scientific knowledge or practices are widely adopted — moving from describing the relationship between science and society to analysing the conditions for adoption.",
+    "progression_endpoint": "Students analyse key factors that contribute to scientific knowledge and practices being adopted more broadly by society — including evidence quality, accessibility, economic feasibility, government support, community trust, media communication and cultural alignment. Students can examine cases of adoption and non-adoption to identify which factors were decisive, including examples involving First Nations Australians' knowledge practices.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Adoption factors: the concept",
+        "progression_checkpoint": "Students can explain that scientific knowledge being valid or published is not sufficient for broad societal adoption, and identify the types of factors that affect whether adoption occurs.",
+        "minimum_width": "Explain that valid scientific knowledge does not automatically get adopted by society, and identify at least two categories of factors that influence adoption (e.g. economic cost, accessibility, cultural values, government support).",
+        "typical_width": "Identify multiple categories of adoption factors across scientific, economic, social and political dimensions, and explain that adoption typically requires favourable conditions across several factors simultaneously — not just evidence quality alone.",
+        "wider": [
+          "Examine why citizen science projects attract public participation — connecting community engagement to the accessibility and trust factors in adoption.",
+          "Consider the adoption gap: why does significant time often pass between scientific validation and widespread adoption, and what factors close or widen this gap?"
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who treat scientific validity as the only adoption factor cannot meaningfully analyse the cases at Node 2 — where economically or culturally feasible practices get adopted despite mixed evidence, or where well-evidenced practices face resistance due to other factors. The multi-factor framing is prerequisite for the analysis.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The claim that 'valid science is not enough' runs counter to a naive view of how knowledge works. Scaffold with a concrete counter-example first: 'We have known for decades that smoking causes cancer — why did it take so long for smoking rates to fall?' The reasoning from this case generates the factor categories students need.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can explain why scientific validity alone is insufficient for societal adoption.",
+          "Can identify at least two distinct categories of adoption factors.",
+          "Does not treat 'getting the word out' as the only obstacle — recognises structural, economic and cultural factors."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Analysing adoption cases",
+        "progression_checkpoint": "Students can analyse specific cases of scientific knowledge or practice adoption, identifying the key factors that contributed to or inhibited adoption in each case.",
+        "minimum_width": "Analyse one case of adoption (e.g. solar panels, vaccination, recycling, land restoration through Landcare) and identify at least two factors that contributed to adoption — explaining how each factor operated in that case.",
+        "typical_width": "Analyse two adoption cases — selecting from different domains (health, environment, technology, Indigenous practices) — and for each, identify and explain the key factors, including any that inhibited adoption before it occurred.",
+        "wider": [
+          "Examine how government initiatives (e.g. Landcare, renewable energy subsidies) function as adoption-enabling mechanisms — connecting policy to the economic and accessibility factors in the framework.",
+          "Investigate the adoption trajectory of solar panels and battery storage — examining how manufacturing cost reduction, government incentives and community energy concerns combined to drive adoption, and analysing why earlier periods saw low adoption despite the technology existing.",
+          "Analyse how First Nations Australians' fire management practices are being adopted in contemporary fire management — examining which factors (evidence quality, economic benefit, government recognition, cultural respect) have been operative and which have posed barriers."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Adoption analysis can calcify around a single case type (typically environmental technology). Varying the cases across health practices, environmental management, technology adoption, and Indigenous knowledge practices ensures students encounter the full range of factor combinations and do not over-generalise from one domain.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The range of adoption cases across medicine, ecology, technology and Indigenous knowledge practices offers genuine analytical breadth. Each case involves a different combination of factors, and cross-case comparison builds the capacity to identify which factors are decisive in different contexts — a transferable analytical skill.",
+        "success_criteria": [
+          "Can identify at least two adoption factors in a named case and explain how each operated.",
+          "Can explain whether adoption was rapid or slow and connect this to the factor profile.",
+          "Does not simply describe what was adopted — analyses the conditions that made adoption possible."
+        ],
+        "related_standards": ["AC9S9H01", "AC9S9H04", "AC9S9I07"]
+      }
+    ]
+  }
+}

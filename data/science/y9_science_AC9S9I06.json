@@ -1,0 +1,91 @@
+{
+  "year_level": "9-10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9I06",
+    "title": "Assess Validity and Evaluate Conclusions",
+    "strand": "Inquiry Skills",
+    "mode": "B",
+    "description": "assess the validity and reproducibility of methods and evaluate the validity of conclusions and claims, including by identifying assumptions, conflicting evidence and areas of uncertainty",
+    "prior_knowledge": "Students can analyse methods and claims (AC9S7I06). They have not yet explicitly identified assumptions embedded in methods or conclusions, or systematically addressed conflicting evidence and areas of uncertainty as dimensions of evaluation.",
+    "progression_endpoint": "Students assess the validity and reproducibility of investigation methods by identifying specific features that support or undermine each, and evaluate the validity of conclusions and claims by identifying assumptions, conflicting evidence and areas of uncertainty — including how uncertainty and conflicting evidence may support viable alternative conclusions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Validity of secondary source information",
+        "progression_checkpoint": "Students can explain what makes secondary source information valid and evaluate a secondary source against validity criteria — distinguishing credible from less credible sources.",
+        "minimum_width": "Identify at least two criteria for evaluating secondary source validity (e.g. peer review, author expertise, date of publication, data transparency) and apply them to evaluate one described source.",
+        "typical_width": "Apply multiple validity criteria to evaluate two or three secondary sources, explaining which features of each source support or undermine credibility — and recognising that even high-quality sources can contain claims that require further scrutiny.",
+        "wider": [
+          "Examine how general practitioners manage conflicting evidence to diagnose illness — using a medical decision-making context to see validity evaluation as a practical professional skill, not just an academic exercise.",
+          "Evaluate science reporting in media against the original research it claims to represent — examining where simplification, exaggeration or omission occur and what this means for the public's understanding of scientific claims."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can apply at least two validity criteria to evaluate a named secondary source.",
+          "Can identify specific features of the source that support or undermine its credibility.",
+          "Does not treat all published sources as equally valid."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Identifying assumptions in methods and conclusions",
+        "progression_checkpoint": "Students can identify assumptions embedded in investigation methods and conclusions, and evaluate the impact of these assumptions on the validity of conclusions.",
+        "minimum_width": "Identify one assumption in a described investigation method or conclusion (e.g. 'this assumes the sample is representative of the population') and explain what would happen to the conclusion if the assumption were false.",
+        "typical_width": "Identify multiple assumptions in methods and conclusions across two investigation examples, and for each, determine whether the assumption is reasonable and what impact an incorrect assumption would have on the conclusion validity.",
+        "wider": [
+          "Analyse methods and conclusions to identify premises that are taken for granted, and evaluate the reasonableness of those assumptions — distinguishing between assumptions that are routinely safe (standard lab conditions) and those that require explicit justification.",
+          "Examine gaps or weaknesses in conclusions and relate these specifically to the validity and reproducibility of the method — building the link between method quality and conclusion quality."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who cannot identify assumptions cannot evaluate conclusion validity at Node 3 — they will accept or reject conclusions based on whether they 'seem right' rather than on what the evidence and method actually support. Assumption identification is the analytical foundation for conclusion evaluation.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Assumptions are invisible by definition — they are what is taken for granted. Students need the explicit question: 'What would have to be true for this method to work / for this conclusion to follow?' Modelling this question across examples helps students see assumptions as identifiable rather than irretrievably hidden.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify at least one assumption in a described method or conclusion.",
+          "Can explain the impact of that assumption being false on conclusion validity.",
+          "Does not treat methods as assumption-free — recognises that all methods contain assumptions."
+        ]
+      },
+      {
+        "id": 3,
+        "label": "Conflicting evidence and areas of uncertainty",
+        "progression_checkpoint": "Students can identify conflicting evidence within or across investigations and explain how areas of uncertainty may support viable alternative conclusions.",
+        "minimum_width": "Identify one area of uncertainty or one piece of conflicting evidence in a described investigation context and explain how it could lead to an alternative conclusion.",
+        "typical_width": "Identify conflicting evidence and areas of uncertainty across an investigation and evaluate whether they are sufficient to support a viable alternative conclusion — distinguishing between uncertainty that undermines the main conclusion and uncertainty that is present but does not change the conclusion significantly.",
+        "wider": [
+          "Examine cases where conflicting evidence led to prolonged scientific debate before resolution — connecting evaluation skills to the human endeavour of science (AC9S9H01, H02).",
+          "Examine whether areas of uncertainty in an investigation could lead to a viable alternative conclusion — practising the explicit construction of an alternative conclusion from the same evidence set."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "integration",
+            "reason": "Conclusion evaluation integrates source validity (Node 1), assumption identification (Node 2) and evidence assessment into a structured judgment: 'The conclusion is/is not valid because the method [addresses/does not address] these assumptions, and there is [no/some/significant] conflicting evidence that could support an alternative conclusion.' This argument structure is the integration task."
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can identify an area of uncertainty or conflicting evidence in a described investigation.",
+          "Can explain how that uncertainty or evidence could support an alternative conclusion.",
+          "Does not treat all uncertainty as equally undermining — can evaluate the significance of identified uncertainty."
+        ],
+        "related_standards": ["AC9S9I02", "AC9S9I07", "AC9S9H01"]
+      }
+    ]
+  }
+}

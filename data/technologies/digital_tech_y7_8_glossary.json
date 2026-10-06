@@ -1,0 +1,1768 @@
+{
+  "subject": "Digital Technologies",
+  "year_levels": [
+    "7",
+    "8"
+  ],
+  "generated": "2026-06-06",
+  "teacher_glossary": [
+    {
+      "term": "RAM",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Random Access Memory — volatile working memory that holds the data and instructions a processor is actively using. RAM is temporary; its contents are lost when the device is powered off. More RAM allows a device to handle more tasks or larger files simultaneously.",
+      "failure_mode": "Students conflate RAM with storage, treating them as the same specification — 'more memory means more space for files.'",
+      "failure_type": "misconception",
+      "why_it_matters": "If RAM and storage are interchangeable, students cannot reason about why a device with plenty of storage still runs slowly with insufficient RAM, or why adding RAM improves multitasking but not file capacity.",
+      "response": "Compare two devices: same storage, different RAM. Ask students to predict which handles 20 open browser tabs better and why. The storage-identical comparison isolates the RAM variable.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Storage",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Persistent memory that retains data when the device is powered off — including files, applications and the operating system. Storage capacity determines how much data a device can hold; storage speed (HDD vs SSD) affects how quickly data can be read and written.",
+      "failure_mode": "Students treat storage capacity as the primary determinant of device speed — 'it's slow because it's almost full.'",
+      "failure_type": "misconception",
+      "why_it_matters": "While very full storage can slow a device marginally, the relationship between storage and speed is primarily about storage type (SSD vs HDD), not capacity. Students who fixate on capacity cannot diagnose performance issues caused by other specifications.",
+      "response": "Compare an old laptop with a large HDD to a new laptop with a smaller SSD. The smaller-storage device is faster — ask students to explain why capacity alone doesn't determine speed.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "HDD"
+        },
+        {
+          "term": "SSD"
+        }
+      ]
+    },
+    {
+      "term": "Bandwidth",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The maximum rate at which data can be transmitted over a network connection, typically measured in Mbps or Gbps. Higher bandwidth allows more data to flow per second, but bandwidth alone does not determine the user's experience — latency and reliability also matter.",
+      "failure_mode": "Students conflate bandwidth with 'internet speed' as a single concept, and cannot distinguish bandwidth (throughput) from latency (delay).",
+      "failure_type": "misconception",
+      "why_it_matters": "If bandwidth is the only network concept students hold, they cannot explain why a high-bandwidth connection still lags in gaming (latency issue) or why a video call drops despite good speed (reliability issue).",
+      "response": "Present two scenarios: downloading a large file (bandwidth-dependent) vs playing an online game (latency-dependent). Ask which benefits more from higher bandwidth and why.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Processor",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The component that executes instructions in a digital system. At Year 7–8, students distinguish two types: the CPU (general-purpose, handles sequential tasks) and the GPU (specialised for parallel computation — graphics, AI training, video rendering). Processor speed and type determine how quickly a device can complete computational tasks.",
+      "failure_mode": "Students think 'faster processor = better at everything' without distinguishing workload types that benefit from CPU vs GPU.",
+      "failure_type": "misconception",
+      "why_it_matters": "If processor performance is one-dimensional, students cannot explain why a device with a fast CPU still struggles with video rendering (GPU-dependent) or why gaming PCs prioritise GPU specifications.",
+      "response": "Compare two tasks on the same device: word processing (CPU) vs video editing (GPU). Ask which processor specification matters for each and why.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "CPU"
+        },
+        {
+          "term": "GPU",
+          "failure_mode": "Think GPU is only for gaming — miss its role in parallel computation for AI training, video rendering and scientific simulation.",
+          "failure_type": "narrow_repertoire",
+          "response": "Show examples of GPU use beyond gaming: AI model training, weather simulation, video effects. Ask what these tasks have in common that makes GPU faster than CPU.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Bottleneck",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 2,
+      "width_tier": "typical",
+      "definition": "The single hardware component that limits how fast a device can perform a particular task. Which component is the bottleneck depends on the workload — a task might be bottlenecked by RAM, GPU, storage speed or bandwidth. Identifying the bottleneck is the key to diagnosing performance issues.",
+      "failure_mode": "Students assume performance is determined by overall device quality rather than identifying which specific component limits a particular task.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Without the bottleneck concept, students cannot make principled hardware selection decisions — they select by brand or price rather than matching specifications to workload demands.",
+      "response": "Present a scenario where video editing is slow. Ask students to identify which specification is the limiting factor before suggesting an upgrade. The diagnosis must precede the prescription.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Workload",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "What a task demands from a device's hardware specifications. Different tasks stress different components — video editing demands GPU and RAM, web browsing demands CPU and bandwidth, large file storage demands disk capacity. Workload analysis is the prerequisite for principled hardware selection.",
+      "failure_mode": "Students select hardware by brand or price without analysing what the task actually demands from each specification.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Without workload analysis, hardware selection is pattern-matching ('gamers need this brand') rather than reasoning. Students cannot justify their choices or adapt when the workload changes.",
+      "response": "Present a workload and ask students to list which specifications it stresses before looking at any hardware options. The workload analysis must come before the selection.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Cloud computing",
+      "descriptor_code": "AC9TDI8K01",
+      "first_waypoint": 3,
+      "width_tier": "wider",
+      "definition": "Using remote servers accessed over the internet to store, manage and process data instead of relying on local hardware. Cloud computing changes hardware selection decisions — tasks that exceed local specifications (AI training, large-scale data processing) can be offloaded to cloud resources with higher specifications.",
+      "failure_mode": "Students think cloud computing eliminates the need for local hardware specifications — 'everything is in the cloud so specs don't matter.'",
+      "failure_type": "misconception",
+      "why_it_matters": "Cloud computing shifts where specifications matter, it doesn't remove their relevance. Bandwidth and latency become critical for cloud tasks; local specs still matter for responsiveness and offline work. Students who dismiss local specs cannot reason about when cloud vs local is appropriate.",
+      "response": "Compare the same task done locally vs in the cloud. Ask which specifications matter in each case — local specs for one, bandwidth/latency for the other.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Network",
+      "descriptor_code": "AC9TDI8K02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A system of connected devices that can transmit data to each other. Networks are characterised by three properties: bandwidth (how much data can flow per second), latency (the delay between sending and receiving), and reliability (how consistently data arrives without loss). Wired networks use physical cables; wireless networks use radio signals.",
+      "failure_mode": "Students describe wired and wireless networks only by physical medium (cable vs no cable) without connecting them to measurable properties like bandwidth, latency and reliability.",
+      "failure_type": "misconception",
+      "why_it_matters": "Network properties (bandwidth, latency, reliability) are the vocabulary for reasoning about packet transmission, encryption overhead and internet infrastructure. Students who can only say 'wired is faster' cannot explain why or when that matters.",
+      "response": "Present three use cases (streaming, gaming, file transfer) and ask which network property matters most for each. The use-case comparison forces students beyond the wired/wireless binary.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Wired network",
+          "definition": "A network that transmits data through physical cables (e.g. Ethernet, fibre optic). Generally offers higher bandwidth, lower latency and greater reliability than wireless."
+        },
+        {
+          "term": "Wireless network",
+          "definition": "A network that transmits data via radio signals (e.g. Wi-Fi, 5G, satellite). Offers mobility but is typically more susceptible to interference, latency and signal degradation."
+        },
+        {
+          "term": "Latency"
+        },
+        {
+          "term": "Reliability"
+        },
+        {
+          "term": "Router"
+        },
+        {
+          "term": "Ethernet"
+        },
+        {
+          "term": "Wi-Fi"
+        },
+        {
+          "term": "5G"
+        }
+      ]
+    },
+    {
+      "term": "Packet",
+      "descriptor_code": "AC9TDI8K02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A small unit of data that is transmitted independently across a network. Data is broken into packets before transmission; each packet can take a different route and may arrive out of order. Protocols reassemble packets at the destination. Packets can be lost or delayed in transit — protocols like TCP handle recovery.",
+      "failure_mode": "Students think data travels as a continuous stream from sender to receiver, like water through a pipe, rather than as discrete packets that are individually routed and reassembled.",
+      "failure_type": "misconception",
+      "why_it_matters": "The packet model is the prerequisite for understanding why protocols exist (to reassemble and recover lost packets) and why encryption is necessary (packets pass through shared infrastructure anyone along the path could read). Without the packet model, both TCP and encryption appear as arbitrary additions rather than principled responses.",
+      "response": "Simulate packet transmission: tear a message into numbered strips, shuffle them, remove one. Ask students to reassemble and identify the gap. The physical simulation makes the packet model concrete.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Protocol",
+      "descriptor_code": "AC9TDI8K02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A set of rules that governs how data is transmitted, received and error-checked across a network. TCP (Transmission Control Protocol) uses acknowledgements to confirm packets have been received and retransmits packets that are lost. Protocols ensure reliable communication over unreliable infrastructure.",
+      "failure_mode": "Students accept that protocols 'make the internet work' without understanding the specific mechanism — acknowledgements, retransmission, error detection — that makes communication reliable.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If protocols are a black box, students cannot trace what happens when communication fails (packet loss, timeout, retransmission) or explain how reliability is achieved over inherently unreliable networks.",
+      "response": "Walk through a TCP acknowledgement cycle for three packets: send → acknowledge → one lost → timeout → retransmit → acknowledge. Ask students to predict what happens at each step.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "TCP",
+          "definition": "Transmission Control Protocol — uses acknowledgements and retransmission to ensure all packets arrive correctly, even over unreliable networks."
+        }
+      ]
+    },
+    {
+      "term": "Encryption",
+      "descriptor_code": "AC9TDI8K02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The process of transforming data into an unreadable form so that only authorised recipients can read it. Encryption is necessary because packets travel through shared infrastructure (routers, switches, cables) that the sender does not control — anyone along the path could read unencrypted data. The process is reversible: the recipient decrypts using a key.",
+      "failure_mode": "Students accept 'encryption is good' as a fact without understanding the shared-infrastructure reasoning — why unencrypted data is vulnerable during transmission.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Students who accept encryption as inherently good without understanding the threat model cannot reason about when encryption matters (transmission over shared infrastructure) vs when it doesn't (data at rest on a personal device). The need must precede the mechanism.",
+      "response": "Trace a packet's journey through routers the sender doesn't control. Ask: who could read this data at each hop? The shared-infrastructure visualisation makes the threat concrete.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Decryption",
+          "definition": "The reverse of encryption — transforming encrypted data back to its original readable form using a key."
+        },
+        {
+          "term": "HTTPS"
+        },
+        {
+          "term": "Key"
+        }
+      ]
+    },
+    {
+      "term": "Encryption algorithm",
+      "descriptor_code": "AC9TDI8K02",
+      "first_waypoint": 4,
+      "width_tier": "typical",
+      "definition": "A specific method for transforming readable data into encrypted form. At Year 7–8, students explore ROT13 (shifts each letter by 13 positions in the alphabet) and XOR (applies a binary exclusive-or operation with a key). Both demonstrate the reversibility principle — applying the same operation twice recovers the original. XOR operates on binary data, making it more relevant to how digital systems actually encrypt.",
+      "failure_mode": "Students treat encryption as a one-way process — they can encrypt but don't understand that the same algorithm reverses the process to recover the original.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If encryption is one-way, secure communication is impossible — the recipient could never read the message. The reversibility principle is the entire point: encrypt to protect, decrypt to use.",
+      "response": "Give students an encrypted message and the algorithm. Ask them to decrypt it. Then ask: what does the person who receives your encrypted message need to know to read it?",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "ROT13",
+          "definition": "A simple letter-substitution cipher that shifts each letter 13 positions. Applying ROT13 twice returns the original text."
+        },
+        {
+          "term": "XOR",
+          "definition": "A binary operation that compares two bits and outputs 1 if they differ, 0 if they match. XOR with the same key twice returns the original data — the basis for simple digital encryption."
+        }
+      ]
+    },
+    {
+      "term": "Encoding scheme",
+      "descriptor_code": "AC9TDI8K03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A mapping system that assigns integers to specific meanings — characters, colours, sound amplitudes. Different data types use different encoding schemes: the same integer means different things depending on whether the system interprets it as a Unicode character, an RGB colour value, or an audio sample. All digital data is integers; the encoding scheme determines what those integers represent.",
+      "failure_mode": "Students treat text, image and audio encoding as three unrelated facts rather than three instances of the same principle — all data is integers mapped through encoding schemes.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "If the encoding-scheme principle is not established, Nodes 2–4 (Unicode, RGB, audio sampling) become disconnected memorisation tasks rather than applications of one idea. Students cannot integrate the data types at the standard level.",
+      "response": "Show the same integer (e.g. 65) interpreted as a character (A), a colour channel value (medium-low red), and an audio amplitude. Ask: how does the system know which one it is?",
+      "response_type": "integration"
+    },
+    {
+      "term": "Unicode",
+      "descriptor_code": "AC9TDI8K03",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A universal character encoding standard that assigns a unique integer to every character across all writing systems — letters, punctuation, emoji and symbols from hundreds of languages. Unicode superseded ASCII, which only covered 128 characters (English letters, digits and basic punctuation). Upper-case and lower-case letters have different Unicode values.",
+      "failure_mode": "Students think Unicode is just a lookup table for English letters and don't understand why a universal standard was necessary — that different languages and writing systems required a single shared numbering system.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If Unicode is just 'A = 65', students miss the engineering problem it solves: enabling all the world's writing systems to coexist in one encoding. The character-diversity aspect connects data representation to linguistic and cultural equity.",
+      "response": "Ask students to look up Unicode values for characters from three different writing systems (Latin, Arabic, Chinese) plus an emoji. The variety demonstrates why a universal standard matters.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "ASCII",
+          "definition": "An older 7-bit character encoding covering 128 characters — English letters, digits and basic punctuation. Insufficient for representing non-Latin scripts, which is why Unicode replaced it."
+        }
+      ]
+    },
+    {
+      "term": "Pixel",
+      "descriptor_code": "AC9TDI8K03",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "The smallest addressable unit of a bitmap image. Each pixel stores colour information as RGB values — three integers from 0 to 255, one each for red, green and blue intensity. The total number of pixels (resolution) and the number of bits per channel (colour depth) determine image quality and file size.",
+      "failure_mode": "Students can state that images are 'made of pixels' but cannot explain what data each pixel actually stores — they know the word without the encoding mechanism.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If pixels are just 'dots', students cannot calculate storage requirements, explain why higher resolution means larger files, or connect image encoding back to the integers-as-data principle from Node 1.",
+      "response": "Give students an RGB triplet (e.g. 255, 0, 0) and ask what colour it represents. Then ask: how many integers does a 100×100 pixel image need? The calculation grounds the encoding in numbers.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "RGB",
+          "definition": "Red, Green, Blue — three colour channels each ranging from 0 to 255. Together they specify a pixel's colour using three integers."
+        },
+        {
+          "term": "Resolution"
+        },
+        {
+          "term": "Colour depth"
+        }
+      ]
+    },
+    {
+      "term": "Bitmap image",
+      "descriptor_code": "AC9TDI8K03",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "An image represented as a grid of pixels, each storing RGB colour values. Common formats include PNG and JPEG. Bitmap images have a fixed resolution — scaling up produces visible pixelation. Contrasts with vector graphics (SVG), which store geometry rather than pixel data and can scale without quality loss.",
+      "failure_mode": "Students treat bitmap and vector as interchangeable image formats rather than fundamentally different representation systems — pixels vs geometry.",
+      "failure_type": "misconception",
+      "why_it_matters": "Without the bitmap/vector distinction, students cannot explain why logos are designed as vectors (scalable) while photos are bitmaps (pixel-based), or why SVG files are tiny compared to high-resolution PNGs.",
+      "response": "Zoom into the same image saved as PNG and SVG. The PNG pixelates; the SVG stays sharp. Ask students to explain the difference using how each format stores data.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Vector graphics",
+          "definition": "Images defined by mathematical descriptions of shapes, lines and curves rather than pixel grids. SVG (Scalable Vector Graphics) is the standard format. Scales without quality loss."
+        },
+        {
+          "term": "SVG"
+        },
+        {
+          "term": "PNG"
+        },
+        {
+          "term": "JPEG"
+        }
+      ]
+    },
+    {
+      "term": "Sampling",
+      "descriptor_code": "AC9TDI8K03",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The process of measuring a continuous sound wave at regular time intervals to convert it to digital data. Each measurement captures the amplitude (height) of the wave at that instant and stores it as an integer. Sampling rate (e.g. 44,100 Hz = 44,100 samples per second) determines temporal resolution; bit depth (e.g. 16-bit = integers from −32,768 to 32,767) determines amplitude precision.",
+      "failure_mode": "Students think digital audio is a direct copy of the sound wave rather than a series of discrete measurements — they don't see the analogue-to-digital conversion.",
+      "failure_type": "misconception",
+      "why_it_matters": "If audio is 'just recorded', students cannot reason about why sampling rate affects quality, why higher bit depth gives more precision, or how the encoding connects back to the integers-as-data principle. The sampling model is the audio equivalent of the pixel model for images.",
+      "response": "Draw a smooth wave and mark dots at regular intervals — those dots are the samples. Ask: what happens to the quality if you space the dots further apart? The visual makes sampling rate concrete.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Sampling rate",
+          "definition": "How many times per second the sound wave is measured. CD quality is 44,100 Hz. Higher rate = more accurate representation of the original wave."
+        },
+        {
+          "term": "Bit depth",
+          "definition": "The number of bits used to store each sample, determining the range of amplitude values. 16-bit audio can represent 65,536 different amplitude levels."
+        },
+        {
+          "term": "Amplitude",
+          "definition": "The height of the sound wave at a given instant — how loud the sound is at that point. Each amplitude measurement is stored as an integer."
+        }
+      ]
+    },
+    {
+      "term": "Binary",
+      "descriptor_code": "AC9TDI8K04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A base-2 number system using only the digits 0 and 1. Each digit position represents a power of 2 (1, 2, 4, 8, 16, …). Digital systems use binary because electronic components have two reliable states (on/off, high/low voltage), making binary the natural encoding for all computation and data storage.",
+      "failure_mode": "Students can mechanically convert numbers but cannot explain binary place value — they follow a procedure without understanding that each position represents a power of 2.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "If binary conversion is a memorised procedure rather than understood through place value, students cannot predict the range of values for a given number of bits (Node 2), reason about overflow, or connect binary representation to data encoding (Node 4).",
+      "response": "Label each column with its power of 2. Ask students to predict the largest number 5 bits can represent, then 6 bits. The power-of-2 pattern should make the prediction possible without converting every number.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Bit",
+      "descriptor_code": "AC9TDI8K04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A single binary digit — 0 or 1. The smallest unit of data in a digital system. 8 bits = 1 byte, which can represent 256 different values (0 to 255). The number of bits determines the range of values that can be represented: n bits gives 2^n possible values.",
+      "failure_mode": "Students confuse the number of bits with the values they represent — 'eight bits means the number 8' rather than '8 bits can represent 256 different values.'",
+      "failure_type": "misconception",
+      "why_it_matters": "The bits-to-range relationship (2^n) is the foundation for understanding why RGB uses values 0–255 (one byte per channel), why 16-bit audio has 65,536 amplitude levels, and why more bits means more precision. Confusing bit count with value breaks all downstream calculations.",
+      "response": "Ask: if 1 bit gives 2 values (0 or 1), and 2 bits give 4 values (00, 01, 10, 11), what does 3 bits give? Build the 2^n pattern by counting rather than memorising.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Byte",
+          "definition": "8 bits. The standard unit for measuring data — can represent 256 values (0–255). One RGB colour channel is one byte; one ASCII character is one byte."
+        }
+      ]
+    },
+    {
+      "term": "Logic gate",
+      "descriptor_code": "AC9TDI8K04",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "A circuit component that performs a Boolean operation on binary inputs. AND gate outputs 1 only when both inputs are 1; OR gate outputs 1 when at least one input is 1. Logic gates are why digital systems use binary — two reliable electronic states (on/off) can be combined through Boolean operations to perform all computation.",
+      "failure_mode": "Students can fill in a truth table but cannot connect logic gates to why computers use binary — they treat gates as an isolated topic rather than the answer to 'why binary?'",
+      "failure_type": "fragmentation",
+      "why_it_matters": "Logic gates are the bridge between the physical (electronic on/off states) and the computational (binary arithmetic, data processing). Without this connection, binary appears arbitrary rather than necessary.",
+      "response": "Ask: why don't computers use base-10? Walk the chain: electronic components have two reliable states → those map to 0/1 → gates combine them → therefore binary. Each step must connect.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "AND gate",
+          "definition": "Outputs 1 only when both inputs are 1. All other input combinations produce 0."
+        },
+        {
+          "term": "OR gate",
+          "definition": "Outputs 1 when at least one input is 1. Only produces 0 when both inputs are 0."
+        },
+        {
+          "term": "Truth table"
+        },
+        {
+          "term": "Boolean"
+        }
+      ]
+    },
+    {
+      "term": "Data acquisition",
+      "descriptor_code": "AC9TDI8P01",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The process of obtaining data from sources to answer a specific question. Effective acquisition requires defining the question first (what data is needed and why), then selecting appropriate sources (surveys, existing datasets like ABS, digital platforms). Source selection shapes what data is available — different sources answer different aspects of the same question.",
+      "failure_mode": "Students acquire data without first articulating what question they are investigating — they collect whatever is available rather than what is relevant.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Without a clear question driving acquisition, students collect irrelevant data or store data without purpose. The question constrains every subsequent phase of the data pipeline — sourcing, storage, validation and analysis.",
+      "response": "Give students a broad topic (e.g. 'the canteen') and ask them to write the specific question before touching any data. Then ask: what data do you actually need to answer this question? The question must precede the data.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Data validation",
+      "descriptor_code": "AC9TDI8P01",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "Judging whether acquired data is fit for purpose by checking relevance (does it address the question?), correctness (are the values accurate?), currency (is it up to date?), and bias (is the sample representative?). Validation is not a single check but a set of criteria applied to the dataset as a whole.",
+      "failure_mode": "Students check one validation criterion (usually correctness) and declare the data valid, without considering relevance, currency or bias.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "Data can be correct but irrelevant, current but biased, or relevant but outdated. A single-criterion check gives false confidence. Students who validate only for correctness will draw conclusions from unrepresentative or irrelevant data.",
+      "response": "Present a dataset that is correct but irrelevant to the question being asked. Ask: is this good data? The correct-but-irrelevant case forces students beyond the single-criterion habit.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Relevance"
+        },
+        {
+          "term": "Currency"
+        },
+        {
+          "term": "Bias",
+          "definition": "Systematic skew in a dataset that makes it unrepresentative of the population it claims to describe. Can arise from sampling method, data collection design or source selection."
+        }
+      ]
+    },
+    {
+      "term": "Data visualisation",
+      "descriptor_code": "AC9TDI8P02",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Representing data graphically to reveal patterns, trends and relationships that are not obvious in raw numbers. Different visualisation types suit different data structures — bar charts for categories, scatter plots for relationships between variables, line graphs for change over time, maps for geographic data. Visualisation choices can reveal or obscure patterns.",
+      "failure_mode": "Students default to bar charts regardless of data structure because it is the only graph type in their repertoire.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "A bar chart cannot show a correlation between two variables (scatter plot needed) or a trend over time (line graph needed). Students with a thin repertoire produce graphs that obscure the patterns they are trying to find, making Nodes 2 and 3 (trend identification and conclusions) impossible.",
+      "response": "Show the same dataset as a bar chart and a scatter plot. Ask which reveals the pattern more clearly and why. Repeat with different datasets to build the repertoire.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Bar chart"
+        },
+        {
+          "term": "Scatter plot"
+        },
+        {
+          "term": "Line graph"
+        }
+      ]
+    },
+    {
+      "term": "Trend",
+      "descriptor_code": "AC9TDI8P02",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A general direction or pattern in data over time or across categories — an increase, decrease, plateau or cycle. Identifying trends requires summarising data by attributes (sorting, grouping, filtering) rather than reading individual data points. Trends are the evidence base for predictions.",
+      "failure_mode": "Students describe individual data points ('it went up in March') rather than identifying the overall pattern ('it has been increasing steadily since January').",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Individual data points are not trends — a single increase could be noise. Students who cannot distinguish trends from individual fluctuations will make predictions based on isolated values rather than sustained patterns.",
+      "response": "Show a noisy dataset with an overall upward trend. Ask: is this data going up or down? Point to a local dip and ask if that changes the answer. The noisy context forces trend-level reading.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Outlier",
+          "definition": "A data point that sits far from the overall pattern. May indicate an error, an unusual event, or a genuinely extreme value. Identifying outliers prevents them from distorting trend analysis."
+        }
+      ]
+    },
+    {
+      "term": "Prediction",
+      "descriptor_code": "AC9TDI8P02",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A claim about what will happen in the future, based on extending an identified trend. A prediction must be grounded in evidence from the data and distinguish between what the data shows, what it suggests, and what is uncertain. Predictions have limitations — they assume the trend will continue, which may not hold.",
+      "failure_mode": "Students present opinions as data-supported conclusions — 'I think it will go up' without referencing the evidence or acknowledging uncertainty.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If predictions are indistinguishable from opinions, the data analysis pipeline has no value — students could have skipped the data entirely. The evidence → conclusion → prediction → limitation chain is the reasoning structure that makes data analysis meaningful.",
+      "response": "Ask students to write a prediction, then highlight every claim with 'what evidence supports this?' If any claim has no evidence, it's an opinion, not a prediction.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Structured data",
+      "descriptor_code": "AC9TDI8P03",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Data organised into a consistent format where each record has the same defined attributes (fields). Objects or events are modelled as rows in a table, with columns representing attributes. The choice of which attributes to include is driven by what questions the data needs to answer — irrelevant attributes add noise; missing attributes make queries impossible.",
+      "failure_mode": "Students list attributes without connecting them to the purpose of the data — they include every possible attribute rather than selecting those relevant to the question being answered.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Tables with irrelevant attributes cannot be queried meaningfully — students create data models that answer no question because they were designed to answer every question. Purpose-driven attribute selection is the foundation of database design.",
+      "response": "Give students the same object (e.g. a canteen product) modelled for two different purposes (nutritional analysis vs sales tracking). Ask why the attribute lists differ. Purpose must drive selection.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Attribute",
+          "definition": "A defined property of an object or event that is recorded in a data model — a column in a table. Attributes have names and data types (text, number, date)."
+        },
+        {
+          "term": "Record",
+          "definition": "A single instance of an object or event in a structured dataset — one row in a table, containing values for each defined attribute."
+        },
+        {
+          "term": "Database"
+        },
+        {
+          "term": "Spreadsheet"
+        },
+        {
+          "term": "Data type"
+        }
+      ]
+    },
+    {
+      "term": "SQL",
+      "descriptor_code": "AC9TDI8P03",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "Structured Query Language — a formal language for querying and manipulating data in databases. At Year 7–8, students use SELECT (which columns to return), WHERE (which rows to filter) and ORDER BY (how to sort results). SQL queries translate a question into a precise instruction that returns exactly the data needed to answer it.",
+      "failure_mode": "Students write queries by trial and error — trying combinations of keywords until something works — rather than reasoning from the question to the query structure.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Trial-and-error querying produces results without understanding. Students cannot verify whether a query is correct because they don't know what it should return. The translation chain (question → column → condition → sort) must be deliberate.",
+      "response": "Before writing SQL, ask students to state in plain English: what do I want to find? Which column? Which condition? What order? Then translate each answer to SQL. The translation must be explicit.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "SELECT"
+        },
+        {
+          "term": "WHERE"
+        },
+        {
+          "term": "ORDER BY"
+        },
+        {
+          "term": "Query",
+          "definition": "A formal request for specific data from a database. A query defines what data to return and what conditions to apply."
+        }
+      ]
+    },
+    {
+      "term": "Problem framing",
+      "descriptor_code": "AC9TDI8P04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Defining a problem in terms of what is known, why it matters, and what a successful outcome looks like — before any solution is proposed. In a Mode B design cycle, the problem frame shapes every downstream phase: decomposition, user stories, design and evaluation. A weak frame produces solutions to the wrong problem.",
+      "failure_mode": "Students jump to solution ideas without first defining the problem — they describe what they want to build rather than what problem exists and why it matters.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Every downstream phase flows from the problem frame. Decompositions that solve the wrong problem, user stories disconnected from defined needs, and designs that cannot be evaluated all trace back to absent or weak framing.",
+      "response": "Before any design discussion, require three written sentences: what is known, why it matters, what success looks like. If students skip any, ask: could you evaluate your final solution against this frame?",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Decomposition",
+      "descriptor_code": "AC9TDI8P04",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Breaking a defined problem into smaller, manageable sub-problems that can be addressed individually. Effective decomposition identifies dependencies — which sub-problems must be solved before others. The decomposition structure shapes both the design process and the final solution.",
+      "failure_mode": "Students list tasks to complete rather than identifying genuine sub-problems — the decomposition reads as a to-do list rather than a problem analysis.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "A to-do list has no dependencies or rationale — it cannot guide design decisions or be evaluated for completeness. Genuine decomposition asks 'what must be solved?' not 'what must be done?'",
+      "response": "Give students a decomposition and a task list for the same problem. Ask which one would help them know if the problem is fully solved.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "User story",
+      "descriptor_code": "AC9TDI8P04",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A short statement that captures a user's need in a standard format: 'As a [user type], I want [goal], so that [reason].' User stories translate sub-problems into user-centred requirements and serve as design criteria — each story defines something the solution must satisfy. Different user types may have conflicting needs, requiring design trade-offs.",
+      "failure_mode": "Students write user stories as a format exercise — filling in the template without connecting stories to the sub-problems they decomposed or using them to drive design decisions.",
+      "failure_type": "fragmentation",
+      "why_it_matters": "Disconnected user stories are decorative — they don't guide design. User stories should be the bridge between problem decomposition and design criteria. If the connection is absent, stories and designs drift apart.",
+      "response": "After writing user stories, ask students to trace each story back to a sub-problem. Any story that doesn't connect to a sub-problem is either unnecessary or indicates a gap in the decomposition.",
+      "response_type": "integration"
+    },
+    {
+      "term": "Design criteria",
+      "descriptor_code": "AC9TDI8P04",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Specific, testable requirements that a solution must satisfy. Design criteria derive from the problem frame and user stories — they define what success looks like in measurable terms. Criteria enable systematic evaluation: a solution either meets, partially meets, or fails to meet each criterion.",
+      "failure_mode": "Students state criteria as vague aspirations ('it should be good') rather than testable requirements ('it must load within 3 seconds on a mobile connection').",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Vague criteria cannot be evaluated — 'good' is a judgment, not a test. Without testable criteria, evaluation at P08 and P10 becomes personal preference rather than systematic assessment.",
+      "response": "For each criterion, ask: how would you test whether the solution meets this? If the answer is 'I'd just look at it', the criterion is not testable enough.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Control structure",
+      "descriptor_code": "AC9TDI8P05",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "One of three building blocks that determine the flow of an algorithm: sequence (steps in order), branching (choosing a path based on a condition), and iteration (repeating steps). All algorithms are built from combinations of these three structures.",
+      "failure_mode": "Students use control structures procedurally without being able to name or identify which one they are using.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If control structures are not individually identifiable, students cannot understand nesting because nesting requires knowing what is outer and what is inner.",
+      "response": "Show four short algorithms and ask students to label which control structure each uses. Repeat until identification is automatic — naming is the prerequisite for combining.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Sequence",
+          "definition": "Steps executed in a fixed order, one after another. The simplest control structure — no decisions, no repetition."
+        },
+        {
+          "term": "Branching",
+          "definition": "A decision point where the algorithm follows one of two or more paths based on a condition (IF-THEN-ELSE). Each path contains different steps.",
+          "failure_mode": "Students write branching without a clear condition — the decision point has no testable criterion.",
+          "failure_type": "fragile_skill",
+          "response": "Ask: what question is being asked at this decision point? If they can't state the condition as a yes/no question, the branching is incomplete.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Iteration",
+          "definition": "Repeating a set of steps either a fixed number of times (FOR) or until a condition changes (WHILE). Iteration handles repetitive tasks without writing each step individually.",
+          "failure_mode": "Students write the same steps multiple times instead of using a loop, even when the pattern is identical.",
+          "failure_type": "fragile_skill",
+          "response": "Show code with five identical blocks and ask: what if we needed 100? The impossibility of manual repetition motivates the loop.",
+          "response_type": "consolidation"
+        },
+        {
+          "term": "Condition"
+        }
+      ]
+    },
+    {
+      "term": "Nesting",
+      "descriptor_code": "AC9TDI8P05",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Placing one control structure inside another to handle problems that require multi-level logic. The outer structure controls when the inner one executes. Common patterns: IF inside IF (multi-stage decisions), IF inside loop (conditional action on each repetition), loop inside loop (grid or matrix processing). Nesting creates a hierarchy — flat algorithms cannot represent the same logic.",
+      "failure_mode": "Students confuse nesting with sequential ordering — they place two IFs one after another rather than one inside the other, producing a different logical outcome.",
+      "failure_type": "misconception",
+      "why_it_matters": "Sequential IFs test independently; nested IFs test conditionally. The distinction changes the algorithm's output. Students who cannot see the structural difference produce algorithms that don't match their intended logic.",
+      "response": "Show two algorithms: one with sequential IFs, one with nested IFs, same conditions. Trace both with the same input. The different outputs make the structural difference visible.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Flowchart",
+      "descriptor_code": "AC9TDI8P05",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "A visual representation of an algorithm using standardised shapes: rectangles for processes, diamonds for decisions, arrows for flow direction, and loop-back arrows for iteration. Flowcharts make branching and iteration visible through spatial layout, which is useful for communicating algorithm logic and spotting structural errors.",
+      "failure_mode": "Students draw linear sequences of rectangles without using diamonds for decisions or loop-back arrows for iteration — the flowchart becomes a to-do list that cannot represent control flow.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "A flowchart without decision diamonds or loop arrows cannot represent branching or iteration. The distinctive value of flowcharts is making control flow visible; without the correct shapes, that value is lost and errors in logic are hidden.",
+      "response": "Give students an algorithm with branching and iteration. Check specifically for diamonds at decision points and arrows that loop back — these are the two elements that distinguish a flowchart from a list.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Pseudocode",
+      "descriptor_code": "AC9TDI8P05",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "A text-based representation of an algorithm using structured English with programming-like keywords (IF, THEN, ELSE, WHILE, FOR, END). Pseudocode uses indentation to show nesting — inner structures are indented further than outer ones. More precise than plain English but not tied to any specific programming language.",
+      "failure_mode": "Students write plain English sentences rather than using structured keywords and indentation, losing the precision that makes pseudocode traceable and translatable to code.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Plain English pseudocode cannot be systematically traced — ambiguity at decision points makes desk checking impossible. If students cannot write structured pseudocode, they cannot verify their algorithms before implementation.",
+      "response": "Show the same algorithm as plain English, pseudocode and code. Ask students to trace each — the plain English version will be ambiguous at decision points, making the value of structured pseudocode concrete.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Indentation"
+        }
+      ]
+    },
+    {
+      "term": "Tracing",
+      "descriptor_code": "AC9TDI8P06",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Following an algorithm step by step, tracking how variable values change at each step, to predict the output for a given input. Systematic tracing uses a desk check table (columns for input, each variable, and output) to record state changes precisely. Tracing is the foundation for both test case specification and error identification.",
+      "failure_mode": "Students skip steps or track variable values loosely — 'it goes through the loop a few times' — rather than recording each step precisely in a desk check table.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Imprecise tracing misses the exact step where an error occurs. Students cannot identify errors at Node 3 if they cannot trace precisely enough to find the divergence between expected and actual output.",
+      "response": "Require a completed desk check table with every step filled in before students state the output. Check the table row by row — any gap means the trace is incomplete.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Desk check",
+          "definition": "A tabular method for tracing an algorithm: columns for input, each variable, and output; rows for each step. Records the state of the algorithm precisely at every point."
+        }
+      ]
+    },
+    {
+      "term": "Test case",
+      "descriptor_code": "AC9TDI8P06",
+      "first_waypoint": 2,
+      "width_tier": "typical",
+      "definition": "A specific input paired with the expected output, used to verify whether an algorithm behaves correctly. Good test cases include normal inputs, edge cases (boundary values, zero, negative numbers), and inputs designed to expose specific error types. Expected output must be stated before tracing — if you don't know what should happen, you can't tell whether the result is wrong.",
+      "failure_mode": "Students only test with inputs that produce correct output — they don't design test cases that deliberately probe boundaries or likely failure points.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "Tests that only confirm correct behaviour give false confidence. Edge cases and boundary values are where errors typically surface — students with a narrow testing repertoire miss the errors that matter.",
+      "response": "After students choose test cases, ask: what input would break this algorithm? Could zero cause a problem? A negative number? An empty input? Each prompt adds to the testing repertoire.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Edge case"
+        },
+        {
+          "term": "Boundary value"
+        }
+      ]
+    },
+    {
+      "term": "Error",
+      "descriptor_code": "AC9TDI8P06",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A mistake in an algorithm that causes it to produce incorrect output or fail to terminate. Errors are identified by comparing expected output (from the test case) with actual output (from tracing). Common error types at this level include wrong comparison operators, off-by-one loop termination, and misplaced logic within nesting.",
+      "failure_mode": "Students can state that 'the output is wrong' but cannot locate or explain what in the algorithm caused the error — they see the symptom, not the cause.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Identifying that output is wrong is the easy part — explaining why it's wrong and where in the algorithm the error occurs is the diagnostic skill. Without it, students cannot fix errors, only notice them.",
+      "response": "When a student finds an error, ask: at which step does the actual output diverge from the expected? What operation at that step produced the wrong value? The diagnosis must be specific.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "User experience",
+      "descriptor_code": "AC9TDI8P07",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "How a user interacts with, navigates through, and feels about a digital system as a whole — including flow, ease of use, satisfaction and whether the system meets the user's needs. UX encompasses the full journey through a system, not just individual screen layouts. Distinct from user interface (UI), which covers visual design elements.",
+      "failure_mode": "Students treat UX and UI as interchangeable — they equate designing the user experience with choosing colours and button layouts.",
+      "failure_type": "misconception",
+      "why_it_matters": "If UX equals UI, students produce wireframes that address layout without considering user flow, navigation logic or task completion. A beautiful interface with confusing navigation is good UI but poor UX.",
+      "response": "Show a well-designed interface (good UI) with a confusing navigation flow (poor UX). Ask: would you enjoy using this? The disconnect between visual quality and usability makes the distinction concrete.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "User interface",
+          "definition": "The visual and interactive elements users directly see and touch — layout, colours, buttons, typography. UI is a component of UX but does not encompass it."
+        },
+        {
+          "term": "Accessibility"
+        }
+      ]
+    },
+    {
+      "term": "Wireframe",
+      "descriptor_code": "AC9TDI8P07",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A simplified visual plan of a digital system's layout showing where elements (navigation, content areas, buttons) are positioned on each page and how users move between pages. Wireframes strip away visual design to focus on structure and flow. They are a planning tool, not a final design — low fidelity is a feature, not a limitation.",
+      "failure_mode": "Students treat wireframes as finished designs — spending time on visual polish (colours, fonts, images) rather than layout structure and navigation flow.",
+      "failure_type": "misconception",
+      "why_it_matters": "A polished wireframe that doesn't show navigation between pages is less useful than a rough sketch that maps the user journey. Wireframes plan structure; visual design comes later. Conflating the two means navigation and flow are never explicitly planned.",
+      "response": "Give students grey boxes and arrows only — no colours, no fonts. Their wireframe must show where elements sit and how users move between pages. The constraint forces structural thinking.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Storyboard"
+        }
+      ]
+    },
+    {
+      "term": "Branding",
+      "descriptor_code": "AC9TDI8P07",
+      "first_waypoint": 4,
+      "width_tier": "typical",
+      "definition": "A consistent set of visual and tonal choices (colour palette, typography, styling, voice) that communicates a product's identity and values. Branding guidelines ensure visual consistency across all pages and touchpoints. Branding supports UX when it reinforces what the product stands for; it undermines UX when visual choices contradict the user's expectations.",
+      "failure_mode": "Students select colours and fonts based on personal preference rather than connecting visual choices to the product's identity, audience or values.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Branding without purpose is decoration. If visual choices aren't connected to what the product communicates, students cannot explain or justify their design decisions — and the branding may actively confuse users about what the product is for.",
+      "response": "Ask: what should a user feel when they see this product? Then: do your colours and typography communicate that? If students can't connect the two, the branding has no rationale.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Alternative designs",
+      "descriptor_code": "AC9TDI8P08",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "Multiple genuinely different design solutions for the same brief, generated before committing to a preferred option. Alternatives must differ in approach or structure, not just surface variation (e.g. colour changes). Generation strategies include brainstorming, sketching, concept mapping and AI-assisted prototyping.",
+      "failure_mode": "Students produce variants of the same idea (same structure, different colours) rather than genuinely different design approaches.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If all alternatives are surface variants, evaluation at Node 2 has nothing meaningful to compare — every option has the same strengths and weaknesses. Genuine alternatives are what make the evaluate-and-iterate cycle productive.",
+      "response": "After students generate alternatives, ask: how are these designs structurally different? If the answer is only visual (colour, font), require a third design that takes a fundamentally different approach to the problem.",
+      "response_type": "repertoire_building"
+    },
+    {
+      "term": "Design evaluation",
+      "descriptor_code": "AC9TDI8P08",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Systematically assessing a design against specific criteria and user stories — identifying strengths, weaknesses and trade-offs. Evaluation uses evidence from the design (what does it actually do?) not personal preference (do I like it?). Trade-offs arise when a design serves one user well but another poorly.",
+      "failure_mode": "Students evaluate by personal preference ('I like this one better') rather than against criteria and user stories.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Preference-based evaluation cannot be justified, communicated or reproduced. Criteria-based evaluation produces assessments that other designers and stakeholders can understand and build on.",
+      "response": "Remove the word 'like' from evaluation language. For every assessment, require: which criterion? Met, partially met, or unmet? What evidence from the design supports that judgement?",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Iterative modification",
+      "descriptor_code": "AC9TDI8P08",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Improving a design through repeated cycles of evaluation and modification — each round addresses specific weaknesses identified in the previous evaluation. Changes are documented with rationale: what changed, why, and how it improves the design against criteria. Iteration is purposeful refinement, not random changes.",
+      "failure_mode": "Students make changes without connecting them to evaluation feedback — modifications are random rather than targeted at identified weaknesses.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Random modification is not iteration — it's guessing. Without a feedback loop (evaluate → identify weakness → modify → re-evaluate), the design doesn't systematically improve. Students who modify randomly cannot explain why their final version is better.",
+      "response": "Before any modification, require students to write: what weakness am I addressing? After the modification: how does this change improve the design against that criterion?",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "General-purpose programming language",
+      "descriptor_code": "AC9TDI8P09",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "A text-based programming language (e.g. Python, JavaScript) capable of solving a wide range of problems, as opposed to block-based visual languages (e.g. Scratch) or domain-specific tools. General-purpose languages require precise syntax — the code must be written exactly right for the computer to execute it. The transition from block-based to text-based programming is a Year 7–8 milestone.",
+      "failure_mode": "Students expect text-based code to work like blocks — dragging concepts together rather than writing precise syntax. Syntax errors frustrate rather than inform because students don't yet read error messages as diagnostic tools.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Syntax fluency is the gateway to all production skills in this standard. Students who cannot write syntactically correct programs cannot define functions, modify existing code, or debug — every subsequent node is blocked.",
+      "response": "Start with very short programs (3–5 lines) and build length gradually. Treat syntax errors as normal feedback, not failures — read the error message, find the line, fix the issue. Build the error-message-reading habit early.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Function",
+      "descriptor_code": "AC9TDI8P09",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A named, reusable block of code that accepts arguments (inputs), performs a specific task, and optionally returns a value (output). Functions organise programs into modular parts — each function handles one job. This makes programs easier to read, test and modify. Functions are defined once and called (used) wherever needed.",
+      "failure_mode": "Students define functions that work but don't use arguments — the function does the same thing every time, losing the generality that makes functions reusable.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Functions without arguments are just named code blocks — they can't adapt to different inputs. The power of functions is that the same logic produces different outputs depending on what arguments are passed. Without this, students haven't understood what functions add beyond code organisation.",
+      "response": "Ask students to write a function that only works for one specific value. Then ask: what if I need this for a different value? The need to generalise motivates the argument.",
+      "response_type": "consolidation",
+      "sub_terms": [
+        {
+          "term": "Argument",
+          "definition": "A value passed into a function when it is called, allowing the function to operate on different data each time."
+        },
+        {
+          "term": "Return value",
+          "definition": "The output a function produces and sends back to the code that called it."
+        }
+      ]
+    },
+    {
+      "term": "Debugging",
+      "descriptor_code": "AC9TDI8P09",
+      "first_waypoint": 4,
+      "width_tier": "minimum",
+      "definition": "The systematic process of finding and fixing errors in a program. Debugging requires reading error messages, locating the relevant code, understanding what it should do, identifying what's wrong, and verifying the fix. Errors are either syntax errors (code the computer cannot parse) or logic errors (code that runs but produces wrong results).",
+      "failure_mode": "Students approach debugging by randomly changing code until it works, rather than reading error messages and reasoning about what went wrong.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Random modification occasionally fixes syntax errors by luck but never reliably fixes logic errors. Without a systematic debugging process, students cannot handle programs longer than a few lines — the search space is too large for guessing.",
+      "response": "Enforce the debugging chain: read the error message → find the line → explain what it's trying to do → identify what's wrong → fix → verify. Each step must be completed before the next.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Syntax error",
+          "definition": "An error in the code's structure that prevents the computer from parsing it — missing brackets, misspelled keywords, incorrect indentation. The program will not run at all."
+        },
+        {
+          "term": "Logic error",
+          "definition": "An error where the code runs without crashing but produces the wrong result — the algorithm is incorrect even though the syntax is valid. Harder to find because there is no error message."
+        }
+      ]
+    },
+    {
+      "term": "Impact analysis",
+      "descriptor_code": "AC9TDI8P10",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "Evaluating the possible future consequences of a digital solution across three dimensions: economic (cost, employment, market effects), environmental (energy use, e-waste, sustainability), and social (equity, access, behaviour change). Impact analysis requires identifying both positive and negative effects — most solutions have trade-offs across dimensions.",
+      "failure_mode": "Students label solutions as simply 'good' or 'bad' rather than identifying co-existing positive and negative impacts across different dimensions.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Binary good/bad judgments miss the trade-offs that define real technology decisions. Cloud computing reduces data loss (positive) but consumes vast electricity (negative). Students who cannot hold both impacts simultaneously cannot make or evaluate nuanced design decisions.",
+      "response": "For every identified impact, ask: is there a trade-off in another dimension? If students say 'it's all positive', point to a specific cost (energy, privacy, equity) and ask them to evaluate it.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Safety by Design",
+      "descriptor_code": "AC9TDI8P10",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "A framework requiring digital products to build user safety into the design from the start, not as an afterthought. For young people, this includes privacy settings that are comprehensive, easy to use, and set to maximum protection by default. Safety by Design evaluates whether users can control their safety and experience online.",
+      "failure_mode": "Students treat safety features as optional extras rather than design requirements — they add privacy settings at the end rather than designing around user protection from the start.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Retrofitted safety is consistently weaker than designed-in safety. If students learn to add privacy settings as an afterthought, they produce solutions where the default experience is unsafe and users must actively protect themselves.",
+      "response": "Ask: what happens to a user who never changes any settings? If the default is unsafe, the design has failed Safety by Design regardless of what options are available in the settings menu.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Misinformation",
+      "descriptor_code": "AC9TDI8P10",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "False or misleading content that spreads through digital platforms, whether created intentionally (disinformation) or shared unknowingly. AI-generated content amplifies misinformation risks — high volumes of automatically generated misleading content can be created and distributed rapidly. Recommendation algorithms can further amplify misleading content by optimising for engagement.",
+      "failure_mode": "Students think misinformation is only about obviously fake news articles and don't recognise how AI generation and algorithmic amplification create systemic risks at scale.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "If misinformation is just 'fake news', students cannot evaluate the systemic risks of AI-generated content or recommendation algorithms in their own designs. The scale and automation dimension is what makes contemporary misinformation qualitatively different.",
+      "response": "Compare a single fake article (easy to spot) with thousands of AI-generated variations (hard to contain). Ask: what makes the second scenario harder to address? The scale dimension reframes the problem.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Disinformation"
+        }
+      ]
+    },
+    {
+      "term": "Convention",
+      "descriptor_code": "AC9TDI8P11",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A shared standard practice for creating and organising digital content — heading hierarchy, image captions, gender-inclusive language, logical file storage with clear naming. Conventions ensure content is accessible, navigable and professionally presented. Consistent application across a project matters more than knowing the convention exists.",
+      "failure_mode": "Students know conventions exist but apply them inconsistently — headings are hierarchical on one page but flat on another; file naming is logical in one folder but random in the next.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "Inconsistent conventions are worse than no conventions — they create expectations that are then violated, making content harder to navigate. The skill is consistent application, not knowledge of the rule.",
+      "response": "Review a student's project for consistency across pages/files, not just correctness on one page. Flag every inconsistency. The cross-page check builds the consistency habit.",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Generative AI prompting",
+      "descriptor_code": "AC9TDI8P11",
+      "first_waypoint": 3,
+      "width_tier": "typical",
+      "definition": "Writing effective instructions for a generative AI model to produce output suited to a specific task. Effective prompts specify voice, tone, brevity and audience. Progressive prompting refines output through iteration — each prompt builds on the previous result to improve correctness, relevance or style.",
+      "failure_mode": "Students write vague prompts and accept whatever the AI produces without evaluating quality or iterating to improve it.",
+      "failure_type": "fragile_skill",
+      "why_it_matters": "A single vague prompt produces generic output. The skill is not in getting AI to produce something — it's in specifying what's needed precisely enough that the output is actually useful, and iterating when it isn't.",
+      "response": "Require students to evaluate AI output against the brief before accepting it: does it match the specified tone? Length? Audience? If not, what prompt changes would improve it?",
+      "response_type": "consolidation"
+    },
+    {
+      "term": "Agile project management",
+      "descriptor_code": "AC9TDI8P12",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A project management approach that works in iterative cycles: plan → build → review → adapt. Rather than following a fixed linear plan, agile teams regularly review progress, identify what needs to change, and update their plan accordingly. At Year 7–8, this means completing at least one review-and-adapt cycle during a project.",
+      "failure_mode": "Students follow a linear plan from start to finish without reviewing or adapting — changes only happen when something goes obviously wrong, not as a built-in practice.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "Linear plans assume perfect foresight. Real projects encounter unexpected challenges, changing requirements and new information. Students who cannot adapt their plan systematically either stick rigidly to a failing plan or abandon planning entirely.",
+      "response": "Schedule a mandatory mid-project review: what's done, what's not, what needs to change? The review must produce at least one plan modification. The structure makes adaptation a practice, not a reaction.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Cultural protocol",
+      "descriptor_code": "AC9TDI8P12",
+      "first_waypoint": 3,
+      "width_tier": "wider",
+      "definition": "The set of permissions, attributions, acknowledgements and sensitivities that must be observed when collaborating with or creating content about specific cultural communities — particularly First Nations Australian communities. Includes sensitivity around images or names of deceased people, valuing intellectual property and perspectives, and following relevant community permissions.",
+      "failure_mode": "Students apply a generic 'be respectful' approach to cultural content without understanding that specific protocols govern what can be shared, how it should be attributed, and who needs to give permission.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "Generic respect is not a protocol. Specific communities have specific requirements — images of deceased people, intellectual property of cultural knowledge, community permissions for shared content. Without knowing what the protocols are, students cannot follow them.",
+      "response": "Before any project involving cultural content, require students to identify: what permissions are needed? What attributions? What sensitivities? The specificity forces protocol beyond vague respect.",
+      "response_type": "context_breadth"
+    },
+    {
+      "term": "Multi-factor authentication",
+      "descriptor_code": "AC9TDI8P13",
+      "first_waypoint": 2,
+      "width_tier": "minimum",
+      "definition": "A security mechanism that requires two or more independent verification factors to access an account: something you know (password), something you have (phone for SMS code or authenticator app), or something you are (biometric). MFA protects accounts even when the password is compromised — the attacker has one factor but not the second.",
+      "failure_mode": "Students accept 'MFA is more secure' without reasoning through the attack scenario — they cannot explain why a second factor matters when the first is compromised.",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If students cannot trace the attack chain (attacker has password → tries to log in → MFA blocks because they lack the second factor), they treat MFA as arbitrary friction rather than a principled security response. They may disable it for convenience without understanding what they're giving up.",
+      "response": "Walk through the scenario: someone has your password. They try to log in. What stops them? The attack-scenario trace makes MFA's value concrete rather than abstract.",
+      "response_type": "structured_reasoning",
+      "sub_terms": [
+        {
+          "term": "Authentication factor"
+        },
+        {
+          "term": "One-time password"
+        },
+        {
+          "term": "Authenticator app"
+        }
+      ]
+    },
+    {
+      "term": "Phishing",
+      "descriptor_code": "AC9TDI8P13",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "A social engineering attack where an attacker impersonates a trusted entity (bank, retailer, employer) to trick users into revealing sensitive information like passwords or credit card details. Common techniques include unofficial email domains, urgency language ('your account will be locked'), and links to fake login pages. Phishing exploits human behaviour, not technical vulnerabilities.",
+      "failure_mode": "Students can identify phishing by a single cue (e.g. bad grammar) but miss attacks that don't display that cue — they have one detection heuristic rather than a repertoire.",
+      "failure_type": "narrow_repertoire",
+      "why_it_matters": "Sophisticated phishing avoids the obvious markers. Students who rely on one detection cue (grammar errors) are vulnerable to well-crafted attacks that use correct grammar but unofficial domains, urgency tactics or spoofed sender addresses.",
+      "response": "Show multiple phishing examples, each using a different technique. Ask students to identify the specific technique in each case — the variety builds a repertoire of detection patterns.",
+      "response_type": "repertoire_building",
+      "sub_terms": [
+        {
+          "term": "Social engineering",
+          "definition": "Manipulating people into revealing information or performing actions by exploiting trust, urgency or authority — attacks that target human behaviour rather than technical systems.",
+          "failure_mode": "Students think cyber security is only about technical defences (firewalls, encryption) and don't recognise that humans are the most commonly exploited vulnerability.",
+          "failure_type": "misconception",
+          "response": "Ask: which is easier to hack — a modern encryption algorithm or a person who trusts an email from their 'boss'? The comparison reframes security as a human problem.",
+          "response_type": "context_breadth"
+        }
+      ]
+    },
+    {
+      "term": "Digital footprint",
+      "descriptor_code": "AC9TDI8P14",
+      "first_waypoint": 1,
+      "width_tier": "minimum",
+      "definition": "The trail of data a person creates through their online activity — both actively (posts, uploads, form submissions) and passively (browsing history, location data, usage patterns tracked by platforms). Different platforms collect different data types depending on their business model. The footprint is persistent and often broader than users realise.",
+      "failure_mode": "Students think their digital footprint is limited to what they deliberately post — they don't recognise passive data collection (location tracking, browsing patterns, usage analytics) as part of their footprint.",
+      "failure_type": "misconception",
+      "why_it_matters": "If the footprint is only what you post, managing it means managing posts. But passive collection is often more extensive and less visible. Students who miss passive collection cannot make informed decisions about privacy settings at Node 3.",
+      "response": "Ask students to list five types of data Instagram collects. Then show what the app actually tracks (via privacy policy). The gap between student assumptions and reality makes passive collection visible.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Recommendation algorithm"
+        }
+      ]
+    },
+    {
+      "term": "Data minimisation",
+      "descriptor_code": "AC9TDI8P14",
+      "first_waypoint": 2,
+      "width_tier": "typical",
+      "definition": "The principle that a system should collect only the data essential to its purpose — no more. Assessing whether data is essential requires reasoning from purpose: what does the system do, what data does it need to do that, and is this specific data item necessary? Data that is nice to have but not essential to purpose should not be collected.",
+      "failure_mode": "Students cannot distinguish essential data from non-essential — they accept whatever a platform collects as necessary because 'it needs data to work.'",
+      "failure_type": "flawed_reasoning",
+      "why_it_matters": "If all collected data seems essential, students cannot critically evaluate platforms' data practices or make principled decisions about what data their own solutions should collect. The essential/non-essential distinction is the core analytical skill.",
+      "response": "Present a food preferences survey that asks for your home address. Ask: is the address essential to the survey's purpose? What about for the Census? The purpose-driven comparison teaches the reasoning.",
+      "response_type": "structured_reasoning"
+    },
+    {
+      "term": "Privacy settings",
+      "descriptor_code": "AC9TDI8P14",
+      "first_waypoint": 3,
+      "width_tier": "minimum",
+      "definition": "Controls within a platform that allow users to manage what data is collected, how it is shared, and who can see their content. Default settings vary by platform — some default to maximum sharing, others to maximum protection. Managing privacy involves reviewing defaults, understanding what each setting controls, and making informed trade-offs between functionality and data exposure.",
+      "failure_mode": "Students accept default settings without reviewing them — they assume defaults are set to protect them rather than recognising that defaults often favour the platform's data collection interests.",
+      "failure_type": "misconception",
+      "why_it_matters": "Default settings on many platforms favour maximum data collection. Students who accept defaults without review are making a privacy decision by inaction — and it's usually the least protective option available.",
+      "response": "Ask students to review one platform's privacy settings and identify which defaults favour the user vs the platform. The review reveals that defaults are design choices, not neutral starting points.",
+      "response_type": "context_breadth",
+      "sub_terms": [
+        {
+          "term": "Deepfake"
+        }
+      ]
+    }
+  ],
+  "student_glossary": [
+    {
+      "term": "RAM",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "minimum",
+      "definition": "Your device's short-term working memory — it holds what the processor is using right now. When you turn the device off, RAM is cleared. More RAM means your device can handle more open apps or bigger files at once.",
+      "example": "If you have lots of browser tabs open and your laptop slows down, it might need more RAM — not more storage."
+    },
+    {
+      "term": "Storage",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "minimum",
+      "definition": "Where your device keeps files, apps and the operating system permanently — even when it's turned off. How much storage you have determines how many files you can save; how fast the storage is affects how quickly things load.",
+      "example": "An SSD loads apps much faster than an older hard drive, even if they have the same amount of space.",
+      "sub_terms": [
+        {
+          "term": "HDD"
+        },
+        {
+          "term": "SSD"
+        }
+      ]
+    },
+    {
+      "term": "Bandwidth",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "minimum",
+      "definition": "How much data your internet connection can carry per second. Higher bandwidth means you can download or stream faster, but it's not the only thing that affects your experience online.",
+      "example": "Downloading a movie needs high bandwidth, but playing an online game smoothly depends more on low latency than high bandwidth."
+    },
+    {
+      "term": "Processor",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "minimum",
+      "definition": "The part of a device that carries out instructions. There are two main types: the CPU handles general tasks like running apps and browsing, while the GPU is specialised for tasks that involve lots of calculations at once, like graphics and video editing.",
+      "example": "A gaming PC needs a powerful GPU for graphics, but a laptop used mainly for documents needs a good CPU instead.",
+      "sub_terms": [
+        {
+          "term": "CPU"
+        },
+        {
+          "term": "GPU",
+          "definition": "A processor specialised for handling many calculations at the same time — used for graphics, video editing, and AI, not just gaming.",
+          "example": "AI models are trained on GPUs because they can do thousands of calculations simultaneously."
+        }
+      ]
+    },
+    {
+      "term": "Bottleneck",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "typical",
+      "definition": "The one hardware component that's limiting how fast your device can do a particular task. Which component is the bottleneck depends on what you're doing.",
+      "example": "If video editing is slow, the bottleneck might be the GPU — upgrading RAM wouldn't help because RAM isn't the limiting factor for that task.",
+      "sub_terms": [
+        {
+          "term": "Performance"
+        }
+      ]
+    },
+    {
+      "term": "Workload",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "minimum",
+      "definition": "What a task demands from your device's hardware. Different tasks stress different components — video editing needs a good GPU, multitasking needs lots of RAM, and large downloads need high bandwidth.",
+      "example": "Before choosing a laptop, think about your workload: a student who mostly writes documents has a very different workload from one who edits videos."
+    },
+    {
+      "term": "Cloud computing",
+      "descriptor_code": "AC9TDI8K01",
+      "width_tier": "wider",
+      "definition": "Using powerful computers somewhere else on the internet to do work your own device can't handle. Your device sends the task over the network, the cloud computer does the heavy processing, and sends the result back.",
+      "example": "Google Docs runs in the cloud — your laptop doesn't need to be powerful because Google's servers do the work."
+    },
+    {
+      "term": "Network",
+      "descriptor_code": "AC9TDI8K02",
+      "width_tier": "minimum",
+      "definition": "A group of connected devices that can send data to each other. Networks can be wired (using cables) or wireless (using radio signals like Wi-Fi). They differ in how fast they are (bandwidth), how quickly they respond (latency), and how reliably data arrives.",
+      "example": "Your school Wi-Fi is a wireless network. The cables connecting the school to the internet are a wired network. Most of the time, you use both without noticing.",
+      "sub_terms": [
+        {
+          "term": "Wired network"
+        },
+        {
+          "term": "Wireless network"
+        },
+        {
+          "term": "Latency",
+          "definition": "The delay between sending data and it arriving — like the pause before a video call catches up.",
+          "example": "In online gaming, high latency causes lag — your character moves after you press the button, not at the same time."
+        },
+        {
+          "term": "Reliability"
+        },
+        {
+          "term": "Router"
+        },
+        {
+          "term": "Wi-Fi"
+        }
+      ]
+    },
+    {
+      "term": "Packet",
+      "descriptor_code": "AC9TDI8K02",
+      "width_tier": "minimum",
+      "definition": "A small chunk of data that travels across a network. When you send something online, it gets broken into packets that can each take a different route. They're reassembled at the other end. Sometimes packets get lost along the way.",
+      "example": "Sending a photo online is like tearing a letter into strips and mailing each strip separately — the recipient puts them back together in order."
+    },
+    {
+      "term": "Protocol",
+      "descriptor_code": "AC9TDI8K02",
+      "width_tier": "minimum",
+      "definition": "A set of rules that devices follow to communicate over a network. TCP is a protocol that makes sure all your packets arrive — if one gets lost, it sends it again.",
+      "example": "When you load a webpage, TCP makes sure every packet of data arrives and gets put back in the right order. If a packet goes missing, TCP asks for it to be sent again.",
+      "sub_terms": [
+        {
+          "term": "TCP"
+        }
+      ]
+    },
+    {
+      "term": "Encryption",
+      "descriptor_code": "AC9TDI8K02",
+      "width_tier": "minimum",
+      "definition": "Scrambling data so that only the intended recipient can read it. Encryption is necessary because your data passes through equipment you don't control — routers and servers run by other people — so without encryption, anyone along the route could read it.",
+      "example": "When you buy something online, encryption scrambles your credit card number before it leaves your device. Only the shop's server can unscramble it.",
+      "sub_terms": [
+        {
+          "term": "Decryption"
+        },
+        {
+          "term": "HTTPS"
+        },
+        {
+          "term": "Key"
+        }
+      ]
+    },
+    {
+      "term": "Encryption algorithm",
+      "descriptor_code": "AC9TDI8K02",
+      "width_tier": "typical",
+      "definition": "A specific method for scrambling and unscrambling data. The key idea is that the process is reversible — you can always get the original back if you know the method and the key.",
+      "example": "ROT13 shifts every letter 13 places in the alphabet: A becomes N, B becomes O. Apply it twice and you get the original message back.",
+      "sub_terms": [
+        {
+          "term": "ROT13"
+        },
+        {
+          "term": "XOR",
+          "definition": "A method that compares binary digits — it outputs 1 when they're different and 0 when they're the same. Apply it twice with the same key and you get the original back.",
+          "example": "XOR the binary number 1010 with the key 1100 and you get 0110. XOR 0110 with 1100 again and you get 1010 back — the original."
+        }
+      ]
+    },
+    {
+      "term": "Encoding scheme",
+      "descriptor_code": "AC9TDI8K03",
+      "width_tier": "minimum",
+      "definition": "A system that maps numbers to specific meanings — like a codebook. Different types of data use different schemes: the number 65 means the letter 'A' in text encoding, but something completely different in an image or sound file. The encoding scheme tells the computer how to interpret the numbers.",
+      "example": "If someone gives you the number 72, you can't know what it means without knowing the scheme — it could be a letter, a shade of red, or a sound volume."
+    },
+    {
+      "term": "Unicode",
+      "descriptor_code": "AC9TDI8K03",
+      "width_tier": "minimum",
+      "definition": "A universal numbering system that gives every character — every letter, symbol and emoji in every language — its own unique number. Unicode replaced older systems that only covered English characters.",
+      "example": "In Unicode, 'A' is 65, 'a' is 97, and the thumbs-up emoji is 128,077. Every character you can type has its own number.",
+      "sub_terms": [
+        {
+          "term": "ASCII",
+          "definition": "An older system that only covered 128 characters — basically English letters, numbers and punctuation. Not enough for the world's languages, which is why Unicode replaced it.",
+          "example": "ASCII couldn't represent Chinese characters or Arabic script — Unicode can handle all of them."
+        }
+      ]
+    },
+    {
+      "term": "Pixel",
+      "descriptor_code": "AC9TDI8K03",
+      "width_tier": "minimum",
+      "definition": "The smallest dot in a digital image. Each pixel stores three numbers between 0 and 255 — one for how much red, green and blue light it has. Together, these three numbers create the pixel's colour.",
+      "example": "A pixel with RGB values (255, 0, 0) is bright red. (0, 0, 0) is black. (255, 255, 255) is white.",
+      "sub_terms": [
+        {
+          "term": "RGB",
+          "definition": "Red, Green, Blue — the three colour values that make up each pixel, each ranging from 0 to 255.",
+          "example": "(0, 255, 0) is bright green because the green channel is at maximum while red and blue are at zero."
+        },
+        {
+          "term": "Resolution"
+        }
+      ]
+    },
+    {
+      "term": "Bitmap image",
+      "descriptor_code": "AC9TDI8K03",
+      "width_tier": "minimum",
+      "definition": "An image stored as a grid of pixels, each with its own colour values. Common formats include PNG and JPEG. If you zoom in too far, you see the individual pixels. Vector graphics (SVG) work differently — they store shapes and lines as maths, so they can scale up without getting blurry.",
+      "example": "A photo is a bitmap — zoom in and it goes blurry. A company logo is usually a vector — it looks sharp at any size.",
+      "sub_terms": [
+        {
+          "term": "Vector graphics",
+          "definition": "Images stored as mathematical descriptions of shapes and lines rather than pixel grids. They can be scaled to any size without losing quality.",
+          "example": "SVG logos on websites stay sharp whether you're viewing on a phone or a giant monitor."
+        },
+        {
+          "term": "PNG"
+        },
+        {
+          "term": "JPEG"
+        }
+      ]
+    },
+    {
+      "term": "Sampling",
+      "descriptor_code": "AC9TDI8K03",
+      "width_tier": "minimum",
+      "definition": "How digital systems record sound — by measuring the height of a sound wave thousands of times per second and saving each measurement as a number. More measurements per second means a more accurate recording.",
+      "example": "CD-quality audio takes 44,100 measurements every second. Each measurement becomes a number stored in the file.",
+      "sub_terms": [
+        {
+          "term": "Sampling rate",
+          "definition": "How many times per second the sound is measured. More samples = more accurate sound.",
+          "example": "44,100 Hz means the sound wave is measured 44,100 times every second."
+        },
+        {
+          "term": "Bit depth",
+          "definition": "How precisely each measurement is stored — more bits means a wider range of volumes can be captured.",
+          "example": "16-bit audio can record 65,536 different volume levels, from silence to very loud."
+        },
+        {
+          "term": "Amplitude",
+          "definition": "How high the sound wave is at a given moment — basically, how loud the sound is at that point.",
+          "example": "A whisper has low amplitude; a shout has high amplitude. Each measurement captures the amplitude as a number."
+        }
+      ]
+    },
+    {
+      "term": "Binary",
+      "descriptor_code": "AC9TDI8K04",
+      "width_tier": "minimum",
+      "definition": "A counting system that only uses 0 and 1. Computers use binary because their electronic components only have two states — on and off. Each position in a binary number represents a power of 2 (1, 2, 4, 8, 16…) instead of a power of 10.",
+      "example": "The binary number 1101 means 8 + 4 + 0 + 1 = 13 in decimal."
+    },
+    {
+      "term": "Bit",
+      "descriptor_code": "AC9TDI8K04",
+      "width_tier": "minimum",
+      "definition": "A single 0 or 1 — the smallest piece of data a computer can store. Eight bits make a byte. The more bits you have, the more different values you can represent.",
+      "example": "With 1 bit you can represent 2 values (0 or 1). With 8 bits (one byte) you can represent 256 values — that's why RGB colours go from 0 to 255.",
+      "sub_terms": [
+        {
+          "term": "Byte",
+          "definition": "Eight bits grouped together. One byte can represent 256 different values (0 to 255).",
+          "example": "Each colour channel in a pixel (red, green, blue) uses one byte — that's why each goes from 0 to 255."
+        }
+      ]
+    },
+    {
+      "term": "Logic gate",
+      "descriptor_code": "AC9TDI8K04",
+      "width_tier": "typical",
+      "definition": "A tiny circuit that takes binary inputs and produces a binary output based on a rule. AND gates only output 1 when both inputs are 1. OR gates output 1 when at least one input is 1. Logic gates are the building blocks that let computers do calculations using just 0s and 1s.",
+      "example": "Think of an AND gate like a door with two locks — both keys (both inputs = 1) are needed to open it (output = 1).",
+      "sub_terms": [
+        {
+          "term": "AND gate"
+        },
+        {
+          "term": "OR gate"
+        },
+        {
+          "term": "Truth table"
+        },
+        {
+          "term": "Boolean"
+        }
+      ]
+    },
+    {
+      "term": "Data acquisition",
+      "descriptor_code": "AC9TDI8P01",
+      "width_tier": "minimum",
+      "definition": "Collecting data from sources to answer a specific question. The key is having a clear question first — then you decide what data you need and where to find it.",
+      "example": "To answer 'Does the canteen sell the right food?', you might survey students about their food preferences AND get the canteen's actual sales data."
+    },
+    {
+      "term": "Data validation",
+      "descriptor_code": "AC9TDI8P01",
+      "width_tier": "minimum",
+      "definition": "Checking whether your data is good enough to answer your question — is it relevant, correct, up to date, and representative? Data can be correct but still not useful if it doesn't match your question.",
+      "example": "If you're researching cycling safety today, accident data from before bike lanes existed might be correct but too old to be useful.",
+      "sub_terms": [
+        {
+          "term": "Relevance"
+        },
+        {
+          "term": "Currency"
+        },
+        {
+          "term": "Bias",
+          "definition": "When data doesn't fairly represent everyone it's supposed to cover — usually because of how it was collected.",
+          "example": "An AI trained only on photos of one skin tone may not work well for people with different skin tones — that's bias in the training data."
+        }
+      ]
+    },
+    {
+      "term": "Data visualisation",
+      "descriptor_code": "AC9TDI8P02",
+      "width_tier": "minimum",
+      "definition": "Showing data as a graph, chart, map or diagram so you can see patterns that are hard to spot in raw numbers. Different graph types suit different kinds of data — the type you choose affects what patterns you can see.",
+      "example": "A scatter plot shows if there's a relationship between two things (like price and sales), but a bar chart just shows totals for each category.",
+      "sub_terms": [
+        {
+          "term": "Bar chart"
+        },
+        {
+          "term": "Scatter plot"
+        },
+        {
+          "term": "Line graph"
+        }
+      ]
+    },
+    {
+      "term": "Trend",
+      "descriptor_code": "AC9TDI8P02",
+      "width_tier": "minimum",
+      "definition": "An overall direction or pattern in data — something is going up, going down, staying steady, or repeating in cycles. A trend is the big picture, not one individual data point.",
+      "example": "If burglaries have dropped every year for five years, that's a downward trend — even if one month had a small increase."
+    },
+    {
+      "term": "Prediction",
+      "descriptor_code": "AC9TDI8P02",
+      "width_tier": "minimum",
+      "definition": "Using a pattern you've found in data to estimate what might happen in the future. A prediction needs evidence behind it — not just a guess — and should acknowledge that it might not hold if things change.",
+      "example": "If ice cream sales have risen every summer for four years, you might predict they'll rise again next summer — but you should note that a cold summer could break the pattern.",
+      "sub_terms": [
+        {
+          "term": "Outlier",
+          "definition": "A data point that's far from the overall pattern — it might be an error or something unusual.",
+          "example": "If every month's sales are around 200 except one month at 2,000, that's an outlier worth investigating."
+        }
+      ]
+    },
+    {
+      "term": "Structured data",
+      "descriptor_code": "AC9TDI8P03",
+      "width_tier": "minimum",
+      "definition": "Data organised into a consistent table format where each row is one item and each column is a specific piece of information about it. The columns you choose depend on what questions you want to answer.",
+      "example": "A canteen product table might have columns for product name, price, quantity sold, and sugar content — each product is one row.",
+      "sub_terms": [
+        {
+          "term": "Attribute",
+          "definition": "A specific piece of information about an item — one column in your table.",
+          "example": "For a product, 'price' is one attribute and 'sugar content' is another."
+        },
+        {
+          "term": "Record",
+          "definition": "One complete item in your table — one row with values for every column.",
+          "example": "One row in the canteen table might be: 'Muffin, $3.50, 45 sold, 22g sugar'."
+        },
+        {
+          "term": "Database"
+        },
+        {
+          "term": "Spreadsheet"
+        }
+      ]
+    },
+    {
+      "term": "SQL",
+      "descriptor_code": "AC9TDI8P03",
+      "width_tier": "typical",
+      "definition": "A language for asking questions about data stored in a database. You tell the database which columns you want (SELECT), which rows to include (WHERE), and what order to show them in (ORDER BY).",
+      "example": "SELECT product_name, price FROM canteen WHERE sugar > 20 ORDER BY price — this finds all high-sugar products sorted by price.",
+      "sub_terms": [
+        {
+          "term": "SELECT"
+        },
+        {
+          "term": "WHERE"
+        },
+        {
+          "term": "ORDER BY"
+        },
+        {
+          "term": "Query",
+          "definition": "A question you ask a database, written in a specific format so the database knows exactly what data to return.",
+          "example": "A query is like a very precise question: not 'what's the cheapest thing?' but 'SELECT product_name FROM canteen WHERE price = (SELECT MIN(price) FROM canteen)'."
+        }
+      ]
+    },
+    {
+      "term": "Problem framing",
+      "descriptor_code": "AC9TDI8P04",
+      "width_tier": "minimum",
+      "definition": "Clearly defining a problem before trying to solve it — what do we know, why does it matter, and what would success look like? How you frame the problem shapes what kind of solution you'll build.",
+      "example": "The same canteen issue could be framed as 'students don't like the food' (leading to taste surveys) or 'the food isn't nutritious enough' (leading to nutritional analysis) — different frames, different solutions."
+    },
+    {
+      "term": "Decomposition",
+      "descriptor_code": "AC9TDI8P04",
+      "width_tier": "minimum",
+      "definition": "Breaking a big problem into smaller, manageable parts that can be worked on separately. Good decomposition identifies which parts depend on each other — some things have to be solved before others.",
+      "example": "Building a recipe app could decompose into: search for recipes, filter by dietary needs, display cooking steps, save favourites. Filtering can't work until search does."
+    },
+    {
+      "term": "User story",
+      "descriptor_code": "AC9TDI8P04",
+      "width_tier": "minimum",
+      "definition": "A short sentence that captures what a user needs from your solution: 'As a [type of user], I want [goal], so that [reason].' User stories guide your design — every feature should connect to a user story.",
+      "example": "'As a student with allergies, I want to filter recipes by allergen, so that I can safely choose what to cook.'"
+    },
+    {
+      "term": "Design criteria",
+      "descriptor_code": "AC9TDI8P04",
+      "width_tier": "minimum",
+      "definition": "Specific requirements your solution must meet. Good criteria are testable — you can check whether the solution meets them or not, rather than just saying it's 'good enough.'",
+      "example": "'The app must load in under 3 seconds on a school device' is a testable criterion. 'The app should be fast' is not."
+    },
+    {
+      "term": "Algorithm",
+      "descriptor_code": "AC9TDI8P05",
+      "width_tier": "minimum",
+      "definition": "A precise set of step-by-step instructions that solves a problem or completes a task. Unlike everyday instructions, an algorithm must be exact enough that a computer could follow it without guessing what you mean.",
+      "example": "A recipe is close to an algorithm, but 'add a pinch of salt' is too vague — an algorithm would say 'add 2 grams of salt.'",
+      "sub_terms": [
+        {
+          "term": "Algorithm design"
+        },
+        {
+          "term": "Variable"
+        },
+        {
+          "term": "Constant"
+        }
+      ]
+    },
+    {
+      "term": "Control structure",
+      "descriptor_code": "AC9TDI8P05",
+      "width_tier": "minimum",
+      "definition": "One of three building blocks used to control what an algorithm does: sequence (steps in order), branching (choosing a path based on a condition), and iteration (repeating steps). Every algorithm is built from these three.",
+      "example": "Checking if a number is positive or negative uses branching — the algorithm takes a different path depending on the answer.",
+      "sub_terms": [
+        {
+          "term": "Sequence"
+        },
+        {
+          "term": "Branching",
+          "definition": "A decision point where the algorithm chooses which path to follow based on a condition.",
+          "example": "IF the password is correct THEN log in, ELSE show an error."
+        },
+        {
+          "term": "Iteration",
+          "definition": "Repeating steps — either a set number of times or until something changes.",
+          "example": "A loop that checks every name in a class list to find a match."
+        },
+        {
+          "term": "Condition"
+        }
+      ]
+    },
+    {
+      "term": "Nesting",
+      "descriptor_code": "AC9TDI8P05",
+      "width_tier": "minimum",
+      "definition": "Putting one control structure inside another to handle more complex problems. The outer structure controls when the inner one runs.",
+      "example": "A loop that checks every student's mark AND gives a different message for pass or fail has an IF nested inside a loop."
+    },
+    {
+      "term": "Flowchart",
+      "descriptor_code": "AC9TDI8P05",
+      "width_tier": "minimum",
+      "definition": "A diagram that shows the steps of an algorithm using shapes — rectangles for actions, diamonds for decisions, and arrows for the order. Flowcharts make it easy to see where an algorithm branches or loops.",
+      "example": "A diamond shape with 'Is the number even?' has two arrows coming out — one for YES and one for NO — each leading to different steps."
+    },
+    {
+      "term": "Pseudocode",
+      "descriptor_code": "AC9TDI8P05",
+      "width_tier": "minimum",
+      "definition": "Writing an algorithm in structured English using keywords like IF, THEN, ELSE, WHILE and FOR. It's more precise than plain English but doesn't have to follow any specific programming language's rules. Indentation shows what's nested inside what.",
+      "example": "WHILE items remain\n  IF item price > budget THEN skip\n  ELSE add to cart\nEND WHILE"
+    },
+    {
+      "term": "Tracing",
+      "descriptor_code": "AC9TDI8P06",
+      "width_tier": "minimum",
+      "definition": "Following an algorithm step by step, keeping track of what every variable equals at each step, to work out what the final output will be. A desk check table helps you record each step precisely.",
+      "example": "For a loop that counts from 1 to 5 and adds each number to a total, you'd track: step 1 total = 1, step 2 total = 3, step 3 total = 6, step 4 total = 10, step 5 total = 15.",
+      "sub_terms": [
+        {
+          "term": "Desk check",
+          "definition": "A table you fill in while tracing, with columns for input, each variable, and output — one row per step.",
+          "example": "A desk check for a change-giving algorithm would track: remaining amount, coin selected, and coins given so far at each step."
+        }
+      ]
+    },
+    {
+      "term": "Test case",
+      "descriptor_code": "AC9TDI8P06",
+      "width_tier": "typical",
+      "definition": "A specific input you choose to test an algorithm, paired with what you expect the output to be. Good test cases include normal inputs, edge cases (like zero or negative numbers), and inputs that might expose errors.",
+      "example": "For a change-giving algorithm: input $1.45, expected output 1×$1 + 2×20c + 1×5c. An edge case test: input $0.00 — should produce no coins.",
+      "sub_terms": [
+        {
+          "term": "Edge case"
+        }
+      ]
+    },
+    {
+      "term": "Error",
+      "descriptor_code": "AC9TDI8P06",
+      "width_tier": "minimum",
+      "definition": "A mistake in an algorithm that makes it produce the wrong output. You find errors by comparing what the algorithm actually does (from tracing) with what it should do (from your test case).",
+      "example": "If your loop runs one too many times because you used 'less than or equal to' instead of 'less than', that's an off-by-one error."
+    },
+    {
+      "term": "User experience",
+      "descriptor_code": "AC9TDI8P07",
+      "width_tier": "minimum",
+      "definition": "How it feels to use a digital product from start to finish — not just how it looks, but whether it's easy to navigate, whether you can find what you need, and whether it does what you expect. UX is the whole journey; UI (user interface) is the visual design you interact with.",
+      "example": "An app might look beautiful (good UI) but if you can't find the settings menu, that's poor UX.",
+      "sub_terms": [
+        {
+          "term": "User interface",
+          "definition": "What you actually see and touch — the buttons, menus, colours and layout on each screen.",
+          "example": "The layout of Instagram's home screen — where the like button is, the colour scheme, the icon shapes — that's all UI."
+        },
+        {
+          "term": "Accessibility"
+        }
+      ]
+    },
+    {
+      "term": "Wireframe",
+      "descriptor_code": "AC9TDI8P07",
+      "width_tier": "minimum",
+      "definition": "A simple sketch or plan showing where things go on each page of a website or app, and how users move between pages. Wireframes use boxes and labels instead of real images and text — they're about layout and navigation, not visual design.",
+      "example": "A wireframe might show: 'Header here, search bar here, products listed below, clicking a product goes to this detail page.'",
+      "sub_terms": [
+        {
+          "term": "Storyboard"
+        }
+      ]
+    },
+    {
+      "term": "Branding",
+      "descriptor_code": "AC9TDI8P07",
+      "width_tier": "typical",
+      "definition": "The consistent colours, fonts, and style that give a product its identity. Good branding communicates what the product is about — a banking app looks different from a gaming app for a reason.",
+      "example": "If your app is about sustainability, earthy greens and clean typography communicate that identity better than neon colours and graffiti fonts."
+    },
+    {
+      "term": "Alternative designs",
+      "descriptor_code": "AC9TDI8P08",
+      "width_tier": "minimum",
+      "definition": "Different approaches to solving the same design problem — not just changing colours, but genuinely different structures or ideas. Generating alternatives before picking one leads to better solutions.",
+      "example": "For a recipe app: one design uses a search-first approach, another uses a 'what's in your fridge?' approach. Same goal, different structures."
+    },
+    {
+      "term": "Design evaluation",
+      "descriptor_code": "AC9TDI8P08",
+      "width_tier": "minimum",
+      "definition": "Judging how well a design meets its criteria and user stories — not whether you personally like it, but whether it actually works for the users it's designed for.",
+      "example": "Instead of 'I like this design', say 'This design meets the accessibility criterion because the text is large enough to read on mobile.'"
+    },
+    {
+      "term": "Iterative modification",
+      "descriptor_code": "AC9TDI8P08",
+      "width_tier": "minimum",
+      "definition": "Improving a design by repeating a cycle: evaluate what works and what doesn't, make targeted changes, then evaluate again. Each change should fix a specific weakness, not be a random tweak.",
+      "example": "Round 1: peer feedback says navigation is confusing → move the menu to the top. Round 2: testing shows the menu works but search is hard to find → add a search icon."
+    },
+    {
+      "term": "General-purpose programming language",
+      "descriptor_code": "AC9TDI8P09",
+      "width_tier": "minimum",
+      "definition": "A text-based programming language like Python or JavaScript that can be used to solve many different types of problems. Unlike block-based languages (like Scratch), you type the code yourself, which means you need to get the syntax exactly right.",
+      "example": "In Scratch, you snap blocks together. In Python, you type: if score > 50: print('Pass'). One misplaced colon and the program won't run."
+    },
+    {
+      "term": "Function",
+      "descriptor_code": "AC9TDI8P09",
+      "width_tier": "minimum",
+      "definition": "A reusable block of code that you give a name, feed inputs (arguments), and get an output back. Functions let you write a piece of logic once and use it as many times as you need with different inputs.",
+      "example": "A function called calculate_area(length, width) works for any rectangle — you don't need to rewrite the calculation every time.",
+      "sub_terms": [
+        {
+          "term": "Argument",
+          "definition": "A value you pass into a function to tell it what data to work with.",
+          "example": "In calculate_area(5, 3), the numbers 5 and 3 are the arguments."
+        },
+        {
+          "term": "Return value",
+          "definition": "What the function gives back after it finishes — the result of its work.",
+          "example": "calculate_area(5, 3) returns 15."
+        }
+      ]
+    },
+    {
+      "term": "Debugging",
+      "descriptor_code": "AC9TDI8P09",
+      "width_tier": "minimum",
+      "definition": "Finding and fixing mistakes in your code. The process is: read the error message, find the line it points to, understand what the code is trying to do, figure out what went wrong, fix it, and check it works.",
+      "example": "Python says 'SyntaxError on line 5'. You look at line 5 and see you forgot a colon after an if statement. You add the colon and run again.",
+      "sub_terms": [
+        {
+          "term": "Syntax error",
+          "definition": "A mistake in how the code is written — like a typo or missing bracket. The program won't run at all.",
+          "example": "Writing 'pritn' instead of 'print' causes a syntax error."
+        },
+        {
+          "term": "Logic error",
+          "definition": "The code runs without crashing, but gives the wrong answer because the logic is wrong.",
+          "example": "Writing 'if score > 50' when you meant 'if score >= 50' means students with exactly 50 fail when they should pass."
+        }
+      ]
+    },
+    {
+      "term": "Impact analysis",
+      "descriptor_code": "AC9TDI8P10",
+      "width_tier": "minimum",
+      "definition": "Thinking about how a digital solution could affect people, the environment, and the economy in the future — both positively and negatively. Most solutions have trade-offs: they help in one area but create problems in another.",
+      "example": "Cloud storage means you never lose files (positive), but the data centres use huge amounts of electricity (negative). Both impacts are real."
+    },
+    {
+      "term": "Safety by Design",
+      "descriptor_code": "AC9TDI8P10",
+      "width_tier": "typical",
+      "definition": "Building user safety into a product from the start, not adding it later. For apps used by young people, this means privacy settings should be easy to use, comprehensive, and set to maximum protection by default.",
+      "example": "If a new user's profile is public by default, that's a Safety by Design failure — the safe option should be the default, not something you have to find and turn on."
+    },
+    {
+      "term": "Misinformation",
+      "descriptor_code": "AC9TDI8P10",
+      "width_tier": "typical",
+      "definition": "False or misleading content that spreads online. AI can now generate huge amounts of fake content very quickly, and recommendation algorithms can amplify it by showing it to more people.",
+      "example": "One fake article is easy to spot. But thousands of AI-generated variations of the same false claim, each slightly different, are much harder to contain.",
+      "sub_terms": [
+        {
+          "term": "Disinformation"
+        }
+      ]
+    },
+    {
+      "term": "Convention",
+      "descriptor_code": "AC9TDI8P11",
+      "width_tier": "minimum",
+      "definition": "A shared standard for creating digital content — like using heading levels in order, adding captions to images, using inclusive language, and naming files logically. The key is being consistent across your whole project, not just one page.",
+      "example": "If your document uses Heading 1 for chapter titles, don't suddenly use Heading 3 for the next chapter — inconsistency makes content harder to navigate."
+    },
+    {
+      "term": "Generative AI prompting",
+      "descriptor_code": "AC9TDI8P11",
+      "width_tier": "typical",
+      "definition": "Writing clear instructions for an AI model so it produces output that matches what you need. Good prompts specify things like tone, length, audience and format. If the first result isn't right, you refine the prompt and try again.",
+      "example": "Instead of 'write about climate change', a better prompt is 'write a 200-word news article for Year 8 students about how climate change affects coral reefs, in a factual tone.'"
+    },
+    {
+      "term": "Agile project management",
+      "descriptor_code": "AC9TDI8P12",
+      "width_tier": "minimum",
+      "definition": "A way of managing projects in cycles: plan a bit, build a bit, review what works, and adjust your plan — then repeat. Instead of making one big plan and following it exactly, you regularly check in and change course when needed.",
+      "example": "Halfway through building an app, your team reviews progress and realises the search feature is more important than the settings page. You change the plan to prioritise search."
+    },
+    {
+      "term": "Cultural protocol",
+      "descriptor_code": "AC9TDI8P12",
+      "width_tier": "wider",
+      "definition": "Specific rules about how to respectfully work with cultural content — especially First Nations Australian content. This includes getting the right permissions, giving proper credit, being sensitive about images of deceased people, and respecting intellectual property.",
+      "example": "Before using First Nations artwork in a digital project, you need to get permission from the community, credit the artist, and check whether there are restrictions on how the image can be used."
+    },
+    {
+      "term": "Multi-factor authentication",
+      "descriptor_code": "AC9TDI8P13",
+      "width_tier": "minimum",
+      "definition": "A security system that requires two or more pieces of proof to log in — usually your password plus something else like a code sent to your phone. Even if someone steals your password, they can't get in without the second factor.",
+      "example": "When your bank asks you to enter a one-time code from an SMS after typing your password, that's MFA — the code is the second factor."
+    },
+    {
+      "term": "Phishing",
+      "descriptor_code": "AC9TDI8P13",
+      "width_tier": "minimum",
+      "definition": "A trick where someone pretends to be a trusted company or person to steal your information — usually through fake emails, texts or websites. Phishing works by exploiting how people behave (trust, urgency, fear), not by hacking technology.",
+      "example": "An email that looks like it's from your bank saying 'Your account will be locked — click here immediately' is likely phishing. The urgency is designed to stop you thinking clearly.",
+      "sub_terms": [
+        {
+          "term": "Social engineering",
+          "definition": "Tricking people into giving up information or doing something by exploiting trust, fear or authority — it targets human behaviour, not computer systems.",
+          "example": "Someone calling and pretending to be IT support asking for your password is social engineering — no hacking required."
+        }
+      ]
+    },
+    {
+      "term": "Digital footprint",
+      "descriptor_code": "AC9TDI8P14",
+      "width_tier": "minimum",
+      "definition": "All the data you create online — both things you actively post (photos, comments) and things that are collected about you without you doing anything (browsing history, location data, how long you spend on each page). Your footprint is usually much bigger than you think.",
+      "example": "You might only post three photos a month, but your phone also tracks your location, your browsing history, how long you watch each video, and which ads you tap on.",
+      "sub_terms": [
+        {
+          "term": "Recommendation algorithm"
+        }
+      ]
+    },
+    {
+      "term": "Data minimisation",
+      "descriptor_code": "AC9TDI8P14",
+      "width_tier": "typical",
+      "definition": "The idea that an app or website should only collect the data it actually needs to do its job — nothing extra. If a food survey asks for your home address, that's collecting more than it needs.",
+      "example": "A food preferences survey needs to know what you like to eat, but it doesn't need your home address. The Census does need your address because that's part of what it measures."
+    },
+    {
+      "term": "Privacy settings",
+      "descriptor_code": "AC9TDI8P14",
+      "width_tier": "minimum",
+      "definition": "Controls that let you decide what data is collected about you and who can see your content. Important: the default settings on many apps are set to share more, not less. You should check and change them rather than just accepting them.",
+      "example": "Instagram's default might let anyone see your posts. Changing to 'private account' means only approved followers can see them — but you have to find and change that setting yourself.",
+      "sub_terms": [
+        {
+          "term": "Deepfake"
+        }
+      ]
+    }
+  ]
+}

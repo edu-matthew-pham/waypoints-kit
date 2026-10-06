@@ -1,0 +1,127 @@
+{
+  "year_level": "10",
+  "subject": "History",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9HH10K19",
+    "title": "Global Influences on National Identity",
+    "description": "the effects of global influences on Australia's changing identity as a nation and its international relationships",
+    "strand": "History (Knowledge and Understanding)",
+    "mode": "A",
+    "prior_knowledge": "Students have examined post-war foreign policy (K05, K18), cultural transformation (K16, K17), and Australia's evolving relationship with Britain, the USA, and Asia. They understand how migration transformed Australia's cultural composition (K07–K08). They have not yet examined how specific prime ministers' foreign policy shaped national identity, or how Australia's contribution to international popular culture connects to national identity.",
+    "progression_endpoint": "Students explain the effects of global influences on Australia's changing identity as a nation — including how post-war foreign policy shaped national identity, Australia's contribution to and absorption of international popular culture, and the rising influence of China and India.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Foreign policy and national identity — Whitlam, Fraser, Hawke",
+        "progression_checkpoint": "Students can explain how the foreign policies of Whitlam, Fraser, and Hawke shaped Australia's national identity and international relationships.",
+        "minimum_width": "Students explain at least one key foreign policy feature of two of the three prime ministers and explain how each shaped Australia's identity.",
+        "typical_width": "Students examine Whitlam's foreign policy — recognition of China (1972), withdrawal from Vietnam, ending conscription, engaging with Asia as a priority, supporting decolonisation; examine Fraser's approach — continuation of some Whitlam reforms, anti-apartheid stance (Commonwealth Heads of Government, Gleneagles Agreement), refugee intake (Vietnamese, Cambodian); examine Hawke's approach — APEC founding (1989), Cambodian peace process, continuation of Asian engagement with economic rationale; evaluate how each shaped a different dimension of Australian identity — Whitlam's post-imperial Asian identity, Fraser's human rights internationalism, Hawke's economic engagement.",
+        "wider": [
+          "Examine how Whitlam's recognition of China was received domestically — analysing the Cold War resistance and the arguments for engagement, and how this decision looks in retrospect given China's subsequent rise",
+          "Compare the three prime ministers' approaches to First Nations rights — examining how foreign policy internationalism did or did not translate into domestic rights policy"
+        ],
+        "hinge": true,
+        "hinge_reason": "The foreign policy dimension of national identity is the analytical frame that connects K19's content about global influences and popular culture to a coherent account of how identity is shaped by international relationships. Students who lack this frame treat each foreign policy decision as isolated rather than as part of a pattern of identity formation.",
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat foreign policy as purely strategic without examining how it shapes national identity. Scaffolding the identity dimension — what image of Australia does each policy project internationally? what does each policy require Australians to believe about who they are? — makes the identity connection analytically explicit.",
+            "flags": ["hinge"]
+          }
+        ],
+        "success_criteria": [
+          "Explains at least one key foreign policy feature of two of the three prime ministers",
+          "Explains how each shaped a different dimension of Australian national identity",
+          "Evaluates how the three prime ministers' approaches represent a trajectory of change in Australia's international identity"
+        ],
+        "related_standards": ["AC9HH10K05", "AC9HH10K18", "AC9HH10S07"]
+      },
+      {
+        "id": 2,
+        "label": "Australia's contribution to international popular culture",
+        "progression_checkpoint": "Students can investigate Australia's contribution to international popular culture in music, film, television, and sport, and explain how this contribution shaped Australian national identity.",
+        "minimum_width": "Students identify at least three Australian contributions to international popular culture across at least two domains and explain how each shaped Australian identity.",
+        "typical_width": "Students examine Australia's contributions to international popular culture — in music (AC/DC, INXS, Kylie Minogue, Men at Work, Split Enz/Crowded House), film (Picnic at Hanging Rock, Mad Max, Crocodile Dundee, Strictly Ballroom, Priscilla), television (Neighbours, Home and Away achieving international audiences), sport (Australian success at the Olympics, cricket, tennis, swimming); examine how the 10BA tax concessions (1980–88) enabled Australian film production; explain how international recognition of Australian cultural production contributed to post-British national confidence and identity.",
+        "wider": [
+          "Examine how Australian film of the 1970s–80s deliberately constructed a national mythology — analysing how films like Picnic at Hanging Rock and Gallipoli used distinctively Australian landscapes and stories to project a post-British national identity internationally",
+          "Investigate the First Nations contribution to Australian cultural exports — examining how artists like Bangarra Dance Theatre and visual artists have carried distinctively Australian First Nations perspectives to international audiences"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The First Nations contribution to Australian cultural exports connects K19's identity content to K20's cultural diversity content and addresses the question of whose Australia is being projected internationally — a rich analytical angle that most students will not have considered.",
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Covering music, film, television, and sport — and noting the 10BA policy context — gives a fuller picture than focusing on one domain. The policy context makes the cultural production analytically explicable rather than contingent.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Identifies at least three Australian contributions to international popular culture across at least two domains",
+          "Explains how international recognition of Australian cultural production contributed to national identity",
+          "Connects at least one contribution to a specific policy or historical context that enabled it"
+        ],
+        "related_standards": ["AC9HH10K17", "AC9HH10K20", "AC9HH10S06"]
+      },
+      {
+        "id": 3,
+        "label": "The rising influence of China and India",
+        "progression_checkpoint": "Students can explain the rising economic and political influence of China and India since the end of the Cold War and analyse its effects on Australia's international relationships and identity.",
+        "minimum_width": "Students explain the rise of China or India as a global economic and political power and explain at least two effects on Australia's international relationships.",
+        "typical_width": "Students examine China's economic rise since the 1990s — its transformation into the world's second-largest economy, its emergence as Australia's largest trading partner, the tensions between economic interdependence and strategic competition; examine India's emergence as a major economic and demographic power; examine how the simultaneous US alliance and Chinese economic relationship creates a structural tension in Australian foreign policy; connect to K18's Keating–Howard contrast — each approach carries different implications for managing the China relationship.",
+        "wider": [
+          "Examine the Australia-China relationship since 2017 — analysing how strategic tensions (South China Sea, Huawei, COVID-19 origins, trade disputes) transformed a relationship built on economic complementarity, and what this reveals about the limits of economic interdependence as a basis for stable relationships",
+          "Investigate how Australia's relationship with India has developed — examining what strategic logic drives the Quad (Australia, USA, Japan, India) and whether India represents a viable counterbalance to China in Australia's strategic calculations"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": true,
+        "width_opportunity_reason": "The China relationship is a live analytical question with genuine stakes — students can evaluate current policy decisions against historical patterns of Australia's relationship with major powers. The Quad angle connects historical study directly to contemporary strategic debates.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students need to understand the economic-strategic tension in Australia's China relationship as a structural feature, not just a recent political dispute. Scaffolding the tension explicitly — economic interdependence vs strategic competition, the ANZUS alliance obligation vs trading relationship — produces genuine analytical engagement rather than simple description.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "success_criteria": [
+          "Explains the rise of China or India as a global power with evidence of their economic and political influence",
+          "Identifies at least two effects of this rise on Australia's international relationships",
+          "Explains the structural tension in Australia's relationship with China — economic interdependence versus strategic competition"
+        ],
+        "related_standards": ["AC9HH10K05", "AC9HH10K18", "AC9HH10S07"]
+      },
+      {
+        "id": 4,
+        "label": "Digital media and social media — shaping identity and global connection",
+        "progression_checkpoint": "Students can examine the role of digital media, including social media, in shaping Australian society and connecting to global relationships.",
+        "minimum_width": "Students explain at least two ways digital media has shaped Australian society and at least one way it has changed Australia's global connections.",
+        "typical_width": "Students examine how the internet and digital media transformed information access, communication, and cultural consumption from the 1990s; examine how social media platforms have changed how Australians form communities, debate public issues, and connect with global trends; examine how digital media has both strengthened and complicated Australian national identity — providing new platforms for Australian cultural expression while accelerating exposure to global (predominantly American) cultural content; examine how social media has changed the dynamics of political debate and activism.",
+        "wider": [
+          "Examine how digital media has changed the dynamics of civil rights and social movements — connecting to K11's reconciliation content and K12's women's movement content to examine how social media transformed advocacy",
+          "Investigate how digital media has affected Australia's international relationships — examining whether it has strengthened connections with Asia or reinforced Anglo-American cultural ties through platform dominance"
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "Students commonly treat social media as obviously transformative without examining the specific mechanisms through which it shapes identity and relationships. Scaffolding the mechanisms — how does algorithmic curation shape what Australians know about the world? how does platform dominance affect whose culture is amplified? — produces analytical engagement rather than description."
+          }
+        ],
+        "success_criteria": [
+          "Explains at least two ways digital media has shaped Australian society",
+          "Explains at least one way digital media has changed Australia's global connections",
+          "Identifies at least one tension digital media creates for Australian national identity"
+        ],
+        "related_standards": ["AC9HH10K17", "AC9HH10K20", "AC9HH10S08"]
+      }
+    ]
+  }
+}

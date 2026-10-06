@@ -1,0 +1,73 @@
+{
+  "year_level": "9-10",
+  "subject": "Science",
+  "curriculum": "ACARA v9",
+  "standard": {
+    "code": "AC9S9H04",
+    "title": "Society Shapes Scientific Research",
+    "strand": "Human Endeavour",
+    "mode": "A",
+    "description": "examine how the values and needs of society influence the focus of scientific research",
+    "prior_knowledge": "Students can examine how scientific communication shapes policy and societal responses (AC9S7H04), and have analysed adoption factors (AC9S9H03). They have not yet examined the reverse direction — how societal values and needs shape what research is funded and pursued in the first place.",
+    "progression_endpoint": "Students examine how the values and needs of society influence which scientific research questions are funded, pursued and developed — identifying factors such as government priorities, economic incentives, health needs, environmental concerns, and cultural values as shapers of research focus. Students can examine cases where societal needs have directly driven scientific and technological advances, including examples where government, industry and community priorities have shaped research directions.",
+    "nodes": [
+      {
+        "id": 1,
+        "label": "Who decides what gets researched?",
+        "progression_checkpoint": "Students can explain that scientific research requires funding and that decisions about what research is funded reflect societal values and priorities — introducing the concept that research focus is not determined by science alone.",
+        "minimum_width": "Explain that scientific research requires funding, that funding bodies (governments, industries, foundations) make decisions about which research to support, and that these decisions reflect priorities beyond scientific merit alone.",
+        "typical_width": "Describe how governments, industries and research institutions determine research funding priorities, and identify examples of how these priorities reflect current societal values and needs (e.g. health concerns driving biomedical research funding; climate concern driving renewable energy research).",
+        "wider": [
+          "Explore how governments determine which scientific research projects are funded — examining specific funding bodies (ARC, NHMRC in Australia) and the criteria they use.",
+          "Consider why some societally important questions receive less funding than their importance might warrant — examining how commercial viability, political priorities or cultural biases can shape funding allocation."
+        ],
+        "hinge": true,
+        "hinge_reason": "Students who do not understand that research direction is shaped by funding decisions will treat the cases at Node 2 as coincidences rather than systemic patterns. The funding-priority-values chain is the reasoning scaffold needed for meaningful examination of why particular research exists.",
+        "response_modes": [
+          {
+            "mode": "structured_reasoning",
+            "reason": "The claim that societal values shape research is not obvious — students typically think scientists choose what to investigate based on curiosity alone. Scaffold the argument: 'A scientist needs equipment, time and a lab. These require money. Money comes from funding bodies with priorities. Therefore the research that gets done reflects those priorities.' Making the causal chain explicit is the learning.",
+            "flags": ["hinge"]
+          }
+        ],
+        "width_opportunity": false,
+        "width_opportunity_reason": null,
+        "success_criteria": [
+          "Can explain that research requires funding and that funding decisions reflect priorities.",
+          "Can identify at least one way societal values influence research direction.",
+          "Does not treat research focus as determined by scientific curiosity alone — understands external shaping."
+        ]
+      },
+      {
+        "id": 2,
+        "label": "Examining cases of society-driven research",
+        "progression_checkpoint": "Students can examine specific cases where the values and needs of society have influenced the focus of scientific research — identifying the societal driver and the resulting research direction.",
+        "minimum_width": "Examine one case where a societal need or value drove a specific research direction (e.g. need to minimise greenhouse gas production leading to renewable energy research; need for food security leading to agricultural biotechnology research) and explain the connection between the societal need and the research focus.",
+        "typical_width": "Examine two or three cases of society-driven research from different domains — health, environment, technology — identifying the societal driver in each and explaining how it shaped what research was done and what wasn't.",
+        "wider": [
+          "Examine how Australia has developed AI systems for IVF viability prediction — connecting community health needs and values (fertility, family formation) to a specific research direction that has produced technological outcomes.",
+          "Investigate how First Nations Peoples of the Torres Strait are at the forefront of developing measures to prevent transfer of infectious diseases and pests — examining how community health sovereignty shapes the focus of this scientific work.",
+          "Examine how the need to minimise greenhouse gas production has led to scientific advances in carbon capture, renewable energy, and green chemistry — tracing the societal value to multiple research streams.",
+          "Investigate why many manufacturers are adopting green chemistry processes — examining the economic, regulatory and environmental values driving this research and development direction."
+        ],
+        "hinge": false,
+        "hinge_reason": null,
+        "response_modes": [
+          {
+            "mode": "context_breadth",
+            "reason": "Single-case analysis can produce an oversimplified model of the society-research relationship. Varying cases across health, environment and technology shows that the relationship operates through different mechanisms — direct government mandate, market incentive, community advocacy, regulatory pressure — preventing any single mechanism from being treated as universal.",
+            "flags": ["width_opportunity"]
+          }
+        ],
+        "width_opportunity": true,
+        "width_opportunity_reason": "The cases available span global health challenges, Australian community contexts, Indigenous self-determination, environmental urgency and industrial design — offering genuine analytical richness. Cross-case comparison builds the capacity to identify which societal mechanisms are shaping which research directions in specific contexts.",
+        "success_criteria": [
+          "Can identify the societal need or value that drove a named research direction.",
+          "Can explain the connection — not just list the case but trace the pathway from value/need to research priority.",
+          "Does not treat all research as societally driven in the same way — can distinguish government mandate, market incentive, community need and cultural value as distinct mechanisms."
+        ],
+        "related_standards": ["AC9S9H02", "AC9S9H03", "AC9S9I07"]
+      }
+    ]
+  }
+}
