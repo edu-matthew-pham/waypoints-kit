@@ -21,11 +21,11 @@ No account, no install. Everything here is Markdown and JSON.
 **Slides for a lesson**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
 
-## Standards in the kit
+## Standards
 
-- `AC9S7U01`: Year 7 Science, Classification and Biodiversity (`data/`)
+Node files for the ACARA F–10 standards (about 1,500 across all learning areas) are served by [ACARA Progressions](https://acara.learningwaypoints.com). The AI finds the right one through the [index](index/README.md), so you only need to give it the standard code or topic. If it can't fetch the file, open the standard in Progressions, use "Copy markdown", and paste it into the chat.
 
-For other standards, export the node data from [ACARA Progressions](https://progressions.learningwaypoints.com) ("Copy markdown") and paste it into the chat.
+A few node files are also kept in `data/` as a fallback.
 
 ## What's here
 
@@ -33,7 +33,9 @@ For other standards, export the node data from [ACARA Progressions](https://prog
 - `core.md`: the framework on one page.
 - `moves.md`: the suggestions the AI can offer.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
-- `data/`: node files (the waypoint sequence for a standard).
+- `index/`: every standard with a node file, by subject.
+- `data/`: a few node files kept as a fallback.
 - `examples/`: sample output.
+- `tools/`: `build_index.py` regenerates `index/` from the Progressions data.
 
 This is a proof of concept. Expect it to change.

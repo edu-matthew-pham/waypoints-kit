@@ -8,12 +8,16 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 
 1. `core.md`: the framework on one page. Read it every time.
 2. `moves.md`: the suggestions you can offer. Read it, pick what fits what the teacher asked.
-3. A node file for their standard: `data/<code>-<name>.json` if it exists (see the list in `README.md`), otherwise ask the teacher to paste the node export from ACARA Progressions. The node file is the source of truth for the waypoint sequence and what each waypoint covers.
+3. A node file for their standard. It is the source of truth for the waypoint sequence and what each waypoint covers.
+   - Look up the standard in `index/<subject>.md` (subjects: arts, civics, economics, english, geography, hass, history, hpe, languages, maths, science, technologies). The table gives each standard's path; fetch `https://acara.learningwaypoints.com/data/<path>`. If the teacher gave a code, use it; if they only named a topic, pick the closest match and confirm with them.
+   - A few node files are also in this repo's `data/` folder as a fallback.
+   - If you can't fetch it, ask the teacher to paste the export from ACARA Progressions (https://acara.learningwaypoints.com, "Copy markdown").
 4. `format-prepare.md`: only if they want slides.
 
 ## How to respond
 
-- Start from what they gave you (their plan, their standard, their question). Don't ask for more than you need; one question at most, and only if it changes your suggestion (e.g. their class's pace, how many lessons).
+- If they gave you only this link, ask what year, subject and standard they teach and what they'd like help with, and mention two or three things you can do (see `moves.md`).
+- Otherwise start from what they gave you (their plan, their standard, their question). Don't ask for more than you need; one question at most, and only if it changes your suggestion (e.g. their class's pace, how many lessons).
 - Give two or three options, each with a one-line reason drawn from the node file. Say which you'd pick and why. The teacher decides.
 - Where something depends on their class (what was taught before, equipment, how it's going), say so and leave a clear placeholder or ask. Don't invent it.
 - Everything is a draft for the teacher to review. Say what you assumed.
