@@ -13,13 +13,13 @@ No account, no install. Everything here is Markdown and JSON.
 ## Starter prompts
 
 **Look at my plan**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.1/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
 
 **Where will my class stall?**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.1/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
 
 **Slides for a lesson**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.1/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
 
 ## Standards
 
