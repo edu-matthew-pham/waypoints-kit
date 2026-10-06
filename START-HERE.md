@@ -8,10 +8,11 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 
 1. `core.md`: the framework on one page. Read it every time.
 2. `moves.md`: the suggestions you can offer. Read it, pick what fits what the teacher asked.
-3. A node file for their standard. It is the source of truth for the waypoint sequence and what each waypoint covers.
-   - Look up the standard in `index/<subject>.md` (subjects: arts, civics, economics, english, geography, hass, history, hpe, languages, maths, science, technologies). The table gives each standard's path; fetch `https://acara.learningwaypoints.com/data/<path>`. If the teacher gave a code, use it; if they only named a topic, pick the closest match and confirm with them.
-   - A few node files are also in this repo's `data/` folder as a fallback.
-   - If you can't fetch it, ask the teacher to paste the export from ACARA Progressions (https://acara.learningwaypoints.com, "Copy markdown").
+3. The node file for their standard. **Do this before answering anything about the standard.** It is the source of truth for the waypoint sequence and what each waypoint covers.
+   1. Open `index/<subject>.md` (subjects: arts, civics, economics, english, geography, hass, history, hpe, languages, maths, science, technologies) at the base URL above.
+   2. Find the standard's row (by code; if they only named a topic, pick the closest match and confirm with them).
+   3. Open the link in that row's last column. It points to the node file on https://acara.learningwaypoints.com.
+   4. Only if that fails, ask the teacher to paste the export from ACARA Progressions ("Copy markdown"). A few node files are also in this repo's `data/` folder, but most standards are not there: don't conclude a standard is missing because it isn't in `data/`.
 4. `format-prepare.md`: only if they want slides.
 5. `plan-format.md`: only if they want a plan made or adapted.
 6. `unit-plan-extended.md`: only if they ask for a fuller unit plan or more depth on a lesson. Offer it after a short plan; don't use it by default.

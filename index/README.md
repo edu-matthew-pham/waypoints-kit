@@ -1,6 +1,6 @@
 # Index of standards
 
-Every standard with a node file, by subject. Node files are served from `https://acara.learningwaypoints.com/data/` followed by the path in the table.
+Every standard with a node file, by subject. Each table row ends in the link to its node file.
 
 - [arts](arts.md): 165 standards
 - [civics](civics.md): 42 standards

@@ -47,13 +47,13 @@ def main(src):
         lines = [
             f"# {subject}: standards with node files",
             "",
-            f"Fetch a node file at `{BASE_URL}<path>`.",
+            "Open the link in the last column for the standard you need.",
             "",
-            "| Year | Code | Title | Waypoints | Path |",
+            "| Year | Code | Title | Waypoints | Node file |",
             "|---|---|---|---|---|",
         ]
         for year, code, title, n, rel in rows:
-            lines.append(f"| {year} | {code} | {title.replace('|', '/')} | {n} | `{rel}` |")
+            lines.append(f"| {year} | {code} | {title.replace('|', '/')} | {n} | {BASE_URL}{rel} |")
         with open(os.path.join(out_dir, f"{subject}.md"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
 
@@ -74,22 +74,22 @@ def main(src):
     gl = [
         "# Glossaries",
         "",
-        f"Pre-built vocabulary for some subjects. Fetch at `{BASE_URL}<path>`. Each file has `teacher_glossary` (definition, likely misconception, response) and `student_glossary` (plain definition, example). Filter entries by `descriptor_code`; `first_waypoint` says where a term first appears.",
+        "Pre-built vocabulary for some subjects. Open the link for the file you need. Each file has `teacher_glossary` (definition, likely misconception, response) and `student_glossary` (plain definition, example). Filter entries by `descriptor_code`; `first_waypoint` says where a term first appears.",
         "",
         "If a standard's code isn't listed under any file below, there is no pre-built glossary for it: draft one from the node file.",
         "",
-        "| Subject | Years | Terms | Path | Standards covered |",
+        "| Subject | Years | Terms | Glossary file | Standards covered |",
         "|---|---|---|---|---|",
     ]
     for subj, yrs, n, codes, rel in gl_rows:
-        gl.append(f"| {subj} | {yrs} | {n} | `{rel}` | {', '.join(codes)} |")
+        gl.append(f"| {subj} | {yrs} | {n} | {BASE_URL}{rel} | {', '.join(codes)} |")
     with open(os.path.join(out_dir, "glossaries.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(gl) + "\n")
 
     readme = [
         "# Index of standards",
         "",
-        f"Every standard with a node file, by subject. Node files are served from `{BASE_URL}` followed by the path in the table.",
+        "Every standard with a node file, by subject. Each table row ends in the link to its node file.",
         "",
     ]
     for subject, rows in sorted(by_subject.items()):
