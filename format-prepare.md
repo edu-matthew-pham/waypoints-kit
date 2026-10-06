@@ -1,6 +1,6 @@
 # Format: what Prepare accepts (Marp Markdown)
 
-Output **one code block fenced with four backticks** containing the whole deck, and nothing outside it. (Four, because the deck may contain three-backtick blocks; the fence lets the teacher copy exact bytes.)
+Put the whole deck in **one code block fenced with four backticks**, so the teacher can copy it exactly. (Four, because the deck may contain three-backtick blocks.) You can add a short note before or after the block, but nothing goes inside it except the deck. This is the one place the kit is strict, because Prepare needs valid Marp.
 
 ## Structure
 
@@ -52,5 +52,5 @@ Always a split layout with a trailing size, and a descriptive label:
 
 ## Do not
 
-- Do not wrap the deck in an explanation or add text outside the code block.
+- Do not put explanation inside the code block.
 - Do not use `*` lists except for check-slide answer reveals.

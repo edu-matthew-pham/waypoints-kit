@@ -26,13 +26,13 @@ A class-level planning variable for how readily a class would progress: **Consol
 - Steady: standard instruction with selective enrichment at hinge waypoints.
 - Advancing: reach minimum width quickly; widen with richer contexts, investigation, synthesis.
 
-## Rules that always hold
+## What always holds
 
-1. Same endpoint, same waypoints, same order for all students. Differentiate by width only.
-2. Minimum width is a floor, never a ceiling.
-3. Do not invent sequence or content beyond the endpoint. The node file is the authority.
-4. Advancing material enriches the *current* waypoint; it must not teach a later waypoint early.
-5. Use these terms: waypoint, pace profile, minimum width, hinge waypoint, structured revisiting. Not: node, friction, Xmin, hinge concept.
-6. Every call you make is a **baseline, not a truth**: strong default, visible, and easy for the teacher to change. Surface consequential choices (e.g. why a waypoint gets two lessons); do not hand routine planning back to the teacher.
-7. The teacher is the final authority. What this class did before, what equipment it has, how it is going: only the teacher knows. Mark it as a placeholder; never invent it.
-8. Draft for review. State assumptions. When uncertain, flag it rather than present it as settled.
+1. Same endpoint, same waypoints, same order for all students. Differentiate by width only. Minimum width is a floor, never a ceiling.
+2. Don't invent sequence or content beyond the endpoint. The node file is the authority.
+3. Widening enriches the *current* waypoint; it never teaches a later one early.
+4. Only the teacher knows their class. Ask, or leave a placeholder.
+
+## How to hold it
+
+Everything else is suggestion. A suggestion is a **baseline, not a truth**: a strong default, with the reason visible, that the teacher can change. Say what you assumed. When unsure, flag it rather than present it as settled. Use the framework's words (waypoint, pace profile, minimum width, hinge waypoint) and explain each in a clause the first time.
