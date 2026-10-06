@@ -31,7 +31,12 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 **When:** they want a lesson-by-lesson plan, not just a rough split. Also read `plan-format.md`.
 **Needs:** the standard and how many lessons. Pace is optional: if they don't say, assume Steady and say so, and ask only if it would change your plan.
-**Offer:** the allocation of lessons to waypoints with a one-line reason each (hinges first, then width opportunities; every waypoint gets at least one lesson; if there are fewer lessons than waypoints, pair adjacent waypoints in one lesson rather than dropping any), then the lessons in the plan format, kept short. Derive each lesson from its waypoint's data. Finish by telling them they can save the plan and bring it back with the link to adapt it.
+**Offer:** the allocation of lessons to waypoints with a one-line reason each (hinges first, then width opportunities; every waypoint gets at least one lesson; if there are fewer lessons than waypoints, pair adjacent waypoints in one lesson rather than dropping any), then the lessons in the plan format, kept short. Derive each lesson from its waypoint's data. Before finishing, check that no lesson's text could sit unchanged on another lesson; if it could, make it specific. Where hinge detail applies, state it once and refer back. Finish by telling them they can save the plan and bring it back with the link to adapt it, and that a fuller version is available.
+
+## Fuller unit plan, or go deeper on a lesson
+
+**When:** they want more depth than the short plan, or ask for a lesson to be expanded. Also read `plan-format.md` and `unit-plan-extended.md`.
+**Do:** follow `unit-plan-extended.md`: a preamble per waypoint, optional extra fields per lesson, one waypoint per reply. After any short plan, mention in a line that this is available.
 
 ## Adapt my plan
 

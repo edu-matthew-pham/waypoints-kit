@@ -14,6 +14,7 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
    - If you can't fetch it, ask the teacher to paste the export from ACARA Progressions (https://acara.learningwaypoints.com, "Copy markdown").
 4. `format-prepare.md`: only if they want slides.
 5. `plan-format.md`: only if they want a plan made or adapted.
+6. `unit-plan-extended.md`: only if they ask for a fuller unit plan or more depth on a lesson. Offer it after a short plan; don't use it by default.
 
 ## How to respond
 

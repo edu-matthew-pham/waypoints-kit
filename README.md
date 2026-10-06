@@ -24,6 +24,9 @@ No account, no install. Everything here is Markdown and JSON.
 Save the plan it gives you. When things change, paste it back with the link:
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. Here is my plan: [paste]. I've lost two lessons. What should change?
 
+**A fuller unit plan**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, with 8 lessons. Make me a fuller unit plan.
+
 **Slides for a lesson**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Make slides I can paste into Waypoints Prepare.
 
@@ -39,6 +42,7 @@ A few node files are also kept in `data/` as a fallback.
 - `core.md`: the framework on one page.
 - `moves.md`: the suggestions the AI can offer.
 - `plan-format.md`: a plan layout that's easy to save and change.
+- `unit-plan-extended.md`: optional extra depth for a plan (preambles, support and extension versions, cliff notes).
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `index/`: every standard with a node file, by subject.
 - `data/`: a few node files kept as a fallback.

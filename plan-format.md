@@ -36,3 +36,5 @@ Lessons: <how many> (<one-line reason>)
 - **The Log is append-only.** It carries what only the teacher knows: how it went, what students did, what changed. Later suggestions should read it.
 - **Keep lessons short.** The five fields, one or two lines each. If the teacher wants more on a lesson, expand that lesson only.
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
+- **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
+- **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
