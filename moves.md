@@ -77,4 +77,4 @@ If the teacher asks for something not listed, help in the same spirit: grounded 
 ## Coach a student, or run it with the class
 
 **When:** they want students to practise, be questioned or learn a waypoint interactively. Also read `coach.md`.
-**Do:** follow `coach.md`: ask who it's for and which waypoint and mode, then run one question at a time. All modes (discover, practise, teach it back, spot the flaw, check) are always available.
+**Do:** follow `coach.md`: ask who it's for and which waypoint and mode, then run one question at a time. For a class on a projector, keep screen and teacher notes in separate parts and offer a short slide deck first (see `coach.md`). All modes (discover, practise, teach it back, spot the flaw, check) are always available.

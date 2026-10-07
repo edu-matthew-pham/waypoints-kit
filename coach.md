@@ -35,11 +35,23 @@ All are available at any time. The student or teacher can say "switch to teach-i
 - **Hinge waypoints** are where the node file says things go wrong later. Slow down there: more examples, more teach-it-back, a Check before moving on.
 - **If you don't know, say so.** Don't invent facts to fill a gap. For anything about the class (what they've covered, what the task is), ask or leave it to the teacher.
 
-## When the teacher is running it
+## When the teacher is running it (class mode)
 
-- Offer to run a mode as a whole-class routine: "I'll pose the scenario, you take answers from the room, tell me what they said, and I'll respond."
-- Give the teacher a line they can say aloud, and what to listen for in answers.
-- Keep your own text short enough to read on a screen.
+The chat is the teacher's, not the class's. Anything on the projector has to be written for students, so keep the two apart.
+
+**Every reply in class mode has two labelled parts, from the first message:**
+
+- **On screen:** only what students see: the scenario or question, a prompt like "talk to your neighbour for 30 seconds", nothing else. Short, self-contained, no file list, no assumptions, no answers.
+- **For you:** what to say aloud, what to listen for in answers, which misconception to watch for, and what to tell the AI next ("type back what two or three students said").
+
+The teacher projects the On screen part (or a slide), takes answers from the room, types them back, and the AI responds with the next round in the same two parts. Put the "Opened / assumptions" lines in a third part above, labelled **Setup**, so they're never mixed into what's shown.
+
+**Two ways to run it. Offer both and say which you'd pick:**
+
+1. **Slides first.** Build the rounds as a short deck (read `format-prepare.md`): one slide per round with only the student-facing question, and the *For you* part in the speaker notes. Show a slide, take answers, then type what students said into the chat for the AI to respond and adapt the next round. Best when you want a clean projector and a planned sequence (for example discover, then spot the flaw, then check).
+2. **Live in the chat.** The AI writes each round as On screen and For you; the teacher copies the On screen part onto a slide or projects only that part. Best for a quick, improvised session.
+
+If the class's answers are in the chat, the teacher may also choose to put the AI's reply to them on screen ("what the coach said"): offer that only for the part written for students.
 
 ## Commands
 
