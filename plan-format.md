@@ -38,3 +38,15 @@ Lessons: <how many> (<one-line reason>)
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
 - **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
 - **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
+
+## Print-ready layout (only when the teacher asks)
+
+For a plan they'll print or paste into Docs via Waypoints Print. Same content, same fields; only the layout changes. Don't use this in an ordinary chat reply, because the directives below show as raw text anywhere but Print.
+
+- Start with front matter: `---`, `title: <code> <title>: unit plan`, `---`.
+- After the header line, a **Lesson overview table**: `| Lesson | Waypoint | Focus | Status |`, one row per lesson. Keep cells short.
+- An **Allocation table**: `| Waypoint | Flags | Lessons | Reason |`, one row per waypoint.
+- Keep each lesson's fields as a list (long text in table cells prints badly). Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
+- Put `{{break}}` on its own line before each waypoint after the first.
+- Leave the Log as a plain list at the end.
+- If the teacher brings this version back later to adapt, treat the directives and tables as layout: keep the content, and keep or drop the layout as they prefer.

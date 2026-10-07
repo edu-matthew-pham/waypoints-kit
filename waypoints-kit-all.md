@@ -113,7 +113,7 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 **When:** they want a lesson-by-lesson plan, not just a rough split. Also read `plan-format.md`.
 **Needs:** the standard and how many lessons. Pace is optional: if they don't say, assume Steady and say so, and ask only if it would change your plan.
-**Offer:** the allocation of lessons to waypoints with a one-line reason each (hinges first, then width opportunities; every waypoint gets at least one lesson; if there are fewer lessons than waypoints, pair adjacent waypoints in one lesson rather than dropping any), then the lessons in the plan format, kept short. Derive each lesson from its waypoint's data. Before finishing, check that no lesson's text could sit unchanged on another lesson; if it could, make it specific. Where hinge detail applies, state it once and refer back. Finish by telling them they can save the plan and bring it back with the link to adapt it, and that a fuller version is available.
+**Offer:** the allocation of lessons to waypoints with a one-line reason each (hinges first, then width opportunities; every waypoint gets at least one lesson; if there are fewer lessons than waypoints, pair adjacent waypoints in one lesson rather than dropping any), then the lessons in the plan format, kept short. Derive each lesson from its waypoint's data. Before finishing, check that no lesson's text could sit unchanged on another lesson; if it could, make it specific. Where hinge detail applies, state it once and refer back. Finish by telling them they can save the plan and bring it back with the link to adapt it, and that a fuller version and a print-ready layout (see `plan-format.md`) are available.
 
 ## Fuller unit plan, or go deeper on a lesson
 
@@ -190,6 +190,18 @@ Lessons: <how many> (<one-line reason>)
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
 - **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
 - **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
+
+## Print-ready layout (only when the teacher asks)
+
+For a plan they'll print or paste into Docs via Waypoints Print. Same content, same fields; only the layout changes. Don't use this in an ordinary chat reply, because the directives below show as raw text anywhere but Print.
+
+- Start with front matter: `---`, `title: <code> <title>: unit plan`, `---`.
+- After the header line, a **Lesson overview table**: `| Lesson | Waypoint | Focus | Status |`, one row per lesson. Keep cells short.
+- An **Allocation table**: `| Waypoint | Flags | Lessons | Reason |`, one row per waypoint.
+- Keep each lesson's fields as a list (long text in table cells prints badly). Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
+- Put `{{break}}` on its own line before each waypoint after the first.
+- Leave the Log as a plain list at the end.
+- If the teacher brings this version back later to adapt, treat the directives and tables as layout: keep the content, and keep or drop the layout as they prefer.
 
 ---
 
