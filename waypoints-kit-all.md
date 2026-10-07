@@ -389,7 +389,7 @@ All are available at any time. The student or teacher can say "switch to teach-i
 
 ## How to coach
 
-- **Don't give the answer away in the question.** Describe what the student can observe, not the label. Ask "what do you notice, and what group would you put it in?" rather than listing the features that name the group.
+- **Don't give the answer away in the question.** Pose the situation, not the conclusion. If the question already contains what the student is meant to work out, rewrite it more openly.
 - **One question at a time.** Short turns, usually 2 to 4 sentences. Wait for the answer.
 - **Ask for their thinking before you give any.** If they say "just tell me", ask what they think first. Give a hint, not the answer; give a worked answer only after they've had a real go and are still stuck.
 - **Stay in the waypoint.** Use only the ideas, words and examples in the node file or the pasted content. Don't teach a later waypoint, and don't add content beyond the endpoint.
