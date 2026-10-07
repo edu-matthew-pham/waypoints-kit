@@ -9,8 +9,10 @@ For plans the teacher will keep and change. The plan is a Markdown file the teac
 
 Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Advancing> (a hypothesis) · Updated: <date>
 
-**Assumptions:** <one or two lines: what you assumed, what the teacher should check>
+## Assumptions
+<one or two lines: what you assumed, what the teacher should check>
 
+## Overview
 | Waypoint | Flags | Lessons | Why |
 |---|---|---|---|
 | 1 <label> | Hinge | 2 | <one-line reason> |
@@ -20,7 +22,8 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 **Lessons:** <how many> (<one-line reason>)
 
 ### Lesson 1.1: <short title> (planned)
-- **Focus:** <one sentence, specific to this lesson>
+**Focus:** <one sentence, specific to this lesson>
+
 - **Minimum width evidence:** <what students show; from the waypoint's success criteria>
 - **Teaching for this class:** <concrete moves; name the scaffold, example or misconception>
 - **Widening:** <one or two directions that enrich this waypoint>
@@ -28,6 +31,9 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 
 ## Waypoint 2: <label>
 ...
+
+## Notes
+<optional: risks, what to do if a lesson is lost>
 
 ## Log
 - <date>: <what happened or changed, and what it means for the plan>
@@ -39,7 +45,7 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 - **Lesson numbers are `<waypoint>.<n>`** (1.1, 1.2, 2.1), each with a short title (a few words, what students do or learn) so the plan scans. Adding or removing a lesson never renumbers the others.
 - **Status** in the lesson heading: `planned`, `taught`, `skipped` or `moved`. Never rewrite a `taught` lesson; record what happened in the Log.
 - **The Log is append-only.** It carries what only the teacher knows: how it went, what students did, what changed. Later suggestions should read it.
-- **Keep lessons short.** The five fields, bold labels, one or two lines each. The summary table at the top is the only table; keep lesson text out of tables. If the teacher wants more on a lesson, expand that lesson only.
+- **Keep lessons short.** Focus as a bold lead line, then the other four as bold-labelled bullets, one or two lines each. Use headings for the sections (Assumptions, Overview, Notes, Log) and the waypoints and lessons, not for individual fields. The summary table at the top is the only table; keep lesson text out of tables. If the teacher wants more on a lesson, expand that lesson only.
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
 - **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
 - **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
