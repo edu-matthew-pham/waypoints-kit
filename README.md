@@ -1,5 +1,7 @@
 # Waypoints Kit
 
+> **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. Curriculum data is derived from ACARA material: see `NOTICE.md`.
+
 A small set of plain files that let any AI chat give you suggestions grounded in the Learning Waypoints framework: where a class is likely to stall, how to widen a lesson without racing ahead, a quick check that catches a misconception, a lesson sequence, slides. You keep your own planning; the kit is a lens on it.
 
 No account, no install. Everything here is Markdown and JSON.
@@ -55,9 +57,11 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 - `follow-ups.md`: optional extras: glossary, resource plan, student view.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `format-prepare-explicit.md`, `format-prepare-blue-banner.md`: optional slide styles (explicit-teaching structure; Blue Banner theme), copied from Prepare.
+- `REVIEW.md`: review sheet for checking the framework summary.
+- `NOTICE.md`: ACARA attribution.
 - `index/`: every standard with a node file, by subject.
 - `data/`: the node files and glossaries, copied from Progressions.
 - `examples/`: sample output.
 - `tools/`: `build_index.py` regenerates `index/` from the Progressions data; `build_bundle.py` regenerates `waypoints-kit-all.md`.
 
-This is a proof of concept. Expect it to change. If you want a copy that won't change under you, use the `v0.1` branch (replace `main` with `v0.1` in the links above); it is the first version, without plan adaptation.
+This is a proof of concept. Expect it to change. A frozen copy of this version is on the `v0.2` branch. If you want a copy that won't change under you, use the `v0.1` branch (replace `main` with `v0.1` in the links above); it is the first version, without plan adaptation.
