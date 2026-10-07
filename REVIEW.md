@@ -3,6 +3,9 @@
 For a colleague checking the kit's reading of the framework. About 20 minutes. Nothing here is final; mark up whatever you disagree with.
 
 ## 1. Read `core.md` (one page)
+
+`SOURCES.md` shows what each kit file was derived from.
+
 It is a condensed summary of the XY Model written for this kit. It was written from the framework's ideas, not copied from its source documents, so it may have drifted. Please check:
 - Are the definitions right: spine (Y), width (X), minimum / typical / wider, hinge, width opportunity?
 - Is "hinge vs consolidation" stated correctly?

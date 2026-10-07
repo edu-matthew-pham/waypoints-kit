@@ -63,6 +63,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 - `format-print.md`: the exact Markdown for printable resources (worksheets, handouts) in Waypoints Print.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `format-prepare-explicit.md`, `format-prepare-blue-banner.md`: optional slide styles (explicit-teaching structure; Blue Banner theme), copied from Prepare.
+- `SOURCES.md`: where each file comes from.
 - `REVIEW.md`: review sheet for checking the framework summary.
 - `NOTICE.md`, `LICENSE`: ACARA attribution and the licence (CC BY-NC-SA 4.0).
 - `index/`: every standard with a node file, by subject.
