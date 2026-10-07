@@ -16,8 +16,9 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
    5. Only if it genuinely fails twice, ask the teacher to paste the export from ACARA Progressions (https://acara.learningwaypoints.com, "Copy markdown") and use that.
 4. `format-prepare.md`: only if they want slides. If they ask for an explicit-teaching structure also read `format-prepare-explicit.md`; if they ask for the Blue Banner style also read `format-prepare-blue-banner.md`.
 5. `plan-format.md`: only if they want a plan made or adapted.
-6. `format-print.md`: only if they want a worksheet, handout, reference sheet, checklist or template to print.
-7. `follow-ups.md`: only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
+6. `assessment.md`: only if they want an assessment task or a quick check.
+7. `format-print.md`: only if they want a worksheet, handout, reference sheet, checklist or template to print.
+8. `follow-ups.md`: only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
 
 ## How to respond
 

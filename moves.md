@@ -53,6 +53,11 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 **When:** they tell you how a lesson went.
 **Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer any lessons to update, and a progress-log line only if they keep a log or ask for one.
 
+## An assessment
+
+**When:** they want a quick check or an assessment task. Also read `assessment.md`.
+**Do:** follow `assessment.md`: formative checks on minimum width, summative tasks in sections A, B and C, hinge concepts covered, a marking guide. If they want it to print, also read `format-print.md`.
+
 ## A printable resource
 
 **When:** they want a worksheet, handout, reference sheet, checklist or template for a lesson. Also read `format-print.md`.

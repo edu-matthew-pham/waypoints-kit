@@ -31,7 +31,7 @@ Nothing beyond a standard is required. If the teacher has also given you a plan,
 3. Widening enriches the current waypoint. It never teaches a later one early.
 4. Only the teacher knows their class. Ask or placeholder.
 
-The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `format-print.md` only if they want a printable resource, `follow-ups.md` only when asked.
+The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `assessment.md` only for assessments, `format-print.md` only if they want a printable resource, `follow-ups.md` only when asked.
 
 ---
 
@@ -134,6 +134,11 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 **When:** they tell you how a lesson went.
 **Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer any lessons to update, and a progress-log line only if they keep a log or ask for one.
+
+## An assessment
+
+**When:** they want a quick check or an assessment task. Also read `assessment.md`.
+**Do:** follow `assessment.md`: formative checks on minimum width, summative tasks in sections A, B and C, hinge concepts covered, a marking guide. If they want it to print, also read `format-print.md`.
 
 ## A printable resource
 
@@ -289,6 +294,51 @@ Keep it short: the terms a student needs to meet at each waypoint, not every wor
 ## Anything else
 
 Worked examples, tutorials, a common assessment: treat as "Anything else" in `moves.md`. Do one lesson or one waypoint at a time, grounded in the node file and the plan.
+
+---
+
+<!-- file: assessment.md -->
+
+# Assessment
+
+For a formative check or a summative task aligned to the node file. Adapted from Planner's assessment step (as of Oct 2026); if they differ, Planner's is the source. Everything here is a default the teacher can change.
+
+## What you need
+
+The standard (and its node file), and for each item: formative or summative, and mid-unit or end of unit. If the teacher hasn't said, suggest one mid-unit formative check and one end-of-unit summative task, say that's what you assumed, and carry on. Use their plan if they paste one.
+
+Ground every item in the node file: the progression endpoint (don't go beyond it), the prior knowledge, each waypoint's success criteria and widths, and the hinge reasons.
+
+## Formative check
+
+A short checkpoint (10 to 15 minutes) that:
+- tests the **minimum width** success criteria for the waypoints taught so far, not the whole unit;
+- is not reported: it's a learning check, not a grade;
+- gives the teacher a quick class-level picture of gaps, especially at hinge waypoints;
+- uses a low-stakes format: exit ticket, quick sketch, short response, sorting task.
+
+## Summative task
+
+For an end-of-unit task, cover every waypoint; for a mid-unit one, only those taught so far. Three sections:
+
+- **Section A: minimum width (about 60%).** Compulsory. Tests each waypoint's minimum construction using its success criteria.
+- **Section B: typical width (about 30%).** The same concepts with broader integration: the node file's `typical_width`.
+- **Section C: wider (about 10%).** Open-access transfer and synthesis from the node's `wider` tier.
+
+The split is a default; change it if the teacher wants. Rules:
+- Width is breadth, not difficulty. All sections sit at the same demand; don't make A "identify", B "explain" and C "evaluate".
+- Don't label Section C "extension" or "for advanced students". Every student may attempt it.
+- Don't exceed the progression endpoint.
+- **Hinge concepts must be assessed** somewhere across the items. Say which item covers which hinge.
+- Include a marking guide for the teacher: expected answers, and the likely wrong answer at each hinge (from the node file's hinge reasons and, if there is one, the teacher glossary).
+
+## Summary
+
+After the items, a short summary (about 150 words): each item's type, timing and format; the key concepts per section; which hinge concepts are tested where; the marks per section.
+
+## Format
+
+Plain Markdown by default. If the teacher wants it to print, also read `format-print.md`: Section A is the unmarked content, Section B goes in `:::typical`, Section C in `:::wider`, and the marking guide in `:::teacher-note`, so Print's width and teacher-edition toggles work on it. Leave `[teacher: ...]` where it depends on their class (texts, data, equipment, marks).
 
 ---
 
