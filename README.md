@@ -29,8 +29,10 @@ Save the plan it gives you. When things change, paste it back with the link:
 **Glossary, resource plan or student view**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read follow-ups.md. Give me a glossary for students.
 
-**A worksheet or handout**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read format-print.md. Make a worksheet for the lesson where students sort organisms into kingdoms.
+**A printable resource (worksheet, handout) for a lesson**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read format-print.md. Make a worksheet for Lesson 2.1, where students sort organisms into kingdoms.
+
+No plan yet? Replace the plan with "I teach Year 7 Science, standard AC9S7U01" and describe the lesson. It still works from the standard, but a plan gives it the lesson's focus and widths.
 
 **Slides in a style**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md, format-prepare-explicit.md and format-prepare-blue-banner.md. Make slides in the Blue Banner style with an explicit-teaching structure.
