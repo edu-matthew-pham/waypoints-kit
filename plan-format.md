@@ -71,7 +71,7 @@ For a plan they'll print or paste into Docs via Waypoints Print. Same content, s
   - **Summary**, two columns, `{{columns 25% 75%}}`: Standard, Year, Pace profile, Lessons, Progression endpoint, Assumed prior, Equipment and room.
   - **Overview**, `{{columns 24% 20% 10% 46%}}`.
   - **Pace grid** under each lesson, `{{columns 22% 26% 26% 26%}}`.
-- Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
+- Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages. Put the opening and closing `:::` each on its own line with a blank line before and after. A `:::` directly after a line of text isn't recognised and prints as raw text.
 - Put `{{break}}` on its own line before each waypoint after the first.
 - If the teacher brings this version back later to adapt, treat the directives and tables as layout: keep the content, and keep or drop the layout as they prefer.
 
