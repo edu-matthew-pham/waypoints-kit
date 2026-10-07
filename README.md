@@ -51,24 +51,38 @@ Download [`waypoints-kit-all.md`](waypoints-kit-all.md) (the whole kit in one fi
 
 Node files for the ACARA F–10 standards (about 1,500 across all learning areas) live in `data/`, copied from [ACARA Progressions](https://acara.learningwaypoints.com), which is where they are authored and browsed. The AI finds the right one through the [index](index/README.md), so you only need to give it the standard code or topic. If it can't open the file, open the standard in Progressions, use "Copy markdown", and paste it into the chat.
 
-## What's here
+## The files
 
-- `START-HERE.md`: the file the AI reads first.
-- `waypoints-kit-all.md`: the whole kit in one file, for assistants that can't open links.
-- `core.md`: the framework on one page.
-- `moves.md`: the suggestions the AI can offer.
-- `plan-format.md`: a plan layout that's easy to save and change.
-- `follow-ups.md`: optional extras: glossary, resource plan, student view.
-- `assessment.md`: pre-unit diagnostics, formative checks and summative tasks, aligned to the node file.
-- `format-print.md`: the exact Markdown for printable resources (worksheets, handouts) in Waypoints Print.
-- `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
-- `format-prepare-explicit.md`, `format-prepare-blue-banner.md`: optional slide styles (explicit-teaching structure; Blue Banner theme), copied from Prepare.
-- `SOURCES.md`: where each file comes from.
-- `REVIEW.md`: review sheet for checking the framework summary.
-- `NOTICE.md`, `LICENSE`: ACARA attribution and the licence (CC BY-NC-SA 4.0).
-- `index/`: every standard with a node file, by subject.
-- `data/`: the node files and glossaries, copied from Progressions.
-- `examples/`: sample output.
-- `tools/`: `build_index.py` regenerates `index/` from the Progressions data; `build_bundle.py` regenerates `waypoints-kit-all.md`.
+**For teachers: what the AI reads**
+
+| File | What it does |
+|---|---|
+| [`START-HERE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/START-HERE.md) | The file the AI reads first; tells it what to open and how to respond |
+| [`moves.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/moves.md) | The suggestions the AI can offer |
+| [`plan-format.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/plan-format.md) | The unit plan layout, plus the print-ready layout and optional progress log |
+| [`assessment.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/assessment.md) | Pre-unit diagnostics, formative checks and summative tasks |
+| [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/follow-ups.md) | Optional extras: glossary, resource plan, student view |
+| [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
+| [`format-prepare.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare.md) | Slides for Waypoints Prepare |
+| [`format-prepare-explicit.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare-explicit.md), [`format-prepare-blue-banner.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare-blue-banner.md) | Optional slide styles |
+| [`waypoints-kit-all.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/waypoints-kit-all.md) | The whole kit in one file, for assistants that can't open links |
+
+**For reviewers**
+
+| File | What it does |
+|---|---|
+| [`REVIEW.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/REVIEW.md) | A short review sheet and the open questions |
+| [`core.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/core.md) | The framework on one page: the part that most needs checking |
+| [`SOURCES.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/SOURCES.md) | Where each file comes from |
+| [`examples/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/examples) | Sample plan, worksheet and deck from test runs |
+
+**For builders**
+
+| File | What it does |
+|---|---|
+| [`index/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/index) | Every standard with a node file, by subject |
+| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/data) | The node files and glossaries, copied from Progressions |
+| [`tools/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/tools) | `build_index.py` regenerates `index/`; `build_bundle.py` regenerates the one-file kit |
+| [`NOTICE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/NOTICE.md), [`LICENSE`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/LICENSE) | ACARA attribution and the licence (CC BY-NC-SA 4.0) |
 
 This is a proof of concept. Expect it to change. A frozen copy of this version is on the `v0.2` branch. If you want a copy that won't change under you, use the `v0.1` branch (replace `main` with `v0.1` in the links above); it is the first version, without plan adaptation.
