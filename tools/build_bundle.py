@@ -7,7 +7,7 @@ Re-run whenever the kit's Markdown files change.
 import os
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-FILES = ["core.md", "moves.md", "plan-format.md", "follow-ups.md", "assessment.md", "coach.md", "format-print.md", "format-prepare.md", "format-prepare-explicit.md", "format-prepare-blue-banner.md"]
+FILES = ["core.md", "moves.md", "plan-format.md", "follow-ups.md", "assessment.md", "coach.md", "format-print.md", "format-prepare.md", "format-prepare-explicit.md", "format-prepare-blue-banner.md", "index/library.md"]
 
 PREFACE = """# Waypoints Kit: instructions for the AI (paste-in version)
 
@@ -43,6 +43,10 @@ Nothing beyond a standard is required. If the teacher has also given you a plan,
 4. Only the teacher knows their class. Ask or placeholder.
 
 The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `assessment.md` only for assessments, `coach.md` only for interactive practice, `format-print.md` only if they want a printable resource, `follow-ups.md` only when asked.
+
+## Slide library
+
+The full decks are not in this file (they are long). The list at the end of this file shows which standards have a ready-made Waypoints Prepare deck. If the teacher wants slides for one of them, tell them which deck fits and ask them to attach or paste it (https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/library/<file>.md), then adapt it for their class: keep the minimum slides first, the tier tags, the `[teacher: ...]` placeholders, the attribution line and the "Draft, not yet reviewed" label. Write a new deck only if the library has none.
 """
 
 # Paste-in mode can't follow links, so a few references are rewritten.
