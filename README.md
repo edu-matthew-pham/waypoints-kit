@@ -47,8 +47,8 @@ No plan yet? Replace the plan with "I teach Year 7 Science, standard AC9S7U01" a
 
 ### Practise with a coach
 
-**Interactive practice, for a student or for the class**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read coach.md. Also read format-prepare.md. Coach my students on waypoint 2. I'll run it with the class on the projector: make me the rounds as slides first, and keep what students see separate from my notes.
+**Self-paced practice with a coach** (students can use it themselves, or you can project it from a student seat)
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read coach.md. Coach me on waypoint 2.
 
 ### Slides
 
