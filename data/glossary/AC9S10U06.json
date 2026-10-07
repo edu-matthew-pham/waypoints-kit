@@ -1,0 +1,291 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U06",
+ "teacher_glossary": [
+  {
+   "term": "Bohr model",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A model of atomic structure in which electrons occupy concentric shells around the nucleus at fixed energy levels. The first shell holds a maximum of 2 electrons, the second holds 8, and the third holds 8 (for elements 1–20). At Year 10, the Bohr model is the representational tool students use to determine outer-shell electron count, which is the key variable linking atomic structure to periodic table organisation and chemical properties.",
+   "failure_mode": "Students fill electron shells incorrectly — common errors include exceeding shell capacity, skipping shells, or filling the third shell beyond 8 before the second is full. These procedural errors produce wrong outer-shell electron counts that cascade into every subsequent node.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Outer electron shell configuration is the structural variable the entire periodic table organisation depends on. Students who cannot correctly assign outer electrons cannot explain group properties (N2), cannot interpret periodic trends (N3), and cannot use the table predictively (N4).",
+   "response": "Require students to state the shell-filling rule before drawing: 2, 8, 8. Then draw diagrams for a sequence of elements across a period (Na, Mg, Al, Si, P, S, Cl, Ar) and check: does the outer-shell count increase by 1 each time? The sequential pattern catches filling errors.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Electron shell",
+     "definition": "A fixed energy level around the nucleus where electrons are located. Shells fill from the innermost outward, with each shell having a maximum electron capacity (2, 8, 8 for the first three)."
+    },
+    {
+     "term": "Shell capacity",
+     "definition": "The maximum number of electrons each shell can hold — 2 in the first shell, 8 in the second, 8 in the third (for elements 1–20). Shell capacity determines when a new shell begins filling, which is why a new period starts.",
+     "failure_mode": "Students fill electron shells incorrectly — commonly putting 8 electrons in the first shell (which holds only 2) or filling beyond 8 in the second shell. The 2-8-8 rule at this level is a prerequisite for drawing correct Bohr diagrams and predicting chemical behaviour.",
+     "failure_type": "fragile_skill",
+     "response": "Drill the sequence: first shell holds 2, second holds 8, third holds 8 (at this level). Apply to the first 20 elements. Check each diagram against the rule before moving on. The systematic fill prevents the common '8 in the first shell' error.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Outer-shell electrons",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The electrons in the outermost occupied shell of an atom. The number of outer-shell electrons determines an element's chemical properties, reactivity, and bonding behaviour. Elements with the same number of outer-shell electrons are in the same group and share similar chemical properties. The outer-shell electron count is the single most important variable linking atomic structure to periodic table organisation.",
+   "failure_mode": "Students count total electrons rather than outer-shell electrons — they report the total electron count when asked how many outer electrons an element has, because they do not distinguish 'how many electrons in total' from 'how many in the outermost shell.'",
+   "failure_type": "misconception",
+   "why_it_matters": "If students substitute total electron count for outer-shell count, every group assignment is wrong, every reactivity explanation is wrong, and the periodic table's organisation becomes inexplicable. This is the single most consequential error in the standard — it breaks every subsequent node.",
+   "response": "For a given element (e.g. sodium: 2, 8, 1), ask three questions: how many electrons total? (11) How many shells? (3) How many electrons in the outer shell? (1) The three-question sequence forces the distinction between total and outer.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Valence",
+     "definition": "The combining capacity of an atom, determined by the number of outer-shell electrons it can lose, gain or share in chemical bonding. Valence connects outer-shell electron count to bonding behaviour and reactivity.",
+     "failure_mode": "Students confuse valence (bonding capacity — how many bonds an atom can form) with the total number of electrons or the number of outer-shell electrons. An atom with 6 outer electrons has valence 2 (needs 2 more), not valence 6.",
+     "failure_type": "misconception",
+     "response": "Ask: oxygen has 6 outer electrons. How many more does it need for a full shell? (2.) So how many bonds can it form? (2 — that's its valence.) The 'how many more to fill' framing separates valence from electron count.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Emission spectrum",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The pattern of specific wavelengths of light emitted by an element when its electrons are excited (given energy) and then return to lower energy levels. Each element produces a unique emission spectrum — a 'fingerprint' — because its electron energy levels are unique. Emission spectra are observable evidence for the Bohr model's claim that electrons occupy discrete energy levels.",
+   "failure_mode": "Students memorise that each element has a unique spectrum without connecting it to the Bohr model's electron energy levels — they treat the spectrum as an arbitrary fingerprint rather than a physical consequence of electron shell structure.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Emission spectra are the observational evidence that validated the Bohr model and enabled identification of elements in distant stars. Students who cannot connect spectra to electron energy transitions treat the Bohr model as an abstract diagram rather than an evidence-supported model — undermining the 'explain how structure relates to organisation' demand.",
+   "response": "Show a flame test producing a coloured flame, then the corresponding line spectrum. Ask: why does sodium always produce the same yellow line? Because its electrons always jump between the same energy levels, emitting the same wavelength. The consistency makes the energy-level explanation necessary.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Flame test",
+     "definition": "A laboratory technique where a sample is held in a flame and the resulting colour identifies the element present. The colour is produced by electron energy transitions specific to that element."
+    },
+    {
+     "term": "Electron energy transition",
+     "definition": "The movement of an electron between energy levels (shells) in an atom. When an electron drops from a higher to a lower energy level, it emits light at a specific wavelength determined by the energy difference between the levels.",
+     "failure_mode": "Students memorise flame test colours without connecting them to the mechanism — they cannot explain why different elements produce different colours, missing that each element has unique energy level spacings that determine the specific wavelengths of light emitted when electrons drop between levels.",
+     "failure_type": "fragmentation",
+     "response": "Ask: why does sodium always produce yellow and never blue? (Its electron energy levels have a specific spacing that corresponds to yellow light's wavelength.) Different elements = different spacings = different colours. The spacing explanation turns memorised colours into a predictable pattern.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Group",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A vertical column in the periodic table containing elements with the same number of outer-shell electrons. Because outer-shell electrons determine chemical behaviour, elements in the same group share similar chemical properties. Group 1 (alkali metals) have 1 outer electron and are highly reactive; Group 18 (noble gases) have a full outer shell and are unreactive.",
+   "failure_mode": "Students learn group properties as memorised lists — 'alkali metals are reactive, noble gases are inert' — without connecting these properties to outer-shell electron configuration. When asked WHY Group 1 is reactive, they cannot explain.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The outer-electron-determines-group-property connection is the conceptual bridge between atomic structure and periodic table organisation. Without it, the table is a lookup chart of memorised facts rather than a predictive tool based on atomic structure — which is exactly the descriptor's demand.",
+   "response": "Draw the Bohr diagrams for Li, Na, K side by side. Ask: what do they all have in common? (1 outer electron.) Then ask: if they all have 1 outer electron, and they all react similarly, what causes the similar reactivity? The visual pattern makes the connection unavoidable.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Noble gases",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Group 18 elements (He, Ne, Ar, Kr, Xe) with a full outer electron shell. Their full shell means they have no tendency to lose, gain or share electrons, making them extremely unreactive — they exist as single atoms rather than forming compounds. Noble gases are the reference case for understanding why full outer shells confer stability, which in turn explains why other groups are reactive.",
+   "failure_mode": "Students know noble gases are unreactive but cannot explain why — they treat inertness as an inherent property of these specific elements rather than a structural consequence of having a full outer shell.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Noble gas stability is the structural benchmark that explains all other groups' reactivity: alkali metals lose one electron to reach a noble gas configuration, halogens gain one. Without understanding WHY noble gases are stable, students cannot explain why other elements react the way they do.",
+   "response": "Draw the Bohr diagram for neon (2, 8) and ask: is the outer shell full? (Yes.) Does it need to lose, gain or share electrons? (No.) So will it react? (No.) Then compare with sodium (2, 8, 1): is its outer shell full? (No.) What would make it full? (Losing 1.) The comparison makes stability a structural consequence, not an arbitrary label.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Alkali metals",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Group 1 elements (Li, Na, K, Rb, Cs) with one outer-shell electron. Their single outer electron is easily lost, making them the most reactive metals — they react vigorously with water and oxygen. Reactivity increases down the group because the outer electron is further from the nucleus and more easily removed in heavier alkali metals.",
+   "failure_mode": "Students describe alkali metals as 'dangerous' or 'explosive' without connecting their reactivity to the ease of losing one outer electron — they know the property but cannot give the structural explanation.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If alkali metal reactivity is unexplained, students cannot predict reactivity from electron configuration, cannot explain the reactivity trend down the group, and cannot use the periodic table as a predictive tool — the core demand of the descriptor.",
+   "response": "Ask: how many electrons does sodium need to lose to have a full outer shell? (Just 1.) How many does magnesium need to lose? (2.) Which is easier — losing 1 or 2? The comparison explains why Group 1 is more reactive than Group 2 and anchors reactivity in electron configuration.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Halogens",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "Group 17 elements (F, Cl, Br, I) with seven outer-shell electrons — one short of a full shell. Their strong tendency to gain one electron makes them highly reactive non-metals, especially with alkali metals (which readily lose one electron). Halogens are the reactive non-metal counterpart to alkali metals: one group loses an electron easily, the other gains one easily.",
+   "failure_mode": "Students can state that halogens are reactive but cannot explain the reactivity in terms of needing just one more electron to complete the outer shell — they miss the symmetry with alkali metals (one to lose vs one to gain).",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The halogen–alkali metal symmetry (7 outer electrons needing 1 more vs 1 outer electron easily lost) is the clearest demonstration that outer electron count determines reactivity. Students who miss it cannot use electron configuration to predict reactivity for unfamiliar elements at either end of a period.",
+   "response": "Draw the Bohr diagram for chlorine (2, 8, 7) alongside sodium (2, 8, 1). Ask: what does chlorine need to have a full shell? (1 more electron.) What does sodium need? (To lose 1.) What happens if you put them together? (Sodium gives its 1 to chlorine — both achieve full shells.) The complementary pair makes the mechanism visible.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Reactivity",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The tendency of an element to undergo chemical reactions, determined by how readily its atoms lose, gain or share outer-shell electrons to achieve a stable (full outer shell) configuration. Highly reactive elements have outer-shell configurations that are easily changed (1 outer electron lost easily, or 7 outer electrons needing only 1 more); unreactive elements already have stable configurations (full outer shell).",
+   "failure_mode": "Students treat reactivity as an intrinsic, unexplained property of specific elements — 'sodium is reactive because it's sodium' — rather than as a structural consequence of electron configuration.",
+   "failure_type": "misconception",
+   "why_it_matters": "If reactivity is unexplained, the periodic table cannot predict it. The descriptor requires students to 'explain how structure and properties relate to organisation' — reactivity must be explained by electron configuration, not labelled as a given.",
+   "response": "Present an unfamiliar element by position only (e.g. 'Element X is in Group 1, Period 4'). Ask students to predict: how many outer electrons? (1.) Reactive or unreactive? (Reactive — easily loses 1 electron.) The prediction-from-position exercise forces the structural explanation.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Period",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A horizontal row in the periodic table. Each period corresponds to the filling of a new electron shell — Period 1 fills shell 1 (2 elements), Period 2 fills shell 2 (8 elements), Period 3 fills shell 3 (8 elements). Properties repeat from period to period because the outer electron configuration resets from 1 to 8 each time a new shell begins filling. The period number tells you how many electron shells the element has.",
+   "failure_mode": "Students do not understand why a new period begins — they see periods as arbitrary rows rather than reflecting the start of a new electron shell. Without the shell-reset explanation, the repeating pattern of properties is coincidental rather than structural.",
+   "failure_type": "misconception",
+   "why_it_matters": "If periods are arbitrary, periodicity is unexplained — students cannot answer 'why do properties repeat?' which is the core of the descriptor's 'explain how structure relates to organisation' demand. The shell-reset is the mechanism that makes the table periodic.",
+   "response": "List elements 3–10 (Li to Ne) with their outer electron counts (1, 2, 3... 8). Then list elements 11–18 (Na to Ar) with their outer electron counts (1, 2, 3... 8). Ask: what resets? (The outer electron count.) Why? (A new shell starts filling.) The parallel sequences make the reset visible.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Atomic number",
+     "definition": "The number of protons in the nucleus of an atom, which determines the element's identity and its position in the periodic table. Atomic number increases by one across each period."
+    },
+    {
+     "term": "Metallic character",
+     "definition": "The tendency of an element to behave as a metal — losing electrons, conducting electricity, forming positive ions. Metallic character decreases across a period (as outer electrons increase and are held more tightly) and increases down a group (as outer electrons are further from the nucleus and more easily lost).",
+     "failure_mode": "Students memorise 'metals are on the left of the periodic table' without connecting metallic character to electron configuration — they cannot explain why metallic character decreases across a period (more outer electrons = harder to lose) or increases down a group (outer electrons further from nucleus = easier to lose).",
+     "failure_type": "fragmentation",
+     "response": "Ask: sodium has 1 outer electron; chlorine has 7. Which loses electrons more easily? (Sodium — only 1 to lose.) Which is more metallic? (Sodium.) The ease-of-electron-loss reasoning makes the periodic trend a consequence of structure, not a memorised pattern.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Periodic table",
+   "descriptor_code": "AC9S10U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The systematic arrangement of elements by atomic number into groups (columns) and periods (rows) that reveals repeating patterns of properties. At Year 10, the periodic table is reframed from a reference chart (what are this element's properties?) to a predictive tool (given an element's position, what must its electron configuration and properties be?). The organisation of the table is not arbitrary — it is a direct map of electron shell configuration.",
+   "failure_mode": "Students treat the periodic table as a lookup chart for memorised facts rather than a predictive model based on atomic structure — they can find information on it but cannot explain WHY it is organised as it is or use position to predict properties of unfamiliar elements.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor says 'explain how structure and properties relate to organisation' — the table's organisation IS the structure-to-property relationship made visible. Students who cannot use it predictively have not met the descriptor, even if they can read it accurately.",
+   "response": "Present an element students have not studied, identified only by its table position. Ask them to predict: outer electrons, likely reactivity, metal or non-metal, similar elements. If they can predict from position, they are using the table as a model; if they say 'I haven't learned that element,' they are using it as a lookup.",
+   "response_type": "integration"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Bohr model",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "A diagram of an atom showing electrons arranged in rings (shells) around the nucleus. Each shell can hold a set number of electrons: the first holds 2, the second holds 8, and the third holds 8. You fill from the inside out.",
+   "example": "Sodium (Na, 11 electrons) is drawn as 2 electrons in the first shell, 8 in the second, and 1 in the third — that single outer electron is what makes sodium so reactive.",
+   "sub_terms": [
+    {
+     "term": "Electron shell",
+     "definition": "A ring around the nucleus where electrons sit. Inner shells fill first, and each has a maximum capacity."
+    },
+    {
+     "term": "Shell capacity",
+     "definition": "How many electrons each shell can hold — 2 in the first, 8 in the second, 8 in the third."
+    }
+   ]
+  },
+  {
+   "term": "Outer-shell electrons",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "The electrons in the outermost shell of an atom — not the total number of electrons, just the ones in the last ring. This number is the key to understanding an element's chemical behaviour and where it sits in the periodic table.",
+   "example": "Carbon has 6 electrons total (2 in the first shell, 4 in the second) — its 4 outer-shell electrons determine how it bonds, not the total of 6.",
+   "sub_terms": [
+    {
+     "term": "Valence",
+     "definition": "How many bonds an atom can form, based on how many outer-shell electrons it can lose, gain or share."
+    }
+   ]
+  },
+  {
+   "term": "Emission spectrum",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "typical",
+   "definition": "The unique pattern of coloured lines an element produces when its atoms are given energy (like in a flame). Each element has its own pattern because its electrons jump between specific energy levels — it's like a fingerprint for atoms.",
+   "example": "Sodium always produces a bright yellow flame and the same pattern of spectral lines — because sodium's electrons always jump between the same energy levels.",
+   "sub_terms": [
+    {
+     "term": "Flame test",
+     "definition": "A simple lab test where you hold a sample in a flame and identify the element by the colour it produces — sodium gives yellow, copper gives green, lithium gives red."
+    },
+    {
+     "term": "Electron energy transition",
+     "definition": "When an electron jumps from one shell to another. Jumping down releases energy as light — the specific colour depends on the gap between the shells.",
+     "example": "When a sodium electron drops from a higher shell back to its normal position, it releases exactly the right amount of energy to produce yellow light."
+    }
+   ]
+  },
+  {
+   "term": "Group",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "A vertical column in the periodic table. Elements in the same group have the same number of outer-shell electrons, which is why they behave similarly in chemical reactions.",
+   "example": "Lithium, sodium and potassium are all in Group 1 — they all have 1 outer electron, so they all react vigorously with water for the same structural reason."
+  },
+  {
+   "term": "Noble gases",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "Group 18 elements (like helium, neon, argon) with a full outer shell. They don't react because they have no reason to lose, gain or share electrons — their outer shell is already complete and stable.",
+   "example": "Neon signs work because neon is so unreactive that it just glows when electricity passes through it — it doesn't react with anything in the tube."
+  },
+  {
+   "term": "Alkali metals",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "Group 1 elements (like lithium, sodium, potassium) with just 1 outer electron. That single electron is easily lost, which is why they're the most reactive metals — they only need to lose one electron to get a full outer shell.",
+   "example": "Drop a small piece of sodium in water and it fizzes violently — it reacts so fast because it only needs to lose one electron to become stable."
+  },
+  {
+   "term": "Halogens",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "typical",
+   "definition": "Group 17 elements (like fluorine, chlorine, bromine) with 7 outer electrons — just one short of a full shell. They're highly reactive because they strongly attract that one extra electron, especially from metals like sodium that are eager to give one up.",
+   "example": "Chlorine reacts instantly with sodium because chlorine needs 1 electron and sodium wants to lose 1 — they're a perfect match, forming sodium chloride (table salt)."
+  },
+  {
+   "term": "Reactivity",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "How readily an element undergoes chemical reactions. Reactivity depends on how easily an atom can lose, gain or share outer-shell electrons to get a full outer shell. Elements close to having a full shell (1 electron to lose, or 1 to gain) are the most reactive.",
+   "example": "Sodium (1 outer electron to lose) and chlorine (1 outer electron to gain) are both highly reactive — put them together and they react instantly to form table salt."
+  },
+  {
+   "term": "Period",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "A horizontal row in the periodic table. Each period represents the filling of one electron shell. When a shell is full, the next element starts a new shell and a new period — that's why properties repeat: the outer electron count resets from 1 back to 8 each time.",
+   "example": "Period 2 goes from lithium (1 outer electron) to neon (8 outer electrons). Period 3 does the same: sodium (1 outer electron) to argon (8 outer electrons). The pattern repeats because a new shell starts filling.",
+   "sub_terms": [
+    {
+     "term": "Atomic number",
+     "definition": "The number of protons in an atom's nucleus — this determines which element it is and where it sits in the periodic table."
+    },
+    {
+     "term": "Metallic character",
+     "definition": "How 'metallic' an element is — metals lose electrons easily, conduct electricity and are shiny. Metallic character decreases as you move across a period from left to right.",
+     "example": "Sodium (far left of Period 3) is a soft, reactive metal; chlorine (far right) is a reactive non-metal gas. The shift happens because outer electrons get harder to lose as you add more."
+    }
+   ]
+  },
+  {
+   "term": "Periodic table",
+   "descriptor_code": "AC9S10U06",
+   "width_tier": "minimum",
+   "definition": "The chart that organises all known elements by atomic number into groups and periods. At Year 10, the key idea is that the table isn't just a reference card — it's a map of how electrons are arranged. If you know an element's position, you can predict its properties without ever having studied it.",
+   "example": "If someone tells you 'Element X is in Group 17, Period 3,' you can immediately predict: 7 outer electrons, highly reactive non-metal, gains electrons easily — that's chlorine, and you figured it out from position alone."
+  }
+ ]
+}

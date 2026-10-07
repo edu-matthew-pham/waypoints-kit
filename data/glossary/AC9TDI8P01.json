@@ -1,0 +1,75 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P01",
+ "teacher_glossary": [
+  {
+   "term": "Data acquisition",
+   "descriptor_code": "AC9TDI8P01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of obtaining data from sources to answer a specific question. Effective acquisition requires defining the question first (what data is needed and why), then selecting appropriate sources (surveys, existing datasets like ABS, digital platforms). Source selection shapes what data is available — different sources answer different aspects of the same question.",
+   "failure_mode": "Students acquire data without first articulating what question they are investigating — they collect whatever is available rather than what is relevant.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without a clear question driving acquisition, students collect irrelevant data or store data without purpose. The question constrains every subsequent phase of the data pipeline — sourcing, storage, validation and analysis.",
+   "response": "Give students a broad topic (e.g. 'the canteen') and ask them to write the specific question before touching any data. Then ask: what data do you actually need to answer this question? The question must precede the data.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Data validation",
+   "descriptor_code": "AC9TDI8P01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Judging whether acquired data is fit for purpose by checking relevance (does it address the question?), correctness (are the values accurate?), currency (is it up to date?), and bias (is the sample representative?). Validation is not a single check but a set of criteria applied to the dataset as a whole.",
+   "failure_mode": "Students check one validation criterion (usually correctness) and declare the data valid, without considering relevance, currency or bias.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Data can be correct but irrelevant, current but biased, or relevant but outdated. A single-criterion check gives false confidence. Students who validate only for correctness will draw conclusions from unrepresentative or irrelevant data.",
+   "response": "Present a dataset that is correct but irrelevant to the question being asked. Ask: is this good data? The correct-but-irrelevant case forces students beyond the single-criterion habit.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Relevance"
+    },
+    {
+     "term": "Currency"
+    },
+    {
+     "term": "Bias",
+     "definition": "Systematic skew in a dataset that makes it unrepresentative of the population it claims to describe. Can arise from sampling method, data collection design or source selection."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Data acquisition",
+   "descriptor_code": "AC9TDI8P01",
+   "width_tier": "minimum",
+   "definition": "Collecting data from sources to answer a specific question. The key is having a clear question first — then you decide what data you need and where to find it.",
+   "example": "To answer 'Does the canteen sell the right food?', you might survey students about their food preferences AND get the canteen's actual sales data."
+  },
+  {
+   "term": "Data validation",
+   "descriptor_code": "AC9TDI8P01",
+   "width_tier": "minimum",
+   "definition": "Checking whether your data is good enough to answer your question — is it relevant, correct, up to date, and representative? Data can be correct but still not useful if it doesn't match your question.",
+   "example": "If you're researching cycling safety today, accident data from before bike lanes existed might be correct but too old to be useful.",
+   "sub_terms": [
+    {
+     "term": "Relevance"
+    },
+    {
+     "term": "Currency"
+    },
+    {
+     "term": "Bias",
+     "definition": "When data doesn't fairly represent everyone it's supposed to cover — usually because of how it was collected.",
+     "example": "An AI trained only on photos of one skin tone may not work well for people with different skin tones — that's bias in the training data."
+    }
+   ]
+  }
+ ]
+}

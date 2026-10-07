@@ -1,0 +1,581 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U01",
+ "teacher_glossary": [
+  {
+   "term": "Cell",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The smallest structural and functional unit of a living organism. Cells are microscopic — not visible to the unaided eye — and were only discovered through microscopy. Some organisms consist of one cell; multicellular organisms are composed of many cells with specialised functions.",
+   "failure_mode": "Students think cells are tiny objects inside living things rather than the basic units that living things are made from.",
+   "failure_type": "misconception",
+   "why_it_matters": "If cells are optional components rather than fundamental units, students cannot grasp cell theory or understand why all living things — including plants and single-celled organisms — have cellular structure.",
+   "response": "Use nested scale diagrams (organism → tissue → cell → organelle) and ask students to identify which level is the basic living unit. Emphasise 'made of' rather than 'contains.'",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Plant cell",
+     "failure_mode": "Think plant cells are completely different from animal cells — miss the shared structures (nucleus, membrane, cytoplasm) that both types have.",
+     "response": "Use a Venn diagram showing shared structures before introducing plant-specific additions.",
+     "failure_type": "misconception",
+     "response_type": "context_breadth",
+     "definition": "A cell with a cell wall, chloroplasts (in green parts) and a large central vacuole — structural features that distinguish it from animal cells."
+    },
+    {
+     "term": "Animal cell",
+     "definition": "A cell without a cell wall, chloroplasts or large central vacuole — typically smaller and rounder than plant cells."
+    },
+    {
+     "term": "Microscopic",
+     "definition": "Too small to see with the unaided eye — requiring a microscope to observe. Most cells are microscopic."
+    }
+   ]
+  },
+  {
+   "term": "Magnification",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of making an object appear larger so that structures below the resolution of the unaided eye can be observed. Magnification changes the apparent size of the image, not the real size of the object. In cell biology, magnification enables observation of cells and some organelles.",
+   "failure_mode": "Students think magnification makes the actual cell larger, not just the image of it.",
+   "failure_type": "misconception",
+   "why_it_matters": "If magnification changes real size, students cannot reason about actual cell dimensions or understand why microscope images need scale bars. The image/reality distinction is foundational for interpreting all microscopy.",
+   "response": "Use a hand lens or digital zoom analogy: the object stays the same size but the image appears larger. Ask students to distinguish real size from image size.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Photomicrograph",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 1,
+   "width_tier": "wider",
+   "definition": "A photograph taken through a microscope, capturing magnified images of specimens. Photomicrographs are the primary evidence source for cell biology — interpreting them requires understanding magnification, scale, and the difference between real structures and preparation artefacts.",
+   "failure_mode": "Students cannot interpret photomicrographs — they confuse scale, orientation, or preparation artefacts with real cellular structures.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Photomicrographs are the evidence base for cell biology. Students who cannot read them cannot verify claims about cell structure or compare cells across organisms.",
+   "response": "Compare a diagram and a photomicrograph of the same cell type. Ask students to identify the same structures in both — the diagram-to-photo mapping builds interpretive skill.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Cell theory",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The scientific principle that all living things are made of cells. At Year 8, the central claim is universality — cell theory applies to plants, fungi, bacteria and single-celled organisms, not only to animals. Cells are what makes something living, connecting to the living/non-living distinction from AC9S3U01.",
+   "failure_mode": "Students think cell theory applies mainly to animals — they exclude plants, fungi and single-celled organisms from the claim.",
+   "failure_type": "misconception",
+   "why_it_matters": "Cell theory universality is prerequisite for the plant-animal comparison. Students who believe only animals have cells cannot make sense of plant cell structures or explain why plant cells have additional organelles.",
+   "response": "Present photomicrographs of cells from bacteria, yeast, leaf tissue and human cheek. Ask students to state how cell theory applies to each — the diversity of examples makes universality concrete.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Single-celled organism",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A living thing made of only one cell, where that single cell carries out all functions necessary for life. Examples include bacteria and some protists. Single-celled organisms demonstrate that one cell can constitute a complete organism.",
+   "failure_mode": "Students think a single cell cannot be a whole organism — 'cell' only means part of a larger body.",
+   "failure_type": "misconception",
+   "why_it_matters": "If cells can only be parts of larger organisms, cell theory's universality breaks. Students need to understand that single-celled organisms are complete living things to appreciate the full scope of cellular life.",
+   "response": "Show examples of single-celled organisms and contrast with multicellular. Emphasise that single-celled organisms eat, reproduce and respond — one cell does everything.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Multicellular organism",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A living thing made of many cells, often with different cell types performing specialised functions. Multicellular organisms include plants, animals and fungi. The defining feature is many cells, not size — a large single-celled organism is not multicellular.",
+   "failure_mode": "Students think multicellular simply means larger than single-celled — miss that the defining feature is many cells with different functions.",
+   "failure_type": "misconception",
+   "why_it_matters": "If multicellular means 'big,' students cannot reason about cell specialisation or understand why multicellular organisms need different cell types working together.",
+   "response": "Compare organisms by cell number rather than size. Ask whether a large amoeba is multicellular — the answer forces the definition beyond size.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Living things",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Organisms that carry out life processes and are made of one or more cells. At Year 8, the cellular criterion refines the Year 3 definition — cells are what makes something living, replacing movement or appearance as the primary classifier.",
+   "failure_mode": "Students classify things as living based on movement or appearance rather than cellular structure — the naive criteria from primary school persist.",
+   "failure_type": "misconception",
+   "why_it_matters": "Movement-based classification excludes plants and fungi; appearance-based classification includes fire and robots. The cellular criterion is the biologically accurate replacement that cell theory provides.",
+   "response": "Present edge cases (plant, fire, robot, mushroom) and ask students to classify using cellular structure rather than movement. The cases where movement-based and cell-based answers diverge surface the misconception.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Nucleus",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A cell structure found in both plant and animal cells that contains genetic information (DNA) and directs cell activities. The nucleus is the control centre — it determines what proteins the cell makes and when, which in turn determines cell function.",
+   "failure_mode": "Students think the nucleus is the same as the whole cell, or that every visible circle in a cell diagram is a nucleus.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the nucleus is the whole cell, students cannot understand that the nucleus is one component within a larger structure. Confusing diagram symbols with real structures produces inaccurate cell identification.",
+   "response": "Use labelled diagrams and microscope images to show the nucleus as one part within a larger cell. Ask students to locate cell boundary, cytoplasm and nucleus separately.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Cell membrane",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A thin boundary around the cell that controls movement of substances into and out of the cell. Found in both plant and animal cells. The membrane is selectively permeable — it allows some substances through while blocking others, which is essential for maintaining the cell's internal environment.",
+   "failure_mode": "Students confuse the cell membrane with the cell wall — different structure, different function, different distribution across cell types.",
+   "failure_type": "misconception",
+   "why_it_matters": "The membrane controls exchange; the wall provides support. Treating them as the same hides an important structural and functional difference and prevents understanding of why animal cells (no wall) still have a functioning boundary.",
+   "response": "In plant cell diagrams, label both the outer cell wall and the cell membrane just inside it. Use a selective gate analogy for the membrane and a rigid frame analogy for the wall.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Cytoplasm",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The jelly-like material inside the cell membrane where many chemical reactions occur and where organelles are located. Found in both plant and animal cells. Cytoplasm is not empty space — it is the medium in which cell chemistry takes place.",
+   "failure_mode": "Students think cytoplasm is empty space or just background colour in a diagram — miss that it is a functional material where cell chemistry happens.",
+   "failure_type": "misconception",
+   "why_it_matters": "If cytoplasm is empty, students miss that organelles are suspended in a functional medium. Diagrams that simplify cytoplasm as blank space reinforce this error.",
+   "response": "Use a model or analogy where organelles are suspended in a fluid-like material. Ask what would be missing if cytoplasm were removed — the answer reveals its functional role.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Selectively permeable",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The property of the cell membrane that allows some substances to pass through while blocking others, based on size, charge or other molecular properties. Selective permeability is what makes the membrane a regulatory boundary rather than just a physical barrier.",
+   "failure_mode": "Students think the membrane lets everything through or nothing through — miss the selectivity that makes it a regulatory boundary.",
+   "failure_type": "misconception",
+   "why_it_matters": "Without selectivity, the membrane is either a wall (blocks everything) or absent (allows everything). Neither accounts for how cells take in nutrients while keeping waste out, which is the membrane's core function.",
+   "response": "Use the security checkpoint analogy: some people pass, some are stopped, some need credentials. Ask where the analogy works and where it breaks down.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "DNA",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The molecule contained in the nucleus that carries genetic information — the instructions for building proteins and directing cell activity. At Year 8, DNA is introduced as the contents of the nucleus that explain why the nucleus is the control centre. Its role in heredity is developed further at Year 10 (AC9S10U01).",
+   "failure_mode": "Students think DNA is only relevant to genetics and heredity — miss its role as the instruction set that directs everyday cell activity.",
+   "failure_type": "misconception",
+   "why_it_matters": "If DNA is only about inheritance, students cannot explain why the nucleus controls the cell or why all cells in an organism have the same DNA but perform different functions (cell specialisation in N5).",
+   "response": "Frame DNA as the cell's instruction manual — it tells the cell what proteins to make. Connect to the nucleus as control centre: the instructions are IN the nucleus, which is WHY the nucleus controls.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Cell wall",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A rigid outer structure found in plant cells that provides structural support and helps maintain cell shape. Animal cells do not have a cell wall. The wall sits outside the cell membrane and its rigidity compensates for the absence of an internal skeleton in plants.",
+   "failure_mode": "Students think the cell wall controls what enters and leaves the cell in the same way as the membrane — confuse structural support with exchange regulation.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the wall controls exchange, the membrane's function is redundant and the functional distinction between plant and animal cells is obscured. The wall provides support; the membrane regulates — different jobs.",
+   "response": "Use the analogy of a rigid frame outside a flexible gate. Ask students to match each structure to its main function — support vs exchange.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Chloroplast",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A plant cell organelle that carries out photosynthesis — using light energy to convert carbon dioxide and water into glucose (food). Chloroplasts contain the green pigment chlorophyll but their function is photosynthesis, not colouration. Not found in animal cells.",
+   "failure_mode": "Students think chloroplasts are simply green colouring in plant cells — miss their role as the site of photosynthesis.",
+   "failure_type": "misconception",
+   "why_it_matters": "If chloroplasts are just colour, students cannot explain why plants can make their own food (autotrophs) or why animal cells, which lack chloroplasts, must obtain food from their environment.",
+   "response": "Connect chloroplasts to the organism-level need: plants make their own food using light. The green colour is a side effect of the pigment that captures light energy.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Chlorophyll",
+     "definition": "The green pigment inside chloroplasts that captures light energy for photosynthesis."
+    }
+   ]
+  },
+  {
+   "term": "Vacuole",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A large storage structure in many plant cells that stores water, nutrients and waste, and helps maintain cell firmness through turgor pressure. The large central vacuole is a characteristic plant cell feature not found in animal cells at comparable scale.",
+   "failure_mode": "Students think vacuoles are just empty spaces — miss that they contain fluid and play active storage and structural roles.",
+   "failure_type": "misconception",
+   "why_it_matters": "If vacuoles are empty, students cannot connect cell-level water storage to organism-level firmness (turgor) or explain why plants wilt when water is insufficient.",
+   "response": "Link vacuole to wilting. Show before-and-after images of wilted plants and connect to cell-level water loss — the vacuole's role becomes visible at the organism level.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Photosynthesis",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The process by which chloroplasts in plant cells use light energy to convert carbon dioxide and water into glucose and oxygen. Photosynthesis is why plants are autotrophs — they produce their own food rather than consuming other organisms.",
+   "failure_mode": "Students reduce photosynthesis to 'plants breathe in CO₂' — miss the light energy conversion that makes it a food-production process rather than a gas exchange.",
+   "failure_type": "misconception",
+   "why_it_matters": "If photosynthesis is just gas exchange, students cannot explain why plants need light, why chloroplasts are found in leaves but not roots, or why plants are classified as producers in food webs.",
+   "response": "Emphasise the energy conversion: light energy → chemical energy stored in glucose. The gas exchange (CO₂ in, O₂ out) is the materials; the energy conversion is the purpose.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Autotroph",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "An organism that produces its own food from inorganic substances using energy from the environment — in plants, through photosynthesis using light energy. Autotrophs are contrasted with heterotrophs (organisms that obtain food by consuming other organisms).",
+   "failure_mode": "Students think all living things get food by eating — miss that plants produce their own food through photosynthesis.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all organisms eat, the producer role in food webs is unexplained and the fundamental distinction between plant and animal nutrition is invisible.",
+   "response": "Ask students where a plant's food comes from. Challenge the answer 'from soil' or 'from water' — the food (glucose) is manufactured inside the cell using light energy.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Heterotroph",
+     "definition": "An organism that obtains energy by consuming other organisms rather than producing its own food — animals, fungi and most bacteria."
+    }
+   ]
+  },
+  {
+   "term": "Turgor pressure",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The pressure exerted by water inside the vacuole pushing outward against the cell wall, giving plant cells and tissues firmness. When water is lost from the vacuole, turgor pressure drops and the plant wilts. Turgor connects cell-level water storage to organism-level structural support.",
+   "failure_mode": "Students know plants wilt but cannot connect wilting to cell-level water loss and vacuole function — the macro-micro link is missing.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without the cell-level mechanism, wilting is just 'the plant needs water' — a primary-school explanation. The turgor mechanism connects the vacuole's function to an observable organism-level phenomenon.",
+   "response": "Show wilted and firm plant tissue side by side. Ask students to draw what is happening at the cell level in each — the vacuole size difference makes the mechanism visible.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Mesophyll",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 4,
+   "width_tier": "wider",
+   "definition": "The photosynthetic tissue found in the interior of plant leaves, consisting of cells packed with chloroplasts. Mesophyll cells have many chloroplasts because their function is photosynthesis; root cells have few or none because roots are underground and receive no light. This variation demonstrates cell specialisation within a single organism.",
+   "failure_mode": "Students assume all plant cells are identical — miss that mesophyll cells differ from root cells in chloroplast content because they have different functions.",
+   "failure_type": "misconception",
+   "why_it_matters": "The mesophyll-root comparison is the first concrete evidence students encounter that specialisation occurs within a single organism, not just between organisms. It bridges N4 (plant structures) to N5 (cell specialisation).",
+   "response": "Compare a leaf cross-section (chloroplast-rich mesophyll) with a root tip (no chloroplasts). Ask why the difference exists — function determines organelle complement.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Organelle",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A specialised structure inside a cell that performs a particular function. Examples include nucleus (control), mitochondria (energy release), ribosomes (protein synthesis) and chloroplasts (photosynthesis). Different cell types have different organelle complements depending on their function.",
+   "failure_mode": "Students think all organelles are found in all cells — miss that organelle complement varies with cell function.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all cells have the same organelles, cell specialisation is inexplicable. The variation in organelle complement IS specialisation — understanding this is the bridge to AC9S8U02.",
+   "response": "Compare two specialised cells (muscle vs secretory) and ask students which organelles would be more common in each. The prediction task forces the organelle-function link.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Mitochondria",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "Organelles found in both plant and animal cells that release usable energy from food through cellular respiration. Cells with high energy demands (e.g. muscle cells) contain more mitochondria. Mitochondria do not create energy — they convert the chemical energy stored in food into a form the cell can use.",
+   "failure_mode": "Students think mitochondria create energy from nothing — miss that they release usable energy from food.",
+   "failure_type": "misconception",
+   "why_it_matters": "The 'create energy' misconception violates conservation of energy and prevents students from understanding cellular respiration as a chemical conversion process. It also undermines the food web energy flow concept from AC9S7U02.",
+   "response": "Use the phrase 'release usable energy from food' consistently rather than 'powerhouse of the cell.' Compare a muscle cell (many mitochondria) with a less active cell to show why numbers vary.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Ribosome",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "Small organelles found in both plant and animal cells that synthesise proteins. Proteins are essential for cell structure and function — cells that produce large amounts of protein (e.g. secretory cells, growing cells) contain many ribosomes.",
+   "failure_mode": "Students dismiss ribosomes as unimportant because they are small and hard to see in simple diagrams — diagram size does not indicate biological importance.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If ribosomes seem unimportant, students cannot explain why cells need to make proteins or why protein synthesis is essential for cell function and growth.",
+   "response": "Use the analogy of tiny protein-building machines. Ask why a cell that makes lots of protein would need many ribosomes — the functional reasoning overrides the visual impression of insignificance.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Cell specialisation",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The process or result of cells having structural features suited to particular functions. Specialised cells differ in shape, size and organelle complement depending on their role — muscle cells have many mitochondria, root hair cells lack chloroplasts, nerve cells have long extensions. All specialised cells in an organism contain the same DNA; specialisation determines which genes are active.",
+   "failure_mode": "Students think all cells in a multicellular organism are basically identical — miss that structure varies with function.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all cells are identical, the concept of tissues (groups of similar specialised cells) in AC9S8U02 has no foundation. Cell specialisation is the mechanism that explains why multicellular organisms can perform complex functions.",
+   "response": "Compare named specialised cells and ask students to predict which organelles they would need more or fewer of. Use structure-function sentence stems: 'This cell has more ___ because ___.'",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Organelle complement",
+     "definition": "The specific set of organelles present in a cell, varying between cell types to match their function."
+    },
+    {
+     "term": "Specialised cell",
+     "definition": "A cell with structural features adapted for a particular function — such as red blood cells for oxygen transport or root hair cells for water absorption."
+    }
+   ]
+  },
+  {
+   "term": "Cellular respiration",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "The chemical process occurring in mitochondria that releases usable energy from glucose. Cellular respiration is not the same as breathing — breathing supplies oxygen to cells, but respiration is the cell-level chemical reaction that uses that oxygen to release energy from food. Both plant and animal cells carry out cellular respiration.",
+   "failure_mode": "Students confuse cellular respiration with breathing — treat it as a whole-organism gas exchange rather than a cell-level chemical energy conversion.",
+   "failure_type": "misconception",
+   "why_it_matters": "If respiration is breathing, students cannot explain why plants respire (they don't breathe in the animal sense) or why mitochondria are the site of respiration rather than the lungs.",
+   "response": "Separate the two explicitly: breathing = getting oxygen to cells (organism level); respiration = using oxygen to release energy from food (cell level). Ask where respiration happens — the answer 'mitochondria' not 'lungs' makes the distinction concrete.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Protein synthesis",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "The process by which ribosomes build proteins from amino acid building blocks, following instructions encoded in DNA. Proteins perform essential roles in cells — structural components, enzymes, transport molecules. Protein synthesis connects ribosomes (the machinery), DNA (the instructions) and cell function (the output).",
+   "failure_mode": "Students know ribosomes 'make proteins' but cannot explain why proteins matter for cell structure and function — the statement is memorised without the reasoning.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without understanding why proteins matter, 'ribosomes make proteins' is a dead-end fact. Students need the chain: DNA provides instructions → ribosomes build proteins → proteins do the cell's work.",
+   "response": "Ask students to name things proteins do in cells (structure, enzymes, transport). Then ask what would happen if ribosomes stopped working — the consequences make protein synthesis's importance concrete.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Mitochondrial disease",
+   "descriptor_code": "AC9S8U01",
+   "first_waypoint": 5,
+   "width_tier": "wider",
+   "definition": "A group of disorders caused by mitochondrial malfunction, resulting in insufficient energy production at the cell level. Mitochondrial disease demonstrates how failure at the organelle level cascades upward — affecting cell function, then tissue function, then organ and organism function. Tissues with high energy demands (muscle, nerve) are most affected.",
+   "failure_mode": "Students cannot trace how organelle-level failure cascades to cell, tissue and organism effects — they describe the disease without connecting the levels.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The organelle → cell → tissue → organism cascade is the conceptual bridge to AC9S8U02's structure-function hierarchy. Students who cannot trace across levels cannot analyse how organ system function depends on cell-level processes.",
+   "response": "Ask students to trace the cascade step by step: what fails at the organelle level? What does this mean for the cell? What tissues are affected and why? What does the patient experience?",
+   "response_type": "integration"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Cell",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "The smallest living building block of all organisms. Some living things are made of one cell; your body is made of trillions of cells, each too small to see without a microscope.",
+   "example": "Your body contains many types of cells including skin cells, blood cells and muscle cells — each with a different job.",
+   "sub_terms": [
+    {
+     "term": "Plant cell",
+     "definition": "A cell with a cell wall, chloroplasts (in green parts) and a large central vacuole — structural features that distinguish it from animal cells."
+    },
+    {
+     "term": "Animal cell",
+     "definition": "A cell without a cell wall, chloroplasts or large central vacuole — typically smaller and rounder than plant cells."
+    },
+    {
+     "term": "Microscopic",
+     "definition": "Too small to see with the unaided eye — requiring a microscope to observe. Most cells are microscopic."
+    }
+   ]
+  },
+  {
+   "term": "Magnification",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "Making something appear larger so you can see more detail. Magnification changes the image, not the real object.",
+   "example": "A microscope magnifies cells so their shapes and parts become visible, but the cells themselves stay the same tiny size."
+  },
+  {
+   "term": "Photomicrograph",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "wider",
+   "definition": "A photo taken through a microscope showing what real cells look like at high magnification.",
+   "example": "A photomicrograph of a leaf cell shows green chloroplasts that you can't see with your eyes alone."
+  },
+  {
+   "term": "Cell theory",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "The idea that all living things are made of cells — animals, plants, fungi and even tiny single-celled organisms.",
+   "example": "A tree is living, so it is made of cells — even though tree cells look very different from your cells."
+  },
+  {
+   "term": "Single-celled organism",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A living thing made of just one cell. That one cell does everything the organism needs to survive — eating, growing and reproducing.",
+   "example": "Bacteria are single-celled organisms — each bacterium is one complete living thing."
+  },
+  {
+   "term": "Multicellular organism",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A living thing made of many cells. Different cells often have different jobs.",
+   "example": "Humans are multicellular — your body has over 200 different types of cells working together."
+  },
+  {
+   "term": "Living things",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "Organisms that are made of cells. At Year 8, being made of cells is the key test for whether something is alive — not whether it moves or looks alive.",
+   "example": "A mushroom doesn't move, but it's alive because it's made of cells. A robot moves, but it's not alive because it has no cells."
+  },
+  {
+   "term": "Nucleus",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A structure inside the cell that acts as the control centre. It contains DNA — the instructions that tell the cell what to do.",
+   "example": "Without a nucleus, a cell wouldn't know which proteins to make or how to grow and divide."
+  },
+  {
+   "term": "Cell membrane",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A thin boundary around every cell that controls what goes in and out. It lets useful substances in and keeps harmful ones out.",
+   "example": "The cell membrane is like a security gate — it checks what's trying to enter and decides whether to let it through."
+  },
+  {
+   "term": "Cytoplasm",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "The jelly-like material filling the inside of a cell. It's where many of the cell's chemical reactions happen, and it holds the organelles in place.",
+   "example": "In a cell model, the cytoplasm would be the jelly holding all the parts — it's not empty space."
+  },
+  {
+   "term": "Selectively permeable",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "Describes something that lets some things through but blocks others. The cell membrane is selectively permeable — it chooses what enters and leaves the cell.",
+   "example": "A tea bag is selectively permeable — it lets water and flavour through but keeps the tea leaves inside."
+  },
+  {
+   "term": "DNA",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "A molecule inside the nucleus that carries the instructions for everything the cell does — like a recipe book for building proteins.",
+   "example": "Every cell in your body has the same DNA, but different cells read different parts of it — that's why a muscle cell is different from a skin cell."
+  },
+  {
+   "term": "Cell wall",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A strong outer layer found in plant cells that provides support and shape. It sits outside the cell membrane and keeps the cell rigid — like a frame around a balloon.",
+   "example": "Plant stems stay upright partly because each cell has a rigid wall holding its shape."
+  },
+  {
+   "term": "Chloroplast",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A structure in plant cells that uses light to make food for the plant through photosynthesis. Chloroplasts contain green pigment, which is why many plant parts are green.",
+   "example": "Leaf cells have many chloroplasts because leaves are where plants catch the most light.",
+   "sub_terms": [
+    {
+     "term": "Chlorophyll",
+     "definition": "The green pigment inside chloroplasts that captures light energy for photosynthesis."
+    }
+   ]
+  },
+  {
+   "term": "Vacuole",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A large storage space in plant cells filled with fluid. It stores water and helps keep the cell firm — like an inflated balloon pressing against the cell wall.",
+   "example": "When a plant wilts, its cells have lost water from their vacuoles and gone floppy."
+  },
+  {
+   "term": "Photosynthesis",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "The process plants use to make their own food. Chloroplasts capture light energy and use it to turn carbon dioxide and water into glucose (sugar) and oxygen.",
+   "example": "Plants don't eat food like animals do — they make glucose in their leaves using sunlight."
+  },
+  {
+   "term": "Autotroph",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "A living thing that makes its own food rather than eating other organisms. Plants are autotrophs because they produce glucose through photosynthesis.",
+   "example": "Plants are autotrophs — they don't need to eat anything because they make food from sunlight, water and CO₂.",
+   "sub_terms": [
+    {
+     "term": "Heterotroph",
+     "definition": "An organism that obtains energy by consuming other organisms rather than producing its own food — animals, fungi and most bacteria."
+    }
+   ]
+  },
+  {
+   "term": "Turgor pressure",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "The pressure created by water inside a plant cell's vacuole pushing outward against the cell wall. This pressure keeps plant cells firm and plants upright.",
+   "example": "A well-watered plant stands tall because its cells are full of water creating turgor pressure — a dehydrated plant wilts because the pressure drops."
+  },
+  {
+   "term": "Mesophyll",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "wider",
+   "definition": "The tissue inside a leaf where photosynthesis happens. Mesophyll cells are packed with chloroplasts, unlike root cells which have none because they're underground.",
+   "example": "If you slice a leaf in half and look through a microscope, the green mesophyll cells in the middle are doing the photosynthesis."
+  },
+  {
+   "term": "Organelle",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "A small structure inside a cell that has a specific job. Different organelles do different things — the nucleus controls, mitochondria release energy, ribosomes make proteins.",
+   "example": "Organelles are to a cell what organs are to your body — each one has its own important function."
+  },
+  {
+   "term": "Mitochondria",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "Organelles that release usable energy from food. They don't create energy — they convert the energy stored in glucose into a form the cell can use. Cells that need lots of energy have many mitochondria.",
+   "example": "Muscle cells contain many mitochondria because muscles use a lot of energy when you move."
+  },
+  {
+   "term": "Ribosome",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "Tiny organelles that build proteins. Even though they're small, they're essential — proteins are needed for almost everything a cell does.",
+   "example": "A cell that makes lots of protein, like one that produces digestive enzymes, needs many ribosomes."
+  },
+  {
+   "term": "Cell specialisation",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "minimum",
+   "definition": "The way different cells develop different features to do different jobs. A muscle cell looks and works differently from a nerve cell because each is specialised for its function.",
+   "example": "Red blood cells are disc-shaped to carry oxygen efficiently — their shape is a specialisation for their job.",
+   "sub_terms": [
+    {
+     "term": "Organelle complement",
+     "definition": "The specific set of organelles present in a cell, varying between cell types to match their function."
+    },
+    {
+     "term": "Specialised cell",
+     "definition": "A cell with structural features adapted for a particular function — such as red blood cells for oxygen transport or root hair cells for water absorption."
+    }
+   ]
+  },
+  {
+   "term": "Cellular respiration",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "A chemical process inside mitochondria that releases energy from food. It's not the same as breathing — breathing gets oxygen to your cells, but respiration is the chemical reaction inside cells that actually releases the energy.",
+   "example": "Both plant and animal cells carry out cellular respiration — even plants need to release energy from food, not just make it."
+  },
+  {
+   "term": "Protein synthesis",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "typical",
+   "definition": "The process of building proteins from smaller building blocks, carried out by ribosomes using instructions from DNA. Proteins do many of the cell's most important jobs.",
+   "example": "When your body heals a cut, cells near the wound ramp up protein synthesis to build new tissue."
+  },
+  {
+   "term": "Mitochondrial disease",
+   "descriptor_code": "AC9S8U01",
+   "width_tier": "wider",
+   "definition": "A condition where mitochondria don't work properly, so cells can't release enough energy. This especially affects parts of the body that need the most energy, like muscles and the brain.",
+   "example": "Someone with mitochondrial disease might feel very tired and have weak muscles because their cells can't release enough energy from food."
+  }
+ ]
+}

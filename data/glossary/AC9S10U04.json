@@ -1,0 +1,393 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U04",
+ "teacher_glossary": [
+  {
+   "term": "Solar radiation",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Electromagnetic energy emitted by the Sun, primarily as visible light, which is the primary energy input to Earth's climate system. Solar radiation reaching Earth's surface is either absorbed (warming the surface) or reflected back to space, depending on surface properties. The proportion absorbed versus reflected determines how much energy enters the climate system at any location.",
+   "failure_mode": "Students treat solar radiation as uniformly heating Earth without differentiating between absorbed and reflected energy — they assume the sun simply 'warms everything equally' and do not connect surface properties to energy absorption.",
+   "failure_type": "misconception",
+   "why_it_matters": "The absorbed/reflected distinction is the foundation of the energy balance model. Students who miss it cannot explain why surface changes (melting ice, deforestation) alter the energy balance in N2, or why the greenhouse effect concerns re-emitted rather than incoming radiation in N3.",
+   "response": "Compare two surfaces side by side — dark ocean and white ice. Ask which absorbs more and which reflects more, then ask what happens to the energy balance if ice melts and is replaced by dark ocean. The surface comparison makes the absorption/reflection split concrete and consequential.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Albedo",
+     "definition": "The proportion of solar radiation reflected by a surface. High-albedo surfaces (ice, snow, clouds) reflect most radiation; low-albedo surfaces (ocean, dark soil, forest) absorb most. Albedo changes — such as ice melting to reveal dark ocean — alter the local and global energy budget.",
+     "failure_mode": "Students can define albedo but cannot connect surface albedo changes to climate feedback — they treat reflectivity as a static property rather than a variable that changes as the climate changes.",
+     "failure_type": "fragmentation",
+     "response": "Trace the ice-albedo feedback loop: warming → ice melts → albedo decreases → more absorption → more warming. Ask students to identify which step closes the loop and why this is a feedback rather than a one-way process.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Energy balance",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The condition in which the total energy entering Earth's climate system (absorbed solar radiation) equals the total energy leaving (emitted infrared radiation to space). Energy flows between the geosphere, biosphere, hydrosphere and atmosphere via radiation, conduction and convection. When the balance is disrupted — more energy entering than leaving — the system warms until a new equilibrium is reached.",
+   "failure_mode": "Students think of energy flow as one-directional — the sun heats Earth during the day, and Earth cools at night — rather than as a dynamic multi-sphere system where incoming and outgoing energy must balance over time.",
+   "failure_type": "misconception",
+   "why_it_matters": "The energy balance model is the structural framework the entire descriptor is built on. Students who cannot describe multi-sphere energy exchange as a system in balance cannot explain what 'disrupting the balance' means when greenhouse gas concentrations increase, cannot interpret climate indicators as evidence of imbalance, and cannot evaluate mitigation strategies in terms of restoring balance.",
+   "response": "Draw a simplified energy flow diagram showing solar input, absorption, infrared emission and greenhouse re-emission. Label incoming and outgoing energy arrows. Ask: what happens if outgoing energy decreases while incoming stays the same? The flow diagram makes imbalance visible as a mismatch between arrows.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Geosphere",
+     "definition": "The solid Earth — rocks, soil, landforms. Absorbs solar radiation and releases stored heat; volcanic activity releases greenhouse gases."
+    },
+    {
+     "term": "Biosphere",
+     "definition": "All living organisms and ecosystems. Photosynthesis removes CO₂; respiration and decomposition release it. The biosphere is both a carbon store and a carbon source."
+    },
+    {
+     "term": "Hydrosphere",
+     "definition": "All water on Earth — oceans, rivers, lakes, ice. The ocean is the largest heat store in the climate system and redistributes heat via currents."
+    },
+    {
+     "term": "Atmosphere",
+     "definition": "The layer of gases surrounding Earth. Contains greenhouse gases that trap outgoing infrared radiation and redistributes heat via convection and wind patterns."
+    },
+    {
+     "term": "Ocean currents",
+     "definition": "Large-scale movements of water in the ocean that redistribute heat from the tropics to the poles. Deep ocean currents are driven by differences in water density (temperature and salinity) and play a major role in regulating regional and global climate.",
+     "failure_mode": "Students think oceans absorb heat passively — they do not recognise that ocean currents actively redistribute thermal energy across the globe, moderating coastal climates and connecting tropical and polar heat budgets.",
+     "failure_type": "fragmentation",
+     "response": "Ask: why is Western Europe warmer than Eastern Canada at the same latitude? (The Gulf Stream carries warm water from the tropics.) The latitude comparison reveals ocean currents as active heat distributors, not passive heat sinks.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Greenhouse effect",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process by which greenhouse gases in the atmosphere absorb outgoing infrared radiation emitted by Earth's surface and re-emit it in all directions — including back toward the surface — slowing energy loss to space and keeping Earth's surface warmer than it would otherwise be. The natural greenhouse effect maintains habitable temperatures; the enhanced greenhouse effect results from increased greenhouse gas concentrations due to human activity.",
+   "failure_mode": "Students conflate the greenhouse effect with ozone depletion — they believe the 'hole in the ozone layer' is causing global warming — or they think greenhouse gases trap incoming sunlight rather than outgoing infrared radiation.",
+   "failure_type": "misconception",
+   "why_it_matters": "The greenhouse effect is the conceptual link between the energy balance model and the explanation of climate change. Conflation with ozone depletion produces entirely wrong causal accounts. Confusion about incoming vs outgoing radiation means students cannot locate the mechanism correctly within the energy flow model — they look for the problem in the wrong part of the system.",
+   "response": "Draw the energy flow: sunlight in → absorbed by surface → surface emits infrared → greenhouse gases absorb and re-emit infrared → surface receives additional energy. Ask students to identify which radiation type greenhouse gases interact with (infrared, not visible). Then ask: is this the same as ozone depletion? (No — ozone blocks incoming UV; greenhouse gases trap outgoing infrared.)",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Infrared radiation",
+     "definition": "Electromagnetic radiation emitted by warm objects, including Earth's surface. Infrared has longer wavelengths than visible light. Greenhouse gases absorb and re-emit infrared radiation — this is the specific radiation type the greenhouse mechanism acts on.",
+     "failure_mode": "Students think greenhouse gases trap sunlight (visible radiation) rather than the infrared radiation Earth emits — they look for the mechanism in the wrong radiation type.",
+     "failure_type": "misconception",
+     "response": "Clarify the two-step process: the Sun sends visible light → the surface absorbs it and warms up → the warm surface emits infrared → greenhouse gases trap the infrared. The key: what comes from the Sun is different from what the surface emits.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Natural greenhouse effect",
+     "definition": "The baseline greenhouse warming that has kept Earth habitable for billions of years — without it, Earth's average surface temperature would be approximately −18°C rather than +15°C.",
+     "failure_mode": "Students think ALL greenhouse effect is harmful — they do not distinguish the natural greenhouse effect (essential, raises Earth's temperature from −18°C to +15°C, making life possible) from the enhanced greenhouse effect (human-caused additional warming).",
+     "failure_type": "misconception",
+     "response": "Ask: without any greenhouse effect, what would Earth's average temperature be? (About −18°C — frozen.) Is the greenhouse effect bad? (The natural one is essential; the enhanced one from extra CO₂ is the problem.) The two-part framing separates necessary from harmful.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Enhanced greenhouse effect",
+     "definition": "The additional warming caused by human-released greenhouse gases increasing atmospheric concentrations beyond natural levels, trapping more outgoing infrared radiation and creating a positive energy imbalance.",
+     "failure_mode": "Students do not distinguish natural from enhanced greenhouse effect — they think the greenhouse effect itself is the problem rather than the human-driven amplification of a natural process.",
+     "failure_type": "misconception",
+     "response": "Present the comparison: without any greenhouse effect, Earth is −18°C (too cold). With the natural greenhouse effect, +15°C (habitable). With enhanced, +15°C and rising (too warm). The three-state comparison isolates the problem as the enhancement, not the effect itself.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Greenhouse gas",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A gas in the atmosphere that absorbs and re-emits infrared radiation, contributing to the greenhouse effect. The major greenhouse gases are carbon dioxide (CO₂), methane (CH₄), water vapour (H₂O) and nitrous oxide (N₂O). Each has different atmospheric lifetime and warming potential per molecule — methane is more potent per molecule but shorter-lived than CO₂.",
+   "failure_mode": "Students can name greenhouse gases but cannot explain the mechanism by which they warm the planet — they treat 'greenhouse gas = bad' as a fact without connecting it to infrared absorption and re-emission.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without understanding the mechanism, students cannot explain why increasing concentration leads to more warming, cannot compare gases by warming potential, and cannot evaluate mitigation strategies that target specific gases. The mechanism is the explanatory tool the descriptor demands.",
+   "response": "For each named greenhouse gas, ask: what does it DO to infrared radiation? (Absorbs and re-emits it.) What happens if there is more of it? (More infrared is trapped.) The mechanism-first questioning prevents the name-without-understanding failure.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Carbon dioxide",
+     "definition": "The primary greenhouse gas from fossil fuel combustion. CO₂ is long-lived in the atmosphere (centuries) and is the dominant driver of the enhanced greenhouse effect."
+    },
+    {
+     "term": "Methane",
+     "definition": "A greenhouse gas approximately 80 times more potent than CO₂ per molecule over 20 years, but shorter-lived (approximately 12 years). Sources include agriculture (livestock, rice paddies), landfill and natural gas leakage.",
+     "failure_mode": "Students think CO₂ is the only important greenhouse gas — they do not know that methane is approximately 80 times more potent per molecule over a 20-year period, making methane sources (agriculture, permafrost thaw) critically important despite lower total emissions.",
+     "failure_type": "misconception",
+     "response": "Ask: which is a stronger greenhouse gas molecule-for-molecule — CO₂ or methane? (Methane, by roughly 80×.) Then why do we focus on CO₂? (Volume — far more CO₂ is emitted.) The potency-vs-volume distinction explains why both matter.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Energy imbalance",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The condition in which more energy enters Earth's climate system than leaves it — incoming solar energy exceeds outgoing infrared emission. The current energy imbalance is caused primarily by increased greenhouse gas concentrations from human activities (fossil fuel combustion, agriculture, deforestation) adding CO₂ and CH₄ to the atmosphere, which trap more outgoing radiation. The imbalance drives warming until a new equilibrium is reached.",
+   "failure_mode": "Students describe global warming as 'the Earth is getting hotter' without connecting it to the energy balance framework — they state the effect (warming) without the cause (more energy entering than leaving the system).",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The energy imbalance concept is what makes the climate model explanatory rather than descriptive. Students who say 'CO₂ causes warming' without the energy balance mechanism cannot explain why warming continues even if emissions stabilise (the imbalance persists until the system re-equilibrates), cannot interpret indicators as evidence of imbalance, and cannot evaluate mitigation strategies in terms of reducing the imbalance.",
+   "response": "Return to the energy flow diagram from N2 and add an extra layer of greenhouse gas. Ask: has incoming energy changed? (No.) Has outgoing energy changed? (Yes — more is being trapped.) What does this mismatch produce? (Net energy gain = warming.) The diagram makes the imbalance visible as a flow mismatch.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Feedback loop",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A cycle in which the output of a process feeds back to amplify (positive feedback) or dampen (negative feedback) the original change. In climate science, key positive feedbacks include: warming → more water vapour → more greenhouse warming; and warming → ice melts → lower albedo → more absorption → more warming. Feedback loops explain why small initial changes in greenhouse gas concentration can produce larger temperature effects.",
+   "failure_mode": "Students describe climate change as a simple cause-effect chain (more CO₂ → warmer) without recognising that feedbacks amplify the initial change — they underestimate the system's sensitivity to perturbation.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without feedback reasoning, students cannot explain why climate models project larger temperature increases than CO₂ alone would produce, cannot interpret accelerating ice loss or water vapour data, and cannot evaluate why some tipping points are identified as particularly dangerous.",
+   "response": "Trace the water vapour feedback: warming → more evaporation → more water vapour (a greenhouse gas) → more warming → more evaporation. Ask students to identify what closes the loop and why the loop amplifies rather than stabilises. Then compare with a named negative feedback to build the category.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Water vapour feedback",
+     "definition": "A positive feedback where warming increases evaporation, adding more water vapour (a greenhouse gas) to the atmosphere, which traps more infrared radiation and amplifies warming further.",
+     "failure_mode": "Students do not recognise water vapour as the most abundant greenhouse gas or understand why it acts as a feedback amplifier rather than a driver — warmer air holds more water vapour, which traps more heat, which warms the air further.",
+     "failure_type": "fragmentation",
+     "response": "Trace the loop: CO₂ warms air → warmer air holds more water vapour → water vapour traps more heat → air warms further → holds even more water vapour. Ask: did water vapour start the warming? (No — CO₂ did.) Does it make it worse? (Yes — it amplifies it.)",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Climate change indicator",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A measurable variable that provides evidence of changes in the climate system resulting from energy imbalance. Indicators span all four spheres: atmospheric and ocean temperature (atmosphere/hydrosphere), sea level (hydrosphere), sea ice and permafrost extent (geosphere/hydrosphere), species distribution (biosphere). Each indicator reflects a different aspect of the energy imbalance and has a specific physical mechanism connecting it to warming.",
+   "failure_mode": "Students equate climate change with atmospheric temperature increase only — they miss that climate change manifests across all spheres and that some indicators (sea level, species distribution) are more consequential than temperature alone.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "The descriptor requires explaining 'patterns of global climate change' — plural. Students who know only the temperature indicator cannot analyse patterns across spheres, cannot interpret multi-indicator data sets, and produce reductive explanations that miss the systemic nature of climate change.",
+   "response": "Present a dashboard of five indicators over time (temperature, sea level, sea ice, species range, ocean pH). Ask students to explain the mechanism behind each using the energy model. The multi-indicator exercise builds the breadth the descriptor's 'patterns' demands.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Albedo feedback",
+     "definition": "A positive feedback loop: warming melts ice (high albedo) → exposes darker ocean or land (low albedo) → more solar radiation absorbed → more warming → more ice melts.",
+     "failure_mode": "Students know ice reflects sunlight but do not connect ice loss to a self-reinforcing warming loop — less ice means less reflection, which means more absorption, which means more warming, which means more ice loss.",
+     "failure_type": "fragmentation",
+     "response": "Trace the loop: warming → ice melts → darker ocean/land exposed → more solar energy absorbed → more warming → more ice melts. Ask: is this positive or negative feedback? (Positive — it amplifies the change.) The loop-tracing makes the self-reinforcing mechanism explicit.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Permafrost",
+     "definition": "Ground that remains frozen for at least two consecutive years, found primarily in polar and alpine regions. Permafrost stores large quantities of organic carbon; thawing releases CO₂ and CH₄, creating a positive feedback loop.",
+     "failure_mode": "Students know permafrost is thawing but do not connect it to a positive feedback loop — thawing releases trapped methane and CO₂, which increases warming, which causes more thawing.",
+     "failure_type": "fragmentation",
+     "response": "Ask: what happens to the methane and CO₂ trapped in frozen soil when it thaws? (Released to atmosphere.) What does more CO₂ and methane in the atmosphere do? (Increases warming.) What does more warming do to the remaining permafrost? (Thaws more of it.) The three-step loop makes the feedback visible.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Sea level rise",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The increase in average global sea level resulting from two mechanisms: thermal expansion of ocean water as it warms, and addition of water from melting land-based ice (glaciers, ice sheets). Sea level rise is one of the most consequential indicators of energy imbalance, with direct impacts on coastal populations and ecosystems. Both mechanisms are driven by the energy imbalance described in N4.",
+   "failure_mode": "Students think melting ice is the only cause of sea level rise — they miss thermal expansion, which currently contributes roughly half of observed rise. This produces an incomplete causal model that underestimates the scale and inevitability of rise even if ice melt were halted.",
+   "failure_type": "misconception",
+   "why_it_matters": "If only ice melt causes sea level rise, students cannot explain why sea level continues rising even in regions where ice melt is minimal, and they underestimate total projected rise. The thermal expansion mechanism also directly connects sea level to ocean temperature — making it a direct indicator of energy imbalance, not just an ice-dependent one.",
+   "response": "Ask: if you heat water in a sealed container, does the level rise even with no added water? (Yes — thermal expansion.) Then present the two contributions side by side: roughly half from thermal expansion, half from ice melt. Ask students to explain each mechanism using the energy flow model — both trace back to the same energy imbalance.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Thermal expansion",
+     "definition": "The increase in volume of water as its temperature rises. In the climate system, ocean warming causes thermal expansion that contributes approximately half of observed sea level rise — a direct physical consequence of the ocean absorbing excess heat from the energy imbalance.",
+     "failure_mode": "Students attribute sea level rise entirely to ice melting — they do not know that thermal expansion of existing ocean water (warmer water occupies more volume) is a significant and independent contributor to sea level rise.",
+     "failure_type": "misconception",
+     "response": "Ask: if no ice melted at all, would sea levels still rise with warming? (Yes — warmer water expands and takes up more volume.) The ice-free thought experiment isolates thermal expansion as an independent mechanism.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Mitigation",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "Actions that reduce the cause of climate change by decreasing greenhouse gas emissions or increasing greenhouse gas removal from the atmosphere — targeting the energy imbalance itself. Examples include transitioning to renewable energy, reforestation (increasing CO₂ uptake), and carbon capture technologies. Mitigation addresses the source of the problem; adaptation addresses the consequences.",
+   "failure_mode": "Students conflate mitigation with adaptation — they describe adapting to rising sea levels (building sea walls) as 'reducing climate change' rather than recognising it as adjusting to consequences while the cause persists.",
+   "failure_type": "misconception",
+   "why_it_matters": "The descriptor requires evaluating strategies in terms of the energy model. Mitigation targets the energy imbalance (reducing emissions or increasing removal); adaptation accepts the imbalance and adjusts to its effects. Conflating them prevents students from evaluating whether a strategy addresses the cause or the symptoms.",
+   "response": "Present two strategies: installing solar panels (mitigation — reduces emissions) and building a sea wall (adaptation — responds to sea level rise). Ask students to classify each and explain which addresses the energy imbalance and which addresses a consequence. The classification forces the distinction.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Adaptation",
+   "descriptor_code": "AC9S10U04",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "Actions that adjust human systems or natural environments to reduce vulnerability to the effects of climate change — responding to consequences rather than addressing the cause. Examples include building flood defences, developing drought-resistant crops, and relocating communities from vulnerable coastal areas. Adaptation does not reduce the energy imbalance; it reduces harm from its effects.",
+   "failure_mode": "Students think adaptation solves climate change — they treat adjusting to consequences as equivalent to fixing the problem, missing that adaptation without mitigation means adapting to progressively worse conditions.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If adaptation alone suffices, students see no urgency for mitigation. Understanding that adaptation addresses symptoms while mitigation addresses the cause is essential for evaluating the relative value and limits of each strategy — the 'evaluate' demand of the descriptor.",
+   "response": "Ask: if a city builds higher sea walls (adaptation) but emissions continue rising, what happens eventually? (The walls become insufficient as sea level keeps rising.) The thought experiment reveals adaptation's limits without mitigation — it buys time but doesn't solve the underlying imbalance.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Solar radiation",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "Energy from the Sun, mostly as visible light. When it reaches Earth, some is absorbed by the surface (warming it up) and some is reflected back to space. How much gets absorbed depends on what the surface looks like.",
+   "example": "A dark asphalt road absorbs most sunlight and gets very hot, while fresh snow reflects most of it and stays cold — different surfaces absorb different amounts of solar energy.",
+   "sub_terms": [
+    {
+     "term": "Albedo",
+     "definition": "How reflective a surface is. Ice and snow have high albedo (reflect a lot); oceans and dark soil have low albedo (absorb a lot).",
+     "example": "When Arctic ice melts and exposes dark ocean water, the albedo drops — more energy is absorbed, causing even more warming, which melts more ice."
+    }
+   ]
+  },
+  {
+   "term": "Energy balance",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "The balance between energy coming into Earth's system from the Sun and energy going out as infrared radiation. When these are equal, Earth's temperature stays stable. When more energy comes in than goes out, the planet warms up.",
+   "example": "Think of a bathtub with the tap on and the drain open — if water flows in as fast as it flows out, the level stays the same. If you partly block the drain (like adding greenhouse gases), water (energy) builds up.",
+   "sub_terms": [
+    {
+     "term": "Geosphere",
+     "definition": "The solid Earth — rocks, soil and landforms."
+    },
+    {
+     "term": "Biosphere",
+     "definition": "All living things and ecosystems on Earth."
+    },
+    {
+     "term": "Hydrosphere",
+     "definition": "All the water on Earth — oceans, rivers, lakes and ice."
+    },
+    {
+     "term": "Atmosphere",
+     "definition": "The layer of gases surrounding Earth, including the greenhouse gases that trap heat."
+    },
+    {
+     "term": "Ocean currents",
+     "definition": "Large-scale flows of water that move heat around the planet — warm currents carry tropical heat toward the poles, helping regulate climate in different regions."
+    }
+   ]
+  },
+  {
+   "term": "Greenhouse effect",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "The process where greenhouse gases in the atmosphere trap heat that Earth's surface is trying to radiate back to space. The surface absorbs sunlight, warms up, and emits infrared radiation — greenhouse gases catch some of that infrared and send it back down, keeping Earth warmer than it would be without an atmosphere.",
+   "example": "Without any greenhouse effect, Earth's average temperature would be about −18°C — far too cold for life as we know it. The natural greenhouse effect keeps it at about +15°C.",
+   "sub_terms": [
+    {
+     "term": "Infrared radiation",
+     "definition": "The type of energy that warm objects give off — you can't see it, but you can feel it as heat. Earth's surface emits infrared radiation, and this is what greenhouse gases trap.",
+     "example": "Hold your hand near (not on) a hot pavement on a summer evening — the warmth you feel is infrared radiation being emitted by the surface."
+    },
+    {
+     "term": "Natural greenhouse effect",
+     "definition": "The normal, baseline greenhouse warming that has kept Earth habitable for billions of years — this is a good thing."
+    },
+    {
+     "term": "Enhanced greenhouse effect",
+     "definition": "The extra warming caused by humans adding more greenhouse gases to the atmosphere — this is what's driving current climate change.",
+     "example": "Burning coal and oil releases CO₂ that had been locked underground for millions of years — this extra CO₂ traps more infrared radiation than the natural level would."
+    }
+   ]
+  },
+  {
+   "term": "Greenhouse gas",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "A gas in the atmosphere that absorbs and re-emits infrared radiation, contributing to the greenhouse effect. The main ones are carbon dioxide (CO₂), methane (CH₄), water vapour and nitrous oxide (N₂O).",
+   "example": "CO₂ from burning petrol in your car enters the atmosphere, where it absorbs infrared radiation that Earth was trying to send back to space — trapping that energy in the climate system.",
+   "sub_terms": [
+    {
+     "term": "Carbon dioxide",
+     "definition": "The main greenhouse gas from burning fossil fuels — it stays in the atmosphere for centuries."
+    },
+    {
+     "term": "Methane",
+     "definition": "A greenhouse gas much more powerful than CO₂ per molecule but shorter-lived — released by livestock, rice paddies, landfills and gas leaks."
+    }
+   ]
+  },
+  {
+   "term": "Energy imbalance",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "When more energy enters Earth's system than leaves it — like turning up the tap in a bathtub without opening the drain wider. The extra greenhouse gases trap more outgoing infrared radiation, creating a surplus of energy that warms the planet.",
+   "example": "Right now, Earth is absorbing about 1 watt per square metre more than it's emitting — that doesn't sound like much, but across the entire planet it adds up to enormous amounts of extra heat."
+  },
+  {
+   "term": "Feedback loop",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "typical",
+   "definition": "When the result of a process feeds back to make that process stronger (positive feedback) or weaker (negative feedback). In climate, positive feedbacks mean a small initial warming can trigger changes that cause even more warming.",
+   "example": "Warming melts ice → darker ocean absorbs more heat → more warming → more ice melts — each step makes the next one worse. That's a positive feedback loop.",
+   "sub_terms": [
+    {
+     "term": "Water vapour feedback",
+     "definition": "Warming causes more water to evaporate, and water vapour is itself a greenhouse gas — so more evaporation means more greenhouse warming, which causes more evaporation."
+    }
+   ]
+  },
+  {
+   "term": "Climate change indicator",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "A measurable sign that the climate is changing — not just temperature, but also sea level, ice coverage, species ranges, ocean acidity and more. Different indicators show up in different parts of the Earth system.",
+   "example": "Rising sea levels, shrinking Arctic ice, coral bleaching and birds nesting earlier in spring are all climate change indicators — they're different measurements showing the same underlying energy imbalance.",
+   "sub_terms": [
+    {
+     "term": "Albedo feedback",
+     "definition": "A feedback loop where melting ice (which reflects sunlight) exposes darker surfaces (which absorb it), causing more warming, which melts more ice."
+    },
+    {
+     "term": "Permafrost",
+     "definition": "Ground that stays frozen year-round in polar regions. When it thaws, it releases stored CO₂ and methane, adding more greenhouse gas and creating another feedback loop.",
+     "example": "Siberian permafrost has been frozen for thousands of years — as it thaws, the ancient plant material trapped inside decomposes and releases greenhouse gases."
+    }
+   ]
+  },
+  {
+   "term": "Sea level rise",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "The global increase in average sea level, caused by two things: ocean water expanding as it warms (thermal expansion) and extra water from melting glaciers and ice sheets. Both are driven by the same energy imbalance.",
+   "example": "Even if no ice melted at all, sea level would still rise just from the ocean water expanding as it gets warmer — that accounts for roughly half of the rise we've seen so far.",
+   "sub_terms": [
+    {
+     "term": "Thermal expansion",
+     "definition": "When water gets warmer, it takes up more space. The ocean is absorbing most of the extra heat from the energy imbalance, so it's expanding — raising sea levels."
+    }
+   ]
+  },
+  {
+   "term": "Mitigation",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "Actions that tackle the cause of climate change by reducing greenhouse gas emissions or removing greenhouse gases from the atmosphere — fixing the energy imbalance itself, not just dealing with its effects.",
+   "example": "Replacing a coal power plant with a solar farm is mitigation — it reduces CO₂ emissions going into the atmosphere, directly addressing the cause of the energy imbalance."
+  },
+  {
+   "term": "Adaptation",
+   "descriptor_code": "AC9S10U04",
+   "width_tier": "minimum",
+   "definition": "Actions that help people and ecosystems cope with the effects of climate change that are already happening or unavoidable — adjusting to consequences rather than fixing the cause.",
+   "example": "Building higher sea walls to protect a coastal city from rising sea levels is adaptation — it doesn't stop the sea from rising, but it protects the city from the effects."
+  }
+ ]
+}

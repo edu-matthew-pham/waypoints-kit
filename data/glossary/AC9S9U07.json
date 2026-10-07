@@ -1,0 +1,203 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U07",
+ "teacher_glossary": [
+  {
+   "term": "Chemical reaction",
+   "descriptor_code": "AC9S9U07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A process in which reactants are converted into products — new substances with different properties are formed. At Year 9, the key conceptual shift is understanding that chemical reactions involve the rearrangement of atoms, not the creation or destruction of matter. Observable indicators (colour change, gas production, precipitate, energy change) provide evidence that a reaction has occurred.",
+   "failure_mode": "Students identify chemical reactions by surface features alone (fizzing, colour change) without connecting these observations to the formation of new substances with different properties — they cannot distinguish chemical change from physical change at the particle level.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If chemical reactions are identified only by surface features, students cannot connect to the atom rearrangement model in N2 or understand why balanced equations are necessary. The particle-level framing — atoms rearrange to form new substances — is the scaffold for all equation work.",
+   "response": "Present a chemical reaction and a physical change side by side (e.g. dissolving salt vs burning magnesium). Ask: in which case are new substances formed? The new-substance test distinguishes chemical from physical change at the level required for equation writing.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Reactant",
+     "definition": "A starting substance that is consumed or transformed during a chemical reaction — it appears on the left side of a chemical equation. Reactant atoms are rearranged to form products."
+    },
+    {
+     "term": "Product",
+     "definition": "A new substance formed during a chemical reaction — it appears on the right side of a chemical equation. Products have different properties from reactants because the atoms are arranged differently."
+    }
+   ]
+  },
+  {
+   "term": "Atom rearrangement",
+   "descriptor_code": "AC9S9U07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The mechanistic model of chemical reactions: atoms present in the reactants break their existing bonds, rearrange, and form new bonds to produce products. The type and number of atoms is unchanged — only their arrangement changes. This model explains why mass is conserved (same atoms before and after) and why equations must be balanced (same atom count on both sides).",
+   "failure_mode": "Students understand chemical change only at the observable level — new substance formed — without the atom-level mechanism. They cannot explain WHY balancing an equation is a meaningful scientific constraint rather than an arbitrary mathematical rule.",
+   "failure_type": "misconception",
+   "why_it_matters": "Without the atom rearrangement model, balancing equations is a procedural exercise without conceptual grounding. Students who balance by rote cannot explain why subscripts cannot be changed (they define the substance) while coefficients can (they adjust the quantity), and cannot connect balanced equations to conservation of mass.",
+   "response": "Use molecular models (physical or digital) to build reactants, then physically break them apart and rebuild as products. Count atoms before and after — they match. Ask: were any atoms created or destroyed? (No.) Why must the equation show the same atoms on both sides? (Because the atoms are rearranged, not created.) The physical model makes rearrangement tangible.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Bond breaking",
+     "definition": "The process of separating atoms that are joined in reactant molecules. Bond breaking requires energy input — it is the first step in atom rearrangement.",
+     "failure_mode": "Students think bond breaking releases energy — they associate breaking with explosion and therefore with energy release. In fact, bond breaking requires energy input (endothermic); it is bond forming that releases energy (exothermic). This reversal is one of the most persistent misconceptions in chemistry.",
+     "failure_type": "misconception",
+     "response": "Ask: does it take effort to pull two magnets apart? (Yes — you put energy in.) Does it release energy when they snap together? (Yes — you hear the click and feel the pull.) Breaking bonds = pulling apart = energy in. Forming bonds = snapping together = energy out. The magnet analogy makes the direction intuitive.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Bond forming",
+     "definition": "The process of atoms joining in new arrangements to form product molecules. Bond forming releases energy — it is the second step in atom rearrangement.",
+     "failure_mode": "Students think bond forming requires energy input — the complement of the bond-breaking misconception. They reason that 'making something' must cost energy, missing that atoms releasing energy as they form stable bonds is what makes exothermic reactions possible.",
+     "failure_type": "misconception",
+     "response": "Return to the magnet analogy: when two magnets snap together, did you need to push them? (No — they pulled together on their own and released energy as the click.) Bond forming is the same — atoms pull together and release energy. The 'making = costs energy' intuition is wrong for bonds.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Word equation",
+   "descriptor_code": "AC9S9U07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A representation of a chemical reaction using the names of reactants and products connected by an arrow: reactants → products. Word equations identify what reacts and what is formed but do not show quantities, atom counts, or chemical formulas. They are the first formal representation of reactions and the foundation for symbolic equation writing.",
+   "failure_mode": "Students omit products — particularly water or CO₂ in combustion reactions — because they focus on the 'main' product and forget that all products must be included for the equation to represent the complete reaction.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Missing products in word equations propagate into symbolic equations and violate conservation of mass — if a product is omitted, atoms appear to vanish. The habit of listing ALL products must be established at the word equation level before symbolic notation is introduced.",
+   "response": "For every combustion reaction, require students to list all products explicitly: fuel + oxygen → carbon dioxide + water. Ask: what do hydrocarbons contain? (Carbon and hydrogen.) Where does each element end up? (Carbon → CO₂, hydrogen → H₂O.) The element-tracking prevents product omission.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Balanced chemical equation",
+   "descriptor_code": "AC9S9U07",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A symbolic representation of a chemical reaction using chemical formulas, with coefficients adjusted so that the number of atoms of each element is equal on both sides. Balancing demonstrates conservation of mass: same atoms in, same atoms out. Only coefficients (numbers in front of formulas) may be changed — subscripts (numbers within formulas) define the substance and cannot be altered.",
+   "failure_mode": "Students change subscripts instead of coefficients to balance equations — they alter the chemical formula of a substance (e.g. changing H₂O to H₂O₂) rather than adjusting the quantity of unchanged molecules. This produces a balanced atom count for a different reaction.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Changing subscripts changes the substance — H₂O₂ is hydrogen peroxide, not water. Students who balance by changing subscripts produce equations for reactions that didn't occur. The coefficient-only rule preserves substance identity while adjusting quantity — this distinction is fundamental to all subsequent chemistry.",
+   "response": "Write H₂O and H₂O₂ on the board. Ask: are these the same substance? (No — one is water, one is hydrogen peroxide.) Then: if we need more water molecules, do we change the formula or put a number in front? (Number in front — 2H₂O.) The substance-identity exercise makes the subscript/coefficient distinction consequential.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Coefficient",
+     "definition": "The number placed in front of a chemical formula in a balanced equation, indicating how many molecules of that substance are involved. Coefficients can be adjusted to balance the equation — they change the quantity of molecules, not the substance."
+    },
+    {
+     "term": "Subscript",
+     "definition": "The small number within a chemical formula indicating how many atoms of an element are in one molecule. Subscripts define the substance and CANNOT be changed during balancing — changing a subscript changes the substance."
+    }
+   ]
+  },
+  {
+   "term": "Conservation of mass",
+   "descriptor_code": "AC9S9U07",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The principle that the total mass of reactants equals the total mass of products in a chemical reaction — because atoms are rearranged, not created or destroyed. In a closed system, mass before and after a reaction is identical. In an open system, mass may appear to change because gases escape to or enter from the atmosphere — but total mass (including gases) is still conserved.",
+   "failure_mode": "Students think mass changes in chemical reactions — they observe that burning steel wool increases in mass (oxygen from air combines with iron) or that burning a candle decreases in mass (CO₂ and H₂O escape as gas) and conclude that mass is not conserved.",
+   "failure_type": "misconception",
+   "why_it_matters": "Conservation of mass is the law the entire standard is built to demonstrate. Students who think mass changes cannot connect balanced equations to physical reality, cannot explain open-system mass discrepancies, and arrive at Year 10 chemistry without the quantitative foundation for stoichiometry.",
+   "response": "Conduct the same reaction in an open and closed system. Open: burning steel wool on a balance (mass increases — oxygen from air is a reactant). Closed: same reaction in a sealed flask (mass unchanged). Ask: did the total mass change in either case? (No — in the open system, the 'extra' mass was oxygen from the air that became part of the product.)",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Closed system",
+     "definition": "A system where no matter enters or leaves — only energy can cross the boundary. In a closed system, mass before and after a reaction is identical, directly demonstrating conservation of mass.",
+     "failure_mode": "Students think sealing a container prevents the reaction from occurring — they confuse 'closed system' (matter cannot enter or leave) with 'stopped system' (nothing happens). In fact, reactions proceed normally in closed systems; the seal simply ensures all products are retained for mass measurement.",
+     "failure_type": "misconception",
+     "response": "Seal baking soda and vinegar in a flask on a balance. Ask: will they react? (Yes — fizzing occurs.) Did the mass change? (No.) The sealed-but-reacting demonstration separates 'closed' from 'stopped.'",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Open system",
+     "definition": "A system where matter (typically gases) can enter or leave. Apparent mass changes in open systems are explained by gases escaping (mass appears to decrease) or gases from the environment reacting with the sample (mass appears to increase)."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Chemical reaction",
+   "descriptor_code": "AC9S9U07",
+   "width_tier": "minimum",
+   "definition": "A process where starting substances (reactants) are transformed into completely new substances (products) with different properties. The key idea is that the atoms themselves don't change — they just rearrange into new combinations.",
+   "example": "When iron rusts, iron atoms and oxygen atoms rearrange to form iron oxide — a completely different substance with different properties. The iron and oxygen atoms are still there; they're just arranged differently.",
+   "sub_terms": [
+    {
+     "term": "Reactant",
+     "definition": "A starting substance that gets used up or changed in a reaction — it goes on the left side of the equation."
+    },
+    {
+     "term": "Product",
+     "definition": "A new substance formed by the reaction — it goes on the right side of the equation.",
+     "example": "In iron + oxygen → iron oxide, iron and oxygen are reactants; iron oxide is the product."
+    }
+   ]
+  },
+  {
+   "term": "Atom rearrangement",
+   "descriptor_code": "AC9S9U07",
+   "width_tier": "minimum",
+   "definition": "What actually happens in a chemical reaction at the atomic level: existing bonds between atoms break, and the atoms reconnect in new arrangements to form new substances. No atoms are created or destroyed — they just change partners.",
+   "example": "In 2H₂ + O₂ → 2H₂O, the hydrogen molecules and oxygen molecule break apart, and the atoms reconnect as water molecules. Count the atoms: same number of H and O on both sides.",
+   "sub_terms": [
+    {
+     "term": "Bond breaking",
+     "definition": "Separating atoms that are joined together — this takes energy (that's why many reactions need heat to start)."
+    },
+    {
+     "term": "Bond forming",
+     "definition": "Atoms joining together in new combinations — this releases energy."
+    }
+   ]
+  },
+  {
+   "term": "Word equation",
+   "descriptor_code": "AC9S9U07",
+   "width_tier": "minimum",
+   "definition": "A way of writing a chemical reaction using the names of the substances: reactants on the left, products on the right, with an arrow between them. It tells you WHAT reacts and WHAT is formed, but doesn't show how many atoms or molecules are involved.",
+   "example": "methane + oxygen → carbon dioxide + water — this tells you what goes in and what comes out, but not the numbers."
+  },
+  {
+   "term": "Balanced chemical equation",
+   "descriptor_code": "AC9S9U07",
+   "width_tier": "minimum",
+   "definition": "A symbolic equation using chemical formulas where the number of each type of atom is the same on both sides. You balance it by putting numbers in front of formulas (coefficients) — NEVER by changing the small numbers inside formulas (subscripts), because that would change the substance.",
+   "example": "CH₄ + 2O₂ → CO₂ + 2H₂O is balanced: 1 carbon, 4 hydrogens and 4 oxygens on each side. The '2' in front of O₂ means two oxygen molecules — we didn't change what O₂ is, just how many.",
+   "sub_terms": [
+    {
+     "term": "Coefficient",
+     "definition": "The big number in front of a formula — it tells you how many molecules. You CAN change coefficients when balancing.",
+     "example": "In 2H₂O, the 2 means two water molecules. Each is still H₂O — we just need two of them."
+    },
+    {
+     "term": "Subscript",
+     "definition": "The small number inside a formula — it tells you how many atoms of that element are in one molecule. You CANNOT change subscripts when balancing because that changes the substance.",
+     "example": "H₂O has subscript 2 on H — meaning 2 hydrogen atoms per water molecule. Changing it to H₃O would be a completely different substance."
+    }
+   ]
+  },
+  {
+   "term": "Conservation of mass",
+   "descriptor_code": "AC9S9U07",
+   "width_tier": "minimum",
+   "definition": "The total mass of everything before a reaction equals the total mass of everything after — because atoms are rearranged, not created or destroyed. If mass seems to change, something entered or left the system (usually a gas).",
+   "example": "Burning steel wool on a balance makes it heavier — not because mass was created, but because oxygen from the air combined with the iron. The oxygen's mass was already there; it just wasn't on the balance.",
+   "sub_terms": [
+    {
+     "term": "Closed system",
+     "definition": "A sealed container where nothing gets in or out — perfect for proving conservation of mass because the mass on the balance can't change.",
+     "example": "Seal a flask containing baking soda and vinegar — they react and produce gas, but the total mass stays exactly the same because the gas can't escape."
+    },
+    {
+     "term": "Open system",
+     "definition": "A container open to the air where gases can escape or enter — mass seems to change but it's just because you're not weighing everything.",
+     "example": "A burning candle seems to lose mass because the CO₂ and water vapour float away — but if you could weigh all the gases, the total would be the same."
+    }
+   ]
+  }
+ ]
+}

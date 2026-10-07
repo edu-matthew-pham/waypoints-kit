@@ -1,0 +1,446 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U02",
+ "teacher_glossary": [
+  {
+   "term": "Cell specialisation",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Refines AC9S8U01. Cell specialisation is now the mechanism that explains tissue formation — similar specialised cells group into tissues because they share structural features and function. The structure-function reasoning introduced in U01 (specialised cells have features matched to their role) is extended to a new level of organisation: specialisation produces variety, and that variety is what makes tissues, organs and organ systems possible.",
+   "failure_mode": "Students can describe individual specialised cells from U01 but cannot trace the implication — they do not connect cell specialisation to tissue formation, treating the two concepts as unrelated.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If cell specialisation and tissue formation are unrelated concepts, students cannot explain why tissues exist or why organs require multiple tissue types. The specialisation → tissue → organ → organ system hierarchy depends on each level emerging from the one below.",
+   "response": "Ask: 'Why do muscle cells group together instead of mixing randomly with nerve cells?' The answer — similar specialised cells perform a shared function better as a group — is the definition of tissue. The connection makes tissue formation a consequence of specialisation, not a separate fact.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Organelle complement",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Extends AC9S8U01 (bare sub_term). The specific set of organelles — their types and quantities — present in a particular cell. A cell's organelle complement reflects its function: muscle cells have many mitochondria because contraction requires large amounts of energy; secretory cells have many ribosomes because they produce large quantities of protein. Organelle complement is the physical mechanism by which specialisation is realised — it explains why specialised cells look and behave differently despite containing the same DNA.",
+   "failure_mode": "Students list organelles as a fixed set every cell has equally — miss that the number and prominence of organelles varies between specialised cells.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all cells have the same organelles in the same quantities, there is no physical basis for cell specialisation. Students need to understand variable organelle complement to explain why specialised cells look and function differently despite having the same DNA.",
+   "response": "Present organelle counts for two different cell types (e.g. 'muscle cell: ~2000 mitochondria; skin cell: ~300 mitochondria') and ask why the difference exists. The quantitative contrast makes the concept concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Golgi apparatus",
+     "definition": "An organelle that packages and distributes proteins and other molecules produced by the cell. Prominent in secretory cells."
+    }
+   ]
+  },
+  {
+   "term": "Red blood cell",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "A specialised animal cell that transports oxygen through the bloodstream. Red blood cells have a biconcave disc shape that maximises surface area for gas exchange, no nucleus to make room for more haemoglobin, and are flexible enough to squeeze through narrow capillaries. Their structure is a clear example of specialisation — every feature serves the oxygen transport function.",
+   "failure_mode": "Students describe the red blood cell's features (no nucleus, biconcave shape) without connecting each feature to the transport function — the features become a memorised list rather than a structure-function argument.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If students learn cell features as lists rather than structure-function pairs, they cannot transfer the analytical method to unfamiliar specialised cells. The structure-function reasoning practised here is the method used throughout the standard.",
+   "response": "For each feature (biconcave, no nucleus, flexible), ask 'how does this help the cell carry oxygen?' Students who can answer this for red blood cells can apply the same question to novel cell types.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Biconcave",
+     "definition": "A disc shape that is concave on both sides, increasing surface area relative to volume for efficient gas exchange."
+    },
+    {
+     "term": "Haemoglobin",
+     "definition": "The iron-containing protein in red blood cells that binds to oxygen molecules for transport through the bloodstream."
+    }
+   ]
+  },
+  {
+   "term": "Xylem cell",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "A specialised plant cell that transports water from roots to leaves. Xylem cells are dead at maturity, hollow (no cytoplasm or organelles blocking the tube), and have thick, rigid cell walls reinforced with lignin. These structural features create continuous tubes optimised for one-way water transport under tension.",
+   "failure_mode": "Students think xylem cells are alive and actively pump water — miss that their function depends on being dead, hollow tubes.",
+   "failure_type": "misconception",
+   "why_it_matters": "If xylem cells are alive, students expect them to have typical organelles and active transport mechanisms. Understanding that function can come from structural properties of dead cells is a significant conceptual step in structure-function reasoning.",
+   "response": "Compare xylem to a drainpipe — the pipe works because it is hollow and rigid, not because it is alive. Ask what would happen if xylem cells retained their cytoplasm and organelles.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Nerve cell",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "A specialised animal cell that transmits electrical signals over distance. Nerve cells have a long axon (up to a metre in humans) for signal transmission, many dendrites for receiving signals from neighbouring cells, and an insulating sheath to speed signal transmission. Their elongated shape is the defining structural adaptation.",
+   "failure_mode": "Students draw nerve cells as round blobs with a tail — miss that the extreme elongation and branching are the structural features that enable signal transmission over distance.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If nerve cell structure is not understood, students cannot explain how electrical signals travel from one body part to another — the connection between cell shape and organism-level function is lost.",
+   "response": "Show a scale diagram of a nerve cell alongside a round cell and ask why the extreme length matters for signal transmission. The visual contrast makes elongation as an adaptation visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Axon",
+     "definition": "The long extension of a nerve cell that carries electrical signals away from the cell body toward other cells.",
+     "failure_mode": "Students confuse the direction — think the axon receives signals rather than carrying them away from the cell body.",
+     "failure_type": "misconception",
+     "response": "Use a mnemonic: Axon = Away. Then trace a signal through the cell: dendrites receive → cell body processes → axon carries away. The directional trace makes the roles distinct.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Dendrite",
+     "definition": "Short branching extensions of a nerve cell that receive incoming signals from other cells.",
+     "failure_mode": "Students confuse dendrites with axons — miss that dendrites are the receiving end while the axon is the sending end.",
+     "failure_type": "misconception",
+     "response": "Compare the branching structure of dendrites (many short branches = many input connections) to the single long axon (one output path). The shape reflects the function — receiving needs many connections, sending needs distance.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Muscle cell",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "A specialised animal cell that contracts to produce movement. Muscle cells are elongated, contain many mitochondria to supply the energy required for sustained contraction, and contain contractile protein fibres. Their high mitochondrial count is a direct example of how organelle complement reflects function.",
+   "failure_mode": "Students know muscle cells contract but cannot explain why they have many mitochondria — miss the energy demand connection.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "The mitochondria-energy-contraction chain is the clearest example of organelle complement reflecting function. Students who miss it cannot apply the same reasoning to other specialised cells.",
+   "response": "Ask: 'Contraction uses energy. Where does cell energy come from? So which organelle would a muscle cell need many of?' The reasoning chain is more durable than memorising 'muscle cells have many mitochondria.'",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Tissue",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A group of similar specialised cells that work together to perform a shared function. Tissue identity is defined by cell type and function, not just location. Tissues perform functions that individual cells cannot achieve at scale — the collective action of many similar cells produces an emergent function (contraction, protection, transport).",
+   "failure_mode": "Students think a tissue is just any group of cells near each other — miss that tissue requires similar cell type and shared function.",
+   "failure_type": "misconception",
+   "why_it_matters": "If tissues are just location-based groupings, students cannot explain why organs contain multiple tissue types or why different tissues contribute different functions to an organ. The cell-type-and-function definition is the prerequisite for organ composition analysis.",
+   "response": "Present a group of mixed cell types and a group of identical cell types. Ask which is a tissue and why. The contrast forces the 'similar cells, shared function' criterion.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Muscle tissue",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A tissue composed of muscle cells that contracts as a coordinated unit to produce movement. Found in the heart, limbs, digestive tract and other organs requiring contractile function. Muscle tissue demonstrates how many similar specialised cells acting together produce an organ-level function that individual cells cannot.",
+   "failure_mode": "Students think muscle tissue is only found in arms and legs — miss that contractile tissue is present in the heart, digestive tract and other internal organs.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "A narrow view of where muscle tissue occurs prevents students from identifying it as a component of organs like the heart (N3). The tissue concept must generalise beyond skeletal muscles.",
+   "response": "List organs that contain muscle tissue (heart, stomach, bladder) and ask what function it performs in each. The variety makes the general principle visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Cardiac muscle tissue",
+     "definition": "Muscle tissue specific to the heart that contracts rhythmically without fatigue. Unlike skeletal muscle, cardiac muscle is involuntary.",
+     "failure_mode": "Students assume all muscle is voluntary — miss that cardiac muscle contracts automatically without conscious control, which is why the heart beats continuously.",
+     "failure_type": "misconception",
+     "response": "Ask: 'Do you have to think about making your heart beat? What would happen if it were voluntary like your arm muscles?' The consequence makes the involuntary distinction functionally important rather than a trivia fact.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Epithelial tissue",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A tissue composed of tightly packed cells that covers body surfaces and lines internal organs, providing protection and controlling exchange. Found lining the heart, blood vessels, digestive tract and skin surface. Epithelial tissue functions as a boundary layer — separating internal from external environments.",
+   "failure_mode": "Students think epithelial tissue means skin only — miss that it lines internal organs and blood vessels too.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If epithelial tissue is only skin, students cannot identify it as a component of internal organs like the heart or intestine. The lining function is essential for organ composition analysis in N3.",
+   "response": "Ask students to name surfaces inside the body that need a protective lining (blood vessels, stomach, lungs). Each is lined by epithelial tissue — the concept extends well beyond skin.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Epithelial cell",
+     "definition": "A tightly packed cell that forms epithelial tissue — flat, thin cells arranged in sheets to cover surfaces and line organs."
+    }
+   ]
+  },
+  {
+   "term": "Xylem tissue",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A plant tissue composed of dead, hollow xylem cells arranged end-to-end to form continuous tubes for water transport from roots to leaves. Xylem tissue is part of the plant vascular system and demonstrates how cell specialisation produces tissue-level function — individual hollow cells become a transport pipeline.",
+   "failure_mode": "Students describe xylem as a single tube rather than a tissue made of many individual cells joined together.",
+   "failure_type": "misconception",
+   "why_it_matters": "If xylem is a single tube, the cell → tissue organisational level is skipped. Students need to see that the transport function emerges from many specialised cells arranged together — not from a pre-formed pipe.",
+   "response": "Show a cross-section of xylem tissue and ask students to identify the individual cells that make up the tubes. The microscopy or diagram makes the many-cells-to-one-tissue relationship visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Phloem tissue",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A plant tissue that transports dissolved sugars (products of photosynthesis) from leaves to other parts of the plant. Composed of living sieve tube cells with perforated end walls that allow sugar solution to flow through. Phloem transports in both directions, unlike xylem which only moves water upward.",
+   "failure_mode": "Students confuse phloem with xylem — both are plant transport tissues but they carry different substances in different directions.",
+   "failure_type": "misconception",
+   "why_it_matters": "If phloem and xylem are interchangeable, students cannot explain why plants need two vascular tissues. The substance-direction distinction is essential for understanding the plant vascular system in N4.",
+   "response": "Use a two-column comparison: xylem carries water upward; phloem carries sugar in both directions. Ask what would happen if a plant lost phloem but kept xylem — the consequences make the distinction functional.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Sieve tube cell",
+     "definition": "A living plant cell with perforated end walls that forms phloem tissue, allowing dissolved sugars to flow through."
+    }
+   ]
+  },
+  {
+   "term": "Organ",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A structure composed of multiple tissue types working together to perform an integrated function. No single tissue type can perform all the functions an organ needs — the heart requires muscle tissue (contraction), epithelial tissue (smooth lining) and connective tissue (structural support). Organs are defined by multi-tissue composition and integrated function.",
+   "failure_mode": "Students think of organs as single-material structures rather than integrated multi-tissue structures — they miss that organs require coordination of different tissue types.",
+   "failure_type": "misconception",
+   "why_it_matters": "If organs are single-tissue structures, students cannot explain why organ function depends on the coordination of component tissues, or analyse how tissue-level disorder (e.g. atherosclerosis) impairs organ function. The multi-tissue composition concept is the prerequisite for organ system analysis.",
+   "response": "Ask students to name the tissue types in the heart and explain what each contributes. If the heart had only muscle tissue, what functions would be missing? The gap analysis makes multi-tissue composition necessary rather than incidental.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Connective tissue",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "A tissue that provides structural support, connects other tissues, and holds organs together. Includes bone, cartilage, tendons, ligaments and the supportive framework within organs. Connective tissue is the structural component that gives organs their shape and physical integrity.",
+   "failure_mode": "Students do not recognise connective tissue as a tissue type — they think of bone and cartilage as separate categories rather than forms of connective tissue.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If connective tissue is not recognised as a tissue category, students miss the structural component when analysing organ composition. Every organ requires structural support, which is the connective tissue contribution.",
+   "response": "List examples of connective tissue (bone, cartilage, tendons, blood vessel walls) and ask what function they share. The common thread — structural support and connection — defines the category.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Organ system",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A group of organs that work together to perform a major survival function for the organism. The system fails if any organ fails — each organ's contribution is necessary for the system to achieve its function. Organ systems are the highest level of biological organisation below the organism.",
+   "failure_mode": "Students list organs within a system without explaining how they coordinate — the system is treated as a collection rather than an integrated functional unit.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If organ systems are just collections, students cannot explain how system failure propagates from a single organ or why each organ's contribution matters. The coordination concept is what makes 'system' different from 'group.'",
+   "response": "Ask what happens to the circulatory system if the heart stops — then if blood vessels are blocked. Each organ failure impairs the whole system. The failure analysis makes coordination visible.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Circulatory system",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "An animal organ system consisting of the heart, blood vessels and blood that transports oxygen, nutrients and waste products throughout the body. The circulatory system enables individual survival by delivering oxygen to cells and removing carbon dioxide. It is structurally analogous to the plant vascular system — both solve the transport problem, using different organs.",
+   "failure_mode": "Students describe the circulatory system as just the heart — miss that blood vessels and blood are organs with distinct functions within the system.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If the system is just the heart, students cannot analyse how each organ contributes to the transport function or compare the system to plant vascular transport at the organ level.",
+   "response": "Ask students to trace the path of an oxygen molecule from lungs to a muscle cell. Each structure it passes through (heart, arteries, capillaries) is a component with a role — the trace makes all organs visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Blood vessels",
+     "definition": "Tubes (arteries, veins, capillaries) that carry blood throughout the body, connecting the heart to all tissues and organs."
+    }
+   ]
+  },
+  {
+   "term": "Digestive system",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "An animal organ system consisting of the mouth, stomach, intestines, liver and other organs that breaks down food into nutrients the body can absorb. Each organ performs a specific stage of digestion — mechanical breakdown, chemical breakdown, absorption, waste removal — and the sequence matters.",
+   "failure_mode": "Students think digestion happens in the stomach only — miss that different organs perform different digestive stages in sequence.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If digestion is stomach-only, students cannot analyse the system as a coordinated sequence of organs or explain why intestinal, liver or mouth function matters for the overall process.",
+   "response": "Trace a piece of food from mouth to waste: what happens at each organ? The sequential trace reveals that every organ contributes a necessary step.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Vascular system (plant)",
+   "descriptor_code": "AC9S8U02",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A plant organ system consisting of xylem and phloem tissues running through roots, stems and leaves that transports water, minerals and sugars throughout the plant. The vascular system enables individual survival by delivering water to photosynthesising leaves and distributing sugar to non-photosynthesising parts. Structurally analogous to the animal circulatory system — both solve the internal transport problem using different structural solutions.",
+   "failure_mode": "Students think plants do not have organ systems — they apply the concept only to animals.",
+   "failure_type": "misconception",
+   "why_it_matters": "If plants lack organ systems, the plant-animal comparison the descriptor requires cannot be made. Students need to recognise that plants face the same survival challenges as animals and solve them with structurally different but functionally analogous systems.",
+   "response": "Ask: 'How does water get from roots to leaves? How does sugar get from leaves to roots?' Both require coordinated organs — that is a system. Compare directly to the circulatory system's transport function.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Cell specialisation",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "minimum",
+   "definition": "The reason tissues exist — because cells specialise for different jobs, cells with the same specialisation naturally group together to work as a team. Specialisation creates variety, and that variety is what builds tissues, organs and organ systems.",
+   "example": "Muscle cells are all specialised for contraction, so they group together as muscle tissue. Nerve cells are specialised for signal transmission, so they group as nerve tissue. Specialisation is the starting point for the whole hierarchy."
+  },
+  {
+   "term": "Organelle complement",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "minimum",
+   "definition": "The particular set of organelles a cell has, including how many of each. Different specialised cells have different organelle complements to match their jobs.",
+   "example": "Muscle cells have about 2000 mitochondria because contraction uses huge amounts of energy, while a skin cell might only have 300.",
+   "sub_terms": [
+    {
+     "term": "Golgi apparatus",
+     "definition": "An organelle that packages and sends out proteins and other molecules the cell has made."
+    }
+   ]
+  },
+  {
+   "term": "Red blood cell",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A specialised cell designed to carry oxygen through your blood. It has a squished disc shape for maximum surface area, no nucleus to make more room for haemoglobin, and is flexible enough to squeeze through tiny blood vessels.",
+   "example": "Every feature of a red blood cell helps it carry oxygen — even losing its nucleus makes more room for the oxygen-carrying molecule haemoglobin.",
+   "sub_terms": [
+    {
+     "term": "Biconcave",
+     "definition": "A shape that curves inward on both sides, like a squished ball — this gives the cell more surface area."
+    },
+    {
+     "term": "Haemoglobin",
+     "definition": "The iron-containing protein in red blood cells that binds to oxygen molecules for transport through the bloodstream."
+    }
+   ]
+  },
+  {
+   "term": "Xylem cell",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A specialised plant cell that carries water from roots up to leaves. Xylem cells are actually dead and hollow — like tiny drainpipes with thick, rigid walls.",
+   "example": "A xylem cell works because it is hollow and dead — if it still had cytoplasm and organelles inside, water could not flow through it easily."
+  },
+  {
+   "term": "Nerve cell",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A specialised cell that carries electrical signals around your body. Nerve cells can be extremely long — up to a metre — with branching ends to connect to other cells.",
+   "example": "A nerve cell running from your spinal cord to your foot can be almost a metre long — its extreme length lets it carry signals over that whole distance.",
+   "sub_terms": [
+    {
+     "term": "Axon",
+     "definition": "The long part of a nerve cell that carries signals away from the cell body."
+    },
+    {
+     "term": "Dendrite",
+     "definition": "Short branching parts of a nerve cell that pick up incoming signals from other cells."
+    }
+   ]
+  },
+  {
+   "term": "Muscle cell",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A specialised cell that contracts to produce movement. Muscle cells are elongated and packed with mitochondria because contraction uses a lot of energy.",
+   "example": "Muscle cells have thousands of mitochondria — contraction is hard work, so the cell needs lots of energy-producing organelles."
+  },
+  {
+   "term": "Tissue",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "minimum",
+   "definition": "A group of similar specialised cells that work together to do one job. A tissue is not just any group of cells near each other — the cells must be the same type and share a function.",
+   "example": "Muscle tissue is made of many muscle cells contracting together — one muscle cell alone could not move your arm, but thousands working as a tissue can."
+  },
+  {
+   "term": "Muscle tissue",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A tissue made of muscle cells that contracts to produce movement. Found not just in your arms and legs, but also in your heart, stomach and other internal organs.",
+   "example": "Your heart is constantly contracting because it contains cardiac muscle tissue — a type of muscle tissue that never gets tired.",
+   "sub_terms": [
+    {
+     "term": "Cardiac muscle tissue",
+     "definition": "The special muscle tissue in your heart that contracts rhythmically on its own without you thinking about it."
+    }
+   ]
+  },
+  {
+   "term": "Epithelial tissue",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A tissue made of tightly packed cells that covers surfaces and lines the inside of organs, providing protection. It is not just skin — it lines your blood vessels, stomach and lungs too.",
+   "example": "The inside of your stomach is lined with epithelial tissue that protects the stomach wall from the acid inside.",
+   "sub_terms": [
+    {
+     "term": "Epithelial cell",
+     "definition": "A tightly packed cell that forms epithelial tissue — flat, thin cells arranged in sheets to cover surfaces and line organs."
+    }
+   ]
+  },
+  {
+   "term": "Xylem tissue",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A plant tissue made of many hollow xylem cells stacked end-to-end to form long tubes that carry water from roots to leaves.",
+   "example": "A single hollow xylem cell is like one section of pipe — many of them joined together form the xylem tissue that can carry water to the top of a tall tree."
+  },
+  {
+   "term": "Phloem tissue",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A plant tissue that carries dissolved sugars from the leaves (where they are made by photosynthesis) to other parts of the plant that need energy.",
+   "example": "When a fruit is growing, phloem tissue delivers sugar from the leaves to the fruit — that is why fruit tastes sweet.",
+   "sub_terms": [
+    {
+     "term": "Sieve tube cell",
+     "definition": "A living plant cell with perforated end walls that forms phloem tissue, allowing dissolved sugars to flow through."
+    }
+   ]
+  },
+  {
+   "term": "Organ",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "minimum",
+   "definition": "A body part made of several different types of tissue working together to do a job. No single tissue type can do everything an organ needs — that is why organs contain multiple tissues.",
+   "example": "Your heart has muscle tissue (to pump), epithelial tissue (to line the inside smoothly) and connective tissue (to hold it together) — all three are needed for it to work."
+  },
+  {
+   "term": "Connective tissue",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A tissue that provides structural support and holds other tissues and organs together. Bone, cartilage and tendons are all types of connective tissue.",
+   "example": "The framework that holds your heart in shape and connects it to blood vessels is connective tissue — without it, the heart would have no structure."
+  },
+  {
+   "term": "Organ system",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "minimum",
+   "definition": "A group of organs that work together to carry out a major job the body needs to survive. If one organ in the system fails, the whole system is affected.",
+   "example": "Your circulatory system includes the heart, blood vessels and blood — if any one of these fails, oxygen cannot reach your cells."
+  },
+  {
+   "term": "Circulatory system",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "The organ system that moves blood around your body, delivering oxygen and nutrients to cells and carrying away waste. It includes the heart, blood vessels and blood.",
+   "example": "When you exercise, your circulatory system works harder — your heart pumps faster to deliver more oxygen to your muscles through your blood vessels.",
+   "sub_terms": [
+    {
+     "term": "Blood vessels",
+     "definition": "The tubes (arteries, veins and capillaries) that carry blood between the heart and every part of your body."
+    }
+   ]
+  },
+  {
+   "term": "Digestive system",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "The organ system that breaks down food into nutrients your body can use. Each organ does a different stage — your mouth chews, your stomach uses acid, your intestines absorb nutrients.",
+   "example": "Digestion does not just happen in the stomach — by the time food reaches your small intestine, it has already been broken down by your mouth and stomach first."
+  },
+  {
+   "term": "Vascular system (plant)",
+   "descriptor_code": "AC9S8U02",
+   "width_tier": "typical",
+   "definition": "A plant's transport system, made up of xylem (carrying water up) and phloem (carrying sugar around). It works like the circulatory system in animals but uses different structures.",
+   "example": "A plant's vascular system solves the same problem as your circulatory system — getting essential substances to every part of the organism."
+  }
+ ]
+}

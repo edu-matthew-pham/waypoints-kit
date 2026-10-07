@@ -1,0 +1,188 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8K01",
+ "teacher_glossary": [
+  {
+   "term": "RAM",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Random Access Memory — volatile working memory that holds the data and instructions a processor is actively using. RAM is temporary; its contents are lost when the device is powered off. More RAM allows a device to handle more tasks or larger files simultaneously.",
+   "failure_mode": "Students conflate RAM with storage, treating them as the same specification — 'more memory means more space for files.'",
+   "failure_type": "misconception",
+   "why_it_matters": "If RAM and storage are interchangeable, students cannot reason about why a device with plenty of storage still runs slowly with insufficient RAM, or why adding RAM improves multitasking but not file capacity.",
+   "response": "Compare two devices: same storage, different RAM. Ask students to predict which handles 20 open browser tabs better and why. The storage-identical comparison isolates the RAM variable.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Storage",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Persistent memory that retains data when the device is powered off — including files, applications and the operating system. Storage capacity determines how much data a device can hold; storage speed (HDD vs SSD) affects how quickly data can be read and written.",
+   "failure_mode": "Students treat storage capacity as the primary determinant of device speed — 'it's slow because it's almost full.'",
+   "failure_type": "misconception",
+   "why_it_matters": "While very full storage can slow a device marginally, the relationship between storage and speed is primarily about storage type (SSD vs HDD), not capacity. Students who fixate on capacity cannot diagnose performance issues caused by other specifications.",
+   "response": "Compare an old laptop with a large HDD to a new laptop with a smaller SSD. The smaller-storage device is faster — ask students to explain why capacity alone doesn't determine speed.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "HDD"
+    },
+    {
+     "term": "SSD"
+    }
+   ]
+  },
+  {
+   "term": "Bandwidth",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The maximum rate at which data can be transmitted over a network connection, typically measured in Mbps or Gbps. Higher bandwidth allows more data to flow per second, but bandwidth alone does not determine the user's experience — latency and reliability also matter.",
+   "failure_mode": "Students conflate bandwidth with 'internet speed' as a single concept, and cannot distinguish bandwidth (throughput) from latency (delay).",
+   "failure_type": "misconception",
+   "why_it_matters": "If bandwidth is the only network concept students hold, they cannot explain why a high-bandwidth connection still lags in gaming (latency issue) or why a video call drops despite good speed (reliability issue).",
+   "response": "Present two scenarios: downloading a large file (bandwidth-dependent) vs playing an online game (latency-dependent). Ask which benefits more from higher bandwidth and why.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Processor",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The component that executes instructions in a digital system. At Year 7–8, students distinguish two types: the CPU (general-purpose, handles sequential tasks) and the GPU (specialised for parallel computation — graphics, AI training, video rendering). Processor speed and type determine how quickly a device can complete computational tasks.",
+   "failure_mode": "Students think 'faster processor = better at everything' without distinguishing workload types that benefit from CPU vs GPU.",
+   "failure_type": "misconception",
+   "why_it_matters": "If processor performance is one-dimensional, students cannot explain why a device with a fast CPU still struggles with video rendering (GPU-dependent) or why gaming PCs prioritise GPU specifications.",
+   "response": "Compare two tasks on the same device: word processing (CPU) vs video editing (GPU). Ask which processor specification matters for each and why.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "CPU"
+    },
+    {
+     "term": "GPU",
+     "failure_mode": "Think GPU is only for gaming — miss its role in parallel computation for AI training, video rendering and scientific simulation.",
+     "failure_type": "narrow_repertoire",
+     "response": "Show examples of GPU use beyond gaming: AI model training, weather simulation, video effects. Ask what these tasks have in common that makes GPU faster than CPU.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Bottleneck",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "The single hardware component that limits how fast a device can perform a particular task. Which component is the bottleneck depends on the workload — a task might be bottlenecked by RAM, GPU, storage speed or bandwidth. Identifying the bottleneck is the key to diagnosing performance issues.",
+   "failure_mode": "Students assume performance is determined by overall device quality rather than identifying which specific component limits a particular task.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without the bottleneck concept, students cannot make principled hardware selection decisions — they select by brand or price rather than matching specifications to workload demands.",
+   "response": "Present a scenario where video editing is slow. Ask students to identify which specification is the limiting factor before suggesting an upgrade. The diagnosis must precede the prescription.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Workload",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "What a task demands from a device's hardware specifications. Different tasks stress different components — video editing demands GPU and RAM, web browsing demands CPU and bandwidth, large file storage demands disk capacity. Workload analysis is the prerequisite for principled hardware selection.",
+   "failure_mode": "Students select hardware by brand or price without analysing what the task actually demands from each specification.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without workload analysis, hardware selection is pattern-matching ('gamers need this brand') rather than reasoning. Students cannot justify their choices or adapt when the workload changes.",
+   "response": "Present a workload and ask students to list which specifications it stresses before looking at any hardware options. The workload analysis must come before the selection.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Cloud computing",
+   "descriptor_code": "AC9TDI8K01",
+   "first_waypoint": 3,
+   "width_tier": "wider",
+   "definition": "Using remote servers accessed over the internet to store, manage and process data instead of relying on local hardware. Cloud computing changes hardware selection decisions — tasks that exceed local specifications (AI training, large-scale data processing) can be offloaded to cloud resources with higher specifications.",
+   "failure_mode": "Students think cloud computing eliminates the need for local hardware specifications — 'everything is in the cloud so specs don't matter.'",
+   "failure_type": "misconception",
+   "why_it_matters": "Cloud computing shifts where specifications matter, it doesn't remove their relevance. Bandwidth and latency become critical for cloud tasks; local specs still matter for responsiveness and offline work. Students who dismiss local specs cannot reason about when cloud vs local is appropriate.",
+   "response": "Compare the same task done locally vs in the cloud. Ask which specifications matter in each case — local specs for one, bandwidth/latency for the other.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "RAM",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "minimum",
+   "definition": "Your device's short-term working memory — it holds what the processor is using right now. When you turn the device off, RAM is cleared. More RAM means your device can handle more open apps or bigger files at once.",
+   "example": "If you have lots of browser tabs open and your laptop slows down, it might need more RAM — not more storage."
+  },
+  {
+   "term": "Storage",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "minimum",
+   "definition": "Where your device keeps files, apps and the operating system permanently — even when it's turned off. How much storage you have determines how many files you can save; how fast the storage is affects how quickly things load.",
+   "example": "An SSD loads apps much faster than an older hard drive, even if they have the same amount of space.",
+   "sub_terms": [
+    {
+     "term": "HDD"
+    },
+    {
+     "term": "SSD"
+    }
+   ]
+  },
+  {
+   "term": "Bandwidth",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "minimum",
+   "definition": "How much data your internet connection can carry per second. Higher bandwidth means you can download or stream faster, but it's not the only thing that affects your experience online.",
+   "example": "Downloading a movie needs high bandwidth, but playing an online game smoothly depends more on low latency than high bandwidth."
+  },
+  {
+   "term": "Processor",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "minimum",
+   "definition": "The part of a device that carries out instructions. There are two main types: the CPU handles general tasks like running apps and browsing, while the GPU is specialised for tasks that involve lots of calculations at once, like graphics and video editing.",
+   "example": "A gaming PC needs a powerful GPU for graphics, but a laptop used mainly for documents needs a good CPU instead.",
+   "sub_terms": [
+    {
+     "term": "CPU"
+    },
+    {
+     "term": "GPU",
+     "definition": "A processor specialised for handling many calculations at the same time — used for graphics, video editing, and AI, not just gaming.",
+     "example": "AI models are trained on GPUs because they can do thousands of calculations simultaneously."
+    }
+   ]
+  },
+  {
+   "term": "Bottleneck",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "typical",
+   "definition": "The one hardware component that's limiting how fast your device can do a particular task. Which component is the bottleneck depends on what you're doing.",
+   "example": "If video editing is slow, the bottleneck might be the GPU — upgrading RAM wouldn't help because RAM isn't the limiting factor for that task.",
+   "sub_terms": [
+    {
+     "term": "Performance"
+    }
+   ]
+  },
+  {
+   "term": "Workload",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "minimum",
+   "definition": "What a task demands from your device's hardware. Different tasks stress different components — video editing needs a good GPU, multitasking needs lots of RAM, and large downloads need high bandwidth.",
+   "example": "Before choosing a laptop, think about your workload: a student who mostly writes documents has a very different workload from one who edits videos."
+  },
+  {
+   "term": "Cloud computing",
+   "descriptor_code": "AC9TDI8K01",
+   "width_tier": "wider",
+   "definition": "Using powerful computers somewhere else on the internet to do work your own device can't handle. Your device sends the task over the network, the cloud computer does the heavy processing, and sends the result back.",
+   "example": "Google Docs runs in the cloud — your laptop doesn't need to be powerful because Google's servers do the work."
+  }
+ ]
+}

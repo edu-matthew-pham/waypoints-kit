@@ -10,7 +10,7 @@ Output is plain Markdown by default. If the teacher says where it's going (Schoo
 
 **When:** they want key vocabulary for the unit, for themselves or for students.
 **Do:** look at `index/glossaries.md`.
-- **Pre-built exists** for the standard's code: fetch that file and filter by `descriptor_code`. Offer the terms the unit actually uses, grouped by the waypoint where each first appears (`first_waypoint`). For teachers, include the likely misconception (`failure_mode`) and the suggested response. For students, the plain definition and example. Don't rewrite pre-built definitions.
+- **Pre-built exists** for the standard's code (it has its own small file in the table): open it. Offer the terms the unit actually uses, grouped by the waypoint where each first appears (`first_waypoint`). For teachers, include the likely misconception (`failure_mode`) and the suggested response. For students, the plain definition and example. Don't rewrite pre-built definitions.
 - **None exists:** draft from the node file and the plan: term, plain definition, a concrete example, and the misconception the term tends to attract. Say it's AI-drafted and for the teacher to check.
 - **They have their own list:** work from theirs. Add missing terms, flag any that clash with the node file's wording, leave the rest alone.
 Keep it short: the terms a student needs to meet at each waypoint, not every word.

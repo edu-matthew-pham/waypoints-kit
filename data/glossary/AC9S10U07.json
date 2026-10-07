@@ -1,0 +1,281 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U07",
+ "teacher_glossary": [
+  {
+   "term": "Synthesis reaction",
+   "descriptor_code": "AC9S10U07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A chemical reaction in which two or more reactants combine to form a single product (A + B → AB). Synthesis is the most structurally transparent reaction type — multiple inputs, one output. The pattern enables product prediction: knowing the reactants determines the compound formed.",
+   "failure_mode": "Students memorise named synthesis reactions but cannot identify the structural pattern in an unfamiliar equation — they rely on recall rather than recognising 'multiple reactants → one product' as the defining feature.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "The descriptor requires students to 'identify patterns' — pattern recognition, not memorisation. Students who cannot abstract the synthesis pattern cannot classify unfamiliar reactions in N4 or distinguish synthesis from the other two types.",
+   "response": "Present three synthesis equations students have not seen. Ask: what do these have in common? (Multiple reactants, one product.) Then present a non-synthesis equation and ask: does this fit the pattern? The abstraction exercise builds the structural recognition the descriptor demands.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Decomposition reaction",
+   "descriptor_code": "AC9S10U07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A chemical reaction in which a single compound breaks down into two or more simpler products (AB → A + B). Decomposition is the structural inverse of synthesis and typically requires energy input (heat or electricity) to proceed. Thermal decomposition uses heat; electrolysis uses electrical energy.",
+   "failure_mode": "Students confuse decomposition with dissolution — they think dissolving a substance in water is decomposition because the substance 'breaks apart,' when dissolution is a physical change and decomposition is a chemical change producing new substances.",
+   "failure_type": "misconception",
+   "why_it_matters": "If dissolving is decomposition, students conflate physical and chemical change (AC9S8U07 prior knowledge) and produce wrong classifications. The chemical-change requirement — new substances form — is the boundary condition that keeps the classification accurate.",
+   "response": "Present dissolving salt in water alongside heating copper carbonate. Ask: which produces new substances? (Only the heating — CO₂ gas is a new substance.) The new-substance test distinguishes decomposition from dissolution.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Thermal decomposition",
+     "definition": "A decomposition reaction driven by heat — the compound breaks down when heated. Heating metal carbonates to produce metal oxides and carbon dioxide is a standard example.",
+     "failure_mode": "Students confuse thermal decomposition with combustion — both involve heat, but combustion requires oxygen and produces CO₂/H₂O, while thermal decomposition uses heat to break a single compound into simpler substances without oxygen.",
+     "failure_type": "misconception",
+     "response": "Compare: heating calcium carbonate (→ calcium oxide + CO₂, no oxygen needed) vs burning methane (+ O₂ → CO₂ + H₂O). Ask: which requires oxygen? (Combustion.) Which just breaks apart? (Decomposition.) The oxygen requirement distinguishes them.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Electrolysis",
+     "definition": "A decomposition reaction driven by electrical energy — an electric current breaks a compound into its elements or simpler compounds. Electrolysis of water produces hydrogen and oxygen gas."
+    }
+   ]
+  },
+  {
+   "term": "Displacement reaction",
+   "descriptor_code": "AC9S10U07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A chemical reaction in which an element or group replaces another in a compound. In single displacement (A + BC → AC + B), a more reactive element displaces a less reactive one. In double displacement (AB + CD → AD + CB), two compounds exchange partners. Displacement is structurally more complex than synthesis or decomposition because it requires recognising the swap pattern and, for single displacement, predicting whether the reaction will proceed based on relative reactivity.",
+   "failure_mode": "Students conflate displacement with decomposition — they see 'a compound breaking apart' and classify it as decomposition, missing the swap pattern where one element or group replaces another rather than the compound simply breaking down.",
+   "failure_type": "misconception",
+   "why_it_matters": "Displacement is the hinge reaction type. Students who cannot distinguish the swap pattern from simple breakdown misclassify reactions in N4, cannot use the activity series predictively, and cannot recognise neutralisation and precipitation as displacement sub-types.",
+   "response": "Present a decomposition (CaCO₃ → CaO + CO₂) alongside a single displacement (Zn + CuSO₄ → ZnSO₄ + Cu). Ask: in which does something replace something else? The replacement question isolates the distinguishing feature — displacement has a swap; decomposition does not.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Single displacement",
+     "definition": "A reaction where a free element replaces a less reactive element in a compound (A + BC → AC + B). Whether the reaction proceeds depends on relative reactivity — the free element must be more reactive than the element it displaces.",
+     "failure_mode": "Students confuse single displacement (one element replaces another in a compound: A + BC → AC + B) with double displacement (two compounds swap partners: AB + CD → AD + CB) — they cannot identify which type is occurring in a given reaction.",
+     "failure_type": "fragile_skill",
+     "response": "Count the reactants: is one an element and one a compound? (Single displacement — the element replaces.) Are both compounds? (Double displacement — they swap.) The reactant-type check makes identification systematic.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Double displacement",
+     "definition": "A reaction where two compounds exchange ions or groups to form two new compounds (AB + CD → AD + CB). Neutralisation and precipitation are common types of double displacement."
+    },
+    {
+     "term": "Activity series",
+     "definition": "A ranked list of metals ordered by reactivity — from most reactive (potassium, sodium) to least reactive (gold, platinum). In single displacement, a metal higher in the series displaces a metal lower in the series from its compound. If the free metal is lower, no reaction occurs.",
+     "failure_mode": "Students can read the activity series but cannot use it predictively — they do not connect 'higher = more reactive' to 'will displace a lower metal from solution.'",
+     "failure_type": "fragile_skill",
+     "response": "Present three combinations (Zn + CuSO₄, Cu + ZnSO₄, Fe + CuSO₄) with the activity series visible. Ask students to predict which react and which don't — then verify. The predict-then-check cycle builds the predictive skill the series is designed for.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Neutralisation",
+     "definition": "A double displacement reaction between an acid and a base producing a salt and water (acid + base → salt + water). Neutralisation is the most common double displacement type and connects to everyday contexts (antacids, soil treatment).",
+     "failure_mode": "Students learn neutralisation as a separate topic — 'acid + base = neutral' — without recognising it as a double displacement reaction where H⁺ and OH⁻ swap partners to form water.",
+     "failure_type": "fragmentation",
+     "response": "Write the neutralisation equation showing the ion swap: HCl + NaOH → NaCl + H₂O. Ask students to identify which ions swapped — the H and Na exchange partners. The ion-tracking exercise reveals neutralisation as a displacement, not a separate category.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Precipitation",
+     "definition": "A double displacement reaction in which one product is insoluble in water and forms a solid (precipitate) that settles out of solution. Precipitation reactions are identified by the appearance of a solid when two solutions are mixed.",
+     "failure_mode": "Students cannot identify which product is the precipitate — they assume both products are solids, or cannot use solubility rules to predict which compound is insoluble.",
+     "failure_type": "fragile_skill",
+     "response": "Mix two clear solutions that produce a visible precipitate (e.g. silver nitrate + sodium chloride). Ask students to write the equation and identify which product is insoluble — the visible solid is the evidence. Solubility rules predict it; the observation confirms it.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Precipitate",
+     "definition": "An insoluble solid that forms during a precipitation reaction and settles out of solution.",
+     "failure_mode": "Students think a precipitate is a crystal that forms from cooling a solution — they confuse precipitation (an insoluble product forming instantly when two solutions are mixed) with crystallisation (a soluble substance coming out of solution as it cools).",
+     "failure_type": "misconception",
+     "response": "Mix two clear solutions at room temperature and an insoluble solid appears immediately. Ask: did you cool anything? (No.) The instant formation at constant temperature distinguishes precipitation from crystallisation.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Collision theory",
+   "descriptor_code": "AC9S10U07",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The model explaining that chemical reactions occur when particles collide with sufficient energy and correct orientation. Not all collisions lead to reaction — only those with energy above the activation energy threshold. Collision theory provides the unifying explanation for all four rate factors: each factor works by increasing collision frequency or by increasing the proportion of collisions that exceed the activation energy.",
+   "failure_mode": "Students learn rate factors as isolated memorised rules ('heat makes it faster,' 'more concentrated = faster') without the collision model — they cannot explain WHY each factor works, cannot predict the effect of an unfamiliar variable, and cannot design investigations based on the model.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Collision theory is the explanatory model for all rate factors. Without it, the four factors are disconnected facts rather than four applications of one principle. The descriptor says 'investigate the factors that affect reaction rates' — investigation requires a model to predict and explain, not just rules to recite.",
+   "response": "Before introducing any rate factor, establish the model: reactions require collisions; collisions must have enough energy (activation energy); anything that increases collision frequency or energy increases rate. Then ask students to predict: what should happen if we increase temperature? The prediction-from-model approach ensures each factor is derived, not memorised.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Activation energy",
+     "definition": "The minimum energy a collision must have for the reaction to occur. Even if particles collide, the reaction only proceeds if the collision energy exceeds this threshold. Catalysts work by lowering the activation energy, not by increasing collision frequency.",
+     "failure_mode": "Students confuse activation energy with the energy released or absorbed by the reaction — they think activation energy is the total energy change rather than the entry barrier that must be overcome for the reaction to start.",
+     "failure_type": "misconception",
+     "response": "Use the hill analogy: activation energy is the height of a hill you must push a ball over before it rolls down the other side. The height of the hill (activation energy) is different from how far the ball drops on the other side (energy released). Ask students to label both on an energy profile diagram.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Reaction rate",
+   "descriptor_code": "AC9S10U07",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The speed at which a chemical reaction proceeds — how quickly reactants are converted to products. Reaction rate can be measured by the change in mass, volume of gas produced, or colour change per unit time. Rate is determined by collision frequency and the proportion of collisions with energy above the activation energy. Four factors affect rate: temperature, concentration, surface area and catalysts.",
+   "failure_mode": "Students think some reactions are 'fast' and others are 'slow' as fixed properties — they do not recognise that the same reaction can proceed at different rates depending on conditions, and that rate is controllable.",
+   "failure_type": "misconception",
+   "why_it_matters": "If rate is a fixed property, students cannot explain why industrial processes control temperature and concentration, cannot design investigations that vary rate, and miss the second half of the descriptor entirely — 'investigate the factors that affect reaction rates' assumes rate is variable.",
+   "response": "Show the same reaction (e.g. magnesium + acid) at two different temperatures. Ask: is this the same reaction? (Yes.) Is it happening at the same speed? (No.) What changed? The demonstration makes rate variability observable.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Temperature",
+     "definition": "Increasing temperature increases particle kinetic energy — particles move faster, collide more frequently, and a greater proportion of collisions exceed the activation energy. Both effects increase reaction rate.",
+     "failure_mode": "Students think temperature is a catalyst — they say 'heat catalyses the reaction' rather than understanding that temperature increases the kinetic energy of particles, increasing collision frequency and energy, while a catalyst provides an alternative lower-energy pathway.",
+     "failure_type": "misconception",
+     "response": "Ask: does heating a reaction change the particles' energy? (Yes — they move faster.) Does a catalyst change the particles' energy? (No — it provides a different pathway.) Temperature and catalysts increase rate by completely different mechanisms.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Concentration",
+     "definition": "Increasing concentration puts more particles in the same volume — particles collide more frequently because there are more of them in close proximity. More collisions per second means a faster reaction rate."
+    },
+    {
+     "term": "Surface area",
+     "definition": "Increasing surface area (e.g. by grinding a solid into powder) exposes more particles to the other reactant — more collision opportunities per second. A powdered solid reacts much faster than a single lump of the same mass.",
+     "failure_mode": "Students know that smaller pieces react faster but cannot explain why — they miss the particle collision mechanism: breaking a solid into smaller pieces exposes more surface particles to collisions with reactant particles in solution or gas.",
+     "failure_type": "fragmentation",
+     "response": "Ask: in a whole sugar cube, can reactant particles reach the sugar molecules in the centre? (No — only the surface is exposed.) What about crushed sugar? (Much more surface exposed.) The inside-vs-surface framing makes the mechanism visible.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Catalyst",
+   "descriptor_code": "AC9S10U07",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "A substance that increases reaction rate by lowering the activation energy — providing an alternative reaction pathway that requires less energy per collision. Catalysts are not consumed in the reaction and can be recovered unchanged afterward. Catalysts do not increase collision frequency; they increase the proportion of collisions that succeed by reducing the energy barrier.",
+   "failure_mode": "Students think catalysts are reactants that 'speed things up' — they include catalysts in the balanced equation, predict they will be used up, or describe them as 'making particles move faster' rather than lowering the energy threshold.",
+   "failure_type": "misconception",
+   "why_it_matters": "If catalysts are reactants, students write incorrect equations, predict catalysts will run out, and cannot explain why catalysts are economically valuable (reusable) or how enzymes function (biological catalysts). The activation-energy mechanism is qualitatively different from the other three rate factors and must be understood on its own terms.",
+   "response": "Present a reaction with and without a catalyst. Ask: was the catalyst present at the start? (Yes.) Is it present at the end? (Yes.) Was it consumed? (No.) Then ask: if it wasn't consumed, how did it help? The 'still there at the end' observation forces the mechanism — it provided a lower-energy pathway, not more energy.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Synthesis reaction",
+   "descriptor_code": "AC9S10U07",
+   "width_tier": "minimum",
+   "definition": "A chemical reaction where two or more substances combine to make one new substance. The pattern is simple: multiple inputs, one output.",
+   "example": "Iron + sulfur → iron sulfide. Two elements go in, one compound comes out — that's synthesis."
+  },
+  {
+   "term": "Decomposition reaction",
+   "descriptor_code": "AC9S10U07",
+   "width_tier": "minimum",
+   "definition": "A chemical reaction where one compound breaks down into two or more simpler substances. It's the reverse pattern of synthesis: one input, multiple outputs. Decomposition usually needs energy (heat or electricity) to get started.",
+   "example": "When you heat copper carbonate, it breaks down into copper oxide + carbon dioxide gas — one compound in, two substances out.",
+   "sub_terms": [
+    {
+     "term": "Thermal decomposition",
+     "definition": "Decomposition caused by heating — the heat energy breaks chemical bonds in the compound."
+    },
+    {
+     "term": "Electrolysis",
+     "definition": "Decomposition caused by passing electricity through a liquid compound — the electrical energy splits it into its elements.",
+     "example": "Passing electricity through water splits it into hydrogen gas and oxygen gas — the two elements that make up water."
+    }
+   ]
+  },
+  {
+   "term": "Displacement reaction",
+   "descriptor_code": "AC9S10U07",
+   "width_tier": "minimum",
+   "definition": "A reaction where one element or group swaps places with another. In single displacement, a more reactive element kicks out a less reactive one from a compound. In double displacement, two compounds swap partners to form two new compounds.",
+   "example": "Drop a zinc strip into copper sulfate solution — the zinc is more reactive, so it displaces the copper: Zn + CuSO₄ → ZnSO₄ + Cu. The solution changes from blue to colourless as copper leaves.",
+   "sub_terms": [
+    {
+     "term": "Single displacement",
+     "definition": "One element takes the place of another in a compound — but only if the incoming element is more reactive."
+    },
+    {
+     "term": "Double displacement",
+     "definition": "Two compounds swap their ions to form two new compounds — like two couples swapping dance partners."
+    },
+    {
+     "term": "Activity series",
+     "definition": "A ranking of metals from most reactive to least reactive. If a metal is higher on the list than the metal in a compound, it can displace it — if it's lower, no reaction happens.",
+     "example": "Zinc is above copper in the activity series, so zinc can displace copper from copper sulfate. But copper is below zinc, so copper in zinc sulfate would do nothing."
+    },
+    {
+     "term": "Neutralisation",
+     "definition": "A double displacement reaction between an acid and a base that produces a salt and water. The acid and base 'cancel each other out.'",
+     "example": "Hydrochloric acid + sodium hydroxide → sodium chloride (table salt) + water. The acid and base neutralise each other."
+    },
+    {
+     "term": "Precipitation",
+     "definition": "A double displacement reaction where one of the products is insoluble — it forms a solid (precipitate) that appears when you mix two clear solutions.",
+     "example": "Mix silver nitrate solution with sodium chloride solution and a white solid (silver chloride) instantly appears — that solid is the precipitate."
+    },
+    {
+     "term": "Precipitate",
+     "definition": "The insoluble solid that forms and settles out of a solution during a precipitation reaction."
+    }
+   ]
+  },
+  {
+   "term": "Collision theory",
+   "descriptor_code": "AC9S10U07",
+   "width_tier": "minimum",
+   "definition": "The idea that for a chemical reaction to happen, particles must collide with each other AND the collision must have enough energy. Not every collision causes a reaction — only the ones that hit hard enough. This one idea explains why all four rate factors work.",
+   "example": "Imagine a room full of people walking slowly — they rarely bump into each other. Speed everyone up (raise the temperature) and collisions happen more often and harder. That's collision theory in action.",
+   "sub_terms": [
+    {
+     "term": "Activation energy",
+     "definition": "The minimum amount of energy a collision needs to actually start a reaction. Think of it as a hill you have to push the ball over before it can roll down the other side.",
+     "example": "Striking a match provides the activation energy — the heat from friction starts the reaction, and then it keeps going on its own."
+    }
+   ]
+  },
+  {
+   "term": "Reaction rate",
+   "descriptor_code": "AC9S10U07",
+   "width_tier": "minimum",
+   "definition": "How fast a chemical reaction happens — how quickly reactants turn into products. The same reaction can go fast or slow depending on conditions like temperature and concentration. Rate isn't fixed; it's controllable.",
+   "example": "An iron nail rusts over months (slow reaction rate), but steel wool in a flame burns in seconds (fast rate) — same reaction (iron + oxygen), very different rates because of surface area and temperature.",
+   "sub_terms": [
+    {
+     "term": "Temperature",
+     "definition": "Higher temperature = faster particles = more frequent and harder collisions = faster reaction.",
+     "example": "Food goes off faster in a warm kitchen than in a fridge — the higher temperature speeds up the chemical reactions that cause spoiling."
+    },
+    {
+     "term": "Concentration",
+     "definition": "More particles in the same space = more frequent collisions = faster reaction.",
+     "example": "Dropping magnesium in concentrated acid produces vigorous fizzing; the same magnesium in dilute acid fizzes much more slowly."
+    },
+    {
+     "term": "Surface area",
+     "definition": "Smaller pieces = more surface exposed = more particles available to collide = faster reaction.",
+     "example": "A sugar cube dissolves slowly in water, but the same amount of sugar as fine powder dissolves almost instantly — more surface area means more contact with the water."
+    }
+   ]
+  },
+  {
+   "term": "Catalyst",
+   "descriptor_code": "AC9S10U07",
+   "width_tier": "minimum",
+   "definition": "A substance that makes a reaction faster without being used up itself. It works by giving the reaction an easier pathway that needs less energy — like finding a lower pass through a mountain range instead of climbing over the peak.",
+   "example": "Hydrogen peroxide slowly decomposes on its own, but add a pinch of manganese dioxide and it fizzes rapidly. The manganese dioxide is still there at the end — it wasn't consumed, it just helped."
+  }
+ ]
+}

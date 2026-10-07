@@ -1,0 +1,321 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P03",
+ "teacher_glossary": [
+  {
+   "term": "Entity",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A distinct real-world thing, concept, or object that can be represented in a data model — identified by its attributes and its relationships to other entities. In database design, entities become tables.",
+   "failure_mode": "Students conflate entities with attributes — they model an attribute (e.g. 'genre') as its own entity, or fail to identify a genuine entity because they see it as just a property of another.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Entity modelling errors cascade directly into schema design — a student who misidentifies entities produces a schema with wrong tables, and all downstream database build and query work inherits the error.",
+   "response": "For a given scenario, ask students to list 'things that can have multiple instances' — each is a candidate entity. Attributes are properties of those things, not things in their own right. The instance test distinguishes entities from attributes.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Attribute (data modelling)",
+     "definition": "A property or characteristic of an entity — such as a movie's title, year, or rating. Attributes become columns in a database table.",
+     "failure_mode": "Students confuse attributes with entities, or define attributes without specifying data types — leading to schemas that cannot enforce data quality.",
+     "failure_type": "flawed_reasoning",
+     "response": "For each attribute, ask: is this a property of the entity, or a thing in its own right? And what type of value does it hold? The two questions clarify placement and type.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Relationship (data modelling)",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A meaningful connection between entities in a data model. Relationships have a type — one-to-many (one entity relates to many of another) or many-to-many (entities on both sides can relate to many of the other). The relationship type determines how tables are linked in a relational schema.",
+   "failure_mode": "Students model relationships as attributes — they store related data (e.g. a list of genre names) inside a single field rather than linking to a separate entity via a foreign key.",
+   "failure_type": "misconception",
+   "why_it_matters": "Relationships modelled as attributes cannot be queried, validated, or maintained — the schema becomes a flat file rather than a relational database, defeating the purpose of the data model.",
+   "response": "Present a scenario with a clear relationship (users write reviews for movies). Ask: can a user write many reviews? Can a movie have many reviews? The multiplicity questions reveal the relationship type and prevent attribute-stuffing.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "One-to-many relationship",
+     "definition": "A relationship where one instance of an entity relates to many instances of another — e.g. one user writes many reviews. Implemented by placing a foreign key in the 'many' table.",
+     "failure_mode": "Students represent one-to-many relationships by storing all related items in a single field (e.g. comma-separated values), preventing individual querying.",
+     "failure_type": "fragile_skill",
+     "response": "Ask students to query 'which user wrote review X?' If reviews are stored as a list in the user record, the query is impossible. The query failure reveals why separate tables with foreign keys are necessary.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Many-to-many relationship",
+     "definition": "A relationship where entities on both sides can relate to many of the other — e.g. students enrolled in courses, actors in movies. Requires a junction table to implement.",
+     "failure_mode": "Students attempt to implement many-to-many relationships directly between two tables using lists or multiple foreign keys in a single row.",
+     "failure_type": "fragile_skill",
+     "response": "Draw out the table structure without a junction table and show where the design breaks. Then introduce the junction table and show how it resolves the problem.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Entity-relationship diagram",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "A visual representation of a data model showing entities (as rectangles), their attributes, and the relationships between them (as connecting lines with cardinality markers). ER diagrams are the standard tool for designing database schemas before implementation.",
+   "failure_mode": "Students draw ER diagrams with entities but omit relationship types (cardinality) or attributes, producing diagrams that look structural but cannot drive schema design.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "An incomplete ER diagram cannot be translated into a working schema — missing cardinality means the foreign key direction is unknown, and missing attributes mean tables have no columns.",
+   "response": "Give students a completed ER diagram and ask them to translate it into table definitions. Missing elements in the diagram become impossible steps in the translation — making completeness requirements visible.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Relational database schema",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The formal design of a relational database — specifying tables, column names, data types, primary keys, and foreign keys. The schema translates an entity-relationship model into an implementable structure where relationships are enforced through key constraints.",
+   "failure_mode": "Students design schemas without foreign keys — tables exist but are not linked, so the relationships from the ER model are lost. Alternatively, foreign keys point in the wrong direction (placed in the 'one' table instead of the 'many' table).",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Schema design errors propagate directly into N3 — a student cannot build a correct database from an incorrect schema, and subsequent queries will fail or return wrong results.",
+   "response": "After drawing the schema, ask students to trace a specific query path: 'find all reviews for movie X.' If the foreign key is missing or wrong, the trace fails — making the design error visible before implementation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Junction table",
+     "definition": "A table that resolves a many-to-many relationship by storing pairs of foreign keys from the two related tables. Each row represents one instance of the relationship."
+    },
+    {
+     "term": "Normalisation",
+     "definition": "The process of organising a database schema to reduce redundancy and dependency — ensuring each piece of data is stored in one place and relationships are maintained through keys rather than data duplication."
+    }
+   ]
+  },
+  {
+   "term": "Primary key",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A column (or combination of columns) in a database table that uniquely identifies each row. Every row must have a unique primary key value, and the primary key cannot be null. Primary keys enable foreign key relationships and ensure each record is individually addressable.",
+   "failure_mode": "Students choose non-unique fields as primary keys (e.g. a person's name, which can have duplicates) or forget to include a primary key at all, making rows unidentifiable.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Without a valid primary key, rows cannot be uniquely referenced — foreign keys from other tables cannot reliably point to specific records, and JOIN queries return wrong or ambiguous results.",
+   "response": "Insert two rows with the same name but different data. Ask: how would you query just one of them? If there is no unique identifier, the query is impossible. The scenario makes the uniqueness requirement concrete.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Foreign key",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A column in a database table that references the primary key of another table, creating a link between the two tables. Foreign keys enforce relationships — a value in the foreign key column must match an existing primary key value in the referenced table.",
+   "failure_mode": "Students place foreign keys in the wrong table (in the 'one' table instead of the 'many' table in a one-to-many relationship), or use foreign key values that don't match any primary key in the parent table.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Wrong foreign key placement breaks the relationship model — queries joining tables return duplicated or missing data. Invalid foreign key values create orphaned records that reference non-existent parents.",
+   "response": "Ask: which table has 'many' rows for each row in the other table? The foreign key goes in the 'many' table. Draw arrows from foreign key values to the primary keys they reference — the direction makes placement logic visible.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Referential integrity",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The database constraint ensuring that every foreign key value matches an existing primary key value in the referenced table. Referential integrity prevents orphaned records — rows that reference parent records that don't exist.",
+   "failure_mode": "Students insert data that violates foreign key constraints (e.g. a review referencing a movie_id that doesn't exist) and don't understand why the database rejects the insert.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Referential integrity is what makes relational databases reliable — without it, queries joining tables produce incorrect or missing results because links point to nothing.",
+   "response": "Deliberately insert a row that violates a foreign key constraint and observe the error. Then insert the parent record first and retry. The order-dependency makes the constraint visible and purposeful.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "SQL (Structured Query Language)",
+   "descriptor_code": "AC9TDI10P03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The standard language for creating, managing, and querying relational databases. SQL includes data definition commands (CREATE TABLE, defining schema), data manipulation commands (INSERT INTO, populating data), and query commands (SELECT, WHERE, JOIN, GROUP BY for retrieving and analysing data).",
+   "failure_mode": "Students write syntactically incorrect SQL — missing keywords, wrong clause order, or incorrect identifier names — and cannot interpret the error messages to locate the problem.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "SQL syntax fluency is prerequisite for all database operations — students who cannot write working SQL cannot build, populate, or query databases, making the entire relational modelling pipeline inaccessible.",
+   "response": "Start with simple queries and build complexity incrementally. Have students predict the output before running each query — the prediction-observation cycle builds both syntax fluency and query logic understanding.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "SELECT",
+     "definition": "The SQL command that specifies which columns to retrieve from a database table. SELECT defines what data appears in the query result.",
+     "failure_mode": "Students select all columns (*) by default rather than specifying what they need, or select columns from the wrong table in multi-table queries.",
+     "failure_type": "fragile_skill",
+     "response": "Require students to name specific columns rather than using SELECT *. Ask: what information do you need to answer this question? Only select those columns.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "WHERE",
+     "definition": "The SQL clause that filters rows based on a condition — only rows meeting the condition appear in the result.",
+     "failure_mode": "Students write WHERE conditions that don't match the data type (e.g. comparing text to numbers) or use incorrect comparison operators.",
+     "failure_type": "fragile_skill",
+     "response": "Have students write the WHERE condition in plain English first ('only movies released after 2020'), then translate to SQL syntax. The plain-English step catches logic errors before syntax errors.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "JOIN",
+     "definition": "The SQL operation that combines rows from two or more tables based on a related column (typically a foreign key–primary key pair). JOIN is how relational queries span multiple tables.",
+     "failure_mode": "Students cannot construct JOIN conditions — they either omit the ON clause (producing a Cartesian product of all possible row combinations) or join on the wrong columns.",
+     "failure_type": "fragile_skill",
+     "response": "Show the result of a JOIN without an ON clause (the massive Cartesian product). Then add the correct ON clause and compare. The dramatic result difference makes the JOIN condition's purpose unmistakable.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "GROUP BY",
+     "definition": "The SQL clause that groups rows sharing a common value in a specified column, enabling aggregate functions (COUNT, SUM, AVG) to be applied to each group."
+    },
+    {
+     "term": "CREATE TABLE",
+     "definition": "The SQL command that defines a new table in a database, specifying column names, data types, primary keys, and foreign key constraints."
+    },
+    {
+     "term": "INSERT INTO",
+     "definition": "The SQL command that adds new rows of data to an existing database table."
+    },
+    {
+     "term": "HAVING",
+     "definition": "The SQL clause that filters groups (produced by GROUP BY) based on aggregate conditions — similar to WHERE but applied after grouping."
+    },
+    {
+     "term": "LEFT JOIN",
+     "definition": "A JOIN variant that returns all rows from the left table and matched rows from the right table — if there is no match, the right table's columns contain NULL. Useful for finding records without matching entries."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Entity",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "minimum",
+   "definition": "A real-world thing you want to track in a database — like a student, a movie, or a book. Each entity has properties (attributes) and connections to other entities.",
+   "example": "In a library system, 'Book' and 'Member' are entities — each has its own attributes (title, author for books; name, card number for members) and they're connected by a 'Borrows' relationship.",
+   "sub_terms": [
+    {
+     "term": "Attribute (data modelling)",
+     "definition": "A property of an entity — like a movie's title, release year, or genre. Attributes become the columns in your database table.",
+     "example": "A 'Student' entity might have attributes: name, year level, and student ID."
+    }
+   ]
+  },
+  {
+   "term": "Relationship (data modelling)",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "minimum",
+   "definition": "A connection between two entities in your data model — like 'a user writes reviews' or 'a student enrols in courses.' The type of relationship (one-to-many or many-to-many) determines how you link your tables.",
+   "example": "One teacher teaches many classes (one-to-many). Many students take many subjects (many-to-many).",
+   "sub_terms": [
+    {
+     "term": "One-to-many relationship",
+     "definition": "When one thing connects to many others — like one customer placing many orders.",
+     "example": "One author writes many books, but each book has only one author — that's one-to-many."
+    },
+    {
+     "term": "Many-to-many relationship",
+     "definition": "When things on both sides can connect to many of the other — like students and subjects.",
+     "example": "Each student takes multiple subjects, and each subject has multiple students — you need a middle table to track who's in what."
+    }
+   ]
+  },
+  {
+   "term": "Entity-relationship diagram",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "typical",
+   "definition": "A drawing that shows the entities in your data model, their attributes, and how they connect to each other. It's like a blueprint for your database.",
+   "example": "An ER diagram for a library might show 'Book' and 'Member' boxes connected by a 'Borrows' line, with attributes like 'title' and 'name' listed inside each box."
+  },
+  {
+   "term": "Relational database schema",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "minimum",
+   "definition": "The blueprint for your database — it defines what tables you'll have, what columns each table contains, what data types they use, and how the tables are linked together with keys.",
+   "example": "A schema for a movie review site might have a 'Movies' table (with title, year, genre columns) linked to a 'Reviews' table (with rating, comment, user_id columns) through a foreign key.",
+   "sub_terms": [
+    {
+     "term": "Junction table",
+     "definition": "A special table that sits between two other tables to handle a many-to-many relationship — it stores pairs of IDs linking one to the other.",
+     "example": "A 'StudentSubjects' table with columns student_id and subject_id connects the Students and Subjects tables."
+    },
+    {
+     "term": "Normalisation",
+     "definition": "Organising your database so each piece of data is stored in only one place — reducing duplication and making updates easier.",
+     "example": "Instead of storing a teacher's name in every class record, you store it once in a Teachers table and link to it with an ID."
+    }
+   ]
+  },
+  {
+   "term": "Primary key",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "minimum",
+   "definition": "A unique identifier for each row in a database table — like a student ID number. No two rows can have the same primary key, and it can never be blank.",
+   "example": "In a Students table, student_id is the primary key — even if two students have the same name, their IDs are different."
+  },
+  {
+   "term": "Foreign key",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "minimum",
+   "definition": "A column in one table that points to the primary key of another table — creating the link between them. It's how the database knows that a review belongs to a specific movie.",
+   "example": "In a Reviews table, movie_id is a foreign key pointing to the id column in the Movies table — connecting each review to the movie it's about."
+  },
+  {
+   "term": "Referential integrity",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "typical",
+   "definition": "The rule that every foreign key must point to a real, existing record in the other table. The database won't let you create a link to something that doesn't exist.",
+   "example": "You can't add a review for movie_id 99 if there's no movie with id 99 in the Movies table — the database rejects it to keep the data consistent."
+  },
+  {
+   "term": "SQL (Structured Query Language)",
+   "descriptor_code": "AC9TDI10P03",
+   "width_tier": "minimum",
+   "definition": "The language used to create, manage, and search databases. You use SQL to define tables, add data, and write queries that find exactly the information you need.",
+   "example": "The query 'SELECT title FROM Movies WHERE year > 2020' finds all movie titles released after 2020.",
+   "sub_terms": [
+    {
+     "term": "SELECT",
+     "definition": "The SQL word that says 'give me these columns' — it picks which information to show in your results.",
+     "example": "SELECT title, year FROM Movies shows just the title and year columns, not everything."
+    },
+    {
+     "term": "WHERE",
+     "definition": "The SQL word that filters your results — 'only show me rows that match this condition.'",
+     "example": "WHERE rating > 4 means 'only show movies rated higher than 4.'"
+    },
+    {
+     "term": "JOIN",
+     "definition": "The SQL operation that combines data from two tables based on a matching column — like looking up a movie's title while you're reading its reviews.",
+     "example": "JOIN Movies ON Reviews.movie_id = Movies.id connects each review to the movie it belongs to."
+    },
+    {
+     "term": "GROUP BY",
+     "definition": "Groups rows that share a value so you can count, sum, or average them.",
+     "example": "GROUP BY genre with COUNT(*) tells you how many movies are in each genre."
+    },
+    {
+     "term": "CREATE TABLE",
+     "definition": "The SQL command that creates a new table with specified columns and data types.",
+     "example": "CREATE TABLE Students (id INTEGER PRIMARY KEY, name TEXT, year_level INTEGER) creates a students table."
+    },
+    {
+     "term": "INSERT INTO",
+     "definition": "The SQL command that adds a new row of data to a table.",
+     "example": "INSERT INTO Students (name, year_level) VALUES ('Alex', 10) adds a new student record."
+    },
+    {
+     "term": "HAVING",
+     "definition": "Like WHERE but for groups — it filters after GROUP BY has grouped the data.",
+     "example": "GROUP BY user_id HAVING COUNT(*) > 5 finds users who wrote more than 5 reviews."
+    },
+    {
+     "term": "LEFT JOIN",
+     "definition": "A join that keeps all rows from the first table even if there's no match in the second table — useful for finding things that are missing.",
+     "example": "LEFT JOIN Reviews finds all movies including ones with no reviews — the review columns just show blank for those."
+    }
+   ]
+  }
+ ]
+}

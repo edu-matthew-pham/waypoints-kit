@@ -1,0 +1,104 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P02",
+ "teacher_glossary": [
+  {
+   "term": "Data visualisation",
+   "descriptor_code": "AC9TDI8P02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Representing data graphically to reveal patterns, trends and relationships that are not obvious in raw numbers. Different visualisation types suit different data structures — bar charts for categories, scatter plots for relationships between variables, line graphs for change over time, maps for geographic data. Visualisation choices can reveal or obscure patterns.",
+   "failure_mode": "Students default to bar charts regardless of data structure because it is the only graph type in their repertoire.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "A bar chart cannot show a correlation between two variables (scatter plot needed) or a trend over time (line graph needed). Students with a thin repertoire produce graphs that obscure the patterns they are trying to find, making Nodes 2 and 3 (trend identification and conclusions) impossible.",
+   "response": "Show the same dataset as a bar chart and a scatter plot. Ask which reveals the pattern more clearly and why. Repeat with different datasets to build the repertoire.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Bar chart"
+    },
+    {
+     "term": "Scatter plot"
+    },
+    {
+     "term": "Line graph"
+    }
+   ]
+  },
+  {
+   "term": "Trend",
+   "descriptor_code": "AC9TDI8P02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A general direction or pattern in data over time or across categories — an increase, decrease, plateau or cycle. Identifying trends requires summarising data by attributes (sorting, grouping, filtering) rather than reading individual data points. Trends are the evidence base for predictions.",
+   "failure_mode": "Students describe individual data points ('it went up in March') rather than identifying the overall pattern ('it has been increasing steadily since January').",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Individual data points are not trends — a single increase could be noise. Students who cannot distinguish trends from individual fluctuations will make predictions based on isolated values rather than sustained patterns.",
+   "response": "Show a noisy dataset with an overall upward trend. Ask: is this data going up or down? Point to a local dip and ask if that changes the answer. The noisy context forces trend-level reading.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Outlier",
+     "definition": "A data point that sits far from the overall pattern. May indicate an error, an unusual event, or a genuinely extreme value. Identifying outliers prevents them from distorting trend analysis."
+    }
+   ]
+  },
+  {
+   "term": "Prediction",
+   "descriptor_code": "AC9TDI8P02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A claim about what will happen in the future, based on extending an identified trend. A prediction must be grounded in evidence from the data and distinguish between what the data shows, what it suggests, and what is uncertain. Predictions have limitations — they assume the trend will continue, which may not hold.",
+   "failure_mode": "Students present opinions as data-supported conclusions — 'I think it will go up' without referencing the evidence or acknowledging uncertainty.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If predictions are indistinguishable from opinions, the data analysis pipeline has no value — students could have skipped the data entirely. The evidence → conclusion → prediction → limitation chain is the reasoning structure that makes data analysis meaningful.",
+   "response": "Ask students to write a prediction, then highlight every claim with 'what evidence supports this?' If any claim has no evidence, it's an opinion, not a prediction.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Data visualisation",
+   "descriptor_code": "AC9TDI8P02",
+   "width_tier": "minimum",
+   "definition": "Showing data as a graph, chart, map or diagram so you can see patterns that are hard to spot in raw numbers. Different graph types suit different kinds of data — the type you choose affects what patterns you can see.",
+   "example": "A scatter plot shows if there's a relationship between two things (like price and sales), but a bar chart just shows totals for each category.",
+   "sub_terms": [
+    {
+     "term": "Bar chart"
+    },
+    {
+     "term": "Scatter plot"
+    },
+    {
+     "term": "Line graph"
+    }
+   ]
+  },
+  {
+   "term": "Trend",
+   "descriptor_code": "AC9TDI8P02",
+   "width_tier": "minimum",
+   "definition": "An overall direction or pattern in data — something is going up, going down, staying steady, or repeating in cycles. A trend is the big picture, not one individual data point.",
+   "example": "If burglaries have dropped every year for five years, that's a downward trend — even if one month had a small increase."
+  },
+  {
+   "term": "Prediction",
+   "descriptor_code": "AC9TDI8P02",
+   "width_tier": "minimum",
+   "definition": "Using a pattern you've found in data to estimate what might happen in the future. A prediction needs evidence behind it — not just a guess — and should acknowledge that it might not hold if things change.",
+   "example": "If ice cream sales have risen every summer for four years, you might predict they'll rise again next summer — but you should note that a cold summer could break the pattern.",
+   "sub_terms": [
+    {
+     "term": "Outlier",
+     "definition": "A data point that's far from the overall pattern — it might be an error or something unusual.",
+     "example": "If every month's sales are around 200 except one month at 2,000, that's an outlier worth investigating."
+    }
+   ]
+  }
+ ]
+}

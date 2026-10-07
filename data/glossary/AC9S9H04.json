@@ -1,0 +1,121 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9H04",
+ "teacher_glossary": [
+  {
+   "term": "Research funding",
+   "descriptor_code": "AC9S9H04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The financial resources allocated to support scientific research, provided by governments, industries, foundations and other bodies. Funding decisions determine which research questions are pursued and which are not — making research funding the primary mechanism through which societal priorities shape scientific investigation.",
+   "failure_mode": "Students think scientists freely choose what to investigate based on curiosity alone — they do not recognise that research requires funding and that funding bodies have priorities that determine what research gets done.",
+   "failure_type": "misconception",
+   "why_it_matters": "If research direction is driven by curiosity alone, students cannot explain systematic patterns in what gets researched (e.g. why biomedical research receives more funding than environmental research in some periods) or analyse how shifting societal values change research priorities.",
+   "response": "Scaffold the causal chain explicitly: 'A scientist needs equipment, time and a lab. These require money. Money comes from funding bodies with priorities. Therefore the research that gets done reflects those priorities.' Then ask students to identify the funding source and priority behind a named research program.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Funding bodies",
+     "definition": "Organisations that provide money for scientific research, including government agencies (ARC, NHMRC in Australia), private foundations and industry. Each funding body has criteria and priorities that shape which research proposals are supported."
+    },
+    {
+     "term": "Commercial viability",
+     "definition": "Whether a research direction can generate financial returns through products or services. Commercial viability is one mechanism by which market incentives shape which research is funded and pursued."
+    }
+   ]
+  },
+  {
+   "term": "Societal values",
+   "descriptor_code": "AC9S9H04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The priorities, needs and ethical commitments held by a society at a given time — including health needs, environmental concerns, economic goals, cultural values and security priorities. Societal values influence research direction through multiple mechanisms: government mandate, market incentive, community advocacy and regulatory pressure.",
+   "failure_mode": "Students treat all research as driven by the same mechanism — typically government funding — and cannot distinguish between different pathways by which societal values shape research (e.g. government mandate vs. market incentive vs. community advocacy).",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If there is only one mechanism, students cannot analyse why the same societal value (e.g. health improvement) produces different research patterns depending on whether it operates through government policy, private industry or community-directed research.",
+   "response": "Compare two cases where the same value drove research through different mechanisms — e.g. health needs driving government-funded vaccine research vs. industry-funded pharmaceutical development. Ask students to identify the mechanism in each and how it shaped what research was done.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Green chemistry",
+     "definition": "The design of chemical products and processes that reduce or eliminate hazardous substances. Green chemistry research is driven by environmental values, regulatory pressure and increasingly by commercial incentive as manufacturers seek sustainable processes."
+    },
+    {
+     "term": "Government mandate",
+     "definition": "Direct policy or legislative direction that shapes research priorities — governments fund specific research programs, set national research agendas, or require investigation of particular issues through regulation."
+    },
+    {
+     "term": "Market incentive",
+     "definition": "Commercial forces that shape research direction — companies fund research that is likely to produce profitable products or processes, directing scientific investigation toward commercially viable questions."
+    },
+    {
+     "term": "Community advocacy",
+     "definition": "Grassroots demand from communities that drives research in particular directions — communities affected by health issues, environmental degradation or other concerns advocate for research attention and funding."
+    },
+    {
+     "term": "Regulatory pressure",
+     "definition": "Legal or compliance requirements that direct research and development — regulations on emissions, safety standards or environmental impact create demand for scientific solutions to meet the requirements."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Research funding",
+   "descriptor_code": "AC9S9H04",
+   "width_tier": "minimum",
+   "definition": "The money provided to support scientific research. Scientists need funding for equipment, labs and time — and the organisations that provide funding decide which research gets supported based on their priorities.",
+   "example": "When COVID-19 hit, governments around the world redirected billions in research funding toward vaccine development — the societal need changed the funding priority overnight.",
+   "sub_terms": [
+    {
+     "term": "Funding bodies",
+     "definition": "Organisations that provide money for research, like government agencies, private companies or charities.",
+     "example": "In Australia, the NHMRC funds health research and the ARC funds broader scientific research — each has different priorities for what they'll fund."
+    },
+    {
+     "term": "Commercial viability",
+     "definition": "Whether research can lead to products or services that make money — this affects whether private companies will fund it.",
+     "example": "Pharmaceutical companies fund research into common diseases because treatments will have a large market — rare diseases get less commercial funding because fewer people need the treatment."
+    }
+   ]
+  },
+  {
+   "term": "Societal values",
+   "descriptor_code": "AC9S9H04",
+   "width_tier": "minimum",
+   "definition": "What a society cares about at a particular time — like health, the environment, economic growth or cultural heritage. These values shape which scientific research gets funded and pursued.",
+   "example": "Growing concern about climate change (a societal value) has driven huge increases in renewable energy research — thirty years ago, that research received far less funding because the concern wasn't as widespread.",
+   "sub_terms": [
+    {
+     "term": "Green chemistry",
+     "definition": "Designing chemical processes that are less harmful to the environment — an example of research driven by environmental values.",
+     "example": "Many manufacturers are switching to green chemistry processes because society increasingly values environmental sustainability, and regulations are starting to require it."
+    },
+    {
+     "term": "Government mandate",
+     "definition": "When the government directly decides to fund or require certain research through laws or funding programs.",
+     "example": "The Australian government funding the CSIRO to research bushfire behaviour is a government mandate shaping research direction."
+    },
+    {
+     "term": "Market incentive",
+     "definition": "When companies fund research because they can sell the results — commercial profit drives the research direction.",
+     "example": "Pharmaceutical companies invest heavily in diabetes research because diabetes treatments have a huge market — the profit potential drives the research."
+    },
+    {
+     "term": "Community advocacy",
+     "definition": "When communities push for research on issues that affect them — their voices and campaigns influence what gets studied.",
+     "example": "Communities near contaminated sites campaigning for water quality research is community advocacy shaping scientific priorities."
+    },
+    {
+     "term": "Regulatory pressure",
+     "definition": "When laws or rules require companies to meet standards, which drives research into how to meet those standards.",
+     "example": "Emissions regulations require cars to pollute less — this creates regulatory pressure that drives research into cleaner engines and electric vehicles."
+    }
+   ]
+  }
+ ]
+}

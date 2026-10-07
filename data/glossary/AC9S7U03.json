@@ -1,0 +1,365 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7U03",
+ "teacher_glossary": [
+  {
+   "term": "Rotation",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The spinning of Earth on its own axis, completing one full turn approximately every 24 hours. Rotation causes the cycle of day and night as different parts of Earth's surface face toward or away from the sun.",
+   "failure_mode": "Students confuse rotation with revolution — using the terms interchangeably or believing that Earth's spinning around its axis is the same as its orbit around the sun.",
+   "failure_type": "misconception",
+   "why_it_matters": "If rotation and revolution are conflated, students cannot correctly assign causes to phenomena — they attribute seasons to rotation or day/night to revolution. The 3D spatial model required for eclipse and season explanations depends on distinguishing these two simultaneous cycles.",
+   "response": "Use a physical model: spin a globe on its axis (rotation = day/night) while walking it around a lamp (revolution = year). Ask students to identify which motion causes day/night and which causes the year — the simultaneous demonstration makes the distinction physical.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Revolution",
+     "definition": "The movement of Earth in its orbit around the sun, completing one full orbit approximately every 365.25 days. Revolution combined with axial tilt produces the cycle of seasons.",
+     "failure_mode": "Students think revolution means spinning — the everyday meaning of 'revolve' interferes with the astronomical meaning of orbiting around another body.",
+     "failure_type": "misconception",
+     "response": "Explicitly contrast: rotation = spin on axis (like a basketball on a finger), revolution = orbit around another body (like running around a track). Have students demonstrate both simultaneously with a model.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Axial tilt",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The angle at which Earth's axis of rotation is tilted relative to its orbital plane — approximately 23.5°. The axis maintains the same orientation in space throughout Earth's orbit, meaning different hemispheres receive more direct sunlight at different points in the orbit. Axial tilt is the cause of seasons.",
+   "failure_mode": "Students know Earth's axis is tilted but cannot connect the tilt to seasonal effects — they state the fact without explaining how a fixed tilt produces changing solar angles as Earth orbits.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Axial tilt is the causal mechanism for seasons. Students who know the tilt exists but cannot explain how it produces seasonal change will default to the distance misconception (seasons caused by proximity to the sun) because it offers a simpler causal story.",
+   "response": "Use a globe with a fixed tilt angle orbiting a lamp. At each quarter-orbit position, ask: which hemisphere is tilted toward the sun? What season does that hemisphere experience? The fixed tilt producing changing effects at different orbital positions is the key insight.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Moon phases",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The changing appearance of the moon as seen from Earth over a lunar cycle, caused by the changing angle at which sunlight illuminates the moon's surface relative to the observer. The sequence — new moon, waxing crescent, first quarter, waxing gibbous, full moon, waning gibbous, third quarter, waning crescent — repeats approximately every 29.5 days.",
+   "failure_mode": "Students explain moon phases as caused by Earth's shadow falling on the moon — confusing phases with lunar eclipses. In reality, phases are caused by the moon's position relative to Earth and the sun, which changes how much of the illuminated side we can see.",
+   "failure_type": "misconception",
+   "why_it_matters": "The shadow misconception persists directly into eclipse explanation. Students who think phases are caused by Earth's shadow will explain lunar eclipses as extreme moon phases and cannot distinguish the two phenomena — this is the Node 2 hinge.",
+   "response": "Use a ball and lamp model. Move the ball around a central observer, asking students to draw what they see at each position. The key moment: when the ball is beside the observer, half is lit — but no shadow from the observer falls on it. Phases are about viewing angle, not shadow.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Lunar cycle",
+     "definition": "The complete sequence of moon phases from one new moon to the next, taking approximately 29.5 days. The lunar cycle is caused by the moon orbiting Earth, which continuously changes the angle between sun, moon and observer.",
+     "failure_mode": "Students confuse the length of the lunar cycle with individual phase durations — or think each phase lasts one night rather than understanding the continuous transition across approximately 29.5 days.",
+     "failure_type": "misconception",
+     "response": "Show a month of real moon phase photographs with dates. Ask students to calculate how many days the full cycle takes and how many days each named phase lasts — the continuous change becomes visible.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Eclipse",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "An event in which one celestial body passes into the shadow of another, temporarily blocking light. Eclipses require precise alignment of the sun, moon and Earth. They do not occur every month because the moon's orbital plane is tilted approximately 5° relative to Earth's orbital plane — alignment only occurs when the moon crosses this plane at the right time.",
+   "failure_mode": "Students cannot explain why eclipses do not occur every month — they understand the alignment required but not the role of the moon's orbital tilt in making that alignment rare.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Eclipse rarity is directly assessed in the success criteria. Without the orbital tilt explanation, students treat eclipses as randomly occurring rather than as predictable events governed by orbital geometry.",
+   "response": "Use a tilted hoop to represent the moon's orbit around a globe. Show that the moon passes above or below the sun-Earth line most months — only when it crosses the line at new moon or full moon does an eclipse occur.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Solar eclipse",
+     "definition": "An eclipse in which the moon passes between the sun and Earth, casting a shadow on Earth's surface. The moon blocks sunlight from reaching a small area of Earth. Solar eclipses occur at new moon — but only when the moon's orbital tilt brings it into the sun-Earth line.",
+     "failure_mode": "Students think solar eclipses should happen every new moon — they understand the sun-moon-Earth alignment but not why the moon's orbital tilt prevents alignment most months.",
+     "failure_type": "fragmentation",
+     "response": "Model the tilted orbit: at most new moons, the moon passes above or below the sun-Earth line. Only when new moon coincides with the moon crossing the orbital plane does a solar eclipse occur.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Lunar eclipse",
+     "definition": "An eclipse in which Earth passes between the sun and moon, casting Earth's shadow on the moon. The moon moves into Earth's shadow and appears darkened or reddish. Lunar eclipses occur at full moon — but only when alignment is precise.",
+     "failure_mode": "Students confuse lunar eclipses with moon phases — specifically, they think a lunar eclipse is just an extreme phase caused by Earth's shadow, rather than a distinct event requiring precise orbital alignment.",
+     "failure_type": "misconception",
+     "response": "Compare directly: during a normal full moon, Earth's shadow misses the moon (no eclipse). During a lunar eclipse, the alignment is exact and Earth's shadow falls on the moon. The difference is alignment, not phase.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Umbra",
+     "definition": "The darkest, central part of a shadow where all direct light from the source is completely blocked. During a solar eclipse, only observers within the umbra see a total eclipse.",
+     "failure_mode": "Students swap umbra and penumbra — calling the lighter outer shadow the umbra and the darker inner shadow the penumbra, or thinking penumbra means 'no shadow at all.'",
+     "failure_type": "fragile_skill",
+     "response": "Use a torch and ball to cast a shadow on a wall. Identify the dark centre (umbra) and lighter edge (penumbra). Mnemonic: umbra = umbrella of total darkness at the centre.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Penumbra",
+     "definition": "The lighter, outer region of a shadow where only part of the light source is blocked. During a solar eclipse, observers in the penumbra see a partial eclipse — some sunlight is still visible around the moon's edge.",
+     "failure_mode": "Students think the penumbra is not a shadow at all — rather than understanding it as a region of partial shadow where some but not all light is blocked.",
+     "failure_type": "misconception",
+     "response": "In the torch-and-ball model, have students stand in the penumbra region and observe that some light reaches them — it's dimmer, not dark. Partial shadow, not no shadow.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Moon's orbital tilt",
+     "definition": "The approximately 5° angle between the moon's orbital plane and Earth's orbital plane around the sun. This tilt is the reason eclipses do not occur every month — most months, the moon passes above or below the sun-Earth line rather than through it.",
+     "failure_mode": "Students learn the orbital tilt fact without connecting it to eclipse frequency — they state that the moon's orbit is tilted but cannot explain how this prevents monthly eclipses.",
+     "failure_type": "fragmentation",
+     "response": "Use a tilted ring around a globe to show the moon's orbit. At each full moon and new moon position, ask: does the moon cross the sun-Earth line this month? The visual makes the connection between tilt and eclipse rarity concrete.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Seasons",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The annual cycle of weather and daylight patterns caused by Earth's axial tilt. As Earth orbits the sun, the tilted axis means each hemisphere alternates between being tilted toward the sun (summer — higher solar angle, longer days) and away from it (winter — lower solar angle, shorter days). Seasons are not caused by distance from the sun.",
+   "failure_mode": "Students explain seasons as caused by Earth being closer to the sun in summer and further away in winter — the distance misconception. This is extremely persistent and directly assessed.",
+   "failure_type": "misconception",
+   "why_it_matters": "The distance misconception produces confidently wrong answers that students defend vigorously. It cannot explain why the Northern and Southern hemispheres experience opposite seasons simultaneously — which is a direct test of understanding. Students who hold this misconception produce systematically wrong season explanations.",
+   "response": "Ask: if seasons are caused by distance, why does Australia have summer when the UK has winter — they're the same distance from the sun. The opposite-hemisphere test directly contradicts the distance explanation and forces the tilt explanation.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Solar angle",
+     "definition": "The angle at which sunlight strikes Earth's surface at a given location. Higher solar angles (sun more directly overhead) concentrate energy on a smaller area, producing more heating. Solar angle varies by latitude and season due to axial tilt.",
+     "failure_mode": "Students can name solar angle as a factor in seasons without connecting it to heating — they state that the angle changes but cannot explain why a higher angle means more heating per unit area.",
+     "failure_type": "fragmentation",
+     "response": "Shine a torch straight down on a surface (high angle — small bright spot) then at a low angle (same light spread over a larger area, dimmer). Ask: which produces more heating per square metre? The torch demonstration makes the angle-heating connection physical.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Day length",
+     "definition": "The number of hours of daylight at a given location, which varies across the year due to axial tilt. The hemisphere tilted toward the sun has longer days; the hemisphere tilted away has shorter days. Day length is the second mechanism (alongside solar angle) by which tilt produces seasons.",
+     "failure_mode": "Students know day length changes across the year but cannot explain why — they describe the pattern without connecting it to axial tilt and Earth's orbital position.",
+     "failure_type": "fragmentation",
+     "response": "Use a globe with a lamp to show how the terminator (day/night boundary) falls at different orbital positions. At the June position, the Southern Hemisphere has more area in darkness — shorter days. At December, it reverses.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Hemisphere",
+     "definition": "One half of Earth, divided by the equator into Northern and Southern hemispheres. The hemispheres experience opposite seasons simultaneously because when one is tilted toward the sun, the other is tilted away.",
+     "failure_mode": "Students do not connect opposite hemispheric seasons to axial tilt — they may know that Australia and the UK have opposite seasons but cannot explain why using the tilt model.",
+     "failure_type": "fragmentation",
+     "response": "Use a globe tilted toward a lamp. Ask students to identify which hemisphere is tilted toward the sun and which is tilted away. Then ask: what season is each experiencing? Rotate the globe to the opposite orbital position and repeat.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Latitude"
+    },
+    {
+     "term": "Insolation"
+    },
+    {
+     "term": "Six-season calendar"
+    },
+    {
+     "term": "Light intensity"
+    }
+   ]
+  },
+  {
+   "term": "Tides",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The regular rise and fall of sea levels caused primarily by the gravitational pull of the moon on Earth's oceans. The moon's gravity pulls water toward it, creating a bulge of higher water (high tide) on the side of Earth facing the moon and a second bulge on the opposite side. As Earth rotates, locations pass through these bulges, experiencing two high tides and two low tides daily.",
+   "failure_mode": "Students think tides are caused by the moon 'pushing' water or by wind, rather than by gravitational pull. Or they understand the near-side bulge but cannot explain the far-side bulge.",
+   "failure_type": "misconception",
+   "why_it_matters": "Tides integrate the lunar cycle, the Earth-moon-sun model and gravitational force into a single explanatory account. Students who cannot explain the gravitational mechanism cannot distinguish spring from neap tides or connect tidal patterns to moon position.",
+   "response": "Use a diagram showing the moon's gravity pulling water toward it on the near side while the far side bulges because it is pulled less strongly than Earth's centre. Connect to the rotation: as Earth spins, a coastal location rotates through both bulges in one day.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Spring tides",
+     "definition": "Tides with the greatest tidal range (highest high tides, lowest low tides), occurring when the sun, moon and Earth are aligned — at new moon and full moon. The sun's gravitational pull reinforces the moon's, producing larger tidal bulges.",
+     "failure_mode": "Students think spring tides occur only in the spring season — confusing the tidal term with the season name. Or they cannot connect spring tides to the specific moon positions (new and full moon) that cause them.",
+     "failure_type": "misconception",
+     "response": "Show a diagram of sun-moon-Earth alignment at new moon and full moon. Ask: when the sun and moon pull in the same direction (or directly opposite), what happens to the tidal bulge? The alignment explanation replaces the seasonal confusion.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Neap tides",
+     "definition": "Tides with the smallest tidal range (least difference between high and low tide), occurring when the sun and moon are at right angles relative to Earth — at first quarter and third quarter moon. The sun's gravitational pull partially counteracts the moon's.",
+     "failure_mode": "Students cannot distinguish neap from spring tides or connect each to the correct moon position — they know two types exist but confuse which alignment produces which effect.",
+     "failure_type": "fragile_skill",
+     "response": "Place the neap and spring tide diagrams side by side. Ask: in which arrangement do the sun and moon work together? In which do they work against each other? Label each with the moon phase that produces it.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Tide chart",
+     "definition": "A graphical representation of predicted tide heights over time for a specific coastal location, showing the cyclic pattern of high and low tides. Tide charts reveal spring and neap cycles when read across a lunar month.",
+     "failure_mode": "Students can read individual high and low points on a tide chart but cannot identify the spring-neap pattern across a month — they read the chart point-by-point rather than recognising the repeating cycle.",
+     "failure_type": "fragile_skill",
+     "response": "Give students a month-long tide chart and ask them to mark the highest highs and lowest lows. Then overlay a lunar calendar — the spring tides align with new and full moons, making the pattern visible.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Gravitational pull",
+   "descriptor_code": "AC9S7U03",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The attractive force that a massive object exerts on other objects. In the Earth-sun-moon system, the moon's gravitational pull on Earth's oceans is the primary cause of tides, while the sun's gravitational pull modifies the tidal pattern. Gravitational pull depends on mass and distance.",
+   "failure_mode": "Students think gravity only pulls things 'down' toward the ground — they do not recognise that gravitational pull acts between any two masses, including between the moon and Earth's oceans.",
+   "failure_type": "misconception",
+   "why_it_matters": "If gravity is only 'down,' students cannot explain how the moon causes tides or how gravitational interactions govern the Earth-sun-moon system. The concept is extended in AC9S7U04 (Forces and Motion) where gravitational force is explored in terms of mass dependence.",
+   "response": "Ask: if gravity only pulls down, how does the moon affect our oceans from space? The question exposes the limitation of 'gravity = down' and opens the door to gravity as a pull between any two masses.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Rotation",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "Earth spinning on its own axis — like a top spinning in place. One full spin takes about 24 hours and gives us the cycle of day and night.",
+   "example": "When your side of Earth faces the sun, it's daytime. As Earth rotates, your side turns away from the sun and it becomes night — one full rotation is one day.",
+   "sub_terms": [
+    {
+     "term": "Revolution",
+     "definition": "Earth's movement in a big orbit around the sun — one full trip takes about 365 days (one year). This is different from rotation, which is Earth spinning on its own axis.",
+     "example": "Think of rotation as a basketball spinning on your finger (the ball turns on the spot) and revolution as you walking in a circle around the room while holding the spinning ball."
+    }
+   ]
+  },
+  {
+   "term": "Axial tilt",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "Earth's axis (the imaginary line it spins around) is tilted at about 23.5° — it doesn't spin straight up and down. This tilt stays pointing the same direction all year, which is what causes the seasons.",
+   "example": "Imagine holding a globe tilted and walking it around a lamp. At some points in the orbit, the top half leans toward the lamp (summer for the Northern Hemisphere). At the opposite point, it leans away (winter)."
+  },
+  {
+   "term": "Moon phases",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "The changing shape of the moon as we see it from Earth across a month. The moon doesn't actually change shape — the amount of its sunlit side that we can see changes as it orbits Earth. Phases are NOT caused by Earth's shadow.",
+   "example": "When the moon is between Earth and the sun, we see the dark side (new moon). When Earth is between the sun and moon, we see the fully lit side (full moon). In between, we see crescents and quarters.",
+   "sub_terms": [
+    {
+     "term": "Lunar cycle",
+     "definition": "The complete set of moon phases from one new moon to the next, taking about 29.5 days. The phases change gradually — they don't suddenly switch from one to the next.",
+     "example": "If you photograph the moon every night for a month, you'd see it gradually change from new moon to full moon and back again over about 29.5 days."
+    }
+   ]
+  },
+  {
+   "term": "Eclipse",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "An event where one object in space moves into the shadow of another, temporarily blocking light. Eclipses need the sun, moon and Earth to line up precisely — this doesn't happen every month because the moon's orbit is slightly tilted.",
+   "example": "Imagine three people standing in a line with a torch. The person in the middle blocks the light from reaching the person at the end — that's like an eclipse. But if the middle person is standing slightly to the side, the light gets through — that's most months.",
+   "sub_terms": [
+    {
+     "term": "Solar eclipse",
+     "definition": "When the moon passes directly between the sun and Earth, blocking sunlight from reaching a small area on Earth. This can only happen at new moon — and only when the moon's tilted orbit brings it exactly into the sun-Earth line.",
+     "example": "During a total solar eclipse, the moon covers the sun completely for a few minutes and the sky goes dark in the middle of the day — but only for people in a narrow path on Earth."
+    },
+    {
+     "term": "Lunar eclipse",
+     "definition": "When Earth passes directly between the sun and moon, casting Earth's shadow on the moon. This can only happen at full moon — the moon turns a dark reddish colour as it moves through Earth's shadow.",
+     "example": "During a lunar eclipse, anyone on the night side of Earth can see the moon darken and turn red over a few hours — unlike solar eclipses, which are only visible from a small area."
+    },
+    {
+     "term": "Umbra",
+     "definition": "The darkest part of a shadow, right in the centre, where all the light is completely blocked.",
+     "example": "If you hold your hand close to a wall with a lamp behind you, the very darkest part of the shadow (where your hand blocks all the light) is the umbra."
+    },
+    {
+     "term": "Penumbra",
+     "definition": "The lighter part of a shadow around the edges, where only some of the light is blocked. It's dimmer than normal but not completely dark.",
+     "example": "The fuzzy, lighter edge around your hand's shadow on the wall is the penumbra — some light gets past the edges of your hand."
+    },
+    {
+     "term": "Moon's orbital tilt",
+     "definition": "The moon's orbit around Earth is tilted about 5° compared to Earth's orbit around the sun. This tilt means the moon usually passes above or below the sun-Earth line instead of through it — which is why eclipses don't happen every month.",
+     "example": "Imagine a hula hoop tilted slightly — a ball rolling around it would only cross the flat table level twice per lap. The moon only crosses the sun-Earth line twice per orbit, and an eclipse can only happen at those crossing points."
+    }
+   ]
+  },
+  {
+   "term": "Seasons",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "The yearly pattern of weather and daylight changes caused by Earth's axial tilt — NOT by being closer to or further from the sun. When your hemisphere is tilted toward the sun, you get summer (sun higher in the sky, longer days). When it's tilted away, you get winter.",
+   "example": "Australia has summer in December because the Southern Hemisphere is tilted toward the sun then. At the same time, the UK has winter because the Northern Hemisphere is tilted away — same distance from the sun, opposite seasons.",
+   "sub_terms": [
+    {
+     "term": "Solar angle",
+     "definition": "How high the sun appears in the sky. When the sun is high (high solar angle), its energy is concentrated on a smaller area, so it feels hotter. When the sun is low (low solar angle), the same energy is spread over a larger area, so it feels cooler.",
+     "example": "Shine a torch straight down on a table — you get a small, bright circle. Tilt the torch at an angle — the light spreads out and gets dimmer. That's why midday sun (high angle) is hotter than sunrise sun (low angle)."
+    },
+    {
+     "term": "Day length",
+     "definition": "The number of hours of daylight, which changes across the year because of Earth's tilt. In summer, your hemisphere is tilted toward the sun so you get longer days. In winter, it's tilted away so days are shorter.",
+     "example": "In Canberra, a summer day in December has about 14.5 hours of daylight, but a winter day in June has only about 10 hours — the tilt changes how long the sun is above the horizon."
+    },
+    {
+     "term": "Hemisphere",
+     "definition": "One half of Earth, split by the equator. The Northern Hemisphere (above the equator) and Southern Hemisphere (below) always have opposite seasons because when one is tilted toward the sun, the other is tilted away.",
+     "example": "When it's summer in Australia (Southern Hemisphere), it's winter in Canada (Northern Hemisphere) — even though both countries are the same distance from the sun."
+    },
+    {
+     "term": "Latitude",
+     "definition": "How far north or south a place is from the equator. Latitude affects how much the seasons change — places near the equator have mild seasons, while places near the poles have extreme differences between summer and winter.",
+     "example": "Darwin (close to the equator) has fairly similar temperatures year-round, but Hobart (further south) has much colder winters and warmer summers — latitude makes the seasonal difference bigger."
+    },
+    {
+     "term": "Insolation",
+     "definition": "The amount of solar energy hitting a surface. Insolation varies by latitude, season and time of day because of changes in solar angle and day length.",
+     "example": "A solar panel in Darwin receives more insolation than one in Hobart because the sun is higher in the sky for more of the year — more direct sunlight means more energy."
+    },
+    {
+     "term": "Six-season calendar",
+     "definition": "A way of describing seasonal patterns used by many Aboriginal and Torres Strait Islander peoples, based on changes they observe in the natural world — like flowering plants, animal behaviour, wind patterns and rainfall — rather than the four astronomical seasons used in European tradition.",
+     "example": "The Ngunnawal people of the Canberra region recognise seasons based on when certain plants flower, when particular animals breed, and when weather patterns shift — these ecological markers often don't line up with the four-season calendar."
+    },
+    {
+     "term": "Light intensity",
+     "definition": "How strong or concentrated sunlight is when it reaches Earth's surface. Light intensity depends on solar angle — when the sun is higher, light is more concentrated and intense.",
+     "example": "At noon in summer, the sun is nearly overhead and the light feels strong and hot. At noon in winter, the sun is lower in the sky and the light is weaker — same sun, different intensity because of the angle."
+    }
+   ]
+  },
+  {
+   "term": "Tides",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "The regular rise and fall of sea levels, mainly caused by the moon's gravitational pull on Earth's oceans. Most coastal places experience two high tides and two low tides each day.",
+   "example": "If you visit the beach in the morning and the water is up near the dunes (high tide), then return in the afternoon and the water has retreated far down the sand (low tide) — that's tides caused by the moon's gravity.",
+   "sub_terms": [
+    {
+     "term": "Spring tides",
+     "definition": "Extra-large tides that happen when the sun, moon and Earth are lined up — at new moon and full moon. The sun's gravity adds to the moon's gravity, making the tides bigger. Nothing to do with the spring season!",
+     "example": "At full moon, the high tides are noticeably higher and the low tides are lower than usual — that's a spring tide. Fishers and surfers pay attention to these because they mean bigger water movements."
+    },
+    {
+     "term": "Neap tides",
+     "definition": "Smaller tides that happen when the sun and moon are at right angles to each other — at first quarter and third quarter moon. The sun's gravity partially cancels out the moon's, making the tides smaller.",
+     "example": "At quarter moon, you might barely notice the tide changing — the difference between high and low tide is much smaller than during a spring tide."
+    },
+    {
+     "term": "Tide chart",
+     "definition": "A graph showing predicted high and low tide times and heights for a specific beach or harbour. Reading a tide chart across a whole month reveals the spring-neap pattern repeating with the lunar cycle.",
+     "example": "Before a beach trip, you might check a tide chart to find when low tide is — the chart shows wavy lines going up and down, with the biggest waves during spring tides and smallest during neap tides."
+    }
+   ]
+  },
+  {
+   "term": "Gravitational pull",
+   "descriptor_code": "AC9S7U03",
+   "width_tier": "minimum",
+   "definition": "The pulling force that any object with mass exerts on other objects. The bigger the mass, the stronger the pull. The moon's gravitational pull on Earth's oceans is what causes tides.",
+   "example": "The moon's gravity is strong enough to pull the ocean toward it, creating a bulge of water (high tide) on the side of Earth facing the moon — even though the moon is nearly 400,000 km away."
+  }
+ ]
+}

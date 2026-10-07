@@ -1,0 +1,369 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7U02",
+ "teacher_glossary": [
+  {
+   "term": "Food web",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A model showing the interconnected feeding relationships between organisms in an ecosystem. Unlike a food chain, a food web represents multiple overlapping pathways of energy flow, revealing that most organisms have more than one food source and more than one predator.",
+   "failure_mode": "Students draw food webs with arrows pointing from consumer to food source — reversing the direction of energy flow. Arrows in a food web must show the direction energy moves: from the organism being eaten to the organism eating it.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Reversed arrows make every subsequent energy flow and cascade prediction wrong. If arrows point toward food sources, students read the web as 'what eats what' rather than 'where energy flows' — and cannot trace energy loss through trophic levels.",
+   "response": "Explicitly label arrows as 'energy flows to' rather than 'is eaten by.' Have students trace a single energy pathway from producer to top consumer and check that every arrow points in the direction energy travels.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Food chain",
+     "definition": "A single linear pathway showing energy flow from one organism to the next — producer to primary consumer to secondary consumer. A simplified model that shows one route through a food web.",
+     "failure_mode": "Students think food chains and food webs are interchangeable — missing that a food chain shows only one pathway while a food web shows the interconnected reality. This leads to oversimplified cascade predictions.",
+     "failure_type": "misconception",
+     "response": "Compare a food chain and food web for the same ecosystem. Ask: what information is present in the web but missing from the chain? What prediction would you get wrong using only the chain?",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Producer",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "An organism that makes its own food from non-living sources — typically through photosynthesis using sunlight. Producers are the entry point for energy in almost all food webs and include plants, algae and some bacteria. All energy in a food web traces back to producers.",
+   "failure_mode": "Students think producers are only large green plants — missing algae, phytoplankton and photosynthetic bacteria, which are the dominant producers in aquatic ecosystems.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If producers are only land plants, students cannot explain energy flow in aquatic ecosystems — which contain the majority of Earth's biomass. Aquatic food webs become inexplicable.",
+   "response": "Present food webs from aquatic and terrestrial ecosystems side by side. Ask students to identify the producer in each — the aquatic examples force recognition of non-plant producers.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Consumer",
+     "definition": "An organism that obtains energy by eating other organisms. Primary consumers eat producers; secondary consumers eat primary consumers; tertiary consumers eat secondary consumers.",
+     "failure_mode": "Students classify consumers by what they 'prefer' to eat rather than by their trophic position — an omnivore that eats both plants and animals gets misplaced because it occupies multiple trophic levels simultaneously.",
+     "failure_type": "misconception",
+     "response": "Use a food web to show how the same organism can be a primary consumer (when eating plants) and a secondary consumer (when eating herbivores). Trophic position depends on the pathway, not the organism.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Decomposer",
+     "definition": "An organism — typically bacteria or fungi — that breaks down dead organic matter, returning nutrients to the soil or water. Decomposers connect to every trophic level because all organisms eventually die and are decomposed.",
+     "failure_mode": "Students omit decomposers from food webs or place them only at the end of a chain — missing that decomposers process dead matter from every trophic level, not just top consumers.",
+     "failure_type": "misconception",
+     "response": "Ask students to draw arrows from every organism in a food web to the decomposer. The resulting diagram makes the decomposer's role in nutrient cycling visible at every level.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Primary consumer",
+     "definition": "An organism that eats producers directly — a herbivore. Primary consumers are the first trophic level above producers.",
+     "failure_mode": "Students think 'primary' means 'most important' rather than 'first in the energy pathway from producers.'",
+     "failure_type": "misconception",
+     "response": "Trace energy from producer through the web and number each step. Primary = first consumer in the chain, secondary = second. The numbering makes the positional meaning clear.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Secondary consumer",
+     "definition": "An organism that eats primary consumers — a carnivore or omnivore that obtains energy at least two steps from the producer.",
+     "failure_mode": "Students assume secondary consumers eat only primary consumers, missing that many secondary consumers are omnivores that also eat producers.",
+     "failure_type": "narrow_repertoire",
+     "response": "Present an omnivore in a food web and trace all its feeding pathways. Ask: is this organism a primary consumer, secondary consumer, or both? The answer depends on which pathway you trace.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Ecosystem",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A community of living organisms (biotic factors) interacting with each other and with the non-living components of their environment (abiotic factors). An ecosystem includes all the feeding relationships, energy flows and matter cycles within a defined area.",
+   "failure_mode": "Students think an ecosystem is just a place or habitat — a location where organisms live — without recognising that the interactions between organisms and their environment are what define it.",
+   "failure_type": "misconception",
+   "why_it_matters": "If an ecosystem is just a location, students cannot reason about how changes to one component (abiotic or biotic) cascade through the system. The interaction concept is what makes prediction possible.",
+   "response": "Compare 'habitat' with 'ecosystem' explicitly. A pond is a habitat; the ecosystem includes all organisms in the pond plus their interactions with water temperature, sunlight, dissolved oxygen and each other.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Energy flow",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The one-way transfer of energy through an ecosystem, beginning with producers capturing sunlight and passing through consumers at each trophic level. Energy is lost as heat at every transfer — it flows through the system but does not cycle back. This distinguishes energy flow from matter cycling.",
+   "failure_mode": "Students conflate energy flow with matter cycling — believing energy cycles through the ecosystem and can be recovered, rather than understanding that energy flows one way and is progressively lost as heat at each trophic level.",
+   "failure_type": "misconception",
+   "why_it_matters": "The energy/matter conflation produces systematically wrong cascade predictions. Students who think energy cycles predict recovery rather than loss — they expect populations to bounce back rather than decline when energy input is reduced. This error propagates into every prediction task in Nodes 3 and 4.",
+   "response": "Use a side-by-side diagram: energy enters from the sun, passes through trophic levels with loss at each step, and exits as heat (one-way arrow). Matter cycles between organisms and environment (circular arrows). Ask students to label which diagram shows energy and which shows matter.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "10% rule",
+     "definition": "The approximation that only about 10% of the energy at one trophic level is transferred to the next — the remaining 90% is lost as heat through life processes. Used to explain why food webs have few trophic levels and why top predators are rare.",
+     "failure_mode": "Students apply the 10% rule mechanically without understanding why energy is lost — they memorise the number without connecting it to the biological reality that organisms use most of their energy for life processes.",
+     "failure_type": "fragile_skill",
+     "response": "Ask students to account for where the 90% goes: movement, growth, reproduction, body heat. Then calculate how much energy reaches a tertiary consumer from 10,000 kJ at the producer level — the dramatic reduction makes the rule concrete.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Matter cycling",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The continuous movement of matter (nutrients, water, carbon) through an ecosystem — from the environment into organisms and back again through decomposition, respiration and other processes. Unlike energy, matter is not lost from the system; it cycles repeatedly between living and non-living components.",
+   "failure_mode": "Students conflate matter cycling with energy flow — believing that matter, like energy, is used up and lost at each trophic level rather than cycling back through the ecosystem.",
+   "failure_type": "misconception",
+   "why_it_matters": "If matter is lost like energy, students cannot explain decomposition, nutrient return or why ecosystems are sustainable over time. The distinction between one-way energy flow and cyclical matter movement is foundational for AC9S9U03 (Carbon Cycle).",
+   "response": "Trace a single carbon atom through a food web: absorbed by a plant during photosynthesis, eaten by a herbivore, released as CO₂ through respiration, reabsorbed by another plant. The atom returns — energy does not.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Trophic level",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A position in a food web defined by the number of energy transfers from the producer. Producers occupy the first trophic level; primary consumers the second; secondary consumers the third. Each trophic level contains less available energy than the one below it.",
+   "failure_mode": "Students treat trophic levels as fixed categories for organisms rather than positions in an energy pathway — they assign an organism a single trophic level even when it feeds at multiple levels in a food web.",
+   "failure_type": "misconception",
+   "why_it_matters": "If trophic levels are fixed organism labels, students cannot reason about omnivores or complex food webs where the same organism occupies different trophic positions depending on the pathway. Energy flow calculations become impossible for real ecosystems.",
+   "response": "Present an omnivore in a food web and ask students to identify its trophic level for each feeding pathway. The organism occupies trophic level 2 when eating plants and trophic level 3 when eating herbivores — it is pathway-dependent.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Energy pyramid",
+     "definition": "A diagram showing the amount of energy available at each trophic level, with producers at the broad base and top consumers at the narrow peak. The pyramid shape reflects progressive energy loss at each transfer.",
+     "failure_mode": "Students interpret the pyramid as a hierarchy of importance or population size rather than a representation of available energy — they think organisms at the top are 'most important' rather than 'fewest because energy is scarce.'",
+     "failure_type": "misconception",
+     "response": "Ask: why is the pyramid wide at the bottom and narrow at the top? Connect each level's width to the amount of energy available, not to importance. Then ask why there are few top predators — the energy explanation makes it concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Biomass"
+    }
+   ]
+  },
+  {
+   "term": "Abiotic factor",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A non-living component of an ecosystem that affects living organisms — such as temperature, water availability, sunlight, soil pH, wind and salinity. Changes to abiotic factors cascade through food webs by affecting producers first, then the consumers that depend on them.",
+   "failure_mode": "Students list abiotic factors correctly but cannot trace how a change to one factor cascades through multiple populations in a food web — they predict only the immediate first-order effect.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Single-step prediction misses the cascade that defines ecosystem response. A drought doesn't just reduce plant growth — it reduces herbivore populations, which reduces predator populations, which may allow other herbivore populations to increase. Missing the cascade means missing the ecosystem-level consequence.",
+   "response": "Scaffold multi-step reasoning: what changes first? What depends on that? What depends on that? Require students to trace at least three steps through a food web before concluding. Use sentence starters: 'This means that... which causes... which leads to...'",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Biotic factor",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A living component of an ecosystem that affects other living organisms — such as predators, prey, competitors, parasites, and decomposers. Changes to biotic factors cascade through food webs as the removal or introduction of one species affects every species connected to it.",
+   "failure_mode": "Students predict only the immediate effect of species removal or introduction without tracing the cascade through the full food web — they identify what the removed species ate or was eaten by, but stop there.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Biotic cascade reasoning requires holding the whole food web in mind simultaneously — the same multi-step reasoning skill required for carbon flow in AC9S9U03. Students who stop at first-order effects treat ecosystems as simple chains rather than interconnected webs.",
+   "response": "Present a food web and remove one species. Ask students to predict effects on every connected species, then the species connected to those, tracing at least two steps beyond the immediate effect. Compare predictions with a real trophic cascade case study.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Invasive species",
+     "definition": "A species introduced to an ecosystem where it did not naturally occur, which disrupts existing food web relationships — often because it has no natural predators in the new ecosystem and outcompetes native species.",
+     "failure_mode": "Students describe invasive species as 'bad animals' without connecting the disruption to specific food web mechanisms — competition for resources, predation on native species, or displacement of existing trophic roles.",
+     "failure_type": "flawed_reasoning",
+     "response": "Construct a food web before and after an invasive species introduction. Ask: what new feeding relationships appear? What existing relationships are disrupted? What populations increase or decrease and why?",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Population",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "All the organisms of one species living in a particular area at a particular time. In ecosystem science, population size is what changes when abiotic or biotic factors shift — food web predictions are about population increases, decreases or stability.",
+   "failure_mode": "Students confuse population with community or ecosystem — using 'population' to refer to all organisms in an area rather than all organisms of one species.",
+   "failure_type": "misconception",
+   "why_it_matters": "If population means all organisms, cascade predictions become incoherent — students cannot track how one species' population change affects another specific species' population. The specificity of 'one species in one area' is what makes predictions testable.",
+   "response": "Give students a food web and ask them to identify three different populations within it. Emphasise: each species in the web is a separate population. The food web shows how populations interact, not how one population works.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Cascade effect",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A chain of population changes triggered by a single change to an abiotic or biotic factor in an ecosystem. The initial change affects one population, which affects populations connected to it in the food web, which in turn affects further populations — the effects cascade through the web.",
+   "failure_mode": "Students describe the initial change and one consequence but do not trace the chain further — they predict first-order effects only, missing the multi-step cascade that reveals the full ecosystem impact.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "First-order-only prediction is the most common reasoning gap in this standard. Real ecosystem responses involve multiple steps — a drought reduces plants, which reduces herbivores, which reduces predators, which may release pressure on other herbivore populations. Stopping at step one misses the systemic response.",
+   "response": "Use a chain-of-reasoning scaffold: Change → First effect → Second effect → Third effect. Require students to complete at least three links before writing their prediction. Provide the food web as a visual reference throughout.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Trophic cascade",
+     "definition": "A specific type of cascade effect triggered by a change at the top of the food web — typically the removal or introduction of a top predator — that cascades down through multiple trophic levels.",
+     "failure_mode": "Students describe the trophic cascade event (e.g. wolves removed, elk increased) without tracing the full chain through the food web to vegetation and other species affected by the vegetation change.",
+     "failure_type": "flawed_reasoning",
+     "response": "Use the Yellowstone wolf reintroduction as a case study. Require students to trace effects from wolves → elk → vegetation → riverbank erosion → beaver habitat — the multi-step chain makes the trophic cascade concept concrete.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Model",
+   "descriptor_code": "AC9S7U02",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A simplified representation of a real system, designed to help explain, predict or communicate. In science, models deliberately leave out some details to make the system understandable — a food web model represents feeding relationships but omits factors like disease, weather variation and seasonal changes.",
+   "failure_mode": "Students think scientific models are physical replicas or exact copies of reality — they do not recognise that models are deliberate simplifications with assumptions, and that what a model leaves out affects the reliability of predictions made from it.",
+   "failure_type": "misconception",
+   "why_it_matters": "If models are copies, students cannot evaluate their limitations or explain why predictions from models are uncertain. Model evaluation — identifying what is missing and how that affects predictions — is directly assessed at Node 5.",
+   "response": "Present a simple and complex model of the same ecosystem. Ask: what can the simple model predict? What would it get wrong? What does the complex model add? This makes 'limitation' concrete rather than abstract.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Food web",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A diagram showing how energy flows between organisms in an ecosystem through feeding relationships. Arrows point from the organism being eaten to the organism eating it — showing the direction energy travels.",
+   "example": "In a grassland food web, arrows go from grass → rabbit → fox, but also from grass → grasshopper → frog → snake, showing that energy takes many different paths.",
+   "sub_terms": [
+    {
+     "term": "Food chain",
+     "definition": "A single pathway showing energy flow from one organism to the next — like one route through a food web. Food chains are simpler but show less information than a food web.",
+     "example": "Grass → rabbit → fox is a food chain. But in the real ecosystem, the rabbit also eats clover and is also eaten by eagles — the food web shows all of these connections."
+    }
+   ]
+  },
+  {
+   "term": "Producer",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A living thing that makes its own food, usually by using sunlight. Producers are where all the energy in a food web starts — without them, nothing else can survive.",
+   "example": "On land, grass and trees are producers. In the ocean, tiny floating algae called phytoplankton are the main producers — they make food from sunlight just like plants do.",
+   "sub_terms": [
+    {
+     "term": "Consumer",
+     "definition": "A living thing that gets energy by eating other organisms. Consumers are named by their position in the food web: primary consumers eat producers, secondary consumers eat primary consumers.",
+     "example": "A rabbit eating grass is a primary consumer. A fox eating the rabbit is a secondary consumer — it's two energy transfers from the producer."
+    },
+    {
+     "term": "Decomposer",
+     "definition": "An organism — usually bacteria or fungi — that breaks down dead plants and animals, returning nutrients to the soil or water so producers can use them again.",
+     "example": "When a tree falls in a forest, fungi and bacteria break it down over time. The nutrients go back into the soil where new plants can absorb them."
+    },
+    {
+     "term": "Primary consumer",
+     "definition": "An organism that eats producers directly — a herbivore. 'Primary' means first in the energy pathway, not most important.",
+     "example": "A caterpillar eating a leaf is a primary consumer — it's the first consumer in the chain from the plant."
+    },
+    {
+     "term": "Secondary consumer",
+     "definition": "An organism that eats primary consumers. It gets energy that has been transferred twice — from producer to primary consumer to secondary consumer.",
+     "example": "A bird eating the caterpillar is a secondary consumer — the energy started in the leaf, went to the caterpillar, then to the bird."
+    }
+   ]
+  },
+  {
+   "term": "Ecosystem",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "All the living things in an area plus the non-living things they interact with — like temperature, water, sunlight and soil. An ecosystem isn't just a place; it's all the interactions happening in that place.",
+   "example": "A pond ecosystem includes the fish, frogs, plants and algae (living things) plus the water temperature, sunlight, dissolved oxygen and mud (non-living things) — and all the ways they affect each other."
+  },
+  {
+   "term": "Energy flow",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "The one-way movement of energy through an ecosystem. Energy enters from the sun, passes through producers and consumers, and is lost as heat at every step — it doesn't cycle back like matter does.",
+   "example": "If grass captures 10,000 kJ of energy from the sun, a rabbit might get about 1,000 kJ from eating the grass, and a fox might get about 100 kJ from eating the rabbit. Most energy is lost as heat at each step.",
+   "sub_terms": [
+    {
+     "term": "10% rule",
+     "definition": "The idea that only about 10% of the energy at one level of a food web gets passed to the next level. The other 90% is used by the organism for moving, growing and staying alive.",
+     "example": "If plants in a field contain 10,000 kJ of energy, herbivores get about 1,000 kJ, and the carnivores that eat them get about 100 kJ — that's why there are lots of plants, fewer herbivores and very few top predators."
+    }
+   ]
+  },
+  {
+   "term": "Matter cycling",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "The way materials like nutrients, water and carbon move in circles through an ecosystem — from the environment into living things and back again. Unlike energy, matter doesn't get used up; it keeps cycling.",
+   "example": "A carbon atom might be in the air as CO₂, then absorbed by a plant, eaten by a herbivore, breathed out as CO₂ again, and absorbed by another plant — the same atom going round and round."
+  },
+  {
+   "term": "Trophic level",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A feeding level in a food web. Producers are the first trophic level, primary consumers the second, secondary consumers the third. Each level up has less energy available.",
+   "example": "In a simple chain of seaweed → sea urchin → sea otter, seaweed is trophic level 1, sea urchin is level 2, and sea otter is level 3.",
+   "sub_terms": [
+    {
+     "term": "Energy pyramid",
+     "definition": "A triangle-shaped diagram showing how much energy is available at each trophic level — wide at the bottom (lots of energy in producers) and narrow at the top (very little energy left for top predators).",
+     "example": "An energy pyramid for a savanna might show 10,000 kJ in grasses at the bottom, 1,000 kJ in zebras in the middle, and 100 kJ in lions at the top."
+    },
+    {
+     "term": "Biomass",
+     "definition": "The total mass of living material at a trophic level. Like energy, biomass generally decreases at higher trophic levels.",
+     "example": "In a forest, the total mass of all the trees (producers) is much greater than the total mass of all the caterpillars eating them, which is greater than the total mass of all the birds eating the caterpillars."
+    }
+   ]
+  },
+  {
+   "term": "Abiotic factor",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A non-living part of an ecosystem that affects living things — like temperature, rainfall, sunlight, wind or soil type. When abiotic factors change, the effects ripple through the whole food web.",
+   "example": "A drought (less rainfall) means less water for plants, so plant growth decreases. Fewer plants means less food for herbivores, which means less food for predators — one abiotic change affects everything."
+  },
+  {
+   "term": "Biotic factor",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A living part of an ecosystem that affects other living things — like predators, prey, competitors or disease. When a biotic factor changes (like a species being removed or introduced), the effects cascade through the food web.",
+   "example": "If foxes are removed from an ecosystem, rabbit populations might increase because there's less predation. But then plant populations might decrease because there are too many rabbits eating them.",
+   "sub_terms": [
+    {
+     "term": "Invasive species",
+     "definition": "A species brought into an ecosystem where it doesn't naturally belong, which causes problems because it has no natural predators and outcompetes native species for food and space.",
+     "example": "Cane toads were introduced to Australia to eat beetles, but they had no natural predators here. Their population exploded, and they poison native animals that try to eat them — disrupting the entire food web."
+    }
+   ]
+  },
+  {
+   "term": "Population",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "All the organisms of one species living in one area at one time. When scientists predict how ecosystems respond to change, they track what happens to the population of each species.",
+   "example": "All the kangaroos living in a particular national park are one population. All the eucalyptus trees in the same park are a different population. A food web shows how these populations are connected."
+  },
+  {
+   "term": "Cascade effect",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A chain reaction in an ecosystem where one change causes another, which causes another, rippling through the food web. The effects go beyond the first species affected — they cascade through connected populations.",
+   "example": "A disease kills most of the rabbits → foxes have less food so their population drops → with fewer foxes, mice populations increase → with more mice, owl populations increase. One change cascades through the whole web.",
+   "sub_terms": [
+    {
+     "term": "Trophic cascade",
+     "definition": "A cascade that starts with a change to a top predator and ripples all the way down through the food web, affecting every level below.",
+     "example": "When wolves were reintroduced to Yellowstone, they reduced elk numbers. With fewer elk eating young trees, forests regrew along rivers. This brought back beavers, songbirds and even changed how rivers flowed."
+    }
+   ]
+  },
+  {
+   "term": "Model",
+   "descriptor_code": "AC9S7U02",
+   "width_tier": "minimum",
+   "definition": "A simplified version of something real, designed to help us understand it, make predictions or explain it to others. A model deliberately leaves some things out to make the important parts clearer.",
+   "example": "A food web diagram is a model — it shows feeding relationships but leaves out factors like disease, weather and seasonal changes. This makes it useful for predicting feeding effects, but it can't predict everything."
+  }
+ ]
+}

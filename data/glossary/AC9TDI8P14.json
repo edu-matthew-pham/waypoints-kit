@@ -1,0 +1,89 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P14",
+ "teacher_glossary": [
+  {
+   "term": "Digital footprint",
+   "descriptor_code": "AC9TDI8P14",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The trail of data a person creates through their online activity — both actively (posts, uploads, form submissions) and passively (browsing history, location data, usage patterns tracked by platforms). Different platforms collect different data types depending on their business model. The footprint is persistent and often broader than users realise.",
+   "failure_mode": "Students think their digital footprint is limited to what they deliberately post — they don't recognise passive data collection (location tracking, browsing patterns, usage analytics) as part of their footprint.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the footprint is only what you post, managing it means managing posts. But passive collection is often more extensive and less visible. Students who miss passive collection cannot make informed decisions about privacy settings at Node 3.",
+   "response": "Ask students to list five types of data Instagram collects. Then show what the app actually tracks (via privacy policy). The gap between student assumptions and reality makes passive collection visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Recommendation algorithm"
+    }
+   ]
+  },
+  {
+   "term": "Data minimisation",
+   "descriptor_code": "AC9TDI8P14",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "The principle that a system should collect only the data essential to its purpose — no more. Assessing whether data is essential requires reasoning from purpose: what does the system do, what data does it need to do that, and is this specific data item necessary? Data that is nice to have but not essential to purpose should not be collected.",
+   "failure_mode": "Students cannot distinguish essential data from non-essential — they accept whatever a platform collects as necessary because 'it needs data to work.'",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If all collected data seems essential, students cannot critically evaluate platforms' data practices or make principled decisions about what data their own solutions should collect. The essential/non-essential distinction is the core analytical skill.",
+   "response": "Present a food preferences survey that asks for your home address. Ask: is the address essential to the survey's purpose? What about for the Census? The purpose-driven comparison teaches the reasoning.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Privacy settings",
+   "descriptor_code": "AC9TDI8P14",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Controls within a platform that allow users to manage what data is collected, how it is shared, and who can see their content. Default settings vary by platform — some default to maximum sharing, others to maximum protection. Managing privacy involves reviewing defaults, understanding what each setting controls, and making informed trade-offs between functionality and data exposure.",
+   "failure_mode": "Students accept default settings without reviewing them — they assume defaults are set to protect them rather than recognising that defaults often favour the platform's data collection interests.",
+   "failure_type": "misconception",
+   "why_it_matters": "Default settings on many platforms favour maximum data collection. Students who accept defaults without review are making a privacy decision by inaction — and it's usually the least protective option available.",
+   "response": "Ask students to review one platform's privacy settings and identify which defaults favour the user vs the platform. The review reveals that defaults are design choices, not neutral starting points.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Deepfake"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Digital footprint",
+   "descriptor_code": "AC9TDI8P14",
+   "width_tier": "minimum",
+   "definition": "All the data you create online — both things you actively post (photos, comments) and things that are collected about you without you doing anything (browsing history, location data, how long you spend on each page). Your footprint is usually much bigger than you think.",
+   "example": "You might only post three photos a month, but your phone also tracks your location, your browsing history, how long you watch each video, and which ads you tap on.",
+   "sub_terms": [
+    {
+     "term": "Recommendation algorithm"
+    }
+   ]
+  },
+  {
+   "term": "Data minimisation",
+   "descriptor_code": "AC9TDI8P14",
+   "width_tier": "typical",
+   "definition": "The idea that an app or website should only collect the data it actually needs to do its job — nothing extra. If a food survey asks for your home address, that's collecting more than it needs.",
+   "example": "A food preferences survey needs to know what you like to eat, but it doesn't need your home address. The Census does need your address because that's part of what it measures."
+  },
+  {
+   "term": "Privacy settings",
+   "descriptor_code": "AC9TDI8P14",
+   "width_tier": "minimum",
+   "definition": "Controls that let you decide what data is collected about you and who can see your content. Important: the default settings on many apps are set to share more, not less. You should check and change them rather than just accepting them.",
+   "example": "Instagram's default might let anyone see your posts. Changing to 'private account' means only approved followers can see them — but you have to find and change that setting yourself.",
+   "sub_terms": [
+    {
+     "term": "Deepfake"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,254 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7U01",
+ "teacher_glossary": [
+  {
+   "term": "Classification",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The systematic organisation of living things into groups based on shared characteristics. Classification enables scientists to identify, name and communicate about organisms consistently. It is purposeful and constructed — different classification systems organise by different criteria depending on the priorities of those who made them.",
+   "failure_mode": "Students confuse classification with simple sorting or listing — grouping organisms by a single surface feature (e.g. colour) without a systematic basis or purpose.",
+   "failure_type": "misconception",
+   "why_it_matters": "If classification is just sorting, students cannot understand why formal systems like Linnaean taxonomy exist, why classification systems change over time, or why feature selection matters when constructing dichotomous keys.",
+   "response": "Compare classification with everyday sorting (sorting laundry by colour vs organising a library by subject, author, title). Ask: what makes the library system more useful than the laundry sort? What would break if you used colour to organise a library?",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Classification system",
+     "definition": "A structured framework for organising organisms into groups — such as Linnaean taxonomy or Aboriginal and Torres Strait Islander classification systems based on Country.",
+     "failure_mode": "Students treat 'classification system' as interchangeable with the act of classifying — missing that different systems organise by different criteria and reveal different priorities about what matters.",
+     "failure_type": "narrow_repertoire",
+     "response": "Compare two classification systems for the same set of organisms (e.g. Linnaean vs a First Nations system). Ask: what does each system prioritise? What is visible in one that is invisible in the other?",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Biodiversity",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The variety of living organisms on Earth, including diversity within species, between species, and of ecosystems. Biodiversity encompasses all kingdoms — plants, animals, fungi, protists and bacteria — not only the organisms most visible to humans.",
+   "failure_mode": "Students think biodiversity means 'lots of animals' — limiting it to large, visible animal species and missing plant, fungal, microbial and ecosystem diversity.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If biodiversity is only animal variety, students cannot understand why classification systems must encompass all kingdoms, or why loss of microbial or plant diversity has ecological consequences.",
+   "response": "Present biodiversity examples across all kingdoms — include bacteria, fungi and protists alongside animals and plants. Ask students to identify which environment in a set is most biodiverse, including one rich in microbial diversity.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Taxonomy",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The branch of science concerned with naming, describing and classifying organisms into a hierarchical system of groups based on shared characteristics. The hierarchy is nested — each level sits within a broader group sharing fewer features, from the broadest level (kingdom) to the most specific (species).",
+   "failure_mode": "Students memorise the hierarchy levels as a list without understanding that each level represents a nested group — organisms in the same genus share more features than organisms in the same phylum because the group is narrower.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If taxonomy is a memorised sequence rather than a nested hierarchy, students cannot explain why classification at different levels reveals different degrees of relatedness. The structural logic that underpins all classification reasoning is lost.",
+   "response": "Use a nested boxes or Russian dolls model showing how each level fits inside the next. Ask students to explain what happens to the number of shared features as you move from kingdom toward species.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Kingdom",
+     "definition": "The broadest traditional grouping in Linnaean taxonomy. The major kingdoms — animals, plants, fungi, protists and bacteria — are each defined by fundamental differences in cell structure, nutrition and reproduction.",
+     "failure_mode": "Students assign organisms to kingdoms based on superficial resemblance (e.g. coral is a plant because it doesn't move, mushroom is a plant because it grows in soil) rather than defining features of each kingdom.",
+     "failure_type": "misconception",
+     "response": "Present organisms that challenge superficial assignment (coral, mushroom, Euglena). Require students to justify placement using defining kingdom features — not appearance or behaviour.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Linnaean hierarchy",
+     "definition": "The nested classification system developed by Carl Linnaeus, organising organisms from broadest group (kingdom) to most specific (species): kingdom, phylum, class, order, family, genus, species.",
+     "failure_mode": "Students memorise the level names as a sequence without understanding that each level is nested within the one above, representing progressively more shared features.",
+     "failure_type": "fragile_skill",
+     "response": "Use a visual nesting model and ask students to explain what happens to shared features at each level. Have them place a familiar organism at every level to see the narrowing.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Boundary case",
+     "definition": "An organism that does not fit neatly into existing classification categories — such as Euglena (characteristics of both plants and animals) or viruses (debated whether they are living).",
+     "failure_mode": "Students treat boundary cases as errors in the classification system rather than informative cases that reveal what the system assumes and where its definitions break down.",
+     "failure_type": "flawed_reasoning",
+     "response": "Present a boundary case and ask: what does this organism's difficulty tell us about the rules our classification system uses? What would we need to change to accommodate it?",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Species"
+    }
+   ]
+  },
+  {
+   "term": "Observable features",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Characteristics of an organism that can be directly seen, measured or detected — such as body covering, number of limbs, leaf shape, or method of locomotion. Observable features are the basis for classification decisions in taxonomy and dichotomous keys.",
+   "failure_mode": "Students select features that are not reliably observable (e.g. diet, habitat, internal anatomy) or not useful for distinguishing organisms (e.g. 'is alive') when classifying or constructing keys.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Unreliable feature selection undermines both taxonomy and key construction. The feature-selection skill identified in N2's hinge_reason is the foundation for all classification tool use — students who cannot identify useful observable features cannot construct functional keys.",
+   "response": "Give students sets of organisms and ask them to rank features from most to least useful for telling organisms apart. Build a class reference list of reliable observable features across kingdoms.",
+   "response_type": "repertoire_building"
+  },
+  {
+   "term": "Dichotomous key",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A classification tool that uses a series of paired statements based on observable features to identify organisms. At each decision point, the user chooses between exactly two mutually exclusive options, progressively narrowing identification until a single organism is reached.",
+   "failure_mode": "Students follow key steps procedurally — tracing arrows to reach an answer — without understanding the binary decision logic at each step. They cannot explain what observable feature is being checked or why the two options are mutually exclusive.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Procedural key-following without conceptual understanding of binary decision logic produces key constructions that are structurally broken. Students who cannot explain why each decision point works cannot reverse the process to construct their own keys — this is the Node 3 hinge.",
+   "response": "At each decision point, require students to state: 'What observable feature am I checking? What are the two possible outcomes? Why are they mutually exclusive?' before moving to the next step.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Binary decision",
+     "definition": "A choice between exactly two mutually exclusive options based on a single observable feature — the fundamental logic unit of a dichotomous key.",
+     "failure_mode": "Students construct decision points with overlapping options (e.g. 'big or small' where the boundary is undefined), subjective criteria, or more than two outcomes — breaking the binary structure that makes keys reliable.",
+     "failure_type": "fragile_skill",
+     "response": "Before committing a decision to a key, have students test it: can every organism in the set go to exactly one of the two options with no ambiguity? If not, the decision point needs rewriting.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Decision point",
+     "definition": "A specific location in a dichotomous key where the user must choose between two options based on an observable feature. Each decision point eliminates organisms that don't match the chosen option, narrowing identification.",
+     "failure_mode": "Students cannot name the observable feature being checked at a decision point — they follow the path mechanically without understanding what each branch tests or why it separates organisms.",
+     "failure_type": "fragile_skill",
+     "response": "At every decision point, require the student to state the feature name and both possible outcomes before choosing: 'At this point I am checking [feature]. The two options are [A] and [B].'",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Discriminating feature",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "An observable feature that reliably separates one group of organisms from another — producing a clean binary split where all members of one group share the feature and all members of the other do not. Not all observable features are discriminating: a feature that varies within a group (e.g. colour in many bird species) fails to discriminate.",
+   "failure_mode": "Students select non-discriminating features when constructing keys — features that work for some organisms in the set but not others, or features that overlap between groups, producing keys that misclassify.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Non-discriminating feature selection is the most common cause of broken dichotomous keys. Node 2's hinge_reason identifies feature-selection skill as the bridge between taxonomy knowledge and key construction — without it, key construction in Node 4 fails.",
+   "response": "Have students test proposed features against the full organism set before committing them to a key. Ask: 'Does this feature split the set cleanly into two groups with no exceptions? If not, find a feature that does.'",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Reclassification",
+   "descriptor_code": "AC9S7U01",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The reassignment of an organism from one taxonomic group to another based on new evidence — such as DNA analysis revealing that organisms previously grouped by appearance are not closely related, or that organisms in different groups share a recent common ancestor.",
+   "failure_mode": "Students describe reclassification as scientists 'changing their minds' or 'getting it wrong' — treating it as evidence that science is unreliable rather than evidence that science self-corrects in response to new data.",
+   "failure_type": "misconception",
+   "why_it_matters": "If reclassification equals unreliability, students develop a flawed understanding of the nature of science that undermines confidence in all scientific conclusions. The evaluative step — understanding what reclassification reveals about how science works — is explicitly assessed.",
+   "response": "Scaffold the reasoning chain: what was the old classification? What new evidence emerged? What changed? Then ask: does reclassification show science is broken, or that science is working? Require an evidence-based argument.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "DNA analysis"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Classification",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "minimum",
+   "definition": "Organising living things into groups based on their features. Scientists classify organisms so they can identify them, study them and communicate about them clearly.",
+   "example": "A library organises books by subject, author and title — classification organises living things by their features in a similar systematic way.",
+   "sub_terms": [
+    {
+     "term": "Classification system",
+     "definition": "A set of rules for how to organise living things into groups. Different cultures and scientists have created different classification systems based on what they think is most important.",
+     "example": "Linnaean taxonomy groups organisms by physical features and evolutionary relationships, while some Aboriginal and Torres Strait Islander systems classify organisms by their role on Country."
+    }
+   ]
+  },
+  {
+   "term": "Biodiversity",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "minimum",
+   "definition": "The variety of all living things on Earth — including animals, plants, fungi, bacteria and every other type of organism, not just the ones we see most often.",
+   "example": "A coral reef has high biodiversity because it contains thousands of different species of fish, corals, algae, bacteria and other organisms living together."
+  },
+  {
+   "term": "Taxonomy",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "minimum",
+   "definition": "The science of naming and classifying living things into groups that fit inside each other — from very broad groups (like kingdoms) down to very specific groups (like species). The more levels two organisms share, the more closely related they are.",
+   "example": "A dog and a wolf are in the same genus (Canis) — they share more features with each other than with a cat, which is in a different family.",
+   "sub_terms": [
+    {
+     "term": "Kingdom",
+     "definition": "The biggest group in the classification system. The major kingdoms are animals, plants, fungi, protists and bacteria — each defined by big differences in how organisms are built and how they get energy.",
+     "example": "A mushroom looks like it grows from the ground like a plant, but it's in the fungi kingdom because it doesn't make its own food — it breaks down dead material."
+    },
+    {
+     "term": "Linnaean hierarchy",
+     "definition": "The classification system that organises living things from the broadest group (kingdom) to the most specific (species): kingdom, phylum, class, order, family, genus, species.",
+     "example": "Humans are classified as: kingdom Animalia, phylum Chordata, class Mammalia, order Primates, family Hominidae, genus Homo, species sapiens."
+    },
+    {
+     "term": "Boundary case",
+     "definition": "An organism that doesn't fit neatly into the usual classification groups — it has features of more than one group, or scientists disagree about where it belongs.",
+     "example": "Euglena can make its own food like a plant but also moves and eats like an animal — it doesn't fit cleanly into either kingdom."
+    },
+    {
+     "term": "Species",
+     "definition": "The most specific level in the classification system — a group of organisms that are very similar and can reproduce with each other.",
+     "example": "All domestic dogs belong to the same species (Canis familiaris), even though a chihuahua and a Great Dane look very different."
+    }
+   ]
+  },
+  {
+   "term": "Observable features",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "minimum",
+   "definition": "Characteristics of an organism you can directly see or measure — like body covering, number of legs, leaf shape, or how it moves. These are what scientists use to sort organisms into groups.",
+   "example": "When classifying insects, you might observe the number of wings, whether the body has segments, and the type of mouthparts — all things you can see directly."
+  },
+  {
+   "term": "Dichotomous key",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "minimum",
+   "definition": "A tool that helps you identify an organism by answering a series of yes-or-no questions about its features. Each question has exactly two choices, and each choice leads you closer to identifying what the organism is.",
+   "example": "A key might ask: 'Does the organism have legs? Yes → go to question 3. No → go to question 2.' Each answer narrows down the possibilities until you reach the name.",
+   "sub_terms": [
+    {
+     "term": "Binary decision",
+     "definition": "A choice between exactly two options based on one feature — like 'has wings' or 'does not have wings.' Every question in a dichotomous key is a binary decision.",
+     "example": "'Does the leaf have smooth edges or jagged edges?' is a binary decision — there are only two options and every leaf must fit one of them."
+    },
+    {
+     "term": "Decision point",
+     "definition": "A place in a dichotomous key where you have to choose between two options. Each decision point checks one specific feature and sends you down a different path depending on your answer.",
+     "example": "At a decision point that asks 'Does the animal have fur?', you look at the organism, decide yes or no, and follow that path to the next question."
+    }
+   ]
+  },
+  {
+   "term": "Discriminating feature",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "typical",
+   "definition": "A feature that cleanly separates one group of organisms from another — every organism in one group has the feature and every organism in the other group does not. Good dichotomous keys use discriminating features at every decision point.",
+   "example": "'Has six legs' is a discriminating feature for insects — all insects have six legs and no non-insects in your set do. But 'is brown' probably isn't discriminating because brown organisms appear in many different groups."
+  },
+  {
+   "term": "Reclassification",
+   "descriptor_code": "AC9S7U01",
+   "width_tier": "minimum",
+   "definition": "When scientists move an organism from one classification group to another because new evidence — like DNA testing — shows it was in the wrong group. This is a normal part of how science improves over time.",
+   "example": "Scientists used to classify giant pandas with raccoons because they looked similar, but DNA evidence showed pandas are actually bears — so they were reclassified into the bear family.",
+   "sub_terms": [
+    {
+     "term": "DNA analysis",
+     "definition": "A scientific technique that examines an organism's genetic material to determine how closely related it is to other organisms — often revealing relationships that can't be seen from appearance alone.",
+     "example": "DNA analysis showed that whales are more closely related to hippos than to fish, even though whales live in the ocean and look nothing like hippos."
+    }
+   ]
+  }
+ ]
+}

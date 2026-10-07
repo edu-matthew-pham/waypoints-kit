@@ -1,0 +1,366 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U04",
+ "teacher_glossary": [
+  {
+   "term": "Particle model",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A scientific model that explains energy transfer in terms of particle motion, collisions and interactions. The particle model accounts for conduction (energy transfer through particle collisions in solids), convection (bulk particle movement in fluids) and electrical current (directed electron flow). It is one of two models students must evaluate for usefulness in explaining different energy transfer phenomena.",
+   "failure_mode": "Students use the particle model descriptively ('heat moves through the metal') without engaging the mechanism — they do not identify particle collisions as the transfer mechanism in conduction or density-driven movement as the mechanism in convection.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The descriptor requires students to 'use wave and particle models to describe energy transfer.' Using the model means applying its mechanism to explain phenomena, not just naming the model. Students who cannot engage the mechanism cannot evaluate when the particle model is more useful than the wave model (N5).",
+   "response": "For each phenomenon, require the mechanism: conduction — what are the particles doing? (Colliding, passing on kinetic energy.) Convection — why do particles move? (Heated particles expand, become less dense, rise.) The mechanism question prevents surface-level naming.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Conduction",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Energy transfer through a material by particle-to-particle collisions without bulk movement of the material. In solids, closely packed particles transfer kinetic energy through collisions — metals conduct well because their particles are close and include free electrons that enhance transfer. Conduction is explained by the particle model: the mechanism is collision, not flow.",
+   "failure_mode": "Students say 'heat travels through the metal' as if heat flows like a liquid — they do not identify particle collisions as the mechanism, treating conduction as movement of heat rather than transfer of kinetic energy between particles.",
+   "failure_type": "misconception",
+   "why_it_matters": "If heat 'flows,' the particle model adds nothing — the mechanism is invisible. Students cannot then compare the particle model's explanation (collision mechanism) with the wave model's explanation (wave propagation) because they haven't engaged either model's mechanism.",
+   "response": "Animate or diagram a chain of particles: the first vibrates, collides with the second, which vibrates, collides with the third. Ask: did any particle move across the material? (No — only the energy transferred.) The particle-by-particle transfer is the mechanism.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Convection",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Energy transfer through a fluid (liquid or gas) by bulk movement of particles carrying kinetic energy. Heated particles expand, become less dense and rise; cooler, denser particles sink to replace them, creating a convection current. Unlike conduction, particles themselves move — carrying energy with them.",
+   "failure_mode": "Students confuse convection with conduction — they apply the same 'heat travels through it' explanation to both, missing that convection involves actual particle movement (bulk flow) while conduction involves only energy transfer between stationary particles.",
+   "failure_type": "misconception",
+   "why_it_matters": "Distinguishing conduction from convection is a key application of the particle model. Students who conflate them cannot explain why convection only occurs in fluids (particles must be free to move) or why convection is faster than conduction (bulk movement vs collision-by-collision).",
+   "response": "Compare heating a metal rod (conduction — particles vibrate but stay in place) with heating water in a beaker (convection — particles physically rise and circulate). Ask: do the particles in the metal move to a new location? (No.) Do the water particles? (Yes.) The movement distinction separates the two mechanisms.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Convection current",
+     "definition": "The circular flow pattern created when heated particles rise and cooler particles sink to replace them. Convection currents drive wind patterns, ocean circulation and the movement of magma beneath Earth's surface.",
+     "failure_mode": "Students draw convection as heat rising in a straight line upward rather than as a circular current with both rising (warm, less dense) and sinking (cool, denser) components completing the loop.",
+     "failure_type": "fragile_skill",
+     "response": "Heat water in a beaker with a drop of dye at the bottom. Ask students to trace the FULL path: dye rises at the heated side, moves across the top, sinks at the cooler side, moves back along the bottom. The complete loop — not just 'hot air rises' — is the convection current.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Wave model",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A scientific model that explains energy transfer as a disturbance propagating through a medium or through space. Wave properties — frequency, amplitude, wavelength — describe the characteristics of the transferred energy. The wave model explains sound (longitudinal waves through matter) and electromagnetic radiation (transverse waves that can travel through a vacuum). It is the second of two models students must evaluate.",
+   "failure_mode": "Students think waves carry matter from one place to another rather than transferring energy through a medium — they imagine particles travelling with the wave rather than oscillating in place as the wave passes through.",
+   "failure_type": "misconception",
+   "why_it_matters": "If waves carry matter, the distinction between wave and particle models collapses. The wave model's explanatory power depends on energy transfer WITHOUT bulk particle movement — the exact opposite of convection. Students who miss this cannot evaluate when each model is more useful.",
+   "response": "Use a slinky spring: push one end and a compression wave travels to the other end — but does any coil actually travel across the room? (No — each coil oscillates in place.) The wave transferred energy without moving matter.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Frequency",
+     "definition": "The number of wave oscillations per second, measured in hertz (Hz). In sound, frequency determines pitch (higher frequency = higher pitch). In electromagnetic radiation, frequency determines energy (higher frequency = higher energy).",
+     "failure_mode": "Students confuse frequency with wave speed — they think higher frequency means the wave travels faster, rather than understanding that frequency describes how many oscillations occur per second while speed depends on the medium.",
+     "failure_type": "misconception",
+     "response": "Play two sounds of different pitch in the same room. Ask: did the higher-pitched sound arrive at your ear faster? (No — both travelled at the same speed through air.) Frequency changed; speed did not. The demonstration separates the two properties.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Amplitude",
+     "definition": "The maximum displacement of a wave from its resting position. In sound, amplitude determines loudness (greater amplitude = louder sound). In light, amplitude determines brightness.",
+     "failure_mode": "Students confuse amplitude with frequency — they think a louder sound must also be higher pitched, conflating the two independent wave properties.",
+     "failure_type": "misconception",
+     "response": "Play a loud low note and a quiet high note. Ask: which is louder? (The low note.) Which is higher pitched? (The high note.) Loudness (amplitude) and pitch (frequency) vary independently — a sound can be loud and low or quiet and high.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Wavelength",
+     "definition": "The distance between consecutive identical points on a wave (peak to peak or compression to compression). Wavelength and frequency are inversely related for waves travelling at the same speed.",
+     "failure_mode": "Students treat wavelength and frequency as independent properties — they do not recognise the inverse relationship (for waves at constant speed, higher frequency means shorter wavelength). This prevents them from using one property to predict the other across the electromagnetic spectrum.",
+     "failure_type": "misconception",
+     "response": "Draw waves at two different frequencies in the same space (representing same speed). Ask: which has more waves per second? (Higher frequency.) Which has shorter distance between peaks? (Same one — shorter wavelength.) The visual makes the inverse relationship unavoidable.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Sound",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A form of energy transferred as a longitudinal wave through a medium (solid, liquid or gas). Sound waves consist of compressions (regions of high particle density) and rarefactions (regions of low density) moving through the medium. Sound requires a medium — it cannot travel through a vacuum because there are no particles to compress.",
+   "failure_mode": "Students think sound can travel through a vacuum — they do not connect sound propagation to the need for particles to compress and rarefy. This misconception often persists because students hear sound depicted in space in media.",
+   "failure_type": "misconception",
+   "why_it_matters": "Medium-dependence is the key feature that distinguishes sound from electromagnetic radiation — sound needs particles; EM radiation does not. Students who think sound travels through vacuums cannot make this distinction, which is central to evaluating model usefulness in N5.",
+   "response": "Present the bell-in-a-vacuum-jar demonstration (or video): as air is removed, the bell becomes inaudible despite still being struck. Ask: what was removed? (Air — the medium.) What does this prove? (Sound needs a medium of particles to travel through.)",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Longitudinal wave",
+     "definition": "A wave in which particles oscillate parallel to the direction the wave travels — compressions and rarefactions alternate along the wave's path. Sound is the primary example.",
+     "failure_mode": "Students apply the transverse wave model to sound — they draw sound waves as up-and-down sine curves and think air particles move perpendicular to the wave direction, missing that sound is a compression wave where particles oscillate parallel to the direction of travel.",
+     "failure_type": "misconception",
+     "response": "Use a slinky: push it along its length (longitudinal — compressions travel along the spring) vs shake it side to side (transverse — peaks travel along the spring). Ask: which one matches how sound travels through air? The physical comparison makes the parallel-vs-perpendicular distinction visible.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Compression",
+     "definition": "A region in a longitudinal wave where particles are pushed together, creating high density and high pressure.",
+     "failure_mode": "Students cannot distinguish compressions from rarefactions — they use the terms interchangeably or reverse them, describing compressions as spread-out regions and rarefactions as bunched-up regions.",
+     "failure_type": "fragile_skill",
+     "response": "Use a slinky: push one end to create a compression (coils bunched together = high density). Point to the bunched region: this is a compression (think 'compressed = squished together'). The stretched region behind it is a rarefaction (think 'rare = spread out, few particles'). The mnemonic anchors the distinction.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Rarefaction",
+     "definition": "A region in a longitudinal wave where particles are spread apart, creating low density and low pressure."
+    },
+    {
+     "term": "Medium",
+     "definition": "The material a wave travels through — solid, liquid or gas. Sound requires a medium; electromagnetic radiation does not."
+    }
+   ]
+  },
+  {
+   "term": "Static electricity",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The build-up of electric charge on an object due to the transfer of electrons between materials. When two materials are rubbed together, electrons transfer from one to the other — one becomes negatively charged (gains electrons), the other positively charged (loses electrons). The particle model explains static electricity: the mechanism is electron transfer, not charge creation.",
+   "failure_mode": "Students think rubbing creates charge rather than transferring it — they believe charge is produced by friction rather than redistributed between materials.",
+   "failure_type": "misconception",
+   "why_it_matters": "If charge is created by rubbing, conservation of charge is violated and students cannot explain why one object becomes positive while the other becomes negative. The particle model requires electron transfer — electrons move from one material to another, leaving one positive and the other negative.",
+   "response": "Rub a balloon on hair. Ask: is the balloon now negative? (Yes — gained electrons.) Is the hair now positive? (Yes — lost electrons.) Where did the electrons come from? (The hair.) Were electrons created? (No — transferred.) The accounting exercise makes conservation of charge concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Charge",
+     "definition": "A property of matter that produces electric force. Electrons carry negative charge; protons carry positive charge. Like charges repel; opposite charges attract. Charge is conserved — it transfers between objects but is not created or destroyed.",
+     "failure_mode": "Students think charge is a substance that flows into or out of objects — like pouring water — rather than understanding charge as a property of matter (electrons) that is redistributed by transfer.",
+     "failure_type": "misconception",
+     "response": "Ask: when you charge a balloon by rubbing, did you add something new to it? (You added electrons from your hair.) Did those electrons exist before? (Yes — they were in your hair.) Charge was redistributed, not created or poured in.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Electron transfer",
+     "definition": "The movement of electrons from one material to another during contact or friction. Electron transfer is the particle-level mechanism behind static electricity — materials don't gain or lose 'charge'; they gain or lose electrons."
+    }
+   ]
+  },
+  {
+   "term": "Electrical current",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The directed flow of electrons through a conductor, driven by voltage. Current is explained by the particle model: electrons (negative charges) flow from negative to positive terminal through the conductor. Conductors have free electrons that can move; insulators have bound electrons that cannot.",
+   "failure_mode": "Students think current is consumed by components — they believe current 'uses up' as it passes through a light bulb, so less current flows out of the bulb than flows in. This violates conservation of charge and misrepresents current as a substance rather than a flow.",
+   "failure_type": "misconception",
+   "why_it_matters": "If current is consumed, the particle model of electron flow breaks — electrons would disappear inside components. This misconception prevents students from understanding circuits, resistance and energy transfer in electrical systems. It also prevents meaningful comparison with wave energy transfer.",
+   "response": "Use the analogy of water flowing in a closed pipe loop: water passes through every point in the loop at the same rate. Nothing is consumed — energy is transferred from the water to the device, but the water itself keeps flowing. Similarly, electrons keep flowing; energy is transferred to the component.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Voltage",
+     "definition": "The energy difference that drives electron flow — the 'push' that moves electrons through a conductor. Measured in volts. Higher voltage means more energy per electron and greater current flow.",
+     "failure_mode": "Students treat voltage and current as the same thing — they use the terms interchangeably and cannot explain why a circuit can have high voltage but low current (or vice versa).",
+     "failure_type": "misconception",
+     "response": "Use the water analogy: voltage is the height difference (pressure driving flow); current is the amount of water flowing per second. A tall narrow waterfall has high pressure but low flow; a wide gentle stream has low pressure but high flow. The analogy separates the two concepts.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Conductor",
+     "definition": "A material with free electrons that can move through it, allowing electrical current to flow. Metals are good conductors because their outer electrons are loosely bound and free to move.",
+     "failure_mode": "Students classify conductors and insulators by memorised lists — 'metals conduct, rubber insulates' — without connecting to the particle model explanation: conductors have free electrons that can flow; insulators have bound electrons that cannot.",
+     "failure_type": "fragmentation",
+     "response": "Ask: WHY do metals conduct? (Their outer electrons are free to move through the material.) WHY doesn't rubber conduct? (Its electrons are tightly bound.) The free-electron mechanism turns a memorised list into a predictive model — students can predict whether a novel material will conduct.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Insulator",
+     "definition": "A material with no free electrons — electrons are tightly bound and cannot flow. Rubber, plastic and glass are common insulators."
+    }
+   ]
+  },
+  {
+   "term": "Electromagnetic spectrum",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The continuous range of electromagnetic radiation arranged by frequency and wavelength — from low-frequency radio waves to high-frequency gamma rays. All electromagnetic waves are transverse, travel at the speed of light in a vacuum, and do not require a medium. Higher frequency corresponds to higher energy. The spectrum includes radio, microwave, infrared, visible light, ultraviolet, X-ray and gamma radiation.",
+   "failure_mode": "Students think different parts of the electromagnetic spectrum are fundamentally different types of energy rather than the same type of wave (transverse EM wave) at different frequencies — they treat radio waves and gamma rays as unrelated.",
+   "failure_type": "misconception",
+   "why_it_matters": "If EM wave types are unrelated, students cannot use the wave model to explain why they all travel at the same speed in a vacuum, cannot apply frequency-energy relationships across the spectrum, and cannot evaluate the wave model's explanatory range in N5.",
+   "response": "Present the spectrum as a single continuous band with frequency increasing left to right. Ask: what is the SAME across all parts? (All transverse EM waves, all travel at c in vacuum.) What is DIFFERENT? (Only frequency and wavelength.) The same-wave-different-frequency framing unifies the spectrum.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Transverse wave",
+     "definition": "A wave in which particles (or fields) oscillate perpendicular to the direction the wave travels. All electromagnetic waves are transverse — contrasting with sound, which is longitudinal."
+    },
+    {
+     "term": "Electromagnetic radiation",
+     "definition": "Energy transferred as oscillating electric and magnetic fields — a transverse wave that can travel through a vacuum. Includes all types on the electromagnetic spectrum.",
+     "failure_mode": "Students think electromagnetic radiation requires a medium to travel through — they apply the sound model (needs air/water/solid) to light and radio waves, and cannot explain how sunlight reaches Earth through the vacuum of space.",
+     "failure_type": "misconception",
+     "response": "Ask: sound cannot travel through a vacuum — can light? (Yes — sunlight crosses space.) What does this tell you about light's mechanism? (It doesn't need particles to propagate.) The space-crossing observation is the key evidence that EM radiation is fundamentally different from sound.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Photon",
+   "descriptor_code": "AC9S9U04",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "A particle of light — a discrete packet of electromagnetic energy. The concept of the photon arises because some phenomena (the photoelectric effect) cannot be explained by the wave model alone: light sometimes behaves as a stream of particles rather than a continuous wave. Photons represent the case where neither the wave model nor the particle model alone is sufficient — an introduction to wave-particle duality.",
+   "failure_mode": "Students try to classify light as EITHER a wave OR a particle — they seek a single correct answer rather than recognising that both models are useful for different phenomena and that light's dual nature reveals the limits of classical models.",
+   "failure_type": "misconception",
+   "why_it_matters": "The descriptor requires students to 'examine the usefulness of each model for explaining phenomena.' The photon is the concept that reveals models as tools with domains of usefulness, not literal descriptions. Students who insist on one correct model cannot meet the evaluation demand.",
+   "response": "Present two phenomena: diffraction of light (wave model explains it) and the photoelectric effect (particle model explains it). Ask: which model is 'right'? (Both are useful for different phenomena.) Then: what does this tell us about scientific models? (They are tools, not truths.) The dual-evidence exercise makes model evaluation concrete.",
+   "response_type": "integration"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Particle model",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "A way of explaining energy transfer by thinking about what individual particles (atoms, molecules, electrons) are doing. It explains conduction (particles bumping into each other), convection (particles moving in bulk) and electrical current (electrons flowing).",
+   "example": "A metal spoon in hot soup gets warm because the fast-vibrating particles at the hot end collide with their neighbours, passing energy along particle by particle — that's the particle model of conduction."
+  },
+  {
+   "term": "Conduction",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "Energy transfer through a material by particles bumping into each other — the particles don't move to new locations, they just pass energy along through collisions. Works best in solids where particles are close together.",
+   "example": "Hold one end of a metal rod in a flame and the other end gradually gets hot — energy is passed along from particle to particle through collisions, not because anything flows through the metal."
+  },
+  {
+   "term": "Convection",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "Energy transfer in liquids and gases where heated particles actually move — they expand, become lighter (less dense) and rise, while cooler particles sink to replace them, creating a circular flow called a convection current.",
+   "example": "Hot air rises from a heater, travels across the ceiling, cools and sinks on the other side — that's a convection current heating your room.",
+   "sub_terms": [
+    {
+     "term": "Convection current",
+     "definition": "The circular flow pattern created when hot particles rise and cool particles sink — it's what drives wind, ocean currents, and the heating in your home."
+    }
+   ]
+  },
+  {
+   "term": "Wave model",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "A way of explaining energy transfer as a wave — a disturbance that moves through a material (or through space) without the material itself moving. The wave has properties like frequency, amplitude and wavelength that describe its characteristics.",
+   "example": "When you drop a stone in a pond, ripples spread outward — the water bobs up and down but doesn't actually travel across the pond. The energy travels; the water stays put.",
+   "sub_terms": [
+    {
+     "term": "Frequency",
+     "definition": "How many waves pass a point per second (measured in hertz). Higher frequency = higher pitch for sound, higher energy for light."
+    },
+    {
+     "term": "Amplitude",
+     "definition": "How big the wave is — the height from resting position to the peak. Bigger amplitude = louder sound or brighter light."
+    },
+    {
+     "term": "Wavelength",
+     "definition": "The distance from one wave peak to the next. Longer wavelength = lower frequency."
+    }
+   ]
+  },
+  {
+   "term": "Sound",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "Energy that travels as a wave through a material — air, water or solid. Sound waves work by squeezing particles together (compression) then spreading them apart (rarefaction), passing energy along. Sound CANNOT travel through a vacuum because there are no particles to squeeze.",
+   "example": "In space, no one can hear you scream — there are no air particles to carry the sound wave. On Earth, the sound of your voice travels because air particles pass the compressions and rarefactions along to the listener's ear.",
+   "sub_terms": [
+    {
+     "term": "Longitudinal wave",
+     "definition": "A wave where particles vibrate in the same direction the wave travels — sound is the main example."
+    },
+    {
+     "term": "Compression",
+     "definition": "The squished-together part of a sound wave where particles are close and pressure is high."
+    },
+    {
+     "term": "Rarefaction",
+     "definition": "The stretched-apart part of a sound wave where particles are spread out and pressure is low."
+    },
+    {
+     "term": "Medium",
+     "definition": "The material a wave travels through — solid, liquid or gas. Sound needs a medium; light doesn't."
+    }
+   ]
+  },
+  {
+   "term": "Static electricity",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "A build-up of electric charge on an object, caused by electrons being transferred from one material to another. Rubbing doesn't create charge — it moves electrons from one surface to the other, leaving one positive and the other negative.",
+   "example": "Rubbing a balloon on your hair transfers electrons from your hair to the balloon — the balloon becomes negative (extra electrons) and your hair becomes positive (lost electrons). That's why they attract each other.",
+   "sub_terms": [
+    {
+     "term": "Charge",
+     "definition": "A property that creates electric force — electrons are negative, protons are positive. Like charges push apart; opposite charges pull together."
+    },
+    {
+     "term": "Electron transfer",
+     "definition": "Electrons physically moving from one material to another — this is what causes static electricity. No new charge is created; it's just redistributed."
+    }
+   ]
+  },
+  {
+   "term": "Electrical current",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "A flow of electrons through a conductor, pushed by voltage. The electrons aren't used up as they pass through components — they transfer energy to the component and keep flowing, like water in a loop of pipes.",
+   "example": "In a circuit with a battery and a light bulb, electrons flow from the battery through the wire, through the bulb (transferring energy as light and heat), and back to the battery — the same number of electrons flow in and out.",
+   "sub_terms": [
+    {
+     "term": "Voltage",
+     "definition": "The 'push' that drives electrons through a circuit — higher voltage means more energy per electron."
+    },
+    {
+     "term": "Conductor",
+     "definition": "A material that lets electrons flow through it — metals are good conductors because their outer electrons are free to move."
+    },
+    {
+     "term": "Insulator",
+     "definition": "A material that blocks electron flow — rubber, plastic and glass are insulators because their electrons are locked in place."
+    }
+   ]
+  },
+  {
+   "term": "Electromagnetic spectrum",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "minimum",
+   "definition": "The complete range of electromagnetic waves, arranged from low-frequency radio waves to high-frequency gamma rays. They're all the same type of wave (transverse), they all travel at the speed of light, and they all work without a medium — the only difference is frequency.",
+   "example": "Radio waves, microwaves, visible light, X-rays and gamma rays are all electromagnetic waves — they differ only in frequency and wavelength, like different notes on the same instrument.",
+   "sub_terms": [
+    {
+     "term": "Transverse wave",
+     "definition": "A wave where the vibration is sideways to the direction the wave travels — like shaking a rope up and down. All electromagnetic waves are transverse."
+    },
+    {
+     "term": "Electromagnetic radiation",
+     "definition": "Energy that travels as a wave of oscillating electric and magnetic fields — it can travel through empty space, which is why sunlight reaches Earth."
+    }
+   ]
+  },
+  {
+   "term": "Photon",
+   "descriptor_code": "AC9S9U04",
+   "width_tier": "typical",
+   "definition": "A 'particle' of light — a tiny packet of energy. Some experiments show light behaving as a wave (diffraction, interference), but others show it behaving as a stream of particles (the photoelectric effect). This means neither model alone is complete — light has both wave and particle properties.",
+   "example": "Solar panels work because photons (light particles) hit the panel and knock electrons loose — the wave model can't explain this, but the particle model can. Yet the same light diffracts around edges, which only the wave model explains."
+  }
+ ]
+}

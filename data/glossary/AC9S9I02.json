@@ -1,0 +1,257 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I02",
+ "teacher_glossary": [
+  {
+   "term": "Validity",
+   "descriptor_code": "AC9S9I02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The extent to which an investigation method measures what it claims to measure. A valid method ensures that the results are due to the independent variable, not to uncontrolled confounding factors. Validity is about the truthfulness of the measurement — whether the data actually answers the question being asked.",
+   "failure_mode": "Students confuse validity with reliability or reproducibility — 'the experiment is valid because we got the same result three times.' Getting consistent results is reproducibility; validity is whether the method actually tests what it claims to test.",
+   "failure_type": "misconception",
+   "why_it_matters": "If validity means 'consistent results,' students cannot identify a method that reliably produces the wrong answer (consistently measuring the wrong thing). The distinction between 'consistently measured' and 'correctly measured' collapses, and method evaluation becomes impossible.",
+   "response": "Present a method that is reproducible but not valid — e.g. measuring plant height with a ruler that starts at 1cm rather than 0. The results will be consistent (reproducible) but systematically wrong (not valid). Ask: 'Is this valid? Is it reproducible? Can something be one without the other?'",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Internal validity",
+     "definition": "Whether the results of an investigation are genuinely due to the independent variable rather than confounding factors. Internal validity asks: 'Can I be sure the IV caused the change in the DV?'"
+    },
+    {
+     "term": "External validity",
+     "definition": "Whether the results of an investigation can be generalised beyond the specific conditions of the study. External validity asks: 'Would these results hold in other contexts?'"
+    },
+    {
+     "term": "Confounding variable",
+     "definition": "An uncontrolled variable that changes alongside the independent variable and could provide an alternative explanation for the results. Confounding variables are the primary threat to internal validity — if present, the investigator cannot determine whether the IV or the confound caused the observed effect.",
+     "failure_mode": "Students identify controlled variables as a checklist but cannot identify specific confounds — they list what they held constant without reasoning about what else could have varied and affected the results.",
+     "failure_type": "flawed_reasoning",
+     "response": "After students list controlled variables, ask: 'What else could have changed during your investigation that you didn't control? How would that affect your results?' The question shifts from 'what did I control?' to 'what might I have missed?'",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Reproducibility",
+   "descriptor_code": "AC9S9I02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The extent to which an investigation method can be repeated by other researchers to obtain consistent results. A reproducible method is described in sufficient detail that another person following it would get the same outcome. Reproducibility is about the method's clarity and precision, not about whether the conclusions are correct.",
+   "failure_mode": "Students think reproducibility means 'I can do it again' rather than 'someone else can do it and get the same result.' They write methods as personal narratives ('first I got the beaker') rather than instructions another person could follow.",
+   "failure_type": "misconception",
+   "why_it_matters": "If reproducibility is personal repetition, students cannot evaluate whether their method is detailed enough for independent replication — a core requirement of scientific investigation. Methods that work for the author but cannot be followed by others are not scientifically reproducible.",
+   "response": "Have students swap investigation plans and attempt to follow each other's methods. The gaps in detail become immediately visible when someone else tries to use the instructions — this makes 'reproducible by others' concrete.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Method",
+     "definition": "The detailed, step-by-step procedure for conducting an investigation. A scientific method must be written with enough precision that another person could follow it to reproduce the investigation independently.",
+     "failure_mode": "Students write narrative recounts of what they did ('first I got the beaker, then I poured some water') rather than structured instructions with specific quantities, equipment and procedures — the method cannot be reproduced because it lacks precision.",
+     "failure_type": "fragile_skill",
+     "response": "Apply the 'stranger test': could someone who was not present follow this method and get the same result? If any step requires assumptions about quantities, timing or equipment, the method needs more detail.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Reliability",
+     "definition": "The consistency of results across repeated measurements using the same method. Reliable results show little variation when the investigation is repeated under the same conditions. Closely related to reproducibility, but reliability focuses on the consistency of the data, while reproducibility focuses on whether the method can be followed by others.",
+     "failure_mode": "Students confuse reliability with accuracy — 'my result is reliable because it's close to the textbook answer.' Reliability is about consistency across measurements (tight grouping), not closeness to a true value (which is accuracy).",
+     "failure_type": "misconception",
+     "response": "Use a target analogy: a cluster of arrows tightly grouped but off-centre is reliable but not accurate; arrows spread across the target but centred on average are accurate but not reliable. Ask students to classify data sets as reliable, accurate, both or neither.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Source of error",
+   "descriptor_code": "AC9S9I02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Any factor in an investigation that introduces inaccuracy into the results, reducing the validity or reliability of conclusions. Sources of error include measurement limitations, procedural inconsistencies and environmental factors. Identifying sources of error is part of planning — they should be anticipated and controlled, not just documented after the fact.",
+   "failure_mode": "Students identify sources of error generically ('human error,' 'mistakes were made') rather than naming specific, identifiable factors and explaining how each affects the results. Generic error identification provides no basis for improving the method.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If error identification is generic, the method cannot be improved — 'be more careful' is not a control strategy. Specific error identification drives specific method refinement; generic error identification is just procedural decoration.",
+   "response": "Ban 'human error' as a response. Require students to name the specific factor (e.g. 'parallax when reading the meniscus,' 'temperature fluctuations in the room,' 'timing started late') and describe how it specifically affected the data.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Controlled variable",
+     "definition": "A variable held constant throughout an investigation to ensure that any change in the dependent variable is due to the independent variable alone. Controlling variables is the primary method for protecting internal validity.",
+     "failure_mode": "Students confuse 'controlled variable' with 'control group' or list controlled variables without explaining why each must be held constant — the connection between variable control and validity is missing.",
+     "failure_type": "misconception",
+     "response": "For each controlled variable a student identifies, ask: 'What would happen to your results if this varied?' The consequence reasoning connects variable control to validity rather than treating it as a checklist item.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Random error",
+     "definition": "Error that varies unpredictably between measurements — sometimes too high, sometimes too low — caused by factors beyond the investigator's control. Random error is reduced by increasing sample size and repeating measurements, not by being more careful.",
+     "failure_mode": "Students think all errors are random and can be eliminated by 'being more careful' — they miss that random error is inherent variation in measurement, reduced by repeating (averaging), not by effort.",
+     "failure_type": "misconception",
+     "response": "Have students take 10 measurements of the same thing and plot them. The scatter IS random error — it doesn't go away with care, but the mean becomes more reliable as measurements increase.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Systematic error",
+     "definition": "Error that consistently biases all measurements in the same direction — always too high or always too low — caused by a flaw in the method or equipment. Systematic error is not reduced by repeating measurements; it requires identifying and removing the cause.",
+     "failure_mode": "Students do not recognise that some errors affect all measurements the same way — they think repeating the investigation will fix any error, missing that systematic errors persist through repetition.",
+     "failure_type": "misconception",
+     "response": "Present data where all values are consistently 2°C too high. Ask: 'Will taking more measurements fix this? What else could we do?' The case shows that repetition cannot fix a systematic bias — you have to find and fix the cause.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Control group",
+     "definition": "A group in an experiment that is not exposed to the independent variable, providing a baseline for comparison. Distinct from controlled variable — a control group is a comparison condition, while a controlled variable is a factor held constant across all groups."
+    }
+   ]
+  },
+  {
+   "term": "Risk assessment",
+   "descriptor_code": "AC9S9I02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A systematic evaluation of potential hazards in an investigation, including identification of each hazard, assessment of its likelihood and severity, and description of control measures to reduce risk. Risk assessment is part of investigation planning, not an afterthought.",
+   "failure_mode": "Students treat risk assessment as a compliance exercise — listing obvious hazards ('don't drink the chemicals') without systematically evaluating likelihood, severity or specific control measures for the actual investigation they are planning.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A perfunctory risk assessment does not protect anyone. If students cannot evaluate hazard severity and likelihood for their specific investigation context, they cannot make informed safety decisions when unexpected situations arise during practical work.",
+   "response": "Require the four-column format: hazard, likelihood, severity, control measure. For each hazard, the student must explain why the control measure specifically addresses that hazard — the connection prevents generic listing.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Hazard",
+     "definition": "A potential source of harm in an investigation — including chemical, biological, physical and environmental hazards specific to the investigation context."
+    },
+    {
+     "term": "Control measure",
+     "definition": "A specific action taken to reduce the risk from an identified hazard — e.g. wearing safety glasses, using a fume cupboard, limiting quantities."
+    }
+   ]
+  },
+  {
+   "term": "Ethical issues",
+   "descriptor_code": "AC9S9I02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Moral considerations relevant to investigation design, including the welfare of animals used in investigations, the wellbeing of human participants, and cultural sensitivity when working near or on Country/Place. Ethical issues constrain what investigations can be conducted and how.",
+   "failure_mode": "Students treat ethical issues as limited to 'don't hurt animals' — they cannot identify ethical considerations relevant to human participants, cultural sensitivity or the broader implications of investigation design choices.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If ethical awareness is limited to animal welfare, students cannot navigate the full range of ethical considerations in scientific investigation — including privacy, informed consent and cultural protocols that apply in field work and community-based research.",
+   "response": "Present investigation scenarios across different ethical dimensions — one involving animals, one involving human participants, one involving field work on Country. Ask students to identify the ethical issue in each and how the investigation design should respond to it.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Heritage sites",
+     "definition": "Places of cultural, historical or spiritual significance, particularly to First Nations Australians. When planning field investigations, there are legal and ethical responsibilities to identify, respect and report heritage sites and artefacts on Country/Place."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Validity",
+   "descriptor_code": "AC9S9I02",
+   "width_tier": "minimum",
+   "definition": "Whether your investigation method actually tests what it's supposed to test. A valid experiment makes sure the results are caused by what you changed (the independent variable), not by something else you didn't control.",
+   "example": "If you're testing whether fertiliser affects plant growth but one plant gets more sunlight than the others, your results aren't valid — you can't tell whether the growth was caused by fertiliser or sunlight.",
+   "sub_terms": [
+    {
+     "term": "Internal validity",
+     "definition": "Whether you can be sure the independent variable actually caused the change you measured, and nothing else did.",
+     "example": "If all your controlled variables stayed constant, your experiment has good internal validity — the IV is the most likely cause of the results."
+    },
+    {
+     "term": "External validity",
+     "definition": "Whether your results would apply in other situations beyond your specific experiment.",
+     "example": "If you tested plant growth in a greenhouse, the results might not apply to outdoor conditions — that's a limitation of external validity."
+    },
+    {
+     "term": "Confounding variable",
+     "definition": "Something you didn't control that changed during your experiment and might have caused your results instead of your independent variable. Confounds are why controlling variables matters — if something else changed, you can't be sure what caused the effect.",
+     "example": "You're testing whether music helps study performance, but the music group also studied in a quieter room. The room noise is a confounding variable — you can't tell if the results are due to music or room noise."
+    }
+   ]
+  },
+  {
+   "term": "Reproducibility",
+   "descriptor_code": "AC9S9I02",
+   "width_tier": "minimum",
+   "definition": "Whether someone else could follow your method and get the same results. A reproducible method is written clearly enough that a person who wasn't there could repeat it exactly.",
+   "example": "If your method says 'add some water and heat it for a bit,' nobody can reproduce that. If it says 'add 50 mL of water and heat to 80°C for 5 minutes,' anyone can.",
+   "sub_terms": [
+    {
+     "term": "Method",
+     "definition": "The step-by-step instructions for how to do your investigation, written precisely enough for someone else to follow.",
+     "example": "A good method doesn't just say what you did — it includes specific amounts, equipment names, times and temperatures so anyone could repeat it."
+    },
+    {
+     "term": "Reliability",
+     "definition": "How consistent your results are when you repeat the same measurement. If you get similar results each time, your data is reliable.",
+     "example": "If you measure the same object's mass five times and get 45.2g, 45.1g, 45.3g, 45.2g, 45.1g — that's reliable. If you get 45.2g, 48.7g, 42.1g, 46.9g, 44.0g — that's not."
+    }
+   ]
+  },
+  {
+   "term": "Source of error",
+   "descriptor_code": "AC9S9I02",
+   "width_tier": "minimum",
+   "definition": "Anything in your investigation that could make your results less accurate. Sources of error include equipment limitations, things you couldn't perfectly control, and inconsistencies in your procedure.",
+   "example": "If you're timing a reaction with a stopwatch and your reaction time adds about 0.3 seconds each time you click, that's a specific source of error — much more useful than just saying 'human error.'",
+   "sub_terms": [
+    {
+     "term": "Controlled variable",
+     "definition": "A variable you keep the same throughout your experiment so you know any change in your results was caused by what you deliberately changed.",
+     "example": "If you're testing how temperature affects dissolving rate, you need to keep the amount of water, amount of sugar and stirring speed the same — those are your controlled variables."
+    },
+    {
+     "term": "Random error",
+     "definition": "Error that varies unpredictably — sometimes your measurement is a bit too high, sometimes a bit too low. You can't eliminate it, but you can reduce its effect by taking more measurements and averaging.",
+     "example": "If you measure how long a pendulum takes to swing 10 times and get slightly different results each time, that variation is random error — taking more measurements and averaging gives a more reliable answer."
+    },
+    {
+     "term": "Systematic error",
+     "definition": "Error that pushes all your measurements in the same direction — always too high or always too low. Repeating the experiment won't fix it because the same bias is there every time.",
+     "example": "If your thermometer reads 2°C too high because it wasn't calibrated properly, every temperature you record will be 2°C too high — no amount of repeating will fix that."
+    },
+    {
+     "term": "Control group",
+     "definition": "A group in your experiment that doesn't receive the treatment you're testing — it gives you a baseline to compare against. Different from 'controlled variable' — a control group is a comparison condition, not a variable you keep constant.",
+     "example": "If you're testing whether fertiliser helps plant growth, the control group is the plants that get no fertiliser — they show you what 'normal' growth looks like so you can compare."
+    }
+   ]
+  },
+  {
+   "term": "Risk assessment",
+   "descriptor_code": "AC9S9I02",
+   "width_tier": "minimum",
+   "definition": "A plan that identifies dangers in your investigation and explains how you'll manage them. It should cover what the hazard is, how likely it is, how serious it could be, and what you'll do to reduce the risk.",
+   "example": "If your investigation uses a Bunsen burner, your risk assessment would identify the burn hazard, note it's likely if you're not careful, rate the severity as moderate, and list control measures like tying back hair and using a heat mat.",
+   "sub_terms": [
+    {
+     "term": "Hazard",
+     "definition": "Something in your investigation that could cause harm — like chemicals, heat, sharp objects or electrical equipment."
+    },
+    {
+     "term": "Control measure",
+     "definition": "A specific action you take to reduce the danger from a hazard — like wearing safety glasses or using a fume cupboard."
+    }
+   ]
+  },
+  {
+   "term": "Ethical issues",
+   "descriptor_code": "AC9S9I02",
+   "width_tier": "minimum",
+   "definition": "Moral questions about what is right and wrong when planning an investigation — including how animals are treated, whether human participants are looked after, and whether you're being respectful of cultural heritage sites.",
+   "example": "If your investigation involves surveying people about their health, ethical issues include: Do participants know what you're doing with their data? Can they choose not to participate? Is their information kept private?",
+   "sub_terms": [
+    {
+     "term": "Heritage sites",
+     "definition": "Places that have cultural or spiritual importance, especially to First Nations Australians. If you're doing field work, you need to know about and respect any heritage sites in the area.",
+     "example": "If your field investigation is near a river, there may be heritage sites along the waterway — you have a responsibility to find out and avoid disturbing them."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I04",
+ "teacher_glossary": [
+  {
+   "term": "Representation",
+   "descriptor_code": "AC9S7I04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A format used to organise, display and process data or information — including tables, graphs, models, diagrams, food webs, dichotomous keys and mathematical relationships. At Year 7, the key skill is selecting an appropriate representation based on data characteristics, not defaulting to a familiar type regardless of what the data requires.",
+   "failure_mode": "Students default to one representation type — usually a bar chart — regardless of data characteristics. They treat representation as a single format to learn rather than a selection decision based on what the data looks like and what they want to show.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "An inappropriate representation obscures the patterns the data contains. A bar chart for continuous data hides trends; a line graph for categorical data implies a non-existent progression. The selection skill determines whether subsequent analysis (AC9S7I05) can succeed.",
+   "response": "Present the same data set and ask students to represent it two different ways. Discuss which representation reveals the pattern more clearly and why — the comparison makes the selection criteria visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Scale",
+     "definition": "The range and intervals marked on the axes of a graph, determining how data values are displayed. Scale selection affects how patterns appear — compressed scales can hide variation, while non-uniform scales can create misleading visual impressions.",
+     "failure_mode": "Students select non-uniform scales, don't indicate axis breaks when not starting at zero, or compress data into unreadable ranges — producing graphs where real patterns are invisible or apparent patterns are artefacts of the scale choice.",
+     "failure_type": "fragile_skill",
+     "response": "Show the same data plotted with two different scales — one that reveals the pattern and one that hides it. Ask students what changed and why. The visual comparison makes scale selection a deliberate choice rather than an afterthought.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Table",
+     "definition": "An organised grid of rows and columns used to record, display and compare data. In science, tables require clear column headings, correct units, consistent precision and logical ordering to make the data usable for analysis."
+    },
+    {
+     "term": "Graph",
+     "definition": "A visual representation of data that reveals patterns, trends and relationships between variables. In science, graphs require labelled axes with units, appropriate scales, a title, and correct selection of graph type based on data characteristics."
+    },
+    {
+     "term": "Spreadsheet",
+     "definition": "A digital tool for organising, processing and analysing data in a table format. Spreadsheets can perform calculations (averages, totals), sort data, and generate graphs — making them useful for both recording and processing investigation data."
+    },
+    {
+     "term": "X-axis",
+     "definition": "The horizontal axis of a graph, typically used to display the independent variable — the variable that was deliberately changed or that represents the progression (such as time). Correct axis assignment is essential for readable graphs."
+    },
+    {
+     "term": "Y-axis",
+     "definition": "The vertical axis of a graph, typically used to display the dependent variable — the variable that was measured as the outcome. Reading the y-axis value at a given x-axis point is how patterns and relationships are identified from graphs."
+    },
+    {
+     "term": "Pie chart",
+     "definition": "A circular graph divided into sectors showing proportions of a whole. Pie charts are appropriate for displaying how a total is divided into categories but are not suitable for showing changes over time, relationships between variables, or continuous data."
+    }
+   ]
+  },
+  {
+   "term": "Discrete data",
+   "descriptor_code": "AC9S7I04",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "Data that can only take specific, separate values — typically categories or whole numbers that cannot be meaningfully subdivided. Examples include number of organisms, types of habitat, or categories of material. Discrete data is appropriately represented using bar charts, where separate bars represent separate categories with gaps between them.",
+   "failure_mode": "Students cannot distinguish discrete from continuous data — they treat all data as the same type and select representations without considering whether the data is categorical or continuous, leading to inappropriate graph types.",
+   "failure_type": "misconception",
+   "why_it_matters": "The discrete–continuous distinction is the primary selection criterion for choosing between bar charts and line graphs. Students who cannot make this distinction cannot select appropriate representations, which undermines all subsequent data analysis.",
+   "response": "Present examples of each data type and ask: 'Can you have a value between these two data points?' If yes (e.g. 25.5°C between 25°C and 26°C), it's continuous. If no (e.g. you can't have 2.5 species), it's discrete. The 'in-between' test makes the distinction concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Bar chart",
+     "definition": "A graph using separate bars to represent discrete data values or categories, with gaps between bars indicating that the categories are distinct and separate."
+    },
+    {
+     "term": "Continuous data",
+     "definition": "Data that can take any value within a range — including fractions and decimals — and where values between data points are meaningful. Examples include temperature, time, mass and length. Continuous data is appropriately represented using line graphs, where the line between points indicates that intermediate values exist."
+    },
+    {
+     "term": "Line graph",
+     "definition": "A graph using points connected by lines to represent continuous data, where the line between points indicates that intermediate values are meaningful."
+    }
+   ]
+  },
+  {
+   "term": "Dichotomous key",
+   "descriptor_code": "AC9S7I04",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A branching identification tool that uses a series of paired questions with two possible answers at each step, progressively narrowing down the identity of an organism or object. Each question must divide the remaining options into two groups based on observable features. The key works only when every question is unambiguous and every pathway leads to a single identification.",
+   "failure_mode": "Students construct keys with overlapping or ambiguous decision points — questions where an organism could reasonably fit either answer, or where the two options don't cover all possibilities. The binary logic (exactly two mutually exclusive options at each step) is not intuitive.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A key with ambiguous decision points doesn't work — users get stuck or misidentify organisms. The construction discipline (mutually exclusive, collectively exhaustive options at each step) is transferable to any classification or decision-making task.",
+   "response": "Have students test their key by giving it to a peer with an unknown organism. Every point where the peer hesitates or gets stuck reveals an ambiguous decision point that needs rewriting. The peer test makes construction errors visible.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Food web",
+   "descriptor_code": "AC9S7I04",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A representation showing the feeding relationships between organisms in an ecosystem, with arrows indicating the direction of energy flow — from the organism being eaten to the organism eating it. A food web is more complex than a food chain because it shows multiple interconnected feeding relationships, revealing how energy flows through an ecosystem and how organisms depend on each other.",
+   "failure_mode": "Students draw arrows in the wrong direction — pointing from predator to prey (showing 'eats') rather than from prey to predator (showing energy flow). The arrow represents energy transfer, not the act of eating.",
+   "failure_type": "misconception",
+   "why_it_matters": "Reversed arrows fundamentally change the meaning of the food web — they show consumption rather than energy flow, which prevents students from tracing energy through the ecosystem or predicting what happens when a species is removed.",
+   "response": "Label arrows explicitly as 'energy flows to' rather than 'eats.' Ask students to trace the energy from the sun through three organisms — the directional language makes the arrow convention meaningful rather than arbitrary.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Mathematical relationship",
+   "descriptor_code": "AC9S7I04",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "A description of how two variables are connected, expressed through mathematical language or formulae. At Year 7, mathematical relationships are typically qualitative ('as planet mass increases, gravity increases') rather than quantitative formulae. Identifying mathematical relationships in data enables students to move from describing patterns to explaining the underlying connection between variables.",
+   "failure_mode": "Students describe what a graph or table shows ('it goes up') without identifying the mathematical relationship between the variables — they read the pattern without connecting it to the scientific question or the variables involved.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Pattern description without variable connection is data reading, not data processing. The standard requires students to use representations to process data — which means extracting the relationship between variables, not just describing visual features of the graph.",
+   "response": "Require students to name both variables when describing a relationship: 'As [independent variable] increases, [dependent variable] decreases' rather than 'it goes up then down.' The variable-naming requirement forces the mathematical connection.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Representation",
+   "descriptor_code": "AC9S7I04",
+   "width_tier": "minimum",
+   "definition": "A way of organising and showing data so you can see patterns — like tables, graphs, diagrams or models. Different types of data need different representations, so you need to choose the right one, not just use the same format every time.",
+   "example": "If you measured the temperature every hour, a line graph would show the trend over time. If you counted how many students prefer different sports, a bar chart would show the comparison between categories.",
+   "sub_terms": [
+    {
+     "term": "Scale",
+     "definition": "The numbers and spacing on the axes of a graph. Choosing the right scale makes patterns visible — a bad scale can hide important changes or make small changes look huge.",
+     "example": "If your data ranges from 20°C to 25°C but your scale goes from 0°C to 100°C, the differences will look tiny and you'll miss the pattern."
+    },
+    {
+     "term": "Table",
+     "definition": "A grid with rows and columns for organising data. In science, every column needs a heading with units, and measurements should be recorded consistently.",
+     "example": "A results table might have columns for 'Temperature (°C),' 'Trial 1 time (s),' 'Trial 2 time (s),' 'Trial 3 time (s)' and 'Average (s).'"
+    },
+    {
+     "term": "Graph",
+     "definition": "A visual way of showing data so you can see patterns and relationships. In science, graphs need labelled axes with units, a sensible scale and a title.",
+     "example": "A graph of plant growth over time would have 'Time (days)' on the x-axis and 'Height (cm)' on the y-axis, with a title like 'Effect of time on bean plant height.'"
+    },
+    {
+     "term": "Spreadsheet",
+     "definition": "A computer program (like Excel or Google Sheets) for organising data in a table and doing calculations with it — like working out averages or making graphs from your results.",
+     "example": "After collecting dissolving time data, you could enter it into a spreadsheet, calculate the average for each temperature, and generate a line graph automatically."
+    },
+    {
+     "term": "X-axis",
+     "definition": "The horizontal (left-to-right) line at the bottom of a graph. Usually shows the variable you changed (independent variable) or time.",
+     "example": "If you're graphing how temperature affects dissolving rate, temperature goes on the x-axis because that's what you changed."
+    },
+    {
+     "term": "Y-axis",
+     "definition": "The vertical (bottom-to-top) line on the side of a graph. Usually shows the variable you measured (dependent variable).",
+     "example": "If you're graphing how temperature affects dissolving rate, dissolving time goes on the y-axis because that's what you measured."
+    },
+    {
+     "term": "Pie chart",
+     "definition": "A circle divided into slices showing how something is split into parts. Good for showing proportions, but not for showing how things change over time or relationships between variables.",
+     "example": "A pie chart could show what percentage of a habitat is grassland, forest and wetland — but you wouldn't use one to show how temperature changed during the day."
+    }
+   ]
+  },
+  {
+   "term": "Discrete data",
+   "descriptor_code": "AC9S7I04",
+   "width_tier": "typical",
+   "definition": "Data made up of separate, distinct values — usually categories or whole numbers where in-between values don't make sense. You show discrete data with a bar chart, where the gaps between bars remind you that the categories are separate.",
+   "example": "The number of students in each house group is discrete data — you can't have 2.5 students. Each house is a separate category shown by a separate bar.",
+   "sub_terms": [
+    {
+     "term": "Bar chart",
+     "definition": "A graph with separate bars (with gaps between them) used to compare discrete categories.",
+     "example": "A bar chart showing the number of different bird species spotted in a schoolyard, with one bar per species."
+    },
+    {
+     "term": "Continuous data",
+     "definition": "Data that can take any value within a range, including decimals — like temperature, time or mass. You show continuous data with a line graph because the values between your measurements are meaningful.",
+     "example": "Temperature measured every hour is continuous — the temperature at 10:30 am exists even if you didn't measure it, so a line connecting your data points makes sense."
+    },
+    {
+     "term": "Line graph",
+     "definition": "A graph with points connected by lines, used for continuous data where the values between measured points are meaningful.",
+     "example": "A line graph showing how temperature changed throughout the day, with time on the x-axis and temperature on the y-axis."
+    }
+   ]
+  },
+  {
+   "term": "Dichotomous key",
+   "descriptor_code": "AC9S7I04",
+   "width_tier": "typical",
+   "definition": "An identification tool that works by asking a series of yes/no questions, each one narrowing down what something could be until you reach an answer. At each step, there are exactly two choices — 'dichotomous' means 'divided in two.'",
+   "example": "To identify a leaf: 'Does it have smooth edges?' — Yes leads to one group, No leads to another. Then: 'Is it longer than 10 cm?' — each question narrows it down until you identify the species."
+  },
+  {
+   "term": "Food web",
+   "descriptor_code": "AC9S7I04",
+   "width_tier": "typical",
+   "definition": "A diagram showing who eats whom in an ecosystem. The arrows show which way energy flows — from the organism being eaten TO the organism eating it. This is important: the arrow points in the direction the energy travels, not in the direction of 'eating.'",
+   "example": "In a food web, an arrow from grass to a rabbit means energy flows from the grass to the rabbit (the rabbit eats the grass). An arrow from rabbit to fox means energy flows from the rabbit to the fox."
+  },
+  {
+   "term": "Mathematical relationship",
+   "descriptor_code": "AC9S7I04",
+   "width_tier": "typical",
+   "definition": "A description of how two variables are connected — for example, 'as one goes up, the other goes down.' In Year 7, you describe these relationships in words rather than formulas, but you always name both variables.",
+   "example": "Instead of saying 'the graph goes up,' say 'as the temperature increases, the dissolving rate increases' — naming both variables shows you understand the relationship, not just the shape of the graph."
+  }
+ ]
+}

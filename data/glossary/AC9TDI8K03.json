@@ -1,0 +1,201 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8K03",
+ "teacher_glossary": [
+  {
+   "term": "Encoding scheme",
+   "descriptor_code": "AC9TDI8K03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A mapping system that assigns integers to specific meanings — characters, colours, sound amplitudes. Different data types use different encoding schemes: the same integer means different things depending on whether the system interprets it as a Unicode character, an RGB colour value, or an audio sample. All digital data is integers; the encoding scheme determines what those integers represent.",
+   "failure_mode": "Students treat text, image and audio encoding as three unrelated facts rather than three instances of the same principle — all data is integers mapped through encoding schemes.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If the encoding-scheme principle is not established, Nodes 2–4 (Unicode, RGB, audio sampling) become disconnected memorisation tasks rather than applications of one idea. Students cannot integrate the data types at the standard level.",
+   "response": "Show the same integer (e.g. 65) interpreted as a character (A), a colour channel value (medium-low red), and an audio amplitude. Ask: how does the system know which one it is?",
+   "response_type": "integration"
+  },
+  {
+   "term": "Unicode",
+   "descriptor_code": "AC9TDI8K03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A universal character encoding standard that assigns a unique integer to every character across all writing systems — letters, punctuation, emoji and symbols from hundreds of languages. Unicode superseded ASCII, which only covered 128 characters (English letters, digits and basic punctuation). Upper-case and lower-case letters have different Unicode values.",
+   "failure_mode": "Students think Unicode is just a lookup table for English letters and don't understand why a universal standard was necessary — that different languages and writing systems required a single shared numbering system.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If Unicode is just 'A = 65', students miss the engineering problem it solves: enabling all the world's writing systems to coexist in one encoding. The character-diversity aspect connects data representation to linguistic and cultural equity.",
+   "response": "Ask students to look up Unicode values for characters from three different writing systems (Latin, Arabic, Chinese) plus an emoji. The variety demonstrates why a universal standard matters.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "ASCII",
+     "definition": "An older 7-bit character encoding covering 128 characters — English letters, digits and basic punctuation. Insufficient for representing non-Latin scripts, which is why Unicode replaced it."
+    }
+   ]
+  },
+  {
+   "term": "Pixel",
+   "descriptor_code": "AC9TDI8K03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The smallest addressable unit of a bitmap image. Each pixel stores colour information as RGB values — three integers from 0 to 255, one each for red, green and blue intensity. The total number of pixels (resolution) and the number of bits per channel (colour depth) determine image quality and file size.",
+   "failure_mode": "Students can state that images are 'made of pixels' but cannot explain what data each pixel actually stores — they know the word without the encoding mechanism.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If pixels are just 'dots', students cannot calculate storage requirements, explain why higher resolution means larger files, or connect image encoding back to the integers-as-data principle from Node 1.",
+   "response": "Give students an RGB triplet (e.g. 255, 0, 0) and ask what colour it represents. Then ask: how many integers does a 100×100 pixel image need? The calculation grounds the encoding in numbers.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "RGB",
+     "definition": "Red, Green, Blue — three colour channels each ranging from 0 to 255. Together they specify a pixel's colour using three integers."
+    },
+    {
+     "term": "Resolution"
+    },
+    {
+     "term": "Colour depth"
+    }
+   ]
+  },
+  {
+   "term": "Bitmap image",
+   "descriptor_code": "AC9TDI8K03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "An image represented as a grid of pixels, each storing RGB colour values. Common formats include PNG and JPEG. Bitmap images have a fixed resolution — scaling up produces visible pixelation. Contrasts with vector graphics (SVG), which store geometry rather than pixel data and can scale without quality loss.",
+   "failure_mode": "Students treat bitmap and vector as interchangeable image formats rather than fundamentally different representation systems — pixels vs geometry.",
+   "failure_type": "misconception",
+   "why_it_matters": "Without the bitmap/vector distinction, students cannot explain why logos are designed as vectors (scalable) while photos are bitmaps (pixel-based), or why SVG files are tiny compared to high-resolution PNGs.",
+   "response": "Zoom into the same image saved as PNG and SVG. The PNG pixelates; the SVG stays sharp. Ask students to explain the difference using how each format stores data.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Vector graphics",
+     "definition": "Images defined by mathematical descriptions of shapes, lines and curves rather than pixel grids. SVG (Scalable Vector Graphics) is the standard format. Scales without quality loss."
+    },
+    {
+     "term": "SVG"
+    },
+    {
+     "term": "PNG"
+    },
+    {
+     "term": "JPEG"
+    }
+   ]
+  },
+  {
+   "term": "Sampling",
+   "descriptor_code": "AC9TDI8K03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The process of measuring a continuous sound wave at regular time intervals to convert it to digital data. Each measurement captures the amplitude (height) of the wave at that instant and stores it as an integer. Sampling rate (e.g. 44,100 Hz = 44,100 samples per second) determines temporal resolution; bit depth (e.g. 16-bit = integers from −32,768 to 32,767) determines amplitude precision.",
+   "failure_mode": "Students think digital audio is a direct copy of the sound wave rather than a series of discrete measurements — they don't see the analogue-to-digital conversion.",
+   "failure_type": "misconception",
+   "why_it_matters": "If audio is 'just recorded', students cannot reason about why sampling rate affects quality, why higher bit depth gives more precision, or how the encoding connects back to the integers-as-data principle. The sampling model is the audio equivalent of the pixel model for images.",
+   "response": "Draw a smooth wave and mark dots at regular intervals — those dots are the samples. Ask: what happens to the quality if you space the dots further apart? The visual makes sampling rate concrete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Sampling rate",
+     "definition": "How many times per second the sound wave is measured. CD quality is 44,100 Hz. Higher rate = more accurate representation of the original wave."
+    },
+    {
+     "term": "Bit depth",
+     "definition": "The number of bits used to store each sample, determining the range of amplitude values. 16-bit audio can represent 65,536 different amplitude levels."
+    },
+    {
+     "term": "Amplitude",
+     "definition": "The height of the sound wave at a given instant — how loud the sound is at that point. Each amplitude measurement is stored as an integer."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Encoding scheme",
+   "descriptor_code": "AC9TDI8K03",
+   "width_tier": "minimum",
+   "definition": "A system that maps numbers to specific meanings — like a codebook. Different types of data use different schemes: the number 65 means the letter 'A' in text encoding, but something completely different in an image or sound file. The encoding scheme tells the computer how to interpret the numbers.",
+   "example": "If someone gives you the number 72, you can't know what it means without knowing the scheme — it could be a letter, a shade of red, or a sound volume."
+  },
+  {
+   "term": "Unicode",
+   "descriptor_code": "AC9TDI8K03",
+   "width_tier": "minimum",
+   "definition": "A universal numbering system that gives every character — every letter, symbol and emoji in every language — its own unique number. Unicode replaced older systems that only covered English characters.",
+   "example": "In Unicode, 'A' is 65, 'a' is 97, and the thumbs-up emoji is 128,077. Every character you can type has its own number.",
+   "sub_terms": [
+    {
+     "term": "ASCII",
+     "definition": "An older system that only covered 128 characters — basically English letters, numbers and punctuation. Not enough for the world's languages, which is why Unicode replaced it.",
+     "example": "ASCII couldn't represent Chinese characters or Arabic script — Unicode can handle all of them."
+    }
+   ]
+  },
+  {
+   "term": "Pixel",
+   "descriptor_code": "AC9TDI8K03",
+   "width_tier": "minimum",
+   "definition": "The smallest dot in a digital image. Each pixel stores three numbers between 0 and 255 — one for how much red, green and blue light it has. Together, these three numbers create the pixel's colour.",
+   "example": "A pixel with RGB values (255, 0, 0) is bright red. (0, 0, 0) is black. (255, 255, 255) is white.",
+   "sub_terms": [
+    {
+     "term": "RGB",
+     "definition": "Red, Green, Blue — the three colour values that make up each pixel, each ranging from 0 to 255.",
+     "example": "(0, 255, 0) is bright green because the green channel is at maximum while red and blue are at zero."
+    },
+    {
+     "term": "Resolution"
+    }
+   ]
+  },
+  {
+   "term": "Bitmap image",
+   "descriptor_code": "AC9TDI8K03",
+   "width_tier": "minimum",
+   "definition": "An image stored as a grid of pixels, each with its own colour values. Common formats include PNG and JPEG. If you zoom in too far, you see the individual pixels. Vector graphics (SVG) work differently — they store shapes and lines as maths, so they can scale up without getting blurry.",
+   "example": "A photo is a bitmap — zoom in and it goes blurry. A company logo is usually a vector — it looks sharp at any size.",
+   "sub_terms": [
+    {
+     "term": "Vector graphics",
+     "definition": "Images stored as mathematical descriptions of shapes and lines rather than pixel grids. They can be scaled to any size without losing quality.",
+     "example": "SVG logos on websites stay sharp whether you're viewing on a phone or a giant monitor."
+    },
+    {
+     "term": "PNG"
+    },
+    {
+     "term": "JPEG"
+    }
+   ]
+  },
+  {
+   "term": "Sampling",
+   "descriptor_code": "AC9TDI8K03",
+   "width_tier": "minimum",
+   "definition": "How digital systems record sound — by measuring the height of a sound wave thousands of times per second and saving each measurement as a number. More measurements per second means a more accurate recording.",
+   "example": "CD-quality audio takes 44,100 measurements every second. Each measurement becomes a number stored in the file.",
+   "sub_terms": [
+    {
+     "term": "Sampling rate",
+     "definition": "How many times per second the sound is measured. More samples = more accurate sound.",
+     "example": "44,100 Hz means the sound wave is measured 44,100 times every second."
+    },
+    {
+     "term": "Bit depth",
+     "definition": "How precisely each measurement is stored — more bits means a wider range of volumes can be captured.",
+     "example": "16-bit audio can record 65,536 different volume levels, from silence to very loud."
+    },
+    {
+     "term": "Amplitude",
+     "definition": "How high the sound wave is at a given moment — basically, how loud the sound is at that point.",
+     "example": "A whisper has low amplitude; a shout has high amplitude. Each measurement captures the amplitude as a number."
+    }
+   ]
+  }
+ ]
+}

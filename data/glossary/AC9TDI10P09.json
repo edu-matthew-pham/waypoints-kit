@@ -1,0 +1,292 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P09",
+ "teacher_glossary": [
+  {
+   "term": "Data structure",
+   "descriptor_code": "AC9TDI10P09",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A way of organising and storing data in a program so it can be accessed and modified efficiently. Different data structures suit different purposes — arrays for ordered sequences, dictionaries for key-value lookups, objects for structured entities. Selecting the appropriate data structure for the data's shape and access pattern is a key programming skill.",
+   "failure_mode": "Students default to lists/arrays for everything, regardless of whether the data is ordered, keyed, or structured — they don't reason about which structure matches the data's shape.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Data structure selection errors propagate through all subsequent code — a student who uses a list where a dictionary is needed produces programs that are structurally incorrect, hard to extend, and inefficient.",
+   "response": "Present multiple data scenarios: ordered scores, a phone book, a game character's stats. For each, ask: what operations do you need? (Look up by key? Access in order? Group related properties?) The operation-first approach drives structure selection.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Array (list)",
+   "descriptor_code": "AC9TDI10P09",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "An ordered collection of elements accessed by index position (0, 1, 2...). Arrays store sequential data where position matters — such as a list of scores, a sequence of steps, or items in order. Elements can be added, removed, or accessed by their index.",
+   "failure_mode": "Students confuse zero-based and one-based indexing, or attempt to access indices beyond the array's length — producing off-by-one errors or index-out-of-range crashes.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Array indexing errors are among the most common programming bugs. Students who cannot reliably access the correct element cannot implement algorithms that operate on sequential data.",
+   "response": "Have students predict the output of array access operations before running them — particularly the first element (index 0) and the last element (index length-1). The prediction-observation cycle builds indexing fluency.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Binary search",
+     "definition": "An efficient search algorithm for sorted arrays that repeatedly halves the search space. Binary search requires the array to be sorted as a precondition — applying it to unsorted data produces incorrect results."
+    }
+   ]
+  },
+  {
+   "term": "Dictionary",
+   "descriptor_code": "AC9TDI10P09",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A data structure that stores key-value pairs, allowing data to be accessed by a meaningful key rather than a numeric index. Dictionaries are appropriate when data has natural labels (e.g. a character's name, health, and level) or when fast lookup by key is needed.",
+   "failure_mode": "Students use lists with parallel indices instead of dictionaries — storing names in one list and scores in another at matching positions, producing fragile code that breaks when either list is modified.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Parallel lists are error-prone and unreadable. Students who cannot use dictionaries produce programs that are structurally fragile and difficult to modify or debug.",
+   "response": "Show the parallel-list approach and the dictionary approach for the same data. Ask students to add a new entry and delete an entry in each. The dictionary approach is clearly simpler — the comparison reveals why key-value pairing matters.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Class (OOP)",
+   "descriptor_code": "AC9TDI10P09",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A blueprint for creating objects in object-oriented programming. A class defines a set of attributes (data the object holds) and methods (functions the object can perform). Classes model real-world entities — a Book class might have attributes for title, author, and availability, and methods for checking out and returning.",
+   "failure_mode": "Students confuse the class definition (the blueprint) with instances (the actual objects created from it) — they think defining a class is the same as creating an object, or try to use a class without instantiating it.",
+   "failure_type": "misconception",
+   "why_it_matters": "Students who cannot define a class correctly cannot read or modify class-based code, and cannot implement a modular OOP program — class syntax fluency is directly prerequisite.",
+   "response": "Draw the analogy: a class is a cookie cutter, an instance is a cookie. You can make many cookies (instances) from one cutter (class), and each cookie can have different decorations (attribute values). Then translate to code.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Attribute (OOP)",
+     "definition": "A variable defined within a class that holds data about each instance — such as a Book's title or a Character's health. Attributes define what an object knows.",
+     "failure_mode": "Students confuse OOP attributes with data modelling attributes (AC9TDI10P03) — they are related concepts but live in different contexts (code vs database schema).",
+     "failure_type": "misconception",
+     "response": "Clarify: in a database, an attribute is a column. In code, an attribute is a variable inside an object. They model similar things in different contexts.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Method",
+     "definition": "A function defined within a class that operates on the object's attributes — such as a Book's checkout() method that changes its availability attribute. Methods define what an object can do.",
+     "failure_mode": "Students write methods that don't reference the object's attributes — producing functions that happen to be inside a class but don't use OOP.",
+     "failure_type": "fragile_skill",
+     "response": "Ask: does this method use self? If not, it doesn't need to be a method — it could be a standalone function. The self test reveals whether the method is genuinely object-oriented.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Instance (object)",
+     "definition": "A specific object created from a class blueprint. Each instance has its own attribute values — two Book instances can have different titles and authors.",
+     "failure_mode": "Students think there is only one copy of a class's data — they don't understand that each instance maintains its own independent attribute values.",
+     "failure_type": "misconception",
+     "response": "Create two instances with different attribute values. Modify one and check the other. The independence demonstrates that instances are separate objects.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Self / this",
+     "definition": "The reference that an instance uses to access its own attributes and methods within a class definition. In Python, the first parameter of every method is 'self'; in JavaScript, it is 'this'."
+    },
+    {
+     "term": "Inheritance",
+     "definition": "A mechanism where a new class (subclass) is created based on an existing class (superclass), inheriting its attributes and methods. The subclass can add new attributes/methods or override inherited ones."
+    },
+    {
+     "term": "Constructor (__init__)",
+     "definition": "A special method that runs automatically when a new instance is created, typically used to set the initial attribute values for the object."
+    }
+   ]
+  },
+  {
+   "term": "Modular program",
+   "descriptor_code": "AC9TDI10P09",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A program organised into separate, logical modules — functions, classes, or files — where each module handles a specific responsibility. Modular design makes programs easier to read, test, modify, and extend because changes to one module don't break others.",
+   "failure_mode": "Students write monolithic code — all logic in one long file or function — that is hard to read, test, or modify. They can use functions and classes individually but don't see modularity as an architectural decision.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "A modular program will always have bugs, and students who cannot systematically locate and debug bugs across modules produce programs with unfixed or newly introduced errors.",
+   "response": "Give students a monolithic program and ask them to add a new feature. Then give them the same program refactored into modules and ask the same. The module version is easier — the comparison reveals why modular architecture matters.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Module",
+     "definition": "A self-contained unit of code — a function, class, or file — that handles a specific responsibility within a larger program.",
+     "failure_mode": "Students create modules that are just chunks of code split at arbitrary points, not at logical boundaries — the split doesn't reflect the program's structure.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask: if you needed to replace this module, could you do so without changing the rest of the program? If not, the module boundary is in the wrong place.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Refactoring",
+     "definition": "Restructuring existing code to improve its internal organisation (readability, modularity, maintainability) without changing its external behaviour."
+    }
+   ]
+  },
+  {
+   "term": "Debugging",
+   "descriptor_code": "AC9TDI10P09",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The systematic process of locating, understanding, and fixing errors in a program. Debugging requires reading error messages, forming hypotheses about the cause, testing hypotheses by inspecting variable state, applying a fix, and verifying the fix. Guessing at fixes without diagnosis is not debugging.",
+   "failure_mode": "Students guess at bug fixes without understanding the cause — they make random changes hoping something works, often introducing new bugs in the process.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Students who guess at fixes without diagnosis cannot complete modular programs — every fix attempt may introduce new errors, and the program never stabilises.",
+   "response": "Enforce the debugging protocol: (1) read the error message, (2) form a hypothesis about the cause, (3) print variable state to test the hypothesis, (4) apply the fix, (5) verify with the test suite. The protocol replaces guessing with systematic reasoning.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Logic error",
+     "definition": "A bug where the program runs without crashing but produces incorrect output. Logic errors are harder to find than syntax errors because no error message points to the problem.",
+     "failure_mode": "Students expect all bugs to produce error messages — when the program runs but gives wrong output, they assume it's correct because there was no crash.",
+     "failure_type": "misconception",
+     "response": "Present a program that runs without errors but produces clearly wrong output. Ask: is this program correct? The running-but-wrong scenario breaks the assumption that 'no error = no bug.'",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Syntax error",
+     "definition": "An error in the code's structure that prevents it from running — such as missing brackets, misspelled keywords, or incorrect indentation. The interpreter or compiler catches syntax errors before execution."
+    },
+    {
+     "term": "Runtime error",
+     "definition": "An error that occurs during program execution — such as dividing by zero, accessing a non-existent index, or calling a method on the wrong type. Runtime errors crash the program at the point of failure."
+    },
+    {
+     "term": "Error message",
+     "definition": "Information provided by the interpreter or compiler identifying the type of error, the line where it occurred, and often the cause. Error messages are the primary diagnostic tool — reading them carefully is the first debugging step.",
+     "failure_mode": "Students ignore error messages and guess at the problem — they don't read the line number or error type, missing the diagnostic information that would locate the bug immediately.",
+     "failure_type": "fragile_skill",
+     "response": "Cover the code and show only the error message. Ask: what line is the error on? What type of error is it? What does the message suggest? The error-message-first approach builds the habit of reading before guessing.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Print debugging",
+     "definition": "Inserting print statements into code to display variable values at specific points during execution — a simple but effective technique for inspecting program state when a visual debugger is not available."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Data structure",
+   "descriptor_code": "AC9TDI10P09",
+   "width_tier": "minimum",
+   "definition": "A way of organising data in your program. Different structures are good for different things — lists for ordered items, dictionaries for looking things up by name, and objects for grouping related data together.",
+   "example": "A phone book is like a dictionary (look up by name), a playlist is like a list (ordered sequence), and a student record is like an object (name, age, and grades grouped together)."
+  },
+  {
+   "term": "Array (list)",
+   "descriptor_code": "AC9TDI10P09",
+   "width_tier": "minimum",
+   "definition": "An ordered list of items where each item has a numbered position (starting from 0). Good for data where order matters, like a sequence of test scores or a playlist.",
+   "example": "scores = [85, 92, 78, 95] — scores[0] is 85 (the first item) and scores[3] is 95 (the fourth item, at index 3).",
+   "sub_terms": [
+    {
+     "term": "Binary search",
+     "definition": "A fast way to find something in a sorted list by repeatedly cutting the list in half. Only works if the list is already sorted.",
+     "example": "Looking up a word in a dictionary: you open the middle, decide if the word is before or after, and repeat — much faster than reading every page."
+    }
+   ]
+  },
+  {
+   "term": "Dictionary",
+   "descriptor_code": "AC9TDI10P09",
+   "width_tier": "minimum",
+   "definition": "A data structure that stores pairs of keys and values — you look things up by name (key) instead of by position number. Perfect for data with natural labels.",
+   "example": "character = {'name': 'Aria', 'health': 100, 'level': 5} — you access health with character['health'] instead of remembering a position number."
+  },
+  {
+   "term": "Class (OOP)",
+   "descriptor_code": "AC9TDI10P09",
+   "width_tier": "minimum",
+   "definition": "A blueprint for creating objects in code. A class defines what data an object holds (attributes) and what it can do (methods). You create individual objects (instances) from the class.",
+   "example": "A Dog class might have attributes 'name' and 'breed' and a method 'bark()'. Then you create instances: dog1 = Dog('Rex', 'Labrador') and dog2 = Dog('Bella', 'Poodle').",
+   "sub_terms": [
+    {
+     "term": "Attribute (OOP)",
+     "definition": "A piece of data that each object holds — like a character's name, health, or level.",
+     "example": "In a game, a Character object might have attributes: self.name = 'Aria', self.health = 100."
+    },
+    {
+     "term": "Method",
+     "definition": "A function that belongs to a class — it defines what the object can do, like attack(), heal(), or display_info().",
+     "example": "A BankAccount class might have a method withdraw(amount) that reduces the balance attribute."
+    },
+    {
+     "term": "Instance (object)",
+     "definition": "A specific object created from a class — each instance has its own set of attribute values.",
+     "example": "book1 = Book('Dune', 'Herbert') and book2 = Book('1984', 'Orwell') are two different instances of the same Book class."
+    },
+    {
+     "term": "Self / this",
+     "definition": "The word used inside a class to refer to the specific object that's running the method. Python uses 'self', JavaScript uses 'this'.",
+     "example": "In Python, self.health means 'this particular object's health value.'"
+    },
+    {
+     "term": "Inheritance",
+     "definition": "When a new class is based on an existing one, automatically getting all its attributes and methods — then adding or changing some.",
+     "example": "A GuideDog class might inherit from Dog, getting name and bark() for free, then add a method guide()."
+    },
+    {
+     "term": "Constructor (__init__)",
+     "definition": "A special method that sets up a new object when it's created — it's where you give the object its starting values.",
+     "example": "def __init__(self, name, health): self.name = name; self.health = health — this runs when you create a new Character."
+    }
+   ]
+  },
+  {
+   "term": "Modular program",
+   "descriptor_code": "AC9TDI10P09",
+   "width_tier": "minimum",
+   "definition": "A program split into separate logical pieces — functions, classes, or files — where each piece handles one job. This makes the code easier to read, test, fix, and extend.",
+   "example": "Instead of one 500-line file, a modular game might have player.py (character logic), world.py (map logic), and main.py (game loop) — each responsible for one part.",
+   "sub_terms": [
+    {
+     "term": "Module",
+     "definition": "One self-contained piece of a program — a function, class, or file that handles a specific job.",
+     "example": "A save_game() function is a module — it handles saving and nothing else."
+    },
+    {
+     "term": "Refactoring",
+     "definition": "Reorganising your code to make it cleaner without changing what it does.",
+     "example": "Extracting a repeated block of code into a function is refactoring — the program works the same, but the code is easier to read."
+    }
+   ]
+  },
+  {
+   "term": "Debugging",
+   "descriptor_code": "AC9TDI10P09",
+   "width_tier": "minimum",
+   "definition": "The process of finding and fixing errors in your code. Real debugging means understanding why the bug happens before changing anything — not just randomly editing code until it works.",
+   "example": "Your program prints the wrong total. Instead of guessing, you add print statements to see the value of 'total' after each calculation — and discover it's not resetting to zero at the start of each loop.",
+   "sub_terms": [
+    {
+     "term": "Logic error",
+     "definition": "A bug where the code runs fine but gives the wrong answer — the hardest type to find because there's no error message.",
+     "example": "A program that calculates average by dividing by the wrong number — it runs without crashing but the answer is wrong."
+    },
+    {
+     "term": "Syntax error",
+     "definition": "A typo or structural mistake that stops the code from running at all.",
+     "example": "Missing a closing bracket or misspelling 'print' as 'prnt' — the program won't even start."
+    },
+    {
+     "term": "Runtime error",
+     "definition": "An error that crashes the program while it's running — like dividing by zero or accessing a list item that doesn't exist.",
+     "example": "Trying to access scores[10] when the list only has 5 items crashes with an 'index out of range' error."
+    },
+    {
+     "term": "Error message",
+     "definition": "The text the computer shows when something goes wrong — it tells you the error type, the line number, and often a hint about what happened.",
+     "example": "'TypeError: cannot add int and str on line 15' tells you exactly where the problem is and what went wrong."
+    },
+    {
+     "term": "Print debugging",
+     "definition": "Adding print() statements to your code to see what values variables have at different points — a simple way to track down bugs.",
+     "example": "print(f'total = {total}') after each loop iteration shows you exactly when the value goes wrong."
+    }
+   ]
+  }
+ ]
+}

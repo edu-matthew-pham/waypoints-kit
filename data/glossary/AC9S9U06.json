@@ -1,0 +1,294 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U06",
+ "teacher_glossary": [
+  {
+   "term": "Atom",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The smallest unit of an element that retains the element's identity. At Year 9, the simple undifferentiated particle model is replaced by the nuclear model: a dense central nucleus containing protons (positive charge, relative mass 1) and neutrons (no charge, relative mass 1), surrounded by electrons (negative charge, negligible mass) in shells. The number of protons (atomic number) determines which element the atom is.",
+   "failure_mode": "Students cannot correctly assign protons, neutrons and electrons to an atom from its atomic and mass numbers — they confuse mass number with atomic number or cannot calculate neutron count as mass number minus atomic number.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Correct particle counts are the foundation for isotope definitions (N2), understanding nuclear instability (N3), and tracking changes during decay (N4). Every error in particle assignment propagates through all subsequent calculations.",
+   "response": "Drill the three-step assignment: atomic number = protons = electrons (for neutral atoms); mass number = protons + neutrons; neutrons = mass number − atomic number. Apply to five elements, checking each step. The procedural sequence prevents conflation.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Proton",
+     "definition": "A positively charged subatomic particle in the nucleus. Proton number (atomic number) determines the element's identity — change the proton count and you change the element."
+    },
+    {
+     "term": "Neutron",
+     "definition": "An uncharged subatomic particle in the nucleus with approximately the same mass as a proton. Neutron count can vary within the same element — atoms with different neutron counts are isotopes."
+    },
+    {
+     "term": "Electron",
+     "definition": "A negatively charged subatomic particle with negligible mass, found in shells around the nucleus. Electrons determine chemical bonding behaviour; their number equals the proton count in a neutral atom.",
+     "failure_mode": "Students think electrons orbit the nucleus in fixed circular paths like planets around the sun — they draw precise orbital lines rather than understanding electrons as occupying shells (energy levels) with probabilistic distribution.",
+     "failure_type": "misconception",
+     "response": "Ask: does the Earth ever jump from its orbit to a different orbit? (No.) Do electrons? (Yes — they jump between shells when absorbing or releasing energy.) The jump behaviour reveals that electron shells are energy levels, not fixed paths — fundamentally different from planetary orbits.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Nucleus",
+     "definition": "The dense central core of an atom containing protons and neutrons. The nucleus contains nearly all of an atom's mass but occupies a tiny fraction of its volume.",
+     "failure_mode": "Students think the nucleus fills most of the atom — they draw it as a large central mass rather than understanding it occupies a tiny fraction of the atom's volume while containing nearly all its mass. This matters because Rutherford's gold foil experiment specifically revealed the nucleus as small and dense.",
+     "failure_type": "misconception",
+     "response": "Scale comparison: if an atom were the size of a football stadium, the nucleus would be a marble on the centre spot. Ask: where is most of the atom? (Empty space with electrons.) Where is most of the mass? (The marble-sized nucleus.) The scale makes the density concentration vivid.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Atomic number",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The number of protons in the nucleus of an atom — the defining characteristic of an element. All atoms of the same element have the same atomic number; changing the atomic number changes the element. Atomic number also determines the element's position in the periodic table.",
+   "failure_mode": "Students confuse atomic number with mass number — they add protons and neutrons when asked for atomic number, or use atomic number where mass number is needed.",
+   "failure_type": "misconception",
+   "why_it_matters": "Atomic number determines element identity; mass number determines the isotope. Confusing them means students cannot define isotopes (same atomic number, different mass number) and cannot track element changes during radioactive decay (alpha decay changes atomic number; mass number also changes).",
+   "response": "Present two atoms: carbon-12 (6p, 6n) and carbon-14 (6p, 8n). Ask: same atomic number? (Yes — both have 6 protons.) Same mass number? (No — 12 vs 14.) Same element? (Yes — atomic number determines element.) The isotope pair makes the distinction concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Mass number",
+     "definition": "The total number of protons and neutrons in the nucleus. Mass number identifies the specific isotope — carbon-12 has mass number 12 (6 protons + 6 neutrons); carbon-14 has mass number 14 (6 protons + 8 neutrons)."
+    }
+   ]
+  },
+  {
+   "term": "Isotope",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Atoms of the same element (same proton number) with different numbers of neutrons (different mass number). Isotopes have identical chemical properties (determined by protons/electrons) but different nuclear properties — some isotopes are stable while others are unstable and undergo radioactive decay. Carbon-12 (stable) and carbon-14 (radioactive) are isotopes of carbon.",
+   "failure_mode": "Students think isotopes are different elements — they see 'carbon-12' and 'carbon-14' as different substances rather than as the same element with different neutron counts.",
+   "failure_type": "misconception",
+   "why_it_matters": "If isotopes are different elements, students cannot understand why some atoms of the same element are radioactive while others are not, and cannot follow decay sequences where atomic number changes (meaning the element actually does change — a genuinely different situation from having different isotopes of the same element).",
+   "response": "Present carbon-12, carbon-13 and carbon-14 side by side: same proton count (6), same electron configuration, same chemical behaviour — different neutron counts, different nuclear stability. Ask: are these the same element? (Yes.) The same atom? (No.) The distinction is neutron count, not element identity.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Nuclear stability",
+     "definition": "Whether a nucleus will remain intact or undergo radioactive decay. Stability depends on the neutron-to-proton ratio — too many or too few neutrons relative to protons makes the nucleus unstable.",
+     "failure_mode": "Students treat nuclear stability as binary — an isotope is either 'stable' or 'radioactive' with nothing in between. They do not understand that stability exists on a spectrum determined by the neutron-to-proton ratio, and that isotopes near the boundary may have extremely long half-lives.",
+     "failure_type": "misconception",
+     "response": "Present three isotopes: carbon-12 (stable), carbon-14 (half-life 5,730 years), and francium-223 (half-life 22 minutes). Ask: are all unstable isotopes equally unstable? (No — the range is enormous.) What determines where on the spectrum an isotope sits? (The neutron-to-proton ratio.)",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Carbon-14",
+     "definition": "A radioactive isotope of carbon with 6 protons and 8 neutrons. Carbon-14 undergoes beta decay with a half-life of 5,730 years and is used in radiocarbon dating to determine the age of organic materials."
+    }
+   ]
+  },
+  {
+   "term": "Radioactive decay",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The spontaneous emission of particles or energy from an unstable nucleus as it transitions toward a more stable configuration. Three types of decay are recognised at this level: alpha (emission of a helium nucleus), beta (emission of an electron from the nucleus), and gamma (emission of high-energy electromagnetic radiation). Decay is random at the individual atom level but statistically predictable for large samples.",
+   "failure_mode": "Students think radioactive decay can be triggered or stopped by external conditions — they believe heating, cooling or chemical treatment can cause or prevent decay. In fact, decay is a nuclear process unaffected by temperature, pressure or chemical state.",
+   "failure_type": "misconception",
+   "why_it_matters": "If decay is controllable, students cannot understand half-life as a constant (N4), cannot use radiometric dating (which assumes constant decay rate), and misinterpret radiation safety (shielding blocks radiation but does not stop decay).",
+   "response": "Ask: if you heat a radioactive sample, does it decay faster? (No.) If you dissolve it in acid? (No.) Radioactive decay is a nuclear process — it depends only on nuclear structure, not on temperature, pressure or chemical environment. The invariance is what makes half-life a reliable clock.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Alpha decay",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Radioactive decay in which the nucleus emits an alpha particle — a helium nucleus consisting of 2 protons and 2 neutrons. Alpha decay reduces the atomic number by 2 and the mass number by 4, changing the element. Alpha particles are the largest and slowest decay emission — they are stopped by a sheet of paper or a few centimetres of air but are highly ionising at close range.",
+   "failure_mode": "Students cannot track the changes to atomic number and mass number during alpha decay — they know 'something is emitted' but cannot calculate the daughter nucleus's identity (new element, lower atomic number by 2, lower mass by 4).",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Tracking nuclear changes is required for tracing decay sequences in N5. Students who cannot calculate the daughter product from alpha decay cannot follow a multi-step decay chain toward stability — the descriptor's explicit endpoint.",
+   "response": "Write the decay equation template: parent → daughter + alpha particle. Fill in numbers: if parent has atomic number Z and mass number A, daughter has Z−2 and A−4. Apply to uranium-238 → thorium-234 + alpha. The template makes the arithmetic systematic.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Beta decay",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Radioactive decay in which a neutron in the nucleus converts to a proton and an electron — the electron is emitted as a beta particle. Beta decay increases the atomic number by 1 (new proton) but does not change the mass number, changing the element. Beta particles are smaller and faster than alpha particles — stopped by a few millimetres of aluminium.",
+   "failure_mode": "Students think beta particles are electrons from the electron shells rather than from the nucleus — they do not understand that a neutron converts to a proton plus an electron inside the nucleus.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the beta electron comes from the shells, the atomic number should not change (no new proton). The nuclear conversion (neutron → proton + electron) is the mechanism that explains why atomic number increases by 1 — a new proton appears. Without this mechanism, the element change is inexplicable.",
+   "response": "Trace the nuclear conversion step by step: before — the nucleus has Z protons and (A−Z) neutrons. One neutron converts: Z+1 protons, (A−Z−1) neutrons, one electron emitted. The proton count increased by 1 — that's why the element changes. Ask: where did the new proton come from? (A neutron converted.)",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Gamma radiation",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "High-energy electromagnetic radiation emitted from a nucleus, typically following alpha or beta decay when the daughter nucleus is in an excited state. Gamma emission releases energy but does not change the atomic number or mass number — no particles are emitted, only energy. Gamma rays are the most penetrating form of nuclear radiation — reduced but not fully stopped by thick lead or concrete.",
+   "failure_mode": "Students conflate gamma radiation with alpha and beta emissions — they think gamma involves particle emission and changes the nucleus, or they confuse gamma's high penetrating power with high mass.",
+   "failure_type": "misconception",
+   "why_it_matters": "Gamma is qualitatively different from alpha and beta: it is electromagnetic radiation, not a particle; it changes neither atomic number nor mass number. Students who conflate the three types cannot track decay sequences (gamma doesn't change the element) and cannot explain why different shielding materials stop different types.",
+   "response": "Present the three types as a comparison: alpha emits a particle (2p+2n), beta emits a particle (electron), gamma emits energy only (no particle, no mass). Ask: which changes the element? (Alpha and beta — they change proton count.) Which does not? (Gamma — no nuclear change.) The no-change feature distinguishes gamma from the particle emissions.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Penetrating power",
+     "definition": "The ability of radiation to pass through materials. Alpha: stopped by paper or skin. Beta: stopped by aluminium sheet. Gamma: reduced by thick lead or concrete. Penetrating power increases as particle mass decreases — alpha (heaviest, least penetrating), beta (lighter, more penetrating), gamma (no mass, most penetrating).",
+     "failure_mode": "Students equate penetrating power with danger — they think gamma radiation is the most dangerous because it is the most penetrating, missing that alpha particles are the most ionising and most damaging inside the body (e.g. if inhaled or ingested) despite being stopped by skin externally.",
+     "failure_type": "misconception",
+     "response": "Present two scenarios: standing 1 metre from a source (gamma is the concern — it reaches you) vs inhaling radioactive dust (alpha is the concern — it ionises lung tissue at close range). Ask: which type is more dangerous in each case? The context-dependent answer breaks the 'most penetrating = most dangerous' assumption.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Half-life",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The time taken for half the radioactive nuclei in a sample to decay. Half-life is constant for a given isotope and is unaffected by temperature, pressure or chemical environment. After one half-life, 50% remains; after two, 25%; after three, 12.5%. Half-life determines an isotope's suitability for applications: short half-lives for medical imaging (rapid decay = brief exposure), long half-lives for geological dating (slow decay = measurable over millions of years).",
+   "failure_mode": "Students think half-life means 'the time for the sample to completely decay' or that after two half-lives nothing remains — they do not understand the exponential halving pattern where some material always remains.",
+   "failure_type": "misconception",
+   "why_it_matters": "If half-life means complete decay, students cannot calculate remaining quantities, cannot interpret decay curves, and cannot explain why radioactive waste remains hazardous for many half-lives. The halving pattern is also the basis for radiometric dating calculations.",
+   "response": "Start with 100 atoms. After 1 half-life: 50. After 2: 25. After 3: 12.5. Ask: does it ever reach zero? (Mathematically, no — it keeps halving.) The decreasing-but-never-zero pattern makes the exponential decay visible and corrects the 'complete decay' misconception.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Decay curve",
+     "definition": "A graph showing the number of radioactive nuclei remaining (or activity) plotted against time. The curve is exponential — steep initially, flattening over time — and half-life can be read as the time for any point on the curve to halve.",
+     "failure_mode": "Students cannot read half-life from a decay curve — they look for where the curve hits the x-axis (zero) rather than finding the time at which the quantity halves from any starting point.",
+     "failure_type": "fragile_skill",
+     "response": "Give students a decay curve and ask them to find the half-life by picking ANY point on the curve, halving its y-value, and reading across to find the corresponding time interval. Repeat from a different starting point — the interval is the same. The repeated-halving exercise establishes the graphical method.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Decay sequence",
+   "descriptor_code": "AC9S9U06",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A series of radioactive decay events in which an unstable isotope undergoes successive alpha and/or beta decays, each producing a new element, until a stable isotope is reached. The decay sequence demonstrates the descriptor's claim that 'natural radioactive decay results in stable atoms' — the sequence ends when the neutron-to-proton ratio reaches a stable configuration.",
+   "failure_mode": "Students can describe individual decay types but cannot chain them into a sequence — they treat each decay as an isolated event rather than a step in a pathway from unstable to stable.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The decay sequence is the descriptor's explicit endpoint: 'describe how natural radioactive decay results in stable atoms.' Students who cannot trace a sequence from unstable isotope to stable end product have not met this demand — they know decay types but cannot integrate them into the stability narrative.",
+   "response": "Trace a short decay chain: uranium-238 → (alpha) → thorium-234 → (beta) → protactinium-234. At each step, ask: what was emitted? What are the new atomic and mass numbers? Is the product stable? (If not, continue.) The step-by-step tracking makes the sequence a connected pathway rather than isolated events.",
+   "response_type": "integration"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Atom",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "The building block of all matter. At Year 9, you learn that atoms aren't solid balls — they have a tiny, dense centre called a nucleus (containing protons and neutrons) with even tinier electrons whizzing around it in shells.",
+   "example": "A carbon atom has 6 protons and 6 neutrons in its nucleus, with 6 electrons in shells around it. The proton count (6) is what makes it carbon rather than any other element.",
+   "sub_terms": [
+    {
+     "term": "Proton",
+     "definition": "A positive particle in the nucleus. The number of protons defines which element the atom is."
+    },
+    {
+     "term": "Neutron",
+     "definition": "A neutral particle in the nucleus — same mass as a proton but no charge. Different atoms of the same element can have different numbers of neutrons."
+    },
+    {
+     "term": "Electron",
+     "definition": "A tiny negative particle orbiting the nucleus in shells. Electrons are involved in chemical bonding."
+    },
+    {
+     "term": "Nucleus",
+     "definition": "The dense centre of an atom where protons and neutrons are packed together. Almost all the atom's mass is here, even though it's incredibly small."
+    }
+   ]
+  },
+  {
+   "term": "Atomic number",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "The number of protons in an atom's nucleus — this is what determines which element it is. Every carbon atom has 6 protons; every oxygen atom has 8. Change the proton count and you change the element.",
+   "example": "Carbon has atomic number 6 (6 protons). If a carbon atom gained a proton, it would become nitrogen (atomic number 7) — it's literally a different element.",
+   "sub_terms": [
+    {
+     "term": "Mass number",
+     "definition": "The total count of protons plus neutrons in the nucleus. Carbon-12 has mass number 12 (6 protons + 6 neutrons)."
+    }
+   ]
+  },
+  {
+   "term": "Isotope",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "Atoms of the same element with different numbers of neutrons. They're still the same element (same proton count, same chemical behaviour) but they have different masses. Some isotopes are stable; others are unstable and radioactive.",
+   "example": "Carbon-12 (6 protons, 6 neutrons) and carbon-14 (6 protons, 8 neutrons) are both carbon — same element, same chemistry. But carbon-14 is unstable and slowly decays, which is why scientists use it to date ancient objects.",
+   "sub_terms": [
+    {
+     "term": "Nuclear stability",
+     "definition": "Whether a nucleus stays together or falls apart over time — depends on having the right balance of protons and neutrons."
+    },
+    {
+     "term": "Carbon-14",
+     "definition": "A radioactive form of carbon used to date objects up to about 50,000 years old — it decays with a half-life of 5,730 years."
+    }
+   ]
+  },
+  {
+   "term": "Radioactive decay",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "When an unstable nucleus spontaneously releases particles or energy to become more stable. You can't speed it up, slow it down, or stop it — no amount of heating, cooling, or chemical treatment changes the decay rate. It happens on its own.",
+   "example": "A lump of uranium will steadily decay whether it's in a freezer or an oven, dissolved in acid or left on a shelf — the decay rate depends only on nuclear structure, not external conditions."
+  },
+  {
+   "term": "Alpha decay",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "A type of radioactive decay where the nucleus spits out an alpha particle — a chunk containing 2 protons and 2 neutrons (basically a helium nucleus). This reduces the atomic number by 2 and mass number by 4, turning the atom into a different element.",
+   "example": "Uranium-238 undergoes alpha decay: it loses 2 protons and 2 neutrons, becoming thorium-234. The uranium atom has literally turned into a different element."
+  },
+  {
+   "term": "Beta decay",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "A type of radioactive decay where a neutron inside the nucleus converts into a proton and an electron — the electron is fired out as a beta particle. This increases the atomic number by 1 (new proton created) but the mass number stays the same.",
+   "example": "Carbon-14 undergoes beta decay: one of its neutrons becomes a proton, turning it from carbon (6 protons) into nitrogen (7 protons). The mass number stays at 14."
+  },
+  {
+   "term": "Gamma radiation",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "Pure energy released from a nucleus — no particles are emitted, so the atomic number and mass number don't change. Gamma rays are the most penetrating type of nuclear radiation — they can pass through paper and aluminium, and are only reduced by thick lead or concrete.",
+   "example": "After alpha or beta decay, the new nucleus often has excess energy — it releases this as a burst of gamma radiation, like shaking off extra energy to settle into a stable state.",
+   "sub_terms": [
+    {
+     "term": "Penetrating power",
+     "definition": "How far radiation can travel through materials. Alpha: stopped by paper. Beta: stopped by aluminium. Gamma: needs thick lead or concrete. The less mass the radiation has, the more penetrating it is."
+    }
+   ]
+  },
+  {
+   "term": "Half-life",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "The time it takes for half the radioactive atoms in a sample to decay. After one half-life, half remains. After two, a quarter. After three, an eighth. It never reaches zero — it just keeps halving. Each isotope has its own fixed half-life that nothing can change.",
+   "example": "Carbon-14 has a half-life of 5,730 years. If you start with 100g, after 5,730 years you'd have 50g; after 11,460 years, 25g; after 17,190 years, 12.5g — always halving.",
+   "sub_terms": [
+    {
+     "term": "Decay curve",
+     "definition": "A graph showing how much radioactive material remains over time — it starts steep and gradually flattens, forming a characteristic curve shape. You can read half-life from any point by finding when the amount halves."
+    }
+   ]
+  },
+  {
+   "term": "Decay sequence",
+   "descriptor_code": "AC9S9U06",
+   "width_tier": "minimum",
+   "definition": "A chain of decay events where an unstable atom decays, producing a new atom that may also be unstable and decay again, and so on — until a stable atom is finally produced. This is what the standard means by 'radioactive decay results in stable atoms.'",
+   "example": "Uranium-238 doesn't just decay once — it goes through 14 decay steps (a mix of alpha and beta decays) before finally becoming stable lead-206. Each step produces a different element."
+  }
+ ]
+}

@@ -1,0 +1,219 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P11",
+ "teacher_glossary": [
+  {
+   "term": "Advanced search",
+   "descriptor_code": "AC9TDI10P11",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Search functionality that goes beyond simple keyword matching — including Boolean operators (AND, OR, NOT to combine or exclude terms), filters (narrowing by category, date, type), and AI-assisted search (natural language queries interpreted by machine learning). Advanced search enables users to find specific content within large or complex collections.",
+   "failure_mode": "Students implement basic keyword search and consider it complete, without adding Boolean operators, filters, or other refinement mechanisms that would help users navigate complex content.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Without advanced search capabilities, users of digital content cannot find specific information efficiently — the content becomes inaccessible at scale.",
+   "response": "Present a large content collection and a specific information need. Ask students to find it using basic search, then Boolean search, then filtered search. The increasing precision demonstrates why advanced search matters.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Boolean search",
+     "definition": "Using Boolean operators (AND, OR, NOT) within search queries to combine or exclude terms — the same operators from algorithm design (AC9TDI10P05) applied in a search context.",
+     "failure_mode": "Students don't connect Boolean search operators to the logical operators they learned in algorithm design — they treat them as unrelated concepts.",
+     "failure_type": "fragmentation",
+     "response": "Show that the AND/OR/NOT in search works identically to the AND/OR/NOT in IF statements. Same operators, different context — the connection deepens understanding of both.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "AI-assisted search",
+     "definition": "Search functionality that uses machine learning to interpret natural language queries, suggest related terms, or rank results by relevance — going beyond exact keyword matching.",
+     "failure_mode": "Students accept AI search results uncritically without evaluating whether the results actually match their query or recognising when the AI misinterprets the query.",
+     "failure_type": "flawed_reasoning",
+     "response": "Compare AI search results with Boolean search results for the same query. Ask: which results are more relevant? Did the AI miss anything the Boolean search found? The comparison builds critical evaluation of AI-generated results.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Interactive element",
+   "descriptor_code": "AC9TDI10P11",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A component of digital content that responds to user input — such as buttons, expandable sections, embedded quizzes, drag-and-drop activities, hover tooltips, or embedded media with playback controls. Interactive elements give users control over their content experience rather than presenting static information.",
+   "failure_mode": "Students add interactive elements for visual novelty rather than communicative purpose — the interactions don't enhance understanding or user control of the content.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Interactive elements without purpose are distractions. The descriptor requires creating interactive content — each element must serve the content's communication goals for its intended audience.",
+   "response": "For each interactive element, ask: what does the user learn or do by interacting with this? If the answer is 'nothing they couldn't get from static content,' the interaction is decorative.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Accessibility (digital content)",
+   "descriptor_code": "AC9TDI10P11",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Designing digital content so it can be used by people with diverse abilities — including visual, auditory, motor, and cognitive differences. In digital content creation, accessibility includes: ALT text for images, captions for audio/video, sufficient colour contrast, keyboard navigation for interactive elements, and ARIA labels for screen readers. Accessibility is a requirement, not an enhancement.",
+   "failure_mode": "Students treat accessibility as optional polish — they design content that works for sighted mouse-users and consider accessibility only if time permits. Alternatively, they implement surface-level accessibility (e.g. ALT text that says 'image') without useful descriptions.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Content that is not accessible excludes users. Students who treat accessibility as optional cannot meet the 'diverse audiences' requirement of this descriptor.",
+   "response": "Have students attempt to navigate their own content using only a keyboard, or listen to it through a screen reader. The first-person experience of inaccessibility is more motivating than theoretical requirements.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "ALT text",
+     "definition": "A text description attached to an image that screen readers read aloud, describing the image's content and purpose for users who cannot see it.",
+     "failure_mode": "Students write unhelpful ALT text ('image', 'photo', 'picture') rather than describing what the image shows and why it matters in context.",
+     "failure_type": "fragile_skill",
+     "response": "Show students what a screen reader announces for 'image' vs 'Graph showing temperature rising 2°C over 50 years.' The comparison makes the quality difference obvious.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Colour contrast",
+     "definition": "The difference in brightness between foreground text and background colour. Sufficient contrast ensures text is readable for users with low vision or colour blindness.",
+     "failure_mode": "Students choose colours for aesthetics without checking contrast ratios — producing content that looks stylish but is unreadable for many users.",
+     "failure_type": "fragile_skill",
+     "response": "Use a contrast checker tool to test the student's colour choices. If the ratio fails, show them what their content looks like to someone with low vision. The simulation makes the requirement tangible.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Caption",
+     "definition": "Text displayed alongside audio or video content that transcribes spoken words and describes relevant sounds — making audiovisual content accessible to deaf or hard-of-hearing users."
+    },
+    {
+     "term": "ARIA label",
+     "definition": "An HTML attribute (Accessible Rich Internet Applications) that provides screen readers with information about interactive elements that don't have visible text — such as icon buttons or custom widgets."
+    },
+    {
+     "term": "Screen reader (content context)",
+     "definition": "Assistive software that interprets digital content and reads it aloud. Screen readers navigate by structural elements and rely on ALT text, ARIA labels, and semantic markup to convey meaning."
+    },
+    {
+     "term": "WCAG",
+     "definition": "The Web Content Accessibility Guidelines — an international standard defining levels of accessibility (A, AA, AAA) that digital content should meet."
+    },
+    {
+     "term": "Keyboard navigation",
+     "definition": "The ability to use all features of a digital system using only a keyboard — without requiring a mouse or touch input. Essential for users who cannot use pointing devices."
+    }
+   ]
+  },
+  {
+   "term": "Emerging digital tool",
+   "descriptor_code": "AC9TDI10P11",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A digital technology beyond standard static content creation that enables new forms of interactivity or communication — such as augmented reality (AR), virtual reality, interactive 3D, AI-generated content, or spatial computing. The evaluation criterion is whether the tool serves the content's communication purpose for its audience, not whether it is novel.",
+   "failure_mode": "Students use emerging tools for novelty rather than communication purpose — they add AR or AI features because they are impressive, not because they help the audience understand the content better.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Technology for novelty's sake produces content that impresses briefly but doesn't communicate effectively — the tool must serve the audience and purpose, not the other way around.",
+   "response": "Ask: what does this tool enable that a simpler approach cannot? If the answer is just 'it looks cool,' the tool choice needs rethinking. The justification question ensures purposeful technology selection.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "AR overlay",
+     "definition": "Digital content layered over the real-world view through a phone camera or AR headset — enabling users to see additional information in the context of their physical environment.",
+     "failure_mode": "Students use AR for novelty (e.g. floating text that could be a web page) rather than for genuine spatial communication (e.g. overlaying historical images on a current location).",
+     "failure_type": "fragmentation",
+     "response": "Ask: does the spatial context add meaning? If removing the AR and showing the same content on a screen works just as well, AR isn't serving a purpose.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "QR code",
+     "definition": "A machine-readable code that links physical objects or locations to digital content — enabling users to access relevant information by scanning with a phone camera."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Advanced search",
+   "descriptor_code": "AC9TDI10P11",
+   "width_tier": "minimum",
+   "definition": "Search that goes beyond typing a word and hoping — using Boolean operators (AND, OR, NOT), filters, and AI-powered features to find exactly what you need in large collections of content.",
+   "example": "Searching for 'climate AND Australia NOT politics' narrows results to Australian climate content that isn't about political debate.",
+   "sub_terms": [
+    {
+     "term": "Boolean search",
+     "definition": "Using AND, OR, and NOT in search boxes to combine or exclude terms — the same operators you use in code, applied to finding content.",
+     "example": "'python AND tutorial NOT video' finds written Python tutorials and excludes video results."
+    },
+    {
+     "term": "AI-assisted search",
+     "definition": "Search that understands what you mean, not just what you type — using AI to interpret natural language and suggest related results.",
+     "example": "Typing 'that movie where the guy is stuck on Mars' in an AI search might correctly return 'The Martian' even though you didn't use the title."
+    }
+   ]
+  },
+  {
+   "term": "Interactive element",
+   "descriptor_code": "AC9TDI10P11",
+   "width_tier": "minimum",
+   "definition": "Any part of digital content that responds when a user does something — buttons, expandable sections, quizzes, sliders, or media controls. Each one should help the user understand or explore the content, not just look fancy.",
+   "example": "An expandable 'Learn more' section lets users dive deeper into a topic without overwhelming everyone with text upfront."
+  },
+  {
+   "term": "Accessibility (digital content)",
+   "descriptor_code": "AC9TDI10P11",
+   "width_tier": "minimum",
+   "definition": "Making your digital content usable by everyone — including people who use screen readers, can't distinguish certain colours, can't use a mouse, or have other access needs. It's a requirement, not a nice-to-have.",
+   "example": "An interactive quiz with no keyboard support means anyone who can't use a mouse is locked out — even if the quiz looks great visually.",
+   "sub_terms": [
+    {
+     "term": "ALT text",
+     "definition": "A text description added to an image so screen readers can describe it to users who can't see it.",
+     "example": "Good: 'Bar chart showing Year 10 survey results: 60% preferred option A.' Bad: 'image' or 'chart.'"
+    },
+    {
+     "term": "Colour contrast",
+     "definition": "The brightness difference between text and its background — high contrast means more people can read it.",
+     "example": "Light grey text on a white background has low contrast and is hard to read. Dark text on a light background is much more accessible."
+    },
+    {
+     "term": "Caption",
+     "definition": "Text that shows what's being said in a video or audio clip — essential for people who are deaf or hard of hearing.",
+     "example": "YouTube's auto-captions are a start, but manually corrected captions are much more accurate."
+    },
+    {
+     "term": "ARIA label",
+     "definition": "A hidden label you add to interactive elements (like icon buttons) so screen readers can announce what they do.",
+     "example": "An icon-only 'X' close button needs an ARIA label saying 'Close' so a screen reader user knows what it does."
+    },
+    {
+     "term": "Screen reader (content context)",
+     "definition": "Software that reads digital content aloud, navigating by headings, links, and labels to help users who can't see the screen.",
+     "example": "A screen reader user might press a key to jump to the next heading — if your content has no headings, they have to listen to everything from the top."
+    },
+    {
+     "term": "WCAG",
+     "definition": "The international standard for web accessibility — it defines what 'accessible' means with specific, testable criteria.",
+     "example": "WCAG requires a colour contrast ratio of at least 4.5:1 for normal text — you can check this with free online tools."
+    },
+    {
+     "term": "Keyboard navigation",
+     "definition": "Being able to use all features of a website or app using only the keyboard — tabbing between elements, pressing Enter to activate buttons.",
+     "example": "If your interactive quiz works with a mouse but not with Tab and Enter, it's not keyboard-accessible."
+    }
+   ]
+  },
+  {
+   "term": "Emerging digital tool",
+   "descriptor_code": "AC9TDI10P11",
+   "width_tier": "typical",
+   "definition": "A newer digital technology — like augmented reality, AI content tools, or interactive 3D — that enables types of content that weren't possible with traditional tools. The key question is whether it serves your audience, not whether it's impressive.",
+   "example": "Using AR to overlay historical photos onto the current view of a building helps users understand change over time — that's purposeful. Floating 3D text that could be a web page is just novelty.",
+   "sub_terms": [
+    {
+     "term": "AR overlay",
+     "definition": "Digital information layered over your phone camera's real-world view — adding context to what you're physically seeing.",
+     "example": "Pointing your phone at a building and seeing its history, architect, and interior photos overlaid on the camera view."
+    },
+    {
+     "term": "QR code",
+     "definition": "A scannable code that links a physical object or place to digital content.",
+     "example": "A QR code on a museum exhibit that opens a video about how the artefact was discovered."
+    }
+   ]
+  }
+ ]
+}

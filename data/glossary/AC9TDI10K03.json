@@ -1,0 +1,165 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10K03",
+ "teacher_glossary": [
+  {
+   "term": "Data compression",
+   "descriptor_code": "AC9TDI10K03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of encoding data to reduce its file size while preserving as much useful information as possible. Compression reduces storage requirements, transmission time, bandwidth cost, and energy use. There are two fundamental types — lossless (original data fully recoverable) and lossy (some data permanently discarded).",
+   "failure_mode": "Students treat compression as a single technique rather than understanding that the lossy/lossless distinction is fundamental — different applications require different types, and using the wrong type has real consequences.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Without the lossy/lossless distinction, students cannot evaluate which compression type is appropriate for a given context — they cannot explain why medical images require lossless compression while music streaming tolerates lossy.",
+   "response": "Present two scenarios side by side: a hospital X-ray and a Spotify stream. Ask which can tolerate permanent data loss and which cannot. The contrast makes the distinction consequential rather than definitional.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Lossless compression",
+     "definition": "Compression where the original data can be perfectly reconstructed from the compressed form — no information is lost. Used when exact data recovery is required (e.g. medical images, legal documents, source code).",
+     "failure_mode": "Students conflate lossless with lossy, or assume all compression permanently removes data — they don't recognise that lossless compression achieves size reduction through pattern representation, not data removal.",
+     "failure_type": "misconception",
+     "response": "Have students compress and decompress a file using a lossless tool (e.g. ZIP). Compare the original and decompressed files byte by byte — they are identical. Then repeat with a lossy tool and compare. The experiment makes the distinction observable.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Lossy compression",
+     "definition": "Compression where some data is permanently discarded to achieve greater size reduction. The discarded data is chosen to minimise perceptible quality loss — human perception limits (e.g. inaudible frequencies) determine what can be removed.",
+     "failure_mode": "Students don't understand that lossy compression permanently destroys information — they assume you can 'uncompress' a JPEG back to the original quality, or that repeatedly saving a lossy file doesn't degrade it further.",
+     "failure_type": "misconception",
+     "response": "Save an image as JPEG at low quality, then open and re-save it five times. Show the progressive degradation — each save permanently removes more data. The accumulation makes permanence visible.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "File size",
+     "definition": "The amount of storage space data occupies, measured in bytes (KB, MB, GB). Compression reduces file size."
+    },
+    {
+     "term": "Bandwidth",
+     "definition": "The rate at which data can be transmitted across a network. Compression reduces the bandwidth required to transmit data."
+    },
+    {
+     "term": "Decompression",
+     "definition": "The process of restoring compressed data to a usable form. For lossless compression, decompression recovers the exact original; for lossy compression, the decompressed version is an approximation."
+    }
+   ]
+  },
+  {
+   "term": "Run-length encoding (RLE)",
+   "descriptor_code": "AC9TDI10K03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A lossless compression algorithm that represents consecutive repeated values as a count-value pair. For example, the sequence 'AAABBCC' becomes '3A2B2C'. RLE is effective when data contains long runs of repeated values (e.g. rows of same-coloured pixels in simple images) and ineffective when data is varied or random.",
+   "failure_mode": "Students make procedural errors when encoding — miscounting runs, encoding the count-value pair in the wrong order, or failing to handle the transition between different values correctly.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "RLE procedural errors cascade into calculating compression ratios and reasoning about when RLE is effective — students who cannot correctly encode a sequence cannot reason about compression effectiveness.",
+   "response": "Practice with varied sequences — simple repeated patterns, then sequences with short runs, then sequences with no repetition. Ask students to predict whether RLE will help before encoding. The prediction-then-test cycle builds both skill and analytical judgement.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Compression artefact",
+     "definition": "A visible distortion in decompressed data caused by lossy compression — for example, blocky regions in heavily compressed JPEG images. Artefacts reveal the boundaries of the compression algorithm's data reduction.",
+     "failure_mode": "Students notice artefacts but cannot explain their cause — they describe them as 'low quality' without connecting them to the compression algorithm's data removal.",
+     "failure_type": "fragmentation",
+     "response": "Save the same image at progressively lower JPEG quality settings and observe how block artefacts increase. Ask students to connect the increasing artefacts to the increasing data removal.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Huffman coding",
+     "definition": "A lossless compression technique that assigns shorter codes to more frequent data values and longer codes to less frequent ones, generalising the principle of efficient pattern representation beyond simple repeated runs."
+    }
+   ]
+  },
+  {
+   "term": "Compression ratio",
+   "descriptor_code": "AC9TDI10K03",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "The ratio of the original data size to the compressed data size, expressing how much smaller the compressed version is. A compression ratio of 4:1 means the compressed data is one quarter the size of the original. Compression ratios vary depending on the algorithm used and the properties of the data.",
+   "failure_mode": "Students calculate compression ratios incorrectly — confusing original and compressed sizes in the ratio, or not recognising that the same algorithm produces different ratios for different data depending on its patterns and redundancy.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Compression ratio is the quantitative basis for comparing algorithms and evaluating when compression is effective — without it, students can only make qualitative claims.",
+   "response": "Have students calculate compression ratios for the same algorithm applied to different datasets — one with many repeated values, one with varied data. The ratio difference makes algorithm effectiveness concrete and measurable.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Codec",
+     "definition": "Software that encodes and decodes data using a specific compression algorithm. Codecs implement compression standards for specific media types — MP3 and AAC are audio codecs, H.264 and VP9 are video codecs."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Data compression",
+   "descriptor_code": "AC9TDI10K03",
+   "width_tier": "minimum",
+   "definition": "Making files smaller so they take up less space and are faster to send. There are two types: lossless (you get the exact original back) and lossy (some data is permanently removed to save more space).",
+   "example": "A 5MB photo can be compressed to 500KB for a website — but whether you use lossless or lossy compression determines if you can get the original quality back.",
+   "sub_terms": [
+    {
+     "term": "Lossless compression",
+     "definition": "Compression where nothing is lost — when you uncompress it, you get back exactly what you started with.",
+     "example": "A ZIP file is lossless — unzip it and every byte is identical to the original."
+    },
+    {
+     "term": "Lossy compression",
+     "definition": "Compression that permanently throws away some data to make the file much smaller. You can never get the original back.",
+     "example": "An MP3 file removes sounds that most people can't hear — the file is much smaller, but those sounds are gone forever."
+    },
+    {
+     "term": "File size",
+     "definition": "How much space a file takes up, measured in kilobytes (KB), megabytes (MB), or gigabytes (GB).",
+     "example": "A raw photo might be 25MB, but compressed as a JPEG it could be under 2MB."
+    },
+    {
+     "term": "Bandwidth",
+     "definition": "How much data a network can send per second — like the width of a pipe for water.",
+     "example": "Compressed files use less bandwidth, so a video call uses compression to work even on slower internet connections."
+    },
+    {
+     "term": "Decompression",
+     "definition": "Turning a compressed file back into a usable form.",
+     "example": "When you unzip a file, you're decompressing it — restoring it to its original size and format."
+    }
+   ]
+  },
+  {
+   "term": "Run-length encoding (RLE)",
+   "descriptor_code": "AC9TDI10K03",
+   "width_tier": "minimum",
+   "definition": "A simple compression method that replaces repeated values with a count and the value. Instead of storing 'AAAAABBB', you store '5A3B' — much shorter when there are long repeats.",
+   "example": "A row of 20 blue pixels followed by 10 red pixels can be stored as '20 blue, 10 red' instead of listing every pixel individually.",
+   "sub_terms": [
+    {
+     "term": "Compression artefact",
+     "definition": "A visible flaw in an image or video caused by too much lossy compression — like blocky patches in a heavily compressed JPEG.",
+     "example": "If you save a photo as a very low-quality JPEG, you'll see blocky squares where the colours blur together — those are compression artefacts."
+    },
+    {
+     "term": "Huffman coding",
+     "definition": "A more advanced lossless compression technique that gives shorter codes to values that appear more often.",
+     "example": "If the letter 'e' appears 100 times and the letter 'z' appears once, Huffman coding uses a tiny code for 'e' and a longer one for 'z.'"
+    }
+   ]
+  },
+  {
+   "term": "Compression ratio",
+   "descriptor_code": "AC9TDI10K03",
+   "width_tier": "typical",
+   "definition": "A number that shows how much smaller a file got after compression. A ratio of 4:1 means the compressed file is four times smaller than the original.",
+   "example": "If a 1MB image compresses to 250KB, the compression ratio is 4:1 — it's four times smaller.",
+   "sub_terms": [
+    {
+     "term": "Codec",
+     "definition": "Software that compresses and decompresses a specific type of media, like MP3 for audio or H.264 for video.",
+     "example": "When you stream a video, the video codec compresses it on the server and decompresses it on your device so it plays smoothly."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,489 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U03",
+ "teacher_glossary": [
+  {
+   "term": "Crust",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The outermost solid layer of Earth, composed of rock. The crust is thin relative to Earth's radius and exists in two forms — oceanic crust (thinner, denser, basaltic) and continental crust (thicker, less dense, granitic). Together with the rigid upper mantle, the crust forms the lithosphere.",
+   "failure_mode": "Students think the crust is uniformly thick and made of one material — miss the oceanic/continental distinction that determines behaviour at convergent boundaries.",
+   "failure_type": "misconception",
+   "why_it_matters": "The oceanic/continental density difference is what determines subduction at convergent boundaries. Students who treat the crust as uniform cannot explain why oceanic crust subducts under continental crust.",
+   "response": "Compare cross-sections of oceanic and continental crust side by side — label thickness, density and composition. Ask which would sink under the other if they collided, and why.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Oceanic crust",
+     "definition": "Thinner, denser crust beneath the oceans, composed primarily of basalt. Subducts under continental crust at convergent boundaries because of its greater density.",
+     "failure_mode": "Students assume oceanic crust is lighter because water is lighter than rock — miss that oceanic crust is denser than continental crust, which is why it subducts.",
+     "failure_type": "misconception",
+     "response": "Compare the densities directly: oceanic basalt ~3.0 g/cm³ vs continental granite ~2.7 g/cm³. Ask: 'Which sinks under the other when they collide?' The numerical comparison makes the subduction prediction mechanistic.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Continental crust",
+     "definition": "Thicker, less dense crust forming the continents, composed primarily of granite. Does not subduct due to its lower density — continent-continent collisions produce mountain ranges instead.",
+     "failure_mode": "Students expect continental crust to subduct because continents are 'heavier' (confusing mass with density) — miss that lower density prevents subduction regardless of mass.",
+     "failure_type": "misconception",
+     "response": "Ask: 'The Himalayas formed when India hit Asia. Why didn't one continent sink under the other?' Neither is dense enough to subduct — so the crust crumples upward instead. The mountain-building outcome only makes sense if density, not mass, controls subduction.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Mantle",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The thick layer between Earth's crust and outer core, making up the majority of Earth's volume. The mantle is mostly solid but flows very slowly over geological timescales — this slow flow drives convection currents that move tectonic plates. The upper mantle contains the asthenosphere, the semi-fluid layer on which the lithosphere sits.",
+   "failure_mode": "Students think the mantle is liquid — the idea of a solid material flowing slowly over geological time is counterintuitive.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the mantle is liquid, students expect plates to float and drift freely. The reality — solid rock flowing under immense pressure over millions of years — is the mechanism that makes plate movement slow and generates the forces that cause tectonic features.",
+   "response": "Use an analogy: glacier ice is solid but flows slowly downhill. Similarly, mantle rock is solid but flows under extreme heat and pressure over geological time. Ask students what speed they would expect — the answer (centimetres per year) reinforces the timescale.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Outer core",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The liquid layer of Earth between the mantle and inner core, composed primarily of iron and nickel. The outer core's liquid state is significant — it generates Earth's magnetic field and is the heat source that drives mantle convection.",
+   "failure_mode": "Students confuse the outer core with the mantle — both are below the surface but have fundamentally different states and compositions.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If core and mantle are conflated, students cannot trace the heat flow that drives convection: core heat → mantle convection → plate movement. The liquid/solid distinction between layers is essential for understanding how Earth's interior drives surface processes.",
+   "response": "Build a layered diagram from centre outward, labelling each layer's state and composition. The liquid outer core between two solid layers (inner core, mantle) is the pattern that needs to be explicit.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Inner core",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The solid, dense centre of Earth, composed primarily of iron and nickel. Despite being the hottest layer, the inner core is solid because of the extreme pressure. The heat from the inner core drives convection in the outer core and mantle.",
+   "failure_mode": "Students expect the hottest layer to be liquid — the idea that pressure can keep material solid despite extreme temperature is counterintuitive.",
+   "failure_type": "misconception",
+   "why_it_matters": "Understanding that pressure can override temperature effects on state is important for geological reasoning. The solid inner core as a heat source driving convection in the liquid outer core and mantle is the starting point of the tectonic energy chain.",
+   "response": "Explain that pressure increases with depth just as temperature does. At the centre, pressure is so extreme that the material cannot expand into a liquid state despite the heat. Ask what would happen if the pressure were removed.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Lithosphere",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The rigid outer shell of Earth, consisting of the crust and the uppermost solid mantle. The lithosphere is broken into tectonic plates that move on the semi-fluid asthenosphere beneath. It is defined by mechanical behaviour (rigidity), not composition — it includes both crust and upper mantle material.",
+   "failure_mode": "Students think the lithosphere is just the crust — miss that it includes the rigid upper mantle as well.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the lithosphere is just the crust, students cannot understand plate thickness or why plates behave as rigid units. The lithosphere concept is the structural prerequisite for the plate model — students who do not understand that a rigid outer layer sits on a semi-fluid asthenosphere cannot grasp why plates move independently.",
+   "response": "Draw the lithosphere explicitly as crust PLUS rigid upper mantle, with the asthenosphere boundary clearly below. The boundary is about rigidity, not composition — this is a different classification from the compositional layers.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Asthenosphere",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The semi-fluid, slowly flowing layer of the upper mantle beneath the lithosphere. The asthenosphere's ability to flow — despite being solid rock — is what allows the rigid lithosphere above to move. Convection currents in the asthenosphere are part of the driving mechanism for plate tectonics.",
+   "failure_mode": "Students think the asthenosphere is liquid like water — miss that it is solid rock flowing extremely slowly under heat and pressure.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the asthenosphere is liquid, students expect plates to float and drift like boats. The slow, viscous flow of solid rock under geological conditions is the mechanism that produces centimetres-per-year plate movement and generates the forces at boundaries.",
+   "response": "Use the glacier or warm glass analogy — solid material that flows under sustained force over long timescales. Ask students to predict how fast plates would move if the asthenosphere were truly liquid versus slowly flowing solid.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Craton",
+     "definition": "An ancient, stable section of continental crust that has remained largely unchanged for billions of years, forming the core of a continent."
+    }
+   ]
+  },
+  {
+   "term": "Tectonic plate",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A large, rigid section of the lithosphere that moves as a single unit on the asthenosphere. The lithosphere is divided into approximately 15 major plates, each moving at rates of centimetres per year (roughly the rate fingernails grow). Plates carry both continental and oceanic crust. The interactions between plates at their boundaries produce earthquakes, volcanic activity and geological features.",
+   "failure_mode": "Students think plates are thin surface layers that slide on a liquid ocean — miss that plates are thick, rigid sections of lithosphere (crust + upper mantle) and that the material beneath flows slowly, not freely.",
+   "failure_type": "misconception",
+   "why_it_matters": "The plate-as-rigid-unit concept is the structural prerequisite for all three boundary types. Students who do not understand that plates are distinct rigid units moving relative to each other cannot explain why different boundary types produce different features — the feature depends entirely on the direction of relative plate motion.",
+   "response": "Use cracker pieces on warm honey as a physical model — rigid pieces on a slowly flowing substrate. The crackers do not drift freely; they respond to the flow beneath. Discuss where the model succeeds and where it simplifies.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Mantle convection",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The slow circulation of mantle material driven by heat from Earth's core. Hot material rises, cools near the surface, and sinks again — creating convection currents that exert forces on the lithosphere above. Mantle convection is the primary driving mechanism for plate tectonics, generating slab pull and ridge push forces that move plates.",
+   "failure_mode": "Students describe convection correctly in general terms but cannot connect it to plate movement — the convection currents and the forces on plates remain disconnected.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without the convection-to-plate-movement link, plate motion appears arbitrary. Students need the causal chain: heat → convection → forces on plates → plate movement → boundary features. Missing this link makes boundary feature formation seem random rather than mechanistically driven.",
+   "response": "Trace the full energy chain: core heat → mantle convection → forces on lithosphere → plate movement. Ask students to predict what would happen to plate movement if Earth's core cooled.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Slab pull",
+     "definition": "The force exerted when a dense subducting plate sinks into the mantle, pulling the rest of the plate behind it. Currently considered the dominant force driving plate movement.",
+     "failure_mode": "Students default to a 'pushed from behind' mental model — they think convection pushes plates from below like a conveyor belt, missing that the dominant force is the sinking edge pulling the plate forward.",
+     "failure_type": "misconception",
+     "response": "Use the tablecloth analogy: if a heavy edge slides off a table, it drags the rest behind it. Ask: 'Is the cloth being pushed from behind or pulled by its own weight?' The pull model matches the geophysical evidence.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Ridge push",
+     "definition": "The force exerted when newly formed crust at a mid-ocean ridge slides downward and away from the elevated ridge, pushing the plate outward.",
+     "failure_mode": "Students treat ridge push as the primary force because the 'conveyor belt' analogy is more intuitive — miss that ridge push is secondary to slab pull in most tectonic settings.",
+     "failure_type": "misconception",
+     "response": "Compare the two forces: slab pull acts on every plate with a subducting edge; ridge push acts only near ridges. Ask which force affects more of the plate. The scale comparison makes the dominance relationship visible.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Plate boundary",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The zone where two tectonic plates meet. Plate boundaries are classified by the direction of relative plate motion — divergent (apart), convergent (together) or transform (sliding past). Most earthquakes, volcanic eruptions and geological feature formation occur at plate boundaries.",
+   "failure_mode": "Students think plate boundaries are neat, thin lines — miss that boundaries are zones of intense geological activity, often hundreds of kilometres wide.",
+   "failure_type": "misconception",
+   "why_it_matters": "If boundaries are neat lines, students expect geological features to occur at single points rather than across zones. Understanding boundaries as zones explains why earthquake activity is distributed across a region rather than confined to a line.",
+   "response": "Show a map of earthquake epicentres along a plate boundary — the scatter across a zone, not a line, makes the boundary-as-zone concept visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Divergent boundary",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A plate boundary where two plates move apart. The tension created by divergence thins the crust and allows magma to rise from the mantle, forming new oceanic crust (seafloor spreading) and mid-ocean ridges. On continents, divergence produces rift valleys. Divergent boundaries are constructive — new crust is created.",
+   "failure_mode": "Students think plates moving apart leaves an empty gap or hole — miss that magma rises to fill the space and creates new crust.",
+   "failure_type": "misconception",
+   "why_it_matters": "If divergence creates gaps, students cannot explain mid-ocean ridges or seafloor spreading. The magma-rise mechanism is what produces the geological features and new crust that the evidence in N6 depends on.",
+   "response": "Use a physical model: pull two pieces apart slowly on a surface with a coloured fluid beneath. The fluid rises into the gap — this is analogous to magma rising at a divergent boundary. Ask what the new material represents.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Rift valley",
+     "definition": "A depression formed where continental crust is being pulled apart at a divergent boundary, before full separation occurs. The East African Rift is an active example."
+    }
+   ]
+  },
+  {
+   "term": "Seafloor spreading",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process by which new oceanic crust is formed at divergent boundaries as magma rises, solidifies and pushes older crust outward. Seafloor spreading produces a symmetrical age pattern — crust is youngest at the mid-ocean ridge and progressively older with distance from it. This age pattern was key evidence for the acceptance of plate tectonics.",
+   "failure_mode": "Students describe seafloor spreading as a one-time event rather than a continuous process — miss that new crust is constantly being formed and older crust is constantly being pushed outward.",
+   "failure_type": "misconception",
+   "why_it_matters": "If spreading is a one-time event, the symmetrical age pattern of oceanic crust cannot be explained. The continuous nature of spreading is what produces the youngest-at-ridge, oldest-at-edges pattern that is key evidence in N6.",
+   "response": "Demonstrate by slowly pushing coloured strips of paper out from a central 'ridge' over time — each strip represents crust formed at a different time. The age pattern emerges from the continuous process.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Mid-ocean ridge",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "An underwater mountain chain formed at a divergent boundary where magma rises and solidifies, creating new oceanic crust. Mid-ocean ridges are the longest mountain chains on Earth (over 65,000 km total) and are sites of volcanic activity and shallow earthquakes. The Mid-Atlantic Ridge is the most well-known example.",
+   "failure_mode": "Students picture mid-ocean ridges as small features — miss that they are the longest geological structures on Earth, spanning entire ocean basins.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If ridges are small features, students cannot appreciate the scale of tectonic processes or understand why Marie Tharp's mapping of the Atlantic ridge system was a major contribution to plate tectonics theory.",
+   "response": "Show a global map of mid-ocean ridges — the continuous network spanning all oceans makes the scale visible. Compare the total length to familiar distances.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Convergent boundary",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A plate boundary where two plates move toward each other. The outcome depends on the density of the colliding plates: oceanic-continental convergence produces subduction, ocean trenches and volcanic arcs; continent-continent convergence produces mountain ranges through folding and uplift because neither plate is dense enough to subduct. Convergent boundaries are destructive — crust is consumed through subduction.",
+   "failure_mode": "Students apply the same outcome to all convergent boundaries — miss that the density of the colliding plates determines whether subduction or mountain building occurs.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If all convergent boundaries produce the same features, students cannot explain the Himalayas (continent-continent, no subduction) versus the Andes (ocean-continent, subduction). The density distinction is the reasoning tool that differentiates outcomes.",
+   "response": "Present two convergent scenarios: ocean-continent and continent-continent. Ask students to predict the outcome in each using density. The prediction task forces the density-based reasoning rather than feature memorisation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Ocean trench",
+     "definition": "A deep depression in the ocean floor formed where an oceanic plate subducts beneath another plate. The Mariana Trench is the deepest known example."
+    },
+    {
+     "term": "Volcanic arc",
+     "definition": "A chain of volcanoes formed parallel to an ocean trench at a convergent boundary, caused by the melting of the subducting plate releasing magma that rises to the surface."
+    },
+    {
+     "term": "Mountain range",
+     "definition": "A chain of mountains formed at continent-continent convergent boundaries where neither plate subducts and the crust folds and is pushed upward. The Himalayas formed this way."
+    },
+    {
+     "term": "Ring of Fire",
+     "definition": "A horseshoe-shaped zone of intense volcanic and earthquake activity around the Pacific Ocean, marking convergent and transform plate boundaries."
+    }
+   ]
+  },
+  {
+   "term": "Subduction",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The process by which a denser tectonic plate (typically oceanic) is forced beneath a less dense plate at a convergent boundary, sinking into the mantle. Subduction produces ocean trenches, volcanic arcs, deep earthquakes and recycling of crustal material back into the mantle. It is a key mechanism in the rock cycle (AC9S8U04) and the complement of seafloor spreading — new crust is created at ridges and destroyed at subduction zones.",
+   "failure_mode": "Students think subduction is one plate sliding on top of another — miss that the denser plate sinks into the mantle, where it melts and is recycled.",
+   "failure_type": "misconception",
+   "why_it_matters": "If subduction is just sliding, students cannot explain trench formation (the bend in the descending plate), volcanic arcs (melting of the subducting plate) or deep earthquakes (friction along the descending slab). The sinking-into-mantle mechanism connects to multiple geological features.",
+   "response": "Use a physical demonstration: push a rigid sheet under a floating piece — the descending sheet bends and sinks. Ask what happens to the material as it goes deeper (heat, melting, magma rising). The demonstration makes the sinking-and-recycling mechanism concrete.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Transform boundary",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A plate boundary where two plates slide horizontally past each other. Friction prevents smooth movement — stress builds along the boundary until it is released suddenly as an earthquake. Transform boundaries produce earthquakes but not volcanic activity because no crust is being created or destroyed. The San Andreas Fault is the most well-known example.",
+   "failure_mode": "Students think all plate boundaries produce volcanoes — miss that transform boundaries produce only earthquakes because no magma is involved.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all boundaries produce volcanoes, students cannot explain why California has earthquakes but not volcanic activity along the San Andreas Fault. The no-volcanoes-at-transform distinction is an important contrast with convergent and divergent boundaries.",
+   "response": "Compare the three boundary types explicitly: divergent = volcanoes + earthquakes; convergent = volcanoes + earthquakes; transform = earthquakes only. Ask why: the answer (no magma at transform) makes the contrast mechanistic rather than a fact to memorise.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Strike-slip fault",
+     "definition": "A fault where the rock on either side moves horizontally rather than vertically. The San Andreas Fault is a large-scale strike-slip fault at a transform plate boundary."
+    },
+    {
+     "term": "San Andreas Fault",
+     "definition": "A major transform plate boundary in California where the Pacific and North American plates slide past each other, producing frequent earthquakes."
+    }
+   ]
+  },
+  {
+   "term": "Continental fit",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 6,
+   "width_tier": "typical",
+   "definition": "The observation that the coastlines of continents — particularly South America and Africa — fit together like jigsaw pieces. Continental fit was one of the earliest observations suggesting the continents were once joined (Pangaea) and have since moved apart. It is circumstantial evidence — suggestive but not sufficient alone to establish plate tectonics.",
+   "failure_mode": "Students think continental fit alone proves plate tectonics — miss that it is only one line of evidence, and that multiple converging lines were needed to establish the theory.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Wegener had continental fit evidence but the theory was not accepted for decades. Understanding why multiple converging lines of evidence were needed — not just one compelling observation — is essential for understanding how scientific theories gain acceptance.",
+   "response": "Present continental fit alone and ask if this is enough to conclude the continents were once joined. What other explanations are possible? Then add fossil and geological evidence — each additional line narrows the alternatives. The accumulation makes the reasoning visible.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Fossil distribution",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 6,
+   "width_tier": "typical",
+   "definition": "The finding that identical fossils of land-dwelling organisms are found on continents now separated by oceans. Fossils of Glossopteris (a fern), Mesosaurus (a freshwater reptile) and other species appear on multiple southern continents — these organisms could not have crossed oceans, so the continents must have been connected when the organisms lived. Fossil distribution is independent evidence supporting the same conclusion as continental fit.",
+   "failure_mode": "Students think animals could have swum between continents or been carried by winds — miss that the specific organisms (freshwater reptiles, land plants) could not possibly have crossed oceans.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If animals could cross oceans, fossil distribution does not require continental connection and the evidence loses its force. The type of organism matters — freshwater reptiles and land plants make the ocean-crossing explanation untenable.",
+   "response": "Ask: 'Could Mesosaurus (a small freshwater reptile) swim across the Atlantic Ocean? Could a fern blow across it?' When the answer is clearly no, the only remaining explanation is that the continents were once joined.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Seafloor age pattern",
+   "descriptor_code": "AC9S8U03",
+   "first_waypoint": 6,
+   "width_tier": "typical",
+   "definition": "The observation that oceanic crust is youngest at mid-ocean ridges and progressively older with distance from the ridge, forming a symmetrical age pattern on either side. This pattern is direct evidence that new crust is continuously created at ridges and pushed outward — confirming seafloor spreading. Seafloor age data was the tipping-point evidence that led to widespread acceptance of plate tectonics in the 1960s.",
+   "failure_mode": "Students know the age pattern exists but cannot explain why it is strong evidence — miss that the symmetrical pattern is exactly what seafloor spreading predicts and that no other mechanism produces it.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "The seafloor age pattern was the evidence that transformed plate tectonics from a contested hypothesis to an accepted theory. Understanding why this particular evidence was decisive — it made a unique, testable prediction — develops understanding of how evidence validates scientific theories.",
+   "response": "Present a diagram of seafloor age bands and ask: 'If seafloor spreading is happening, what age pattern would you predict?' Students derive the expected pattern before seeing the data — the match between prediction and observation makes the evidential power concrete.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Crust",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The thin, solid outer layer of Earth that we live on. There are two types — oceanic crust under the oceans (thinner and denser) and continental crust forming the continents (thicker and lighter).",
+   "example": "If Earth were an apple, the crust would be thinner than the apple's skin.",
+   "sub_terms": [
+    {
+     "term": "Oceanic crust",
+     "definition": "The thinner, denser type of crust found under the oceans. Because it is denser, it gets pushed under continental crust when they collide."
+    },
+    {
+     "term": "Continental crust",
+     "definition": "The thicker, lighter type of crust that forms the continents. Because it is lighter, it does not sink — when two pieces collide, they crumple upward into mountains."
+    }
+   ]
+  },
+  {
+   "term": "Mantle",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The thick layer between Earth's crust and core. It is solid rock, but under extreme heat and pressure it flows very slowly — like a glacier flowing downhill, but even slower.",
+   "example": "The mantle flows at about the same speed your fingernails grow — centimetres per year. This slow flow is what moves the tectonic plates above."
+  },
+  {
+   "term": "Outer core",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The liquid layer of Earth between the mantle and the inner core, made mostly of iron and nickel. It is the only truly liquid layer inside Earth.",
+   "example": "The outer core is liquid metal — its heat drives the slow flow in the mantle above, which in turn moves the plates at Earth's surface."
+  },
+  {
+   "term": "Inner core",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The solid centre of Earth, made of iron and nickel. Even though it is the hottest part of Earth, the incredible pressure keeps it solid.",
+   "example": "The inner core is hotter than the surface of the Sun, but the pressure at Earth's centre is so extreme that the metal cannot melt."
+  },
+  {
+   "term": "Lithosphere",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "The rigid outer shell of Earth, made of the crust plus the very top of the mantle. This is the layer that is broken into tectonic plates.",
+   "example": "Tectonic plates are not just the crust — they include a layer of rigid mantle underneath, and the whole thing moves as one piece."
+  },
+  {
+   "term": "Asthenosphere",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "The soft, slowly flowing layer of the upper mantle just below the lithosphere. The tectonic plates sit on top of it and are moved by its slow flow.",
+   "example": "Think of the asthenosphere like warm toffee — it is technically solid, but it can flow very slowly when pushed. The plates ride on top of this flow.",
+   "sub_terms": [
+    {
+     "term": "Craton",
+     "definition": "An ancient, stable section of continental crust that has remained largely unchanged for billions of years, forming the core of a continent."
+    }
+   ]
+  },
+  {
+   "term": "Tectonic plate",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "A large, rigid piece of Earth's lithosphere that moves as one unit. There are about 15 major plates, and they move a few centimetres each year — about the speed your fingernails grow.",
+   "example": "Australia sits on the Indo-Australian Plate, which is slowly moving northward. Over millions of years, this movement will change where Australia is on the globe."
+  },
+  {
+   "term": "Mantle convection",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "The slow circular movement of hot rock in the mantle. Hot material rises toward the surface, cools, then sinks back down — this circulation creates forces that push and pull the tectonic plates.",
+   "example": "Mantle convection works like heating soup — hot soup rises, cools at the surface and sinks again. The same cycle in the mantle moves the plates above.",
+   "sub_terms": [
+    {
+     "term": "Slab pull",
+     "definition": "When a heavy plate sinks into the mantle at a subduction zone, it drags the rest of the plate with it — like a heavy blanket sliding off a bed."
+    },
+    {
+     "term": "Ridge push",
+     "definition": "When new crust at a mid-ocean ridge pushes outward and away, shoving the rest of the plate along."
+    }
+   ]
+  },
+  {
+   "term": "Plate boundary",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "The zone where two tectonic plates meet. Most earthquakes and volcanoes happen at plate boundaries because this is where plates interact.",
+   "example": "Japan sits right on a plate boundary, which is why it experiences frequent earthquakes and has many volcanoes."
+  },
+  {
+   "term": "Divergent boundary",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "A place where two plates move apart. Magma rises up to fill the gap and creates new crust. This is how mid-ocean ridges and rift valleys form.",
+   "example": "In the middle of the Atlantic Ocean, two plates are slowly pulling apart — magma rises to fill the gap, building the Mid-Atlantic Ridge.",
+   "sub_terms": [
+    {
+     "term": "Rift valley",
+     "definition": "A long, low area that forms where a continent is being pulled apart, before it fully splits. The East African Rift is forming this way right now."
+    }
+   ]
+  },
+  {
+   "term": "Seafloor spreading",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "The ongoing process where new ocean floor is created at mid-ocean ridges as magma rises and hardens, pushing older crust outward on both sides.",
+   "example": "The Atlantic Ocean is getting a few centimetres wider every year because new crust keeps forming at the Mid-Atlantic Ridge and pushing outward."
+  },
+  {
+   "term": "Mid-ocean ridge",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "An underwater mountain chain where new ocean floor is being created. Mid-ocean ridges are the longest mountain ranges on Earth — they stretch over 65,000 km across all the world's oceans.",
+   "example": "The Mid-Atlantic Ridge runs all the way from the Arctic to near Antarctica — it is longer than the Andes, Himalayas and Rockies combined."
+  },
+  {
+   "term": "Convergent boundary",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "A place where two plates move toward each other and collide. What happens depends on which types of crust collide — if one is oceanic, it sinks under the other; if both are continental, they crumple upward into mountains.",
+   "example": "The Himalayas are still growing because the Indian Plate is crashing into the Eurasian Plate — neither sinks, so the land folds and pushes upward.",
+   "sub_terms": [
+    {
+     "term": "Ocean trench",
+     "definition": "A very deep valley on the ocean floor where one plate is being pushed under another."
+    },
+    {
+     "term": "Volcanic arc",
+     "definition": "A curved line of volcanoes that forms alongside an ocean trench, where the sinking plate melts and magma rises to the surface."
+    },
+    {
+     "term": "Mountain range",
+     "definition": "A chain of mountains formed when two continents collide and the land crumples and pushes upward because neither plate can sink."
+    },
+    {
+     "term": "Ring of Fire",
+     "definition": "A horseshoe-shaped zone of intense volcanic and earthquake activity around the Pacific Ocean, marking convergent and transform plate boundaries."
+    }
+   ]
+  },
+  {
+   "term": "Subduction",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "When a denser plate is pushed under a lighter plate and sinks down into the mantle. The sinking plate melts and gets recycled. This creates trenches, volcanoes and deep earthquakes.",
+   "example": "Along the west coast of South America, the oceanic plate is being pushed under the continent and sinking into the mantle — this created the Andes mountains and the deep Peru-Chile Trench."
+  },
+  {
+   "term": "Transform boundary",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "minimum",
+   "definition": "A place where two plates slide sideways past each other. The friction between the plates causes stress to build up and release suddenly as earthquakes. No volcanoes form here because no magma is involved.",
+   "example": "The San Andreas Fault in California is a transform boundary — it causes earthquakes but no volcanic eruptions, because the plates are sliding past each other, not pulling apart or colliding.",
+   "sub_terms": [
+    {
+     "term": "Strike-slip fault",
+     "definition": "A crack in the Earth where the rock on each side moves sideways rather than up and down."
+    },
+    {
+     "term": "San Andreas Fault",
+     "definition": "A major transform plate boundary in California where the Pacific and North American plates slide past each other, producing frequent earthquakes."
+    }
+   ]
+  },
+  {
+   "term": "Continental fit",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The observation that some continents look like they fit together like puzzle pieces — especially South America and Africa. This suggests they were once joined together.",
+   "example": "If you cut out South America and Africa from a map and push them together, the coastlines match up remarkably well — as if they were once one piece of land."
+  },
+  {
+   "term": "Fossil distribution",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The finding that identical fossils of land animals and plants appear on continents that are now separated by oceans. Since these organisms could not have crossed oceans, the continents must have been joined when the organisms were alive.",
+   "example": "Fossils of Mesosaurus, a small freshwater reptile, are found in both South America and Africa — it could not have swum across the Atlantic, so those continents must have been connected."
+  },
+  {
+   "term": "Seafloor age pattern",
+   "descriptor_code": "AC9S8U03",
+   "width_tier": "typical",
+   "definition": "The observation that ocean floor rock is youngest at mid-ocean ridges and gets older the further you go from the ridge, with matching ages on both sides. This is exactly what you would expect if new crust is constantly being made at the ridge.",
+   "example": "Rock right at the Mid-Atlantic Ridge is brand new. Rock near the coast of Africa is about 180 million years old. The age increases steadily — proof that the ocean floor has been spreading outward for millions of years."
+  }
+ ]
+}

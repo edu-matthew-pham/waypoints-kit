@@ -1,0 +1,171 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7H01",
+ "teacher_glossary": [
+  {
+   "term": "Evidence",
+   "descriptor_code": "AC9S7H01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Information gathered through observation, measurement or research that is used to support, refute or refine scientific claims. In science, evidence is distinguished from opinion or belief by being testable, reproducible and open to scrutiny. The type and quality of evidence determines how convincing a scientific claim is.",
+   "failure_mode": "Students treat evidence and opinion as interchangeable — they accept personal experience, anecdote or authority as scientific evidence, or dismiss systematic evidence because it conflicts with personal belief.",
+   "failure_type": "misconception",
+   "why_it_matters": "If students cannot distinguish evidence from opinion, they cannot evaluate scientific claims or understand why science changes when new evidence emerges. The evidence–opinion distinction is foundational to every subsequent node in this standard.",
+   "response": "Present pairs of statements — one evidence-based, one opinion-based — about the same phenomenon and ask students to classify and explain the difference. Use examples where the opinion sounds convincing but lacks testable support.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Observational evidence",
+     "definition": "Evidence gathered by systematically watching and recording natural phenomena without manipulating variables — such as recording species in a habitat, tracking weather patterns or documenting astronomical events."
+    },
+    {
+     "term": "Experimental evidence",
+     "definition": "Evidence generated through controlled investigations where variables are deliberately manipulated to test a hypothesis — such as measuring the effect of temperature on dissolving rate."
+    },
+    {
+     "term": "Technological evidence",
+     "definition": "Evidence made possible by new tools or instruments that extend human observation — such as microscopes revealing cell structure, DNA sequencing revealing genetic relationships, or satellites tracking environmental change."
+    },
+    {
+     "term": "Opinion",
+     "definition": "A personal view or judgement that is not necessarily based on systematic evidence. In science, opinions cannot substitute for evidence because they are not testable, reproducible or open to scrutiny. Students must distinguish between 'I think this is true' (opinion) and 'the data shows this is true' (evidence)."
+    },
+    {
+     "term": "Belief",
+     "definition": "A conviction held on the basis of faith, tradition, personal experience or cultural values rather than systematic scientific evidence. Beliefs are important in many aspects of life but are distinct from scientific evidence because they are not derived from testable, reproducible investigation. Science does not claim beliefs are wrong — it distinguishes them from evidence-based claims."
+    }
+   ]
+  },
+  {
+   "term": "Scientific knowledge",
+   "descriptor_code": "AC9S7H01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The body of explanations, models and theories that scientists have developed based on evidence. Scientific knowledge is not fixed — it is revised and refined as new evidence becomes available or different perspectives reveal aspects that were previously overlooked. Changes to scientific knowledge are a feature of the evidence-based process, not a flaw.",
+   "failure_mode": "Students treat changes in scientific knowledge as proof that science is unreliable — 'scientists keep changing their minds' — rather than understanding that revision in response to evidence is how science improves.",
+   "failure_type": "misconception",
+   "why_it_matters": "If students see knowledge change as a flaw, they lose trust in the scientific process and cannot explain why established ideas are sometimes revised. This misconception blocks the entire standard, which requires explaining how and why knowledge changes.",
+   "response": "Present a timeline of knowledge change in one domain (e.g. classification of organisms from appearance to DNA evidence) and ask students whether the earlier scientists were 'wrong' or working with the evidence available at the time. The distinction between 'wrong' and 'working with limited evidence' resolves the misconception.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Perspective",
+   "descriptor_code": "AC9S7H01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A viewpoint shaped by cultural background, historical context, disciplinary training or lived experience that influences which questions are asked, which evidence is valued and how findings are interpreted. In science, different perspectives — including First Nations Australians' ecological knowledge, non-Western scientific traditions and cross-disciplinary approaches — contribute distinct insights that enrich scientific understanding.",
+   "failure_mode": "Students name a perspective without explaining what it contributes — they describe the perspective ('First Nations people have ecological knowledge') rather than reasoning through the specific contribution ('First Nations fire management practices revealed ecological relationships that informed contemporary conservation').",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If students can name perspectives but cannot explain contributions, they reduce diverse perspectives to tokenistic mentions rather than understanding how different viewpoints genuinely advance scientific knowledge. Node 4 requires integrating evidence and perspectives — students who cannot articulate contributions cannot perform the integration.",
+   "response": "Scaffold the reasoning explicitly: 'What did this perspective see that others missed? What did science gain from including it?' Require students to complete both parts — the perspective and its specific contribution — before the explanation counts as complete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Historical perspective",
+     "definition": "A viewpoint shaped by the scientific understanding, tools and societal priorities available at a particular time in history."
+    },
+    {
+     "term": "Disciplinary perspective",
+     "definition": "A viewpoint shaped by training in a particular field of science — a geneticist and a palaeontologist may approach the same question (e.g. species relationships) with different methods and evidence types."
+    }
+   ]
+  },
+  {
+   "term": "Refinement",
+   "descriptor_code": "AC9S7H01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The process by which scientific knowledge improves through successive adjustments in response to new evidence and different perspectives. Refinement is distinct from replacement — when scientific understanding changes, it is typically adjusted and improved rather than discarded and started over. The ongoing nature of refinement means scientific knowledge is never 'finished' but becomes progressively more complete and accurate.",
+   "failure_mode": "Students describe changes in scientific knowledge as replacement rather than refinement — they say 'scientists were wrong before' or 'they changed their minds' rather than understanding that earlier knowledge was adjusted in light of new evidence or perspectives.",
+   "failure_type": "misconception",
+   "why_it_matters": "If knowledge change is replacement, earlier scientists were simply wrong and current science could be wrong too — undermining trust in the process. If knowledge change is refinement, earlier scientists worked with the evidence available and current understanding builds on their contributions. The distinction is foundational to understanding how science progresses.",
+   "response": "Present a specific case of knowledge refinement (e.g. classification moving from appearance to DNA evidence) and ask: 'Were the earlier scientists wrong, or were they working with the evidence they had? What changed — the method, the evidence, or both?' The question structure forces the refinement framing.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Interplay",
+     "definition": "The interaction between new evidence and different perspectives in producing knowledge refinement. Interplay means the two forces work together — new evidence prompts reconsideration from different perspectives, and different perspectives reveal what new evidence to look for. Understanding interplay is what distinguishes integrated explanation from listing evidence and perspectives separately."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Evidence",
+   "descriptor_code": "AC9S7H01",
+   "width_tier": "minimum",
+   "definition": "Information collected through careful observation, experiments or research that scientists use to support or challenge ideas. Evidence is different from an opinion because it can be tested and checked by others.",
+   "example": "Fossils are evidence that different species lived on Earth millions of years ago — anyone can examine the same fossils and draw conclusions from them.",
+   "sub_terms": [
+    {
+     "term": "Observational evidence",
+     "definition": "Evidence collected by carefully watching and recording what happens in nature without changing anything.",
+     "example": "Recording which birds visit a school garden each week is observational evidence about local biodiversity."
+    },
+    {
+     "term": "Experimental evidence",
+     "definition": "Evidence collected by setting up a controlled test where you deliberately change one thing and measure what happens.",
+     "example": "Testing whether plants grow taller in sunlight or shade by growing identical seedlings in different conditions."
+    },
+    {
+     "term": "Technological evidence",
+     "definition": "Evidence that only became available because of new tools or technology.",
+     "example": "DNA analysis showed that whales are closely related to hippos — something scientists couldn't know before genetic technology existed."
+    },
+    {
+     "term": "Opinion",
+     "definition": "What someone personally thinks or feels about something, without needing evidence to back it up. In science, opinions don't count as evidence because they can't be tested or checked.",
+     "example": "'I think the blue solution looks nicer' is an opinion. 'The blue solution has a pH of 9' is evidence."
+    },
+    {
+     "term": "Belief",
+     "definition": "Something someone holds to be true based on faith, tradition or personal experience rather than scientific testing. Beliefs aren't 'wrong' — they're just a different kind of knowledge from scientific evidence.",
+     "example": "A belief that a particular place is sacred is meaningful and important, but it's different from scientific evidence about the geological features of that place. Both can coexist."
+    }
+   ]
+  },
+  {
+   "term": "Scientific knowledge",
+   "descriptor_code": "AC9S7H01",
+   "width_tier": "minimum",
+   "definition": "What scientists currently understand about how the natural world works, based on evidence collected over time. Scientific knowledge changes when new evidence is found — this isn't a weakness, it's how science gets better.",
+   "example": "Scientists once classified organisms mainly by how they looked. When DNA evidence became available, some organisms were reclassified because genetic evidence revealed relationships that appearance couldn't show."
+  },
+  {
+   "term": "Perspective",
+   "descriptor_code": "AC9S7H01",
+   "width_tier": "minimum",
+   "definition": "A way of seeing and understanding the world, shaped by your culture, experiences and training. Different perspectives help scientists notice different things and ask different questions.",
+   "example": "First Nations Australians' knowledge of seasonal animal behaviour, built over thousands of years of observation, has helped ecologists understand migration patterns that short-term studies couldn't reveal.",
+   "sub_terms": [
+    {
+     "term": "Historical perspective",
+     "definition": "How people understood the world at a particular time in history, using the tools and knowledge available then.",
+     "example": "Before microscopes existed, scientists couldn't see cells — their historical perspective was limited by the technology of the time."
+    },
+    {
+     "term": "Disciplinary perspective",
+     "definition": "The way someone trained in a particular science field approaches a question.",
+     "example": "A geologist and a biologist might both study a fossil — the geologist focuses on the rock layers and age, while the biologist focuses on the organism's features."
+    }
+   ]
+  },
+  {
+   "term": "Refinement",
+   "descriptor_code": "AC9S7H01",
+   "width_tier": "minimum",
+   "definition": "How scientific knowledge gets better over time — not by throwing out old ideas and starting again, but by adjusting and improving what we already know based on new evidence or different perspectives.",
+   "example": "Scientists didn't 'get classification wrong' when they grouped organisms by appearance. When DNA evidence became available, they refined the classification system — keeping what worked and adjusting what the new evidence showed needed changing.",
+   "sub_terms": [
+    {
+     "term": "Interplay",
+     "definition": "How new evidence and different perspectives work together to improve scientific knowledge — each one feeds into the other.",
+     "example": "New DNA technology (evidence) allowed scientists to check classification systems from different cultures (perspectives), and those different perspectives suggested new questions for DNA analysis to investigate."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I01",
+ "teacher_glossary": [
+  {
+   "term": "Investigable question",
+   "descriptor_code": "AC9S9I01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A scientific question that can be answered through observable, measurable evidence. An investigable question names or implies variables that can be measured, is specific enough to address through a single investigation, and cannot be answered by opinion alone. At Year 9, investigable questions target a specific relationship between variables rather than simply exploring a phenomenon.",
+   "failure_mode": "Students write questions that are too vague to investigate ('How do plants grow?'), not measurable ('Is photosynthesis important?'), or answerable by opinion rather than evidence — they cannot identify what makes a question testable.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The question quality determines the investigation quality. A question that is too vague, not measurable, or not about a testable relationship cannot lead to a valid investigation method — unfocused questions produce unfocused investigation designs at AC9S9I02.",
+   "response": "Model the evaluation explicitly: 'Does this question name variables? Can those variables be measured? Could one investigation address it?' Present contrasting pairs (investigable vs. non-investigable) and ask students to apply these criteria to identify and fix the non-investigable ones.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Variable",
+     "definition": "A factor in an investigation that can change or be measured. At Year 9, investigable questions must name or imply the variables involved in the relationship being tested."
+    },
+    {
+     "term": "Testable",
+     "definition": "Able to be answered by collecting observable or measurable evidence rather than by opinion, belief or definition."
+    },
+    {
+     "term": "Empirical",
+     "definition": "Based on observable, measurable evidence rather than theory, opinion or authority alone. An empirical question is one that can be answered by collecting data. The boundary between empirical and non-empirical questions (philosophical, ethical, definitional) is what defines the scope of scientific investigation."
+    }
+   ]
+  },
+  {
+   "term": "Reasoned prediction",
+   "descriptor_code": "AC9S9I01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A statement of an expected outcome that includes a scientific reason for the expectation. A reasoned prediction has two mandatory components: what will happen (the expected outcome) and why it will happen (a reason grounded in scientific knowledge). It is distinct from a guess, which lacks a scientific basis.",
+   "failure_mode": "Students routinely drop the reasoning component — they write predictions as guesses ('I think the plant will grow taller') without the 'because' clause grounded in scientific knowledge. The prediction becomes indistinguishable from intuition.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Without the reasoning component, a prediction cannot be evaluated against scientific knowledge — there is no basis for judging whether the prediction is scientifically sound or for connecting the result back to an explanation. The prediction loses its function in the investigation cycle.",
+   "response": "Treat the because-clause as mandatory and non-negotiable. After every prediction, ask: 'What science tells you this will happen?' If the student cannot provide a scientific reason, the prediction is a guess and needs revision. Consistent practice with the expected-outcome + reason format builds the habit.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Hypothesis",
+   "descriptor_code": "AC9S9I01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A testable, refutable statement that specifies the predicted relationship between variables, typically written in an if-then-because structure. A scientific hypothesis must be specific enough that evidence could either support or refute it — if no possible result could prove it wrong, it is not a scientific hypothesis.",
+   "failure_mode": "Students write vague or unfalsifiable hypotheses (e.g. 'plants will grow differently') that cannot be tested because no specific result would refute them. The conclusion stage of the investigation collapses — there is nothing to support or reject.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A hypothesis that cannot be tested cannot be advanced or rejected, and the entire investigation loses its logical structure. The hypothesis is what connects the question to the method to the conclusion — if it is vague, every subsequent stage is undermined.",
+   "response": "Scaffold the refutability concept with concrete counter-examples: 'Plants respond to their environment — true, but untestable because no result could prove it wrong. Now compare: If light intensity increases, then photosynthesis rate will increase — what result would refute this?' The contrast makes refutability concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Refutability",
+     "definition": "The property of a hypothesis that makes it scientifically useful — it must be possible for evidence to prove it wrong. A hypothesis that cannot be refuted by any possible result does not predict anything testable.",
+     "failure_mode": "Students do not understand why unfalsifiable hypotheses are a problem — they think a broad hypothesis is 'safer' because it cannot be wrong, missing that this is precisely why it is not scientific.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask students to identify what result would refute their hypothesis. If they cannot name one, the hypothesis needs to be made more specific until a refuting result can be described.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "If-then-because structure",
+     "definition": "The formal format for a hypothesis: 'If [independent variable is changed in this way], then [dependent variable will change in this way], because [scientific reason].' The structure ensures the hypothesis specifies the relationship, the expected direction and the scientific basis.",
+     "failure_mode": "Students omit the 'because' clause or write it as a restatement of the 'then' rather than an independent scientific reason — the hypothesis becomes a prediction without theoretical grounding.",
+     "failure_type": "fragile_skill",
+     "response": "Check each component separately: 'What are you changing? What do you expect to happen? What science explains why?' If any component is missing or circular, require revision before proceeding.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Independent variable",
+     "definition": "The variable deliberately changed by the investigator to test its effect. At Year 9, students must name the independent variable in their hypothesis and specify the direction or nature of the change.",
+     "failure_mode": "Students name the independent variable but cannot articulate the predicted direction of its effect on the dependent variable — the hypothesis specifies what is changed but not what change is expected.",
+     "failure_type": "fragile_skill",
+     "response": "Require students to complete the sentence: 'When I increase/decrease [IV], [DV] will increase/decrease/stay the same because...' The sentence frame forces specification of direction.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Dependent variable",
+     "definition": "The variable measured in response to changes in the independent variable. At Year 9, students must specify what they will measure and how, connecting the DV to the hypothesis prediction.",
+     "failure_mode": "Students confuse the dependent variable with general observations — they describe what they will 'look at' rather than what they will specifically measure, making their data collection unfocused.",
+     "failure_type": "fragile_skill",
+     "response": "Ask: 'What exactly will you measure? What units will you use? How will you record it?' If the student cannot answer these, their DV is not yet specific enough for the investigation.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Null hypothesis",
+     "definition": "The prediction that there is no effect — that the independent variable does not affect the dependent variable. Used alongside the experimental hypothesis in formal investigations to provide a baseline for comparison."
+    },
+    {
+     "term": "Explanatory model",
+     "definition": "A theoretical explanation of how or why a phenomenon occurs, from which testable predictions and hypotheses can be generated. At Year 9, students develop hypotheses intended to test or explore explanatory models."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Investigable question",
+   "descriptor_code": "AC9S9I01",
+   "width_tier": "minimum",
+   "definition": "A question that can be answered by collecting measurable evidence — not by opinion. A good investigable question names the variables involved and is specific enough that you could design one experiment to answer it.",
+   "example": "'Does temperature affect how fast sugar dissolves in water?' is investigable because you can measure both temperature and dissolving time. 'Is sugar interesting?' is not — you can't measure that.",
+   "sub_terms": [
+    {
+     "term": "Variable",
+     "definition": "Something in an investigation that can change or be measured.",
+     "example": "In an experiment about plant growth, variables might include light intensity (what you change), plant height (what you measure) and soil type (what you keep the same)."
+    },
+    {
+     "term": "Testable",
+     "definition": "Able to be answered by collecting evidence you can observe or measure, not just by giving an opinion.",
+     "example": "'Which brand of battery lasts longest?' is testable — you can measure it. 'Which brand is best?' is not — 'best' is an opinion."
+    },
+    {
+     "term": "Empirical",
+     "definition": "Based on evidence you can observe or measure, rather than just theory or opinion.",
+     "example": "'Does increasing temperature speed up dissolving?' is an empirical question — you can measure it. 'Is it wrong to test on animals?' is an ethical question, not an empirical one."
+    }
+   ]
+  },
+  {
+   "term": "Reasoned prediction",
+   "descriptor_code": "AC9S9I01",
+   "width_tier": "minimum",
+   "definition": "A statement that says what you expect to happen AND gives a scientific reason why. It is not a guess — you need to explain your reasoning using science you already know.",
+   "example": "'I predict that increasing the temperature will speed up the reaction because particles move faster at higher temperatures and collide more often' — the prediction says what will happen and why."
+  },
+  {
+   "term": "Hypothesis",
+   "descriptor_code": "AC9S9I01",
+   "width_tier": "minimum",
+   "definition": "A testable statement that predicts the relationship between variables, written so that evidence could prove it right or wrong. Usually written as 'If... then... because...' to make sure it includes what you're changing, what you expect to happen, and why.",
+   "example": "'If light intensity increases, then the rate of photosynthesis will increase, because more light energy is available for the chloroplasts to use' — this can be tested and a specific result could prove it wrong.",
+   "sub_terms": [
+    {
+     "term": "Refutability",
+     "definition": "The idea that a proper hypothesis must be possible to prove wrong. If no result could show your hypothesis is incorrect, it's not really predicting anything useful.",
+     "example": "'Plants respond to their environment' can't be proven wrong (it's always true), so it's not a useful hypothesis. 'Increasing fertiliser concentration increases plant height' CAN be proven wrong — that makes it refutable."
+    },
+    {
+     "term": "If-then-because structure",
+     "definition": "The format for writing a hypothesis: 'If [what you change], then [what you expect to happen], because [the science behind it].'",
+     "example": "'If the concentration of acid increases, then the rate of reaction will increase, because there are more acid particles available to collide with the reactant.'"
+    },
+    {
+     "term": "Independent variable",
+     "definition": "The variable you deliberately change in an experiment to test its effect.",
+     "example": "If you're testing whether temperature affects enzyme activity, temperature is the independent variable — it's what you're choosing to change."
+    },
+    {
+     "term": "Dependent variable",
+     "definition": "The variable you measure to see if it changes in response to what you did.",
+     "example": "If you're testing whether temperature affects enzyme activity, the rate of reaction is the dependent variable — it's what you measure to see the effect."
+    },
+    {
+     "term": "Null hypothesis",
+     "definition": "The prediction that nothing will happen — that changing the independent variable has no effect on the dependent variable.",
+     "example": "If your hypothesis is 'more light increases photosynthesis,' the null hypothesis is 'light intensity has no effect on photosynthesis rate.'"
+    },
+    {
+     "term": "Explanatory model",
+     "definition": "A scientific explanation of how or why something happens, which you can use to generate predictions and hypotheses to test.",
+     "example": "The particle model of matter is an explanatory model — it explains why heating a gas increases pressure, and you can write hypotheses to test predictions from it."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,211 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8K02",
+ "teacher_glossary": [
+  {
+   "term": "Network",
+   "descriptor_code": "AC9TDI8K02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A system of connected devices that can transmit data to each other. Networks are characterised by three properties: bandwidth (how much data can flow per second), latency (the delay between sending and receiving), and reliability (how consistently data arrives without loss). Wired networks use physical cables; wireless networks use radio signals.",
+   "failure_mode": "Students describe wired and wireless networks only by physical medium (cable vs no cable) without connecting them to measurable properties like bandwidth, latency and reliability.",
+   "failure_type": "misconception",
+   "why_it_matters": "Network properties (bandwidth, latency, reliability) are the vocabulary for reasoning about packet transmission, encryption overhead and internet infrastructure. Students who can only say 'wired is faster' cannot explain why or when that matters.",
+   "response": "Present three use cases (streaming, gaming, file transfer) and ask which network property matters most for each. The use-case comparison forces students beyond the wired/wireless binary.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Wired network",
+     "definition": "A network that transmits data through physical cables (e.g. Ethernet, fibre optic). Generally offers higher bandwidth, lower latency and greater reliability than wireless."
+    },
+    {
+     "term": "Wireless network",
+     "definition": "A network that transmits data via radio signals (e.g. Wi-Fi, 5G, satellite). Offers mobility but is typically more susceptible to interference, latency and signal degradation."
+    },
+    {
+     "term": "Latency"
+    },
+    {
+     "term": "Reliability"
+    },
+    {
+     "term": "Router"
+    },
+    {
+     "term": "Ethernet"
+    },
+    {
+     "term": "Wi-Fi"
+    },
+    {
+     "term": "5G"
+    }
+   ]
+  },
+  {
+   "term": "Packet",
+   "descriptor_code": "AC9TDI8K02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A small unit of data that is transmitted independently across a network. Data is broken into packets before transmission; each packet can take a different route and may arrive out of order. Protocols reassemble packets at the destination. Packets can be lost or delayed in transit — protocols like TCP handle recovery.",
+   "failure_mode": "Students think data travels as a continuous stream from sender to receiver, like water through a pipe, rather than as discrete packets that are individually routed and reassembled.",
+   "failure_type": "misconception",
+   "why_it_matters": "The packet model is the prerequisite for understanding why protocols exist (to reassemble and recover lost packets) and why encryption is necessary (packets pass through shared infrastructure anyone along the path could read). Without the packet model, both TCP and encryption appear as arbitrary additions rather than principled responses.",
+   "response": "Simulate packet transmission: tear a message into numbered strips, shuffle them, remove one. Ask students to reassemble and identify the gap. The physical simulation makes the packet model concrete.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Protocol",
+   "descriptor_code": "AC9TDI8K02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A set of rules that governs how data is transmitted, received and error-checked across a network. TCP (Transmission Control Protocol) uses acknowledgements to confirm packets have been received and retransmits packets that are lost. Protocols ensure reliable communication over unreliable infrastructure.",
+   "failure_mode": "Students accept that protocols 'make the internet work' without understanding the specific mechanism — acknowledgements, retransmission, error detection — that makes communication reliable.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If protocols are a black box, students cannot trace what happens when communication fails (packet loss, timeout, retransmission) or explain how reliability is achieved over inherently unreliable networks.",
+   "response": "Walk through a TCP acknowledgement cycle for three packets: send → acknowledge → one lost → timeout → retransmit → acknowledge. Ask students to predict what happens at each step.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "TCP",
+     "definition": "Transmission Control Protocol — uses acknowledgements and retransmission to ensure all packets arrive correctly, even over unreliable networks."
+    }
+   ]
+  },
+  {
+   "term": "Encryption",
+   "descriptor_code": "AC9TDI8K02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process of transforming data into an unreadable form so that only authorised recipients can read it. Encryption is necessary because packets travel through shared infrastructure (routers, switches, cables) that the sender does not control — anyone along the path could read unencrypted data. The process is reversible: the recipient decrypts using a key.",
+   "failure_mode": "Students accept 'encryption is good' as a fact without understanding the shared-infrastructure reasoning — why unencrypted data is vulnerable during transmission.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Students who accept encryption as inherently good without understanding the threat model cannot reason about when encryption matters (transmission over shared infrastructure) vs when it doesn't (data at rest on a personal device). The need must precede the mechanism.",
+   "response": "Trace a packet's journey through routers the sender doesn't control. Ask: who could read this data at each hop? The shared-infrastructure visualisation makes the threat concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Decryption",
+     "definition": "The reverse of encryption — transforming encrypted data back to its original readable form using a key."
+    },
+    {
+     "term": "HTTPS"
+    },
+    {
+     "term": "Key"
+    }
+   ]
+  },
+  {
+   "term": "Encryption algorithm",
+   "descriptor_code": "AC9TDI8K02",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A specific method for transforming readable data into encrypted form. At Year 7–8, students explore ROT13 (shifts each letter by 13 positions in the alphabet) and XOR (applies a binary exclusive-or operation with a key). Both demonstrate the reversibility principle — applying the same operation twice recovers the original. XOR operates on binary data, making it more relevant to how digital systems actually encrypt.",
+   "failure_mode": "Students treat encryption as a one-way process — they can encrypt but don't understand that the same algorithm reverses the process to recover the original.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If encryption is one-way, secure communication is impossible — the recipient could never read the message. The reversibility principle is the entire point: encrypt to protect, decrypt to use.",
+   "response": "Give students an encrypted message and the algorithm. Ask them to decrypt it. Then ask: what does the person who receives your encrypted message need to know to read it?",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "ROT13",
+     "definition": "A simple letter-substitution cipher that shifts each letter 13 positions. Applying ROT13 twice returns the original text."
+    },
+    {
+     "term": "XOR",
+     "definition": "A binary operation that compares two bits and outputs 1 if they differ, 0 if they match. XOR with the same key twice returns the original data — the basis for simple digital encryption."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Network",
+   "descriptor_code": "AC9TDI8K02",
+   "width_tier": "minimum",
+   "definition": "A group of connected devices that can send data to each other. Networks can be wired (using cables) or wireless (using radio signals like Wi-Fi). They differ in how fast they are (bandwidth), how quickly they respond (latency), and how reliably data arrives.",
+   "example": "Your school Wi-Fi is a wireless network. The cables connecting the school to the internet are a wired network. Most of the time, you use both without noticing.",
+   "sub_terms": [
+    {
+     "term": "Wired network"
+    },
+    {
+     "term": "Wireless network"
+    },
+    {
+     "term": "Latency",
+     "definition": "The delay between sending data and it arriving — like the pause before a video call catches up.",
+     "example": "In online gaming, high latency causes lag — your character moves after you press the button, not at the same time."
+    },
+    {
+     "term": "Reliability"
+    },
+    {
+     "term": "Router"
+    },
+    {
+     "term": "Wi-Fi"
+    }
+   ]
+  },
+  {
+   "term": "Packet",
+   "descriptor_code": "AC9TDI8K02",
+   "width_tier": "minimum",
+   "definition": "A small chunk of data that travels across a network. When you send something online, it gets broken into packets that can each take a different route. They're reassembled at the other end. Sometimes packets get lost along the way.",
+   "example": "Sending a photo online is like tearing a letter into strips and mailing each strip separately — the recipient puts them back together in order."
+  },
+  {
+   "term": "Protocol",
+   "descriptor_code": "AC9TDI8K02",
+   "width_tier": "minimum",
+   "definition": "A set of rules that devices follow to communicate over a network. TCP is a protocol that makes sure all your packets arrive — if one gets lost, it sends it again.",
+   "example": "When you load a webpage, TCP makes sure every packet of data arrives and gets put back in the right order. If a packet goes missing, TCP asks for it to be sent again.",
+   "sub_terms": [
+    {
+     "term": "TCP"
+    }
+   ]
+  },
+  {
+   "term": "Encryption",
+   "descriptor_code": "AC9TDI8K02",
+   "width_tier": "minimum",
+   "definition": "Scrambling data so that only the intended recipient can read it. Encryption is necessary because your data passes through equipment you don't control — routers and servers run by other people — so without encryption, anyone along the route could read it.",
+   "example": "When you buy something online, encryption scrambles your credit card number before it leaves your device. Only the shop's server can unscramble it.",
+   "sub_terms": [
+    {
+     "term": "Decryption"
+    },
+    {
+     "term": "HTTPS"
+    },
+    {
+     "term": "Key"
+    }
+   ]
+  },
+  {
+   "term": "Encryption algorithm",
+   "descriptor_code": "AC9TDI8K02",
+   "width_tier": "typical",
+   "definition": "A specific method for scrambling and unscrambling data. The key idea is that the process is reversible — you can always get the original back if you know the method and the key.",
+   "example": "ROT13 shifts every letter 13 places in the alphabet: A becomes N, B becomes O. Apply it twice and you get the original message back.",
+   "sub_terms": [
+    {
+     "term": "ROT13"
+    },
+    {
+     "term": "XOR",
+     "definition": "A method that compares binary digits — it outputs 1 when they're different and 0 when they're the same. Apply it twice with the same key and you get the original back.",
+     "example": "XOR the binary number 1010 with the key 1100 and you get 0110. XOR 0110 with 1100 again and you get 1010 back — the original."
+    }
+   ]
+  }
+ ]
+}

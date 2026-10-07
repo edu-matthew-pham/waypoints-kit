@@ -1,0 +1,269 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P02",
+ "teacher_glossary": [
+  {
+   "term": "Trend",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A general direction or pattern of change in a dataset over time or across a variable. Trends can be increasing, decreasing, cyclical, or stable. Identifying trends requires examining data systematically rather than reading individual data points.",
+   "failure_mode": "Students identify trends by scanning data intuitively — finding the most obvious pattern and missing subtler trends, or confusing individual high/low values with overall direction.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Students who cannot identify trends reliably cannot draw conclusions or make predictions at N2 — the N2 checkpoint is directly dependent on the data summary produced at N1.",
+   "response": "Scaffold the analysis: describe the range → identify central tendency → find exceptions → name the direction. Apply to multiple datasets so the systematic approach becomes habitual.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Central tendency",
+     "definition": "A measure describing the typical or middle value of a dataset — mean, median, or mode. Identifying central tendency helps distinguish trends from noise."
+    },
+    {
+     "term": "Aggregation",
+     "definition": "Combining individual data points into summary measures (totals, averages, counts). How data is aggregated can reveal or hide trends."
+    }
+   ]
+  },
+  {
+   "term": "Outlier (analysis)",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A data point that lies significantly outside the range of the rest of the dataset. In analysis, outliers require judgement — they may be errors to exclude, or genuinely interesting data points that reveal something important. Cross-reference: in validation (AC9TDI10P01), outliers are checked at collection time; here they are interpreted during analysis.",
+   "failure_mode": "Students treat all outliers identically — either automatically removing them all as errors, or keeping them all uncritically. Both approaches miss that the analytical judgement (error vs genuine) is the key skill.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Outlier judgement directly affects conclusions — removing a genuine extreme value hides important information, while keeping errors distorts trends and predictions.",
+   "response": "Present outliers in context: a temperature reading of 200°C (likely sensor error) versus a single high test score from a student who usually scores low (genuine). Ask students to justify keep/remove for each. The decision practice builds analytical judgement.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Prediction",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "An informed estimate of a future or unknown value based on observed trends and patterns in data. Predictions extend trends beyond the data — they are only valid under the assumptions that the conditions producing the trend continue to hold.",
+   "failure_mode": "Students make predictions without identifying the limiting assumptions — they extend trends indefinitely without considering what could cause the pattern to change, or confuse correlation with causation.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Predictions without identified assumptions are unfalsifiable claims. Students who cannot articulate what must remain true for their prediction to hold cannot evaluate predictions critically.",
+   "response": "For every prediction, require three statements: (1) what the trend shows, (2) what must remain true for the prediction to hold, (3) what could break the pattern. The three-part structure builds rigorous prediction-making.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Limiting assumption",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A condition that must remain true for a prediction or conclusion to hold. Every data-based prediction depends on assumptions about the continuity of the pattern — identifying these assumptions is what makes predictions analytically rigorous rather than speculative.",
+   "failure_mode": "Students state predictions as facts without identifying what must remain true — they don't recognise that predictions are conditional claims with boundaries.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without limiting assumptions, predictions cannot be evaluated — there is no way to determine when a prediction has broken down or why.",
+   "response": "After each prediction, ask: 'What would have to change for this prediction to be wrong?' The question forces students to identify the assumption they made implicitly.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Correlation",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A statistical relationship between two variables — when one changes, the other tends to change in a related way. Correlation does not establish causation; two variables may correlate because of a common cause or by coincidence.",
+   "failure_mode": "Students treat correlation as proof of causation — they see two variables changing together and conclude that one causes the other without considering alternative explanations.",
+   "failure_type": "misconception",
+   "why_it_matters": "Confusing correlation with causation leads to false conclusions and flawed predictions — students build causal stories from coincidental patterns.",
+   "response": "Present famous spurious correlations (e.g. ice cream sales and drowning rates — both caused by hot weather). Ask students to identify the actual causal mechanism. The absurd examples make the distinction memorable.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Causation",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A relationship where one variable directly produces a change in another. Establishing causation requires evidence beyond correlation — controlled experiments, temporal precedence, and elimination of alternative explanations.",
+   "failure_mode": "Students assume that because two events happen in sequence, the first caused the second — they don't recognise that temporal sequence is not sufficient evidence for causation.",
+   "failure_type": "misconception",
+   "why_it_matters": "Claiming causation without evidence leads to flawed interventions — students may recommend changing one variable expecting another to follow, when the relationship is only correlational.",
+   "response": "Ask students to design a test that would distinguish correlation from causation: what would you need to control? The experimental design challenge reveals what causation actually requires.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Interactive visualisation",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A data visualisation that allows users to control what is displayed — through filters, sliders, toggles, or selectable chart types — enabling exploration of different aspects of a dataset. Interactive visualisations serve an analytical purpose: they help users discover patterns, test hypotheses, and explore relationships that static charts cannot reveal.",
+   "failure_mode": "Students add interactive elements for visual novelty rather than analytical purpose — sliders that don't change anything meaningful, or filters that don't help users answer a question about the data.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Interactive visualisations that lack analytical purpose are technology demonstrations, not data tools. The descriptor requires interactivity that helps users draw conclusions and make predictions.",
+   "response": "Before adding any interactive element, require students to answer: what question does this interaction help the user explore? If there is no question, the interaction is decorative. The question-first approach ensures analytical purpose.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Filter (visualisation)",
+     "definition": "An interactive control that limits the displayed data to a subset — allowing users to focus on specific categories, time periods, or value ranges."
+    },
+    {
+     "term": "Slider (visualisation)",
+     "definition": "An interactive control that lets users adjust a continuous parameter — such as a time range or threshold value — and observe how the visualisation changes."
+    },
+    {
+     "term": "Motion chart",
+     "definition": "A time-series visualisation that animates changes over time, allowing users to observe how multiple variables evolve simultaneously."
+    }
+   ]
+  },
+  {
+   "term": "Machine learning",
+   "descriptor_code": "AC9TDI10P02",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A form of data analysis where algorithms learn patterns from training data and use those patterns to classify new inputs or make predictions. Unlike rule-based programs, machine learning models are not explicitly programmed with rules — they derive patterns from data. The quality of the model depends on the quality and composition of the training data.",
+   "failure_mode": "Students treat machine learning as a black box — they can use a tool to classify inputs but cannot explain what the algorithm learned from the training data, or why changing the training data changes the output.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Black-box treatment prevents students from understanding why ML models fail — if they don't connect model output to training data, they cannot reason about bias, missing categories, or parameter effects.",
+   "response": "Use a visual ML tool (e.g. Teachable Machine) where students can see the training data, train a model, test it, then deliberately change the training data and observe the effect. Multiple experiments with training data variation make the connection visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Training data",
+     "definition": "The dataset used to teach a machine learning model — the model learns patterns from this data and applies them to new inputs. Training data composition directly determines model behaviour, including biases.",
+     "failure_mode": "Students assume training data is automatically representative — they don't recognise that underrepresentation of categories in training data produces models that fail on those categories.",
+     "failure_type": "misconception",
+     "response": "Train an image classifier with many examples of one category and few of another. Test with the underrepresented category and observe misclassification. The failure makes the training data dependency concrete.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Model parameter",
+     "definition": "An adjustable setting in a machine learning model that affects how it processes data and produces outputs. Changing parameters changes model behaviour — students should be able to observe and explain these changes.",
+     "failure_mode": "Students adjust parameters without understanding what each one controls — they treat parameter tuning as random experimentation.",
+     "failure_type": "fragile_skill",
+     "response": "Change one parameter at a time and observe the effect on output. Ask students to explain what the parameter controls before and after adjustment.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Classification (ML)",
+     "definition": "The task of assigning an input to one of a set of predefined categories based on patterns learned from training data.",
+     "failure_mode": "Students treat classification as exact rather than probabilistic — they don't understand that the model makes a best guess and can be wrong.",
+     "failure_type": "misconception",
+     "response": "Show classification confidence scores alongside predictions. Present an ambiguous input where the model is uncertain. The probabilistic output breaks the 'always right' assumption.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Teachable Machine",
+     "definition": "A visual, browser-based machine learning tool by Google that allows students to train image, audio, or pose classifiers without writing code."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Trend",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "minimum",
+   "definition": "A pattern or direction in data — like sales going up over time, or temperatures dropping each winter. Trends tell you the overall story, not just individual numbers.",
+   "example": "If your class test scores are 60, 65, 68, 72, 75, the trend is upward — even though individual scores vary.",
+   "sub_terms": [
+    {
+     "term": "Central tendency",
+     "definition": "A single number that represents the 'typical' value in a dataset — like the average (mean), middle value (median), or most common value (mode).",
+     "example": "If test scores are 50, 60, 70, 80, 90, the median (middle value) is 70."
+    },
+    {
+     "term": "Aggregation",
+     "definition": "Combining lots of individual data points into a summary — like totals, averages, or counts.",
+     "example": "Instead of listing every student's score, you might aggregate by finding the class average."
+    }
+   ]
+  },
+  {
+   "term": "Outlier (analysis)",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "minimum",
+   "definition": "A data point that's very different from the rest. In analysis, the important question is whether it's a mistake or something genuinely interesting.",
+   "example": "If class heights are all between 150-180cm but one entry says 250cm, that's probably an error. But if one entry says 195cm, it might just be a very tall student."
+  },
+  {
+   "term": "Prediction",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "minimum",
+   "definition": "An educated guess about what will happen next, based on patterns you've found in data. Predictions only work if the conditions that created the pattern stay the same.",
+   "example": "If ice cream sales go up every summer, you can predict they'll go up next summer too — but only if the weather stays warm and the shop stays open."
+  },
+  {
+   "term": "Limiting assumption",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "typical",
+   "definition": "Something that must stay true for your prediction to work. If the assumption turns out to be wrong, the prediction falls apart.",
+   "example": "Predicting 'this café will keep growing' assumes the neighbourhood stays busy, no new competitor opens, and the food stays good — those are the limiting assumptions."
+  },
+  {
+   "term": "Correlation",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "typical",
+   "definition": "When two things tend to change together — like ice cream sales and sunburn rates both going up in summer. But just because two things happen together doesn't mean one causes the other.",
+   "example": "Ice cream sales and drowning deaths both increase in summer — but ice cream doesn't cause drowning. Hot weather causes both."
+  },
+  {
+   "term": "Causation",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "typical",
+   "definition": "When one thing directly makes another thing happen — not just happening at the same time, but actually causing it.",
+   "example": "Studying more causes better test scores (causation). Having a bigger shoe size doesn't cause better reading — older children just happen to have both (correlation)."
+  },
+  {
+   "term": "Interactive visualisation",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "minimum",
+   "definition": "A chart or graph that lets users change what they see — using sliders, filters, or toggles to explore different aspects of the data. The interactivity should help users discover something, not just look cool.",
+   "example": "A chart where you can slide a time range to see how population changed decade by decade is more useful than a static graph showing all 100 years at once.",
+   "sub_terms": [
+    {
+     "term": "Filter (visualisation)",
+     "definition": "A control that narrows down what data is shown — like selecting 'only show Year 10 results.'",
+     "example": "Filtering a sales chart by region lets you compare NSW vs Victoria without the other states cluttering the view."
+    },
+    {
+     "term": "Slider (visualisation)",
+     "definition": "A control you drag to change a value — like adjusting a year range or a threshold.",
+     "example": "A temperature slider that lets you see 'show me all days above 35°C' helps you explore heatwave patterns."
+    },
+    {
+     "term": "Motion chart",
+     "definition": "A chart that plays like an animation, showing how data changes over time.",
+     "example": "Hans Rosling's famous Gapminder charts animate countries moving across axes as population, income, and health change over decades."
+    }
+   ]
+  },
+  {
+   "term": "Machine learning",
+   "descriptor_code": "AC9TDI10P02",
+   "width_tier": "typical",
+   "definition": "A way computers learn patterns from data instead of being told exact rules. You give it examples (training data), it finds patterns, and then it can classify new things it hasn't seen before.",
+   "example": "A spam filter learns what spam looks like by studying thousands of emails labelled 'spam' and 'not spam' — then it classifies new emails based on what it learned.",
+   "sub_terms": [
+    {
+     "term": "Training data",
+     "definition": "The examples you feed a machine learning model so it can learn patterns. Whatever patterns are in the training data end up in the model — including any biases.",
+     "example": "If you train a photo classifier with mostly pictures of cats and barely any dogs, it'll be bad at recognising dogs."
+    },
+    {
+     "term": "Model parameter",
+     "definition": "A setting you can adjust that changes how the model behaves — like a dial that affects its sensitivity or focus.",
+     "example": "Increasing a threshold parameter might make the spam filter stricter — catching more spam but also accidentally blocking some real emails."
+    },
+    {
+     "term": "Classification (ML)",
+     "definition": "When a model sorts new inputs into categories it learned from training data — like labelling a photo as 'cat' or 'dog.'",
+     "example": "A model trained on handwriting samples can classify a new handwritten digit as '3' or '7' — but it's making its best guess, not a guarantee."
+    },
+    {
+     "term": "Teachable Machine",
+     "definition": "A free online tool where you can train your own machine learning model using your webcam, microphone, or uploaded images — no coding required.",
+     "example": "You could train Teachable Machine to recognise different hand gestures by showing it examples through your webcam."
+    }
+   ]
+  }
+ ]
+}

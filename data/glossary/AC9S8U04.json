@@ -1,0 +1,542 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U04",
+ "teacher_glossary": [
+  {
+   "term": "Sedimentary rock",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Rock formed from the accumulation and lithification of sediment — weathered fragments of pre-existing rock, or accumulated biological material. Observable properties reflect formation: layering records sequential deposition events, rounded grains indicate transport, and fossils record organisms buried during deposition. Sandstone, limestone, shale and coal are common examples.",
+   "failure_mode": "Students think sedimentary rocks are just sand glued together — miss that the formation sequence (weathering → erosion → transport → deposition → lithification) produces specific observable properties that record the rock's history.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If formation is just 'sand gets stuck together,' students cannot read observable properties as evidence of formation history. The formation-to-property reasoning method established here is the analytical tool used for all three rock types throughout the standard.",
+   "response": "Present a sedimentary rock sample and ask students to identify features that record formation: layers = sequential deposition; rounded grains = transported; fossils = organisms buried during deposition. Each property tells part of the formation story.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Weathering",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The breakdown of rock into smaller fragments (sediment) through physical processes (temperature changes, frost, root growth) or chemical processes (acid rain, mineral dissolution). Weathering occurs in place — the rock breaks down where it sits, before erosion transports the fragments. Weathering is the entry point of the sedimentary formation sequence and connects directly to prior learning from AC9S5U02.",
+   "failure_mode": "Students confuse weathering with erosion — weathering breaks rock down in place; erosion moves the fragments. The two are sequential but distinct processes.",
+   "failure_type": "misconception",
+   "why_it_matters": "If weathering and erosion are the same process, students cannot identify them as separate steps in the sedimentary formation sequence. The distinction also matters for understanding landscape formation and geological timescales.",
+   "response": "Present two images: a crumbling rock face (weathering) and a river carrying sediment (erosion). Ask which is breakdown and which is movement. The visual contrast makes the distinction concrete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Physical weathering",
+     "definition": "Breakdown of rock by physical forces — temperature changes causing expansion and contraction, frost wedging, plant root growth — without changing the rock's chemical composition.",
+     "failure_mode": "Students default to physical weathering examples only — they think weathering requires visible cracking or fragmentation and miss that chemical processes also break down rock in place.",
+     "failure_type": "narrow_repertoire",
+     "response": "Present a frost-cracked granite face alongside a limestone surface dissolved by acid rain. Both are weathering — ask what they share (rock broken down in place) despite different mechanisms.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Chemical weathering",
+     "definition": "Breakdown of rock by chemical reactions — acid rain dissolving minerals, oxidation of iron-bearing minerals — producing new chemical compounds in the process.",
+     "failure_mode": "Students do not recognise slow chemical dissolution as weathering because there are no visible broken pieces — they think weathering requires physical fragmentation.",
+     "failure_type": "misconception",
+     "response": "Show a weathered limestone surface with dissolved features — no broken pieces, just worn-away shapes. Ask: 'Is the rock being broken down? Yes — by chemical reaction, not physical force. That is still weathering.'",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Erosion",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The transport of weathered rock fragments (sediment) by water, wind, ice or gravity from their source to a new location. Erosion shapes the sediment during transport — fragments become smaller and rounder with distance, which is why rounded grains in sedimentary rock indicate significant transport.",
+   "failure_mode": "Students think erosion is the same as weathering, or use the terms interchangeably.",
+   "failure_type": "misconception",
+   "why_it_matters": "Erosion is the transport step between weathering and deposition. Confusing it with weathering collapses two steps of the formation sequence into one and prevents students from reading grain shape as evidence of transport distance.",
+   "response": "Ask students to physically separate the two: 'Where does the rock break? Where do the pieces go?' Break = weathering; go = erosion. Then connect: rounded grains = more erosion (transport).",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Transportation",
+     "definition": "The movement of weathered rock fragments by water, wind, ice or gravity — the erosion step between weathering and deposition."
+    }
+   ]
+  },
+  {
+   "term": "Deposition",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The settling of transported sediment when the carrying agent (water, wind, ice) loses energy. Deposition occurs in layers — each layer represents a separate deposition event, which is why sedimentary rocks show distinct layering. Deposition in water environments can bury organisms, beginning the fossilisation process.",
+   "failure_mode": "Students do not connect layering in sedimentary rocks to sequential deposition events — layers are seen as decorative rather than informative.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If layers are not understood as records of deposition events, students cannot use them to read geological history. Layering is the primary evidence tool in stratigraphy and connects to geological timescale reasoning.",
+   "response": "Build a simple layered model by pouring different coloured sediments into a container in sequence. Ask students to identify which layer was deposited first and how they know. The physical model makes time-as-depth visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Lithification",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process by which loose sediment is transformed into solid sedimentary rock through compaction (pressure from overlying layers squeezing out water and air) and cementation (minerals dissolved in groundwater crystallise between grains, binding them together). Lithification is the final step in the sedimentary formation sequence.",
+   "failure_mode": "Students think sediment 'dries out' and becomes rock — miss that lithification requires both compaction and cementation, and takes thousands to millions of years.",
+   "failure_type": "misconception",
+   "why_it_matters": "If lithification is just drying, students expect it to be rapid and cannot explain why it requires burial under other sediment layers. The pressure-and-cementation mechanism connects to geological timescale reasoning.",
+   "response": "Compare two scenarios: sand left in the sun (dries, stays loose) versus sand buried under hundreds of metres of sediment for millions of years (compacted and cemented into sandstone). Ask why drying alone does not produce rock.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Compaction",
+     "definition": "The squeezing of sediment layers by the weight of overlying material, reducing pore space and pushing out water and air.",
+     "failure_mode": "Students think compaction alone turns sediment into rock — miss that squeezing removes water and air but does not bind grains together. Without cementation, compacted sediment is still loose.",
+     "failure_type": "flawed_reasoning",
+     "response": "Squeeze wet sand in your hand — it holds shape briefly but falls apart. Ask: 'What is missing?' The answer — a binding agent between grains — is what cementation provides.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Cementation",
+     "definition": "The binding of sediment grains by minerals that crystallise from groundwater in the spaces between grains, acting as a natural glue.",
+     "failure_mode": "Students do not understand where the 'cement' comes from — they think it is added externally rather than crystallising from minerals dissolved in groundwater passing through the sediment.",
+     "failure_type": "misconception",
+     "response": "Describe groundwater carrying dissolved minerals seeping through compacted sediment. As minerals crystallise between grains, they lock them together. Ask: 'Where does the cement come from?' The answer — dissolved minerals in water — makes the process geological rather than industrial.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Sediment",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Fragments of rock, mineral grains, or organic material produced by weathering and transported by erosion. Sediment is the raw material of sedimentary rock. Its characteristics — grain size, roundedness, composition — record the weathering, transport and deposition conditions it experienced.",
+   "failure_mode": "Students think sediment means sand specifically — miss that sediment includes fragments of any size (clay, silt, sand, gravel, boulders) and organic material.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If sediment is only sand, students cannot explain the variety of sedimentary rocks (shale from clay-sized particles, conglomerate from gravel). Grain size determines rock type, which is a key formation-property link.",
+   "response": "Present sediment samples of different sizes (clay, silt, sand, gravel) and the rocks they form. The variety makes sediment a category rather than a single material.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Fossil",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The preserved remains or traces of organisms, typically found in sedimentary rock. Fossils form when organisms are buried by sediment before they fully decompose. They occur almost exclusively in sedimentary rocks because the burial-during-deposition process is part of the sedimentary formation sequence. Fossils provide evidence of past environments, past life and — in plate tectonics — past continental positions.",
+   "failure_mode": "Students think fossils can be found in any rock type — miss that the formation conditions of igneous and metamorphic rocks (extreme heat and pressure) would destroy organic remains.",
+   "failure_type": "misconception",
+   "why_it_matters": "If fossils occur in all rock types, the link between sedimentary formation and fossil preservation is broken. Understanding why fossils are almost exclusively sedimentary connects formation conditions to observable properties.",
+   "response": "Ask: 'What would happen to a shell buried in magma at 1000°C? What about one subjected to extreme pressure during metamorphism?' The destruction makes the sedimentary-only rule mechanistic rather than arbitrary.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Igneous rock",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Rock formed from the cooling and solidification of magma (underground) or lava (at the surface). The key observable property is crystal size, which directly records cooling rate: slow cooling underground produces large crystals (intrusive, e.g. granite); rapid cooling at the surface produces small crystals or glassy texture (extrusive, e.g. basalt, obsidian). Igneous rock formation connects to plate tectonics — magma is produced at divergent boundaries and subduction zones.",
+   "failure_mode": "Students learn igneous rock types as a list without understanding the cooling-rate mechanism that determines crystal size — they memorise 'granite has big crystals' without knowing why.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Crystal size as a record of cooling rate is the most diagnostic formation-property link in the rock cycle. Students who learn it as a memorised fact cannot apply the reasoning to novel samples or explain why the property exists.",
+   "response": "Ask: 'If crystals grow over time, what happens if the rock cools slowly? What if it cools fast?' Students derive the crystal size rule from the mechanism — slower cooling = more time = larger crystals. Then test: classify an unknown igneous sample using crystal size alone.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Magma",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Molten rock located beneath Earth's surface. When magma cools underground, it forms intrusive igneous rock with large crystals. When magma reaches the surface (becoming lava), it forms extrusive igneous rock with small crystals. Magma is produced at divergent boundaries and subduction zones through plate tectonic processes.",
+   "failure_mode": "Students use magma and lava interchangeably — miss that the distinction (underground vs surface) determines the cooling environment and therefore the crystal size of the resulting rock.",
+   "failure_type": "misconception",
+   "why_it_matters": "If magma and lava are the same, the intrusive/extrusive distinction collapses and students cannot explain why granite and basalt have different crystal sizes despite both forming from molten rock.",
+   "response": "Define by location: magma = underground; lava = same material, at the surface. Then connect: underground = insulated = slow cooling = large crystals; surface = exposed = fast cooling = small crystals.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Lava",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Molten rock that has reached Earth's surface through volcanic eruptions. Lava is the same material as magma but at the surface, where it cools rapidly. This rapid cooling produces extrusive igneous rock with small crystals or glassy texture.",
+   "failure_mode": "Students use lava and magma interchangeably — miss that the surface location determines rapid cooling and therefore small crystal size.",
+   "failure_type": "misconception",
+   "why_it_matters": "The magma/lava distinction is the same as the intrusive/extrusive distinction. Conflating them prevents students from using location to predict crystal size and rock type.",
+   "response": "Ask: 'Is it underground or at the surface?' Underground = magma = slow cooling = big crystals. Surface = lava = fast cooling = small crystals. Location determines everything.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Intrusive (igneous)",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Igneous rock that formed from magma cooling slowly underground, surrounded by insulating rock. Slow cooling allows time for large crystal growth. Granite is the most common example. Intrusive igneous bodies are exposed at the surface only after the overlying rock is removed by weathering and erosion over geological time.",
+   "failure_mode": "Students cannot explain why intrusive rock is found at the surface if it formed underground — miss that millions of years of erosion can expose deeply buried rock.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If students cannot explain surface exposure of intrusive rock, the connection between deep formation and surface observation is broken. This reasoning connects to geological timescale understanding and the rock cycle's uplift pathway.",
+   "response": "Ask: 'Granite formed kilometres underground. How is it at the surface now?' The answer — millions of years of erosion removed the rock above — connects formation depth to geological timescale.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Granite",
+     "definition": "A common intrusive igneous rock with large, visible crystals of quartz, feldspar and mica, formed from magma cooling slowly deep underground."
+    }
+   ]
+  },
+  {
+   "term": "Extrusive (igneous)",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Igneous rock that formed from lava cooling rapidly at Earth's surface. Rapid cooling allows little time for crystal growth, producing fine-grained or glassy texture. Basalt and obsidian are common examples. Extrusive igneous activity occurs at divergent boundaries and volcanic arcs.",
+   "failure_mode": "Students think all igneous rock comes from dramatic volcanic eruptions — miss that most extrusive rock forms from less dramatic lava flows, and that some volcanic glass (obsidian) cooled so fast that no crystals formed at all.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If igneous formation is only explosive eruption, students have a narrow view of where and how extrusive rock forms. The continuum from fine-grained basalt to glassy obsidian demonstrates how cooling rate determines texture across a range.",
+   "response": "Present basalt (fine crystals) and obsidian (no crystals) side by side. Both are extrusive — ask what the difference in texture tells you about their cooling rates. The comparison extends the cooling-rate reasoning within the extrusive category.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Basalt",
+     "definition": "A common extrusive igneous rock with fine-grained crystals, formed from lava cooling rapidly at Earth's surface. The most common rock on the ocean floor."
+    },
+    {
+     "term": "Obsidian",
+     "definition": "A volcanic glass formed when lava cools so rapidly that no crystals have time to form, producing a smooth, glassy texture."
+    }
+   ]
+  },
+  {
+   "term": "Crystal size",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The size of mineral crystals in an igneous rock, determined by the cooling rate of the magma or lava from which it formed. Slow cooling underground produces large, visible crystals; rapid cooling at the surface produces small crystals or no crystals (glassy texture). Crystal size is the most diagnostic formation-property link in igneous rock classification — it directly records cooling history.",
+   "failure_mode": "Students memorise crystal size associations (granite = big, basalt = small) without understanding the cooling-rate mechanism that produces the difference.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Memorised associations fail when students encounter unfamiliar samples. The cooling-rate mechanism is a transferable reasoning tool — students who understand it can classify any igneous rock from crystal size alone and explain why.",
+   "response": "Conduct a crystallisation experiment: dissolve salt or alum and cool one sample rapidly (ice bath) and another slowly (insulated container). Compare the crystal sizes produced. The experiment makes the mechanism observable.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Cooling rate",
+     "definition": "The speed at which molten rock loses heat and solidifies. Determined by location — underground (slow, insulated) versus surface (fast, exposed to air/water)."
+    },
+    {
+     "term": "Crystallisation",
+     "definition": "The process by which minerals form ordered crystal structures as molten rock cools and solidifies."
+    }
+   ]
+  },
+  {
+   "term": "Metamorphic rock",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Rock formed when any pre-existing rock (sedimentary, igneous or metamorphic) is subjected to intense heat and pressure without melting, causing minerals to recrystallise and realign. Observable properties include banding or foliation (minerals compressed and reoriented), increased density and hardness relative to the parent rock. Metamorphic conditions occur at subduction zones and during mountain building.",
+   "failure_mode": "Students think metamorphic rock forms by melting and re-solidifying — confuse it with igneous formation. The defining feature of metamorphism is transformation without melting.",
+   "failure_type": "misconception",
+   "why_it_matters": "If metamorphism involves melting, it is just igneous formation by another name. The without-melting criterion is what makes metamorphic rock a distinct category — recrystallisation under heat and pressure produces different properties from cooling from a melt.",
+   "response": "Use the analogy of pressing and heating clay versus melting and re-casting metal. Both change the material, but the processes and results are fundamentally different. Ask: 'If the rock melted, what would it be called instead?'",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Metamorphic grade",
+     "definition": "The intensity of heat and pressure a rock experienced during metamorphism. Higher grade produces more dramatic changes — shale → slate (low grade) → schist (high grade)."
+    }
+   ]
+  },
+  {
+   "term": "Recrystallisation",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The process by which minerals in a rock are reorganised into new crystal structures under heat and pressure, without the rock melting. Recrystallisation produces denser, harder rock with realigned mineral grains. It is the defining process of metamorphism — distinguishing it from igneous formation where rock melts and recrystallises from a liquid.",
+   "failure_mode": "Students confuse recrystallisation with crystallisation from a melt — miss that recrystallisation occurs in the solid state under pressure, not from cooling liquid.",
+   "failure_type": "misconception",
+   "why_it_matters": "If recrystallisation is the same as crystallisation from a melt, the distinction between metamorphic and igneous rock collapses. The solid-state transformation is the key difference.",
+   "response": "Compare: crystallisation = crystals forming as liquid cools (igneous); recrystallisation = existing crystals reorganising under pressure without melting (metamorphic). The liquid-vs-solid distinction is the defining difference.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Banding / Foliation",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The parallel alignment of mineral grains in metamorphic rock, produced by directional pressure during metamorphism. Flat or elongated minerals are compressed and rotated perpendicular to the direction of pressure, creating visible bands or layers. Foliation is a diagnostic property of metamorphic rocks — its presence indicates the rock has been subjected to directed pressure.",
+   "failure_mode": "Students confuse metamorphic banding with sedimentary layering — both produce visible bands but through entirely different mechanisms.",
+   "failure_type": "misconception",
+   "why_it_matters": "Sedimentary layers record sequential deposition; metamorphic bands record directional pressure. If the two are confused, students cannot use banding to identify rock type or infer formation conditions.",
+   "response": "Compare a layered sedimentary rock and a foliated metamorphic rock. Ask: 'How did each set of bands form?' Sedimentary = deposited in layers over time; metamorphic = minerals squashed and realigned by pressure. The mechanism is different even though the appearance is similar.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Parent rock",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The pre-existing rock from which a metamorphic rock formed. Parent rock determines what minerals are available for recrystallisation, which determines the metamorphic product: shale → slate; limestone → marble; sandstone → quartzite. Identifying parent-product pairs connects observable metamorphic properties to formation history.",
+   "failure_mode": "Students think metamorphism creates entirely new minerals from nothing — miss that the minerals in metamorphic rock are reorganised from the parent rock's existing minerals.",
+   "failure_type": "misconception",
+   "why_it_matters": "If metamorphism creates new minerals from nothing, students cannot predict what metamorphic rock will form from a given parent. The parent → product relationship is the reasoning tool for interpreting metamorphic formation history.",
+   "response": "Present parent-product pairs (shale → slate, limestone → marble) and ask what stayed the same and what changed. The minerals are the same — their arrangement changed. This makes metamorphism a reorganisation, not a creation.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Rock cycle",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The continuous set of interconnected processes by which rocks are transformed between sedimentary, igneous and metamorphic types over geological time. Any rock type can become any other — sedimentary can be buried and metamorphosed, metamorphic can melt and form igneous, igneous can weather to sediment. The rock cycle is driven by plate tectonics (providing heat, pressure and uplift) and surface processes (weathering and erosion). No rock is permanent.",
+   "failure_mode": "Students think the rock cycle is a fixed sequence (sedimentary → metamorphic → igneous → sedimentary) rather than a web of possible pathways — miss that any rock type can transform into any other.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the rock cycle is a fixed sequence, students cannot trace alternative pathways (e.g. igneous → sedimentary directly, skipping metamorphic) or understand that rocks can cycle through the same type repeatedly. The web model is essential for understanding Earth as a dynamic system.",
+   "response": "Ask students to trace three different pathways through the rock cycle, starting from the same rock. Each pathway should skip at least one rock type. The variety of possible routes makes the web structure visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Uplift",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The tectonic process that raises rock formed deep underground to Earth's surface, where it is exposed to weathering and erosion. Uplift occurs at convergent boundaries (mountain building) and through isostatic rebound. Without uplift, deeply buried rocks would never re-enter the surface part of the rock cycle. Uplift is what makes the rock cycle a cycle rather than a one-way journey downward.",
+   "failure_mode": "Students do not consider how deep rocks reach the surface — the connection between tectonic uplift and rock exposure is missed.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without uplift, the rock cycle has no return path from depth to surface. Students who miss uplift cannot explain how metamorphic or intrusive igneous rocks — formed kilometres underground — end up at the surface where we can observe them.",
+   "response": "Ask: 'Granite formed kilometres underground. Slate formed under intense pressure deep in the crust. How are both now at the surface?' The answer — tectonic uplift raised them, then erosion exposed them — completes the cycle.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Geological timescale",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The immense time periods over which rock cycle processes operate — typically thousands to hundreds of millions of years. Surface processes (weathering, erosion) operate over thousands to millions of years; deep processes (metamorphism, melting, burial) operate over tens to hundreds of millions of years. Understanding geological timescale is essential for appreciating why rock appears permanent in human experience but is temporary in Earth's history.",
+   "failure_mode": "Students underestimate geological timescales — they think rock cycle processes take hundreds or thousands of years rather than millions, or cannot conceptualise the difference between human and geological time.",
+   "failure_type": "misconception",
+   "why_it_matters": "If timescales are underestimated, students cannot understand why rocks appear permanent (human timescale) yet are temporary (geological timescale). This dual perspective is what makes the rock cycle conceptually challenging — 'no rock is permanent' requires geological-scale thinking.",
+   "response": "Use a proportional timeline: if Earth's history is one year, human civilisation is the last few seconds of December 31st. Rock cycle processes that seem impossibly slow are fast on this scale. The proportion makes geological time tangible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Dichotomous key",
+   "descriptor_code": "AC9S8U04",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "A classification tool that uses a series of paired questions with two possible answers at each step to identify a specimen. In rock identification, dichotomous keys use observable properties — crystal size, grain shape, banding, fossil presence — to classify samples as sedimentary, igneous or metamorphic and identify specific rock types. Each question narrows the possibilities by half.",
+   "failure_mode": "Students follow the key mechanically without understanding why each question discriminates — they get answers without understanding the property-based reasoning behind each branch.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If students follow keys mechanically, they cannot construct their own keys, adapt when a key does not cover their sample, or transfer the classification reasoning to new contexts. The key is a tool for applying formation-property reasoning, not a substitute for it.",
+   "response": "Ask students to explain why each question in the key was chosen — what property does it test and what formation information does that property reveal? Then ask them to construct a key for a different set of samples.",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Sedimentary rock",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Rock formed from broken-down pieces of other rocks that have been squashed and cemented together over millions of years. You can often see layers in sedimentary rock and sometimes find fossils in it.",
+   "example": "Sandstone is sedimentary rock — it formed from sand grains that were deposited in layers, buried and slowly cemented together."
+  },
+  {
+   "term": "Weathering",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "The breaking down of rock into smaller pieces, either by physical forces (like temperature changes cracking the rock) or chemical reactions (like acid rain dissolving minerals). Weathering happens where the rock sits — the pieces do not move yet.",
+   "example": "When water seeps into a crack in a rock and freezes, it expands and breaks the rock apart — that is physical weathering.",
+   "sub_terms": [
+    {
+     "term": "Physical weathering",
+     "definition": "Breaking rock apart using physical forces like freezing water or growing tree roots, without changing what the rock is made of."
+    },
+    {
+     "term": "Chemical weathering",
+     "definition": "Breaking rock apart through chemical reactions, like acid rain slowly dissolving limestone."
+    }
+   ]
+  },
+  {
+   "term": "Erosion",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "The movement of broken rock pieces by water, wind, ice or gravity to a new location. As pieces are carried, they bump into each other and become smaller and rounder.",
+   "example": "River pebbles are smooth and round because they have been tumbled and worn down during erosion — the further they have travelled, the rounder they become.",
+   "sub_terms": [
+    {
+     "term": "Transportation",
+     "definition": "The movement of weathered rock fragments by water, wind, ice or gravity — the erosion step between weathering and deposition."
+    }
+   ]
+  },
+  {
+   "term": "Deposition",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "When sediment that has been carried by water, wind or ice settles and builds up in a new place. Each time sediment settles, it forms a new layer on top of the previous one.",
+   "example": "At the mouth of a river, the water slows down and drops the sediment it was carrying — layer after layer builds up over time."
+  },
+  {
+   "term": "Lithification",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "The process that turns loose sediment into solid rock. The weight of layers above squashes the sediment together (compaction), and minerals dissolved in water crystallise between the grains and glue them together (cementation).",
+   "example": "Sand at the beach is loose — but if it were buried under hundreds of metres of more sand for millions of years, the pressure and mineral cement would turn it into sandstone.",
+   "sub_terms": [
+    {
+     "term": "Compaction",
+     "definition": "The squeezing of sediment layers under the weight of material above, pushing out water and air."
+    },
+    {
+     "term": "Cementation",
+     "definition": "Natural minerals acting as glue between sediment grains, binding them into solid rock."
+    }
+   ]
+  },
+  {
+   "term": "Sediment",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Pieces of broken-down rock, ranging from tiny clay particles to large boulders. Sediment is the raw material that eventually becomes sedimentary rock.",
+   "example": "Sand on a beach, mud at the bottom of a river and gravel in a creek bed are all sediment — broken pieces of rock that have been weathered and transported."
+  },
+  {
+   "term": "Fossil",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "typical",
+   "definition": "The preserved remains or traces of a living thing, almost always found in sedimentary rock. Fossils form when organisms are buried by sediment before they fully break down.",
+   "example": "A shell fossil in limestone tells you that the rock formed in an area that was once underwater, where the shell was buried by sediment millions of years ago."
+  },
+  {
+   "term": "Igneous rock",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Rock formed when molten rock (magma or lava) cools and hardens. The size of the crystals tells you how fast it cooled — big crystals mean slow cooling underground, tiny crystals mean fast cooling at the surface.",
+   "example": "Granite cooled slowly deep underground, which is why you can see large crystals in it. Basalt cooled quickly at the surface, so its crystals are too small to see easily."
+  },
+  {
+   "term": "Magma",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Molten rock that is still underground. When it cools underground, it forms igneous rock with large crystals because it cools slowly.",
+   "example": "Granite formed from magma that cooled slowly deep inside Earth — the insulating rock around it kept it warm for a long time, giving big crystals time to grow."
+  },
+  {
+   "term": "Lava",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Molten rock that has reached Earth's surface, usually through a volcanic eruption. It is the same material as magma, but at the surface it cools much faster.",
+   "example": "When lava flows from a volcano and hits the air, it cools rapidly — that is why basalt has tiny crystals you can barely see."
+  },
+  {
+   "term": "Intrusive (igneous)",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Igneous rock that formed underground from slowly cooling magma. The slow cooling gives crystals plenty of time to grow large.",
+   "example": "Granite is intrusive — it formed deep underground where the surrounding rock kept the magma warm, so large crystals had time to grow.",
+   "sub_terms": [
+    {
+     "term": "Granite",
+     "definition": "A common intrusive igneous rock with large, visible crystals of quartz, feldspar and mica, formed from magma cooling slowly deep underground."
+    }
+   ]
+  },
+  {
+   "term": "Extrusive (igneous)",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Igneous rock that formed at Earth's surface from rapidly cooling lava. The fast cooling means crystals have little time to grow, so they are very small or the rock is glassy.",
+   "example": "Obsidian cooled so fast that no crystals had time to form at all — it looks like shiny black glass.",
+   "sub_terms": [
+    {
+     "term": "Basalt",
+     "definition": "A common extrusive igneous rock with fine-grained crystals, formed from lava cooling rapidly at Earth's surface. The most common rock on the ocean floor."
+    },
+    {
+     "term": "Obsidian",
+     "definition": "A volcanic glass formed when lava cools so rapidly that no crystals have time to form, producing a smooth, glassy texture."
+    }
+   ]
+  },
+  {
+   "term": "Crystal size",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "How big the crystals are in an igneous rock. Crystal size tells you how fast the rock cooled — bigger crystals mean slower cooling, smaller crystals mean faster cooling.",
+   "example": "If you find a rock with large visible crystals, you know it cooled slowly underground. If the crystals are tiny, it cooled quickly at the surface.",
+   "sub_terms": [
+    {
+     "term": "Cooling rate",
+     "definition": "How quickly molten rock loses heat and turns solid — slow underground, fast at the surface."
+    },
+    {
+     "term": "Crystallisation",
+     "definition": "The process of crystals forming as molten rock cools and hardens."
+    }
+   ]
+  },
+  {
+   "term": "Metamorphic rock",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "Rock that has been changed by extreme heat and pressure deep underground — but without melting. The minerals get squashed, realigned and recrystallised, making the rock harder and denser than the original.",
+   "example": "Shale is a soft, layered sedimentary rock. Put it under extreme pressure and heat and it becomes slate — harder, denser and with minerals aligned in one direction.",
+   "sub_terms": [
+    {
+     "term": "Metamorphic grade",
+     "definition": "How much heat and pressure a rock experienced — more heat and pressure means bigger changes from the original."
+    }
+   ]
+  },
+  {
+   "term": "Recrystallisation",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "typical",
+   "definition": "When the minerals in a rock reorganise into new crystal arrangements under heat and pressure, without the rock actually melting. This is what happens during metamorphism.",
+   "example": "The calcite crystals in limestone get reorganised under heat and pressure into the interlocking crystals of marble — same mineral, new arrangement."
+  },
+  {
+   "term": "Banding / Foliation",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "The parallel stripes or layers you can see in metamorphic rock, caused by minerals being squashed and lined up in one direction by pressure. This looks similar to layers in sedimentary rock but forms in a completely different way.",
+   "example": "The stripes in schist were created by intense pressure squashing the minerals flat and lining them up — unlike sedimentary layers, which formed from settling sediment."
+  },
+  {
+   "term": "Parent rock",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "typical",
+   "definition": "The original rock that a metamorphic rock formed from. The parent rock determines what the metamorphic rock will be, because the minerals are reorganised, not replaced.",
+   "example": "Limestone is the parent rock of marble — the calcite minerals are the same, but heat and pressure reorganised them into a harder, more crystalline rock."
+  },
+  {
+   "term": "Rock cycle",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "The never-ending set of processes that transform rocks from one type to another over millions of years. Any rock type can become any other type — there is no fixed order. The rock cycle is driven by plate tectonics (providing heat, pressure and uplift) and surface processes (weathering and erosion).",
+   "example": "A piece of granite (igneous) can be weathered into sand, deposited and turned into sandstone (sedimentary), then buried and squeezed into quartzite (metamorphic) — and if it melts, the cycle starts again."
+  },
+  {
+   "term": "Uplift",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "typical",
+   "definition": "When tectonic forces push rock that formed deep underground up toward Earth's surface, where weathering and erosion can reach it. Without uplift, buried rocks would never return to the surface part of the rock cycle.",
+   "example": "The granite in mountain ranges formed deep underground — tectonic forces pushed it up, and then millions of years of erosion wore away the rock above to expose it."
+  },
+  {
+   "term": "Geological timescale",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "minimum",
+   "definition": "The enormous time periods over which rock cycle processes happen — usually millions to hundreds of millions of years. Rocks seem permanent to us, but on Earth's timescale, no rock lasts forever.",
+   "example": "If all of Earth's history were squeezed into one year, all of human civilisation would fit into the last few seconds of December 31st — rock cycle processes that seem impossibly slow are fast on this scale."
+  },
+  {
+   "term": "Dichotomous key",
+   "descriptor_code": "AC9S8U04",
+   "width_tier": "typical",
+   "definition": "A step-by-step identification tool that asks yes/no questions to narrow down what something is. For rocks, each question tests a property like crystal size or layering to work out the rock type.",
+   "example": "A rock identification key might ask: 'Can you see layers?' If yes → could be sedimentary. 'Are there fossils?' If yes → sedimentary. Each question narrows it down."
+  }
+ ]
+}

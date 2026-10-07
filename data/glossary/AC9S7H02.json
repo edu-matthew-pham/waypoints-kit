@@ -1,0 +1,88 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7H02",
+ "teacher_glossary": [
+  {
+   "term": "Cultural perspective",
+   "descriptor_code": "AC9S7H02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A viewpoint shaped by a person's cultural background, personal beliefs and societal context that influences the scientific questions they pursue, the methods they use and how they interpret findings. Cultural perspectives are not sources of bias to be eliminated — they shape which questions are seen as worth asking and which approaches are considered valid, contributing to the breadth of scientific inquiry.",
+   "failure_mode": "Students treat any cultural perspective as automatically introducing bias or error — they assume science is only objective when cultural influence is removed, rather than understanding that all scientists bring perspectives and that this shapes productive inquiry.",
+   "failure_type": "misconception",
+   "why_it_matters": "If perspective equals bias, students cannot make sense of why science benefits from diverse contributors. They dismiss non-Western scientific traditions as inherently less valid and cannot engage with Node 2's requirement to investigate how different knowledge systems contribute genuine understanding.",
+   "response": "Present two scientists whose different cultural backgrounds led them to investigate different questions — both producing valid science. Ask students whether removing cultural perspective would have improved the science, or whether it would have meant the questions were never asked at all.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "World view",
+     "definition": "A broad framework of beliefs, values and assumptions through which a person or culture understands the natural world — shaping what counts as knowledge, what questions matter and what methods are appropriate."
+    },
+    {
+     "term": "Bias",
+     "definition": "In science, a systematic tendency that skews observations, interpretations or conclusions in a particular direction — such as confirmation bias (seeing only evidence that supports existing beliefs) or selection bias (choosing non-representative samples). Bias is distinct from perspective: all scientists bring perspectives that shape their questions, but bias is when those perspectives systematically distort the evidence or conclusions."
+    }
+   ]
+  },
+  {
+   "term": "Knowledge system",
+   "descriptor_code": "AC9S7H02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A structured body of understanding developed within a cultural tradition through sustained observation, practice and transmission across generations. Different knowledge systems — including First Nations Australians' ecological knowledge, Western empirical science and other cultural traditions — ask different questions, use different methods and produce different but genuine insights about the natural world.",
+   "failure_mode": "Students hold a deficit view — they classify cultural knowledge as either 'real science' (if it matches Western methods) or 'not science' (if it doesn't), rather than understanding that different knowledge systems ask different questions and contribute different insights that can inform scientific understanding.",
+   "failure_type": "misconception",
+   "why_it_matters": "The deficit view prevents students from recognising genuine contributions from non-Western knowledge systems. It reduces cultural knowledge to a curiosity rather than a source of scientific insight, blocking the standard's investigative demand to understand how different systems influence scientific knowledge development.",
+   "response": "Compare how two knowledge systems approach the same phenomenon — for example, First Nations classification of organisms (based on ecological relationships and cultural significance) alongside Linnaean taxonomy (based on structural similarities). Ask what each system reveals that the other does not, rather than which is 'more correct.'",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Deficit view",
+     "definition": "The assumption that cultural knowledge is either 'real science' or 'not science' — a binary classification that fails to recognise different knowledge systems as having their own validity and contributions.",
+     "failure_mode": "Students apply the deficit view unconsciously — they praise cultural knowledge as 'interesting' while implicitly ranking Western science as the standard against which other systems are measured.",
+     "failure_type": "misconception",
+     "response": "Ask students to identify what a specific cultural knowledge system reveals that Western science alone did not — forcing recognition of genuine contribution rather than comparative ranking.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Cultural perspective",
+   "descriptor_code": "AC9S7H02",
+   "width_tier": "minimum",
+   "definition": "The way a person's culture, background and beliefs shape the scientific questions they ask and how they investigate them. Every scientist brings a perspective — this isn't a problem, it's part of what makes science ask a wide range of questions.",
+   "example": "David Unaipon's deep cultural knowledge of boomerang aerodynamics led him to investigate flight principles that other scientists hadn't considered, contributing to early ideas about helicopter design.",
+   "sub_terms": [
+    {
+     "term": "World view",
+     "definition": "A big-picture set of beliefs about how the world works that shapes what you think is important and how you make sense of things.",
+     "example": "A world view that sees humans as part of nature leads to different environmental questions than a world view that sees humans as separate from nature."
+    },
+    {
+     "term": "Bias",
+     "definition": "When something consistently pushes your observations or conclusions in one direction without you realising. Bias is different from perspective — having a perspective shapes what questions you ask (which is fine), but bias means your perspective is distorting your evidence or conclusions (which is a problem).",
+     "example": "If a scientist only looks for evidence that supports their hypothesis and ignores evidence against it, that's confirmation bias — their perspective has become a bias that distorts their conclusions."
+    }
+   ]
+  },
+  {
+   "term": "Knowledge system",
+   "descriptor_code": "AC9S7H02",
+   "width_tier": "minimum",
+   "definition": "A way of understanding the natural world that has been built up over a long time within a particular culture or tradition. Different knowledge systems ask different questions and notice different things, so each one can teach us something the others might miss.",
+   "example": "First Nations Australians developed detailed knowledge of seasonal animal behaviour over tens of thousands of years — this knowledge system helps ecologists understand ecosystems in ways that short-term Western studies cannot.",
+   "sub_terms": [
+    {
+     "term": "Deficit view",
+     "definition": "The mistake of judging other cultures' knowledge as either 'proper science' or 'not real science' instead of recognising that different knowledge systems contribute different and valuable insights.",
+     "example": "Saying First Nations ecological knowledge is 'interesting but not really science' is a deficit view — it misses that this knowledge has informed modern conservation practices."
+    }
+   ]
+  }
+ ]
+}

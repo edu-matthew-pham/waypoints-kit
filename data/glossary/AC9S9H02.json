@@ -1,0 +1,94 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9H02",
+ "teacher_glossary": [
+  {
+   "term": "Science-technology relationship",
+   "descriptor_code": "AC9S9H02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The two-directional, iterative relationship between science and technology in which advances in each enable advances in the other. Technology provides tools that make new scientific observations possible; scientific understanding provides the theoretical foundation for new technological development. The relationship is ongoing — not a one-time sequence.",
+   "failure_mode": "Students treat the science-technology relationship as sequential ('science happens first, then technology is built') rather than iterative — they cannot identify cases where technology preceded and enabled the scientific understanding.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the relationship is one-directional, students cannot analyse cases where technology-enabled discovery (e.g. electron microscope enabling cell ultrastructure knowledge) and will misattribute all technological development to prior scientific understanding.",
+   "response": "Present a timeline of a specific domain (e.g. medical imaging) showing how each advance was enabled by the other in alternating sequence. Ask students to identify which direction the relationship operates at each step.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Iterative",
+     "definition": "Repeating in cycles, where each cycle builds on the previous one. In the science-technology relationship, iterative means the process of mutual enablement continues indefinitely — it does not have a final step."
+    },
+    {
+     "term": "Theoretical foundation",
+     "definition": "The scientific understanding that makes a technology conceptually possible — the knowledge of mechanisms, properties or principles that engineers apply when designing a technology."
+    },
+    {
+     "term": "Enabling",
+     "definition": "The specific relationship in which one advance makes another possible that was previously inaccessible. Technology enables science when it opens a domain of observation that was invisible before (e.g. electron microscope enabling cell ultrastructure). Science enables technology when it provides understanding of a mechanism that can be engineered (e.g. understanding EM radiation enabling radar). 'Enables' is stronger than 'helps' — it means the advance could not have occurred without it."
+    }
+   ]
+  },
+  {
+   "term": "Engineering",
+   "descriptor_code": "AC9S9H02",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The application of scientific understanding to design, build and optimise machines, structures, systems and processes. Engineering is distinct from both science (which seeks to understand) and technology (the tools and products) — engineering is the design discipline that uses scientific knowledge to create technological solutions.",
+   "failure_mode": "Students conflate engineering with either science ('they're both about discovery') or technology ('engineering just means building things') — missing that engineering specifically applies scientific principles to solve practical problems.",
+   "failure_type": "misconception",
+   "why_it_matters": "If engineering is indistinguishable from science or technology, students cannot trace the specific pathway by which scientific understanding becomes a technological product — the design and optimisation step is invisible.",
+   "response": "Use a specific example (e.g. cochlear implant) and ask students to identify separately: what science was needed, what engineering decisions were made, and what technology resulted. The three-way distinction becomes visible through the case.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Energy efficiency",
+     "definition": "The ratio of useful energy output to total energy input in a machine or process, often expressed as a percentage. Engineering design applies scientific understanding of energy conservation to maximise useful energy output and minimise waste."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Science-technology relationship",
+   "descriptor_code": "AC9S9H02",
+   "width_tier": "minimum",
+   "definition": "The two-way connection between science and technology, where each helps the other advance. New technology lets scientists make discoveries they couldn't before, and new scientific understanding lets engineers build technology that didn't exist before. This keeps going back and forth — it doesn't stop.",
+   "example": "Understanding electromagnetic radiation (science) led to X-ray machines (technology), which then let doctors discover new things about the human body (more science), which led to better imaging like MRI (more technology).",
+   "sub_terms": [
+    {
+     "term": "Iterative",
+     "definition": "Repeating in cycles, each time building on what came before.",
+     "example": "The science-technology relationship is iterative — like a conversation that keeps going, where each reply builds on the last."
+    },
+    {
+     "term": "Theoretical foundation",
+     "definition": "The scientific knowledge that makes a technology possible in the first place.",
+     "example": "Understanding how radio waves work was the theoretical foundation for developing mobile phone technology."
+    },
+    {
+     "term": "Enabling",
+     "definition": "When one advance makes another possible that couldn't have happened without it. Stronger than 'helping' — it means the discovery or invention was impossible before.",
+     "example": "The electron microscope didn't just help scientists study cells — it enabled them to see structures inside cells that were completely invisible before. Without it, that knowledge was inaccessible."
+    }
+   ]
+  },
+  {
+   "term": "Engineering",
+   "descriptor_code": "AC9S9H02",
+   "width_tier": "typical",
+   "definition": "Using scientific knowledge to design and build things that solve practical problems. Engineering is different from science (understanding how things work) and technology (the tools themselves) — it is the design work that connects the two.",
+   "example": "Graeme Clark used scientific knowledge about how nerves carry sound signals to engineer the cochlear implant — the science told him what was possible, and the engineering made it real.",
+   "sub_terms": [
+    {
+     "term": "Energy efficiency",
+     "definition": "How much of the energy put into a machine actually does useful work, rather than being wasted as heat or sound.",
+     "example": "A car engine is only about 25% energy efficient — most of the fuel's energy is lost as heat. Engineers use science to design more efficient engines."
+    }
+   ]
+  }
+ ]
+}

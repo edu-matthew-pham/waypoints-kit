@@ -1,0 +1,379 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U06",
+ "teacher_glossary": [
+  {
+   "term": "Atom",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The smallest unit of an element that retains its chemical identity. At Year 8, the key conceptual move is identifying atoms as the particles in the prior particle model (AC9S7U05) — the undifferentiated particles students already know are now given identity (type). Atoms of the same element are identical; atoms of different elements differ. This is a model — atoms have internal structure, introduced at Year 9 (AC9S9U06).",
+   "failure_mode": "Students think atoms and particles are different things — they maintain two separate mental models rather than understanding that atoms ARE the particles from the particle model.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If atoms and particles are separate concepts, students have a particle model with no identity and an atom concept with no physical model. Connecting the two — 'those particles you know about are atoms, and atoms have type' — is the upgrade that makes element/compound/mixture classification possible.",
+   "response": "Start from the particle model diagrams students already know. Point to a particle and say: 'This is an atom. Now we are adding one new thing — atoms have type.' The upgrade framing prevents fragmentation.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Atom type",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The identity of an atom that determines which element it belongs to. All atoms of the same element are the same type; atoms of different elements are different types. There are approximately 118 known atom types, each corresponding to an element. Atom type is the conceptual extension that transforms the Year 7 particle model from undifferentiated particles into particles with identity.",
+   "failure_mode": "Students treat all atoms as identical — the undifferentiated particle model persists even after atom type is introduced.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all atoms are identical, elements cannot be defined by atom type, compounds cannot be understood as different atom types combined, and the element/compound/mixture classification has no foundation. Atom type is the hinge concept for the entire standard.",
+   "response": "Use coloured particle diagrams where each colour represents a different atom type. Ask: 'What makes oxygen different from carbon?' The answer — different atom type — must be available before element and compound definitions can work.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Particle model",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The scientific model describing matter as composed of particles with specific arrangement, motion and attraction forces. At Year 8, the particle model is upgraded — the previously undifferentiated particles are now identified as atoms with type. The model is not replaced; it is extended. At this level, atoms are treated as indivisible units — internal structure (protons, neutrons, electrons) is introduced at Year 9.",
+   "failure_mode": "Students think the Year 8 model replaces the Year 7 model rather than extending it — they lose the particle arrangement and motion concepts when atom type is added.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If the models are separate, students cannot use particle arrangement (from Year 7) to explain element/compound/mixture differences (Year 8). The upgrade must preserve prior knowledge while adding the new atom-type layer.",
+   "response": "Explicitly frame the Year 8 addition: 'Everything you know about particles — arrangement, motion, attraction — still applies. We are adding one thing: particles have type.' Show the same particle diagrams from Year 7 with atom-type colour added.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Element",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A pure substance consisting of only one type of atom. Elements cannot be broken down into simpler substances by chemical means. Each element has a unique symbol (1–2 letters, first capitalised) standardised internationally and located on the periodic table. There are approximately 118 known elements. Element identity is determined by atom type — carbon is carbon because all its atoms are carbon atoms.",
+   "failure_mode": "Students think elements are rare, laboratory-only substances — miss that common materials (oxygen in air, carbon in pencils, iron in nails) are elements or contain elements.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If elements are abstract laboratory concepts, students cannot connect the classification system to everyday experience. Recognising common materials as elements or compounds of elements grounds the abstraction in familiar reality.",
+   "response": "Present everyday objects and ask students to identify which are elements (aluminium foil, copper wire, gold ring) and which are compounds. The familiar examples make elements concrete rather than abstract.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Chemical symbol",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A one- or two-letter abbreviation representing an element, standardised internationally. The first letter is always capitalised; the second (if present) is always lowercase. Symbols are derived from element names, sometimes from Latin (Fe for iron/ferrum, Au for gold/aurum). Chemical symbols are the building blocks of chemical formulas — students must be able to read and write them fluently.",
+   "failure_mode": "Students write chemical symbols incorrectly — capitalising both letters (CO for cobalt instead of Co) or using incorrect abbreviations — leading to confusion between elements and compounds.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "CO means carbon monoxide (a compound); Co means cobalt (an element). Symbol errors produce meaning errors. Fluent symbol use is a prerequisite for reading and writing chemical formulas.",
+   "response": "Practice the capitalisation rule with tricky examples: Co vs CO, NO vs No. Ask what each represents. The error-prone pairs make the convention meaningful rather than arbitrary.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Periodic table",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A systematic arrangement of all known elements, organised by atomic number (number of protons). Elements in the same column (group) share similar chemical properties. At Year 8, the periodic table is primarily a reference tool — students use it to locate element names and symbols, and to recognise that element properties vary systematically. The arrangement principle (atomic number) is developed further at Year 9.",
+   "failure_mode": "Students see the periodic table as a chart to memorise rather than a tool to read — they try to memorise symbols instead of learning to look them up efficiently.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The periodic table is a reference tool, not a memorisation test. Students who try to memorise it rather than use it cannot locate unfamiliar elements and miss the systematic property patterns that make the table meaningful.",
+   "response": "Set tasks that require looking up unfamiliar elements: 'What is the symbol for tungsten? What group is selenium in?' The practice builds fluency with the table as a tool rather than a test.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Compound",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A substance containing two or more different atom types chemically bonded in a fixed ratio. Compounds have properties that are different from their constituent elements — the properties emerge from the chemical combination, not the components. NaCl (table salt) is edible; Na (sodium) is dangerously reactive and Cl₂ (chlorine) is toxic. Chemical combination is permanent under normal conditions — separating a compound requires a chemical reaction, not physical separation.",
+   "failure_mode": "Students conflate compounds with mixtures — treat both as 'different atoms together' without distinguishing chemical bonding from physical mixing.",
+   "failure_type": "misconception",
+   "why_it_matters": "The compound/mixture distinction is the conceptual boundary between chemical and physical combination. Students who conflate them cannot understand why chemical reactions produce genuinely new substances (AC9S8U07) or apply conservation of mass in reactions (AC9S9U07).",
+   "response": "Compare NaCl properties to Na and Cl₂ properties. Ask: 'Is salt anything like a reactive metal or a toxic gas?' The dramatic property change makes chemical combination concrete — mixing does not produce new properties, but chemical combination does.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Chemical formula",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A compact representation of a compound showing which atom types are present and their ratio, using element symbols and subscript numbers. H₂O means two hydrogen atoms and one oxygen atom per molecule; CO₂ means one carbon and two oxygen atoms. Formulas convey composition (atom types and ratios) but not spatial arrangement — structural formulas and 3D models are needed for that.",
+   "failure_mode": "Students cannot read subscript numbers — they treat H₂O as 'H, 2, O' rather than understanding that the subscript applies to the element immediately before it.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If subscripts cannot be read, students cannot determine atom ratios, cannot balance equations in Year 9, and cannot compare formulas. Formula literacy is the gateway to chemical notation.",
+   "response": "Practice reading formulas aloud: 'H₂O means two hydrogen atoms and one oxygen atom.' Then reverse: 'A molecule with one carbon and two oxygen atoms — write the formula.' Both directions build fluency.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Subscript",
+     "definition": "A small number written below and to the right of an element symbol in a chemical formula, indicating the number of atoms of that element. No subscript means one atom."
+    },
+    {
+     "term": "Fixed ratio",
+     "definition": "The constant proportion of atom types in a compound — water is always H₂O (2:1 hydrogen to oxygen), never H₃O or HO. This distinguishes compounds from mixtures, which have variable composition.",
+     "failure_mode": "Students can read the formula H₂O but do not understand that the 2:1 ratio is invariant — they think you could have 'extra hydrogen' water, treating the ratio as a description rather than a defining constraint.",
+     "failure_type": "misconception",
+     "response": "Ask: 'Can you make water with three hydrogen atoms instead of two?' No — that would be a different substance. The fixed ratio IS what makes it water. Compare with salt water, where you can add more salt without creating a new substance.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Chemical bond",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The strong attraction holding atoms together in a compound. Chemical bonds are what make compounds stable and give them properties different from their constituent elements. At Year 8, bonds are introduced as the mechanism of chemical combination — the detailed nature of bonding (ionic, covalent) is developed at Year 9. Breaking bonds requires energy; this connects to exothermic/endothermic concepts in AC9S8U07.",
+   "failure_mode": "Students think chemical bonds are physical connections like glue or rope — miss that bonds are forces of attraction between atoms, not material links.",
+   "failure_type": "misconception",
+   "why_it_matters": "If bonds are physical links, students cannot understand why bond breaking requires energy, why compounds have new properties, or how bonds form and break during chemical reactions. The force-of-attraction model is essential for Year 9 chemistry.",
+   "response": "Use magnets as an analogy: the attraction holds them together, but there is no physical thread between them. Ask what happens when you pull magnets apart — you need to do work against the attraction. Chemical bonds work similarly.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Mixture",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A combination of two or more substances that are physically combined but not chemically bonded. Components of a mixture retain their individual properties and can be separated by physical means (filtration, evaporation, distillation). Mixtures have variable composition — unlike compounds, the proportions of components can vary. Connects to AC9S7U06's separation techniques.",
+   "failure_mode": "Students think all combinations are compounds — miss that mixing is reversible by physical means because no new substance is formed.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all combinations are compounds, physical separation techniques (AC9S7U06) should not work. The retained-properties, variable-composition, physically-separable criteria are what distinguish mixtures from compounds and explain why separation works.",
+   "response": "Mix salt and sand together. Ask: 'Has a new substance been formed? Can you get the salt and sand back?' Dissolving in water and filtering separates them — the components retained their properties throughout.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Variable composition",
+     "definition": "The property of mixtures having no fixed ratio of components — you can add more salt to salt water and it is still salt water, unlike compounds which have fixed ratios."
+    },
+    {
+     "term": "Physical separation",
+     "definition": "Methods that separate mixture components using physical properties (boiling point, solubility, particle size) rather than chemical reactions. Connects to AC9S7U06."
+    }
+   ]
+  },
+  {
+   "term": "Solution",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A mixture in which one substance (the solute) is dissolved in another (the solvent), forming a uniform, transparent mixture. The solute particles are evenly distributed among solvent particles at the molecular level. Solutions cannot be separated by filtering because the solute particles are too small — evaporation or distillation is required.",
+   "failure_mode": "Students think dissolving is a chemical change because the solid 'disappears' — miss that the solute particles are still present, just dispersed among solvent particles.",
+   "failure_type": "misconception",
+   "why_it_matters": "If dissolving is a chemical change, salt water is a compound rather than a mixture. This error collapses the compound/mixture distinction and contradicts the separation evidence (evaporating salt water recovers the salt).",
+   "response": "Dissolve salt in water, then evaporate the water. Ask: 'If a new substance was formed, how did we get the salt back unchanged?' The recovery demonstrates that dissolving is physical, not chemical.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Suspension",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A mixture in which solid particles are dispersed in a liquid but are large enough to settle over time and to be removed by filtering. Suspensions are visibly cloudy because the particles are large enough to scatter light. Muddy water is a common example — the sediment settles if left undisturbed.",
+   "failure_mode": "Students confuse suspensions with solutions — if both are 'stuff in liquid,' the distinction between dissolved (molecular-level) and suspended (visible particles) is missed.",
+   "failure_type": "misconception",
+   "why_it_matters": "The solution/suspension distinction determines which separation technique works — filtering separates suspensions but not solutions. If students confuse them, they cannot select appropriate separation methods.",
+   "response": "Compare salt water (solution — clear, passes through filter) with muddy water (suspension — cloudy, trapped by filter). The filter test makes the particle-size distinction observable.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Colloid",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A mixture in which particles are larger than in a solution but smaller than in a suspension — they remain dispersed and do not settle. Colloids often appear cloudy or opaque and cannot be separated by simple filtering. Milk, fog and gelatin are common examples. Colloids sit between solutions and suspensions in particle size.",
+   "failure_mode": "Students cannot distinguish colloids from solutions or suspensions — the intermediate particle size makes classification difficult.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Colloids demonstrate that mixture classification is a continuum based on particle size, not a simple binary. Understanding the continuum helps students select appropriate separation techniques and recognise why some methods fail for colloids.",
+   "response": "Present solution, colloid and suspension side by side (salt water, milk, muddy water). Test each with a filter and a light beam (Tyndall effect). The comparative approach makes the particle-size continuum visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Particle diagram",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "A diagram showing the arrangement of atoms or molecules in a substance using circles to represent atoms, with different colours or sizes for different atom types. Particle diagrams show whether atoms are bonded (compound — atoms connected) or unbonded (mixture — atoms of different types present but not connected). They make the compound/mixture distinction visible at the model level.",
+   "failure_mode": "Students draw particle diagrams without distinguishing bonded from unbonded particles — elements, compounds and mixtures all look the same in their diagrams.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If particle diagrams do not show the bonded/unbonded distinction, the visual representation fails to convey the key difference between compounds and mixtures. The diagram should make classification visible — bonded = compound; unbonded = mixture.",
+   "response": "Draw diagrams of the same atoms in two arrangements: bonded in fixed ratios (compound) and unbonded in variable proportions (mixture). Ask students to identify which is which and explain what the diagram shows.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Structural formula",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "A 2D representation of a molecule showing which atoms are bonded to which, using lines to represent bonds. Structural formulas show bonding connections and arrangement that molecular formulas do not — H₂O could be H-O-H or H-H-O; the structural formula shows it is H-O-H. They are intermediate between compact molecular formulas and full 3D models.",
+   "failure_mode": "Students confuse structural formulas with particle diagrams — miss that structural formulas show specific bonding connections between atoms, not just relative positions.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If structural formulas and particle diagrams are the same, students cannot read bonding information from the representation. The line = bond convention is the new information structural formulas provide beyond particle diagrams.",
+   "response": "Present the same molecule as a molecular formula (H₂O), a particle diagram and a structural formula (H-O-H). Ask what new information each representation adds. The structural formula adds bonding connections that the others do not show.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Molecular model",
+   "descriptor_code": "AC9S8U06",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "A 3D physical or digital representation of a molecule showing spatial arrangement, bond angles and relative atom sizes. Molecular models reveal information that 2D representations cannot — bond angles, molecular shape and relative atom sizes. At Year 8, ball-and-stick and space-filling are the two main model types.",
+   "failure_mode": "Students think 3D models are just 'pretty versions' of 2D formulas — miss that 3D models convey spatial information (bond angles, molecular shape) that flat representations cannot.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "If 3D models add nothing beyond aesthetics, students cannot explain why different representations exist or select the most appropriate one for a given purpose. Each representation type exists because it conveys different information.",
+   "response": "Show water as a formula (H₂O), a structural formula (H-O-H) and a 3D model (bent shape, 104.5° angle). Ask what the 3D model shows that the others cannot. The bent shape is invisible in 2D — that is why 3D models exist.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Ball-and-stick model",
+     "definition": "A 3D model using spheres for atoms and sticks for bonds. Shows bond connections and angles clearly but does not represent relative atom sizes accurately."
+    },
+    {
+     "term": "Space-filling model",
+     "definition": "A 3D model using spheres sized proportionally to actual atoms, showing how much space each atom occupies. Shows molecular shape and size realistically but bonds are not visible."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Atom",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "The tiny particles that make up all matter. In Year 7, you learned about particles — now we know those particles are atoms, and different types of atoms make different elements.",
+   "example": "Every piece of gold is made of gold atoms. Every breath of oxygen is made of oxygen atoms. The type of atom determines what the substance is."
+  },
+  {
+   "term": "Atom type",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "What kind of atom something is — each element has its own unique atom type. All atoms of the same element are identical; atoms of different elements are different types.",
+   "example": "Carbon atoms and oxygen atoms are different atom types — that is why carbon (in pencil lead) and oxygen (in air) are completely different substances."
+  },
+  {
+   "term": "Particle model",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "The model you learned in Year 7 that describes matter as made of tiny particles with arrangement, motion and forces between them. In Year 8, we add one thing: those particles are atoms, and atoms have type.",
+   "example": "You already know that particles in a solid are packed tightly and vibrate in place. Now add: those particles are atoms, and if they are all the same type, the solid is an element."
+  },
+  {
+   "term": "Element",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "A pure substance made of only one type of atom. Elements cannot be broken down into simpler substances by any chemical process.",
+   "example": "Copper wire is made of only copper atoms — it is an element. Aluminium foil is made of only aluminium atoms — it is also an element."
+  },
+  {
+   "term": "Chemical symbol",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "A short abbreviation (one or two letters) for an element. The first letter is always a capital; the second is always lowercase. You can look up any element's symbol on the periodic table.",
+   "example": "O = oxygen, Fe = iron, Na = sodium. Be careful: Co means cobalt (one element), but CO means carbon monoxide (a compound of carbon and oxygen)."
+  },
+  {
+   "term": "Periodic table",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A chart that organises all known elements in order. Elements in the same column have similar properties. You use it like a reference tool — look up symbols, names and properties rather than trying to memorise it.",
+   "example": "Need to know the symbol for gold? Find it on the periodic table — it is Au, from the Latin word 'aurum.'"
+  },
+  {
+   "term": "Compound",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "A substance made of two or more different types of atoms chemically bonded together in a fixed ratio. Compounds have completely different properties from the elements they are made of.",
+   "example": "Table salt (NaCl) is a compound — but sodium on its own reacts violently with water, and chlorine is a toxic gas. Combined, they make something safe to eat. That is how different a compound is from its elements.",
+   "sub_terms": [
+    {
+     "term": "Subscript",
+     "definition": "The small number after an element symbol in a formula — it tells you how many atoms of that element. H₂O has a subscript 2 after H, meaning two hydrogen atoms."
+    },
+    {
+     "term": "Fixed ratio",
+     "definition": "Compounds always have the same proportion of atoms — water is always two hydrogen to one oxygen, never anything else."
+    }
+   ]
+  },
+  {
+   "term": "Chemical formula",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "A shorthand way of writing what atoms are in a compound and how many of each. You use element symbols and small numbers (subscripts) to show the ratio.",
+   "example": "CO₂ means one carbon atom and two oxygen atoms bonded together — that is carbon dioxide."
+  },
+  {
+   "term": "Chemical bond",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "The strong force of attraction holding atoms together in a compound. Bonds are not physical links like rope — they are forces, like the invisible pull between magnets.",
+   "example": "In a water molecule, the oxygen atom is bonded to two hydrogen atoms. Breaking those bonds takes energy — that is why you need electricity to split water back into hydrogen and oxygen."
+  },
+  {
+   "term": "Mixture",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "minimum",
+   "definition": "A combination of substances that are mixed together but not chemically bonded. The components keep their own properties and can be separated using physical methods like filtering or evaporating.",
+   "example": "Salt water is a mixture — the salt and water are mixed but not bonded. Evaporate the water and the salt is still there, unchanged.",
+   "sub_terms": [
+    {
+     "term": "Variable composition",
+     "definition": "Mixtures can have different amounts of each component — you can make salt water saltier or less salty, unlike a compound which always has the same ratio."
+    },
+    {
+     "term": "Physical separation",
+     "definition": "Ways of getting mixture components apart using physical properties — filtering, evaporating, distilling."
+    }
+   ]
+  },
+  {
+   "term": "Solution",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A mixture where one substance is completely dissolved in another, making a clear, even mixture. The dissolved substance is spread out so evenly that you cannot see it or filter it out.",
+   "example": "Salt water looks clear because the salt particles are so tiny and spread out that light passes straight through — but the salt is still there."
+  },
+  {
+   "term": "Suspension",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A cloudy mixture where solid particles are floating in a liquid but will eventually settle to the bottom. You can separate them by filtering.",
+   "example": "Muddy water is a suspension — leave it long enough and the dirt settles to the bottom. You can also pour it through a filter and the water comes through clear."
+  },
+  {
+   "term": "Colloid",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A mixture with particles bigger than in a solution but smaller than in a suspension — they stay spread out and do not settle. Colloids are often cloudy or opaque.",
+   "example": "Milk is a colloid — the tiny fat droplets are spread through the water and do not settle, but they make the liquid look white instead of clear."
+  },
+  {
+   "term": "Particle diagram",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A drawing showing how atoms are arranged in a substance, using different colours for different atom types. If atoms are connected, it is a compound; if they are just near each other, it is a mixture.",
+   "example": "In a particle diagram of salt water, you would see NaCl units scattered among water molecules — the Na and Cl are separated but not bonded to the water."
+  },
+  {
+   "term": "Structural formula",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A flat drawing of a molecule that shows which atoms are bonded to which, using lines for bonds. It tells you more than a chemical formula because you can see the arrangement.",
+   "example": "The chemical formula H₂O tells you there are 2 H and 1 O. The structural formula H-O-H tells you both hydrogens are bonded to the oxygen, not to each other."
+  },
+  {
+   "term": "Molecular model",
+   "descriptor_code": "AC9S8U06",
+   "width_tier": "typical",
+   "definition": "A 3D model of a molecule showing the actual shape, bond angles and relative sizes of atoms. It reveals things that flat drawings cannot — like the bent shape of a water molecule.",
+   "example": "A ball-and-stick model of water shows that the molecule is bent, not straight — the two hydrogen atoms sit at an angle from the oxygen. You cannot see this in a flat formula.",
+   "sub_terms": [
+    {
+     "term": "Ball-and-stick model",
+     "definition": "A 3D model using balls for atoms and sticks for bonds — good for seeing bond angles."
+    },
+    {
+     "term": "Space-filling model",
+     "definition": "A 3D model where atoms are shown at their real relative sizes — good for seeing how much space a molecule takes up."
+    }
+   ]
+  }
+ ]
+}

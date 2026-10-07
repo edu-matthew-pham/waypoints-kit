@@ -1,0 +1,186 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I03",
+ "teacher_glossary": [
+  {
+   "term": "Precision",
+   "descriptor_code": "AC9S7I03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The degree of refinement in a measurement — how finely a piece of equipment can distinguish between values. A thermometer marked in 0.1°C increments is more precise than one marked in 1°C increments. Precision is about the resolution of the measurement instrument, not about whether the measurement is correct (which is accuracy). Selecting equipment with appropriate precision for the investigation is a key planning decision.",
+   "failure_mode": "Students use precision and accuracy interchangeably — they say a measurement is 'precise' when they mean it is close to the expected value, or they call results 'accurate' when they mean the measurements are consistent.",
+   "failure_type": "misconception",
+   "why_it_matters": "The precision–accuracy conflation prevents students from diagnosing measurement quality. Precise measurements can be inaccurate (consistently off-target); accurate measurements can be imprecise (scattered around the true value). Each requires a different response — better equipment for precision, better calibration for accuracy.",
+   "response": "Use the target analogy alongside real data: precise = tightly clustered measurements; accurate = centred on the true value. Present data sets where one is precise but not accurate, and vice versa, and ask students to diagnose each.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Measurement range",
+     "definition": "The span of values a piece of equipment can measure — its minimum and maximum readings. Selecting equipment requires matching the measurement range to the expected values in the investigation.",
+     "failure_mode": "Students select equipment without checking whether it can measure the expected values — using a 10 mL measuring cylinder for 500 mL of liquid, or a thermometer that reads to 50°C for a boiling investigation.",
+     "failure_type": "fragile_skill",
+     "response": "Before selecting equipment, ask students to estimate the expected measurement range for their investigation and then check whether their chosen equipment covers that range. The estimation step prevents mismatches.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Digital tool",
+     "definition": "Electronic equipment used to generate, record or analyse data — including digital sensors, data loggers, identification apps and digital scales. Digital tools can improve measurement precision or efficiency but are not automatically superior to analogue alternatives in all contexts.",
+     "failure_mode": "Students overgeneralise that digital tools are always more precise than manual alternatives — they choose digital by default without evaluating whether the digital tool actually offers a precision advantage for their specific measurement task.",
+     "failure_type": "misconception",
+     "response": "Present a measurement task where an analogue tool is more appropriate (e.g. a hand lens for field observation vs a digital sensor) alongside one where digital is clearly better (e.g. a data logger for temperature over 24 hours). Ask students to justify the choice in each case.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Accuracy",
+     "definition": "How close a measurement is to the true or accepted value. Accuracy is distinct from precision — a measurement can be precise (consistent, finely resolved) without being accurate (close to the true value), and vice versa. Improving accuracy typically requires better calibration or technique, while improving precision requires better equipment."
+    },
+    {
+     "term": "Thermometer",
+     "definition": "An instrument for measuring temperature. Thermometers vary in measurement range (e.g. -10°C to 110°C) and precision (marked in 1°C or 0.1°C increments). Selecting the right thermometer requires matching both range and precision to the investigation's needs."
+    },
+    {
+     "term": "Measuring cylinder",
+     "definition": "A tall, narrow graduated container used for measuring liquid volume with greater precision than a beaker. The narrow diameter means small volume changes produce larger changes in liquid height, making the scale easier to read accurately. Available in different sizes (10 mL, 50 mL, 100 mL, 500 mL) — selecting the right size for the expected volume improves measurement precision."
+    },
+    {
+     "term": "Force meter",
+     "definition": "A spring-loaded instrument that measures force in Newtons (N). When a force is applied, the spring extends proportionally and the force is read from a graduated scale. Force meters come in different ranges (e.g. 0–5 N, 0–50 N) — selecting the right range for the expected forces is essential for obtaining meaningful measurements."
+    },
+    {
+     "term": "Analogue",
+     "definition": "Non-digital equipment that displays measurements through physical mechanisms — such as a mercury thermometer, a spring-loaded force meter or a graduated measuring cylinder. Analogue instruments are read directly by the user, which can introduce reading variation but may be more appropriate than digital tools for some measurement tasks."
+    },
+    {
+     "term": "Sensor",
+     "definition": "An electronic device that detects and measures a specific physical quantity — such as temperature, light intensity, pH, humidity or motion — and converts it to a digital reading. Sensors can record data continuously and automatically, making them particularly useful for investigations requiring frequent or precise measurements over time."
+    }
+   ]
+  },
+  {
+   "term": "Data",
+   "descriptor_code": "AC9S7I03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Information systematically collected through observation or measurement during an investigation. Data is distinct from casual observation because it is structured — recorded with correct units, appropriate precision, and in organised formats that enable analysis. At Year 7, data includes quantitative measurements (numbers with units) and qualitative observations (descriptive records).",
+   "failure_mode": "Students treat data recording as an afterthought — they record measurements in running text without units, inconsistent decimal places, or organised structure, producing records that cannot be reliably analysed or compared.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Poorly recorded data cannot be analysed (AC9S7I04–I05) or used to support conclusions (AC9S7I07). Every downstream inquiry skill depends on data that was recorded with enough structure and precision to be usable. Sloppy recording is not a minor issue — it invalidates the entire investigation chain.",
+   "response": "Before data collection begins, require students to set up their recording format — table headers with units, appropriate decimal places based on equipment precision. Check the recording structure before the investigation starts, not after data is already collected poorly.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Data table",
+     "definition": "An organised format for recording data with clearly labelled columns, units, and consistent structure that enables analysis and comparison.",
+     "failure_mode": "Students record data in running text or unstructured lists — missing column headers, units or consistent formatting — producing records that are difficult to read, compare or graph.",
+     "failure_type": "fragile_skill",
+     "response": "Provide a blank table template for early investigations and gradually remove scaffolding. Check: are columns labelled? Are units included? Are decimal places consistent? Each check becomes a habit.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Standard unit",
+     "definition": "An agreed unit of measurement used in science — such as metres (m), grams (g), seconds (s), degrees Celsius (°C) or millilitres (mL). Using standard units ensures measurements can be compared across investigations."
+    },
+    {
+     "term": "Unit conversion",
+     "definition": "Changing a measurement from one unit to another within the same measurement type — such as millilitres to litres, grams to kilograms, or millimetres to metres."
+    },
+    {
+     "term": "Quantitative data",
+     "definition": "Data expressed as numbers with units — obtained through measurement. Quantitative data can be analysed mathematically, graphed and compared numerically. Examples include temperature readings, mass measurements and counts of organisms."
+    },
+    {
+     "term": "Qualitative data",
+     "definition": "Data expressed as descriptions rather than numbers — obtained through systematic observation. Qualitative data records qualities such as colour changes, states of matter, behaviours, textures and sounds. It is as important as quantitative data but requires different recording and analysis approaches."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Precision",
+   "descriptor_code": "AC9S7I03",
+   "width_tier": "minimum",
+   "definition": "How finely a piece of equipment can measure. A more precise thermometer shows smaller differences in temperature. Precision is about the detail in your measurement, not about whether it's correct — that's accuracy.",
+   "example": "A kitchen scale that measures to the nearest gram is less precise than a laboratory balance that measures to 0.01 g. For measuring ingredients at home the kitchen scale is fine, but for a science investigation you might need the more precise balance.",
+   "sub_terms": [
+    {
+     "term": "Measurement range",
+     "definition": "The smallest and largest values a piece of equipment can measure. You need to choose equipment that covers the range you expect in your investigation.",
+     "example": "If you need to measure 500 mL of water, a 100 mL measuring cylinder won't work — its range is too small. You'd need a 500 mL or 1 L cylinder."
+    },
+    {
+     "term": "Digital tool",
+     "definition": "Electronic equipment like sensors, data loggers or apps that can help collect or record data. They're often more precise or efficient, but not always — it depends on the task.",
+     "example": "A data logger that records temperature every minute for 24 hours is better than a person checking a thermometer — but for identifying a plant species in the field, a hand lens might be more useful than an app."
+    },
+    {
+     "term": "Accuracy",
+     "definition": "How close your measurement is to the real answer. This is different from precision, which is about how consistent your measurements are. You can be precise but not accurate — like consistently getting the wrong answer.",
+     "example": "If the true boiling point of water is 100°C and you measure 99.8°C, 100.1°C, 99.9°C — that's both precise (consistent) and accurate (close to 100°C). If you measure 95°C, 95°C, 95°C — that's precise (consistent) but not accurate (too low)."
+    },
+    {
+     "term": "Thermometer",
+     "definition": "An instrument that measures temperature. Different thermometers have different ranges and levels of precision — choose one that covers the temperatures you expect in your investigation.",
+     "example": "A thermometer that only goes to 50°C won't work for measuring boiling water. A thermometer marked in 0.1°C increments is more precise than one marked in 1°C."
+    },
+    {
+     "term": "Measuring cylinder",
+     "definition": "A tall, narrow container with markings on the side for measuring liquid volume precisely. It's more precise than a beaker because its narrow shape means small amounts of liquid make a bigger difference on the scale.",
+     "example": "To measure exactly 35 mL of water, use a measuring cylinder — a beaker's markings are too far apart to be that precise."
+    },
+    {
+     "term": "Force meter",
+     "definition": "A device with a spring inside that measures how much force is being applied, in units called Newtons (N). You hang or push something on it and read the force from the scale.",
+     "example": "To measure the force needed to drag a shoe across a bench, you'd attach a force meter and pull — if it reads 3.5 N, that's the friction force."
+    },
+    {
+     "term": "Analogue",
+     "definition": "Non-digital equipment — things you read with your eyes rather than from a screen, like a glass thermometer or a spring scale.",
+     "example": "A glass thermometer where you read the mercury level is analogue. A digital thermometer that shows the temperature on a screen is digital."
+    },
+    {
+     "term": "Sensor",
+     "definition": "An electronic device that measures things like temperature, light or pH and gives you a digital reading. Sensors can take measurements automatically, which is useful when you need lots of readings over a long time.",
+     "example": "A temperature sensor connected to a data logger can record the temperature every minute for 24 hours — much more practical than a person checking a thermometer 1,440 times."
+    }
+   ]
+  },
+  {
+   "term": "Data",
+   "descriptor_code": "AC9S7I03",
+   "width_tier": "minimum",
+   "definition": "Information you collect during an investigation by measuring or observing. Good data is organised, has correct units, and is recorded carefully enough that you can actually use it later for analysis.",
+   "example": "Writing '25' in your notebook isn't useful data — is it 25°C, 25 mL, 25 cm? Recording '25.0°C' in a labelled data table with the right units and decimal places is proper data.",
+   "sub_terms": [
+    {
+     "term": "Data table",
+     "definition": "An organised table for recording your measurements, with clear column headings and units so the data makes sense.",
+     "example": "A data table for a dissolving investigation might have columns for 'Temperature (°C),' 'Time to dissolve (s)' and 'Trial number' — each measurement goes in the right cell."
+    },
+    {
+     "term": "Standard unit",
+     "definition": "The agreed units scientists use for measurement, like metres, grams, seconds and degrees Celsius.",
+     "example": "If one person measures length in centimetres and another in inches, their results can't be easily compared — using standard units like metres solves this."
+    },
+    {
+     "term": "Unit conversion",
+     "definition": "Changing a measurement from one unit to another — like converting millilitres to litres or grams to kilograms.",
+     "example": "If your measuring cylinder reads 250 mL but your data table needs litres, you convert: 250 mL = 0.25 L."
+    },
+    {
+     "term": "Quantitative data",
+     "definition": "Data that uses numbers and units — things you can measure, count and calculate with.",
+     "example": "The water temperature was 45.2°C, the plant grew 12 cm, there were 7 birds in the tree — all quantitative."
+    },
+    {
+     "term": "Qualitative data",
+     "definition": "Data that describes what you observe in words — things like colours, textures, smells and behaviours.",
+     "example": "The solution turned cloudy, the leaves felt waxy, the insect moved in circles — all qualitative. These observations are just as important as numbers."
+    }
+   ]
+  }
+ ]
+}

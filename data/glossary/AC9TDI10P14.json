@@ -1,0 +1,192 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P14",
+ "teacher_glossary": [
+  {
+   "term": "Digital footprint",
+   "descriptor_code": "AC9TDI10P14",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The trail of data a person generates through their digital activities — including browsing history, social media posts, app usage, location data, purchase records, and metadata. A digital footprint accumulates over time and across services, often creating a more detailed profile than any single service holds alone.",
+   "failure_mode": "Students underestimate the scope of digital footprints — they think of explicit posts and uploads but miss passive data collection (location tracking, browsing history, metadata) that happens without active user input.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Evaluating digital solutions against the APPs requires understanding what data is actually collected — not just what users consciously provide. Students who miss passive collection cannot audit a system's privacy compliance.",
+   "response": "Have students list all the data they think an app collects, then review the app's actual privacy policy or data export. The gap between assumed and actual collection makes the full footprint visible.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "APP critique",
+     "definition": "Evaluating a digital system's data practices against specific Australian Privacy Principles — identifying where the system complies and where it potentially violates requirements.",
+     "failure_mode": "Students critique privacy by opinion ('it feels creepy') rather than against specific APP requirements ('APP 3 requires collection to be limited to what is necessary — this system collects location data with no stated purpose').",
+     "failure_type": "flawed_reasoning",
+     "response": "Require students to reference specific APP numbers in their critique. 'This violates APP 3 because...' is analysis; 'this feels wrong' is opinion. The APP-reference requirement grounds critique in law.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "GDPR",
+     "definition": "The European Union's General Data Protection Regulation — a more restrictive data protection framework than the APPs that applies to any system serving EU users. Useful as a comparison point for evaluating Australian privacy standards."
+    }
+   ]
+  },
+  {
+   "term": "Cryptographic hashing (password)",
+   "descriptor_code": "AC9TDI10P14",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The application of hashing specifically to password storage — converting passwords into irreversible hashes before storing them so that even if the database is breached, the actual passwords cannot be recovered. Cross-reference AC9TDI10K01 for general hashing concept. Key distinction: passwords should never be stored in plaintext.",
+   "failure_mode": "Students don't connect password hashing to broader privacy protection — they know passwords should be hashed but cannot explain why plaintext storage is a privacy violation (stored plaintext passwords violate APP 11's requirement to protect personal information from misuse and loss).",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Password hashing is one of the most direct applications of the APPs — APP 11 requires organisations to protect personal information, and storing plaintext passwords is a well-known violation. Students who cannot make this connection cannot evaluate a system's privacy compliance.",
+   "response": "Show two database schemas side by side: one with a plaintext password column, one with a hashed password column. Ask: if an attacker accesses this database, what do they get? The comparison makes the protection mechanism concrete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Plaintext password",
+     "definition": "A password stored as the user typed it — readable by anyone who accesses the database. Plaintext password storage is a fundamental security and privacy failure.",
+     "failure_mode": "Students don't understand why plaintext storage is dangerous — they assume the database itself is secure and don't consider breach scenarios.",
+     "failure_type": "misconception",
+     "response": "Present a data breach scenario: the database is stolen. With hashed passwords, attackers get unusable hashes. With plaintext passwords, attackers get every user's actual password. The breach scenario reveals the risk.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Password reuse attack",
+     "definition": "An attack where credentials stolen from one breached service are used to access other services — exploiting the common practice of using the same password across multiple accounts. Hashing prevents this by ensuring breached hashes cannot be directly used elsewhere."
+    }
+   ]
+  },
+  {
+   "term": "Data minimisation",
+   "descriptor_code": "AC9TDI10P14",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The privacy principle that systems should collect only the data that is necessary for the stated purpose — no more. Data minimisation is derived from APP 3 (collection) and reduces both privacy risk and the impact of potential data breaches. Less data collected means less data to protect and less data to be exposed.",
+   "failure_mode": "Students design systems that collect 'everything available' without justifying why each data point is necessary — they over-collect because data might be useful later, violating the minimisation principle.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Over-collection increases both privacy risk and legal liability. Students who default to collecting everything cannot design APP-compliant systems.",
+   "response": "For every field in the data collection form, ask: what specific purpose does this data serve? If the answer is 'might be useful,' remove it. The purpose-justification test enforces minimisation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Data collection scope",
+     "definition": "The boundaries of what data a system collects — ideally defined by the stated purpose and limited to what is necessary.",
+     "failure_mode": "Students don't define collection scope — they add fields without considering whether the data is necessary or how it will be used.",
+     "failure_type": "flawed_reasoning",
+     "response": "Before adding any field, require: what is this data for? How will it be used? What happens if we don't collect it? The three-question test prevents unnecessary collection.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Anonymisation",
+     "definition": "Removing or obscuring identifying information from data so individuals cannot be identified — enabling data analysis while protecting privacy."
+    }
+   ]
+  },
+  {
+   "term": "Technical control (privacy)",
+   "descriptor_code": "AC9TDI10P14",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A technical mechanism implemented to protect personal information — including encryption, access control, hashing, audit logging, and data segmentation. Technical controls complement organisational controls (policies, training, procedures) to provide comprehensive privacy protection as required by APP 11.",
+   "failure_mode": "Students focus on organisational controls ('we'll have a policy') without implementing technical controls — or vice versa. Effective privacy protection requires both.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Policies without technical enforcement are aspirational — technical controls make privacy protection verifiable and automatic rather than dependent on human compliance.",
+   "response": "Present a privacy policy and ask: which technical controls enforce each requirement? For any requirement without a technical control, ask: what happens when someone doesn't follow the policy? The gap analysis reveals where technical controls are needed.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "PII exposure",
+     "definition": "A situation where personally identifiable information is visible in places it shouldn't be — such as URLs, application logs, API responses, or public-facing pages. PII exposure is often unintentional and discovered through audit rather than user reports.",
+     "failure_mode": "Students don't check for PII in logs, URLs, or error messages — they focus on database security but miss that PII can leak through other channels.",
+     "failure_type": "narrow_repertoire",
+     "response": "Audit the system's URLs, log files, and error messages for any personally identifiable information. The audit exercise surfaces leakage paths students hadn't considered.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Organisational control",
+     "definition": "A non-technical measure for protecting data — including policies, staff training, access procedures, and incident response plans. Organisational controls complement technical controls to provide comprehensive privacy protection."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Digital footprint",
+   "descriptor_code": "AC9TDI10P14",
+   "width_tier": "minimum",
+   "definition": "All the data you leave behind when you use digital services — not just what you post, but also what apps track in the background: your location, what you click on, how long you spend on each page, and what you search for.",
+   "example": "Even if you never post on social media, your digital footprint includes your browsing history, app usage, purchase records, and the GPS trail your phone records.",
+   "sub_terms": [
+    {
+     "term": "APP critique",
+     "definition": "Evaluating a system's privacy practices by checking them against specific Australian Privacy Principles — not just saying 'it feels wrong' but identifying which specific rule it might break.",
+     "example": "'This app collects your location even though it's a calculator — that may violate APP 3, which says you should only collect data necessary for the stated purpose.'"
+    },
+    {
+     "term": "GDPR",
+     "definition": "Europe's data protection law — stricter than Australia's APPs. Useful to compare when thinking about global privacy standards.",
+     "example": "Under GDPR, companies must let you delete all your data if you ask. Australian law doesn't always require this."
+    }
+   ]
+  },
+  {
+   "term": "Cryptographic hashing (password)",
+   "descriptor_code": "AC9TDI10P14",
+   "width_tier": "typical",
+   "definition": "Using hashing specifically to protect stored passwords — converting them into irreversible codes so even if the database is stolen, the actual passwords can't be read. This connects back to the general hashing concept from K01.",
+   "example": "When you create an account, the system hashes your password before storing it. When you log in, it hashes what you typed and compares the hashes — it never stores or compares the actual password.",
+   "sub_terms": [
+    {
+     "term": "Plaintext password",
+     "definition": "A password stored exactly as the user typed it — completely readable by anyone who sees the database. This is a major security failure.",
+     "example": "If a database stores 'p@ssw0rd123' instead of a hash, anyone who accesses the database can read every user's password."
+    },
+    {
+     "term": "Password reuse attack",
+     "definition": "When an attacker takes passwords stolen from one hacked website and tries them on other websites — because many people use the same password everywhere.",
+     "example": "Your password from a hacked gaming site gets tried on your email, bank, and social media accounts — if you used the same password, they're all compromised."
+    }
+   ]
+  },
+  {
+   "term": "Data minimisation",
+   "descriptor_code": "AC9TDI10P14",
+   "width_tier": "typical",
+   "definition": "Only collecting the data you actually need for a specific purpose — and nothing more. The less data you collect, the less damage a breach can cause.",
+   "example": "A weather app needs your location to show forecasts. It does NOT need your name, email, contacts, or browsing history — collecting those would violate data minimisation.",
+   "sub_terms": [
+    {
+     "term": "Data collection scope",
+     "definition": "The boundaries of what data your system collects — ideally only what's needed for the stated purpose.",
+     "example": "If your app helps students track homework, the scope should be: subject, task, due date. It shouldn't include browsing habits or location."
+    },
+    {
+     "term": "Anonymisation",
+     "definition": "Removing identifying details from data so you can analyse patterns without being able to identify specific people.",
+     "example": "Replacing student names with random IDs in survey results so you can analyse trends without knowing who said what."
+    }
+   ]
+  },
+  {
+   "term": "Technical control (privacy)",
+   "descriptor_code": "AC9TDI10P14",
+   "width_tier": "minimum",
+   "definition": "A technical tool or feature that protects personal data — like encryption, access restrictions, password hashing, or audit logs. These make privacy protection automatic rather than relying on people remembering to follow a policy.",
+   "example": "A policy that says 'don't share student data' is an organisational control. Encryption that makes student data unreadable without a key is a technical control — it works even if someone ignores the policy.",
+   "sub_terms": [
+    {
+     "term": "PII exposure",
+     "definition": "When personal information accidentally shows up somewhere it shouldn't — like in a URL, an error message, or a log file.",
+     "example": "If your app shows 'user/john.smith@school.edu/grades' in the URL, that's PII exposure — anyone who sees the URL sees the email address."
+    },
+    {
+     "term": "Organisational control",
+     "definition": "A non-technical way of protecting data — policies, training, and procedures that tell people what they should and shouldn't do.",
+     "example": "A school policy that says 'staff must not email student grades to personal email addresses' is an organisational control."
+    }
+   ]
+  }
+ ]
+}

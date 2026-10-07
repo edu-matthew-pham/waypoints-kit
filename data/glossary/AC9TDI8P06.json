@@ -1,0 +1,95 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P06",
+ "teacher_glossary": [
+  {
+   "term": "Tracing",
+   "descriptor_code": "AC9TDI8P06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Following an algorithm step by step, tracking how variable values change at each step, to predict the output for a given input. Systematic tracing uses a desk check table (columns for input, each variable, and output) to record state changes precisely. Tracing is the foundation for both test case specification and error identification.",
+   "failure_mode": "Students skip steps or track variable values loosely — 'it goes through the loop a few times' — rather than recording each step precisely in a desk check table.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Imprecise tracing misses the exact step where an error occurs. Students cannot identify errors at Node 3 if they cannot trace precisely enough to find the divergence between expected and actual output.",
+   "response": "Require a completed desk check table with every step filled in before students state the output. Check the table row by row — any gap means the trace is incomplete.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Desk check",
+     "definition": "A tabular method for tracing an algorithm: columns for input, each variable, and output; rows for each step. Records the state of the algorithm precisely at every point."
+    }
+   ]
+  },
+  {
+   "term": "Test case",
+   "descriptor_code": "AC9TDI8P06",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A specific input paired with the expected output, used to verify whether an algorithm behaves correctly. Good test cases include normal inputs, edge cases (boundary values, zero, negative numbers), and inputs designed to expose specific error types. Expected output must be stated before tracing — if you don't know what should happen, you can't tell whether the result is wrong.",
+   "failure_mode": "Students only test with inputs that produce correct output — they don't design test cases that deliberately probe boundaries or likely failure points.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Tests that only confirm correct behaviour give false confidence. Edge cases and boundary values are where errors typically surface — students with a narrow testing repertoire miss the errors that matter.",
+   "response": "After students choose test cases, ask: what input would break this algorithm? Could zero cause a problem? A negative number? An empty input? Each prompt adds to the testing repertoire.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Edge case"
+    },
+    {
+     "term": "Boundary value"
+    }
+   ]
+  },
+  {
+   "term": "Error",
+   "descriptor_code": "AC9TDI8P06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A mistake in an algorithm that causes it to produce incorrect output or fail to terminate. Errors are identified by comparing expected output (from the test case) with actual output (from tracing). Common error types at this level include wrong comparison operators, off-by-one loop termination, and misplaced logic within nesting.",
+   "failure_mode": "Students can state that 'the output is wrong' but cannot locate or explain what in the algorithm caused the error — they see the symptom, not the cause.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Identifying that output is wrong is the easy part — explaining why it's wrong and where in the algorithm the error occurs is the diagnostic skill. Without it, students cannot fix errors, only notice them.",
+   "response": "When a student finds an error, ask: at which step does the actual output diverge from the expected? What operation at that step produced the wrong value? The diagnosis must be specific.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Tracing",
+   "descriptor_code": "AC9TDI8P06",
+   "width_tier": "minimum",
+   "definition": "Following an algorithm step by step, keeping track of what every variable equals at each step, to work out what the final output will be. A desk check table helps you record each step precisely.",
+   "example": "For a loop that counts from 1 to 5 and adds each number to a total, you'd track: step 1 total = 1, step 2 total = 3, step 3 total = 6, step 4 total = 10, step 5 total = 15.",
+   "sub_terms": [
+    {
+     "term": "Desk check",
+     "definition": "A table you fill in while tracing, with columns for input, each variable, and output — one row per step.",
+     "example": "A desk check for a change-giving algorithm would track: remaining amount, coin selected, and coins given so far at each step."
+    }
+   ]
+  },
+  {
+   "term": "Test case",
+   "descriptor_code": "AC9TDI8P06",
+   "width_tier": "typical",
+   "definition": "A specific input you choose to test an algorithm, paired with what you expect the output to be. Good test cases include normal inputs, edge cases (like zero or negative numbers), and inputs that might expose errors.",
+   "example": "For a change-giving algorithm: input $1.45, expected output 1×$1 + 2×20c + 1×5c. An edge case test: input $0.00 — should produce no coins.",
+   "sub_terms": [
+    {
+     "term": "Edge case"
+    }
+   ]
+  },
+  {
+   "term": "Error",
+   "descriptor_code": "AC9TDI8P06",
+   "width_tier": "minimum",
+   "definition": "A mistake in an algorithm that makes it produce the wrong output. You find errors by comparing what the algorithm actually does (from tracing) with what it should do (from your test case).",
+   "example": "If your loop runs one too many times because you used 'less than or equal to' instead of 'less than', that's an off-by-one error."
+  }
+ ]
+}

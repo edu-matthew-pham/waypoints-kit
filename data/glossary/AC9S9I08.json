@@ -1,0 +1,158 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I08",
+ "teacher_glossary": [
+  {
+   "term": "Purpose",
+   "descriptor_code": "AC9S9I08",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The reason a scientific text is being created — to inform, to persuade, to report findings, or to propose action. Purpose determines what content is included, how it is structured, and what level of evidence is required. At Year 9, students must identify the purpose before making communication choices, not after.",
+   "failure_mode": "Students produce texts without considering purpose — they default to a single format (usually a report) regardless of what the communication task requires. The text is not shaped by intent; it is shaped by habit.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If purpose does not drive communication choices, students produce texts that are technically correct but functionally inappropriate — a report when a persuasive piece was needed, or a formal text when an accessible one was required. Communication that ignores purpose fails to communicate.",
+   "response": "Before any writing task, require students to state the purpose in one sentence: 'This text is to [inform/persuade/report/propose]. The reader needs to [understand/be convinced/know the findings/take action].' Review the purpose statement before writing begins.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Audience",
+   "descriptor_code": "AC9S9I08",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The intended reader or viewer of a scientific text — including their existing knowledge, their information needs, and the context in which they will encounter the text. Audience determines language register, the amount of background explanation needed, and which technical terms require definition. At Year 9, students must adjust their communication for different audiences rather than writing for a single assumed reader.",
+   "failure_mode": "Students write for their teacher as the only audience — using a level of assumed knowledge that would exclude non-specialists, or conversely, over-explaining to specialists. They do not adjust for the actual stated audience.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If the audience is always the teacher, students develop only one communication mode. This limits their ability to communicate science outside the classroom — to community groups, policy makers, younger students or the general public — which is a core function of scientific literacy.",
+   "response": "Assign the same content to two different audiences (e.g. write about climate data for a scientific conference and for a local newspaper). The forced comparison makes audience-driven choices visible and deliberate.",
+   "response_type": "repertoire_building"
+  },
+  {
+   "term": "Scientific investigation report",
+   "descriptor_code": "AC9S9I08",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A formal written account of a scientific investigation with a defined structure: a background paragraph referencing relevant scientific knowledge, a results section that explains findings using scientific knowledge (not just states what happened), and a discussion that evaluates the validity and reproducibility of the method. The report communicates not just what was found but why it matters and how confident we should be in it.",
+   "failure_mode": "Students write the results section as a description of what happened ('the temperature went up') rather than an explanation using scientific knowledge ('the temperature increased because kinetic energy of particles increased'). The discussion section becomes 'we could have been more accurate' rather than a genuine validity and reproducibility analysis.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A report that describes without explaining and discusses without analysing fails its purpose as a scientific document. The results-explanation distinction and the validity-discussion depth are the specific features that make a Year 9 report different from a Year 7 one — without them, the writing has not progressed.",
+   "response": "Provide a checklist for each section: Background — 'Does it reference the scientific knowledge needed to understand the investigation?' Results — 'Does it explain WHY, not just WHAT?' Discussion — 'Does it identify specific validity or reproducibility issues in this method?' Require students to self-assess against the checklist before submission.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Background paragraph",
+     "definition": "The opening section of a report that provides the scientific context for the investigation — referencing the relevant scientific knowledge that the investigation builds on or tests. It is not a description of what you did; it is why the investigation matters scientifically."
+    },
+    {
+     "term": "Results explanation",
+     "definition": "The section of a report that uses scientific knowledge to explain why the results occurred — not just what happened. 'The reaction was faster' is a result; 'the reaction was faster because higher temperature increases particle kinetic energy and collision frequency' is a results explanation."
+    },
+    {
+     "term": "Validity and reproducibility discussion",
+     "definition": "The section of a report that evaluates specific strengths and limitations of the method — identifying actual threats to validity and reproducibility in this investigation, not generic statements like 'we could have been more accurate.'"
+    }
+   ]
+  },
+  {
+   "term": "Text features",
+   "descriptor_code": "AC9S9I08",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The structural and language elements selected when constructing a text — including content selection (what to include and exclude), language choices (register, terminology, sentence structure), visual elements (diagrams, graphs, images) and structural features (headings, paragraphs, captions). At Year 9, text feature selection must be purpose- and audience-driven.",
+   "failure_mode": "Students include text features by default rather than by design — they add diagrams because 'reports have diagrams' rather than because the diagram communicates something the text cannot. Feature selection is habitual rather than strategic.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If text features are habitual rather than purposeful, students cannot adapt their communication for different contexts. Every text looks the same regardless of purpose and audience — the communication choices that define effective scientific writing are absent.",
+   "response": "For each text feature included, ask: 'Why this feature? What does it communicate that the text alone cannot? Would the audience need this?' If the feature cannot be justified, it should be reconsidered.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Register",
+     "definition": "The level of formality and technicality in language, adjusted for purpose and audience. Scientific register uses precise terminology and formal structure; conversational register uses everyday language and simpler structure. Shifting register deliberately is the skill — students must be able to write in both, not just the one they default to.",
+     "failure_mode": "Students write in a single register regardless of audience — either always formal-scientific (alienating non-specialist readers) or always casual (losing precision for specialist readers). They cannot deliberately shift register when the audience changes.",
+     "failure_type": "narrow_repertoire",
+     "response": "Ask students to write the same finding in two registers — one for a journal and one for a Year 6 student. The forced shift makes register a conscious choice rather than a default.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Scientific language",
+     "definition": "Precise technical terminology appropriate to the subject and year level. At Year 9, students are expected to use scientific terms correctly and explain them when writing for non-specialist audiences.",
+     "failure_mode": "Students either avoid scientific terms entirely (writing in everyday language that loses precision) or use them as decoration without understanding their meaning — inserting technical words to sound scientific without connecting them to their definitions.",
+     "failure_type": "fragile_skill",
+     "response": "For each scientific term a student uses, ask: 'Can you explain what this means in your own words?' If they cannot, the term is decoration and needs to be either understood or replaced with language they can explain.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Culturally responsive communication",
+     "definition": "Communication that considers cultural sensitivities, avoids offensive narratives, language or imagery, and follows cultural protocols when discussing First Nations Australians' knowledges. Culturally responsive communication is an active design choice, not a restriction — it shapes content and language to be respectful and accurate."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Purpose",
+   "descriptor_code": "AC9S9I08",
+   "width_tier": "minimum",
+   "definition": "The reason you're writing — to inform, persuade, report your findings, or propose an action. Your purpose decides what you include, how you write it, and how detailed you need to be.",
+   "example": "A lab report has the purpose of reporting findings with evidence. A social media post about the same topic has the purpose of informing the public in an accessible way. Same science, different purpose, different text."
+  },
+  {
+   "term": "Audience",
+   "descriptor_code": "AC9S9I08",
+   "width_tier": "minimum",
+   "definition": "Who you're writing for — including what they already know and what they need from your text. You should adjust your language, detail and structure based on your audience.",
+   "example": "Explaining photosynthesis to your science teacher is different from explaining it to a Year 3 student. Same concept, but you'd use different words, different examples, and different amounts of detail."
+  },
+  {
+   "term": "Scientific investigation report",
+   "descriptor_code": "AC9S9I08",
+   "width_tier": "minimum",
+   "definition": "A formal write-up of your investigation that includes: a background section explaining the science behind it, a results section that explains why things happened (not just what happened), and a discussion that honestly evaluates how good your method was.",
+   "example": "In the results section, don't just write 'the temperature went up.' Write 'the temperature increased because adding energy increased the kinetic energy of the water particles' — explain the science behind what you observed.",
+   "sub_terms": [
+    {
+     "term": "Background paragraph",
+     "definition": "The opening section that explains the science behind your investigation — not what you did, but why it matters and what science is involved.",
+     "example": "If your investigation is about reaction rates, your background would explain particle theory and collision frequency — the science that explains what you're testing."
+    },
+    {
+     "term": "Results explanation",
+     "definition": "Using scientific knowledge to explain why your results happened, not just describing what you saw.",
+     "example": "'The reaction was faster at higher temperatures' is a result. 'The reaction was faster because increased temperature gives particles more kinetic energy, so they collide more frequently and with more force' is a results explanation."
+    },
+    {
+     "term": "Validity and reproducibility discussion",
+     "definition": "An honest evaluation of your method's strengths and weaknesses — identifying specific issues, not just saying 'we could have been more accurate.'",
+     "example": "Instead of 'our results could be more accurate,' write: 'Room temperature varied between trials, which may have affected the reaction rate inconsistently — a water bath would have controlled this variable.'"
+    }
+   ]
+  },
+  {
+   "term": "Text features",
+   "descriptor_code": "AC9S9I08",
+   "width_tier": "minimum",
+   "definition": "The choices you make about what to include in your text — the language, diagrams, headings, structure and level of detail. These should be deliberate choices based on your purpose and audience, not just habits.",
+   "example": "A graph might be essential in a lab report but unnecessary in a social media post. A diagram of a body system might help a Year 6 student but be too basic for a science teacher. Choose features that help your specific audience.",
+   "sub_terms": [
+    {
+     "term": "Register",
+     "definition": "How formal or technical your language is. You need to be able to switch between registers — scientific register for reports and everyday register for public communication.",
+     "example": "Scientific register: 'The exothermic reaction released thermal energy, increasing the temperature of the surrounding water.' Everyday register: 'The reaction gave off heat and warmed up the water.'"
+    },
+    {
+     "term": "Scientific language",
+     "definition": "Precise science terms used correctly — not just thrown in to sound smart. If you use a scientific term, you should be able to explain what it means.",
+     "example": "Writing 'the mitochondria underwent cellular respiration to produce ATP' is only good scientific language if you actually understand what each term means. If you can't explain it, use simpler words."
+    },
+    {
+     "term": "Culturally responsive communication",
+     "definition": "Writing in a way that is respectful of cultural differences and follows protocols when discussing First Nations knowledges — avoiding stereotypes, offensive language or misrepresentation.",
+     "example": "When writing about traditional fire management, acknowledge the specific communities whose knowledge you're discussing and present their knowledge as genuine expertise — not as a curiosity or a footnote."
+    }
+   ]
+  }
+ ]
+}

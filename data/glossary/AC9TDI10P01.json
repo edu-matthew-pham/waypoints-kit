@@ -1,0 +1,273 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P01",
+ "teacher_glossary": [
+  {
+   "term": "Structured data",
+   "descriptor_code": "AC9TDI10P01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Data organised into a predefined format with defined fields, data types, and relationships — enabling systematic storage, validation, and analysis. Structured data includes database records, spreadsheet rows, and form submissions with typed fields.",
+   "failure_mode": "Students create data collection systems without a deliberate schema — fields are ad hoc, data types are inconsistent, and the structure cannot support later analysis or validation.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Poorly structured data cascades through the entire pipeline — automated validation cannot be built on an undefined schema, and analysis produces meaningless results when the structure doesn't match the analytical question.",
+   "response": "Scaffold backward from the question: what do you want to analyse? → what data do you need? → what fields and types capture that? The backward chain prevents ad hoc schema design.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Data type (field)",
+     "definition": "The kind of value a field stores — text, number, date, Boolean, etc. Choosing the correct data type determines what operations are valid on the data.",
+     "failure_mode": "Students use text fields for numeric data (e.g. storing ratings as words), preventing mathematical analysis.",
+     "failure_type": "fragile_skill",
+     "response": "Ask students to calculate the average of their collected data. If the field type is wrong, the calculation fails — making the data type decision consequential.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Data schema",
+     "definition": "The formal specification of a dataset's structure — field names, data types, required vs optional fields, and relationships between tables."
+    },
+    {
+     "term": "Likert scale",
+     "definition": "A rating scale (typically 3, 5, or 7 points) used to capture ordinal data about attitudes or opinions. The number of scale points affects the granularity and statistical usefulness of collected data."
+    }
+   ]
+  },
+  {
+   "term": "Data collection system",
+   "descriptor_code": "AC9TDI10P01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A designed system — such as a form, survey, or sensor interface — that acquires data from users or sources and stores it in a structured format for analysis. The design of the system determines what data is collected, how it is structured, and what analysis is possible.",
+   "failure_mode": "Students jump to building the form without reasoning from the analytical question — producing systems that collect data without a clear purpose, or that cannot answer the question they were designed for.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "A data collection system designed without an analytical question produces data that may be interesting but cannot answer anything specific — downstream validation and analysis inherit the design gap.",
+   "response": "Scaffold the design backward: question → required data → field types → collection interface. Have students write the analytical question before touching the form builder.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Required field",
+     "definition": "A form field that must be completed before submission — ensuring essential data is always collected.",
+     "failure_mode": "Students make all fields optional or all required without considering which data is essential for their analytical question.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask: if this field were empty, could you still answer your research question? Fields where the answer is 'no' must be required.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Automated validation",
+   "descriptor_code": "AC9TDI10P01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Techniques that automatically check whether collected data is correct, complete, and meaningful — including input constraints, rule-based checks, and statistical anomaly detection. Automated validation catches errors that manual review would miss at scale.",
+   "failure_mode": "Students implement surface-level validation (e.g. checking if a field is empty) without thinking about what threats each check addresses — they validate syntax without validating meaning.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Unvalidated data renders all downstream analysis unreliable — students who cannot implement validation collect data they cannot trust, and any conclusions built on bad data are meaningless.",
+   "response": "Scaffold from the threat: what could go wrong with this data? → how would you detect it? → how would you implement that detection? The threat-first chain ensures each validation rule has a purpose.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Validation rule",
+     "definition": "A specific check applied to data — such as range constraints, type checks, format requirements, or cross-field consistency rules."
+    },
+    {
+     "term": "Input constraint",
+     "definition": "A restriction applied at the user interface level that prevents invalid data from being entered — such as dropdown menus, date pickers, or number-only fields."
+    },
+    {
+     "term": "Outlier (validation)",
+     "definition": "A data point that falls far outside the expected range, which may indicate an error, a fraudulent entry, or a genuinely unusual observation.",
+     "failure_mode": "Students treat all outliers as errors to be removed, rather than investigating whether each outlier is an error or a genuine extreme value.",
+     "failure_type": "flawed_reasoning",
+     "response": "Present a dataset with both error outliers and genuine extreme values. Ask students to decide which to keep and which to remove, justifying each decision.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Bias (data collection)",
+     "definition": "Systematic skew in collected data caused by the collection method, sample, or instrument — producing data that does not accurately represent the population or phenomenon being studied.",
+     "failure_mode": "Students do not recognise bias in their collected data — they assume the data is representative because 'everyone could respond' without examining who actually did.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask students to profile their respondents: who responded? Who didn't? Are the two groups likely to differ? The respondent profile makes invisible bias visible.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Zero problem (training data)",
+     "definition": "The situation where a predictive model has no training examples for a valid input category — causing it to misclassify all instances of that category. For example, a model trained on horses but not zebras will classify all zebras as horses."
+    }
+   ]
+  },
+  {
+   "term": "Australian Privacy Principles (APPs)",
+   "descriptor_code": "AC9TDI10P01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The set of legal principles under the Australian Privacy Act 1988 that govern how organisations collect, use, disclose, store, and provide access to personal information. Key principles relevant to digital systems include: limiting collection to what is necessary, using data only for the stated purpose, securing stored data, and providing individuals with access to their data.",
+   "failure_mode": "Students treat privacy as a vague ethical obligation ('don't share data') rather than a set of specific legal requirements — they cannot identify which APP applies to a given data practice or explain what compliance requires.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Without specific APP knowledge, students cannot critique existing systems against the framework or design compliant solutions — they default to a single rule ('don't share it') that covers only one principle out of thirteen.",
+   "response": "Present different data practices (collection, use, disclosure, storage, access) and ask students to match each to the relevant APP. The matching activity builds repertoire across the principles rather than defaulting to one.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Personally identifiable information (PII)",
+     "definition": "Data that can identify a specific individual — including name, email, phone number, location data, and biometric data. PII is the primary subject of the APPs.",
+     "failure_mode": "Students have a narrow view of PII — they recognise names and emails but not IP addresses, location data, or device identifiers as personally identifiable.",
+     "failure_type": "narrow_repertoire",
+     "response": "Present a list of data types (name, IP address, browser fingerprint, purchase history, location coordinates) and ask students to classify each as PII or not. Discuss the borderline cases — PII is broader than they assume.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Consent (data)",
+     "definition": "Informed agreement by an individual to the collection, use, or disclosure of their personal information. Valid consent requires that the individual understands what data is being collected and how it will be used."
+    },
+    {
+     "term": "Indigenous data sovereignty",
+     "definition": "The principle that Indigenous peoples have the right to control the collection, ownership, and application of data about their communities, lands, and resources — extending beyond the APPs to include cultural authority over data governance."
+    }
+   ]
+  },
+  {
+   "term": "Data collection method",
+   "descriptor_code": "AC9TDI10P01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A technique for acquiring data — including online surveys, interviews, observation, existing datasets (e.g. ABS), passive collection (browser history, phone logs), and sensor data. Each method has strengths and weaknesses that affect data quality, representativeness, and ethical implications.",
+   "failure_mode": "Students default to online surveys for every data collection need, without considering whether a survey is the best method for their specific question — or whether an existing dataset would be more appropriate.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Survey-only thinking means students cannot evaluate or select the most appropriate method for a given investigation — they miss existing datasets, observational methods, and mixed approaches that could produce better data.",
+   "response": "Present a research question and offer five collection methods. Ask students to evaluate each method's strengths and weaknesses for that specific question and justify their selection. Repeat with a different question where a different method is best.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "ABS (Australian Bureau of Statistics)",
+     "definition": "Australia's national statistical agency, providing publicly available datasets on population, economics, health, and society that can be used as existing data sources for analysis."
+    },
+    {
+     "term": "Mixed-method data collection",
+     "definition": "A data collection approach that combines multiple methods (e.g. survey + interview + existing dataset) to compensate for each individual method's weaknesses."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Structured data",
+   "descriptor_code": "AC9TDI10P01",
+   "width_tier": "minimum",
+   "definition": "Data that's organised into a clear format with specific fields and types — like a spreadsheet with named columns where each column only accepts certain kinds of data.",
+   "example": "A movie review system with fields for 'Title' (text), 'Rating' (number 1-5), and 'Review date' (date) is structured data — each field has a defined type.",
+   "sub_terms": [
+    {
+     "term": "Data type (field)",
+     "definition": "What kind of value a field stores — like text, number, or date. Getting this right determines what you can do with the data later.",
+     "example": "If you store ratings as text ('five' instead of 5), you can't calculate an average."
+    },
+    {
+     "term": "Data schema",
+     "definition": "The blueprint for your data — what fields exist, what type each one is, and which ones are required.",
+     "example": "Before building a survey, you'd plan the schema: name (text, required), age (number, optional), feedback (text, required)."
+    },
+    {
+     "term": "Likert scale",
+     "definition": "A numbered rating scale used in surveys — like rating something from 1 (strongly disagree) to 5 (strongly agree).",
+     "example": "A 5-point Likert scale on a product review lets you calculate average satisfaction scores."
+    }
+   ]
+  },
+  {
+   "term": "Data collection system",
+   "descriptor_code": "AC9TDI10P01",
+   "width_tier": "minimum",
+   "definition": "A system you design to gather data from people or sources — like a survey form, feedback tool, or sensor — and store it in a format you can analyse later.",
+   "example": "A movie review website with a star rating, a text comment box, and a date field is a data collection system — it captures structured data from users.",
+   "sub_terms": [
+    {
+     "term": "Required field",
+     "definition": "A form field that must be filled in — the form won't submit without it.",
+     "example": "An email field marked as required means users can't skip it, ensuring you always have a way to contact them."
+    }
+   ]
+  },
+  {
+   "term": "Automated validation",
+   "descriptor_code": "AC9TDI10P01",
+   "width_tier": "minimum",
+   "definition": "Rules and checks that automatically test whether data is correct and meaningful — catching errors that would be missed if someone had to check every entry manually.",
+   "example": "A validation rule that rejects a star rating of 6 on a 1-5 scale prevents bad data from entering your system automatically.",
+   "sub_terms": [
+    {
+     "term": "Validation rule",
+     "definition": "A specific check — like 'this number must be between 1 and 5' or 'this field can't be empty.'",
+     "example": "A rule that checks email addresses contain an '@' symbol catches obvious typos."
+    },
+    {
+     "term": "Input constraint",
+     "definition": "A restriction built into the form itself — like a dropdown menu that only lets you pick valid options.",
+     "example": "Using a date picker instead of a text box prevents someone from typing 'yesterday' instead of an actual date."
+    },
+    {
+     "term": "Outlier (validation)",
+     "definition": "A data point that's very different from the rest — it might be an error, or it might be a genuinely unusual but real value.",
+     "example": "If most movie ratings are 3-5 stars but one person rates everything 1 star, that's an outlier — is it a troll or a genuinely disappointed viewer?"
+    },
+    {
+     "term": "Bias (data collection)",
+     "definition": "When your data is skewed because of how you collected it — certain groups are overrepresented or underrepresented.",
+     "example": "An online-only survey about internet access will miss the very people who don't have internet — that's collection bias."
+    },
+    {
+     "term": "Zero problem (training data)",
+     "definition": "When a computer model has never seen examples of something that's perfectly valid, so it gets it wrong every time.",
+     "example": "A model trained to recognise dogs and cats has never seen a hamster — so it calls every hamster a cat."
+    }
+   ]
+  },
+  {
+   "term": "Australian Privacy Principles (APPs)",
+   "descriptor_code": "AC9TDI10P01",
+   "width_tier": "minimum",
+   "definition": "The legal rules in Australia that control how organisations handle personal information — what they can collect, how they can use it, how they must protect it, and what access people have to their own data.",
+   "example": "If a school app collects your name and email, the APPs say it can only use that data for the purpose it told you about — not sell it to advertisers.",
+   "sub_terms": [
+    {
+     "term": "Personally identifiable information (PII)",
+     "definition": "Any data that could identify a specific person — not just names and emails, but also things like IP addresses, location data, or even browsing history.",
+     "example": "Your phone's location data is PII because it can reveal exactly where you are and where you've been."
+    },
+    {
+     "term": "Consent (data)",
+     "definition": "When a person agrees to their data being collected, knowing what's being collected and how it'll be used.",
+     "example": "Clicking 'I agree' on a terms of service page is supposed to be consent — but only if you actually understand what you're agreeing to."
+    },
+    {
+     "term": "Indigenous data sovereignty",
+     "definition": "The principle that First Nations communities have the right to control data about their people, land, and culture — going beyond standard privacy laws.",
+     "example": "If a health study collects data in a remote Aboriginal community, the community — not just the researchers — should decide how that data is stored and shared."
+    }
+   ]
+  },
+  {
+   "term": "Data collection method",
+   "descriptor_code": "AC9TDI10P01",
+   "width_tier": "minimum",
+   "definition": "How you gather your data — surveys, interviews, observation, using existing datasets, or collecting it automatically. Different methods suit different questions.",
+   "example": "If you want to know how students feel about school lunches, a survey works well. But if you want to know how much food is wasted, observation would give you better data.",
+   "sub_terms": [
+    {
+     "term": "ABS (Australian Bureau of Statistics)",
+     "definition": "The Australian government's data agency — they publish free datasets on population, health, economics, and more that you can use in your projects.",
+     "example": "Instead of surveying people about population growth, you could download ABS census data that already has the answer."
+    },
+    {
+     "term": "Mixed-method data collection",
+     "definition": "Using more than one data collection method together so the strengths of one make up for the weaknesses of another.",
+     "example": "Combining a survey (to get broad responses) with follow-up interviews (to understand why people answered the way they did)."
+    }
+   ]
+  }
+ ]
+}

@@ -1,16 +1,94 @@
 # Glossaries
 
-Pre-built vocabulary for some subjects. Open the link for the file you need. Each file has `teacher_glossary` (definition, likely misconception, response) and `student_glossary` (plain definition, example). Filter entries by `descriptor_code`; `first_waypoint` says where a term first appears.
+Pre-built vocabulary for some standards, one small file per standard. Each has `teacher_glossary` (definition, likely misconception, response; `first_waypoint` says where a term first appears) and `student_glossary` (plain definition, example, sometimes sub-terms).
 
-If a standard's code isn't listed under any file below, there is no pre-built glossary for it: draft one from the node file.
+If a standard isn't in the table, there is no pre-built glossary for it: draft one from the node file.
 
-| Subject | Years | Terms | Glossary file | Standards covered |
-|---|---|---|---|---|
-| science | 10 | 77 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/science_y10_glossary.json | AC9S10U01, AC9S10U02, AC9S10U03, AC9S10U04, AC9S10U05, AC9S10U06, AC9S10U07 |
-| science | 7 | 36 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/science_y7_8_glossary.json | AC9S7H01, AC9S7H02, AC9S7H03, AC9S7H04, AC9S7I01, AC9S7I02, AC9S7I03, AC9S7I04, AC9S7I05, AC9S7I06, AC9S7I07, AC9S7I08 |
-| science | 7 | 41 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/science_y7_glossary.json | AC9S7U01, AC9S7U02, AC9S7U03, AC9S7U04, AC9S7U05, AC9S7U06 |
-| science | 8 | 120 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/science_y8_glossary.json | AC9S8U01, AC9S8U02, AC9S8U03, AC9S8U04, AC9S8U05, AC9S8U06, AC9S8U07 |
-| science | 9, 10 | 45 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/science_y9_10_glossary.json | AC9S9H01, AC9S9H02, AC9S9H03, AC9S9H04, AC9S9I01, AC9S9I02, AC9S9I03, AC9S9I04, AC9S9I05, AC9S9I06, AC9S9I07, AC9S9I08 |
-| science | 9 | 46 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/science_y9_glossary.json | AC9S9U01, AC9S9U02, AC9S9U03, AC9S9U04, AC9S9U05, AC9S9U06, AC9S9U07 |
-| technologies | 7, 8 | 59 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/digital_tech_y7_8_glossary.json | AC9TDI8K01, AC9TDI8K02, AC9TDI8K03, AC9TDI8K04, AC9TDI8P01, AC9TDI8P02, AC9TDI8P03, AC9TDI8P04, AC9TDI8P05, AC9TDI8P06, AC9TDI8P07, AC9TDI8P08, AC9TDI8P09, AC9TDI8P10, AC9TDI8P11, AC9TDI8P12, AC9TDI8P13, AC9TDI8P14 |
-| technologies | 9, 10 | 95 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/digital_tech_y9_10_glossary.json | AC9TDI10K01, AC9TDI10K02, AC9TDI10K03, AC9TDI10P01, AC9TDI10P02, AC9TDI10P03, AC9TDI10P04, AC9TDI10P05, AC9TDI10P06, AC9TDI10P07, AC9TDI10P08, AC9TDI10P09, AC9TDI10P10, AC9TDI10P11, AC9TDI10P12, AC9TDI10P13, AC9TDI10P14 |
+| Subject | Standard | Terms | Glossary file |
+|---|---|---|---|
+| science | AC9S10U01 | 15 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U01.json |
+| science | AC9S10U02 | 12 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U02.json |
+| science | AC9S10U03 | 7 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U03.json |
+| science | AC9S10U04 | 10 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U04.json |
+| science | AC9S10U05 | 17 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U05.json |
+| science | AC9S10U06 | 10 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U06.json |
+| science | AC9S10U07 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S10U07.json |
+| science | AC9S7H01 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7H01.json |
+| science | AC9S7H02 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7H02.json |
+| science | AC9S7H03 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7H03.json |
+| science | AC9S7H04 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7H04.json |
+| science | AC9S7I01 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I01.json |
+| science | AC9S7I02 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I02.json |
+| science | AC9S7I03 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I03.json |
+| science | AC9S7I04 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I04.json |
+| science | AC9S7I05 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I05.json |
+| science | AC9S7I06 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I06.json |
+| science | AC9S7I07 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I07.json |
+| science | AC9S7I08 | 1 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7I08.json |
+| science | AC9S7U01 | 7 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7U01.json |
+| science | AC9S7U02 | 11 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7U02.json |
+| science | AC9S7U03 | 7 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7U03.json |
+| science | AC9S7U04 | 8 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7U04.json |
+| science | AC9S7U05 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7U05.json |
+| science | AC9S7U06 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S7U06.json |
+| science | AC9S8U01 | 26 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U01.json |
+| science | AC9S8U02 | 17 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U02.json |
+| science | AC9S8U03 | 18 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U03.json |
+| science | AC9S8U04 | 21 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U04.json |
+| science | AC9S8U05 | 9 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U05.json |
+| science | AC9S8U06 | 16 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U06.json |
+| science | AC9S8U07 | 13 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S8U07.json |
+| science | AC9S9H01 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9H01.json |
+| science | AC9S9H02 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9H02.json |
+| science | AC9S9H03 | 1 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9H03.json |
+| science | AC9S9H04 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9H04.json |
+| science | AC9S9I01 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I01.json |
+| science | AC9S9I02 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I02.json |
+| science | AC9S9I03 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I03.json |
+| science | AC9S9I04 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I04.json |
+| science | AC9S9I05 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I05.json |
+| science | AC9S9I06 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I06.json |
+| science | AC9S9I07 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I07.json |
+| science | AC9S9I08 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9I08.json |
+| science | AC9S9U01 | 9 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U01.json |
+| science | AC9S9U02 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U02.json |
+| science | AC9S9U03 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U03.json |
+| science | AC9S9U04 | 9 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U04.json |
+| science | AC9S9U05 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U05.json |
+| science | AC9S9U06 | 9 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U06.json |
+| science | AC9S9U07 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9S9U07.json |
+| technologies | AC9TDI10K01 | 14 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10K01.json |
+| technologies | AC9TDI10K02 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10K02.json |
+| technologies | AC9TDI10K03 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10K03.json |
+| technologies | AC9TDI10P01 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P01.json |
+| technologies | AC9TDI10P02 | 8 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P02.json |
+| technologies | AC9TDI10P03 | 8 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P03.json |
+| technologies | AC9TDI10P04 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P04.json |
+| technologies | AC9TDI10P05 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P05.json |
+| technologies | AC9TDI10P06 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P06.json |
+| technologies | AC9TDI10P07 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P07.json |
+| technologies | AC9TDI10P08 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P08.json |
+| technologies | AC9TDI10P09 | 6 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P09.json |
+| technologies | AC9TDI10P10 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P10.json |
+| technologies | AC9TDI10P11 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P11.json |
+| technologies | AC9TDI10P12 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P12.json |
+| technologies | AC9TDI10P13 | 7 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P13.json |
+| technologies | AC9TDI10P14 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI10P14.json |
+| technologies | AC9TDI8K01 | 7 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8K01.json |
+| technologies | AC9TDI8K02 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8K02.json |
+| technologies | AC9TDI8K03 | 5 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8K03.json |
+| technologies | AC9TDI8K04 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8K04.json |
+| technologies | AC9TDI8P01 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P01.json |
+| technologies | AC9TDI8P02 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P02.json |
+| technologies | AC9TDI8P03 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P03.json |
+| technologies | AC9TDI8P04 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P04.json |
+| technologies | AC9TDI8P05 | 4 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P05.json |
+| technologies | AC9TDI8P06 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P06.json |
+| technologies | AC9TDI8P07 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P07.json |
+| technologies | AC9TDI8P08 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P08.json |
+| technologies | AC9TDI8P09 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P09.json |
+| technologies | AC9TDI8P10 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P10.json |
+| technologies | AC9TDI8P11 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P11.json |
+| technologies | AC9TDI8P12 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P12.json |
+| technologies | AC9TDI8P13 | 2 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P13.json |
+| technologies | AC9TDI8P14 | 3 | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/glossary/AC9TDI8P14.json |

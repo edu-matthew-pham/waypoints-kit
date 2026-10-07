@@ -1,0 +1,270 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7U06",
+ "teacher_glossary": [
+  {
+   "term": "Pure substance",
+   "descriptor_code": "AC9S7U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A substance composed of only one type of particle — either a single element or a single compound. At the particle level, a pure substance has uniform composition throughout: every particle is identical. Pure substances have fixed, predictable physical properties (e.g. a specific melting point).",
+   "failure_mode": "Students classify substances as 'pure' based on appearance or common usage ('pure water from the tap,' 'pure orange juice') rather than applying the particle-level definition — one type of particle throughout.",
+   "failure_type": "misconception",
+   "why_it_matters": "If 'pure' means 'clean' or 'natural,' students cannot distinguish pure substances from homogeneous mixtures at the particle level — and technique selection in Nodes 3–5 depends on knowing what type of mixture is present. This is the Node 1 hinge.",
+   "response": "Present tap water, distilled water and filtered river water. Ask: which is a pure substance? Students must apply the particle-level test (one type of particle only), not appearance. Distilled water is the only pure substance — even 'clean' tap water contains dissolved minerals.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Mixture",
+   "descriptor_code": "AC9S7U06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A substance composed of two or more different types of particles that are physically combined but not chemically bonded. The components of a mixture retain their individual properties and can be separated by physical methods. Mixtures may be homogeneous (uniform throughout) or heterogeneous (visibly different regions).",
+   "failure_mode": "Students think mixtures must be visibly mixed — they classify clear, uniform solutions (saltwater, cordial) as pure substances because the components are not visible. The homogeneous/heterogeneous distinction is the gap.",
+   "failure_type": "misconception",
+   "why_it_matters": "If solutions look pure, students misidentify them and select inappropriate separation techniques. The particle-level distinction — different types of particles mixed together vs one type of particle — is the only reliable test and is directly assessed in success criteria.",
+   "response": "Show particle diagrams for a pure substance and a solution side by side. Both look uniform to the eye, but the diagrams show different particle types in the solution. Ask: how can you tell these apart without a particle diagram? (Answer: test physical properties — a solution has different boiling point, density, etc.)",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Homogeneous mixture",
+     "definition": "A mixture that is uniform throughout — the different particle types are evenly distributed, so every sample has the same composition. Solutions are the most common type. Homogeneous mixtures cannot be distinguished from pure substances by appearance alone.",
+     "failure_mode": "Students confuse homogeneous mixtures with pure substances because both look uniform — the 'homo = same' prefix reinforces the misconception that it's the same as pure.",
+     "failure_type": "misconception",
+     "response": "Draw particle diagrams for a pure substance (all same particles) and a homogeneous mixture (different particles evenly mixed). Ask: both look uniform — what's different at the particle level? The diagram makes the hidden difference visible.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Heterogeneous mixture",
+     "definition": "A mixture where the different components are visibly distinct — different regions have different compositions. Examples include sand and water, oil and vinegar, or a salad. Heterogeneous mixtures can often be separated by simple physical methods.",
+     "failure_mode": "Students think all mixtures are heterogeneous — that you should always be able to see the different parts. They miss that homogeneous mixtures exist and look uniform.",
+     "failure_type": "narrow_repertoire",
+     "response": "Present a range: sand in water (heterogeneous — visible), saltwater (homogeneous — invisible), oil and vinegar (heterogeneous), cordial (homogeneous). Ask students to sort. The clear solutions are the key cases.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Solution",
+     "definition": "A homogeneous mixture in which one substance (the solute) is dissolved in another (the solvent). The solute particles are evenly distributed among the solvent particles at the molecular level, making the mixture uniform throughout.",
+     "failure_mode": "Students think dissolving means the solute 'disappears' — they believe the dissolved substance is gone rather than understanding that its particles are spread between the solvent particles and are still present.",
+     "failure_type": "misconception",
+     "response": "Dissolve salt in water, then taste (or evaporate to recover). Ask: if the salt disappeared, where did the taste come from? Where did the white crystals come from when we evaporated? The solute is still there — just spread out.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Solvent",
+     "definition": "The substance in a solution that does the dissolving — typically the component present in the greater amount. Water is the most common solvent.",
+     "failure_mode": "Students confuse solvent and solute — they cannot reliably identify which component dissolves and which is dissolved, especially when the solvent is not water.",
+     "failure_type": "fragile_skill",
+     "response": "Use the mnemonic: the solvent is the substance that 'solves' the problem of mixing — it's the host. In saltwater, water is the solvent (host) and salt is the solute (guest). Practice with multiple examples until the pattern is automatic.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Solute",
+     "definition": "The substance in a solution that is dissolved — typically the component present in the smaller amount. The solute particles are distributed among the solvent particles.",
+     "failure_mode": "Students think the solute ceases to exist when dissolved — 'it's gone now.' This connects to the broader misconception that dissolving means disappearing.",
+     "failure_type": "misconception",
+     "response": "After dissolving a substance, recover it by evaporation. The recovered solute proves it was present all along — dissolved does not mean destroyed.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Separation technique",
+   "descriptor_code": "AC9S7U06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A physical method used to separate the components of a mixture by exploiting differences in their physical properties — such as particle size, boiling point, solubility, or density. The key conceptual principle is that every technique works because the components have different values for a specific physical property.",
+   "failure_mode": "Students apply separation techniques by rote (memorising which technique goes with which mixture) rather than reasoning from property differences — they cannot justify their choice or adapt when given an unfamiliar mixture.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Rote technique selection fails for unfamiliar mixtures — the Node 5 capstone task. The property-technique mapping identified in Node 2's hinge_reason is the conceptual engine for all technique selection. Students who memorise pairings cannot transfer to new scenarios.",
+   "response": "For every technique, require students to name the property difference being exploited before naming the technique. Format: 'The components differ in [property], so I would use [technique] because it separates based on [property].' The property-first reasoning replaces rote recall.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Filtration",
+     "definition": "A separation technique that uses a barrier (filter paper, mesh) to separate insoluble solid particles from a liquid based on particle size. The liquid passes through the filter; the solid particles are too large to pass and are retained.",
+     "failure_mode": "Students confuse filtration with evaporation — both involve separating a solid from a liquid, but filtration separates insoluble solids by particle size while evaporation recovers dissolved solids by removing the liquid.",
+     "failure_type": "misconception",
+     "response": "Present two mixtures: sand in water and salt in water. Ask: which can be filtered? Try filtering both — sand is caught, salt passes through. The comparison makes the insoluble/soluble distinction concrete.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Evaporation",
+     "definition": "A separation technique that removes a liquid from a solution by heating until the liquid evaporates, leaving the dissolved solid behind. Exploits the difference in boiling point between the solvent and solute. At Year 7, this extends the particle-level process from AC9S7U05 to its use as a separation method.",
+     "failure_mode": "Students confuse evaporation with distillation — both use heat to separate, but evaporation discards the vapour while distillation collects it. Students who miss this distinction cannot explain when each is appropriate.",
+     "failure_type": "misconception",
+     "response": "Ask: in evaporation, what happens to the liquid? (It escapes as vapour — we don't collect it.) In distillation, what happens to the vapour? (We cool it and collect it.) The 'what happens to the vapour' question is the key distinction.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Distillation",
+     "definition": "A separation technique that separates liquids with different boiling points by heating the mixture until one component evaporates, then cooling the vapour to collect it as a purified liquid. Unlike evaporation, distillation collects the vapour — it is used when the liquid component is the target product.",
+     "failure_mode": "Students confuse distillation with evaporation because both involve heating — they do not recognise that the critical difference is whether the vapour is collected (distillation) or discarded (evaporation).",
+     "failure_type": "misconception",
+     "response": "Compare the equipment: evaporation uses an open dish (vapour escapes); distillation uses a condenser (vapour is cooled and collected). Ask: when would you want to keep the liquid rather than the solid? That's when you use distillation.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Chromatography",
+     "definition": "A separation technique that separates dissolved components of a mixture based on differences in how they travel through a medium (such as filter paper). Components that are more attracted to the mobile phase travel further; components more attracted to the stationary phase travel less. Used to identify unknown components in a mixture.",
+     "failure_mode": "Students describe chromatography as 'the colours separate on paper' without understanding the mechanism — differential attraction to the stationary and mobile phases that causes components to travel at different rates.",
+     "failure_type": "fragile_skill",
+     "response": "After running a chromatography experiment, ask: why did some colours travel further than others? The answer — different attractions to the paper vs the solvent — is the mechanism. Colours don't 'choose' to separate; they travel at different rates because of property differences.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Volatility",
+     "definition": "A measure of how easily a substance evaporates — how readily its particles escape from the liquid phase into the gas phase. More volatile substances have weaker attractions between particles and lower boiling points. Volatility is the property difference exploited by distillation.",
+     "failure_mode": "Students do not connect volatility to boiling point or particle attractions — they use it as a standalone label without understanding the particle-level mechanism that makes one substance more volatile than another.",
+     "failure_type": "fragmentation",
+     "response": "Compare water and ethanol: ethanol evaporates faster (more volatile) because its particle attractions are weaker, giving it a lower boiling point. Ask: how does this property difference let distillation separate them?",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Crystallisation"
+    },
+    {
+     "term": "Hand-picking"
+    },
+    {
+     "term": "Sieving"
+    },
+    {
+     "term": "Winnowing"
+    },
+    {
+     "term": "Yandying"
+    },
+    {
+     "term": "Cold-pressing"
+    },
+    {
+     "term": "Steam distilling"
+    },
+    {
+     "term": "Rf values"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Pure substance",
+   "descriptor_code": "AC9S7U06",
+   "width_tier": "minimum",
+   "definition": "A substance made of only one type of particle — every particle in it is exactly the same. Pure substances have fixed properties like a specific melting point. 'Pure' in science doesn't mean 'clean' or 'natural' — it means only one type of particle.",
+   "example": "Distilled water is a pure substance — it's made only of water particles. Tap water is not pure in the scientific sense because it contains dissolved minerals alongside the water particles."
+  },
+  {
+   "term": "Mixture",
+   "descriptor_code": "AC9S7U06",
+   "width_tier": "minimum",
+   "definition": "A substance made of two or more different types of particles physically mixed together. The different substances in a mixture keep their own properties and can be separated using physical methods.",
+   "example": "Saltwater is a mixture — salt particles and water particles are mixed together but neither has changed. You can get the salt back by evaporating the water.",
+   "sub_terms": [
+    {
+     "term": "Homogeneous mixture",
+     "definition": "A mixture that looks the same throughout — you can't see the different parts because they're evenly mixed at the particle level. Solutions are the most common type.",
+     "example": "Saltwater looks like pure water — it's clear and uniform. But at the particle level, there are salt particles scattered evenly among the water particles. It's a mixture, even though it looks 'pure.'"
+    },
+    {
+     "term": "Heterogeneous mixture",
+     "definition": "A mixture where you can see the different parts — they're not evenly mixed, so different regions look different.",
+     "example": "A bowl of cereal in milk is a heterogeneous mixture — you can clearly see the cereal pieces and the milk as separate components."
+    },
+    {
+     "term": "Solution",
+     "definition": "A type of mixture where one substance (the solute) is dissolved in another (the solvent) so completely that it looks like one substance. The dissolved substance hasn't disappeared — its particles are just spread out evenly between the other particles.",
+     "example": "When you stir sugar into tea, the sugar dissolves — you can't see it anymore, but you can taste it. The sugar particles are spread evenly among the water particles."
+    },
+    {
+     "term": "Solvent",
+     "definition": "The substance that does the dissolving in a solution — usually the one there's more of. Water is the most common solvent.",
+     "example": "In saltwater, water is the solvent — it's the substance the salt dissolves into."
+    },
+    {
+     "term": "Solute",
+     "definition": "The substance that gets dissolved in a solution — usually the one there's less of. The solute is still present even though you can't see it.",
+     "example": "In saltwater, salt is the solute — it dissolves into the water but is still there (you can taste it, and you can get it back by evaporating the water)."
+    }
+   ]
+  },
+  {
+   "term": "Separation technique",
+   "descriptor_code": "AC9S7U06",
+   "width_tier": "minimum",
+   "definition": "A method for separating the parts of a mixture using differences in their physical properties. Every technique works because the substances in the mixture have different properties — like different boiling points, particle sizes, or solubility.",
+   "example": "You can separate sand from water by filtration because sand particles are bigger than the holes in filter paper but water particles are small enough to pass through — the technique works because of the difference in particle size.",
+   "sub_terms": [
+    {
+     "term": "Filtration",
+     "definition": "Separating an insoluble solid from a liquid by pouring the mixture through filter paper. The solid gets caught in the paper and the liquid passes through. Only works for solids that haven't dissolved.",
+     "example": "You can filter sand out of water because the sand grains are too big to fit through the filter paper. But you can't filter salt out of water because dissolved salt particles are too small — they pass right through."
+    },
+    {
+     "term": "Evaporation",
+     "definition": "Separating a dissolved solid from a liquid by heating the liquid until it evaporates away, leaving the solid behind. You keep the solid and lose the liquid.",
+     "example": "To get salt from saltwater, heat the water until it evaporates. The water turns to steam and escapes, leaving salt crystals behind in the dish."
+    },
+    {
+     "term": "Distillation",
+     "definition": "Separating liquids with different boiling points by heating the mixture so one liquid evaporates first, then cooling the vapour to collect it as a pure liquid. Unlike evaporation, you keep the liquid — you collect the vapour instead of letting it escape.",
+     "example": "To get pure water from saltwater, you distil it: heat the saltwater so the water evaporates, then cool the steam to collect pure liquid water. The salt stays behind."
+    },
+    {
+     "term": "Chromatography",
+     "definition": "Separating dissolved substances by how fast they travel through a material like filter paper. Different substances travel at different speeds because of differences in how they're attracted to the paper vs the liquid.",
+     "example": "Put a dot of black ink on filter paper and dip the edge in water. As the water travels up the paper, you see the ink separate into different colours — the black ink was actually a mixture of different dyes."
+    },
+    {
+     "term": "Volatility",
+     "definition": "How easily a substance evaporates. Substances with weak particle attractions evaporate easily (high volatility) and have low boiling points. Distillation works by exploiting differences in volatility.",
+     "example": "Nail polish remover evaporates much faster than water if you leave both in open dishes — it's more volatile because its particles escape into the air more easily."
+    },
+    {
+     "term": "Crystallisation",
+     "definition": "Separating a dissolved solid from a solution by cooling or evaporating slowly so that the solid forms crystals. Similar to evaporation but done slowly to produce larger, purer crystals.",
+     "example": "Dissolve as much sugar as possible in hot water, then let it cool slowly. Sugar crystals form as the water can hold less dissolved sugar at lower temperatures — this is how rock candy is made."
+    },
+    {
+     "term": "Hand-picking",
+     "definition": "A separation technique used by First Nations Australians and others, where components of a mixture are sorted by hand based on visible differences like colour, size or shape.",
+     "example": "Sorting different types of seeds or removing stones from a grain harvest — the components are visibly different, so you can pick them apart by hand."
+    },
+    {
+     "term": "Sieving",
+     "definition": "Separating particles of different sizes by passing a mixture through a mesh or screen. Smaller particles fall through; larger ones are retained. Similar to filtration but for dry mixtures.",
+     "example": "Sifting flour removes lumps — the fine flour passes through the mesh while larger clumps are caught on top."
+    },
+    {
+     "term": "Winnowing",
+     "definition": "A separation technique that uses wind or airflow to separate lighter particles from heavier ones — exploiting differences in density and surface area. Used by First Nations Australians and cultures worldwide for processing seeds and grains.",
+     "example": "Tossing grain into the air on a windy day — the lighter husks blow away while the heavier grain seeds fall back down. Wind separates them by weight."
+    },
+    {
+     "term": "Yandying",
+     "definition": "A separation technique used by First Nations Australians that uses a shallow dish to separate materials of different densities — heavier particles settle while lighter particles are washed or blown away. Exploits the same property difference as gold panning.",
+     "example": "Using a yandi (shallow wooden dish) to separate seeds from sand and debris — the different densities of the materials allow them to be separated by gentle shaking and tilting."
+    },
+    {
+     "term": "Cold-pressing",
+     "definition": "A separation technique that extracts oils or liquids from plant material by applying mechanical pressure without heat. Used by First Nations Australians and in modern food production.",
+     "example": "Pressing native seeds to extract oil — the mechanical force squeezes the liquid out of the solid plant material without needing to heat it."
+    },
+    {
+     "term": "Steam distilling",
+     "definition": "A form of distillation that uses steam to extract volatile compounds (like essential oils) from plant material. The steam carries the volatile substances, which are then cooled and collected separately. Used by First Nations Australians for extracting medicinal compounds.",
+     "example": "Passing steam through eucalyptus leaves extracts the essential oils — the steam carries the volatile oil particles, which are then cooled and collected as a liquid."
+    },
+    {
+     "term": "Rf values",
+     "definition": "A number used in chromatography that tells you how far a substance travelled compared to how far the solvent travelled. Each substance has a characteristic Rf value, which helps identify unknown components.",
+     "example": "If the solvent front moved 10 cm and a dye spot moved 7 cm, the Rf value is 7/10 = 0.7. You can compare this number to known values to identify the dye."
+    }
+   ]
+  }
+ ]
+}

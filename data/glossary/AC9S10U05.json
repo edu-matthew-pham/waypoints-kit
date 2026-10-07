@@ -1,0 +1,554 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U05",
+ "teacher_glossary": [
+  {
+   "term": "Force",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A push or pull that acts on an object, represented as a vector quantity with both magnitude (measured in newtons) and direction. Forces are classified as contact forces (friction, normal force, applied force) or non-contact forces (gravity, magnetic, electrostatic). At Year 10, force is quantified and enters the relationship F = ma.",
+   "failure_mode": "Students treat force as a scalar — they record magnitude without direction, producing correct numbers but wrong net force calculations when forces oppose each other.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Every quantitative problem in this standard requires directional reasoning. A student who drops direction at N1 produces systematic sign errors in net force (N1), acceleration (N3), F = ma (N4), and free body diagrams (N6).",
+   "response": "Require a labelled arrow for every force before any calculation. Establish the sign convention explicitly (e.g. right = positive) and insist students state it at the top of each problem.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Contact force",
+     "definition": "A force that acts on an object through direct physical touch — friction, normal force, applied force, tension."
+    },
+    {
+     "term": "Non-contact force",
+     "definition": "A force that acts on an object without physical touch — gravity, magnetic force, electrostatic force.",
+     "failure_mode": "Students classify weight as a contact force because the object is touching the ground — they confuse 'the object happens to be in contact with something' with 'the force requires contact to act.' Gravity acts at a distance; it would still pull the object even if the ground disappeared.",
+     "failure_type": "misconception",
+     "response": "Ask: if you hold a ball and let go, what pulls it down? (Gravity.) Was gravity acting on it while you held it? (Yes.) Does gravity need the ground to exist? (No — it acts across empty space.) The held-ball scenario shows gravity acting before any contact.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Applied force",
+     "definition": "A contact force deliberately exerted on an object by a person or another object — a push or pull."
+    }
+   ]
+  },
+  {
+   "term": "Vector",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A quantity that has both magnitude and direction. Force, velocity and acceleration are vectors; mass, speed and distance are scalars. Representing physical quantities as vectors is essential for combining forces and analysing motion directionally.",
+   "failure_mode": "Students confuse vector and scalar quantities — treating speed and velocity as interchangeable, or adding forces without accounting for direction.",
+   "failure_type": "misconception",
+   "why_it_matters": "The vector–scalar distinction underpins every calculation in the standard. Students who add forces or velocities without direction produce answers that are numerically plausible but physically wrong — especially when forces oppose each other.",
+   "response": "Present two forces of equal magnitude in opposite directions and ask for net force. The scalar answer (double) versus the vector answer (zero) makes the distinction concrete and consequential.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Magnitude",
+     "definition": "The size or numerical value of a quantity, without regard to direction. Speed is the magnitude of velocity; distance is the magnitude of displacement. Students must distinguish magnitude from the full vector quantity."
+    },
+    {
+     "term": "Direction",
+     "definition": "The line along which a vector quantity acts — what distinguishes velocity from speed and displacement from distance. Direction is specified using sign conventions (positive/negative), compass bearings, or angles."
+    },
+    {
+     "term": "Scalar",
+     "definition": "A quantity with magnitude only, no direction — mass, speed, distance, temperature."
+    },
+    {
+     "term": "Sign convention",
+     "definition": "An agreed rule for assigning positive and negative directions in a problem, enabling vector addition along a single axis.",
+     "failure_mode": "Students assign positive and negative directions inconsistently within a single problem — they switch which direction is positive partway through a calculation, producing sign errors in net force and acceleration results.",
+     "failure_type": "fragile_skill",
+     "response": "Require students to draw and label their sign convention arrow before any calculation. Check: is every rightward/upward force positive and every leftward/downward force negative throughout? The pre-labelling habit prevents mid-problem switching.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Net force",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The vector sum of all forces acting on a single object. Net force determines whether the object accelerates, decelerates, or maintains constant velocity. A net force of zero means balanced forces and no change in motion; a non-zero net force produces acceleration in the direction of the net force.",
+   "failure_mode": "Students substitute the largest single force for the net force — they identify the 'main' force and ignore others, particularly friction and normal force.",
+   "failure_type": "misconception",
+   "why_it_matters": "If net force equals applied force, friction is invisible and F = ma produces wrong accelerations. This error cascades into every multi-force problem in N6 and N7, and prevents students from explaining why objects on a table don't accelerate downward.",
+   "response": "Require a free body diagram listing all forces before any net force calculation. Ask 'what other forces act on this object?' after the student's first answer — the prompt surfaces forces they dropped.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Friction",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A contact force that opposes the relative motion or tendency of motion between two surfaces. Friction acts in the direction opposite to motion (or intended motion) and is the force responsible for the everyday observation that moving objects slow down without a visible applied force. At Year 10, friction is the key to resolving the Aristotelian misconception.",
+   "failure_mode": "Students forget to include friction when calculating net force, or cannot identify friction as the force responsible for objects slowing down — they see slowing as natural rather than caused by a force.",
+   "failure_type": "misconception",
+   "why_it_matters": "Friction is the 'hidden force' that explains why Newton's First Law appears wrong in everyday life. Students who do not account for friction cannot explain deceleration, calculate realistic net forces, or understand why objects on surfaces behave differently from idealised frictionless scenarios.",
+   "response": "Present a sliding object that slows and stops. Ask students to identify every force acting on it and draw a free body diagram. If friction is missing, the diagram predicts constant velocity — the contradiction between prediction and observation surfaces the gap.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Newton's First Law",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "An object at rest remains at rest, and an object in motion continues at constant velocity, unless acted upon by a net external force. The law establishes that no force is needed to maintain constant motion — force is needed only to change motion. This directly contradicts the Aristotelian intuition that motion requires a continuous force.",
+   "failure_mode": "Students hold the Aristotelian misconception — they believe that a moving object needs a continuous applied force to keep moving, interpreting any object that slows down as evidence that motion naturally stops without force.",
+   "failure_type": "misconception",
+   "why_it_matters": "The Aristotelian misconception directly undermines Newton's Second and Third Laws. Students who hold it interpret F = ma as 'force produces motion' rather than 'net force produces change in motion,' causing systematic errors in acceleration calculations, multi-force problems, and all application contexts.",
+   "response": "Present scenarios where the intuitive 'force causes motion' prediction is wrong — a hockey puck sliding on ice, an object in space. Ask students to predict motion with and without friction, then identify friction as the hidden force that explains everyday slowing. The explicit confrontation is necessary; exposure to the correct definition alone does not dislodge the misconception.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Inertia",
+     "definition": "The tendency of an object to resist changes in its state of motion — an object at rest tends to stay at rest and a moving object tends to keep moving at constant velocity.",
+     "failure_mode": "Students think inertia is a force rather than a property of mass — they say 'inertia pushes me forward when the car brakes.'",
+     "failure_type": "misconception",
+     "response": "Clarify that inertia is resistance to change, not a force. When a car brakes, the passenger continues forward because no force has acted on them yet — inertia is the absence of a force changing their motion, not a force pushing them.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Constant velocity",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Motion at a fixed speed in a fixed direction with zero net force and zero acceleration. An object at constant velocity is not speeding up, slowing down, or changing direction. On a distance-time graph, constant velocity appears as a straight line with a non-zero gradient; on a velocity-time graph, as a horizontal line.",
+   "failure_mode": "Students conflate constant velocity with being stationary — they think 'no force means no motion' rather than 'no force means no change in motion.'",
+   "failure_type": "misconception",
+   "why_it_matters": "This conflation is the operational form of the Aristotelian misconception. If constant velocity requires a force, students assign non-zero net force to every moving object and cannot correctly apply Newton's First Law or identify equilibrium in multi-force scenarios.",
+   "response": "Use a velocity-time graph showing a flat line at a non-zero value. Ask students to identify acceleration (zero) and net force (zero). The graph makes 'moving with no net force' visually concrete in a way verbal definitions often fail to achieve.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Acceleration",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The rate of change of velocity, calculated as a = Δv/t and measured in m/s². Acceleration is a vector quantity — it has both magnitude and direction, and its direction is always the same as the direction of the net force. Acceleration includes speeding up, slowing down, and changing direction, since all involve a change in velocity.",
+   "failure_mode": "Students conflate acceleration with speed — they think acceleration means 'going fast' and that a fast-moving object must be accelerating, or that a slow-moving object cannot be.",
+   "failure_type": "misconception",
+   "why_it_matters": "Acceleration is used in every subsequent quantitative context. Students who substitute speed for acceleration produce systematic errors in F = ma calculations (N4), multi-force problems (N6), and all real-world applications (N7). The shift from everyday language ('speeding up') to a defined vector quantity does not happen incidentally.",
+   "response": "Present three scenarios: an object speeding up, an object at high constant speed, and an object slowing down. Ask which are accelerating. The constant-speed case (no acceleration despite high speed) and the slowing case (acceleration despite decreasing speed) break the speed–acceleration conflation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Deceleration",
+     "definition": "Acceleration in the direction opposite to an object's motion, resulting in the object slowing down. Deceleration is not a separate quantity — it is acceleration with a negative sign relative to the direction of travel.",
+     "failure_mode": "Students treat deceleration as a fundamentally different quantity from acceleration rather than acceleration in the opposing direction.",
+     "failure_type": "misconception",
+     "response": "Show that deceleration is acceleration with a sign: a car decelerating at 3 m/s² is accelerating at −3 m/s² relative to its direction of travel. Use the same a = Δv/t formula for both.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Velocity-time graph",
+     "definition": "A graph plotting velocity on the vertical axis against time on the horizontal axis. The gradient gives acceleration; a horizontal line indicates constant velocity; a line sloping toward zero indicates deceleration.",
+     "failure_mode": "Students read the height of a velocity-time graph as acceleration rather than reading the gradient — they confuse 'how fast' (height) with 'how much the speed is changing' (slope).",
+     "failure_type": "fragile_skill",
+     "response": "Present two velocity-time graphs — one with a high flat line (fast, zero acceleration) and one with a low rising line (slow but accelerating). Ask students to identify which object is accelerating and how they know.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Distance-time graph",
+     "definition": "A graph plotting distance on the vertical axis against time on the horizontal axis. A straight line indicates constant speed; a curve indicates changing speed (acceleration or deceleration).",
+     "failure_mode": "Students confuse the slope of a distance-time graph (which gives speed) with the slope of a velocity-time graph (which gives acceleration) — or they read the height of a distance-time graph as speed rather than distance from the origin.",
+     "failure_type": "fragile_skill",
+     "response": "Present both graph types side by side for the same journey. Ask: what does the slope tell you on each? (d-t slope = speed; v-t slope = acceleration.) The paired comparison forces the distinction.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Velocity",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Speed in a specified direction — a vector quantity measured in m/s. Velocity differs from speed because it includes direction: an object travelling at 10 m/s east has a different velocity from one travelling at 10 m/s west. A change in direction at constant speed is a change in velocity and therefore an acceleration.",
+   "failure_mode": "Students use speed and velocity interchangeably — they drop the directional component and cannot explain why changing direction at constant speed counts as acceleration.",
+   "failure_type": "misconception",
+   "why_it_matters": "If velocity equals speed, direction change at constant speed is invisible and students cannot identify the net force acting on an object moving in a curve. This undermines circular motion reasoning and produces errors wherever direction matters in F = ma.",
+   "response": "Ask whether a car going around a roundabout at a steady 40 km/h is accelerating. The speed is constant but the direction changes — the velocity is changing, so the answer is yes. This scenario concretely separates speed from velocity.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Speed",
+     "definition": "The magnitude of velocity — how fast an object is moving regardless of direction. A scalar quantity."
+    }
+   ]
+  },
+  {
+   "term": "Newton's Second Law",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The net force acting on an object equals its mass multiplied by its acceleration: F = ma. The relationship is quantitative — doubling the net force doubles the acceleration (at constant mass); doubling the mass halves the acceleration (at constant force). F is specifically net force, not applied force.",
+   "failure_mode": "Students substitute applied force for net force in F = ma — they ignore friction, normal force and gravity, producing calculations where the 'force' is only the push or pull they can see.",
+   "failure_type": "misconception",
+   "why_it_matters": "F = ma is the quantitative engine of all subsequent nodes. Using applied force instead of net force gives the wrong acceleration in every multi-force scenario, and the error compounds through stopping distance, safety feature, and integration problems in N6–N8.",
+   "response": "Before every F = ma calculation, require a free body diagram identifying all forces and an explicit net force calculation. Make 'F in F = ma is net force' a stated rule that students write at the top of worked solutions until the habit is automatic.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Newton (unit)",
+     "definition": "The SI unit of force. One newton (1 N) is the net force required to accelerate a 1 kg mass at 1 m/s²."
+    },
+    {
+     "term": "Proportional relationship",
+     "definition": "A relationship where one quantity changes by the same factor as another — force and acceleration are directly proportional at constant mass; acceleration and mass are inversely proportional at constant force.",
+     "failure_mode": "Students can state 'more force means more acceleration' but cannot apply the proportional reasoning quantitatively — they do not predict that doubling force exactly doubles acceleration.",
+     "failure_type": "fragile_skill",
+     "response": "Use a table: if F = 10 N gives a = 5 m/s², ask what happens at 20 N, 30 N, 5 N. The pattern makes the proportionality concrete and testable.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Mass",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The quantity of matter in an object, measured in kilograms. Mass determines an object's resistance to acceleration (inertia) and is the 'm' in F = ma. Mass is constant regardless of location; weight varies with gravitational field strength.",
+   "failure_mode": "Students use mass and weight interchangeably — they say an object 'has a mass of 50 newtons' or 'weighs 5 kg,' confusing the scalar property with the gravitational force.",
+   "failure_type": "misconception",
+   "why_it_matters": "In F = ma, mass is in kilograms and force is in newtons. Substituting weight for mass (or vice versa) produces dimensionally incorrect calculations. The confusion also prevents students from understanding why the same object has different weights on the Moon but the same mass.",
+   "response": "Present the same object on Earth and on the Moon. Ask students to identify what changes (weight — a force) and what stays the same (mass — amount of matter). Require correct units on every answer: kg for mass, N for weight.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Weight",
+     "definition": "The gravitational force acting on an object, calculated as W = mg. Weight is a force (measured in newtons) and depends on both mass and gravitational field strength."
+    }
+   ]
+  },
+  {
+   "term": "Newton's Third Law",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "For every action force there is an equal and opposite reaction force. The two forces act on different objects — they are an action-reaction pair. Because they act on different objects, they do not cancel each other out. Newton's Third Law explains propulsion: a rocket pushes exhaust backward; the exhaust pushes the rocket forward.",
+   "failure_mode": "Students think equal and opposite forces must cancel and therefore nothing should move — they apply the 'equal and opposite' language to a single object rather than recognising the forces act on different objects.",
+   "failure_type": "misconception",
+   "why_it_matters": "If Third Law pairs cancel, students cannot explain propulsion, jumping, or any scenario where interaction produces motion. The misconception also collapses the distinction between Third Law pairs (different objects) and balanced forces (same object), which prevents correct free body diagram construction at N6.",
+   "response": "Isolate one object. Draw a free body diagram for only the person jumping — the ground pushes up on the person (reaction), but the person's push on the ground is not on this diagram. The single-object focus makes 'different objects' concrete and shows why the forces don't cancel.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Action-reaction pair",
+     "definition": "Two forces of equal magnitude and opposite direction that act on different objects as a consequence of their interaction.",
+     "failure_mode": "Students identify two forces on the same object as an action-reaction pair — e.g. weight and normal force on a book on a table.",
+     "failure_type": "misconception",
+     "response": "For a proposed action-reaction pair, ask: do these forces act on the same object or different objects? Weight acts on the book (by the Earth); the reaction to weight is the book pulling the Earth upward — not the normal force.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Balanced forces",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "Two or more forces acting on the same object that sum to zero net force, resulting in no acceleration. Balanced forces are not the same as Newton's Third Law pairs: balanced forces act on one object and produce equilibrium; Third Law pairs act on different objects and always exist regardless of equilibrium.",
+   "failure_mode": "Students conflate balanced forces with Newton's Third Law pairs — they see 'equal and opposite' and assume both concepts are the same thing.",
+   "failure_type": "misconception",
+   "why_it_matters": "If balanced forces and Third Law pairs are the same, students cannot construct free body diagrams that distinguish equilibrium (balanced forces on one object, net force = 0) from interaction (Third Law pairs across two objects). This produces errors in every multi-force problem.",
+   "response": "Present a book on a table. Ask students to identify the balanced forces (weight down, normal force up — same object) and separately the Third Law pair for weight (Earth pulls book down, book pulls Earth up — different objects). The two analyses use different force sets.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Free body diagram",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "A diagram showing all forces acting on a single object, represented as labelled arrows with correct direction and relative magnitude. The object is drawn as a simple shape (dot or box) isolated from its surroundings. Free body diagrams are the standard tool for identifying all forces before calculating net force and applying F = ma.",
+   "failure_mode": "Students omit forces from free body diagrams — typically normal force or friction — because those forces are not visible or deliberately applied. Diagrams that omit forces produce incorrect net force calculations.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The free body diagram is the bridge between a physical scenario and a net force calculation. An incomplete diagram guarantees an incorrect F = ma result. Normal force omission is especially common because students do not recognise the table or floor as exerting a force.",
+   "response": "Use a systematic checklist: (1) Is there gravity? Draw weight downward. (2) Is the object touching a surface? Draw normal force perpendicular to the surface. (3) Is the object moving or being pushed along a surface? Draw friction opposing motion. (4) Is there an applied push or pull? Draw it. Run the checklist before every calculation.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Normal force",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 6,
+   "width_tier": "typical",
+   "definition": "The contact force exerted by a surface on an object resting on or pressing against it, acting perpendicular to the surface. Normal force is a reaction to the object's weight (or component of weight) pressing into the surface. On a horizontal surface with no other vertical forces, normal force equals weight.",
+   "failure_mode": "Students either omit normal force from free body diagrams entirely or assume it always equals weight — miss that normal force adjusts when additional vertical forces (e.g. a downward push) are applied.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Omitting normal force makes vertical forces appear unbalanced — a book on a table would accelerate downward. Assuming normal force always equals weight produces errors in any scenario with additional vertical forces, such as an elevator or a pushed-down object.",
+   "response": "Present a scenario where normal force does not equal weight — a person standing in an accelerating elevator, or someone pushing down on a box. Ask students to apply Newton's Second Law vertically to find the normal force. The calculation forces engagement with the concept.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Vehicle safety features",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 6,
+   "width_tier": "typical",
+   "definition": "Design features in vehicles — crumple zones, airbags, seatbelts — that reduce injury by increasing the time over which a passenger decelerates during a collision. By extending the stopping time, these features reduce the force experienced by the occupant (from F = ma, or equivalently, impulse reasoning: the same change in momentum spread over a longer time requires less force).",
+   "failure_mode": "Students state that safety features 'absorb the force' or 'cushion the impact' without connecting to Newton's Second Law — they cannot explain the mechanism in terms of force, time and acceleration.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without the force-time reasoning, students cannot evaluate safety features quantitatively or compare designs. The verbal explanation ('it cushions') sounds correct but does not use the physics, and students who rely on it cannot answer quantitative safety questions in N7.",
+   "response": "Present the same collision with two different stopping times (with and without crumple zone). Ask students to calculate the deceleration and force in each case using F = ma. The quantitative comparison makes the mechanism visible — same mass, same velocity change, different time, different force.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Crumple zone",
+     "definition": "A section of a vehicle designed to deform on impact, extending the time over which the vehicle decelerates and reducing peak force on occupants."
+    },
+    {
+     "term": "Airbag",
+     "definition": "An inflatable cushion that deploys in a collision, extending the time over which a passenger's head and torso decelerate on contact."
+    },
+    {
+     "term": "Seatbelt",
+     "definition": "A restraint that holds the occupant to the vehicle frame, preventing the occupant from continuing forward at the pre-crash velocity (Newton's First Law) and spreading the decelerating force across the chest."
+    }
+   ]
+  },
+  {
+   "term": "Stopping distance",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 7,
+   "width_tier": "wider",
+   "definition": "The total distance a vehicle travels from when the driver perceives a hazard to when the vehicle comes to rest, comprising two components: reaction distance (distance travelled during the driver's reaction time before braking begins) and braking distance (distance travelled while decelerating to a stop). Both components increase with speed, but braking distance increases with the square of speed — making stopping distance disproportionately longer at higher speeds.",
+   "failure_mode": "Students confuse braking distance with total stopping distance — they omit the reaction-time component, underestimating total stopping distance and producing incorrect safety arguments.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The descriptor's elaboration explicitly names 'constructing a data-supported argument for lower speed limits.' Students who omit reaction distance produce arguments that underestimate how much additional space higher speeds require, weakening the quantitative case. The two-component structure also connects to N4 (F = ma for braking force) and N1 (force as vector — braking force opposes motion).",
+   "response": "Split the calculation into two explicit steps: reaction distance = speed × reaction time; braking distance from F = ma and kinematic equations. Add them. Then repeat at double the speed — the disproportionate increase in braking distance makes the two-component structure consequential.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Spearthrower",
+   "descriptor_code": "AC9S10U05",
+   "first_waypoint": 8,
+   "width_tier": "wider",
+   "definition": "A First Nations Australian throwing tool (also called a woomera) that effectively lengthens the thrower's arm, increasing the distance and time over which force is applied to the spear. By extending the force application distance and time, the spearthrower increases the spear's final velocity and impact force — a direct application of Newton's Second Law.",
+   "failure_mode": "Students cannot connect the spearthrower's mechanical advantage to Newton's laws — they describe it as 'making the throw stronger' without identifying the force, mass and acceleration relationship or explaining how extending the force application distance increases the projectile's velocity.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The spearthrower is an authentic application context where Newton's Second and Third Laws explain a traditional technology. Students who cannot make this connection demonstrate that their understanding of Newton's laws is not transferable beyond textbook scenarios.",
+   "response": "Ask students to draw a free body diagram of the spear during the throwing motion and identify the force, mass and resulting acceleration. Then compare throwing with and without the spearthrower — the longer application distance means force acts for longer, producing greater velocity change.",
+   "response_type": "integration"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Force",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "A push or pull on an object. Every force has a size (how strong) and a direction (which way), so you always draw it as an arrow. Forces can act by touching (friction, pushing) or without touching (gravity).",
+   "example": "When you kick a ball, your foot applies a contact force — the arrow points in the direction you kicked, and the length shows how hard.",
+   "sub_terms": [
+    {
+     "term": "Contact force"
+    },
+    {
+     "term": "Non-contact force"
+    },
+    {
+     "term": "Applied force"
+    }
+   ]
+  },
+  {
+   "term": "Vector",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "A quantity that has both a size and a direction. Force, velocity and acceleration are all vectors — you need to know which way they point, not just how big they are.",
+   "example": "Saying 'the wind is 30 km/h' only tells you speed; saying 'the wind is 30 km/h from the north' gives you the full vector because it includes direction.",
+   "sub_terms": [
+    {
+     "term": "Magnitude",
+     "definition": "The size or amount of something — just the number, without direction. Speed is the magnitude of velocity (e.g. 60 km/h, no direction specified)."
+    },
+    {
+     "term": "Direction",
+     "definition": "Which way a force or motion acts — it's what makes velocity different from speed. 60 km/h north is a velocity (has direction); 60 km/h is just speed (no direction)."
+    },
+    {
+     "term": "Scalar",
+     "definition": "A quantity with only size, no direction — like mass, speed or temperature."
+    },
+    {
+     "term": "Sign convention",
+     "definition": "A rule you set at the start of a problem to decide which direction is positive and which is negative."
+    }
+   ]
+  },
+  {
+   "term": "Net force",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "The overall force on an object when you add up all the individual forces, taking direction into account. If forces push in opposite directions, they partly or fully cancel each other out.",
+   "example": "If you push a box with 20 N to the right and friction pushes back with 5 N to the left, the net force is 15 N to the right."
+  },
+  {
+   "term": "Friction",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "A force between two surfaces that opposes motion — it always pushes against the direction an object is moving or trying to move. Friction is why things slow down and stop even when you stop pushing them.",
+   "example": "A ball rolled across carpet stops quickly because of high friction; the same ball on polished floorboards keeps rolling much longer because there is less friction."
+  },
+  {
+   "term": "Newton's First Law",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "An object stays still or keeps moving at the same speed in the same direction unless a net force acts on it. This means you don't need a force to keep something moving — you only need a force to change its motion.",
+   "example": "A hockey puck on ice slides a long way because there is very little friction — without that opposing force, it would keep going forever.",
+   "sub_terms": [
+    {
+     "term": "Inertia",
+     "definition": "An object's tendency to resist any change in its motion — heavier objects have more inertia, which is why they are harder to start moving or stop.",
+     "example": "It's much harder to push a loaded shopping trolley than an empty one because the loaded trolley has more inertia."
+    }
+   ]
+  },
+  {
+   "term": "Constant velocity",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "Moving at the same speed in the same direction with no acceleration and no net force. An object at constant velocity is not speeding up or slowing down — it is in a state where all forces are balanced.",
+   "example": "A car cruising on a straight highway at a steady 100 km/h has constant velocity — the engine force exactly balances air resistance and friction, so the net force is zero."
+  },
+  {
+   "term": "Acceleration",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "How quickly velocity changes, calculated by dividing the change in velocity by the time taken (a = Δv/t). Acceleration isn't just speeding up — slowing down and changing direction also count as acceleration because the velocity is changing.",
+   "example": "A car going from 0 to 60 km/h in 10 seconds is accelerating. A car braking from 60 to 0 is also accelerating — just in the opposite direction to its motion.",
+   "sub_terms": [
+    {
+     "term": "Deceleration",
+     "definition": "Acceleration in the opposite direction to motion, which causes an object to slow down. It's not a separate thing — it's just acceleration with a negative sign.",
+     "example": "When a car brakes, the deceleration is caused by the friction force from the brakes opposing the car's forward motion."
+    },
+    {
+     "term": "Velocity-time graph",
+     "definition": "A graph that shows how an object's velocity changes over time. The steepness (gradient) of the line tells you the acceleration — a flat line means constant velocity, not zero velocity.",
+     "example": "A straight line sloping upward on a velocity-time graph means steady acceleration — the object is speeding up at a constant rate."
+    },
+    {
+     "term": "Distance-time graph",
+     "definition": "A graph showing how far an object has travelled over time. A straight line means constant speed; a curve means the speed is changing."
+    }
+   ]
+  },
+  {
+   "term": "Velocity",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "Speed with a direction attached. Two objects can have the same speed but different velocities if they are moving in different directions. Changing direction — even at the same speed — counts as a change in velocity.",
+   "example": "A car doing 60 km/h north and a car doing 60 km/h south have the same speed but opposite velocities.",
+   "sub_terms": [
+    {
+     "term": "Speed",
+     "definition": "How fast something is moving, without caring about direction."
+    }
+   ]
+  },
+  {
+   "term": "Newton's Second Law",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "The net force on an object equals its mass times its acceleration: F = ma. This means a bigger force causes more acceleration, and a heavier object needs more force to accelerate the same amount.",
+   "example": "Pushing an empty shopping trolley with a certain force makes it accelerate quickly; the same push on a full trolley gives less acceleration because the mass is greater.",
+   "sub_terms": [
+    {
+     "term": "Newton (unit)",
+     "definition": "The unit used to measure force — 1 newton is the force needed to accelerate 1 kilogram at 1 m/s²."
+    },
+    {
+     "term": "Proportional relationship",
+     "definition": "When one quantity changes, the other changes by the same factor — double the force means double the acceleration (if mass stays the same).",
+     "example": "If 10 N gives an acceleration of 2 m/s², then 20 N gives 4 m/s² — the acceleration doubled because the force doubled."
+    }
+   ]
+  },
+  {
+   "term": "Mass",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "The amount of matter in an object, measured in kilograms. Mass stays the same no matter where you are — unlike weight, which changes depending on gravity.",
+   "example": "An astronaut has the same mass on the Moon as on Earth (say, 70 kg), but their weight on the Moon is only about one-sixth of their weight on Earth because the Moon's gravity is weaker.",
+   "sub_terms": [
+    {
+     "term": "Weight",
+     "definition": "The force of gravity pulling on an object, measured in newtons. Weight = mass × gravitational field strength (W = mg).",
+     "example": "A 70 kg person weighs about 686 N on Earth (70 × 9.8) but only about 114 N on the Moon."
+    }
+   ]
+  },
+  {
+   "term": "Newton's Third Law",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "Whenever one object pushes or pulls another, the second object pushes or pulls back with the same size force in the opposite direction. These two forces always act on different objects — that's why they don't cancel each other out.",
+   "example": "When you jump, your feet push down on the ground and the ground pushes up on you with an equal force — it's the ground's push that launches you upward.",
+   "sub_terms": [
+    {
+     "term": "Action-reaction pair",
+     "definition": "The two equal-and-opposite forces that arise from an interaction between two objects — one force on each object.",
+     "example": "A swimmer pushes water backward with their hands (action); the water pushes the swimmer forward (reaction)."
+    }
+   ]
+  },
+  {
+   "term": "Balanced forces",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "typical",
+   "definition": "When all the forces on a single object add up to zero, so the object doesn't accelerate. This is different from Newton's Third Law pairs, which act on two different objects.",
+   "example": "A book sitting on a table has balanced forces — gravity pulls it down and the table pushes it up with equal force, so it stays still."
+  },
+  {
+   "term": "Free body diagram",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "minimum",
+   "definition": "A simple drawing of one object showing all the forces acting on it as labelled arrows. You draw the object as a dot or box and add every force — gravity, friction, normal force, any push or pull — before doing any calculations.",
+   "example": "For a box being pushed across a floor, your free body diagram would show four arrows: weight downward, normal force upward, applied force forward, and friction backward."
+  },
+  {
+   "term": "Normal force",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "typical",
+   "definition": "The support force a surface pushes back with when an object sits on or presses against it. It acts at right angles to the surface. On a flat floor, the normal force pushes straight up.",
+   "example": "Right now, the chair you are sitting on is pushing up on you with a normal force — if it didn't, you would fall through it."
+  },
+  {
+   "term": "Vehicle safety features",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "typical",
+   "definition": "Design features in cars — crumple zones, airbags, seatbelts — that protect people in a crash by spreading out the stopping time. A longer stopping time means a smaller force on your body, because the same speed change happens more gradually.",
+   "example": "A crumple zone at the front of a car crumples slowly during a crash, giving the car (and you) more time to stop — so the force on you is much less than hitting a rigid wall.",
+   "sub_terms": [
+    {
+     "term": "Crumple zone"
+    },
+    {
+     "term": "Airbag"
+    },
+    {
+     "term": "Seatbelt"
+    }
+   ]
+  },
+  {
+   "term": "Stopping distance",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "wider",
+   "definition": "The total distance a car travels from when the driver sees a hazard to when it fully stops. It has two parts: the distance you travel while your brain reacts (reaction distance), plus the distance while the brakes slow you down (braking distance). Both get longer at higher speeds, but braking distance grows much faster.",
+   "example": "At 60 km/h you might stop in about 45 metres total, but at 80 km/h it's not just a bit more — it's roughly 73 metres. The braking distance grows with speed squared, which is why small speed increases make a big difference."
+  },
+  {
+   "term": "Spearthrower",
+   "descriptor_code": "AC9S10U05",
+   "width_tier": "wider",
+   "definition": "A First Nations Australian tool (also called a woomera) that makes a spear's arm effectively longer, so force is applied over a greater distance and time. This gives the spear more speed and hitting power — Newton's Second Law in action.",
+   "example": "A spearthrower lets a hunter launch a spear much faster than a hand throw alone, because the force acts over a longer distance, giving the spear more time to accelerate."
+  }
+ ]
+}

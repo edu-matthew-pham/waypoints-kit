@@ -1,0 +1,190 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I05",
+ "teacher_glossary": [
+  {
+   "term": "Pattern",
+   "descriptor_code": "AC9S9I05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A repeating or regular feature in data that can be described precisely by naming the variables involved, the nature of the regularity, and the conditions under which it holds. At Year 9, students must describe patterns with sufficient precision to distinguish them from trends and relationships.",
+   "failure_mode": "Students describe patterns in vague terms ('it goes up,' 'there is a pattern') rather than naming both variables and specifying the nature of the regularity. The description is too imprecise to analyse scientifically or to identify anomalies against.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If pattern description is vague, the subsequent analysis collapses — anomalies cannot be identified against an imprecise pattern, and scientific explanations cannot address unspecified regularities. The precision of description determines whether the analysis is substantive.",
+   "response": "Require students to complete a structured description: 'As [variable 1] increases/decreases, [variable 2] increases/decreases/stays constant, and the relationship is [proportional/inverse/non-linear].' Reject descriptions that do not name both variables and the direction of change.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Data point",
+     "definition": "A single measurement or observation recorded during an investigation. Multiple data points are needed to establish a pattern — a single data point cannot demonstrate regularity.",
+     "failure_mode": "Students treat a single data point as evidence of a pattern or use one measurement to claim a relationship exists — they do not recognise that patterns require multiple data points showing regularity.",
+     "failure_type": "flawed_reasoning",
+     "response": "Present a scatter plot with one data point and ask: 'Is there a pattern here?' Then add points progressively. Ask at each stage whether a pattern has emerged — the exercise shows that pattern claims require sufficient data.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Trend",
+   "descriptor_code": "AC9S9I05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A directional change in one variable as another variable changes — the data values generally increase, decrease or remain constant over the range measured. A trend describes the overall direction of the data, which may include individual variation around the trend line.",
+   "failure_mode": "Students confuse trend with pattern — they use the terms interchangeably or describe a trend without specifying direction. They may also treat every fluctuation as significant rather than identifying the overall directional tendency.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If trend and pattern are interchangeable, students cannot precisely describe what they observe in data — the analytical vocabulary needed for scientific explanation and for identifying anomalies is not available.",
+   "response": "Present data with a clear overall trend but individual variation (e.g. temperature data with daily fluctuations around an upward trend). Ask students to identify the trend separately from the variation — the distinction becomes visible in real data.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Relationship",
+   "descriptor_code": "AC9S9I05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The way one variable changes in response to changes in another variable. Relationships can be described by their type — proportional (constant ratio), inverse (one increases as the other decreases), non-linear (curved), or no relationship (no systematic covariance). Identifying a relationship is the analytical step that connects data observation to scientific explanation.",
+   "failure_mode": "Students identify that two variables change together but describe all relationships as either 'they increase together' or 'there is a relationship' — they cannot distinguish proportional from inverse from non-linear relationships or describe the nature of the covariance precisely.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Different relationship types imply different scientific mechanisms. If all relationships are described the same way, students cannot connect their data to specific scientific explanations or distinguish between fundamentally different phenomena.",
+   "response": "Present three data sets with different relationship types (proportional, inverse, non-linear) and require students to describe each precisely. The comparison across types builds the vocabulary for describing what is different about each.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Proportional",
+     "definition": "A relationship where one variable increases by a constant ratio as the other increases — doubling one doubles the other. On a graph, a proportional relationship appears as a straight line through the origin."
+    },
+    {
+     "term": "Inverse",
+     "definition": "A relationship where one variable decreases as the other increases. On a graph, an inverse relationship curves downward — as one variable gets larger, the rate of decrease in the other slows."
+    },
+    {
+     "term": "Non-linear",
+     "definition": "A relationship that does not follow a straight line — the rate of change varies across the data range. Non-linear relationships require more complex mathematical descriptions than proportional relationships."
+    },
+    {
+     "term": "Correlation",
+     "definition": "Two variables changing together in a systematic way. Correlation does not establish causation — two variables may correlate because both are affected by a third factor rather than because one causes the other."
+    },
+    {
+     "term": "Causation",
+     "definition": "A relationship where one variable directly produces a change in another — the cause brings about the effect. Establishing causation requires controlled investigation, not just correlation. Two variables can correlate strongly without one causing the other — both may be caused by a third factor."
+    }
+   ]
+  },
+  {
+   "term": "Anomaly",
+   "descriptor_code": "AC9S9I05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A data point or observation that does not fit the identified pattern or trend. Anomalies may result from measurement error, procedural variation or genuine scientific outliers — and the appropriate response differs depending on the cause. Anomaly identification requires an established pattern against which deviation is assessed.",
+   "failure_mode": "Students treat all anomalies the same — either discarding them automatically ('it must be wrong') or ignoring them ('it doesn't matter'). They do not evaluate whether an anomaly indicates error or genuine variation requiring investigation.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Automatic discard hides potentially important findings; automatic inclusion corrupts analysis. If students cannot evaluate anomalies, they cannot make reasoned decisions about data quality — a skill required for valid conclusion-drawing at AC9S9I06.",
+   "response": "Present an anomalous data point and ask students to generate two explanations: one that treats it as error and one that treats it as genuine. Then ask: 'What additional evidence would you need to decide between these?' The evaluation framework is the skill.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Outlier",
+     "definition": "A data point that falls significantly outside the range of the other values in a data set. Outlier is often used interchangeably with anomaly, but strictly refers to the statistical distance from other values rather than deviation from a pattern.",
+     "failure_mode": "Students use 'outlier' to mean 'any result I don't like' rather than a data point that genuinely falls significantly outside the established pattern — the term becomes a licence to discard inconvenient data without justification.",
+     "failure_type": "flawed_reasoning",
+     "response": "Require students to justify any data removal: 'What makes this an outlier? How far is it from the pattern? Could there be a legitimate reason for this value?' If they cannot justify removal, the data point stays.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Extrapolation",
+   "descriptor_code": "AC9S9I05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Extending a pattern or trend beyond the range of measured data to predict values that were not directly observed. Extrapolation assumes the relationship continues unchanged beyond the measured range — an assumption that may or may not be valid. The further the extrapolation extends beyond the data, the less reliable the prediction.",
+   "failure_mode": "Students extrapolate from data without recognising the assumptions required — they treat predicted values beyond the data range as equally reliable to measured values within it. They do not evaluate when extrapolation is or is not justified.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Uncritical extrapolation produces predictions that appear data-supported but are actually assumption-dependent. If students cannot identify the assumption (that the pattern continues unchanged), they cannot evaluate the reliability of extrapolated predictions — a key reasoning skill for AC9S9I06 conclusion evaluation.",
+   "response": "Show a heating curve measured from 20°C to 80°C and ask students to predict the value at 120°C. Then reveal the actual data — which may plateau or change direction. The gap between prediction and reality makes the extrapolation assumption visible.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Pattern",
+   "descriptor_code": "AC9S9I05",
+   "width_tier": "minimum",
+   "definition": "A regular feature in your data that you can describe precisely — naming the variables involved and how they behave. 'It goes up' is not a pattern description; 'as temperature increases, dissolving time decreases' is.",
+   "example": "In a cooling experiment, the pattern might be: 'As time increases, the water temperature decreases rapidly at first, then more slowly as it approaches room temperature.'",
+   "sub_terms": [
+    {
+     "term": "Data point",
+     "definition": "A single measurement in your data set. You can't claim a pattern from one data point — patterns need multiple measurements showing regularity.",
+     "example": "One student scoring 85% doesn't show a pattern. Ten students all scoring between 80–90% after using a study method starts to show one."
+    }
+   ]
+  },
+  {
+   "term": "Trend",
+   "descriptor_code": "AC9S9I05",
+   "width_tier": "minimum",
+   "definition": "The overall direction your data is heading — generally increasing, decreasing or staying constant — even if individual values fluctuate along the way.",
+   "example": "Australia's average temperature shows an upward trend over the past century, even though individual years go up and down — the overall direction is clearly increasing."
+  },
+  {
+   "term": "Relationship",
+   "descriptor_code": "AC9S9I05",
+   "width_tier": "minimum",
+   "definition": "How one variable responds when another changes. Relationships can be proportional (both increase at the same rate), inverse (one goes up as the other goes down), or non-linear (the rate of change varies). Describing the type of relationship, not just 'they're related,' is the skill.",
+   "example": "The relationship between force and acceleration is proportional — doubling the force doubles the acceleration. The relationship between distance and gravitational force is inverse — as distance increases, the force decreases.",
+   "sub_terms": [
+    {
+     "term": "Proportional",
+     "definition": "When one variable increases, the other increases by the same ratio — doubling one doubles the other.",
+     "example": "If doubling the number of batteries doubles the brightness, the relationship is proportional."
+    },
+    {
+     "term": "Inverse",
+     "definition": "When one variable increases, the other decreases.",
+     "example": "As you move further from a light source, the brightness decreases — that's an inverse relationship."
+    },
+    {
+     "term": "Non-linear",
+     "definition": "A relationship where the rate of change isn't constant — the graph curves rather than being a straight line.",
+     "example": "A ball thrown upward slows down, stops, then speeds up again — the height-time graph is curved, showing a non-linear relationship."
+    },
+    {
+     "term": "Correlation",
+     "definition": "When two variables change together in a pattern — but that doesn't mean one causes the other.",
+     "example": "Ice cream sales and sunburn rates are correlated (both increase in summer), but ice cream doesn't cause sunburn — hot weather causes both."
+    },
+    {
+     "term": "Causation",
+     "definition": "When one thing directly makes another thing happen — not just that they change together, but that one actually causes the other. Proving causation requires a controlled experiment, not just spotting a pattern.",
+     "example": "Ice cream sales and drowning rates both increase in summer (correlation), but ice cream doesn't cause drowning — hot weather causes both. To prove causation, you'd need a controlled experiment."
+    }
+   ]
+  },
+  {
+   "term": "Anomaly",
+   "descriptor_code": "AC9S9I05",
+   "width_tier": "minimum",
+   "definition": "A data point that doesn't fit the pattern you've identified. Before throwing it out, you need to figure out why it's different — it might be a measurement mistake, or it might be telling you something important.",
+   "example": "If nine trials give results between 4.5 and 5.5, but one gives 12.3, that's an anomaly. Maybe you misread the scale — or maybe something genuinely different happened in that trial.",
+   "sub_terms": [
+    {
+     "term": "Outlier",
+     "definition": "A value that falls far outside the range of the rest of your data. Don't remove it just because it's inconvenient — you need a reason.",
+     "example": "If you're measuring reaction times and everyone gets 0.2–0.4 seconds but one person gets 1.8 seconds, that's an outlier. Maybe they were distracted — or maybe they have slower reflexes. You need to decide which before removing it."
+    }
+   ]
+  },
+  {
+   "term": "Extrapolation",
+   "descriptor_code": "AC9S9I05",
+   "width_tier": "minimum",
+   "definition": "Predicting values beyond the range you actually measured, by extending the pattern. This assumes the pattern continues unchanged — which may not be true. The further you extrapolate, the less reliable your prediction.",
+   "example": "If you measured plant growth for 4 weeks and it grew 2 cm each week, you might extrapolate that it will be 10 cm at week 5. But the plant might slow down or stop growing — your prediction assumes constant growth, which may not hold."
+  }
+ ]
+}

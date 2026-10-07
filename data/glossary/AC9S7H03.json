@@ -1,0 +1,179 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7H03",
+ "teacher_glossary": [
+  {
+   "term": "Scientific response",
+   "descriptor_code": "AC9S7H03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A proposed solution or intervention to a contemporary issue that is grounded in scientific knowledge and methods. Scientific responses address problems through evidence-based approaches — such as desalination for water scarcity, laboratory-grown meat for livestock impacts, or ecological reserves for biodiversity loss — as distinct from political, economic or social responses to the same issues.",
+   "failure_mode": "Students conflate scientific responses with political or social responses — they describe government policy or community action as a 'scientific response' without identifying the science underpinning it.",
+   "failure_type": "misconception",
+   "why_it_matters": "If students cannot distinguish the scientific component of a response, they cannot analyse which impacts flow from the science versus from the implementation choices, social context or economic decisions. This distinction is prerequisite for the four-lens analysis in Node 3.",
+   "response": "Present a contemporary issue with multiple response types — a scientific response (e.g. desalination technology), a policy response (e.g. water restrictions) and a social response (e.g. community awareness campaigns). Ask students to identify which is grounded in scientific knowledge and explain the difference.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Contemporary issue",
+     "definition": "A current problem or challenge facing society that science can contribute to addressing — such as freshwater scarcity, biodiversity loss, food production sustainability or waste management."
+    },
+    {
+     "term": "Biological control",
+     "definition": "A method of managing pests, weeds or invasive species by introducing natural predators, parasites or diseases rather than using chemical treatments. Biological controls are a common example of a scientific response with both intended impacts (controlling the target species) and unintended impacts (the introduced organism affecting non-target species)."
+    }
+   ]
+  },
+  {
+   "term": "Trade-off",
+   "descriptor_code": "AC9S7H03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A situation where gaining a benefit in one area comes at a cost in another. Scientific responses to contemporary issues almost always involve trade-offs — a desalination plant produces fresh water but impacts marine ecosystems at discharge sites; biological controls address an invasive species but may create new ecological impacts. Recognising trade-offs replaces binary good/bad evaluation with nuanced analysis.",
+   "failure_mode": "Students evaluate scientific responses as simply 'good' or 'bad' rather than examining how the same response produces both positive and negative impacts across different dimensions.",
+   "failure_type": "misconception",
+   "why_it_matters": "Binary evaluation prevents the multi-stakeholder analysis required at Node 4. If a response is just 'good,' there is nothing to analyse — the trade-off concept is what makes the four-lens framework necessary and meaningful.",
+   "response": "Present a scientific response with both positive and negative impacts across different dimensions (e.g. desalination: fresh water supply vs marine ecosystem impact vs energy cost vs employment). Ask students to identify at least one benefit and one cost, then explain why calling it simply 'good' or 'bad' would be incomplete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Intended impact",
+     "definition": "The positive outcome a scientific response is designed to achieve — the problem it is meant to solve or the benefit it is meant to deliver."
+    },
+    {
+     "term": "Unintended impact",
+     "definition": "An outcome of a scientific response that was not part of the original design — which may be positive, negative or neutral. Unintended impacts often emerge in dimensions different from the one the response targeted.",
+     "failure_mode": "Students assume all unintended impacts are negative — they treat 'unintended' as a synonym for 'harmful' rather than recognising that unintended outcomes can be beneficial, neutral or harmful.",
+     "failure_type": "misconception",
+     "response": "Present an example where a scientific response had a positive unintended impact (e.g. a conservation reserve that unexpectedly boosted local tourism). Ask students to classify the impact as intended or unintended, then as positive, negative or neutral — separating the two classifications.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Consideration types",
+   "descriptor_code": "AC9S7H03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The four analytical lenses used to examine the impacts of a scientific response: ethical (rights, fairness, obligations), environmental (ecosystems, biodiversity, resource use), social (communities, wellbeing, equity) and economic (costs, benefits, employment, industry). Each lens reveals impacts that the others may miss — a complete analysis requires applying all four rather than defaulting to one.",
+   "failure_mode": "Students conflate the four consideration types or default to addressing only one — usually environmental — treating the others as synonyms or ignoring them entirely.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If students cannot distinguish the four lenses, they cannot explain why different stakeholders evaluate the same response differently (Node 4). Each stakeholder group typically prioritises different consideration types — collapsing the lenses collapses the stakeholder analysis.",
+   "response": "Present a scientific response and ask students to generate one specific concern under each of the four lenses. Require that no two concerns overlap — the distinctness constraint forces genuine lens-switching rather than restating the same point in different words.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Ethical consideration",
+     "definition": "Analysis of a scientific response in terms of rights, fairness, obligations and moral responsibilities — such as who benefits, who bears the cost, whose consent is required and whether the process respects cultural protocols.",
+     "failure_mode": "Students confuse ethical considerations with personal moral opinions — they state whether something 'feels right' rather than reasoning through rights, fairness and obligations systematically.",
+     "failure_type": "misconception",
+     "response": "Distinguish ethical reasoning from opinion by providing a framework: who is affected, what rights are at stake, whose consent is needed, and who bears the cost? Require students to address at least two of these rather than stating a general feeling.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Environmental consideration",
+     "definition": "Analysis of a scientific response in terms of its impact on ecosystems, biodiversity, natural resources and ecological processes."
+    },
+    {
+     "term": "Social consideration",
+     "definition": "Analysis of a scientific response in terms of its impact on communities, human wellbeing, equity and access — including how benefits and costs are distributed across different groups."
+    },
+    {
+     "term": "Economic consideration",
+     "definition": "Analysis of a scientific response in terms of financial costs, economic benefits, employment effects and industry impacts — including who pays and who profits."
+    }
+   ]
+  },
+  {
+   "term": "Stakeholder",
+   "descriptor_code": "AC9S7H03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A person, group or organisation that has an interest in or is affected by a scientific response to a contemporary issue. Different stakeholders — conservation scientists, landowners, First Nations communities, local government, industry — may prioritise different consideration types, leading them to evaluate the same response differently. Stakeholder analysis examines these differences to understand why consensus is difficult and why multiple perspectives matter.",
+   "failure_mode": "Students list stakeholder viewpoints as a catalogue of opinions without reasoning through the values, knowledge and priorities that produce each position — they describe what stakeholders think without explaining why they think it.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If stakeholder positions are unexplained opinions, disagreement looks like ignorance or stubbornness rather than a genuine reflection of different priorities. Students who cannot reason through stakeholder positions cannot evaluate whether a decision-making process adequately considered diverse perspectives.",
+   "response": "For each stakeholder group, scaffold the reasoning: what does this group know, what do they value, and what are they protecting? Require students to connect the stakeholder's conclusion to their priorities rather than just naming their position.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Scientific response",
+   "descriptor_code": "AC9S7H03",
+   "width_tier": "minimum",
+   "definition": "A proposed solution to a real-world problem that uses scientific knowledge and methods. It's different from a political or social response because the solution is based on science.",
+   "example": "Building desalination plants to address water scarcity is a scientific response — it uses scientific understanding of how to remove salt from seawater.",
+   "sub_terms": [
+    {
+     "term": "Contemporary issue",
+     "definition": "A problem or challenge facing society right now that science can help address.",
+     "example": "Biodiversity loss is a contemporary issue — species are disappearing faster than at any time in human history, and scientists are researching responses."
+    },
+    {
+     "term": "Biological control",
+     "definition": "Using a living thing to control a pest or invasive species — like introducing a predator to eat an invasive insect, instead of using chemical pesticides.",
+     "example": "Cane toads were introduced to Australia as a biological control to eat cane beetles damaging sugar crops — but the toads became an invasive species themselves, which is a classic example of an unintended impact."
+    }
+   ]
+  },
+  {
+   "term": "Trade-off",
+   "descriptor_code": "AC9S7H03",
+   "width_tier": "minimum",
+   "definition": "When solving a problem in one area creates a new problem or cost in another area. Most scientific responses involve trade-offs, so they can't be judged as simply 'good' or 'bad.'",
+   "example": "A desalination plant solves freshwater scarcity, but it uses lots of energy and the salty discharge can harm marine life near the outlet — that's a trade-off.",
+   "sub_terms": [
+    {
+     "term": "Intended impact",
+     "definition": "The positive outcome a scientific response is designed to achieve.",
+     "example": "The intended impact of a desalination plant is producing fresh drinking water for a community."
+    },
+    {
+     "term": "Unintended impact",
+     "definition": "An outcome that wasn't part of the plan — it might be good, bad or neutral.",
+     "example": "A conservation reserve designed to protect endangered species might also boost local tourism — a positive unintended impact."
+    }
+   ]
+  },
+  {
+   "term": "Consideration types",
+   "descriptor_code": "AC9S7H03",
+   "width_tier": "minimum",
+   "definition": "Four different ways to think about the impacts of a scientific response: ethical (is it fair?), environmental (what happens to nature?), social (how are people affected?) and economic (what does it cost and who pays?). Each one reveals different impacts, so you need all four to see the full picture.",
+   "example": "A proposed ecological reserve could be examined ethically (whose land is it?), environmentally (which species benefit?), socially (do locals lose access?) and economically (does it create jobs or reduce farming income?).",
+   "sub_terms": [
+    {
+     "term": "Ethical consideration",
+     "definition": "Thinking about whether something is fair, who has rights, and what obligations people have — not just whether it feels right, but reasoning through who is affected and how.",
+     "example": "Using First Nations Australians' knowledge of medicinal plants without permission raises ethical considerations about whose knowledge it is and who should benefit."
+    },
+    {
+     "term": "Environmental consideration",
+     "definition": "Thinking about how something affects ecosystems, wildlife and natural resources.",
+     "example": "Introducing a biological control to kill an invasive species is an environmental consideration — what if it also harms native species?"
+    },
+    {
+     "term": "Social consideration",
+     "definition": "Thinking about how something affects people's lives, communities and wellbeing.",
+     "example": "Building a wind farm might provide clean energy but change the landscape that a community values — that's a social consideration."
+    },
+    {
+     "term": "Economic consideration",
+     "definition": "Thinking about the money side — what does it cost, who pays for it, and who benefits financially.",
+     "example": "A new recycling program costs money to set up but could save money on landfill in the long run — those are economic considerations."
+    }
+   ]
+  },
+  {
+   "term": "Stakeholder",
+   "descriptor_code": "AC9S7H03",
+   "width_tier": "minimum",
+   "definition": "A person or group who is affected by or has an interest in a decision about a scientific response. Different stakeholders often disagree because they value different things, not because some are wrong.",
+   "example": "For a proposed ecological reserve, stakeholders include conservation scientists (who want to protect species), landowners (who may lose farming land), First Nations communities (who have cultural connections to the land) and local government (who must balance all these interests)."
+  }
+ ]
+}

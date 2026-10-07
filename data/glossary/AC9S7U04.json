@@ -1,0 +1,324 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7U04",
+ "teacher_glossary": [
+  {
+   "term": "Force",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A push or pull acting on an object, measured in newtons (N). Forces are vector quantities — they have both magnitude (size) and direction. Multiple forces can act on an object simultaneously, and their combined effect determines whether the object's motion changes.",
+   "failure_mode": "Students think of force as a single push or pull rather than recognising that multiple forces act simultaneously on every object — they identify the 'obvious' force (a hand pushing) but omit others (friction, gravity, normal force).",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If students identify only one force, they cannot construct complete force diagrams or determine whether forces are balanced or unbalanced. Every subsequent node depends on identifying all forces acting — the hinge_reason for Node 1 identifies force diagram errors as propagating into every later node.",
+   "response": "For every scenario, require students to identify and name all forces before drawing. Use a checklist: gravity? normal force? friction? applied force? air resistance? The checklist builds the habit of checking for forces beyond the obvious one.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Vector",
+     "definition": "A quantity that has both magnitude (size) and direction. Forces are vectors — a 10 N force pushing right is different from a 10 N force pushing left. Vectors are represented as arrows where length shows magnitude and the arrowhead shows direction.",
+     "failure_mode": "Students treat force arrows as labels (pointing at the object) rather than vectors showing direction and relative size — arrow length and direction carry no meaning in their diagrams.",
+     "failure_type": "fragile_skill",
+     "response": "Give students two force diagrams for the same scenario — one with correct vector arrows, one with random arrow sizes. Ask which correctly shows the forces and why. The comparison makes vector meaning explicit.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Magnitude",
+     "definition": "The size or strength of a force, measured in newtons (N). In a force diagram, magnitude is represented by the length of the arrow — a longer arrow means a stronger force.",
+     "failure_mode": "Students draw all force arrows the same length regardless of the forces' actual relative sizes — the diagram looks neat but carries no quantitative information about which forces are stronger.",
+     "failure_type": "fragile_skill",
+     "response": "Give numerical force values and require arrow lengths to be proportional. A 20 N force arrow should be twice the length of a 10 N force arrow. Practice with a ruler builds the convention.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Direction",
+     "definition": "The way a force acts — up, down, left, right, or at an angle. Direction determines whether forces add together (same direction), cancel out (opposite directions), or produce a change in direction (at an angle).",
+     "failure_mode": "Students draw force arrows starting from the wrong point on the object or pointing away from the correct direction — particularly for normal force (drawn downward instead of upward) and friction (drawn in the direction of motion instead of opposing it).",
+     "failure_type": "fragile_skill",
+     "response": "For each force, ask: which direction does this force act? Start the arrow at the object's centre and point it in the direction the force pushes or pulls. Check: does friction oppose motion? Does normal force push away from the surface?",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Normal force",
+     "definition": "The support force exerted by a surface on an object resting on it, acting perpendicular to the surface. For an object on a horizontal surface, the normal force acts upward and is equal in magnitude to the gravitational force when forces are balanced.",
+     "failure_mode": "Students omit normal force from diagrams — they draw gravity pulling down but nothing pushing up, even when the object is stationary on a surface. Or they confuse normal force with applied force.",
+     "failure_type": "narrow_repertoire",
+     "response": "Ask: if gravity pulls this book down, why doesn't it fall through the table? The table pushes back — that's normal force. Require students to draw both gravity and normal force for every object resting on a surface.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Aerofoil"
+    },
+    {
+     "term": "Simple machines"
+    }
+   ]
+  },
+  {
+   "term": "Force diagram",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A diagram showing all forces acting on an object as vector arrows, with correct relative magnitude and direction. Force diagrams are reasoning tools — they are how students identify whether forces are balanced or unbalanced and predict the resulting motion. Also called free body diagrams.",
+   "failure_mode": "Students treat force diagrams as illustrations rather than reasoning tools — they draw arrows decoratively without using the diagram to determine whether forces are balanced and what the motion outcome should be.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Force diagrams are the reasoning tool used across all subsequent nodes. Students with imprecise or decorative diagrams cannot correctly identify balanced or unbalanced states, predict motion changes, or distinguish mass from weight. The Node 1 hinge_reason identifies force diagram errors as propagating into every subsequent node.",
+   "response": "After drawing every force diagram, require students to answer: are the forces balanced or unbalanced? What will happen to the object's motion? The diagram-to-prediction chain makes the diagram a reasoning tool rather than an illustration.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Balanced forces",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Forces acting on an object that are equal in magnitude and opposite in direction, resulting in no change to the object's motion. An object with balanced forces either stays stationary or continues moving at constant velocity — balanced does not mean 'no forces acting.'",
+   "failure_mode": "Students think balanced forces mean no forces are acting — rather than equal and opposite forces cancelling out. This misconception makes them unable to explain why an object moving at constant velocity has balanced forces.",
+   "failure_type": "misconception",
+   "why_it_matters": "The 'balanced = no forces' misconception propagates into every subsequent node. Students who hold it cannot explain constant velocity, cannot correctly predict motion states from force diagrams, and cannot understand Newton's First Law. It is the most common and persistent misconception in this standard.",
+   "response": "Present an object moving at constant velocity (e.g. car at steady speed). Ask: are forces acting? Draw the force diagram. Students discover that driving force and friction are equal and opposite — balanced forces with motion. The constant velocity case directly contradicts the 'balanced = no forces = no motion' chain.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Equilibrium",
+     "definition": "The state of an object when all forces acting on it are balanced — the net force is zero. An object in equilibrium may be stationary or moving at constant velocity.",
+     "failure_mode": "Students think equilibrium means nothing is happening — no forces, no motion. They miss that equilibrium is a dynamic state where forces are present but balanced, and motion can be occurring.",
+     "failure_type": "misconception",
+     "response": "Present an object at constant velocity and a stationary object side by side. Both are in equilibrium — both have balanced forces. The moving example breaks the 'equilibrium = stillness' association.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Newton's First Law",
+     "definition": "An object at rest stays at rest, and an object in motion stays in motion at constant velocity, unless acted upon by an unbalanced force. At Year 7, this is understood qualitatively as the principle underlying balanced force reasoning.",
+     "failure_mode": "Students state Newton's First Law but cannot apply it — they recite the definition without connecting it to force diagram analysis or using it to predict motion states from balanced/unbalanced assessments.",
+     "failure_type": "fragmentation",
+     "response": "After every force diagram analysis, ask: does Newton's First Law predict the motion you identified? The repeated connection between the law and the diagram builds application rather than recitation.",
+     "response_type": "integration"
+    },
+    {
+     "term": "Constant velocity",
+     "definition": "Movement at unchanging speed in an unchanging direction. An object at constant velocity has balanced forces — the driving force equals the opposing force. Constant velocity is the key case that disproves the misconception that balanced forces mean no motion.",
+     "failure_mode": "Students think constant velocity requires a continuous applied force with no opposing force — they do not recognise that constant velocity means balanced forces, not zero forces.",
+     "failure_type": "misconception",
+     "response": "Ask: a car drives at a steady 60 km/h on a flat road. Is there friction? Is there a driving force? Are they equal? The car is moving — but forces are balanced. This is the case that breaks the misconception.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Unbalanced forces",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Forces acting on an object that do not cancel out — the net force is not zero. Unbalanced forces cause a change in motion: the object speeds up, slows down, or changes direction. Any change in motion requires an unbalanced force.",
+   "failure_mode": "Students apply unbalanced force reasoning only to obvious acceleration (car speeding up) and miss that slowing down and changing direction also require unbalanced forces — they do not recognise deceleration or turning as force-caused changes.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If unbalanced forces only cause speeding up, students cannot explain braking, falling, turning or projectile motion using force reasoning. The generalisation — any change in motion requires an unbalanced force — is what makes force reasoning universally applicable.",
+   "response": "Present four scenarios: starting, stopping, speeding up, turning. For each, ask: is the motion changing? Draw the force diagram. Identify the unbalanced force. The range of scenarios builds the generalisation that any motion change = unbalanced force.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Spearthrower"
+    }
+   ]
+  },
+  {
+   "term": "Acceleration",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A change in an object's velocity — its speed, direction, or both. At Year 7, acceleration is understood qualitatively: a greater unbalanced force produces a greater acceleration, and a greater mass produces a smaller acceleration for the same force.",
+   "failure_mode": "Students think acceleration means only 'speeding up' — they do not recognise slowing down (deceleration) or changing direction as forms of acceleration.",
+   "failure_type": "misconception",
+   "why_it_matters": "If acceleration is only speeding up, students cannot explain braking as negative acceleration or turning as directional acceleration. The qualitative force-mass-acceleration relationship assessed at Node 5 requires understanding all three forms of acceleration.",
+   "response": "Present three cases: a car speeding up, a car braking, and a car turning a corner at constant speed. Ask: is the velocity changing in each case? All three are acceleration — the definition is 'change in velocity,' not 'going faster.'",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Deceleration",
+     "definition": "A decrease in speed — acceleration in the direction opposite to the object's motion. Deceleration is not a separate concept from acceleration; it is acceleration where the unbalanced force opposes the direction of travel.",
+     "failure_mode": "Students think deceleration is fundamentally different from acceleration — a separate category rather than acceleration in the opposite direction. This prevents them from applying force-acceleration reasoning to braking scenarios.",
+     "failure_type": "misconception",
+     "response": "Draw force diagrams for a car speeding up and a car braking. In both cases, an unbalanced force causes acceleration — the only difference is the direction of the net force relative to motion. Deceleration is acceleration, just in the opposite direction.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Gravitational force",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The attractive force between any two objects that have mass. On Earth, gravitational force pulls objects toward the centre of the Earth. The strength of gravitational force depends on mass — more massive objects experience a greater gravitational force. Extends gravitational pull from AC9S7U03 with the mass-dependence relationship.",
+   "failure_mode": "Students think gravitational force is a property of Earth alone rather than a force between any two masses — they cannot extend the concept to the moon, other planets, or objects in space.",
+   "failure_type": "misconception",
+   "why_it_matters": "If gravity is an Earth-only property, students cannot reason about gravitational force on other planets, between celestial bodies, or in the mass-force relationship. The concept is extended quantitatively (F=ma) in AC9S10U05 (Newton's Laws) — students who treat gravity as Earth-specific cannot access the universal treatment.",
+   "response": "Compare gravitational force on Earth, Moon and Mars for the same object. Mass stays constant; gravitational force changes. Ask: what determines how strong gravity is? The comparison across bodies forces the generalisation beyond Earth.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Gravitational field strength",
+     "definition": "The strength of the gravitational field at a location, measured in N/kg. On Earth's surface, g ≈ 9.8 N/kg (often rounded to 10 N/kg at Year 7). Weight = mass × gravitational field strength. Different planets and moons have different values of g.",
+     "failure_mode": "Students treat g as a fixed universal constant rather than a value that varies by location — they cannot explain why weight changes on different planets while mass does not.",
+     "failure_type": "misconception",
+     "response": "Give students a table of g values for Earth, Moon and Mars. Calculate the weight of the same object at each location. Ask: what changed? What stayed the same? The calculation makes the variable nature of g concrete.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Mass",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The amount of matter in an object, measured in kilograms (kg). Mass is a property of the object itself — it does not change with location. Mass determines how much gravitational force an object experiences and how much it resists acceleration.",
+   "failure_mode": "Students conflate mass and weight — using the terms interchangeably, saying 'I weigh 60 kilograms' rather than 'my mass is 60 kg and my weight on Earth is about 600 N.'",
+   "failure_type": "misconception",
+   "why_it_matters": "Mass/weight confusion propagates directly into AC9S10U05 (Newton's Laws of Motion). F=ma is meaningless if students conflate mass and weight — they substitute weight for mass in calculations, producing systematically wrong answers. The distinction must be functional, not just definitional.",
+   "response": "Compare the same object on Earth and on the Moon: mass is identical (same amount of matter), weight changes (different gravitational force). Ask: which measurement stays the same regardless of where you are? The location-change test makes the distinction functional.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Weight",
+   "descriptor_code": "AC9S7U04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The gravitational force acting on an object, measured in newtons (N). Weight = mass × gravitational field strength (W = mg). Unlike mass, weight changes with location because gravitational field strength varies between planets, moons and other bodies.",
+   "failure_mode": "Students define weight correctly but revert to treating it as mass in practice — they calculate weight correctly when prompted but use 'weight' to mean 'mass' in everyday discussion and unstructured problems.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Definitional knowledge without functional application means the distinction collapses under assessment pressure. Students who can define weight but default to mass/weight conflation in practice will make systematic errors in force calculations.",
+   "response": "In every force problem involving gravity, require students to calculate weight explicitly using W = mg before proceeding. The habitual calculation builds functional use of the distinction, not just definitional recall.",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Force",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "A push or pull acting on an object. Forces have a size (how strong the push or pull is) and a direction (which way it acts). Most objects have several forces acting on them at the same time.",
+   "example": "A book on a table has gravity pulling it down and the table pushing it up — two forces acting at the same time. If you push it sideways, that's a third force.",
+   "sub_terms": [
+    {
+     "term": "Vector",
+     "definition": "Something that has both a size and a direction. Forces are vectors — a 10 N push to the right is different from a 10 N push to the left, even though the size is the same.",
+     "example": "An arrow on a force diagram is a vector — its length shows how strong the force is, and its direction shows which way the force acts."
+    },
+    {
+     "term": "Magnitude",
+     "definition": "The size or strength of a force, measured in newtons (N). On a force diagram, bigger forces are shown with longer arrows.",
+     "example": "If gravity pulls a ball down with 5 N and you push it up with 10 N, the upward arrow should be twice as long as the downward arrow — showing the magnitude difference."
+    },
+    {
+     "term": "Direction",
+     "definition": "The way a force acts — up, down, left, right, or at an angle. Forces in opposite directions work against each other; forces in the same direction add together.",
+     "example": "Friction always acts in the opposite direction to movement — if a box slides right, friction pushes left."
+    },
+    {
+     "term": "Normal force",
+     "definition": "The push a surface makes against an object resting on it. If a book sits on a table, the table pushes up on the book — that upward push is the normal force, and it's what stops the book falling through.",
+     "example": "You can feel normal force right now — the chair is pushing up against you with exactly the right amount of force to balance gravity. If the chair disappeared, you'd fall."
+    },
+    {
+     "term": "Aerofoil",
+     "definition": "A shape designed to produce useful forces when air flows over it — like the cross-section of a wing or a boomerang. The curved shape makes air move differently over the top and bottom surfaces.",
+     "example": "First Peoples of Australia designed boomerangs with an aerofoil shape — the curved profile creates forces that make the boomerang fly in a curved path and return."
+    },
+    {
+     "term": "Simple machines",
+     "definition": "Devices that change the size or direction of a force to make tasks easier — like levers, pulleys, ramps and wedges. They don't reduce the total work needed, but they let you use a smaller force over a longer distance.",
+     "example": "A wheelbarrow is a lever — you push down on the handles with a small force over a big distance, and it lifts a heavy load a small distance."
+    }
+   ]
+  },
+  {
+   "term": "Force diagram",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "A drawing that shows all the forces acting on an object as arrows. The arrows point in the direction each force acts, and their length shows how strong each force is. Force diagrams help you work out what will happen to an object's motion.",
+   "example": "For a ball falling through the air, you'd draw a long arrow pointing down (gravity — strong) and a shorter arrow pointing up (air resistance — weaker). The unbalanced downward force tells you the ball accelerates downward."
+  },
+  {
+   "term": "Balanced forces",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "When all the forces on an object cancel each other out — they're equal in size but act in opposite directions. Balanced forces mean no change in motion. The object either stays still or keeps moving at the same speed in the same direction.",
+   "example": "A car driving at a steady 60 km/h on a flat road has balanced forces — the engine pushes forward with the same force that friction and air resistance push backward. Forces are acting, but they cancel out.",
+   "sub_terms": [
+    {
+     "term": "Equilibrium",
+     "definition": "When all forces on an object are balanced and the net force is zero. An object in equilibrium can be still or moving at a constant speed — equilibrium doesn't mean nothing is happening.",
+     "example": "A skydiver falling at terminal velocity is in equilibrium — gravity pulls down and air resistance pushes up with equal force. They're moving fast, but their speed isn't changing."
+    },
+    {
+     "term": "Newton's First Law",
+     "definition": "An object stays still or keeps moving at constant speed in a straight line unless an unbalanced force acts on it. This explains why you need forces to start, stop or change the motion of objects.",
+     "example": "A hockey puck sliding on ice keeps going because there's very little friction to slow it down — Newton's First Law in action. It only stops when friction or hitting something provides an unbalanced force."
+    },
+    {
+     "term": "Constant velocity",
+     "definition": "Moving at the same speed in the same direction without changing. An object at constant velocity has balanced forces — this is the key example that proves balanced forces don't mean 'no motion.'",
+     "example": "A plane cruising at 900 km/h at a steady altitude has constant velocity — the thrust equals the drag, and lift equals weight. All forces are balanced, but the plane is definitely moving."
+    }
+   ]
+  },
+  {
+   "term": "Unbalanced forces",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "When the forces on an object don't cancel out — one direction has more force than the other. Unbalanced forces cause a change in motion: the object speeds up, slows down, or changes direction.",
+   "example": "When you kick a stationary ball, your foot applies an unbalanced force — there's a big force forward and nothing pushing back equally. The ball accelerates in the direction of the net force.",
+   "sub_terms": [
+    {
+     "term": "Spearthrower",
+     "definition": "A tool used by First Peoples of Australia (also called a woomera) that extends the arm's throwing length, increasing the force applied to a spear and therefore its acceleration and speed.",
+     "example": "A spearthrower acts as a lever — the extra length means the spear is pushed for longer, applying more force. First Peoples of Australia engineered this tool to optimise the unbalanced force on the spear."
+    }
+   ]
+  },
+  {
+   "term": "Acceleration",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "Any change in an object's speed or direction. Acceleration doesn't just mean speeding up — slowing down and changing direction are also acceleration because the velocity is changing.",
+   "example": "A car speeding up, a car braking, and a car turning a corner are all accelerating — in each case, the velocity is changing because an unbalanced force is acting.",
+   "sub_terms": [
+    {
+     "term": "Deceleration",
+     "definition": "Slowing down — acceleration in the direction opposite to movement. Deceleration isn't a separate idea from acceleration; it's just acceleration that makes you go slower instead of faster.",
+     "example": "When a car brakes, friction provides an unbalanced force backward (opposite to motion). This is deceleration — the car accelerates in the backward direction, which makes it slow down."
+    }
+   ]
+  },
+  {
+   "term": "Gravitational force",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "The pulling force between any two objects that have mass. On Earth, gravity pulls everything toward the centre of the Earth. The more mass an object has, the stronger the gravitational force on it.",
+   "example": "A bowling ball experiences a greater gravitational force than a tennis ball because it has more mass — that's why it's harder to lift. On the Moon, both would experience less gravitational force because the Moon has less mass than Earth.",
+   "sub_terms": [
+    {
+     "term": "Gravitational field strength",
+     "definition": "A number that tells you how strong gravity is at a particular location, measured in N/kg. On Earth it's about 10 N/kg. On the Moon it's about 1.6 N/kg. You use it to calculate weight: weight = mass × g.",
+     "example": "A 50 kg person on Earth: weight = 50 × 10 = 500 N. The same person on the Moon: weight = 50 × 1.6 = 80 N. Same mass, different weight — because g is different."
+    }
+   ]
+  },
+  {
+   "term": "Mass",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "The amount of matter in an object, measured in kilograms (kg). Mass stays the same no matter where you are — your mass on Earth is the same as your mass on the Moon.",
+   "example": "An astronaut with a mass of 70 kg has a mass of 70 kg whether they're on Earth, on the Moon, or floating in space — the amount of matter in their body doesn't change."
+  },
+  {
+   "term": "Weight",
+   "descriptor_code": "AC9S7U04",
+   "width_tier": "minimum",
+   "definition": "The force of gravity pulling on an object, measured in newtons (N). Weight depends on where you are because gravity is different on different planets. Weight = mass × gravitational field strength.",
+   "example": "The same 70 kg astronaut weighs about 700 N on Earth but only about 112 N on the Moon — their mass hasn't changed, but the Moon's weaker gravity means less gravitational force pulling on them."
+  }
+ ]
+}

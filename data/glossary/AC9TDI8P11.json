@@ -1,0 +1,50 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P11",
+ "teacher_glossary": [
+  {
+   "term": "Convention",
+   "descriptor_code": "AC9TDI8P11",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A shared standard practice for creating and organising digital content — heading hierarchy, image captions, gender-inclusive language, logical file storage with clear naming. Conventions ensure content is accessible, navigable and professionally presented. Consistent application across a project matters more than knowing the convention exists.",
+   "failure_mode": "Students know conventions exist but apply them inconsistently — headings are hierarchical on one page but flat on another; file naming is logical in one folder but random in the next.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Inconsistent conventions are worse than no conventions — they create expectations that are then violated, making content harder to navigate. The skill is consistent application, not knowledge of the rule.",
+   "response": "Review a student's project for consistency across pages/files, not just correctness on one page. Flag every inconsistency. The cross-page check builds the consistency habit.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Generative AI prompting",
+   "descriptor_code": "AC9TDI8P11",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "Writing effective instructions for a generative AI model to produce output suited to a specific task. Effective prompts specify voice, tone, brevity and audience. Progressive prompting refines output through iteration — each prompt builds on the previous result to improve correctness, relevance or style.",
+   "failure_mode": "Students write vague prompts and accept whatever the AI produces without evaluating quality or iterating to improve it.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A single vague prompt produces generic output. The skill is not in getting AI to produce something — it's in specifying what's needed precisely enough that the output is actually useful, and iterating when it isn't.",
+   "response": "Require students to evaluate AI output against the brief before accepting it: does it match the specified tone? Length? Audience? If not, what prompt changes would improve it?",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Convention",
+   "descriptor_code": "AC9TDI8P11",
+   "width_tier": "minimum",
+   "definition": "A shared standard for creating digital content — like using heading levels in order, adding captions to images, using inclusive language, and naming files logically. The key is being consistent across your whole project, not just one page.",
+   "example": "If your document uses Heading 1 for chapter titles, don't suddenly use Heading 3 for the next chapter — inconsistency makes content harder to navigate."
+  },
+  {
+   "term": "Generative AI prompting",
+   "descriptor_code": "AC9TDI8P11",
+   "width_tier": "typical",
+   "definition": "Writing clear instructions for an AI model so it produces output that matches what you need. Good prompts specify things like tone, length, audience and format. If the first result isn't right, you refine the prompt and try again.",
+   "example": "Instead of 'write about climate change', a better prompt is 'write a 200-word news article for Year 8 students about how climate change affects coral reefs, in a factual tone.'"
+  }
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P12",
+ "teacher_glossary": [
+  {
+   "term": "Agile project management",
+   "descriptor_code": "AC9TDI8P12",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A project management approach that works in iterative cycles: plan → build → review → adapt. Rather than following a fixed linear plan, agile teams regularly review progress, identify what needs to change, and update their plan accordingly. At Year 7–8, this means completing at least one review-and-adapt cycle during a project.",
+   "failure_mode": "Students follow a linear plan from start to finish without reviewing or adapting — changes only happen when something goes obviously wrong, not as a built-in practice.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Linear plans assume perfect foresight. Real projects encounter unexpected challenges, changing requirements and new information. Students who cannot adapt their plan systematically either stick rigidly to a failing plan or abandon planning entirely.",
+   "response": "Schedule a mandatory mid-project review: what's done, what's not, what needs to change? The review must produce at least one plan modification. The structure makes adaptation a practice, not a reaction.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Cultural protocol",
+   "descriptor_code": "AC9TDI8P12",
+   "first_waypoint": 3,
+   "width_tier": "wider",
+   "definition": "The set of permissions, attributions, acknowledgements and sensitivities that must be observed when collaborating with or creating content about specific cultural communities — particularly First Nations Australian communities. Includes sensitivity around images or names of deceased people, valuing intellectual property and perspectives, and following relevant community permissions.",
+   "failure_mode": "Students apply a generic 'be respectful' approach to cultural content without understanding that specific protocols govern what can be shared, how it should be attributed, and who needs to give permission.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Generic respect is not a protocol. Specific communities have specific requirements — images of deceased people, intellectual property of cultural knowledge, community permissions for shared content. Without knowing what the protocols are, students cannot follow them.",
+   "response": "Before any project involving cultural content, require students to identify: what permissions are needed? What attributions? What sensitivities? The specificity forces protocol beyond vague respect.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Agile project management",
+   "descriptor_code": "AC9TDI8P12",
+   "width_tier": "minimum",
+   "definition": "A way of managing projects in cycles: plan a bit, build a bit, review what works, and adjust your plan — then repeat. Instead of making one big plan and following it exactly, you regularly check in and change course when needed.",
+   "example": "Halfway through building an app, your team reviews progress and realises the search feature is more important than the settings page. You change the plan to prioritise search."
+  },
+  {
+   "term": "Cultural protocol",
+   "descriptor_code": "AC9TDI8P12",
+   "width_tier": "wider",
+   "definition": "Specific rules about how to respectfully work with cultural content — especially First Nations Australian content. This includes getting the right permissions, giving proper credit, being sensitive about images of deceased people, and respecting intellectual property.",
+   "example": "Before using First Nations artwork in a digital project, you need to get permission from the community, credit the artist, and check whether there are restrictions on how the image can be used."
+  }
+ ]
+}

@@ -14,6 +14,7 @@ import sys
 from collections import defaultdict
 
 BASE_URL = "https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/"
+KIT_DATA_BASE = BASE_URL
 
 
 def year_key(y):
@@ -57,7 +58,10 @@ def main(src):
         with open(os.path.join(out_dir, f"{subject}.md"), "w", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
 
-    # Glossary files: {subject}/*_glossary.json with teacher_glossary entries keyed by descriptor_code
+    # Glossary files: {subject}/*_glossary.json hold a whole year band. Slice them per standard
+    # (data/glossary/<code>.json) so each is small enough to fetch whole, and index the slices.
+    gl_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "glossary")
+    os.makedirs(gl_dir, exist_ok=True)
     gl_rows = []
     for path in sorted(glob.glob(os.path.join(src, "**", "*_glossary.json"), recursive=True)):
         rel = os.path.relpath(path, src).replace(os.sep, "/")
@@ -66,23 +70,32 @@ def main(src):
                 g = json.load(fh)
         except Exception:
             continue
-        entries = g.get("teacher_glossary") if isinstance(g, dict) else None
-        if not entries:
+        if not isinstance(g, dict) or not g.get("teacher_glossary"):
             continue
-        codes = sorted({e.get("descriptor_code", "") for e in entries if e.get("descriptor_code")})
-        gl_rows.append((rel.split("/")[0], ", ".join(str(y) for y in g.get("year_levels", [])), len(entries), codes, rel))
+        by_code = defaultdict(lambda: {"teacher_glossary": [], "student_glossary": []})
+        for e in g.get("teacher_glossary", []):
+            if e.get("descriptor_code"):
+                by_code[e["descriptor_code"]]["teacher_glossary"].append(e)
+        for e in g.get("student_glossary", []):
+            if e.get("descriptor_code"):
+                by_code[e["descriptor_code"]]["student_glossary"].append(e)
+        for code, parts in by_code.items():
+            slice_ = {"subject": g.get("subject"), "year_levels": g.get("year_levels"), "descriptor_code": code, **parts}
+            with open(os.path.join(gl_dir, f"{code}.json"), "w", encoding="utf-8") as fh:
+                json.dump(slice_, fh, ensure_ascii=False, indent=1)
+            gl_rows.append((rel.split("/")[0], code, len(parts["teacher_glossary"])))
     gl = [
         "# Glossaries",
         "",
-        "Pre-built vocabulary for some subjects. Open the link for the file you need. Each file has `teacher_glossary` (definition, likely misconception, response) and `student_glossary` (plain definition, example). Filter entries by `descriptor_code`; `first_waypoint` says where a term first appears.",
+        "Pre-built vocabulary for some standards, one small file per standard. Each has `teacher_glossary` (definition, likely misconception, response; `first_waypoint` says where a term first appears) and `student_glossary` (plain definition, example, sometimes sub-terms).",
         "",
-        "If a standard's code isn't listed under any file below, there is no pre-built glossary for it: draft one from the node file.",
+        "If a standard isn't in the table, there is no pre-built glossary for it: draft one from the node file.",
         "",
-        "| Subject | Years | Terms | Glossary file | Standards covered |",
-        "|---|---|---|---|---|",
+        "| Subject | Standard | Terms | Glossary file |",
+        "|---|---|---|---|",
     ]
-    for subj, yrs, n, codes, rel in gl_rows:
-        gl.append(f"| {subj} | {yrs} | {n} | {BASE_URL}{rel} | {', '.join(codes)} |")
+    for subj, code, n in sorted(gl_rows):
+        gl.append(f"| {subj} | {code} | {n} | {KIT_DATA_BASE}glossary/{code}.json |")
     with open(os.path.join(out_dir, "glossaries.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(gl) + "\n")
 

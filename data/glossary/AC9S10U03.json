@@ -1,0 +1,278 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U03",
+ "teacher_glossary": [
+  {
+   "term": "Light-year",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The distance light travels in one year — approximately 9.46 × 10¹² km. Light-years are the standard unit for intergalactic and cosmological distances because conventional units (km, AU) produce unmanageably large numbers at these scales. The concept also connects distance to time: observing an object 1000 light-years away means seeing it as it was 1000 years ago.",
+   "failure_mode": "Students think a light-year is a unit of time rather than distance — the word 'year' in the name triggers the time association.",
+   "failure_type": "misconception",
+   "why_it_matters": "If light-years are time units, students cannot interpret distance data, compare scales within the universe, or understand that looking at distant objects is looking back in time — a key conceptual tool for cosmological evidence analysis in N3–N5.",
+   "response": "State the definition explicitly: 'a light-year is how far light travels in one year — it is a distance.' Then compare: the nearest star is 4.2 light-years away (distance), meaning the light we see left 4.2 years ago (time). The dual role clarifies the name.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Astronomical unit",
+     "definition": "The average distance from the Earth to the Sun — approximately 150 million km. Used for distances within the solar system, where light-years would be inconveniently small fractions.",
+     "failure_mode": "Students confuse astronomical units with light-years, using them interchangeably — they do not understand that AU measures solar-system scale distances (Earth-Sun = 1 AU) while light-years measure interstellar/intergalactic distances, and the two differ by a factor of ~63,000.",
+     "failure_type": "misconception",
+     "response": "Ask: is the nearest star about 4 AU or 4 light-years away? (4 light-years ≈ 268,000 AU.) The scale difference between solar-system and interstellar distances makes the distinction consequential.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Scientific notation",
+     "definition": "A way of expressing very large or very small numbers as a coefficient multiplied by a power of ten (e.g. 9.46 × 10¹² km). Required for expressing cosmological distances and ages where standard notation is unmanageable.",
+     "failure_mode": "Students cannot correctly convert between standard and scientific notation — they misplace the decimal or use the wrong exponent, producing distances that are orders of magnitude wrong.",
+     "failure_type": "fragile_skill",
+     "response": "Practice with a sequence of increasing scales: Earth–Moon distance, Earth–Sun (1 AU), nearest star (light-years), galaxy diameter — converting each to scientific notation. The escalating scale makes the notation's purpose concrete.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Galaxy",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A massive collection of stars, gas, dust and dark matter held together by gravity. A typical galaxy contains billions of stars. The observable universe contains billions of galaxies. Galaxies are the structural units at cosmological scale — the redshift evidence for the expanding universe is measured by observing light from distant galaxies.",
+   "failure_mode": "Students confuse galaxies with solar systems or constellations — they underestimate the scale by several orders of magnitude, treating a galaxy as a local grouping of a few stars rather than a structure containing billions.",
+   "failure_type": "misconception",
+   "why_it_matters": "If galaxies are small, students cannot grasp the scale of the universe, cannot understand why intergalactic distances require light-years, and cannot interpret redshift data (which concerns galaxies moving apart, not individual stars).",
+   "response": "Build the scale hierarchy explicitly: star → solar system (one star + planets) → galaxy (billions of stars) → universe (billions of galaxies). Use a scaled comparison — if the Sun were a grain of sand, the Milky Way would be a city — to make the magnitude jump concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Observable universe",
+     "definition": "The portion of the universe from which light has had time to reach us since the big bang — a sphere approximately 93 billion light-years in diameter. The universe may extend far beyond what is observable; the observable limit is set by the finite speed of light and the age of the universe.",
+     "failure_mode": "Students confuse the observable universe with the entire universe — they think if we can't see it, it doesn't exist, or that the observable boundary is the edge of all space.",
+     "failure_type": "misconception",
+     "response": "Ask: if you stand in a fog and can see 100 metres in every direction, does the world end at 100 metres? (No — the fog limits your view, not reality.) The observable universe is our 'fog limit' — set by the speed of light and the age of the universe, not by the size of the universe itself.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Big bang theory",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The scientific model describing the origin and evolution of the universe. The theory states that all space, time, matter and energy originated approximately 13.8 billion years ago in an initial event, and the universe has been expanding and cooling ever since. Major stages include the formation of subatomic particles, atoms, stars, and galaxies. The big bang is not an explosion in existing space — space itself expanded from the initial state.",
+   "failure_mode": "Students think the big bang was an explosion of matter into pre-existing empty space — they imagine a centre point where the explosion happened and matter flying outward through space, rather than space itself expanding everywhere simultaneously.",
+   "failure_type": "misconception",
+   "why_it_matters": "The 'explosion in space' misconception produces systematic misinterpretations of evidence: students look for a centre, misunderstand why every galaxy appears to be moving away from every other galaxy, and cannot interpret CMB as a uniform background rather than radiation from a single point. The model itself must be correct before evidence evaluation is meaningful.",
+   "response": "Use the inflating balloon analogy: dots on the surface all move apart as the balloon inflates, but no dot is the centre. Ask: where on the balloon surface did the expansion start? (Everywhere — there is no centre on the surface.) Then connect: the universe expanded everywhere at once, not from a single point into surrounding space.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Expansion",
+     "definition": "The ongoing increase in the distance between galaxies as space itself stretches. The universe has been expanding since the big bang — confirmed by the observation that distant galaxies are redshifted.",
+     "failure_mode": "Students think expansion means galaxies are flying apart through space rather than space itself stretching between them.",
+     "failure_type": "misconception",
+     "response": "Draw two dots on a rubber band and stretch it — the dots move apart not because they are moving through the rubber but because the rubber between them is stretching. This models spatial expansion rather than motion through space.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Dark matter",
+     "definition": "A form of matter that does not emit, absorb or reflect light and is detectable only through its gravitational effects. Dark matter accounts for approximately 27% of the universe's mass-energy content and is an open question in cosmology.",
+     "failure_mode": "Students think 'dark' means invisible or black — they confuse dark matter with empty space or black holes. Dark matter is matter that interacts gravitationally but not electromagnetically — it has mass and affects galaxy rotation but cannot be detected with telescopes.",
+     "failure_type": "misconception",
+     "response": "Ask: if dark matter has mass, does it exert gravity? (Yes.) Can we see it? (No — it doesn't interact with light.) How do we know it's there? (Galaxy rotation curves don't match visible matter alone.) The gravitational-but-invisible framing corrects the 'dark = nothing' assumption.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Dark energy",
+     "definition": "A poorly understood form of energy that appears to drive the accelerating expansion of the universe. Dark energy accounts for approximately 68% of the universe's mass-energy content and represents one of the largest open questions in cosmology."
+    },
+    {
+     "term": "Singularity",
+     "definition": "The initial state from which the big bang originated — a point of infinite density and temperature where the known laws of physics break down. At Year 10, the term marks the starting point of the timeline; students should understand it as the model's boundary condition, not a fully explained physical state.",
+     "failure_mode": "Students think the Big Bang singularity was an explosion in existing space — a bomb going off in emptiness. They miss that the singularity was the origin of space-time itself; there was no 'outside' or 'before' in the conventional sense.",
+     "failure_type": "misconception",
+     "response": "Ask: where did the Big Bang happen? (Everywhere — it was the expansion of space itself, not an explosion at a point within space.) The 'everywhere, not somewhere' reframing addresses the explosion-in-space misconception.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Redshift",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The shift of light from a source toward longer (redder) wavelengths, caused by the source moving away from the observer or by the expansion of space stretching the light's wavelength during transit. Light from distant galaxies is redshifted — the more distant the galaxy, the greater the redshift — providing direct observational evidence that the universe is expanding, consistent with the big bang model.",
+   "failure_mode": "Students think redshifted galaxies emit red light rather than understanding that their light is shifted toward the red end of the spectrum during transit — they confuse the colour of the emitted light with the observation that its wavelength has increased.",
+   "failure_type": "misconception",
+   "why_it_matters": "If redshift means the galaxy emits red light, students cannot connect the observation to motion or expansion. Redshift as a wavelength change carries information about velocity and distance; red light as a colour carries no such information. The entire evidence chain from redshift to expanding universe requires the wavelength-shift understanding.",
+   "response": "Use the Doppler analogy: a siren sounds higher-pitched (shorter wavelength) approaching and lower-pitched (longer wavelength) receding — the siren doesn't change its sound; your observation changes. Then transfer: the galaxy doesn't change its light; the wavelength stretches because space is expanding.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Hubble's observations",
+     "definition": "Edwin Hubble's discovery that distant galaxies have greater redshifts than nearby galaxies — establishing that the universe is expanding and that more distant objects are receding faster. This relationship (Hubble's Law) was a key empirical foundation for the big bang model.",
+     "failure_mode": "Students learn 'Hubble discovered the expanding universe' as a fact without understanding the observation: that redshift increases with distance, which is what an expanding universe predicts.",
+     "failure_type": "fragmentation",
+     "response": "Present simplified redshift-distance data for several galaxies. Ask students to identify the pattern (greater distance = greater redshift) and explain what this pattern means if the universe is expanding. The data-to-conclusion reasoning makes the observation concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Blue shift",
+     "definition": "The shift of light toward shorter (bluer) wavelengths, caused by a source moving toward the observer. Some nearby galaxies (e.g. Andromeda) are blue-shifted due to local gravitational attraction — a local effect distinct from the cosmological expansion that causes redshift at large scales.",
+     "failure_mode": "Students think all objects in the universe are moving away (redshifting) — they do not recognise that some nearby objects, such as the Andromeda galaxy, are moving toward us and show blue shift (compression of wavelengths).",
+     "failure_type": "misconception",
+     "response": "Ask: is the Andromeda galaxy redshifted or blueshifted? (Blueshifted — it's approaching the Milky Way.) The nearby counter-example shows that redshift describes a general trend for distant objects, not a universal rule.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Wavelength",
+     "definition": "The distance between successive peaks of a wave. For light, shorter wavelengths appear blue/violet and longer wavelengths appear red. Changes in wavelength (redshift or blue shift) carry information about the relative motion of the source."
+    }
+   ]
+  },
+  {
+   "term": "Doppler effect",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The change in observed wavelength (or frequency) of a wave caused by relative motion between the source and the observer. When the source moves away, the observed wavelength increases (redshift for light, lower pitch for sound); when it approaches, the wavelength decreases (blue shift for light, higher pitch for sound). The Doppler effect is the standard explanatory bridge between everyday sound experience and cosmological redshift.",
+   "failure_mode": "Students learn the Doppler effect for sound but cannot transfer the concept to light — they understand pitch change from a passing siren but do not connect it to wavelength change in galaxy light.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The Doppler effect is the mechanism that makes redshift intelligible. Without the transfer from sound to light, students have no physical model for why a galaxy's light would change wavelength, and redshift remains an arbitrary fact rather than a predictable consequence of motion.",
+   "response": "Start with the sound analogy (siren pitch change), then explicitly map each element to light: pitch → colour/wavelength, approaching → blue shift, receding → redshift. Ask students to predict: if a galaxy is moving away, what should happen to its light? The prediction forces the transfer.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Cosmic microwave background radiation",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A faint, uniform microwave radiation detected in every direction from space — the thermal afterglow of the early hot, dense universe. The CMB was predicted by the big bang model (the early universe would have been hot enough to glow, and that radiation would have been stretched to microwave wavelengths by cosmic expansion) and was detected in 1965. It is an independent line of evidence for the big bang, distinct from redshift.",
+   "failure_mode": "Students cannot explain what the CMB is evidence of — they describe it as 'radiation in space' without connecting it to the early hot universe or to the big bang prediction that such radiation should exist.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "CMB is one of three independent evidence lines the descriptor requires students to analyse. Without understanding what CMB evidences (the universe was once hot and dense), students cannot evaluate it as support for the big bang or distinguish it from other evidence types. Evidence analysis requires knowing what each evidence line independently demonstrates.",
+   "response": "Frame CMB as a prediction-then-observation sequence: the big bang model predicted that the early universe was hot enough to glow; that glow should still be detectable, stretched to microwaves by expansion. The prediction was made in the 1940s; the radiation was detected in 1965. Ask: does finding what the model predicted strengthen or weaken the theory?",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Big bang nucleosynthesis",
+   "descriptor_code": "AC9S10U03",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The process by which light elements — primarily hydrogen (~75%) and helium (~25%) — were formed in the first few minutes after the big bang when the universe was hot and dense enough for nuclear fusion. The big bang model predicts specific proportions of hydrogen and helium; the observed proportions in the universe match these predictions, providing an independent line of evidence distinct from both redshift and CMB.",
+   "failure_mode": "Students confuse big bang nucleosynthesis (formation of light elements in the early universe) with stellar nucleosynthesis (formation of heavier elements in stars) — they think all elements were made in the big bang.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all elements were made in the big bang, the predicted hydrogen/helium ratio loses its evidential value — the prediction only works because the big bang made almost exclusively hydrogen and helium. Heavier elements were made later in stars. The distinction is what makes the observed ratio a testable prediction.",
+   "response": "Present the two nucleosynthesis processes side by side: big bang (hydrogen and helium, first minutes) vs stellar (heavier elements, over billions of years in star cores). Ask which produced carbon, iron, oxygen (stellar) and which produced the hydrogen in water (big bang). The element-sorting exercise clarifies the distinction.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Light-year",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "minimum",
+   "definition": "The distance that light travels in one year — about 9.46 trillion kilometres. Despite having 'year' in the name, it's a unit of distance, not time. It's used because space is so enormous that kilometres would give numbers too large to be useful.",
+   "example": "The nearest star to our Sun is about 4.2 light-years away — meaning the light you see from it tonight actually left that star 4.2 years ago.",
+   "sub_terms": [
+    {
+     "term": "Astronomical unit",
+     "definition": "The distance from Earth to the Sun — about 150 million km. Used for distances within our solar system where light-years would be too large.",
+     "example": "Mars is about 1.5 AU from the Sun — one and a half times the Earth-Sun distance."
+    },
+    {
+     "term": "Scientific notation",
+     "definition": "A shorthand for writing really big or really small numbers using powers of ten — for example, 9,460,000,000,000 km becomes 9.46 × 10¹² km.",
+     "example": "Writing the distance to the nearest star as 40,000,000,000,000 km is unwieldy — 4.0 × 10¹³ km says the same thing much more clearly."
+    }
+   ]
+  },
+  {
+   "term": "Galaxy",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "minimum",
+   "definition": "A massive collection of billions of stars, gas and dust held together by gravity. Our galaxy (the Milky Way) is just one of billions of galaxies in the observable universe.",
+   "example": "The Milky Way contains roughly 200 billion stars — and the observable universe contains roughly 200 billion galaxies, each with billions of their own stars.",
+   "sub_terms": [
+    {
+     "term": "Observable universe",
+     "definition": "The part of the universe we can actually see — limited by how far light has been able to travel since the big bang. The real universe may be much bigger than what we can observe.",
+     "example": "It's like standing in a fog — you can only see so far, but the world doesn't end where your vision stops. The observable universe is our 'vision limit' set by the speed of light."
+    }
+   ]
+  },
+  {
+   "term": "Big bang theory",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "minimum",
+   "definition": "The scientific model that explains how the universe began about 13.8 billion years ago. All space, time and matter started from an incredibly hot, dense state and the universe has been expanding and cooling ever since. It's not an explosion in space — space itself has been stretching.",
+   "example": "Imagine dots drawn on a balloon being inflated — every dot moves away from every other dot as the balloon stretches. The universe works the same way: galaxies aren't flying through space, the space between them is expanding.",
+   "sub_terms": [
+    {
+     "term": "Expansion",
+     "definition": "The ongoing stretching of space itself, causing galaxies to move further apart over time — confirmed by the observation that distant galaxies are redshifted.",
+     "example": "Space between galaxies is literally getting bigger — like a rubber band being stretched with ants on it. The ants aren't walking apart; the rubber between them is growing."
+    },
+    {
+     "term": "Dark matter",
+     "definition": "An invisible form of matter that doesn't give off or absorb light — we know it exists because of its gravitational effects, but scientists don't yet know what it's made of."
+    },
+    {
+     "term": "Dark energy",
+     "definition": "A mysterious form of energy that seems to be making the universe's expansion speed up — it makes up about 68% of the universe but is one of science's biggest unsolved questions."
+    },
+    {
+     "term": "Singularity",
+     "definition": "The starting point of the big bang — an incredibly hot, dense state where everything was compressed into an unimaginably small point. It's the 'time zero' of the universe's timeline."
+    }
+   ]
+  },
+  {
+   "term": "Redshift",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "minimum",
+   "definition": "When light from a distant galaxy is stretched to longer wavelengths (shifted toward the red end of the spectrum) because the galaxy is moving away from us or because space is expanding. The galaxy doesn't emit red light — its light gets stretched during the journey.",
+   "example": "A galaxy 1 billion light-years away has its light stretched more than one 100 million light-years away — the further away, the more the light is redshifted, showing that more distant galaxies are receding faster.",
+   "sub_terms": [
+    {
+     "term": "Hubble's observations",
+     "definition": "Edwin Hubble discovered that the further away a galaxy is, the more its light is redshifted — proving the universe is expanding.",
+     "example": "Hubble plotted galaxy distance against redshift and found a straight-line relationship — the pattern is exactly what you'd expect if space is expanding everywhere."
+    },
+    {
+     "term": "Blue shift",
+     "definition": "The opposite of redshift — when light is squeezed to shorter wavelengths because a galaxy is moving toward us.",
+     "example": "The Andromeda galaxy is blue-shifted because it's close enough to be pulled toward us by gravity, overriding the general expansion."
+    },
+    {
+     "term": "Wavelength",
+     "definition": "The distance between peaks of a wave. For light, shorter wavelengths look blue and longer wavelengths look red."
+    }
+   ]
+  },
+  {
+   "term": "Doppler effect",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "typical",
+   "definition": "The change in wavelength you observe when a source of waves is moving toward or away from you. The same thing that makes an ambulance siren sound higher-pitched as it approaches and lower-pitched as it drives away also applies to light from galaxies.",
+   "example": "An ambulance siren sounds high-pitched coming toward you (waves compressed) and low-pitched moving away (waves stretched) — galaxy light works the same way, stretching redder when the galaxy moves away."
+  },
+  {
+   "term": "Cosmic microwave background radiation",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "minimum",
+   "definition": "A faint glow of microwave radiation that fills the entire universe — the leftover heat from when the universe was incredibly hot and dense shortly after the big bang. The big bang theory predicted this glow should exist, and scientists detected it in 1965.",
+   "example": "If you tuned an old analogue TV between channels, about 1% of the static you'd see comes from the CMB — you'd literally be looking at the afterglow of the big bang."
+  },
+  {
+   "term": "Big bang nucleosynthesis",
+   "descriptor_code": "AC9S10U03",
+   "width_tier": "typical",
+   "definition": "The process that created the lightest elements — mostly hydrogen and helium — in the first few minutes after the big bang, when the universe was hot enough for nuclear reactions. The big bang model predicts roughly 75% hydrogen and 25% helium, and that's what we actually observe.",
+   "example": "Almost all the hydrogen in the water you drink was made in the first few minutes after the big bang — heavier elements like carbon and iron were made much later, inside stars."
+  }
+ ]
+}

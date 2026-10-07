@@ -1,0 +1,111 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7H04",
+ "teacher_glossary": [
+  {
+   "term": "Science communication",
+   "descriptor_code": "AC9S7H04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of conveying scientific findings, ideas and arguments to specific audiences through deliberate choices about format, language and emphasis. Science communication is distinct from the scientific knowledge itself — the same finding communicated differently to different audiences can produce different levels of understanding, different viewpoint shifts and different policy outcomes. Forms include peer-reviewed publications, media reports, public campaigns, social media and two-way knowledge sharing such as First Nations Australians' Caring for Country initiatives.",
+   "failure_mode": "Students conflate the communication with the knowledge itself — they assume that once scientific knowledge exists, people automatically understand it and act on it, rather than recognising that how science is communicated determines whether and how it changes viewpoints or drives policy.",
+   "failure_type": "misconception",
+   "why_it_matters": "If communication is invisible, students cannot explain why the same scientific knowledge sometimes changes behaviour and sometimes doesn't. The entire standard rests on understanding that communication is an active, designed process with consequences — not a passive transmission of facts.",
+   "response": "Compare two cases where the same scientific knowledge was communicated differently with different outcomes — one where communication changed viewpoints and one where it didn't. Ask students what was different about the communication, not the science.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Viewpoint",
+     "definition": "An individual's position or understanding on a science-related issue, informed by the science communication they encounter. Viewpoints can be changed, reinforced or created by effective communication.",
+     "failure_mode": "Students treat viewpoint change as automatic — they assume people change their minds once they 'know the facts' rather than understanding that communication choices (framing, accessibility, credibility of source) determine whether viewpoints actually shift.",
+     "failure_type": "misconception",
+     "response": "Present a case where strong evidence failed to change viewpoints because of poor communication, and a case where effective communication shifted viewpoints. Ask what the communication did differently — the comparison reveals that facts alone are not sufficient.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Policy",
+     "definition": "A course of action adopted by a government, organisation or institution in response to an issue. Science communication can inform policy by providing evidence-based arguments to decision-makers, but the pathway from communication to policy involves multiple steps — reaching policy makers, being understood, competing with other priorities."
+    },
+    {
+     "term": "Regulation",
+     "definition": "A specific rule or requirement established by a governing body to manage an activity or address an issue — such as fishing catch limits, emission standards or heritage protection laws. Regulations are one outcome of policy and are often informed by science communication."
+    },
+    {
+     "term": "Peer-reviewed publication",
+     "definition": "A scientific paper that has been evaluated by other experts in the same field before publication. Peer review checks the methods, evidence and conclusions for quality and validity. Peer-reviewed sources are generally more credible than non-reviewed sources because they have been scrutinised by independent experts."
+    },
+    {
+     "term": "Media report",
+     "definition": "A news article, broadcast or online piece that communicates scientific findings to a general audience. Media reports simplify and reframe scientific research for accessibility, which means details may be emphasised, omitted or reinterpreted depending on the outlet's audience and editorial choices."
+    },
+    {
+     "term": "Pathway",
+     "definition": "The causal chain through which science communication produces an outcome — from the communication reaching an audience, to the audience understanding the message, to viewpoints shifting, to action being taken, to policy changing. Tracing the pathway means explaining HOW communication led to an outcome, not just stating THAT it did."
+    }
+   ]
+  },
+  {
+   "term": "Audience",
+   "descriptor_code": "AC9S7H04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The intended recipients of a science communication, whose characteristics — prior knowledge, interests, values, decision-making power — determine the appropriate language, format and emphasis. Different audiences require different communication approaches: a peer-reviewed journal targets expert researchers; a media report targets the general public; a policy brief targets decision-makers. Effective science communication designs for its audience rather than presenting in a single default format.",
+   "failure_mode": "Students write or present for a generic audience rather than making deliberate choices about language, detail level and format for a specific reader — they use the same approach regardless of who they are communicating to.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If students cannot adapt communication to audience, they cannot explain why the same science is communicated differently across contexts (Node 1) or analyse why some communication changes viewpoints while other communication of the same science does not (Node 2).",
+   "response": "Give students the same scientific finding and ask them to communicate it to two different audiences (e.g. a peer scientist and a Year 5 student). Compare the two versions and explicitly identify what changed and why — the audience-driven choices become visible through the contrast.",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Science communication",
+   "descriptor_code": "AC9S7H04",
+   "width_tier": "minimum",
+   "definition": "How scientists share their findings and ideas with other people. The way science is communicated matters — the same discovery can have a big impact or no impact depending on how it's presented and to whom.",
+   "example": "When scientists discovered that certain fish species were declining, their research only led to fishing limits after the findings were communicated clearly to policy makers and the public through reports and media coverage.",
+   "sub_terms": [
+    {
+     "term": "Viewpoint",
+     "definition": "What a person thinks or understands about a science-related issue. Viewpoints can change when people encounter effective science communication.",
+     "example": "Jane Goodall's documentaries changed many people's viewpoints about chimpanzees — before her communication, most people didn't know chimps use tools and have complex social lives."
+    },
+    {
+     "term": "Policy",
+     "definition": "A plan or set of decisions made by a government or organisation about how to handle an issue.",
+     "example": "Government policies on recycling were influenced by science communication about the environmental impact of waste in landfill."
+    },
+    {
+     "term": "Regulation",
+     "definition": "A specific rule made by a government to manage something — like a speed limit or a fishing quota.",
+     "example": "Fishing catch limits are regulations that were informed by scientists communicating data about declining fish populations."
+    },
+    {
+     "term": "Peer-reviewed publication",
+     "definition": "A scientific paper that other expert scientists have checked and approved before it gets published. This checking process means the methods and conclusions have been examined by people who understand the field.",
+     "example": "Before a study about a new medicine is published in a scientific journal, other medical researchers read it carefully to check whether the methods were sound and the conclusions are supported by the evidence."
+    },
+    {
+     "term": "Media report",
+     "definition": "A news story about science — in a newspaper, on TV, online or on social media. Media reports make science accessible but may simplify or emphasise certain parts to suit their audience.",
+     "example": "A journal article might say 'a statistically significant correlation was observed between X and Y.' A media report might say 'Scientists discover X causes Y' — same research, very different framing."
+    },
+    {
+     "term": "Pathway",
+     "definition": "The chain of steps from science being communicated to something actually changing — like how a documentary about fish populations led to public concern, which led to community pressure, which led to government fishing limits.",
+     "example": "Instead of saying 'scientists communicated their findings and then fishing limits were introduced,' trace the pathway: scientists published data → media reported it → public understood the problem → community demanded action → government introduced catch limits."
+    }
+   ]
+  },
+  {
+   "term": "Audience",
+   "descriptor_code": "AC9S7H04",
+   "width_tier": "minimum",
+   "definition": "The people you are communicating to. Good science communication changes depending on who the audience is — you wouldn't explain something the same way to a scientist as you would to a primary school student.",
+   "example": "A journal article about climate data uses technical language and statistics for expert scientists, while a news article about the same data uses simpler language and visual graphs for the general public."
+  }
+ ]
+}

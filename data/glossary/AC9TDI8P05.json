@@ -1,0 +1,154 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P05",
+ "teacher_glossary": [
+  {
+   "term": "Control structure",
+   "descriptor_code": "AC9TDI8P05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "One of three building blocks that determine the flow of an algorithm: sequence (steps in order), branching (choosing a path based on a condition), and iteration (repeating steps). All algorithms are built from combinations of these three structures.",
+   "failure_mode": "Students use control structures procedurally without being able to name or identify which one they are using.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If control structures are not individually identifiable, students cannot understand nesting because nesting requires knowing what is outer and what is inner.",
+   "response": "Show four short algorithms and ask students to label which control structure each uses. Repeat until identification is automatic — naming is the prerequisite for combining.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Sequence",
+     "definition": "Steps executed in a fixed order, one after another. The simplest control structure — no decisions, no repetition."
+    },
+    {
+     "term": "Branching",
+     "definition": "A decision point where the algorithm follows one of two or more paths based on a condition (IF-THEN-ELSE). Each path contains different steps.",
+     "failure_mode": "Students write branching without a clear condition — the decision point has no testable criterion.",
+     "failure_type": "fragile_skill",
+     "response": "Ask: what question is being asked at this decision point? If they can't state the condition as a yes/no question, the branching is incomplete.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Iteration",
+     "definition": "Repeating a set of steps either a fixed number of times (FOR) or until a condition changes (WHILE). Iteration handles repetitive tasks without writing each step individually.",
+     "failure_mode": "Students write the same steps multiple times instead of using a loop, even when the pattern is identical.",
+     "failure_type": "fragile_skill",
+     "response": "Show code with five identical blocks and ask: what if we needed 100? The impossibility of manual repetition motivates the loop.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Condition"
+    }
+   ]
+  },
+  {
+   "term": "Nesting",
+   "descriptor_code": "AC9TDI8P05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Placing one control structure inside another to handle problems that require multi-level logic. The outer structure controls when the inner one executes. Common patterns: IF inside IF (multi-stage decisions), IF inside loop (conditional action on each repetition), loop inside loop (grid or matrix processing). Nesting creates a hierarchy — flat algorithms cannot represent the same logic.",
+   "failure_mode": "Students confuse nesting with sequential ordering — they place two IFs one after another rather than one inside the other, producing a different logical outcome.",
+   "failure_type": "misconception",
+   "why_it_matters": "Sequential IFs test independently; nested IFs test conditionally. The distinction changes the algorithm's output. Students who cannot see the structural difference produce algorithms that don't match their intended logic.",
+   "response": "Show two algorithms: one with sequential IFs, one with nested IFs, same conditions. Trace both with the same input. The different outputs make the structural difference visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Flowchart",
+   "descriptor_code": "AC9TDI8P05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A visual representation of an algorithm using standardised shapes: rectangles for processes, diamonds for decisions, arrows for flow direction, and loop-back arrows for iteration. Flowcharts make branching and iteration visible through spatial layout, which is useful for communicating algorithm logic and spotting structural errors.",
+   "failure_mode": "Students draw linear sequences of rectangles without using diamonds for decisions or loop-back arrows for iteration — the flowchart becomes a to-do list that cannot represent control flow.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A flowchart without decision diamonds or loop arrows cannot represent branching or iteration. The distinctive value of flowcharts is making control flow visible; without the correct shapes, that value is lost and errors in logic are hidden.",
+   "response": "Give students an algorithm with branching and iteration. Check specifically for diamonds at decision points and arrows that loop back — these are the two elements that distinguish a flowchart from a list.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Pseudocode",
+   "descriptor_code": "AC9TDI8P05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A text-based representation of an algorithm using structured English with programming-like keywords (IF, THEN, ELSE, WHILE, FOR, END). Pseudocode uses indentation to show nesting — inner structures are indented further than outer ones. More precise than plain English but not tied to any specific programming language.",
+   "failure_mode": "Students write plain English sentences rather than using structured keywords and indentation, losing the precision that makes pseudocode traceable and translatable to code.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Plain English pseudocode cannot be systematically traced — ambiguity at decision points makes desk checking impossible. If students cannot write structured pseudocode, they cannot verify their algorithms before implementation.",
+   "response": "Show the same algorithm as plain English, pseudocode and code. Ask students to trace each — the plain English version will be ambiguous at decision points, making the value of structured pseudocode concrete.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Indentation"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Algorithm",
+   "descriptor_code": "AC9TDI8P05",
+   "width_tier": "minimum",
+   "definition": "A precise set of step-by-step instructions that solves a problem or completes a task. Unlike everyday instructions, an algorithm must be exact enough that a computer could follow it without guessing what you mean.",
+   "example": "A recipe is close to an algorithm, but 'add a pinch of salt' is too vague — an algorithm would say 'add 2 grams of salt.'",
+   "sub_terms": [
+    {
+     "term": "Algorithm design"
+    },
+    {
+     "term": "Variable"
+    },
+    {
+     "term": "Constant"
+    }
+   ]
+  },
+  {
+   "term": "Control structure",
+   "descriptor_code": "AC9TDI8P05",
+   "width_tier": "minimum",
+   "definition": "One of three building blocks used to control what an algorithm does: sequence (steps in order), branching (choosing a path based on a condition), and iteration (repeating steps). Every algorithm is built from these three.",
+   "example": "Checking if a number is positive or negative uses branching — the algorithm takes a different path depending on the answer.",
+   "sub_terms": [
+    {
+     "term": "Sequence"
+    },
+    {
+     "term": "Branching",
+     "definition": "A decision point where the algorithm chooses which path to follow based on a condition.",
+     "example": "IF the password is correct THEN log in, ELSE show an error."
+    },
+    {
+     "term": "Iteration",
+     "definition": "Repeating steps — either a set number of times or until something changes.",
+     "example": "A loop that checks every name in a class list to find a match."
+    },
+    {
+     "term": "Condition"
+    }
+   ]
+  },
+  {
+   "term": "Nesting",
+   "descriptor_code": "AC9TDI8P05",
+   "width_tier": "minimum",
+   "definition": "Putting one control structure inside another to handle more complex problems. The outer structure controls when the inner one runs.",
+   "example": "A loop that checks every student's mark AND gives a different message for pass or fail has an IF nested inside a loop."
+  },
+  {
+   "term": "Flowchart",
+   "descriptor_code": "AC9TDI8P05",
+   "width_tier": "minimum",
+   "definition": "A diagram that shows the steps of an algorithm using shapes — rectangles for actions, diamonds for decisions, and arrows for the order. Flowcharts make it easy to see where an algorithm branches or loops.",
+   "example": "A diamond shape with 'Is the number even?' has two arrows coming out — one for YES and one for NO — each leading to different steps."
+  },
+  {
+   "term": "Pseudocode",
+   "descriptor_code": "AC9TDI8P05",
+   "width_tier": "minimum",
+   "definition": "Writing an algorithm in structured English using keywords like IF, THEN, ELSE, WHILE and FOR. It's more precise than plain English but doesn't have to follow any specific programming language's rules. Indentation shows what's nested inside what.",
+   "example": "WHILE items remain\n  IF item price > budget THEN skip\n  ELSE add to cart\nEND WHILE"
+  }
+ ]
+}

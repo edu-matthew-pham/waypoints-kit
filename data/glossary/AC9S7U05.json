@@ -1,0 +1,303 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7U05",
+ "teacher_glossary": [
+  {
+   "term": "Particle theory",
+   "descriptor_code": "AC9S7U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A scientific model explaining the behaviour of matter in terms of tiny particles. The four key ideas are: all matter is made of particles; particles are in constant motion; particles are attracted to each other; the spacing, motion and attraction between particles differ across states and determine observable properties.",
+   "failure_mode": "Students cannot reliably reproduce all four components of the model — they remember particles and spacing but omit motion or attraction, producing an incomplete model that cannot explain properties like viscosity or changes of state.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The four-component model is the explanatory framework for all subsequent nodes. Students who hold an incomplete model treat particle diagrams decoratively rather than as reasoning tools — they draw diagrams without using them to explain properties. This is the Node 1 hinge.",
+   "response": "Use a four-point checklist every time students explain a property: particles — spacing — motion — attraction. Require all four to be addressed in every particle theory explanation. The checklist builds completeness as a habit.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Particle diagram",
+   "descriptor_code": "AC9S7U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A visual representation of how particles are arranged, spaced and moving in a substance. Particle diagrams are reasoning tools — they should be used to explain observable properties (density, compressibility, viscosity) and predict behaviour, not just to label states of matter.",
+   "failure_mode": "Students draw particle diagrams as decorative illustrations rather than using them as explanatory tools — the diagram is added after the explanation rather than being the basis for it.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If particle diagrams are decorative, students cannot use the particle model to explain properties or predict behaviour. The pattern-recognition built through using diagrams as reasoning tools in Node 2 is what enables the explanatory move in Node 3. Node 2's hinge_reason identifies this directly.",
+   "response": "Reverse the task order: give students a particle diagram and ask them to predict the substance's properties from the diagram before revealing what the substance is. This makes the diagram the starting point for reasoning rather than an afterthought.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "States of matter",
+   "descriptor_code": "AC9S7U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The three common forms in which matter exists — solid, liquid and gas — each characterised by a distinct arrangement, motion and attraction between particles. The state of a substance determines its observable properties and can change when energy is added or removed.",
+   "failure_mode": "Students identify states by macroscopic appearance only ('hard = solid, wet = liquid, invisible = gas') without connecting to the particle-level differences that define each state.",
+   "failure_type": "misconception",
+   "why_it_matters": "If states are defined by appearance rather than particle arrangement, students cannot explain why some substances defy expectations (e.g. liquid mercury is a shiny metal, glass is an amorphous solid). The particle-level definition is what makes the model explanatory rather than descriptive.",
+   "response": "Present substances that challenge appearance-based classification: mercury (liquid metal), glass (solid but transparent), steam (invisible gas). For each, ask: what state is this? How do you know from the particle model, not from how it looks?",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Solid",
+     "definition": "A state of matter in which particles are closely packed in a fixed, regular arrangement with strong attractions between them. Particles vibrate in fixed positions but do not move freely. Solids have a definite shape and volume.",
+     "failure_mode": "Students think particles in a solid are completely still — not vibrating. This prevents them from explaining how solids expand when heated or how energy input leads to melting.",
+     "failure_type": "misconception",
+     "response": "Use an animation or vibrating model to show particles in a solid oscillating in fixed positions. Ask: if the particles were completely still, what would happen if we added heat energy? The vibration is what increases when energy is added.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Liquid",
+     "definition": "A state of matter in which particles are close together but not in fixed positions — they can slide past each other. Attractions between particles are weaker than in solids but still significant. Liquids have a definite volume but take the shape of their container.",
+     "failure_mode": "Students confuse the liquid and gas particle models — drawing liquid particles widely spaced (like a gas) or gas particles close together (like a liquid). The spacing distinction is what they miss.",
+     "failure_type": "fragile_skill",
+     "response": "Place solid, liquid and gas particle diagrams side by side and ask students to rank by spacing. Liquids are close to solids in spacing but differ in arrangement (not fixed). The comparison clarifies the liquid's intermediate position.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Gas",
+     "definition": "A state of matter in which particles are widely spaced, move rapidly in all directions, and have very weak attractions between them. Gases have no fixed shape or volume — they expand to fill their container.",
+     "failure_mode": "Students think gas particles move slowly or stay in one area of the container — they do not connect the rapid, random motion of gas particles to the macroscopic property of filling any container.",
+     "failure_type": "misconception",
+     "response": "Use a perfume-in-a-room demonstration or animation: spray perfume at one end and it reaches the other end. Ask: how did the scent particles get there? The rapid random motion of gas particles explains the observation.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Physical properties",
+   "descriptor_code": "AC9S7U05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Characteristics of a substance that can be observed or measured without changing the substance's chemical composition — such as density, compressibility, viscosity, melting point and boiling point. Physical properties are explained at the particle level by differences in particle arrangement, motion and attraction.",
+   "failure_mode": "Students list physical properties without connecting them to the particle model — they treat properties as standalone facts rather than as consequences of particle behaviour that can be explained and predicted.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Using particle theory explanatorily — not just descriptively — is directly prerequisite for AC9S7U06 (Pure Substances and Mixtures). Selecting and justifying separation techniques requires explaining property differences at the particle level. Node 3's hinge_reason identifies this explicitly.",
+   "response": "For every physical property, require a particle-level explanation: what about the particles causes this property? Use the format: '[Property] occurs because the particles are [arrangement/motion/attraction description].' The sentence frame forces the explanatory connection.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Density",
+     "definition": "The mass per unit volume of a substance (how much matter is packed into a given space). At the particle level, density depends on how closely particles are packed and the mass of individual particles. Solids are generally denser than liquids, which are denser than gases.",
+     "failure_mode": "Students think density is the same as weight ('heavy things are dense') without recognising that density is mass per unit volume — a small piece of lead is denser than a large piece of wood, even though the wood may be heavier.",
+     "failure_type": "misconception",
+     "response": "Compare a small steel ball and a large wooden block. Which is denser? Which is heavier? The two answers differ — density is about how tightly packed the mass is, not total mass.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Compressibility",
+     "definition": "How much a substance can be squeezed into a smaller volume. Gases are highly compressible because particles are widely spaced; liquids and solids are nearly incompressible because particles are already close together.",
+     "failure_mode": "Students state that gases are compressible without explaining why in terms of particle spacing — or they think liquids should be compressible because they 'flow.'",
+     "failure_type": "fragmentation",
+     "response": "Use a syringe demonstration: seal the end and push — air compresses, water does not. Ask: what is different about the particle spacing in each that explains this? The physical demonstration grounds the particle explanation.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Viscosity",
+     "definition": "A measure of how easily a liquid flows — how much it resists flowing. At the particle level, viscosity depends on the strength of attraction between particles and how easily they can slide past each other. High viscosity (honey) = strong attractions; low viscosity (water) = weaker attractions.",
+     "failure_mode": "Students describe viscosity as 'thickness' without connecting it to particle attractions — they think viscosity is about how much stuff is in the liquid rather than how strongly particles attract each other.",
+     "failure_type": "misconception",
+     "response": "Compare honey and water: both are liquids, but honey flows much more slowly. Ask: what is different about the particles? The answer is attraction strength, not particle number or size.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Diffusion",
+     "definition": "The net movement of particles from an area of higher concentration to an area of lower concentration, driven by the random motion of particles. Diffusion occurs in liquids and gases and is faster in gases because particles move more rapidly and are more widely spaced.",
+     "failure_mode": "Students describe diffusion as particles 'wanting' to spread out — attributing purpose or intention to particle movement rather than understanding it as a statistical consequence of random motion.",
+     "failure_type": "misconception",
+     "response": "Use a drop of food colouring in water. Ask: do the dye particles 'know' where to go? No — each particle moves randomly. But because there are more dye particles in one spot, random movement naturally spreads them out. Purpose-free explanation.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Melting point"
+    }
+   ]
+  },
+  {
+   "term": "Changes of state",
+   "descriptor_code": "AC9S7U05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The transformation of a substance from one state of matter to another — caused by adding or removing energy. During a change of state, energy changes the arrangement and motion of particles rather than raising the temperature. The substance's chemical composition does not change.",
+   "failure_mode": "Students confuse temperature change with state change — they think energy input always raises temperature, and cannot explain why temperature plateaus during melting or boiling even though energy is still being added.",
+   "failure_type": "misconception",
+   "why_it_matters": "The temperature-plateau concept is directly assessed in success criteria. If energy input always means temperature rise, students cannot interpret heating curves, cannot explain why ice stays at 0°C while melting, and cannot distinguish the energy that changes arrangement from the energy that changes temperature.",
+   "response": "Analyse a heating curve together. At the plateau: ask 'is energy still being added?' (yes) 'is temperature rising?' (no) 'so where is the energy going?' (changing particle arrangement, not temperature). The contradiction between energy input and constant temperature is the key teaching moment.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Melting",
+     "definition": "The change of state from solid to liquid, occurring when energy input increases particle motion until particles can overcome their fixed arrangement and begin to slide past each other. Requires energy input.",
+     "failure_mode": "Students describe melting as particles 'breaking apart' rather than overcoming fixed positions — they think the particles separate widely rather than maintaining close spacing while gaining freedom to move.",
+     "failure_type": "misconception",
+     "response": "Compare particle diagrams for solid and liquid — particles are still close together in both states. Ask: what changed? Arrangement and motion changed; spacing barely changed. Melting is about freedom of movement, not separation.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Freezing",
+     "definition": "The change of state from liquid to solid, occurring when energy is removed and particle motion decreases until particles lock into fixed positions. Freezing is the reverse of melting and releases energy.",
+     "failure_mode": "Students do not recognise freezing as the reverse of melting or that it releases energy — they think freezing just 'happens when it's cold' without connecting it to energy removal and particle behaviour change.",
+     "failure_type": "fragmentation",
+     "response": "Present melting and freezing as mirror processes: melting adds energy and frees particles; freezing removes energy and locks particles. Ask: if melting requires energy input, what does freezing require? The symmetry makes the energy direction clear.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Evaporation",
+     "definition": "The change of state from liquid to gas, occurring at the surface of a liquid when particles with enough energy escape the attractions of neighbouring particles. Unlike boiling, evaporation occurs below boiling point and only at the surface. Requires energy input.",
+     "failure_mode": "Students confuse evaporation with boiling — they think evaporation only happens at boiling point rather than occurring at any temperature when surface particles have sufficient energy.",
+     "failure_type": "misconception",
+     "response": "Ask: why does a puddle dry up on a warm day when the temperature is well below 100°C? The answer — some surface particles have enough energy to escape — distinguishes evaporation from boiling.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Condensation",
+     "definition": "The change of state from gas to liquid, occurring when gas particles lose enough energy that attractions between them cause them to cluster together. Condensation is the reverse of evaporation and releases energy.",
+     "failure_mode": "Students think condensation is water appearing 'from nowhere' — they do not connect the water droplets on a cold glass to water vapour in the air losing energy and changing state.",
+     "failure_type": "misconception",
+     "response": "Breathe on a cold window or place a cold can on a table. Ask: where did the water come from? It was already in the air as invisible water vapour — the cold surface removed energy, causing the gas particles to condense into visible liquid.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Energy input and output",
+     "definition": "Energy must be added (input) for changes from more ordered to less ordered states (melting, evaporation, sublimation) and is released (output) for changes from less ordered to more ordered states (freezing, condensation). During state changes, energy changes particle arrangement rather than temperature.",
+     "failure_mode": "Students cannot consistently identify whether energy is added or removed for each state change — they guess rather than reasoning from the particle model about whether particles are gaining or losing freedom of movement.",
+     "failure_type": "fragile_skill",
+     "response": "Arrange all state changes on a diagram from most ordered (solid) to least ordered (gas). Arrows going right require energy input; arrows going left release energy. The visual pattern replaces guessing with reasoning.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Heating and cooling curve",
+     "definition": "A graph showing temperature change over time as a substance is heated or cooled. Sloping sections show temperature change within a state; flat sections (plateaus) show state changes where added energy changes particle arrangement rather than temperature.",
+     "failure_mode": "Students cannot interpret plateau regions on heating curves — they expect temperature to rise continuously and think flat sections mean the heater is broken or no energy is being added.",
+     "failure_type": "misconception",
+     "response": "Give students a heating curve and ask them to label each section: what state is the substance in? Is it changing state or changing temperature? What is the energy doing in the flat sections? The section-by-section analysis builds interpretation skill.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Sublimation"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Particle theory",
+   "descriptor_code": "AC9S7U05",
+   "width_tier": "minimum",
+   "definition": "A model that explains how matter behaves by describing tiny particles too small to see. The four key ideas are: everything is made of particles, particles are always moving, particles are attracted to each other, and the spacing between particles differs in solids, liquids and gases.",
+   "example": "When you smell perfume from across a room, particle theory explains it: tiny perfume particles are moving randomly through the air, spreading out from where they started."
+  },
+  {
+   "term": "Particle diagram",
+   "descriptor_code": "AC9S7U05",
+   "width_tier": "minimum",
+   "definition": "A drawing showing how particles are arranged and spaced in a substance. You can use particle diagrams to explain why substances have certain properties — they're thinking tools, not just pictures to label.",
+   "example": "A particle diagram for a gas shows particles spread far apart and moving in all directions — this explains why you can compress a gas (there's space between particles to push them closer together)."
+  },
+  {
+   "term": "States of matter",
+   "descriptor_code": "AC9S7U05",
+   "width_tier": "minimum",
+   "definition": "The three main forms matter comes in — solid, liquid and gas. Each state has a different arrangement and movement of particles, which is what gives each state its properties.",
+   "example": "Water can exist as ice (solid — particles locked in place), liquid water (particles sliding past each other), or steam (gas — particles flying around freely). Same particles, different arrangement.",
+   "sub_terms": [
+    {
+     "term": "Solid",
+     "definition": "A state where particles are packed tightly in a fixed pattern, vibrating in place but not moving around. Solids keep their shape because the particles can't move past each other.",
+     "example": "A block of ice holds its shape because the water particles are locked into a fixed arrangement — they vibrate but can't slide past each other."
+    },
+    {
+     "term": "Liquid",
+     "definition": "A state where particles are still close together but can slide past each other — they're not locked in fixed positions like in a solid. Liquids take the shape of their container but keep the same volume.",
+     "example": "Pour water from a glass into a bowl — it changes shape but the amount stays the same. The particles are close together (so the volume doesn't change) but can move around (so the shape changes)."
+    },
+    {
+     "term": "Gas",
+     "definition": "A state where particles are spread far apart and move rapidly in all directions. Gases fill whatever container they're in because the particles are free to spread out as far as they can.",
+     "example": "When you open a jar of cookies, you can smell them across the room — gas particles carrying the scent spread out rapidly to fill the entire space."
+    }
+   ]
+  },
+  {
+   "term": "Physical properties",
+   "descriptor_code": "AC9S7U05",
+   "width_tier": "minimum",
+   "definition": "Characteristics of a substance you can observe or measure without changing what the substance is made of — like density, how easily it flows, whether you can squish it, and when it melts or boils. Particle theory explains why substances have these properties.",
+   "example": "Honey flows slowly (high viscosity) because its particles are strongly attracted to each other. Water flows easily (low viscosity) because its particle attractions are weaker. Same liquid state, different properties — explained by particles.",
+   "sub_terms": [
+    {
+     "term": "Density",
+     "definition": "How much mass is packed into a given space. Dense substances have particles packed tightly together or have heavier individual particles. A small piece of something dense can be heavier than a large piece of something less dense.",
+     "example": "A small piece of lead sinks in water because lead is denser — its particles are heavier and packed tightly. A beach ball floats because the air inside is much less dense than water."
+    },
+    {
+     "term": "Compressibility",
+     "definition": "How much you can squeeze a substance into a smaller space. Gases are easy to compress because there's lots of space between particles. Solids and liquids are almost impossible to compress because particles are already close together.",
+     "example": "You can push a syringe plunger in when it's full of air (particles move closer together), but you can't push it in when it's full of water — the water particles are already as close as they can get."
+    },
+    {
+     "term": "Viscosity",
+     "definition": "How easily a liquid flows. Thick, slow liquids like honey have high viscosity (strong particle attractions). Thin, fast-flowing liquids like water have low viscosity (weaker particle attractions).",
+     "example": "If you pour honey and water down a tilted plate, the water reaches the bottom first because its particles slide past each other more easily — weaker attractions mean lower viscosity."
+    },
+    {
+     "term": "Diffusion",
+     "definition": "The spreading out of particles from where there are lots of them to where there are fewer. It happens because particles move randomly — they don't 'try' to spread out, it just happens naturally when particles are moving around.",
+     "example": "Drop food colouring into water and it gradually spreads throughout the glass without stirring — the dye particles randomly bump and move in all directions until they're evenly spread."
+    },
+    {
+     "term": "Melting point",
+     "definition": "The temperature at which a solid changes into a liquid. At the melting point, particles gain enough energy to overcome their fixed arrangement and start sliding past each other.",
+     "example": "Ice melts at 0°C — at this temperature, the water particles have enough energy to break out of their fixed solid arrangement and become a flowing liquid."
+    }
+   ]
+  },
+  {
+   "term": "Changes of state",
+   "descriptor_code": "AC9S7U05",
+   "width_tier": "minimum",
+   "definition": "When a substance changes from one state of matter to another — like ice melting into water or water evaporating into steam. Changes of state happen when you add or remove energy, which changes how the particles are arranged and move.",
+   "example": "When you heat ice, it melts into water, then if you keep heating it evaporates into steam. The water particles are the same — only their arrangement and movement change.",
+   "sub_terms": [
+    {
+     "term": "Melting",
+     "definition": "When a solid changes into a liquid because energy is added. The particles gain enough energy to start sliding past each other instead of being locked in place — but they stay close together.",
+     "example": "When butter melts in a warm pan, the particles gain energy and start moving past each other — the butter goes from a fixed solid shape to a liquid that flows."
+    },
+    {
+     "term": "Freezing",
+     "definition": "When a liquid changes into a solid because energy is removed. The particles slow down and lock into fixed positions. Freezing is the reverse of melting.",
+     "example": "When you put water in a freezer, the particles lose energy and slow down until they lock into the fixed arrangement of ice."
+    },
+    {
+     "term": "Evaporation",
+     "definition": "When particles at the surface of a liquid gain enough energy to escape into the air as a gas. Evaporation can happen at any temperature — not just at boiling point.",
+     "example": "A puddle dries up on a warm day even though the temperature is nowhere near 100°C — the fastest-moving particles at the surface have enough energy to escape into the air."
+    },
+    {
+     "term": "Condensation",
+     "definition": "When gas particles lose energy and come together to form a liquid. Condensation is the reverse of evaporation — you see it when water droplets form on a cold surface.",
+     "example": "Water droplets form on the outside of a cold drink can — water vapour in the air hits the cold surface, loses energy, and changes from invisible gas to visible liquid drops."
+    },
+    {
+     "term": "Energy input and output",
+     "definition": "To go from a more organised state to a less organised state (solid → liquid → gas), you need to add energy. To go the other way (gas → liquid → solid), energy is released. During the actual change of state, the temperature stays the same even though energy is being added or removed.",
+     "example": "While ice is melting, the temperature stays at 0°C even though the stove is on — the energy is being used to change the particle arrangement, not to raise the temperature. That's why the graph goes flat."
+    },
+    {
+     "term": "Heating and cooling curve",
+     "definition": "A graph showing how temperature changes over time as a substance is heated or cooled. The sloping parts show temperature changing within a state. The flat parts show state changes — where energy is changing particle arrangement instead of temperature.",
+     "example": "Heat ice from -10°C: the temperature rises (slope), then stays at 0°C while it melts (flat), then rises again as the water heats up (slope), then stays at 100°C while it boils (flat)."
+    },
+    {
+     "term": "Sublimation",
+     "definition": "When a solid changes directly into a gas without becoming a liquid first. The particles go straight from a fixed, tightly packed arrangement to being widely spaced and moving freely.",
+     "example": "Dry ice (frozen CO₂) sublimes — it goes straight from a solid to a gas, which is why it produces that dramatic fog effect without leaving a puddle of liquid."
+    }
+   ]
+  }
+ ]
+}

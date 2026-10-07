@@ -1,0 +1,233 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9H01",
+ "teacher_glossary": [
+  {
+   "term": "Validation",
+   "descriptor_code": "AC9S9H01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process by which scientific claims are checked, tested and evaluated by the scientific community before being accepted as reliable knowledge. Validation exists because individual scientists' work may contain bias, error or limited evidence — community mechanisms are needed to catch these problems.",
+   "failure_mode": "Students treat peer review as bureaucratic formality rather than an epistemically necessary process — they cannot explain why validation is needed beyond 'it's the rule.'",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If validation is just a rule to follow rather than a response to real limitations of individual knowledge production, students cannot explain why claims are sometimes rejected or why consensus builds slowly through accumulating evidence.",
+   "response": "Present a case where an unchecked claim caused harm (e.g. the Wakefield MMR fraud). Ask students to identify what went wrong and what process could have caught it — the case makes the epistemic function of validation concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Bias",
+     "definition": "A systematic tendency to favour particular outcomes or interpretations, which can be unconscious as well as deliberate. In science, bias can affect experimental design, data interpretation and reporting.",
+     "failure_mode": "Students think bias only means deliberate dishonesty — they miss that unconscious bias (e.g. confirmation bias, selection bias) affects even well-intentioned scientists.",
+     "failure_type": "misconception",
+     "response": "Give examples of unconscious bias in everyday life (noticing evidence that confirms what you already believe) and connect to scientific contexts where the same tendency operates.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Scientific claim",
+     "definition": "A statement about the natural world that is supported by evidence from observation or investigation. Scientific claims require validation because they are knowledge claims — assertions about how the world works — not just opinions."
+    }
+   ]
+  },
+  {
+   "term": "Peer review",
+   "descriptor_code": "AC9S9H01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A formal evaluation process in which submitted scientific work is assessed by independent experts (peers) in the same field. Peer review can result in acceptance, revision or rejection of a paper, and reviewers assess methodology, evidence quality and whether conclusions are supported by the data.",
+   "failure_mode": "Students describe peer review as 'getting someone else to read it' — they miss that reviewers are evaluating specific things (methodology, evidence, conclusions) and that the process has defined outcomes (accept, revise, reject).",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If peer review is just 'reading,' students cannot explain how it functions as a quality filter or why the same paper might be accepted by one journal and rejected by another based on reviewer assessment of evidence quality.",
+   "response": "Walk through the stages of a real peer review cycle — submission, editor screening, reviewer assignment, reviewer reports, author revision, editorial decision — asking students what is being evaluated at each stage.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Editor",
+     "definition": "The person at a scientific journal who receives submitted papers, makes an initial assessment of whether the work fits the journal's scope, and selects appropriate reviewers. The editor makes the final decision on acceptance, revision or rejection based on reviewer recommendations."
+    },
+    {
+     "term": "Reviewer",
+     "definition": "An independent expert in the same field who evaluates a submitted paper's methodology, evidence and conclusions. Reviewers provide detailed feedback and a recommendation — their assessment is the substance of the peer review process."
+    },
+    {
+     "term": "Revision",
+     "definition": "A peer review outcome in which the paper is not yet accepted but the reviewers identify specific changes needed before it can be published — the most common outcome, requiring the author to address identified weaknesses and resubmit."
+    },
+    {
+     "term": "Rejection",
+     "definition": "A peer review outcome in which the paper is not accepted for publication — typically because the methodology is flawed, the evidence does not support the conclusions, or the work does not meet the journal's standards. Rejection does not mean the research is worthless — it may be revised and submitted elsewhere."
+    },
+    {
+     "term": "Acceptance",
+     "definition": "A peer review outcome in which the paper is approved for publication, indicating that the methodology, evidence and conclusions meet the standards required by the journal and its reviewers."
+    }
+   ]
+  },
+  {
+   "term": "Publication",
+   "descriptor_code": "AC9S9H01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The formal dissemination of scientific findings through journals, conference proceedings or other reviewed channels. Publication makes scientific work available for scrutiny, replication and citation by the broader scientific community — it is the mechanism through which private findings become public knowledge.",
+   "failure_mode": "Students treat publication as simply 'making it public' — they miss that scientific publication involves peer review and that not all publicly available information (blogs, social media, press releases) has undergone this process.",
+   "failure_type": "misconception",
+   "why_it_matters": "If all public information is equivalent to published science, students cannot evaluate source credibility or understand why peer-reviewed sources carry more epistemic weight than media reports.",
+   "response": "Compare a peer-reviewed journal article with a news article reporting on the same research. Ask students to identify what process each went through before becoming available — the comparison surfaces the distinction.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Submission",
+     "definition": "The act of sending a completed scientific manuscript to a journal for consideration. Submission begins the formal publication and peer review process."
+    },
+    {
+     "term": "Open-access publication",
+     "definition": "A publication model where scientific papers are freely available to anyone, rather than restricted to paid subscribers. Open-access increases accessibility but raises questions about how peer review and publication costs are funded."
+    },
+    {
+     "term": "Pre-print server",
+     "definition": "An online platform where scientists share manuscripts before formal peer review and publication. Pre-prints speed up knowledge dissemination but have not yet undergone the validation process of peer review."
+    }
+   ]
+  },
+  {
+   "term": "Scientific consensus",
+   "descriptor_code": "AC9S9H01",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The broadly accepted position among scientists on a topic, built from the accumulation of consistent evidence across multiple independent studies over time. Scientific consensus is not a vote — it reflects the weight of evidence, and it can change as new evidence emerges.",
+   "failure_mode": "Students think scientific consensus means all scientists agree, or that it is established by a single decisive study — they miss that consensus builds gradually from independent lines of evidence and can include unresolved disagreements on details.",
+   "failure_type": "misconception",
+   "why_it_matters": "If consensus is 'everyone agrees,' students cannot make sense of cases where individual scientists disagree with the consensus (e.g. early resistance to plate tectonics) or explain why consensus on climate change coexists with ongoing debate about specific mechanisms.",
+   "response": "Trace how consensus built on a specific topic (e.g. global warming) — showing multiple independent evidence lines converging over decades. Ask students to explain why one dissenting study does not overturn the consensus.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Knowledge refinement",
+     "definition": "The ongoing process by which scientific understanding is revised, corrected or extended as new evidence accumulates — including cases where initially rejected claims are later validated."
+    },
+    {
+     "term": "Accumulating evidence",
+     "definition": "The process by which multiple independent studies contribute consistent findings over time, gradually building the evidential basis for scientific consensus. Accumulation is distinct from replication (reproducing one study) — it describes the broader pattern of converging evidence from different methods, contexts and research groups."
+    }
+   ]
+  },
+  {
+   "term": "Replication",
+   "descriptor_code": "AC9S9H01",
+   "first_waypoint": 2,
+   "width_tier": "wider",
+   "definition": "The independent reproduction of a scientific study by different researchers to verify the original findings. A single peer-reviewed study contributes to knowledge, but established scientific knowledge requires consistent results across multiple independent replications.",
+   "failure_mode": "Students think one successful study is sufficient to establish scientific knowledge — they treat peer review and publication as the endpoint rather than one step in a longer validation process that requires replication.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If one study is enough, students cannot explain why some published findings are later overturned or why scientists emphasise reproducibility — the distinction between 'published' and 'established knowledge' collapses.",
+   "response": "Present two cases: one where a published finding was replicated and became established, and one where it failed replication and was withdrawn. Ask students what replication added that peer review alone did not.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Validation",
+   "descriptor_code": "AC9S9H01",
+   "width_tier": "minimum",
+   "definition": "The process of checking and testing scientific claims before they are accepted as reliable knowledge. Scientists can make mistakes or have biases, so the scientific community has processes to catch errors before claims become accepted science.",
+   "example": "A scientist discovers a new drug works in their lab, but their results need to be checked by other experts before the drug can be considered effective — that checking process is validation.",
+   "sub_terms": [
+    {
+     "term": "Bias",
+     "definition": "A tendency to favour certain results or interpretations, often without realising it. Everyone has biases — in science, they can affect how experiments are designed and how results are interpreted.",
+     "example": "If you expect a plant to grow faster with more fertiliser, you might unconsciously measure the tallest part more carefully — that's bias affecting your data."
+    },
+    {
+     "term": "Scientific claim",
+     "definition": "A statement about how the natural world works, backed up by evidence from experiments or observations.",
+     "example": "Saying 'I think plants need light' is an opinion. Saying 'plants require light for photosynthesis, based on experiments showing no growth in darkness' is a scientific claim."
+    }
+   ]
+  },
+  {
+   "term": "Peer review",
+   "descriptor_code": "AC9S9H01",
+   "width_tier": "minimum",
+   "definition": "A process where independent experts evaluate a scientist's work before it is published. Reviewers check the methods, evidence and conclusions, and can recommend the work be accepted, revised or rejected.",
+   "example": "Before a research paper is published in a science journal, two or three experts in that field read through it and check whether the experiment was done properly and the conclusions make sense.",
+   "sub_terms": [
+    {
+     "term": "Editor",
+     "definition": "The person at a science journal who decides whether a submitted paper should be sent out for review, and who makes the final decision on whether to publish it.",
+     "example": "When a scientist submits a paper, the journal editor reads it first to decide whether it's worth sending to expert reviewers."
+    },
+    {
+     "term": "Reviewer",
+     "definition": "An expert in the same field who reads a submitted paper and checks whether the methods, evidence and conclusions are sound.",
+     "example": "If a biologist submits a paper about cell division, the reviewers would be other biologists who can judge whether the experiments were done properly."
+    },
+    {
+     "term": "Revision",
+     "definition": "When peer reviewers say a paper needs changes before it can be published — the author has to fix the problems and resubmit it.",
+     "example": "A reviewer might ask for a larger sample size, clearer graphs, or a better explanation of the method before accepting the paper."
+    },
+    {
+     "term": "Rejection",
+     "definition": "When peer reviewers decide a paper should not be published — usually because the evidence or methods are not strong enough for that journal.",
+     "example": "A paper might be rejected because the sample size was too small to support the conclusions — the scientist could improve the study and try a different journal."
+    },
+    {
+     "term": "Acceptance",
+     "definition": "When peer reviewers approve a paper for publication — meaning the methods, evidence and conclusions meet the journal's standards."
+    }
+   ]
+  },
+  {
+   "term": "Publication",
+   "descriptor_code": "AC9S9H01",
+   "width_tier": "minimum",
+   "definition": "The formal sharing of scientific findings through journals or other reviewed channels. Scientific publication is different from just posting something online — it means the work has been through peer review.",
+   "example": "When a scientist's paper is published in a journal like Nature, it means experts have reviewed the work — a blog post about the same topic hasn't been through that process.",
+   "sub_terms": [
+    {
+     "term": "Submission",
+     "definition": "Sending your finished research paper to a journal so it can be reviewed and potentially published."
+    },
+    {
+     "term": "Open-access publication",
+     "definition": "Scientific papers that anyone can read for free online, rather than needing to pay or have a university subscription.",
+     "example": "Some journals charge authors a fee to make their paper open-access so anyone in the world can read the research without paying."
+    },
+    {
+     "term": "Pre-print server",
+     "definition": "A website where scientists share their research papers before they've been through peer review — so the work is public but hasn't been formally checked yet.",
+     "example": "During COVID-19, many researchers posted findings on pre-print servers so other scientists could see the results quickly — but some of those findings were later found to have errors that peer review would have caught."
+    }
+   ]
+  },
+  {
+   "term": "Scientific consensus",
+   "descriptor_code": "AC9S9H01",
+   "width_tier": "typical",
+   "definition": "The position that most scientists accept on a topic, based on the weight of evidence from many independent studies over time. It is not a vote — it builds gradually as more and more evidence points the same way.",
+   "example": "The scientific consensus on climate change didn't come from one study — it built over decades as thousands of independent studies from different countries all pointed to the same conclusion.",
+   "sub_terms": [
+    {
+     "term": "Knowledge refinement",
+     "definition": "The ongoing process of updating scientific understanding as new evidence comes in — including cases where ideas that were first rejected are later accepted.",
+     "example": "Marshall and Warren's discovery that bacteria cause stomach ulcers was rejected at first, but as more evidence accumulated, scientific understanding was refined to accept it."
+    },
+    {
+     "term": "Accumulating evidence",
+     "definition": "When many different studies by different scientists all point to the same conclusion over time. It is not just one study being repeated — it is different types of evidence from different places all agreeing.",
+     "example": "Climate change consensus built because ice core data, temperature records, sea level measurements and atmospheric CO₂ readings all independently pointed the same direction over decades."
+    }
+   ]
+  },
+  {
+   "term": "Replication",
+   "descriptor_code": "AC9S9H01",
+   "width_tier": "wider",
+   "definition": "When different scientists independently repeat a study to check whether they get the same results. One study passing peer review is a good start, but for knowledge to become established, other researchers need to be able to reproduce it.",
+   "example": "If a team in Sydney discovers a new chemical reaction, scientists in London and Tokyo should be able to follow the same method and get the same result — that's replication confirming the finding."
+  }
+ ]
+}

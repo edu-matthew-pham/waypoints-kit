@@ -1,0 +1,132 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9H03",
+ "teacher_glossary": [
+  {
+   "term": "Adoption",
+   "descriptor_code": "AC9S9H03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process by which scientific knowledge or practices are taken up and used broadly by society. Adoption requires more than scientific validity — it depends on a combination of factors including economic feasibility, accessibility, government support, community trust and cultural alignment. Valid science that lacks favourable conditions across these factors may not be adopted.",
+   "failure_mode": "Students treat scientific validity as the only factor needed for adoption — 'if the science is right, people will use it.' They cannot explain why well-evidenced practices sometimes face resistance or why adoption timelines vary dramatically.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If validity is sufficient for adoption, students cannot meaningfully analyse cases where economically or culturally unfavourable conditions blocked uptake, or where strong non-scientific factors drove adoption of weakly evidenced practices. The multi-factor analysis collapses into 'good science wins.'",
+   "response": "Open with a concrete counter-example: 'We have known for decades that smoking causes cancer — why did it take so long for smoking rates to fall?' The case forces identification of non-scientific factors (economic interests, cultural norms, addiction, policy delays) that delayed adoption of the scientific evidence.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Adoption factor",
+     "definition": "A condition or influence that affects whether scientific knowledge or a science-based practice is taken up by society. Factor categories include evidence quality, economic feasibility, accessibility, government support, community trust and cultural alignment.",
+     "failure_mode": "Students list factors generically ('economic, social, political') without explaining how each specifically operated in a named case — the analysis stays at the label level rather than tracing the mechanism.",
+     "failure_type": "fragile_skill",
+     "response": "For each named case, require students to trace the specific mechanism: 'Which factor? How did it operate? What would have been different if that factor had been absent?' The mechanism tracing prevents label-only analysis.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Evidence quality",
+     "definition": "The strength, reliability and reproducibility of the scientific evidence supporting a practice or technology. Higher evidence quality (multiple independent studies, large sample sizes, peer review) generally supports adoption, though it is not sufficient alone."
+    },
+    {
+     "term": "Economic feasibility",
+     "definition": "Whether the cost of implementing a science-based practice or technology is affordable for the intended users — including manufacturing cost, infrastructure requirements and ongoing expenses relative to the benefits."
+    },
+    {
+     "term": "Accessibility",
+     "definition": "Whether scientific knowledge or a science-based practice is available and understandable to the people who would use it — including geographic availability, language accessibility and technical complexity."
+    },
+    {
+     "term": "Government support",
+     "definition": "Policy decisions, funding, legislation or infrastructure that governments provide to enable or encourage adoption — including subsidies, regulations, public education campaigns and research funding."
+    },
+    {
+     "term": "Community trust",
+     "definition": "The level of public confidence in the scientific evidence, the institutions promoting adoption, and the safety or benefit of the practice. Low community trust can prevent adoption even when evidence quality is high."
+    },
+    {
+     "term": "Cultural alignment",
+     "definition": "The degree to which a science-based practice is compatible with the values, beliefs and customs of the community where adoption is sought. Practices that conflict with cultural values face additional adoption barriers regardless of evidence quality."
+    },
+    {
+     "term": "Citizen science",
+     "definition": "Scientific research conducted with participation from members of the general public, often involving data collection or observation. Citizen science connects to adoption through the accessibility and community trust factors."
+    },
+    {
+     "term": "Adoption trajectory",
+     "definition": "The speed and path of uptake over time — whether adoption was rapid, gradual or stalled, and what factor changes shifted the trajectory."
+    },
+    {
+     "term": "Adoption barrier",
+     "definition": "A factor or condition that prevents or slows the adoption of scientific knowledge or practices by society. Barriers can be economic (too expensive), cultural (conflicts with values), institutional (no government support) or epistemic (low community trust in the evidence). Analysing adoption requires identifying barriers as well as enablers."
+    },
+    {
+     "term": "Factor interaction",
+     "definition": "The way multiple adoption factors operate simultaneously, where the combination of factors — not any single factor alone — determines whether adoption occurs. A practice may have strong evidence but fail adoption because economic and cultural factors are unfavourable at the same time."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Adoption",
+   "descriptor_code": "AC9S9H03",
+   "width_tier": "minimum",
+   "definition": "When scientific knowledge or science-based practices get widely used by society. Just because science proves something works doesn't mean everyone will start using it — factors like cost, trust, government support and cultural values all affect whether adoption happens.",
+   "example": "Solar panels have been around for decades, but widespread adoption only happened when manufacturing costs dropped, governments offered rebates, and community concern about climate change grew — the science alone wasn't enough.",
+   "sub_terms": [
+    {
+     "term": "Adoption factor",
+     "definition": "Something that affects whether a scientific practice gets widely used — like cost, accessibility, government policy, community trust or cultural values.",
+     "example": "One reason traditional fire management practices took so long to be adopted in mainstream bushfire policy is that cultural barriers and institutional resistance were adoption factors working against uptake."
+    },
+    {
+     "term": "Evidence quality",
+     "definition": "How strong and reliable the scientific evidence is for something working — based on how many studies have been done, how well they were designed, and whether results were consistent."
+    },
+    {
+     "term": "Economic feasibility",
+     "definition": "Whether something is affordable enough for people, businesses or governments to actually use it."
+    },
+    {
+     "term": "Accessibility",
+     "definition": "Whether people can actually access and understand a science-based practice or technology — not just whether it exists."
+    },
+    {
+     "term": "Government support",
+     "definition": "When governments help adoption along through funding, laws, subsidies or public awareness campaigns."
+    },
+    {
+     "term": "Community trust",
+     "definition": "Whether people trust the science, the scientists, and the organisations promoting a practice enough to actually use it."
+    },
+    {
+     "term": "Cultural alignment",
+     "definition": "Whether a science-based practice fits with a community's values and beliefs — practices that clash with culture face extra resistance."
+    },
+    {
+     "term": "Citizen science",
+     "definition": "Scientific research that involves ordinary people helping with tasks like collecting data or making observations.",
+     "example": "Birdwatchers who log their sightings on apps like eBird are doing citizen science — their observations help scientists track bird populations."
+    },
+    {
+     "term": "Adoption trajectory",
+     "definition": "How quickly or slowly a scientific practice gets taken up by society over time.",
+     "example": "Recycling had a slow adoption trajectory at first, but once councils provided bins and made it easy, uptake sped up dramatically."
+    },
+    {
+     "term": "Adoption barrier",
+     "definition": "Something that prevents or slows down a scientific practice being widely used — like high cost, cultural resistance, or lack of government support.",
+     "example": "Electric cars existed for decades before widespread adoption — the barriers were high cost, limited range, and lack of charging infrastructure."
+    },
+    {
+     "term": "Factor interaction",
+     "definition": "When multiple adoption factors work together at the same time — it is usually the combination of factors, not just one, that determines whether adoption happens.",
+     "example": "Solar panels became widely adopted when cost dropped AND government rebates appeared AND environmental concern grew — no single factor alone would have been enough."
+    }
+   ]
+  }
+ ]
+}

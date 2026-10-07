@@ -1,0 +1,149 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I06",
+ "teacher_glossary": [
+  {
+   "term": "Secondary source",
+   "descriptor_code": "AC9S9I06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Information obtained from other researchers' published work rather than from one's own investigation. Secondary sources include journal articles, textbooks, databases and media reports. At Year 9, evaluating secondary sources requires applying validity criteria — not all secondary sources are equally credible.",
+   "failure_mode": "Students treat all published sources as equally valid — a Wikipedia article, a peer-reviewed journal paper and a news headline receive the same epistemic weight. They do not apply criteria to differentiate source credibility.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If all sources are equally credible, students cannot construct arguments that prioritise stronger evidence or identify when a claim is poorly supported. Source evaluation is the foundation for evidence-based reasoning at AC9S9I07.",
+   "response": "Present three sources on the same topic — a peer-reviewed article, a news report and a social media post. Ask students to rank credibility and identify the specific features of each that support or undermine trust. The ranking exercise forces criteria application.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Credibility",
+     "definition": "The extent to which a source can be trusted to provide accurate, evidence-based information. Credibility is assessed through multiple criteria including whether the work is peer-reviewed, the author's expertise, the date of publication and whether the underlying data is transparent.",
+     "failure_mode": "Students assess credibility based on surface features ('it looks professional,' 'it's on a proper website') rather than applying substantive criteria like peer review status, author expertise and data transparency.",
+     "failure_type": "fragile_skill",
+     "response": "Provide a checklist of credibility criteria (peer reviewed? author expertise? date? data accessible?) and require students to evaluate each source against every criterion — not just give an overall impression.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Primary source",
+     "definition": "Data or findings obtained directly from one's own investigation, as distinct from information obtained from others' published work."
+    },
+    {
+     "term": "Author expertise",
+     "definition": "Whether the author has relevant qualifications, experience or institutional affiliation in the field they are writing about — one criterion for assessing source credibility."
+    },
+    {
+     "term": "Data transparency",
+     "definition": "Whether the underlying data, methods and analysis are available for scrutiny — a source that presents conclusions without showing the supporting evidence is less credible than one that makes its data accessible."
+    }
+   ]
+  },
+  {
+   "term": "Assumption",
+   "descriptor_code": "AC9S9I06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Something taken for granted in a method or conclusion without explicit testing or justification. All investigation methods contain assumptions — about the representativeness of samples, the constancy of conditions, the appropriateness of instruments, or the applicability of models. Identifying assumptions is essential for evaluating how much confidence to place in conclusions.",
+   "failure_mode": "Students cannot see assumptions because they are, by definition, invisible — taken for granted. They treat methods as assumption-free and accept conclusions without identifying what must be true for the conclusion to hold.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If students cannot identify assumptions, they cannot evaluate conclusion validity — they will accept or reject conclusions based on whether they 'seem right' rather than on what the evidence and method actually support. Assumption identification is the analytical foundation for all conclusion evaluation.",
+   "response": "Teach the explicit question: 'What would have to be true for this method to work / for this conclusion to follow?' Model this across multiple examples — the question structure makes invisible assumptions identifiable. Start with everyday examples before moving to scientific methods.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Conflicting evidence",
+   "descriptor_code": "AC9S9I06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Evidence that supports a different conclusion from the one being advanced. Conflicting evidence may come from within the same investigation (anomalous results) or from other studies on the same topic. The presence of conflicting evidence does not automatically invalidate a conclusion — its significance depends on the quality and quantity of the conflicting data relative to the supporting data.",
+   "failure_mode": "Students either ignore conflicting evidence entirely (focusing only on data that supports their conclusion) or treat any conflicting evidence as equally undermining regardless of its quality or quantity — they cannot evaluate the significance of conflict.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If conflicting evidence is invisible or automatically disqualifying, students cannot produce balanced evaluations of conclusions. They either present one-sided arguments or abandon valid conclusions based on minor contradictions — neither reflects how scientific evaluation works.",
+   "response": "Present evidence for and against a conclusion and ask: 'Does the conflicting evidence change the conclusion? How much? What would you need to see to change your mind?' The evaluation of significance is the skill — not just noticing the conflict.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Alternative conclusion",
+     "definition": "A different valid interpretation of the same evidence set. Constructing an alternative conclusion requires identifying how the same data could support a different claim if different assumptions are applied or if conflicting evidence is weighted differently.",
+     "failure_mode": "Students cannot construct alternative conclusions from the same evidence — they treat the first conclusion they reach as the only possible one, missing that the same data can support multiple interpretations depending on assumptions and weighting.",
+     "failure_type": "narrow_repertoire",
+     "response": "After students state their conclusion, ask: 'What is another conclusion this evidence could support? What would someone who disagreed with you say?' Require the alternative to be plausible, not just contrarian.",
+     "response_type": "repertoire_building"
+    }
+   ]
+  },
+  {
+   "term": "Uncertainty",
+   "descriptor_code": "AC9S9I06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Areas where the evidence is incomplete, the results are ambiguous, or the method has limitations that affect confidence in the conclusion. Uncertainty is inherent in scientific investigation — acknowledging it is a strength, not a weakness, because it communicates the limits of what the evidence can support.",
+   "failure_mode": "Students treat uncertainty as failure — 'our experiment didn't work properly' — rather than as an inherent feature of scientific investigation that should be identified and communicated. They either ignore uncertainty or treat it as equally damaging regardless of magnitude.",
+   "failure_type": "misconception",
+   "why_it_matters": "If uncertainty means failure, students will either hide it (presenting conclusions with false confidence) or be paralysed by it (concluding nothing because everything is uncertain). Neither reflects scientific reasoning, which requires calibrated confidence — stating conclusions with appropriate qualifications.",
+   "response": "Present a conclusion with explicit uncertainty and ask: 'Is this conclusion wrong? Or is it the best answer the evidence supports, with stated limitations?' The reframing of uncertainty from weakness to honesty changes how students approach it.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Secondary source",
+   "descriptor_code": "AC9S9I06",
+   "width_tier": "minimum",
+   "definition": "Information from other people's research — like journal articles, textbooks or news reports — rather than from your own investigation. Not all secondary sources are equally trustworthy, so you need to evaluate them.",
+   "example": "A peer-reviewed journal article about vaccine effectiveness is a more credible secondary source than a social media post making the same claim — the journal article has been checked by experts.",
+   "sub_terms": [
+    {
+     "term": "Credibility",
+     "definition": "How trustworthy a source is — assessed by checking things like whether it's been peer reviewed, who wrote it, when it was published, and whether you can see the actual data.",
+     "example": "A study by a university research team published in a science journal is more credible than an article by an anonymous blogger — you can check the researchers' expertise and see their methods."
+    },
+    {
+     "term": "Primary source",
+     "definition": "Data you collected yourself through your own investigation.",
+     "example": "The measurements you took in your experiment are primary source data. A textbook graph showing someone else's results is a secondary source."
+    },
+    {
+     "term": "Author expertise",
+     "definition": "Whether the person who wrote the source actually knows about the topic through their qualifications or experience.",
+     "example": "A climate scientist writing about global warming has author expertise. A celebrity giving opinions about climate science does not."
+    },
+    {
+     "term": "Data transparency",
+     "definition": "Whether a source shows you the actual data and methods behind its conclusions, rather than just telling you the answer.",
+     "example": "A study that includes its data tables and describes its method is transparent. A news article that just says 'scientists found that...' without showing the evidence is not."
+    }
+   ]
+  },
+  {
+   "term": "Assumption",
+   "descriptor_code": "AC9S9I06",
+   "width_tier": "minimum",
+   "definition": "Something you take for granted without testing it. Every investigation has assumptions — about your sample being representative, your conditions staying the same, your instruments working properly. If an assumption turns out to be wrong, your conclusion might not hold.",
+   "example": "If you test how temperature affects reaction rate using water from the tap, you're assuming the water is the same each time. If the water quality varies, your assumption is wrong and your results might not be valid."
+  },
+  {
+   "term": "Conflicting evidence",
+   "descriptor_code": "AC9S9I06",
+   "width_tier": "minimum",
+   "definition": "Evidence that points to a different conclusion from the one you reached. Finding conflicting evidence doesn't automatically mean your conclusion is wrong — you need to evaluate how strong the conflicting evidence is compared to the supporting evidence.",
+   "example": "If your experiment shows fertiliser increases plant growth, but a published study found no effect, that's conflicting evidence. You'd need to compare the methods and sample sizes to decide which result is more reliable.",
+   "sub_terms": [
+    {
+     "term": "Alternative conclusion",
+     "definition": "A different answer the same evidence could support, if you make different assumptions or weight the evidence differently.",
+     "example": "Your data shows students who eat breakfast score higher on tests. Your conclusion: breakfast improves test performance. Alternative conclusion: students from more stable homes are more likely to both eat breakfast and perform well — it might not be the breakfast causing the higher scores."
+    }
+   ]
+  },
+  {
+   "term": "Uncertainty",
+   "descriptor_code": "AC9S9I06",
+   "width_tier": "minimum",
+   "definition": "Places where your evidence is incomplete or your results could be interpreted in more than one way. Uncertainty is normal in science — acknowledging it honestly is better than pretending your conclusion is more certain than it actually is.",
+   "example": "After testing three fertiliser types, you might conclude Type A works best — but with a sample size of 5 plants per group, there's uncertainty about whether the difference would hold with 50 plants. Saying 'Type A appeared most effective in this small trial' is more honest than 'Type A is the best.'"
+  }
+ ]
+}

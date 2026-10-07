@@ -1,0 +1,98 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P07",
+ "teacher_glossary": [
+  {
+   "term": "User experience",
+   "descriptor_code": "AC9TDI8P07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "How a user interacts with, navigates through, and feels about a digital system as a whole — including flow, ease of use, satisfaction and whether the system meets the user's needs. UX encompasses the full journey through a system, not just individual screen layouts. Distinct from user interface (UI), which covers visual design elements.",
+   "failure_mode": "Students treat UX and UI as interchangeable — they equate designing the user experience with choosing colours and button layouts.",
+   "failure_type": "misconception",
+   "why_it_matters": "If UX equals UI, students produce wireframes that address layout without considering user flow, navigation logic or task completion. A beautiful interface with confusing navigation is good UI but poor UX.",
+   "response": "Show a well-designed interface (good UI) with a confusing navigation flow (poor UX). Ask: would you enjoy using this? The disconnect between visual quality and usability makes the distinction concrete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "User interface",
+     "definition": "The visual and interactive elements users directly see and touch — layout, colours, buttons, typography. UI is a component of UX but does not encompass it."
+    },
+    {
+     "term": "Accessibility"
+    }
+   ]
+  },
+  {
+   "term": "Wireframe",
+   "descriptor_code": "AC9TDI8P07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A simplified visual plan of a digital system's layout showing where elements (navigation, content areas, buttons) are positioned on each page and how users move between pages. Wireframes strip away visual design to focus on structure and flow. They are a planning tool, not a final design — low fidelity is a feature, not a limitation.",
+   "failure_mode": "Students treat wireframes as finished designs — spending time on visual polish (colours, fonts, images) rather than layout structure and navigation flow.",
+   "failure_type": "misconception",
+   "why_it_matters": "A polished wireframe that doesn't show navigation between pages is less useful than a rough sketch that maps the user journey. Wireframes plan structure; visual design comes later. Conflating the two means navigation and flow are never explicitly planned.",
+   "response": "Give students grey boxes and arrows only — no colours, no fonts. Their wireframe must show where elements sit and how users move between pages. The constraint forces structural thinking.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Storyboard"
+    }
+   ]
+  },
+  {
+   "term": "Branding",
+   "descriptor_code": "AC9TDI8P07",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "A consistent set of visual and tonal choices (colour palette, typography, styling, voice) that communicates a product's identity and values. Branding guidelines ensure visual consistency across all pages and touchpoints. Branding supports UX when it reinforces what the product stands for; it undermines UX when visual choices contradict the user's expectations.",
+   "failure_mode": "Students select colours and fonts based on personal preference rather than connecting visual choices to the product's identity, audience or values.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Branding without purpose is decoration. If visual choices aren't connected to what the product communicates, students cannot explain or justify their design decisions — and the branding may actively confuse users about what the product is for.",
+   "response": "Ask: what should a user feel when they see this product? Then: do your colours and typography communicate that? If students can't connect the two, the branding has no rationale.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "User experience",
+   "descriptor_code": "AC9TDI8P07",
+   "width_tier": "minimum",
+   "definition": "How it feels to use a digital product from start to finish — not just how it looks, but whether it's easy to navigate, whether you can find what you need, and whether it does what you expect. UX is the whole journey; UI (user interface) is the visual design you interact with.",
+   "example": "An app might look beautiful (good UI) but if you can't find the settings menu, that's poor UX.",
+   "sub_terms": [
+    {
+     "term": "User interface",
+     "definition": "What you actually see and touch — the buttons, menus, colours and layout on each screen.",
+     "example": "The layout of Instagram's home screen — where the like button is, the colour scheme, the icon shapes — that's all UI."
+    },
+    {
+     "term": "Accessibility"
+    }
+   ]
+  },
+  {
+   "term": "Wireframe",
+   "descriptor_code": "AC9TDI8P07",
+   "width_tier": "minimum",
+   "definition": "A simple sketch or plan showing where things go on each page of a website or app, and how users move between pages. Wireframes use boxes and labels instead of real images and text — they're about layout and navigation, not visual design.",
+   "example": "A wireframe might show: 'Header here, search bar here, products listed below, clicking a product goes to this detail page.'",
+   "sub_terms": [
+    {
+     "term": "Storyboard"
+    }
+   ]
+  },
+  {
+   "term": "Branding",
+   "descriptor_code": "AC9TDI8P07",
+   "width_tier": "typical",
+   "definition": "The consistent colours, fonts, and style that give a product its identity. Good branding communicates what the product is about — a banking app looks different from a gaming app for a reason.",
+   "example": "If your app is about sustainability, earthy greens and clean typography communicate that identity better than neon colours and graffiti fonts."
+  }
+ ]
+}

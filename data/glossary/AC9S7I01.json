@@ -1,0 +1,134 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I01",
+ "teacher_glossary": [
+  {
+   "term": "Investigable question",
+   "descriptor_code": "AC9S7I01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A question that can be answered through scientific investigation — by collecting and analysing data using available methods and resources. An investigable question identifies variables or a phenomenon that can be observed or measured, is specific enough to design an investigation around, and does not rely on opinion, preference or untestable claims.",
+   "failure_mode": "Students accept untestable questions as investigable ('Is recycling good?') or reject testable ones ('Does temperature affect dissolving rate?') — they cannot articulate the criteria that make a question testable, instead relying on whether the question sounds 'sciencey.'",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If students cannot reliably distinguish investigable from non-investigable questions, they cannot develop their own questions for inquiry (Node 2) or connect questions to hypotheses (Node 3). The judgement skill is prerequisite for all subsequent inquiry work.",
+   "response": "Present a set of questions and ask students to classify each as investigable or not, then articulate the specific feature that makes it testable or untestable. The reasoning requirement — not just the classification — builds the criteria explicitly.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Non-investigable question",
+     "definition": "A question that cannot be answered through scientific investigation — typically because it involves opinion, preference, untestable claims or variables that cannot be observed or measured."
+    },
+    {
+     "term": "Testable",
+     "definition": "Able to be answered through observation, measurement or experiment using available methods and resources. A testable question identifies variables that can be manipulated or measured, and produces outcomes that can be compared against a prediction. Questions involving opinion, preference or untestable claims are not testable."
+    },
+    {
+     "term": "Empirical",
+     "definition": "Based on or answerable through observation, measurement or experiment rather than through opinion, logic alone or authority. The criterion for whether a question is investigable is whether it can be answered empirically — through collecting and analysing data."
+    }
+   ]
+  },
+  {
+   "term": "Hypothesis",
+   "descriptor_code": "AC9S7I01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A tentative, testable explanation that includes a variable, a predicted outcome and a reasoning component explaining why the outcome is expected. At Year 7, the standard structure is 'If [variable is changed], then [predicted outcome], because [scientific reasoning].' A hypothesis is distinguished from a prediction by the presence of the reasoning — the 'because' that connects the expected outcome to a scientific principle or model.",
+   "failure_mode": "Students omit the reasoning component ('because...') or confuse a hypothesis with a prediction — they produce fluent 'if...then' statements that predict an outcome without explaining why the outcome is expected, producing structurally correct but scientifically hollow hypotheses.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Without the reasoning component, a hypothesis is just a guess with formatting. The 'because' is what makes a hypothesis testable in a meaningful sense — it identifies the scientific principle being tested, which determines what the investigation's conclusion means. Students who skip reasoning cannot connect their results back to scientific understanding.",
+   "response": "After students write an if...then statement, explicitly require the 'because' and ask: 'What scientific idea makes you expect this outcome?' Evaluate the reasoning separately from the prediction — both must be present and connected.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Prediction",
+     "definition": "A statement of what is expected to happen in an investigation, based on prior knowledge or experience. A prediction states the expected outcome but does not include the scientific reasoning for why it is expected — this is what distinguishes it from a hypothesis.",
+     "failure_mode": "Students use 'prediction' and 'hypothesis' interchangeably — they believe writing 'I predict that...' is the same as forming a hypothesis, missing that a hypothesis requires the reasoning component that makes it a testable scientific claim.",
+     "failure_type": "misconception",
+     "response": "Present a prediction and a hypothesis side by side and ask students to identify what the hypothesis has that the prediction lacks. The 'because' component becomes visible through the comparison.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Reasoned prediction",
+     "definition": "A prediction that includes reasoning — effectively functioning as a hypothesis. The standard uses this term to emphasise that predictions at Year 7 should be grounded in scientific reasoning, not just guessing."
+    },
+    {
+     "term": "If...then...because",
+     "definition": "The three-part logical structure used to write a hypothesis at Year 7. 'If' identifies the independent variable being changed, 'then' predicts the expected outcome for the dependent variable, and 'because' provides the scientific reasoning explaining why the outcome is expected. The structure makes the logic of the hypothesis explicit and testable."
+    }
+   ]
+  },
+  {
+   "term": "Scientific model",
+   "descriptor_code": "AC9S7I01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A simplified representation of a system, process or phenomenon used to explain observations and make predictions. Scientific models include conceptual frameworks (particle theory, food webs), mathematical descriptions (force equations) and physical analogies (ball-and-stick molecular models). At Year 7, students develop investigable questions to explore models — which requires understanding that a model is an explanatory framework to be tested and refined, not a fixed answer or a physical replica.",
+   "failure_mode": "Students think 'model' means a physical replica — a clay solar system, a papier-mâché volcano — rather than an explanatory framework like particle theory. This prevents them from developing questions that explore a model's explanatory power, because they cannot ask 'How does particle theory explain the properties of substances?' if they think a model is something you build with your hands.",
+   "failure_type": "misconception",
+   "why_it_matters": "If a model is a replica, it cannot be explored, tested or refined through investigation. The standard requires students to develop questions that probe what a model explains and where its explanations break down — which only makes sense if 'model' means an explanatory framework.",
+   "response": "Present particle theory as a model and ask: 'What does this model explain? What questions could you ask to test whether it works?' Then compare with a physical model (clay atom) and ask: 'Can you test this with an investigation?' The contrast reveals what 'model' means in science.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Investigable question",
+   "descriptor_code": "AC9S7I01",
+   "width_tier": "minimum",
+   "definition": "A question that you can actually answer by doing a scientific investigation — collecting data and analysing it. Good investigable questions are specific, involve things you can measure or observe, and can be tested with the equipment and time you have.",
+   "example": "'Does the amount of sunlight affect how fast a bean plant grows?' is investigable because you can control the light, measure the growth and compare results. 'Is nature beautiful?' is not investigable because it's an opinion.",
+   "sub_terms": [
+    {
+     "term": "Non-investigable question",
+     "definition": "A question that can't be answered through scientific investigation — usually because it's based on opinion, values or things you can't measure.",
+     "example": "'Should we protect endangered species?' is non-investigable because 'should' is about values. 'What factors affect the population size of endangered species?' is investigable."
+    },
+    {
+     "term": "Testable",
+     "definition": "A question or idea that you can check by doing an experiment, making observations or collecting measurements.",
+     "example": "'Does the angle of a ramp affect how far a ball rolls?' is testable — you can change the angle and measure the distance. 'Is rolling fun?' is not testable."
+    },
+    {
+     "term": "Empirical",
+     "definition": "Something that can be answered by observing, measuring or experimenting — not just by thinking about it or asking someone's opinion.",
+     "example": "'Does temperature affect how fast ice melts?' is empirical — you can test it. 'Is it wrong to let ice melt?' is not empirical — it's a values question."
+    }
+   ]
+  },
+  {
+   "term": "Hypothesis",
+   "descriptor_code": "AC9S7I01",
+   "width_tier": "minimum",
+   "definition": "A testable statement that predicts what will happen AND explains why. It follows the pattern: 'If [I change this], then [this will happen], because [this scientific reason].' The 'because' part is what makes it a hypothesis and not just a guess.",
+   "example": "'If I increase the temperature of water, then sugar will dissolve faster, because particles move faster at higher temperatures and collide with sugar more often.' Without the 'because,' it would just be a prediction.",
+   "sub_terms": [
+    {
+     "term": "Prediction",
+     "definition": "A statement of what you expect to happen — but without explaining why. A prediction says 'I think this will happen,' while a hypothesis says 'I think this will happen because...'",
+     "example": "'I predict the plant in sunlight will grow taller' is a prediction. Adding 'because plants need light for photosynthesis' turns it into a hypothesis."
+    },
+    {
+     "term": "Reasoned prediction",
+     "definition": "A prediction that includes the reason why you expect it — basically the same thing as a hypothesis.",
+     "example": "'I predict the ice will melt faster in warm water because heat energy transfers from the water to the ice' is a reasoned prediction."
+    },
+    {
+     "term": "If...then...because",
+     "definition": "The structure for writing a hypothesis: IF [what you're changing], THEN [what you expect to happen], BECAUSE [the scientific reason why].",
+     "example": "IF the temperature of water is increased, THEN sugar will dissolve faster, BECAUSE higher temperatures give water particles more energy to break apart the sugar."
+    }
+   ]
+  },
+  {
+   "term": "Scientific model",
+   "descriptor_code": "AC9S7I01",
+   "width_tier": "minimum",
+   "definition": "A simplified way of explaining how something works in science — like particle theory explaining why substances have different properties, or a food web showing how energy moves through an ecosystem. A scientific model isn't a physical thing you build — it's an idea you can test and explore with investigations.",
+   "example": "Particle theory is a model — it says all matter is made of tiny particles that move and interact. You can explore this model by asking 'How does particle theory explain why gases spread out but liquids don't?' That question tests the model's explanatory power."
+  }
+ ]
+}

@@ -1,0 +1,113 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P09",
+ "teacher_glossary": [
+  {
+   "term": "General-purpose programming language",
+   "descriptor_code": "AC9TDI8P09",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A text-based programming language (e.g. Python, JavaScript) capable of solving a wide range of problems, as opposed to block-based visual languages (e.g. Scratch) or domain-specific tools. General-purpose languages require precise syntax — the code must be written exactly right for the computer to execute it. The transition from block-based to text-based programming is a Year 7–8 milestone.",
+   "failure_mode": "Students expect text-based code to work like blocks — dragging concepts together rather than writing precise syntax. Syntax errors frustrate rather than inform because students don't yet read error messages as diagnostic tools.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Syntax fluency is the gateway to all production skills in this standard. Students who cannot write syntactically correct programs cannot define functions, modify existing code, or debug — every subsequent node is blocked.",
+   "response": "Start with very short programs (3–5 lines) and build length gradually. Treat syntax errors as normal feedback, not failures — read the error message, find the line, fix the issue. Build the error-message-reading habit early.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Function",
+   "descriptor_code": "AC9TDI8P09",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A named, reusable block of code that accepts arguments (inputs), performs a specific task, and optionally returns a value (output). Functions organise programs into modular parts — each function handles one job. This makes programs easier to read, test and modify. Functions are defined once and called (used) wherever needed.",
+   "failure_mode": "Students define functions that work but don't use arguments — the function does the same thing every time, losing the generality that makes functions reusable.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Functions without arguments are just named code blocks — they can't adapt to different inputs. The power of functions is that the same logic produces different outputs depending on what arguments are passed. Without this, students haven't understood what functions add beyond code organisation.",
+   "response": "Ask students to write a function that only works for one specific value. Then ask: what if I need this for a different value? The need to generalise motivates the argument.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Argument",
+     "definition": "A value passed into a function when it is called, allowing the function to operate on different data each time."
+    },
+    {
+     "term": "Return value",
+     "definition": "The output a function produces and sends back to the code that called it."
+    }
+   ]
+  },
+  {
+   "term": "Debugging",
+   "descriptor_code": "AC9TDI8P09",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The systematic process of finding and fixing errors in a program. Debugging requires reading error messages, locating the relevant code, understanding what it should do, identifying what's wrong, and verifying the fix. Errors are either syntax errors (code the computer cannot parse) or logic errors (code that runs but produces wrong results).",
+   "failure_mode": "Students approach debugging by randomly changing code until it works, rather than reading error messages and reasoning about what went wrong.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Random modification occasionally fixes syntax errors by luck but never reliably fixes logic errors. Without a systematic debugging process, students cannot handle programs longer than a few lines — the search space is too large for guessing.",
+   "response": "Enforce the debugging chain: read the error message → find the line → explain what it's trying to do → identify what's wrong → fix → verify. Each step must be completed before the next.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Syntax error",
+     "definition": "An error in the code's structure that prevents the computer from parsing it — missing brackets, misspelled keywords, incorrect indentation. The program will not run at all."
+    },
+    {
+     "term": "Logic error",
+     "definition": "An error where the code runs without crashing but produces the wrong result — the algorithm is incorrect even though the syntax is valid. Harder to find because there is no error message."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "General-purpose programming language",
+   "descriptor_code": "AC9TDI8P09",
+   "width_tier": "minimum",
+   "definition": "A text-based programming language like Python or JavaScript that can be used to solve many different types of problems. Unlike block-based languages (like Scratch), you type the code yourself, which means you need to get the syntax exactly right.",
+   "example": "In Scratch, you snap blocks together. In Python, you type: if score > 50: print('Pass'). One misplaced colon and the program won't run."
+  },
+  {
+   "term": "Function",
+   "descriptor_code": "AC9TDI8P09",
+   "width_tier": "minimum",
+   "definition": "A reusable block of code that you give a name, feed inputs (arguments), and get an output back. Functions let you write a piece of logic once and use it as many times as you need with different inputs.",
+   "example": "A function called calculate_area(length, width) works for any rectangle — you don't need to rewrite the calculation every time.",
+   "sub_terms": [
+    {
+     "term": "Argument",
+     "definition": "A value you pass into a function to tell it what data to work with.",
+     "example": "In calculate_area(5, 3), the numbers 5 and 3 are the arguments."
+    },
+    {
+     "term": "Return value",
+     "definition": "What the function gives back after it finishes — the result of its work.",
+     "example": "calculate_area(5, 3) returns 15."
+    }
+   ]
+  },
+  {
+   "term": "Debugging",
+   "descriptor_code": "AC9TDI8P09",
+   "width_tier": "minimum",
+   "definition": "Finding and fixing mistakes in your code. The process is: read the error message, find the line it points to, understand what the code is trying to do, figure out what went wrong, fix it, and check it works.",
+   "example": "Python says 'SyntaxError on line 5'. You look at line 5 and see you forgot a colon after an if statement. You add the colon and run again.",
+   "sub_terms": [
+    {
+     "term": "Syntax error",
+     "definition": "A mistake in how the code is written — like a typo or missing bracket. The program won't run at all.",
+     "example": "Writing 'pritn' instead of 'print' causes a syntax error."
+    },
+    {
+     "term": "Logic error",
+     "definition": "The code runs without crashing, but gives the wrong answer because the logic is wrong.",
+     "example": "Writing 'if score > 50' when you meant 'if score >= 50' means students with exactly 50 fail when they should pass."
+    }
+   ]
+  }
+ ]
+}

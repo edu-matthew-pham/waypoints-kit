@@ -1,0 +1,235 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P06",
+ "teacher_glossary": [
+  {
+   "term": "Algorithm tracing",
+   "descriptor_code": "AC9TDI10P06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of manually executing an algorithm step by step, recording the state of each variable at each step to verify correct behaviour or locate errors. Tracing is the foundational debugging technique — it makes the algorithm's internal state visible at every point.",
+   "failure_mode": "Students skip steps or guess at variable values instead of recording them systematically — they trace intuitively rather than step-by-step, often missing the exact point where state becomes unexpected.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Students who cannot systematically trace algorithm state cannot identify boundary conditions — boundary test design requires knowing what the algorithm does at each step to determine where its behaviour changes.",
+   "response": "Require a trace table with one row per step and one column per variable. Have students fill it in for provided algorithms with intentional bugs. The table structure enforces systematic recording.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Variable state",
+     "definition": "The current value held by a variable at a specific point during algorithm execution. Tracking variable state at each step is how tracing reveals bugs."
+    },
+    {
+     "term": "Trace table",
+     "definition": "A table used to record variable state at each step of algorithm execution — one row per step, one column per variable."
+    }
+   ]
+  },
+  {
+   "term": "Bug",
+   "descriptor_code": "AC9TDI10P06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "An error in an algorithm or program that causes it to produce incorrect output, behave unexpectedly, or crash. Bugs may be syntactic (code doesn't run), runtime (code crashes during execution), or logical (code runs but produces wrong results).",
+   "failure_mode": "Students describe bugs vaguely ('it doesn't work') without identifying the specific nature of the error — they cannot distinguish between syntax errors, runtime errors, and logic errors, or locate where in the code the error occurs.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Vague bug descriptions prevent systematic debugging — students who cannot categorise and locate bugs resort to random changes rather than targeted fixes.",
+   "response": "Require bug reports with three components: what did you expect? what actually happened? at which line? The three-component report forces specificity.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Off-by-one error",
+     "definition": "A common bug where a loop or index is one step too many or too few — for example, iterating to <= n instead of < n, or starting at 1 instead of 0.",
+     "failure_mode": "Students don't recognise off-by-one errors because the output is almost correct — only boundary inputs reveal the extra or missing iteration.",
+     "failure_type": "fragile_skill",
+     "response": "Test loops with the smallest valid input (e.g. list of 1 element). Off-by-one errors are most visible at extremes.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Boundary condition",
+   "descriptor_code": "AC9TDI10P06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "An input value at the edge of the valid range or at a point where the algorithm's behaviour changes. Boundary conditions are the most likely failure points in algorithms — errors in how conditions handle exact boundary values (e.g. >= vs >) produce bugs that are invisible with typical test inputs.",
+   "failure_mode": "Students test only with typical mid-range inputs and miss boundary failures — they don't systematically identify where the algorithm's behaviour should change and test at that exact point.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "A test suite without boundary cases does not constitute systematic validation — boundary cases are the most likely failure points in algorithmic implementations.",
+   "response": "For every condition in the algorithm, identify the boundary value and test at that value, one above, and one below. The three-test pattern (below, at, above) systematically covers boundary behaviour.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Boundary value",
+     "definition": "The exact input value at which an algorithm's condition changes from true to false (or vice versa) — the point where behaviour switches."
+    }
+   ]
+  },
+  {
+   "term": "Test case",
+   "descriptor_code": "AC9TDI10P06",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A specific input paired with the expected correct output, used to verify that an algorithm or program behaves correctly. A test case specifies: the input, the expected output, and what aspect of behaviour it tests.",
+   "failure_mode": "Students write test cases without defining expected output — they run the program and accept whatever it produces, which means they cannot detect incorrect behaviour.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without expected output defined before testing, any output appears correct — the test cannot fail, making validation meaningless.",
+   "response": "Require students to write the expected output before running the test. If they cannot determine the expected output, they don't understand the algorithm well enough to validate it.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Expected output",
+     "definition": "The correct result that a program should produce for a given test input — defined before running the test so the actual output can be compared against it."
+    },
+    {
+     "term": "Actual output",
+     "definition": "The result a program actually produces for a given test input — compared against expected output to determine whether the test passes or fails."
+    }
+   ]
+  },
+  {
+   "term": "Invalid input",
+   "descriptor_code": "AC9TDI10P06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Input that falls outside the expected type, range, or format for a program — such as text entered in a numeric field, negative numbers where only positives are valid, or missing required data. Programs should handle invalid input gracefully rather than crashing or producing silent errors.",
+   "failure_mode": "Students don't test with invalid inputs — they only test with inputs that are correct, missing an entire category of potential failure.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Programs that crash or silently corrupt data on invalid input are unreliable — testing only with valid inputs creates a false sense of correctness.",
+   "response": "Require students to list categories of invalid input (wrong type, out of range, missing, unexpected format) and test at least one from each category. The category list builds comprehensive invalid-input thinking.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Error handling",
+     "definition": "The mechanisms a program uses to detect and respond to invalid input or unexpected conditions — including validation checks, try/catch blocks, and user-facing error messages. Good error handling prevents crashes and informs users what went wrong."
+    }
+   ]
+  },
+  {
+   "term": "Test suite",
+   "descriptor_code": "AC9TDI10P06",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A complete, organised collection of test cases covering normal inputs, boundary cases, and invalid inputs — designed to systematically validate an algorithm or program. A test suite integrates all three testing categories into a coherent validation approach.",
+   "failure_mode": "Students produce test suites that cover only normal cases — they include typical inputs but omit boundary and invalid input tests, producing incomplete validation.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "A test suite without all three categories cannot validate a program systematically — normal-case-only testing misses the most likely failure points.",
+   "response": "Require every test suite to include at least one test from each category (normal, boundary, invalid) with explicit labels. The category requirement ensures comprehensive coverage rather than default-to-normal testing.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Regression testing",
+     "definition": "Re-running the full test suite after a bug fix to verify that the fix works and hasn't broken anything that was previously working."
+    },
+    {
+     "term": "Automated testing",
+     "definition": "Using software tools to run test suites automatically rather than manually, enabling frequent re-testing and catching regressions quickly."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Algorithm tracing",
+   "descriptor_code": "AC9TDI10P06",
+   "width_tier": "minimum",
+   "definition": "Manually stepping through an algorithm line by line, writing down the value of every variable at each step. It's how you find exactly where things go wrong.",
+   "example": "For a loop counting from 1 to 5, you'd write: Step 1: i=1, Step 2: i=2... If the loop goes to 6, the trace table shows exactly where the off-by-one error is.",
+   "sub_terms": [
+    {
+     "term": "Variable state",
+     "definition": "What value a variable holds at a specific point in the algorithm.",
+     "example": "After the line 'total = total + 5', the variable state of 'total' changes from 0 to 5."
+    },
+    {
+     "term": "Trace table",
+     "definition": "A table you fill in to track every variable's value at every step — making the algorithm's behaviour visible.",
+     "example": "A trace table for a loop might have columns for 'step number', 'i', 'total', and 'output'."
+    }
+   ]
+  },
+  {
+   "term": "Bug",
+   "descriptor_code": "AC9TDI10P06",
+   "width_tier": "minimum",
+   "definition": "An error in a program that makes it crash, behave unexpectedly, or give wrong results. Bugs can be in the syntax (typos the computer can't read), runtime (crashes while running), or logic (runs fine but gives the wrong answer).",
+   "example": "A program that says 'Hello Wrold' instead of 'Hello World' has a syntax bug. A program that calculates averages but divides by the wrong number has a logic bug.",
+   "sub_terms": [
+    {
+     "term": "Off-by-one error",
+     "definition": "A very common bug where a loop runs one time too many or too few.",
+     "example": "A loop that should print numbers 1 to 10 but prints 1 to 11 because it uses <= instead of <."
+    }
+   ]
+  },
+  {
+   "term": "Boundary condition",
+   "descriptor_code": "AC9TDI10P06",
+   "width_tier": "minimum",
+   "definition": "The exact point where an algorithm's behaviour should change — like the precise score that separates pass from fail. Bugs are most likely to appear here.",
+   "example": "If the pass mark is 50, the boundary values are 49 (should fail), 50 (should pass), and 51 (should pass). Testing all three catches off-by-one errors in the condition.",
+   "sub_terms": [
+    {
+     "term": "Boundary value",
+     "definition": "The exact input where behaviour changes — like 18 for a voting age check.",
+     "example": "Testing age = 17, age = 18, and age = 19 covers the boundary for 'age >= 18'."
+    }
+   ]
+  },
+  {
+   "term": "Test case",
+   "descriptor_code": "AC9TDI10P06",
+   "width_tier": "minimum",
+   "definition": "A specific test you run on your program: a particular input, what you expect the output to be, and what you're checking. You define the expected output before running the test.",
+   "example": "Test case: input = -5, expected output = 'Error: negative number not allowed.' If the program outputs 'Error: negative number not allowed' the test passes.",
+   "sub_terms": [
+    {
+     "term": "Expected output",
+     "definition": "What the program should produce for a specific input — written down before you test, so you know whether the result is right.",
+     "example": "For input 'age = 18', expected output is 'Eligible to vote.'"
+    },
+    {
+     "term": "Actual output",
+     "definition": "What the program actually produces when you run the test — you compare this to the expected output.",
+     "example": "If actual output is 'Not eligible' when expected was 'Eligible', the test fails and there's a bug."
+    }
+   ]
+  },
+  {
+   "term": "Invalid input",
+   "descriptor_code": "AC9TDI10P06",
+   "width_tier": "minimum",
+   "definition": "Input that a program isn't designed to handle — like typing letters into a number field, entering a negative age, or leaving a required field blank.",
+   "example": "If a program asks for your age and you type 'twenty', that's invalid input — a well-built program shows an error message instead of crashing.",
+   "sub_terms": [
+    {
+     "term": "Error handling",
+     "definition": "How a program deals with things going wrong — catching errors and responding helpfully instead of crashing.",
+     "example": "A try/catch block in code catches an error and shows 'Please enter a number' instead of the program freezing."
+    }
+   ]
+  },
+  {
+   "term": "Test suite",
+   "descriptor_code": "AC9TDI10P06",
+   "width_tier": "minimum",
+   "definition": "A complete set of test cases that covers normal inputs, boundary values, and invalid inputs — designed to thoroughly check whether your program works correctly.",
+   "example": "A test suite for a grade calculator might include: normal (score=75), boundary (score=50, the pass mark), and invalid (score=-1, score='abc').",
+   "sub_terms": [
+    {
+     "term": "Regression testing",
+     "definition": "Running all your tests again after fixing a bug to make sure the fix didn't break something else.",
+     "example": "You fix a bug with negative numbers, then re-run all tests to make sure positive numbers still work correctly."
+    },
+    {
+     "term": "Automated testing",
+     "definition": "Having a computer run your test suite automatically instead of testing by hand each time.",
+     "example": "Automated tests can run every time you save your code — catching bugs instantly instead of discovering them later."
+    }
+   ]
+  }
+ ]
+}

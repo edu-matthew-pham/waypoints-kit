@@ -1,0 +1,272 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P12",
+ "teacher_glossary": [
+  {
+   "term": "Agile project management",
+   "descriptor_code": "AC9TDI10P12",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "An iterative approach to project management where work is delivered in short cycles (sprints), with regular review and adaptation. Agile prioritises working deliverables over comprehensive documentation, and responds to change rather than following a fixed plan. In a school context, agile provides structure for collaborative digital projects.",
+   "failure_mode": "Students treat agile as 'no planning required' — they skip task decomposition and dependency identification, assuming agile means they can figure it out as they go.",
+   "failure_type": "misconception",
+   "why_it_matters": "Agile without structure is chaos, not agility. The sprint cycle requires decomposed tasks, estimated effort, and review against criteria — more planning discipline than waterfall, not less.",
+   "response": "Run a sprint cycle: plan tasks for a one-week sprint, execute, review what was completed vs planned. The review reveals whether planning was adequate — gaps in planning become visible through incomplete sprints.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Sprint",
+     "definition": "A fixed-length work cycle (typically 1–4 weeks) during which the team completes a defined set of tasks. Each sprint ends with a review of what was accomplished and a retrospective on process improvements.",
+     "failure_mode": "Students treat sprints as deadlines rather than plan-execute-review cycles — they rush to finish without reviewing or reflecting.",
+     "failure_type": "misconception",
+     "response": "Enforce the three-phase structure: plan → execute → review. The review phase is not optional — it's where learning happens. Without it, sprints are just deadlines.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Sprint review / retrospective",
+     "definition": "End-of-sprint activities where the team demonstrates completed work (review) and reflects on what worked well and what could improve (retrospective)."
+    }
+   ]
+  },
+  {
+   "term": "Task decomposition",
+   "descriptor_code": "AC9TDI10P12",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Breaking a project into individual tasks with defined scope, estimated effort, assigned responsibility, and identified dependencies. Task decomposition is the foundation of project planning — without it, work cannot be distributed, progress cannot be tracked, and dependencies cannot be managed.",
+   "failure_mode": "Students create flat task lists without sequencing, dependencies, or effort estimates — producing lists where nothing indicates what needs to happen first or how long each task will take.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "A flat task list without sequencing leads to blocked work — teams discover mid-sprint that task B depends on task A, which no one started. Dependencies must be identified during decomposition, not discovered during execution.",
+   "response": "After listing tasks, ask: for each task, what must be finished before this can start? Draw dependency arrows between tasks. The dependency map reveals sequencing requirements that flat lists hide.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Dependency (task)",
+     "definition": "A relationship where one task cannot begin until another is completed — for example, testing cannot start until the feature being tested is built.",
+     "failure_mode": "Students don't identify dependencies during planning — they discover them mid-sprint when someone is blocked waiting for another task to finish.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask for every task: what inputs does this need? Where do those inputs come from? If they come from another task, that's a dependency.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Responsibility assignment",
+     "definition": "Clearly designating which team member owns each task — preventing duplication of effort and ensuring nothing is left unassigned.",
+     "failure_mode": "Students assign tasks vaguely ('we'll all work on it') — leading to diffusion of responsibility where nobody takes ownership.",
+     "failure_type": "fragile_skill",
+     "response": "Every task gets exactly one owner name. Two people can collaborate, but one person is responsible for completion. The single-owner rule prevents 'someone else will do it.'",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Due date / timeline",
+     "definition": "The target completion date for a task, derived from effort estimates and sprint boundaries."
+    }
+   ]
+  },
+  {
+   "term": "Version control",
+   "descriptor_code": "AC9TDI10P12",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A system for tracking changes to code and files over time, enabling multiple people to work on the same codebase without overwriting each other's work. Version control records who changed what, when, and why — allowing changes to be reviewed, reverted, or merged. Git is the most common version control system.",
+   "failure_mode": "Students treat version control as backup/save rather than as a collaboration and change-tracking tool — they commit infrequently with meaningless messages, don't use branches, and panic when merge conflicts arise.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Without version control discipline, collaborative coding produces lost work, overwritten changes, and untraceable bugs. Students who cannot use version control cannot work on team projects safely.",
+   "response": "Simulate a scenario: two students edit the same file without version control (one overwrites the other's work). Then repeat with version control. The lost-work scenario makes version control's purpose viscerally clear.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Repository",
+     "definition": "The central storage location for a project's code and files, including the complete history of all changes.",
+     "failure_mode": "Students don't use the repository as the single source of truth — they email files back and forth or keep copies on their desktop.",
+     "failure_type": "fragile_skill",
+     "response": "Establish the rule: if it's not in the repo, it doesn't exist. All work happens through the repo.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Commit",
+     "definition": "A saved snapshot of changes to the codebase, accompanied by a message describing what was changed and why.",
+     "failure_mode": "Students commit with meaningless messages ('fixed stuff', 'update') or commit broken code, making the history unhelpful for tracking changes.",
+     "failure_type": "fragile_skill",
+     "response": "Require commit messages that answer: what changed and why? Review messages as part of sprint reviews. The review creates accountability for meaningful messages.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Merge conflict",
+     "definition": "A situation where two people have edited the same part of a file — the version control system cannot automatically combine the changes and requires manual resolution.",
+     "failure_mode": "Students panic during merge conflicts and delete the other person's changes to resolve it — losing work.",
+     "failure_type": "fragile_skill",
+     "response": "Walk through a merge conflict resolution step by step: read both versions, decide what to keep from each, test the merged result. The guided resolution builds confidence.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Branch",
+     "definition": "A parallel copy of the codebase where changes can be made without affecting the main version. Branches enable multiple features to be developed simultaneously and merged when complete."
+    }
+   ]
+  },
+  {
+   "term": "Risk (project)",
+   "descriptor_code": "AC9TDI10P12",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A potential event or condition that could negatively impact a project's timeline, quality, or deliverables. Risk management involves identifying risks, assessing their likelihood and impact, and planning mitigation strategies before the risks materialise.",
+   "failure_mode": "Students identify risks but don't plan mitigations — they list what could go wrong without planning what they would do if it happened.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Risk identification without mitigation is incomplete project management — when risks materialise (and they will), the team has no plan and responds reactively.",
+   "response": "For each identified risk, require: what would we do if this happened? What can we do now to reduce the likelihood? The two-part response (prevention + contingency) completes risk management.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Mitigation (risk)",
+     "definition": "An action taken to reduce the likelihood or impact of a risk — either preventing it from occurring or reducing its consequences if it does.",
+     "failure_mode": "Students write vague mitigations ('be careful') rather than specific, actionable plans.",
+     "failure_type": "fragile_skill",
+     "response": "Apply the specificity test: could someone who wasn't in the room follow this mitigation plan? If not, it's too vague.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Risk register",
+     "definition": "A document listing identified risks, their likelihood, potential impact, and planned mitigation strategies — maintained throughout the project."
+    }
+   ]
+  },
+  {
+   "term": "Legislation (digital projects)",
+   "descriptor_code": "AC9TDI10P12",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Laws and regulations that apply to digital projects — including copyright (ownership of creative works), privacy legislation (Australian Privacy Principles), and cultural protocols (respecting First Nations communities' rights over their data and knowledge). Legal requirements constrain what a digital project can collect, use, create, and share.",
+   "failure_mode": "Students treat legal requirements as an afterthought — they build first and consider legality later, potentially creating systems that violate copyright or privacy law.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "A digital system that violates copyright or privacy legislation cannot be deployed — legal requirements are constraints that must be identified and addressed during project planning, not discovered at launch.",
+   "response": "Present the project's data collection plan and ask: which APPs apply? What copyright applies to assets being used? What cultural protocols need to be followed? The question set surfaces legal requirements as planning constraints.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Copyright (digital)",
+     "definition": "Legal protection giving the creator of an original work exclusive rights to reproduce, distribute, and display it. In digital projects, copyright applies to code, images, text, music, and design elements — both the project's own outputs and any assets used within it."
+    },
+    {
+     "term": "Cultural protocol (project context)",
+     "definition": "Respectful practices required when a digital project involves First Nations communities, knowledge, or data — including community consent, appropriate engagement processes, and recognition of cultural authority. Cross-reference AC9TDI10P04 for stakeholder-level treatment."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Agile project management",
+   "descriptor_code": "AC9TDI10P12",
+   "width_tier": "minimum",
+   "definition": "A way of managing projects in short cycles called sprints — you plan a small chunk of work, build it, review what you did, and plan the next chunk. It lets you adapt as you learn instead of sticking to a plan that might not work.",
+   "example": "Instead of planning an entire app for 10 weeks, you plan 2 weeks at a time — building the login system first, reviewing it, then moving to the next feature.",
+   "sub_terms": [
+    {
+     "term": "Sprint",
+     "definition": "A short work cycle (usually 1-2 weeks in school) where you aim to complete a specific set of tasks and then review how it went.",
+     "example": "Sprint 1: design and build the database. Sprint 2: create the input forms. Sprint 3: add search and filtering."
+    },
+    {
+     "term": "Sprint review / retrospective",
+     "definition": "The end-of-sprint meeting where you show what you built (review) and discuss what went well and what to improve (retrospective).",
+     "example": "In the retrospective, the team might realise they spent too long on visual design and not enough on functionality — and adjust for the next sprint."
+    }
+   ]
+  },
+  {
+   "term": "Task decomposition",
+   "descriptor_code": "AC9TDI10P12",
+   "width_tier": "minimum",
+   "definition": "Breaking your project into individual tasks — each with a clear scope, a time estimate, one person responsible, and notes on what needs to be done first.",
+   "example": "'Build the app' isn't a task. 'Create the database schema' is — and it needs to happen before 'Build the input form' because the form needs to know what fields exist.",
+   "sub_terms": [
+    {
+     "term": "Dependency (task)",
+     "definition": "When one task can't start until another is finished — like how you can't test a feature that hasn't been built yet.",
+     "example": "'Write CSS styling' depends on 'Create HTML structure' — you can't style elements that don't exist yet."
+    },
+    {
+     "term": "Responsibility assignment",
+     "definition": "Putting one person's name on each task so there's no confusion about who's doing what.",
+     "example": "'Alex: database schema by Friday. Sam: wireframes by Thursday. Jo: user stories by Wednesday.'"
+    },
+    {
+     "term": "Due date / timeline",
+     "definition": "When each task needs to be done — based on how long it'll take and what depends on it.",
+     "example": "If the database is needed by Sprint 2, the schema task has a due date before Sprint 2 starts."
+    }
+   ]
+  },
+  {
+   "term": "Version control",
+   "descriptor_code": "AC9TDI10P12",
+   "width_tier": "minimum",
+   "definition": "A system that tracks every change to your project's code — who changed what, when, and why. It lets multiple people work on the same project without overwriting each other's work. Git is the most common tool.",
+   "example": "If a team member accidentally breaks the code, version control lets you go back to the last working version — no work is permanently lost.",
+   "sub_terms": [
+    {
+     "term": "Repository",
+     "definition": "The central home for your project — all the code, files, and the complete history of changes.",
+     "example": "Your GitHub repository is where all team members push their code and pull the latest version."
+    },
+    {
+     "term": "Commit",
+     "definition": "A saved snapshot of your changes with a message explaining what you did.",
+     "example": "'Added validation to the login form — checks email format and password length' is a good commit message."
+    },
+    {
+     "term": "Merge conflict",
+     "definition": "When two people edit the same part of a file and the system can't automatically combine the changes — you have to manually decide what to keep.",
+     "example": "You changed line 15 and your teammate also changed line 15 — Git highlights both versions and you decide which to keep (or combine them)."
+    },
+    {
+     "term": "Branch",
+     "definition": "A separate copy of the code where you can make changes without affecting the main version — then merge it back when you're done.",
+     "example": "You might create a branch called 'search-feature' to build and test the search functionality before adding it to the main codebase."
+    }
+   ]
+  },
+  {
+   "term": "Risk (project)",
+   "descriptor_code": "AC9TDI10P12",
+   "width_tier": "minimum",
+   "definition": "Something that could go wrong and hurt your project — a team member getting sick, a tool not working, or a feature taking longer than expected. Good project management identifies risks early and plans for them.",
+   "example": "Risk: 'The API we're using might change during our project.' Mitigation: 'We'll use a stable version and build our code so the API calls are in one module we can update easily.'",
+   "sub_terms": [
+    {
+     "term": "Mitigation (risk)",
+     "definition": "A specific plan to either prevent a risk from happening or reduce the damage if it does.",
+     "example": "If the risk is 'team member might be absent,' the mitigation is 'document all work in the repo so anyone can pick it up.'"
+    },
+    {
+     "term": "Risk register",
+     "definition": "A document listing all identified risks, how likely they are, how bad they'd be, and what you'll do about each one.",
+     "example": "A table with columns: Risk, Likelihood (high/med/low), Impact (high/med/low), Mitigation Plan."
+    }
+   ]
+  },
+  {
+   "term": "Legislation (digital projects)",
+   "descriptor_code": "AC9TDI10P12",
+   "width_tier": "minimum",
+   "definition": "Laws that affect your digital project — copyright (who owns creative works), privacy (how you handle personal data), and cultural protocols (respectful engagement with communities). These aren't optional extras — they're constraints you need to plan for from the start.",
+   "example": "Using someone else's image in your app without permission violates copyright. Collecting user emails without telling people how you'll use them may violate privacy law.",
+   "sub_terms": [
+    {
+     "term": "Copyright (digital)",
+     "definition": "The legal right of creators to control how their work is used — applies to code, images, music, text, and designs in your project.",
+     "example": "You can't just download an image from Google and use it in your app — you need to check the licence first."
+    },
+    {
+     "term": "Cultural protocol (project context)",
+     "definition": "Respectful practices when your project involves First Nations communities, knowledge, or data — you need proper permission and community guidance.",
+     "example": "If your project maps significant First Nations sites, the community decides what information can be shared publicly — not your project team."
+    }
+   ]
+  }
+ ]
+}

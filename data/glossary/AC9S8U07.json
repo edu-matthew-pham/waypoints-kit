@@ -1,0 +1,346 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U07",
+ "teacher_glossary": [
+  {
+   "term": "Physical change",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A change in which particles rearrange without forming new substances — atom types and bonding remain unchanged. Physical changes include melting, freezing, dissolving, tearing and bending. They are typically reversible because no new substance has formed, but reversibility is a consequence, not the definition — some physical changes (tearing paper) are difficult to reverse in practice.",
+   "failure_mode": "Students define physical change by reversibility rather than by the absence of new substance formation — this produces systematic misclassification of dissolving (reversible, sometimes classified as chemical) and some reactions.",
+   "failure_type": "misconception",
+   "why_it_matters": "The reversibility heuristic from AC9S6U04 works for most cases but fails for dissolving and for some chemical reactions that can be reversed. The new substance criterion must replace reversibility as the primary classification tool — otherwise students carry an unreliable test into Year 9 chemistry.",
+   "response": "Present dissolving as the key test case: it is reversible (evaporate the water, get the salt back) but is it chemical? No — no new substance was formed. The test case makes the criterion replace reversibility.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Reversibility",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The ability of a change to be undone, returning the substance to its original state. At Year 8, reversibility is explicitly reframed — it is a consequence of physical change (no new substance means the original can be recovered) rather than its definition. The reversibility heuristic from AC9S6U04 is replaced by the new substance criterion because reversibility fails as a classifier in ambiguous cases.",
+   "failure_mode": "Students retain reversibility as the primary test for distinguishing physical from chemical change — 'if you can undo it, it is physical; if you cannot, it is chemical.'",
+   "failure_type": "misconception",
+   "why_it_matters": "The reversibility test fails for dissolving (reversible, but not chemical? — correct) and for some chemical reactions that can be reversed under specific conditions. Students who retain this heuristic will misclassify changes throughout secondary chemistry.",
+   "response": "Present two counterexamples: dissolving (reversible, physical) and thermal decomposition of limestone (chemical, but reversible under the right conditions). Both break the reversibility heuristic. Ask: 'If reversibility does not reliably distinguish the two, what does?' The answer is new substance formation.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Dissolving",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The process by which a solute disperses into a solvent at the molecular level, forming a solution. At the particle level, ionic or molecular units separate and distribute among solvent particles — no new compound is formed, which is why dissolving is a physical change despite the solid appearing to 'disappear.' Dissolving is the most commonly misclassified change — it looks chemical (solid vanishes) but the solute can be recovered by evaporation, confirming no new substance was formed.",
+   "failure_mode": "Students classify dissolving as a chemical change because the solid 'disappears' — the visual evidence of disappearance overrides the new substance criterion.",
+   "failure_type": "misconception",
+   "why_it_matters": "Dissolving is the diagnostic case for the physical/chemical distinction. Students who misclassify it have not internalised the new substance criterion and are likely still using the appearance-based or reversibility heuristic.",
+   "response": "Dissolve salt in water, then evaporate. Ask: 'If dissolving were chemical, a new substance would have formed — could you get the salt back unchanged?' Recovery of the original substance is proof of physical change.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Chemical change",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A change in which bonds between atoms break and new bonds form, producing one or more new substances with different properties from the starting materials. Chemical change is defined by new substance formation — not by reversibility, colour change, or any single indicator. The new substance has a different chemical formula and different properties from the reactants.",
+   "failure_mode": "Students classify changes as chemical based on dramatic appearance changes (colour, bubbles, smell) rather than applying the new substance criterion — they confuse indicators with the definition.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If appearance changes define chemical change, students will classify some physical changes (dissolving a coloured solid) as chemical and miss some chemical changes (rusting, which is slow and visually subtle). The new substance criterion is the reliable test; indicators are evidence, not proof.",
+   "response": "Present a change with dramatic appearance (dissolving coloured drink mix — physical) and one with subtle appearance (rusting — chemical). The mismatch between drama and classification forces the new substance criterion as the reliable test.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Bond breaking and bond forming",
+     "definition": "The particle-level mechanism of chemical change — bonds in reactants break, and atoms rearrange and form new bonds to produce products with new properties."
+    },
+    {
+     "term": "Rusting",
+     "definition": "The slow chemical reaction between iron, oxygen and water that produces iron oxide — a common everyday example of chemical change that is difficult to reverse."
+    }
+   ]
+  },
+  {
+   "term": "New substance criterion",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The principle that chemical change is defined by the formation of a new substance — a substance with a different chemical formula and different properties from the starting materials. The new substance criterion replaces the reversibility heuristic from AC9S6U04 as the primary classification tool. It is grounded in AC9S8U06's compound concept — a new compound is a new substance.",
+   "failure_mode": "Students state the criterion but do not apply it — they revert to reversibility or appearance when classifying actual changes.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The criterion is only useful if it is applied. Students who can state it but default to other tests will misclassify dissolving, slow reactions and ambiguous cases. Fluency requires practice applying the criterion to novel examples.",
+   "response": "Present five unfamiliar changes and require students to classify each using only the new substance criterion — not reversibility, not appearance. The practice builds application fluency beyond stated knowledge.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Reactant",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A substance that enters a chemical reaction — the starting material that is consumed and transformed into products. In the reaction between iron and oxygen to form rust, iron and oxygen are the reactants. Reactants appear on the left side of a chemical equation. Identifying reactants and products is the first step in describing any chemical change.",
+   "failure_mode": "Students confuse reactants with products, or do not recognise that reactants are consumed during the reaction.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If reactants and products are confused, students cannot describe chemical changes correctly, cannot write word equations, and cannot apply conservation of mass in Year 9. The before/after distinction is foundational.",
+   "response": "Use 'before and after' framing consistently: 'What substances were present before the reaction? Those are reactants. What substances are present after? Those are products.' The temporal framing is more intuitive than left/right in an equation.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Product",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A substance produced by a chemical reaction — the new material formed when reactants are transformed. Products have different properties from reactants because they are different substances with different chemical formulas. In combustion of methane, carbon dioxide and water are the products. Products appear on the right side of a chemical equation.",
+   "failure_mode": "Students think products are always solids or visible substances — miss that gaseous products (CO₂, water vapour) are equally valid and often escape unnoticed.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If gaseous products are missed, students cannot account for mass changes in reactions (mass appears to decrease when gas escapes) and cannot apply conservation of mass in Year 9.",
+   "response": "Burn a candle and ask: 'Where did the wax go?' It became CO₂ and water vapour — gaseous products that escaped into the air. The 'missing' mass is in the gas.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Chemical reaction",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A process in which reactants are transformed into products through bond breaking and bond forming. Chemical reactions involve the rearrangement of atoms — atoms from the reactants are recombined into new arrangements in the products. At Year 8, reactions are described using word equations and observable indicators. Chemical equations with symbols are developed at Year 9.",
+   "failure_mode": "Students think atoms are created or destroyed during reactions — miss that the same atoms are present before and after, just rearranged.",
+   "failure_type": "misconception",
+   "why_it_matters": "If atoms are created or destroyed, conservation of mass fails. The atoms-rearrange-but-are-not-created-or-destroyed principle is the foundation of conservation of mass in AC9S9U07 and equation balancing.",
+   "response": "Use physical models (coloured balls for atoms) to build reactant molecules, then break them apart and rebuild as products. Count the atoms before and after — the same atoms in different arrangements. Nothing was created or destroyed.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Indicator (of chemical change)",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "An observable sign that suggests a chemical change may have occurred. The four main indicators at Year 8 are gas production, precipitate formation, colour change and temperature change. Critically, indicators are evidence that suggests new substance formation — they are not the definition of chemical change. Some indicators can occur during physical changes (temperature change during dissolving), so indicators must be interpreted alongside the new substance criterion.",
+   "failure_mode": "Students invert the indicator-criterion relationship — they define chemical change by the presence of indicators rather than using indicators as evidence for the new substance criterion.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If indicators define chemical change, any colour change or temperature change is classified as chemical — including many physical changes. The evidence-criterion hierarchy (indicators suggest → criterion confirms) is essential for reliable classification.",
+   "response": "Present a physical change with an indicator (dissolving coloured drink mix — colour change, temperature change) and a chemical change without dramatic indicators (slow rusting). Ask: 'Do indicators always mean chemical change? Does chemical change always show indicators?' Both answers are no — indicators are evidence, not proof.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Gas production",
+     "definition": "The appearance of bubbles or a new odour during a change, suggesting a gaseous compound has formed."
+    },
+    {
+     "term": "Colour change",
+     "definition": "A change in the colour of a substance during a reaction, suggesting a new compound with different light-absorbing properties has formed."
+    },
+    {
+     "term": "Temperature change",
+     "definition": "A rise or fall in temperature during a change, suggesting energy is being released or absorbed as bonds break and form. Also occurs in some physical changes."
+    }
+   ]
+  },
+  {
+   "term": "Precipitate",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "An insoluble solid that forms when two solutions are mixed and a chemical reaction produces a compound that cannot dissolve. The precipitate appears as cloudiness or a visible solid settling out of the solution. Precipitate formation is one of the strongest indicators of chemical change because an insoluble new substance has clearly been produced.",
+   "failure_mode": "Students confuse precipitates with sediment or undissolved material — miss that a precipitate is a new substance produced by a reaction, not something that was already present.",
+   "failure_type": "misconception",
+   "why_it_matters": "If precipitates are just settling solids, students cannot distinguish chemical precipitation (new substance formed) from physical settling (existing substance settling). The distinction is important for solution chemistry in Year 9.",
+   "response": "Mix two clear solutions that produce a precipitate (e.g. lead nitrate + potassium iodide → yellow lead iodide precipitate). Ask: 'Both solutions were clear. Where did the solid come from?' The answer — a new substance was produced by the reaction — makes precipitate formation mechanistic.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Exothermic reaction",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A chemical reaction that releases energy to the surroundings, observed as a temperature rise. In exothermic reactions, the energy released when product bonds form exceeds the energy required to break reactant bonds — the excess is released as heat. Combustion, neutralisation and cellular respiration are exothermic. Connects to AC9S8U05's energy transformation: chemical potential energy → thermal energy.",
+   "failure_mode": "Students think exothermic means 'hot reaction' without understanding the bond energy mechanism — they identify exothermic by temperature rise but cannot explain why energy is released.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If exothermic is just 'gets hot,' students cannot explain the energy source or predict whether a reaction will be exothermic. The bond energy mechanism (products release more than reactants absorb) is the reasoning tool for Year 9 energy profile diagrams.",
+   "response": "Ask: 'Where does the heat come from in combustion? Is it from the flame? From the fuel?' The answer — from the difference between energy needed to break reactant bonds and energy released when product bonds form — makes the mechanism explicit.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Neutralisation",
+     "definition": "A chemical reaction between an acid and a base that produces a salt and water, releasing thermal energy as an exothermic process."
+    },
+    {
+     "term": "Surroundings",
+     "definition": "The environment around a reaction system — the air, container and any substances not directly involved in the reaction. In exothermic reactions, energy transfers to the surroundings; in endothermic reactions, energy transfers from the surroundings."
+    }
+   ]
+  },
+  {
+   "term": "Endothermic reaction",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A chemical reaction that absorbs energy from the surroundings, observed as a temperature drop. In endothermic reactions, the energy required to break reactant bonds exceeds the energy released when product bonds form — the deficit is absorbed from the surroundings as heat. Photosynthesis and thermal decomposition are endothermic. Cold packs exploit endothermic dissolving.",
+   "failure_mode": "Students think endothermic means 'cold reaction' or 'no energy involved' — miss that endothermic reactions require energy input, absorbed from the surroundings.",
+   "failure_type": "misconception",
+   "why_it_matters": "If endothermic means 'no energy,' students cannot explain why the surroundings cool or why photosynthesis requires light energy input. The complement with exothermic — energy released vs energy absorbed — is the conceptual framework for reaction energetics.",
+   "response": "Dissolve ammonium nitrate in water and measure the temperature drop. Ask: 'The solution got colder — where did the energy go?' The answer — into breaking bonds — makes the absorption mechanism tangible. Compare directly with an exothermic example.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Thermal decomposition",
+     "definition": "A chemical reaction in which a compound is broken down into simpler substances by heating — an endothermic process requiring continuous energy input."
+    },
+    {
+     "term": "Photosynthesis",
+     "definition": "The process by which plants use light energy to convert carbon dioxide and water into glucose and oxygen — an endothermic reaction that stores energy in chemical bonds."
+    }
+   ]
+  },
+  {
+   "term": "Bond energy",
+   "descriptor_code": "AC9S8U07",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The amount of energy stored in a chemical bond — equivalently, the amount of energy required to break that bond. In chemical reactions, energy is required to break reactant bonds (energy input) and energy is released when product bonds form (energy output). The difference between these determines whether a reaction is exothermic (output > input) or endothermic (input > output). Bond energy reasoning is the mechanism underlying all reaction energetics.",
+   "failure_mode": "Students think breaking bonds releases energy — the opposite is true. Breaking bonds requires energy input; forming bonds releases energy.",
+   "failure_type": "misconception",
+   "why_it_matters": "If breaking bonds releases energy, the exothermic/endothermic mechanism is inverted. This is one of the most persistent misconceptions in secondary chemistry and directly interferes with energy profile diagram interpretation in Year 9.",
+   "response": "Use the magnet analogy: pulling two magnets apart requires effort (energy input = breaking bonds). Letting them snap together releases energy (energy output = forming bonds). Ask: 'Does separating require energy or release it?' The physical experience corrects the misconception.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Physical change",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "A change where particles rearrange but no new substance is formed. The atoms stay bonded the same way — they just move to different positions. Physical changes can usually be reversed.",
+   "example": "Melting ice is a physical change — the water molecules are the same before and after, they just move more freely as a liquid."
+  },
+  {
+   "term": "Reversibility",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "Whether a change can be undone. Most physical changes are reversible and most chemical changes are not, but this is not a reliable test — some physical changes are hard to reverse and some chemical changes can be reversed.",
+   "example": "Tearing paper is a physical change that is hard to reverse. Some chemical reactions can be reversed under special conditions. That is why 'can you undo it?' is not the best test."
+  },
+  {
+   "term": "Dissolving",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "typical",
+   "definition": "When a substance spreads out into a liquid at the particle level and seems to disappear. Dissolving is a physical change — no new substance is formed, even though the solid seems to vanish. You can prove this by evaporating the liquid and getting the solid back.",
+   "example": "When you stir sugar into water, it disappears — but evaporate the water and the sugar is still there. No new substance was created, so dissolving is physical."
+  },
+  {
+   "term": "Chemical change",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "A change where bonds between atoms break and new bonds form, creating one or more new substances. The new substances have different properties from what you started with.",
+   "example": "When iron rusts, the iron atoms bond with oxygen atoms to form iron oxide — a completely different substance that is orange, flaky and crumbly instead of strong and shiny.",
+   "sub_terms": [
+    {
+     "term": "Bond breaking and bond forming",
+     "definition": "The process inside a chemical change — old connections between atoms break apart, and the atoms rearrange into new connections."
+    },
+    {
+     "term": "Rusting",
+     "definition": "The slow chemical reaction between iron, oxygen and water that produces iron oxide — a common everyday example of chemical change that is difficult to reverse."
+    }
+   ]
+  },
+  {
+   "term": "New substance criterion",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "The rule that a change is chemical if and only if a new substance is formed — something with different properties and a different chemical formula from what you started with. This is a more reliable test than 'can you reverse it?'",
+   "example": "Dissolving salt looks dramatic (the solid vanishes!) but no new substance forms — evaporate and the salt returns. Rusting looks subtle, but iron oxide is a completely different substance from iron. The new substance test gets it right both times."
+  },
+  {
+   "term": "Reactant",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "typical",
+   "definition": "A substance you start with before a chemical reaction — it gets used up and transformed into something new.",
+   "example": "When you burn wood, the wood and oxygen are the reactants — they are consumed during burning and transformed into ash, carbon dioxide and water."
+  },
+  {
+   "term": "Product",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "typical",
+   "definition": "A new substance that is produced by a chemical reaction. Products have different properties from the reactants because they are different substances.",
+   "example": "When you burn a candle, the products are carbon dioxide and water vapour — both are invisible gases, which is why the candle wax seems to 'disappear.'"
+  },
+  {
+   "term": "Chemical reaction",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "typical",
+   "definition": "A process where reactants are transformed into products by breaking and forming bonds between atoms. The same atoms are present before and after — they are just rearranged into new combinations.",
+   "example": "In the reaction between hydrogen and oxygen to make water, no atoms are created or destroyed — the hydrogen and oxygen atoms are just rearranged into a new combination (H₂O)."
+  },
+  {
+   "term": "Indicator (of chemical change)",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "An observable clue that a chemical change might have happened — like bubbles, a colour change, a new smell or a temperature change. But indicators are clues, not proof — you still need to check whether a new substance was actually formed.",
+   "example": "Dissolving coloured drink mix produces a colour change and temperature change — but it is physical, not chemical. Indicators suggest, they do not prove.",
+   "sub_terms": [
+    {
+     "term": "Gas production",
+     "definition": "Bubbles or a new smell appearing during a change — suggests a new gas is being produced."
+    },
+    {
+     "term": "Colour change",
+     "definition": "The substance changing colour during a change — suggests a new substance with different light-absorbing properties."
+    },
+    {
+     "term": "Temperature change",
+     "definition": "The mixture getting hotter or colder — suggests energy is being released or absorbed as bonds break and form."
+    }
+   ]
+  },
+  {
+   "term": "Precipitate",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "typical",
+   "definition": "A solid that forms when you mix two liquids together and a chemical reaction produces a new substance that cannot dissolve. The solid appears 'out of nowhere' because it was not there before — it was created by the reaction.",
+   "example": "Mix two clear solutions and a bright yellow solid suddenly appears — that solid is a precipitate, a brand-new substance created by the reaction between the two solutions."
+  },
+  {
+   "term": "Exothermic reaction",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "A chemical reaction that releases energy, making the surroundings warmer. The energy comes from the bonds forming in the products — when products form, they release more energy than it took to break the reactant bonds.",
+   "example": "Burning fuel is exothermic — the heat you feel is energy released when the product bonds (in CO₂ and H₂O) form.",
+   "sub_terms": [
+    {
+     "term": "Neutralisation",
+     "definition": "A chemical reaction between an acid and a base that produces a salt and water, releasing thermal energy as an exothermic process."
+    },
+    {
+     "term": "Surroundings",
+     "definition": "Everything around the reaction — the air, the container, your hand holding the test tube. In exothermic reactions, the surroundings get warmer."
+    }
+   ]
+  },
+  {
+   "term": "Endothermic reaction",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "minimum",
+   "definition": "A chemical reaction that absorbs energy from the surroundings, making them cooler. The reaction needs more energy to break reactant bonds than the product bonds release, so it takes heat from the surroundings.",
+   "example": "A cold pack gets cold because the reaction inside absorbs heat from your skin — the surroundings (your hand) lose energy, which is why it feels cold.",
+   "sub_terms": [
+    {
+     "term": "Thermal decomposition",
+     "definition": "Breaking a compound down into simpler substances using heat — the heat provides the energy needed to break the bonds."
+    },
+    {
+     "term": "Photosynthesis",
+     "definition": "The process by which plants use light energy to convert carbon dioxide and water into glucose and oxygen — an endothermic reaction that stores energy in chemical bonds."
+    }
+   ]
+  },
+  {
+   "term": "Bond energy",
+   "descriptor_code": "AC9S8U07",
+   "width_tier": "typical",
+   "definition": "The amount of energy stored in a bond between atoms. Breaking bonds uses energy (like pulling magnets apart), and forming bonds releases energy (like magnets snapping together). Whether a reaction is exothermic or endothermic depends on which is bigger.",
+   "example": "Think of magnets: pulling them apart takes effort (breaking bonds costs energy). Letting them snap together releases energy (forming bonds releases energy). In reactions, it works the same way."
+  }
+ ]
+}

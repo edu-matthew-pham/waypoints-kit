@@ -1,0 +1,485 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U01",
+ "teacher_glossary": [
+  {
+   "term": "Chromosome",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A structure made of tightly coiled DNA found in the nucleus of a cell. Humans have 46 chromosomes arranged in 23 pairs — one from each parent. Chromosomes carry genes, and their separation during meiosis is the mechanism that transmits genetic information to offspring.",
+   "failure_mode": "Students use chromosome, DNA and gene interchangeably — treating all three as the same thing rather than as a containment hierarchy (chromosome contains DNA; gene is a segment of DNA).",
+   "failure_type": "misconception",
+   "why_it_matters": "If the three terms are interchangeable, students cannot follow how meiosis separates chromosome pairs (N3), how alleles sit at specific locations on chromosomes (N4), or how sex-linked inheritance depends on which chromosome carries the gene (N6).",
+   "response": "Use nested scale diagrams (cell → nucleus → chromosome → DNA strand → gene) and ask students to label each level. Emphasise the containment relationship: chromosomes are made of DNA; genes are sections of DNA on a chromosome.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "DNA",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Deoxyribonucleic acid — the molecule that carries genetic information in all living organisms. DNA is the material chromosomes are made of. Specific segments of DNA are genes, each coding for a protein that determines a heritable characteristic. At Year 10, DNA is the molecular link between chromosome structure and inherited traits.",
+   "failure_mode": "Students think DNA is a separate structure inside the nucleus alongside chromosomes, rather than the molecule chromosomes are made of.",
+   "failure_type": "misconception",
+   "why_it_matters": "If DNA and chromosomes are separate structures, the logic of meiosis breaks — separating chromosomes would not separate genes, and the Mendelian inheritance model in N4 would have no physical basis.",
+   "response": "Show a chromosome 'unwinding' animation or diagram that zooms from chromosome to DNA double helix to gene segment. The visual continuity makes the containment relationship concrete.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Gene",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A segment of DNA on a chromosome that codes for a specific protein, which in turn determines a heritable characteristic. Genes are the functional units of heredity — they are what is transmitted from parent to offspring via chromosomes during reproduction. Different versions of the same gene are called alleles.",
+   "failure_mode": "Students think genes directly produce visible traits rather than coding for proteins that determine traits — they skip the gene → protein → characteristic chain.",
+   "failure_type": "misconception",
+   "why_it_matters": "If genes directly produce traits, students cannot explain how one gene can have different effects (alleles producing different proteins), why some traits are dominant (functional protein produced), or how mutations alter characteristics (changed protein).",
+   "response": "Trace a specific example: the gene for eye pigment codes for a protein; the protein produces pigment; the pigment determines eye colour. Ask students to identify the gene, the protein and the trait as three distinct things.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Protein",
+     "definition": "A molecule built from instructions in a gene. Proteins carry out functions in cells — enzymes, structural components, pigments — and are the mechanism by which genes determine characteristics.",
+     "failure_mode": "Students think genes directly produce visible traits — 'the gene for blue eyes makes eyes blue' — without understanding that genes code for proteins, and it is the proteins that produce the trait. The gene → protein → trait chain is invisible to them.",
+     "failure_type": "misconception",
+     "response": "Ask: what does a gene actually make? (A protein.) What does the protein do? (Determines hair/skin pigment, enzyme function, structural features.) The two-step chain makes the intermediary visible.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Genotype",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The combination of alleles an organism carries for a particular gene, represented using letter notation (e.g. Pp, pp, PP). Genotype is the genetic information — what alleles are present — as distinct from phenotype, which is the expressed characteristic. In Mendelian inheritance, genotype determines phenotype according to dominant/recessive rules.",
+   "failure_mode": "Students conflate genotype with phenotype — they describe the visible trait when asked for genotype, or write a phenotype description (e.g. 'brown eyes') where allele notation is required.",
+   "failure_type": "misconception",
+   "why_it_matters": "If genotype and phenotype are the same, students cannot explain how two organisms with the same phenotype can have different genotypes (PP vs Pp), which is the basis of carrier status and the 3:1 ratio in Punnett squares.",
+   "response": "Present two brown-eyed individuals — one PP, one Pp. Ask whether their genotypes are the same (no) and their phenotypes (yes). The case where phenotype matches but genotype differs is the concept-breaking example.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Phenotype",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The observable characteristic expressed by an organism, determined by its genotype and sometimes influenced by environment. Phenotype is what you can see or measure — the physical trait — as distinct from genotype, which is the underlying allele combination.",
+   "failure_mode": "Students think phenotype is fixed by a single gene and cannot be influenced by environment — they treat every observable trait as purely genetic.",
+   "failure_type": "misconception",
+   "why_it_matters": "If phenotype is purely genetic, students cannot account for variation among genetically similar individuals, and they over-apply Mendelian ratios to traits that have environmental components. At this level, the key requirement is the genotype–phenotype distinction; environmental influence is a refinement.",
+   "response": "Use an example where environment affects phenotype — identical twins raised in different environments can differ in height despite identical genotypes. Ask students to identify what is genotype (same) and what is phenotype (different).",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Mutation",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 1,
+   "width_tier": "wider",
+   "definition": "A change in the DNA sequence of a gene that may alter the protein it codes for and therefore the characteristic it determines. Mutations can be caused by environmental factors (radiation, chemicals) or errors during DNA replication. Mutations are the ultimate source of new genetic variation — without them, natural selection would have no new material to act on.",
+   "failure_mode": "Students think all mutations are harmful and visible — they associate mutation exclusively with disease or dramatic physical change, missing that most mutations are neutral or silent.",
+   "failure_type": "misconception",
+   "why_it_matters": "If mutations are always harmful, students cannot understand mutation as the source of the heritable variation that natural selection acts on (AC9S10U02). This misconception also prevents understanding of genetic diversity as a species-level advantage.",
+   "response": "Present a range of mutation outcomes: a silent mutation with no protein change, a neutral mutation, a harmful mutation (sickle cell), and an advantageous mutation. Ask students to classify each — the range breaks the 'mutation = bad' assumption.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Mitosis",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Cell division that produces two genetically identical daughter cells, each with the same chromosome number as the parent cell. Mitosis is the mechanism for growth, tissue repair and asexual reproduction. It preserves genetic identity — no new genetic variation is introduced.",
+   "failure_mode": "Students confuse mitosis with meiosis — they cannot reliably distinguish the process that preserves genetic identity (mitosis) from the process that halves chromosome number and generates variation (meiosis).",
+   "failure_type": "misconception",
+   "why_it_matters": "If mitosis and meiosis are interchangeable, students cannot explain why gametes are genetically unique while body cells are genetically identical, and the entire Mendelian inheritance model in N4 loses its physical basis.",
+   "response": "Build a comparison table: mitosis produces 2 identical cells with 46 chromosomes; meiosis produces 4 unique cells with 23 chromosomes. Ask students to match each process to its biological purpose — growth/repair vs gamete production.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Daughter cell",
+     "definition": "A cell produced by cell division — in mitosis, two genetically identical daughter cells; in meiosis, four genetically unique daughter cells."
+    },
+    {
+     "term": "Asexual reproduction",
+     "definition": "Reproduction involving a single parent, producing offspring genetically identical to the parent via mitosis. Contrasts with sexual reproduction, which involves meiosis and fertilisation."
+    }
+   ]
+  },
+  {
+   "term": "Meiosis",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Cell division that produces four genetically unique daughter cells (gametes), each with half the chromosome number of the parent cell. Meiosis separates homologous chromosome pairs so each gamete receives one chromosome from each pair. Random assortment of chromosome pairs and crossing over during meiosis generate the genetic variation that makes each gamete unique.",
+   "failure_mode": "Students cannot explain why gametes carry one allele of each gene pair — they learn meiosis as 'halving' without understanding that homologous pairs separate, so each gamete gets one chromosome (and therefore one allele) from each pair.",
+   "failure_type": "misconception",
+   "why_it_matters": "The logic of meiosis — homologous pairs separating so each gamete gets one from each pair — is what makes Punnett squares work. Students who learn Punnett squares without this foundation produce correct ratios by rote without understanding why the probabilities hold, and cannot extend to sex-linked inheritance where the X and Y chromosomes are the relevant pair being separated.",
+   "response": "Use chromosome pair diagrams showing alleles on each chromosome. Walk through meiosis with one pair: parent has Aa on homologous chromosomes; meiosis separates them; one gamete gets A, the other gets a. Then connect directly to Punnett square: the gamete row/column IS the meiosis output.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Homologous pair",
+     "definition": "A pair of chromosomes — one inherited from each parent — that carry genes for the same characteristics at the same positions. Homologous pairs are separated during meiosis.",
+     "failure_mode": "Students confuse homologous chromosomes with identical chromosomes — they think the two chromosomes in a pair carry the same alleles rather than potentially different alleles of the same genes.",
+     "failure_type": "misconception",
+     "response": "Show a homologous pair where one chromosome carries allele A and the other carries allele a at the same gene position. Ask whether the chromosomes are identical (no — they carry different alleles) or homologous (yes — same genes, potentially different versions).",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Crossing over",
+     "definition": "The exchange of DNA segments between homologous chromosomes during meiosis, producing new allele combinations on each chromosome and increasing genetic variation in gametes.",
+     "failure_mode": "Students can describe crossing over mechanically (chromosomes swap segments) but cannot explain why it increases genetic variation — they miss that it creates new allele combinations on each chromosome that did not exist in either parent.",
+     "failure_type": "fragmentation",
+     "response": "Draw two homologous chromosomes with different allele combinations (AB and ab). After crossing over: Ab and aB. Ask: did these combinations exist before? (No.) How many possible gamete types increased? The new-combination count makes the variation mechanism concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Random assortment",
+     "definition": "The independent sorting of homologous chromosome pairs during meiosis — each pair separates independently, so the combination of maternal and paternal chromosomes in each gamete is random.",
+     "failure_mode": "Students think chromosomes line up in the same arrangement every time during meiosis — they miss that the random orientation of homologous pairs at metaphase I means each gamete receives a different combination of maternal and paternal chromosomes.",
+     "failure_type": "misconception",
+     "response": "With just 3 chromosome pairs, show that random assortment produces 2³ = 8 possible gamete combinations. Ask: with 23 pairs (humans)? (2²³ = over 8 million.) The exponential scaling reveals why no two gametes are alike.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Non-disjunction",
+     "definition": "An error during meiosis where homologous chromosomes fail to separate properly, producing gametes with too many or too few chromosomes. Can result in chromosomal conditions such as Down syndrome.",
+     "failure_mode": "Students confuse non-disjunction with normal meiosis — they do not understand it is an error (failure of chromosomes to separate properly) that produces gametes with abnormal chromosome numbers, leading to conditions such as Down syndrome.",
+     "failure_type": "misconception",
+     "response": "Compare normal meiosis (each gamete gets one of each pair) with non-disjunction (one gamete gets both, the other gets none). Ask: is non-disjunction supposed to happen? (No — it's an error.) What is the consequence? (Abnormal chromosome number in offspring.)",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Gamete",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A reproductive cell (sperm or egg) produced by meiosis, containing half the chromosome number of the parent cell. Each gamete carries one allele for each gene. At fertilisation, two gametes combine to restore the full chromosome number in the offspring.",
+   "failure_mode": "Students think gametes are just 'small cells' rather than cells with a specific genetic role — they miss that gametes carry half the chromosomes and that this is why offspring get genetic information from both parents.",
+   "failure_type": "misconception",
+   "why_it_matters": "If gametes are not understood as half-chromosome cells, students cannot explain why fertilisation restores the full number, why offspring are not clones of either parent, or why the Punnett square has two axes (one per parent's gametes).",
+   "response": "Draw the chromosome count pathway: parent cell (46) → meiosis → gametes (23) → fertilisation → offspring (46). Ask students to fill in the numbers at each stage — the halving and restoration make the gamete's role concrete.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Fertilisation",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The fusion of two gametes (sperm and egg) to form a new cell (zygote) with the full chromosome number restored. Fertilisation combines genetic information from both parents, and the random combination of gametes at fertilisation is a source of genetic variation among offspring.",
+   "failure_mode": "Students think fertilisation simply triggers development rather than being the event that combines genetic information from two parents — they miss the genetic consequence of gamete fusion.",
+   "failure_type": "misconception",
+   "why_it_matters": "If fertilisation is just a 'start signal,' students cannot explain why offspring have characteristics from both parents, why siblings differ genetically, or why the Punnett square predicts probabilities (each square represents one possible fertilisation event).",
+   "response": "Show two gametes with their allele content fusing. Ask: what alleles does the offspring have? Where did each come from? The allele-tracing makes fertilisation's genetic role explicit.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Allele",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A version of a gene. For any gene, an organism inherits one allele from each parent (carried on homologous chromosomes). Alleles may be dominant (expressed when one or two copies are present) or recessive (expressed only when two copies are present). Allele combinations determine genotype; dominant/recessive rules determine which phenotype is expressed.",
+   "failure_mode": "Students think dominant means 'stronger' or 'more common' and recessive means 'weaker' or 'rare' — they apply everyday language to a technical relationship about expression, not strength or frequency.",
+   "failure_type": "misconception",
+   "why_it_matters": "If dominant means stronger, students predict that dominant alleles should increase in frequency over time (they don't inherently), misinterpret carrier status, and cannot explain how recessive traits persist in populations — a direct prerequisite for natural selection in AC9S10U02.",
+   "response": "Present a recessive allele that is more common than the dominant (e.g. blue eyes in some populations, or blood type O). Ask whether the most common allele is dominant — the mismatch between frequency and dominance breaks the 'dominant = common' assumption.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Dominant allele",
+     "definition": "An allele that is expressed in the phenotype when one or two copies are present. Represented by a capital letter (e.g. A).",
+     "failure_mode": "Students think 'dominant' means 'more common in the population' or 'better/stronger' — they do not understand that dominant simply means 'expressed when heterozygous.' A dominant allele can be rare (e.g. achondroplasia) and a recessive allele can be common.",
+     "failure_type": "misconception",
+     "response": "Present achondroplasia: dominant allele, very rare in the population. Ask: is it common? (No.) Is it dominant? (Yes — one copy is enough to express it.) The rare-but-dominant example breaks the frequency assumption.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Recessive allele",
+     "definition": "An allele that is expressed in the phenotype only when two copies are present (homozygous recessive). Represented by a lowercase letter (e.g. a). Masked by a dominant allele in heterozygous individuals.",
+     "failure_mode": "Students think recessive alleles 'disappear' in heterozygous individuals rather than being present but unexpressed.",
+     "failure_type": "misconception",
+     "response": "Trace a Pp × Pp cross and show that the recessive allele reappears in 25% of offspring — it was present in both parents but masked. The reappearance proves it didn't disappear.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Carrier",
+     "definition": "An individual who is heterozygous for a recessive allele — they carry one copy of the recessive allele without expressing the recessive phenotype. Carriers can pass the recessive allele to offspring.",
+     "failure_mode": "Students think carriers are unaffected and therefore irrelevant to inheritance — they miss that carriers transmit the recessive allele to 50% of their gametes.",
+     "failure_type": "flawed_reasoning",
+     "response": "Show a Pp carrier's gamete production via meiosis: half the gametes carry P, half carry p. Then cross two carriers and show the 25% chance of pp offspring — carriers matter because they transmit the hidden allele.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Punnett square",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A grid used to predict the genotype and phenotype ratios of offspring from a genetic cross. Each axis represents the gametes of one parent; each cell represents a possible offspring genotype. The Punnett square works because meiosis separates allele pairs into gametes and fertilisation randomly combines them.",
+   "failure_mode": "Students construct Punnett squares by rote — filling in letters mechanically — without connecting the gamete row and column to meiosis output. When notation changes (e.g. sex-linked, co-dominance), the rote procedure fails because students have no underlying model to adapt.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Rote Punnett square construction produces correct ratios for simple crosses but breaks at sex-linked inheritance (N6) where the notation changes. Students who understand the meiosis-to-gamete logic can adapt; those who memorised the procedure cannot.",
+   "response": "Before every Punnett square, require students to state: (1) the parental genotypes, (2) the gametes each parent can produce via meiosis, (3) why those are the only gamete options. The three-step setup forces the meiosis connection before the grid is drawn.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Monohybrid cross",
+     "definition": "A genetic cross that tracks the inheritance of a single gene with two alleles. The simplest Punnett square application, producing ratios like 3:1 (Pp × Pp) or 1:1 (Pp × pp)."
+    }
+   ]
+  },
+  {
+   "term": "Pedigree diagram",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A diagram that traces the inheritance of a trait through multiple generations of a family, using standardised symbols for male, female, affected and unaffected individuals. Pedigree diagrams allow genotypes to be inferred from observed phenotypes across generations, and are the primary tool for identifying inheritance patterns (dominant, recessive, sex-linked) and carrier status.",
+   "failure_mode": "Students can read individual symbols but cannot infer genotypes from the pattern — they treat each generation independently rather than tracing allele transmission across generations.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Pedigree interpretation is the application demand the elaborations name: 'using pedigree diagrams to show patterns of inheritance through multigenerational families.' Students who cannot trace alleles across generations cannot identify carriers, predict offspring risk, or distinguish dominant from recessive inheritance patterns.",
+   "response": "Start from an affected individual and work backward: what alleles must they have? What does that tell us about each parent? Force the reasoning from known phenotype to inferred genotype, generation by generation.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Sex chromosome",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "A chromosome that determines the biological sex of an organism. In humans, females have two X chromosomes (XX) and males have one X and one Y (XY). Sex chromosomes are a homologous pair separated during meiosis — each gamete receives either an X or a Y. Genes located on the X chromosome that have no corresponding copy on the Y follow sex-linked inheritance patterns.",
+   "failure_mode": "Students think sex chromosomes only determine sex and carry no other genes — they miss that the X chromosome carries many genes unrelated to sex, which is why sex-linked conditions (colour blindness, haemophilia) exist.",
+   "failure_type": "misconception",
+   "why_it_matters": "If sex chromosomes carry only sex-determination genes, the entire concept of sex-linked inheritance is inexplicable. Students need to understand that the X chromosome carries many genes, and that males have only one copy of those genes, to explain why X-linked recessive conditions affect males more frequently.",
+   "response": "Show that the X chromosome is much larger than the Y and carries ~800 genes, most unrelated to sex. Ask: if a male has a recessive allele on his single X chromosome, can a dominant allele on the Y mask it? (No — the Y doesn't carry those genes.) This explains the male vulnerability.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "X chromosome",
+     "definition": "The larger sex chromosome, carrying hundreds of genes. Females have two copies; males have one."
+    },
+    {
+     "term": "Y chromosome",
+     "definition": "The smaller sex chromosome, carrying few genes beyond sex determination. Present in males (XY) but not females (XX)."
+    },
+    {
+     "term": "Sex determination",
+     "definition": "The process by which an organism's biological sex is established — in humans, determined by the combination of sex chromosomes inherited from each parent (XX = female, XY = male)."
+    }
+   ]
+  },
+  {
+   "term": "Sex-linked trait",
+   "descriptor_code": "AC9S10U01",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "A trait controlled by a gene located on a sex chromosome — in practice, almost always the X chromosome. Because males have only one X chromosome, they express X-linked recessive alleles whenever present, while females require two copies for expression. This asymmetry means X-linked recessive conditions (e.g. colour blindness, haemophilia) are more common in males.",
+   "failure_mode": "Students apply autosomal Punnett square notation to sex-linked crosses — they write alleles without attaching them to X chromosomes, losing the asymmetry between males (one allele) and females (two alleles) that produces the distinctive sex-linked ratios.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Sex-linked inheritance requires adapting the Punnett square notation from N4 — alleles must be written on X chromosomes (X^A, X^a) and the Y carries no allele for the trait. Students who cannot make this notation shift produce incorrect ratios and cannot explain why males and females have different probabilities of being affected.",
+   "response": "Require X-linked notation explicitly: write X^A or X^a, never just A or a. Build the Punnett square with X^AX^a × X^aY and ask students to identify which offspring are affected and why — the notation makes the asymmetry visible.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "X-linked",
+     "definition": "Describes a gene or trait located on the X chromosome. X-linked recessive conditions are expressed in all males who carry the allele (because they have no second X to mask it) but only in females who are homozygous recessive.",
+     "failure_mode": "Students cannot explain why X-linked recessive conditions (colour blindness, haemophilia) affect males far more frequently than females — they miss that males have only one X chromosome, so a single recessive allele on it is always expressed.",
+     "failure_type": "fragmentation",
+     "response": "Compare: a female needs two copies of the recessive allele (one on each X) to express it; a male needs only one (his single X). Ask: which is more likely? The probability comparison explains the sex difference in expression rates.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Chromosome",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A long, coiled-up structure made of DNA, found inside the nucleus of your cells. Humans have 46 chromosomes (23 pairs) — you got one set of 23 from each parent.",
+   "example": "Think of a chromosome as a tightly wound-up instruction book — the book is made of DNA, and each chapter is a different gene."
+  },
+  {
+   "term": "DNA",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "The molecule that stores all your genetic instructions. DNA is what chromosomes are made of, and specific sections of DNA are genes.",
+   "example": "If a chromosome is a book, DNA is the paper and ink the book is printed on — it's the material that carries the information."
+  },
+  {
+   "term": "Gene",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A section of DNA that contains the instructions for making a specific protein. Proteins determine your characteristics — so genes are the reason you inherit traits from your parents.",
+   "example": "A gene for eye colour tells your cells to make a specific pigment protein — the type of protein determines whether your eyes are brown, blue or green.",
+   "sub_terms": [
+    {
+     "term": "Protein",
+     "definition": "A molecule that your body builds by following the instructions in a gene. Proteins do the actual work — they build structures, speed up reactions, and create the characteristics that genes code for."
+    }
+   ]
+  },
+  {
+   "term": "Genotype",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "The combination of alleles you carry for a particular gene, written in letter notation like Pp or pp. Genotype is your genetic recipe — it's different from the actual trait you show.",
+   "example": "Two people can both have brown eyes (same phenotype) but one might be PP and the other Pp (different genotypes) — you can't tell which is which just by looking."
+  },
+  {
+   "term": "Phenotype",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "The actual observable characteristic you express — what you can see or measure. Your phenotype is determined by your genotype, but can also be influenced by your environment.",
+   "example": "Brown eyes, blood type A, or being able to roll your tongue are all phenotypes — they're the visible result of the alleles you carry."
+  },
+  {
+   "term": "Mutation",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "wider",
+   "definition": "A change in the DNA sequence of a gene. Mutations can happen naturally during cell division or be caused by things like radiation or chemicals. Most mutations have no noticeable effect, but some can change the protein a gene makes.",
+   "example": "Sickle cell anaemia is caused by a single change in one gene — the altered gene makes a slightly different protein, which changes the shape of red blood cells."
+  },
+  {
+   "term": "Mitosis",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A type of cell division that produces two cells that are genetically identical to the original. Your body uses mitosis to grow and repair damaged tissue — every new cell gets an exact copy of all 46 chromosomes.",
+   "example": "When you cut yourself, your body heals by using mitosis to make new skin cells that are identical copies of the ones around the wound.",
+   "sub_terms": [
+    {
+     "term": "Daughter cell",
+     "definition": "A new cell produced by cell division — in mitosis you get two identical ones; in meiosis you get four unique ones."
+    },
+    {
+     "term": "Asexual reproduction",
+     "definition": "Reproduction using only one parent, where offspring are genetic clones made through mitosis — like bacteria splitting in two.",
+     "example": "A strawberry plant sending out runners produces new plants that are genetically identical to the parent — no mixing of genes from two parents."
+    }
+   ]
+  },
+  {
+   "term": "Meiosis",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A special type of cell division that makes sex cells (gametes) with half the normal chromosome number. Each gamete gets one chromosome from every pair, so it ends up with 23 instead of 46. This is why you get a mix of genes from both parents, not a clone of either one.",
+   "example": "Your mum's egg cell has 23 chromosomes and your dad's sperm has 23 — when they combine at fertilisation, you get the full 46.",
+   "sub_terms": [
+    {
+     "term": "Homologous pair",
+     "definition": "A matching pair of chromosomes — one from your mum, one from your dad — that carry genes for the same traits but might carry different versions (alleles).",
+     "example": "You have two copies of chromosome 9 — one from each parent — and both carry a gene for blood type, but one might say 'type A' and the other 'type O'."
+    },
+    {
+     "term": "Crossing over",
+     "definition": "When homologous chromosomes swap sections of DNA during meiosis, creating new combinations of alleles on each chromosome."
+    },
+    {
+     "term": "Random assortment",
+     "definition": "During meiosis, each chromosome pair sorts independently — whether you pass on your mum's or dad's version of chromosome 1 has no effect on which version of chromosome 2 you pass on."
+    },
+    {
+     "term": "Non-disjunction",
+     "definition": "A mistake during meiosis where a chromosome pair doesn't separate properly, so a gamete ends up with too many or too few chromosomes.",
+     "example": "Down syndrome happens when a gamete ends up with two copies of chromosome 21 instead of one, giving the person three copies total."
+    }
+   ]
+  },
+  {
+   "term": "Gamete",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A sex cell — sperm in males, egg in females — made by meiosis with half the normal number of chromosomes (23 in humans). When two gametes join at fertilisation, the full number (46) is restored.",
+   "example": "Each sperm cell carries 23 chromosomes with a unique combination of your dad's alleles — that's why siblings from the same parents look different."
+  },
+  {
+   "term": "Fertilisation",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "When a sperm cell and an egg cell join together to make a new cell with the full set of chromosomes. This is the moment genetic information from both parents combines in the offspring.",
+   "example": "At fertilisation, the 23 chromosomes from the sperm combine with 23 from the egg to give the new cell 46 chromosomes — a unique mix from both parents."
+  },
+  {
+   "term": "Allele",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A version of a gene. You inherit one allele from each parent, so you always have two alleles for each gene. Some alleles are dominant (you only need one copy to show the trait) and some are recessive (you need two copies).",
+   "example": "The gene for earlobe shape has two alleles — one for free earlobes (dominant) and one for attached earlobes (recessive). If you have one of each, you'll have free earlobes because the dominant one 'wins.'",
+   "sub_terms": [
+    {
+     "term": "Dominant allele",
+     "definition": "The version of a gene that shows up in your appearance even if you only have one copy — written as a capital letter (like B)."
+    },
+    {
+     "term": "Recessive allele",
+     "definition": "The version of a gene that only shows up in your appearance when you have two copies — written as a lowercase letter (like b). One dominant allele is enough to hide it.",
+     "example": "If you carry Bb, you show the dominant trait — the recessive allele is still there in your DNA, it's just not being expressed."
+    },
+    {
+     "term": "Carrier",
+     "definition": "A person who has one copy of a recessive allele without showing the recessive trait. They look unaffected but can pass the allele to their children.",
+     "example": "Both your parents might have no symptoms of cystic fibrosis (they're both Ff carriers), but there's a 1 in 4 chance their child inherits ff and is affected."
+    }
+   ]
+  },
+  {
+   "term": "Punnett square",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A grid that helps you predict the possible genotypes and phenotypes of offspring from a genetic cross. One parent's possible gametes go across the top and the other's go down the side — each box shows one possible combination.",
+   "example": "If both parents are Bb, the Punnett square shows four possible outcomes: BB, Bb, Bb, bb — so there's a 3 in 4 chance of the dominant phenotype and 1 in 4 chance of the recessive.",
+   "sub_terms": [
+    {
+     "term": "Monohybrid cross",
+     "definition": "A genetic cross that tracks just one gene — the simplest type of Punnett square with a 2×2 grid."
+    }
+   ]
+  },
+  {
+   "term": "Pedigree diagram",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A family tree that shows who in a family has a particular trait and who doesn't. Circles represent females, squares represent males, and filled-in shapes mean the person shows the trait. You can use it to figure out people's likely genotypes.",
+   "example": "If two unaffected parents have an affected child, the pedigree tells you the trait must be recessive and both parents must be carriers (Aa)."
+  },
+  {
+   "term": "Sex chromosome",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "The pair of chromosomes that determines whether you're biologically male or female. Females have two X chromosomes (XX), males have one X and one Y (XY). The X chromosome also carries genes for traits that have nothing to do with sex.",
+   "example": "You always get an X from your mum (she's XX), but from your dad you get either an X (making you XX/female) or a Y (making you XY/male).",
+   "sub_terms": [
+    {
+     "term": "X chromosome",
+     "definition": "The larger sex chromosome that carries hundreds of genes — females have two, males have one."
+    },
+    {
+     "term": "Y chromosome",
+     "definition": "The smaller sex chromosome with very few genes beyond those that trigger male development. Only males have one."
+    },
+    {
+     "term": "Sex determination",
+     "definition": "How your biological sex is decided — it depends on which sex chromosomes you inherit (XX = female, XY = male)."
+    }
+   ]
+  },
+  {
+   "term": "Sex-linked trait",
+   "descriptor_code": "AC9S10U01",
+   "width_tier": "minimum",
+   "definition": "A trait controlled by a gene on the X chromosome. Because males only have one X, they'll show the trait if they inherit even one copy of a recessive allele — they don't have a second X to mask it. That's why conditions like colour blindness are much more common in males.",
+   "example": "A mother who carries one colour-blindness allele (X^AX^a) sees colours normally, but if she passes the X^a to a son, he'll be colour-blind because his Y chromosome has no matching gene to override it.",
+   "sub_terms": [
+    {
+     "term": "X-linked",
+     "definition": "A gene located on the X chromosome — males need only one recessive allele to be affected, while females need two."
+    }
+   ]
+  }
+ ]
+}

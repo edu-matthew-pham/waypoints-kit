@@ -1,0 +1,96 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I08",
+ "teacher_glossary": [
+  {
+   "term": "Text type",
+   "descriptor_code": "AC9S7I08",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A category of communication product chosen to suit a specific purpose and audience — such as a scientific report, a news article, a letter to the editor, a poster, a social media post or a presentation. Text type selection is a design decision: different text types serve different purposes (informing, persuading, explaining) and suit different audiences (experts, public, decision-makers). At Year 7, students must select text types deliberately rather than defaulting to one format for all communication tasks.",
+   "failure_mode": "Students assume all scientific communication uses the same format — they default to a lab-report structure for every task regardless of whether the purpose is informing peers, persuading a community audience, or explaining a concept to younger students.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If students have only one communication format, they cannot adapt to different purposes and audiences — the core skill this standard develops. A lab report written for a community audience about a local environmental issue fails its communication purpose even if the science is correct.",
+   "response": "Present the same scientific content and ask students to communicate it in two different text types for two different audiences. Compare the products and explicitly identify what changed between them and why — the contrast makes the text type selection visible as a deliberate choice.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Purpose",
+     "definition": "The reason for communicating — what the text is trying to achieve. Common purposes in science communication include informing (sharing findings), explaining (helping someone understand), persuading (arguing a case) and documenting (recording methods and results for reproduction)."
+    },
+    {
+     "term": "Text features",
+     "definition": "The language choices, diagrams, graphical representations, data displays and formatting elements used within a text type. Text features are selected to serve the communication purpose — diagrams explain spatial relationships, graphs show data patterns, technical language ensures precision for expert audiences.",
+     "failure_mode": "Students include diagrams and data as decoration — appended to the text but never referenced or integrated into the written argument. The text features are present but disconnected from the communication purpose.",
+     "failure_type": "fragmentation",
+     "response": "Require every diagram or data display to be explicitly referenced in the text: 'As shown in Figure 1...' or 'The data in Table 2 demonstrates...' If a text feature is not referenced, ask whether it's needed — the reference requirement forces integration.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Scientific report",
+     "definition": "A structured text type used to document an investigation — typically including sections for aim, hypothesis, method, results, discussion and conclusion. The scientific report is designed for reproducibility and peer evaluation, making it appropriate for expert audiences but not for general public communication."
+    },
+    {
+     "term": "Scientific language",
+     "definition": "Precise, technical vocabulary used in science communication to convey meaning accurately. Scientific language ensures that terms have consistent definitions — using 'mass' rather than 'weight,' 'cell membrane' rather than 'cell skin' — which is essential for expert communication but may need adapting for non-expert audiences.",
+     "failure_mode": "Students either avoid scientific terms entirely (writing in everyday language that loses precision) or use them as decoration without understanding their precise meaning — inserting technical words for effect rather than accuracy.",
+     "failure_type": "fragile_skill",
+     "response": "After students use a scientific term, ask them to explain what it means in their own words. If they can't, they're decorating rather than communicating. Build a habit: use the term, then check understanding.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Diagram",
+     "definition": "A visual representation that explains the structure, process or relationships within a system — such as a labelled cross-section, a flow diagram or a life cycle diagram. In science communication, diagrams serve an explanatory function and should be referenced in the accompanying text, not included as decoration."
+    },
+    {
+     "term": "Graphical representation",
+     "definition": "Any visual format used to display data or information in a science communication — including graphs, charts, maps, infographics and data visualisations. Graphical representations make patterns visible and support written arguments when integrated into the text."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Text type",
+   "descriptor_code": "AC9S7I08",
+   "width_tier": "minimum",
+   "definition": "The kind of text you choose to communicate your science — like a report, a poster, a news article, a letter or a presentation. Different tasks need different text types because each one is designed for a different purpose and audience.",
+   "example": "If you're recording your investigation for your teacher, a scientific report works well. But if you're trying to convince your local council to protect a habitat, a letter to the editor or a poster would communicate better to that audience.",
+   "sub_terms": [
+    {
+     "term": "Purpose",
+     "definition": "Why you're communicating — are you trying to inform, explain, persuade or document? Your purpose helps you choose the right text type and features.",
+     "example": "Writing up a lab for your teacher (purpose: document) needs a different approach than making a poster about water conservation for the school corridor (purpose: persuade)."
+    },
+    {
+     "term": "Text features",
+     "definition": "The tools you use inside your text — like diagrams, graphs, data tables and specific language choices. These should connect to your writing, not just sit alongside it.",
+     "example": "If you include a graph in your report, don't just put it at the end — reference it in your writing: 'As shown in Figure 1, the temperature increased steadily over the first hour.'"
+    },
+    {
+     "term": "Scientific report",
+     "definition": "A structured write-up of an investigation with sections like aim, hypothesis, method, results, discussion and conclusion. It's designed so someone else can understand exactly what you did and check your work.",
+     "example": "A scientific report about your dissolving investigation would include your hypothesis, step-by-step method, data table, graph and a conclusion that connects back to your hypothesis."
+    },
+    {
+     "term": "Scientific language",
+     "definition": "Using the correct scientific words for things — like saying 'mass' instead of 'weight' or 'cell membrane' instead of 'cell skin.' Using precise language shows you understand the science, but you also need to know what the words mean, not just use them to sound smart.",
+     "example": "Writing 'the particles gained kinetic energy' is more precise than 'the stuff got hotter' — but only if you actually understand what kinetic energy means."
+    },
+    {
+     "term": "Diagram",
+     "definition": "A drawing that explains how something is structured or how a process works — like a labelled diagram of a cell or a flow diagram showing the water cycle. Always refer to your diagrams in your writing.",
+     "example": "Instead of just putting a diagram at the end of your report, write: 'As shown in Figure 1, the water enters through the roots and travels up the stem.'"
+    },
+    {
+     "term": "Graphical representation",
+     "definition": "Any visual way of showing data or information — graphs, charts, maps, infographics. Like diagrams, these should connect to your writing, not just sit alongside it.",
+     "example": "Including a bar chart comparing biodiversity in two habitats is a graphical representation — but it only helps your argument if you refer to it and explain what it shows."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,69 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P08",
+ "teacher_glossary": [
+  {
+   "term": "Alternative designs",
+   "descriptor_code": "AC9TDI8P08",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Multiple genuinely different design solutions for the same brief, generated before committing to a preferred option. Alternatives must differ in approach or structure, not just surface variation (e.g. colour changes). Generation strategies include brainstorming, sketching, concept mapping and AI-assisted prototyping.",
+   "failure_mode": "Students produce variants of the same idea (same structure, different colours) rather than genuinely different design approaches.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If all alternatives are surface variants, evaluation at Node 2 has nothing meaningful to compare — every option has the same strengths and weaknesses. Genuine alternatives are what make the evaluate-and-iterate cycle productive.",
+   "response": "After students generate alternatives, ask: how are these designs structurally different? If the answer is only visual (colour, font), require a third design that takes a fundamentally different approach to the problem.",
+   "response_type": "repertoire_building"
+  },
+  {
+   "term": "Design evaluation",
+   "descriptor_code": "AC9TDI8P08",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Systematically assessing a design against specific criteria and user stories — identifying strengths, weaknesses and trade-offs. Evaluation uses evidence from the design (what does it actually do?) not personal preference (do I like it?). Trade-offs arise when a design serves one user well but another poorly.",
+   "failure_mode": "Students evaluate by personal preference ('I like this one better') rather than against criteria and user stories.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Preference-based evaluation cannot be justified, communicated or reproduced. Criteria-based evaluation produces assessments that other designers and stakeholders can understand and build on.",
+   "response": "Remove the word 'like' from evaluation language. For every assessment, require: which criterion? Met, partially met, or unmet? What evidence from the design supports that judgement?",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Iterative modification",
+   "descriptor_code": "AC9TDI8P08",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Improving a design through repeated cycles of evaluation and modification — each round addresses specific weaknesses identified in the previous evaluation. Changes are documented with rationale: what changed, why, and how it improves the design against criteria. Iteration is purposeful refinement, not random changes.",
+   "failure_mode": "Students make changes without connecting them to evaluation feedback — modifications are random rather than targeted at identified weaknesses.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Random modification is not iteration — it's guessing. Without a feedback loop (evaluate → identify weakness → modify → re-evaluate), the design doesn't systematically improve. Students who modify randomly cannot explain why their final version is better.",
+   "response": "Before any modification, require students to write: what weakness am I addressing? After the modification: how does this change improve the design against that criterion?",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Alternative designs",
+   "descriptor_code": "AC9TDI8P08",
+   "width_tier": "minimum",
+   "definition": "Different approaches to solving the same design problem — not just changing colours, but genuinely different structures or ideas. Generating alternatives before picking one leads to better solutions.",
+   "example": "For a recipe app: one design uses a search-first approach, another uses a 'what's in your fridge?' approach. Same goal, different structures."
+  },
+  {
+   "term": "Design evaluation",
+   "descriptor_code": "AC9TDI8P08",
+   "width_tier": "minimum",
+   "definition": "Judging how well a design meets its criteria and user stories — not whether you personally like it, but whether it actually works for the users it's designed for.",
+   "example": "Instead of 'I like this design', say 'This design meets the accessibility criterion because the text is large enough to read on mobile.'"
+  },
+  {
+   "term": "Iterative modification",
+   "descriptor_code": "AC9TDI8P08",
+   "width_tier": "minimum",
+   "definition": "Improving a design by repeating a cycle: evaluate what works and what doesn't, make targeted changes, then evaluate again. Each change should fix a specific weakness, not be a random tweak.",
+   "example": "Round 1: peer feedback says navigation is confusing → move the menu to the top. Round 2: testing shows the menu works but search is hard to find → add a search icon."
+  }
+ ]
+}

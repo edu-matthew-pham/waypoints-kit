@@ -1,0 +1,313 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U01",
+ "teacher_glossary": [
+  {
+   "term": "Stimulus",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A detectable change in the internal or external environment that triggers a response from the body. External stimuli include light, sound, temperature and pressure; internal stimuli include blood glucose level, blood pressure and body temperature. Identifying the stimulus is the first step in tracing any response pathway.",
+   "failure_mode": "Students treat stimulus and response as a single undifferentiated event — 'the body just reacts' — without distinguishing the detected change from the body's coordinated response to it.",
+   "failure_type": "misconception",
+   "why_it_matters": "If stimulus and response are undifferentiated, students cannot place the receptor, command centre and effector as distinct steps in the pathway (N2), and cannot locate where deviation is detected in a feedback loop (N5).",
+   "response": "Present a stimulus scenario and ask: what changed? (stimulus) What detected the change? (receptor) What happened next? (response pathway). Separating detection from response makes the distinction operational.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Internal stimulus",
+     "definition": "A change inside the body that is detected by internal receptors — blood glucose level, blood pressure, core temperature, blood pH.",
+     "failure_mode": "Students default to external stimuli (touch, sound, light) and do not recognise internal changes — blood glucose level, core temperature, blood pH — as stimuli at all. They treat stimuli as events that happen TO the body from outside rather than changes the body detects within itself.",
+     "failure_type": "misconception",
+     "response": "Present a scenario with no external change: you skip lunch and feel shaky. Ask: what is the stimulus? (Blood glucose dropping — internal.) What detected it? (Chemoreceptors in the pancreas.) The no-external-event scenario forces recognition of internal stimuli.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "External stimulus",
+     "definition": "A change outside the body detected by sensory receptors — light, sound, temperature, touch, chemical signals."
+    }
+   ]
+  },
+  {
+   "term": "Receptor",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A specialised structure that detects a specific stimulus — the entry point of the receptor → command centre → effector pathway. Receptors are specific: thermoreceptors detect temperature, photoreceptors detect light, chemoreceptors detect chemical changes. Receptor specificity means each receptor detects only one type of stimulus.",
+   "failure_mode": "Students conflate the stimulus with the receptor — they treat the response as starting from the stimulus itself rather than requiring a specific detection structure. They say 'the body detects heat' without identifying which receptor does the detecting.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the receptor is not held distinct from the stimulus, students cannot place it correctly in the pathway or locate where deviation is detected in a feedback loop. The receptor is the component that makes detection possible — without it, the loop has no input.",
+   "response": "Require students to name the specific receptor for a given stimulus as a distinct component before tracing any response pathway. Ask: what structure detects this change? The naming forces the distinction.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Command centre",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The part of the body that receives information from receptors, processes it, and sends instructions to effectors — typically the brain, spinal cord (nervous system) or a gland (endocrine system). The command centre is the decision-making component of the response pathway — it determines what response is appropriate and initiates it.",
+   "failure_mode": "Students skip the command centre and treat stimulus-response as a direct receptor-to-effector connection — they do not recognise that information must be processed and a response selected before the effector acts.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the command centre is skipped, the pathway model collapses to a reflex arc with no processing step. Students cannot distinguish where nervous vs endocrine signalling differs (N3), cannot explain why the same stimulus can produce different responses in different contexts, and cannot locate the processing failure in feedback disorders (N7).",
+   "response": "Present a stimulus that could produce two different responses depending on context (e.g. hand touching hot vs warm surface). Ask: what decides which response? The decision-point reveals the command centre's role — without it, every stimulus would produce the same response regardless of context.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Effector",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A muscle or gland that carries out the response directed by the command centre. Muscles produce movement responses; glands produce chemical (hormonal) responses. The effector is the output component of the pathway — it produces the observable change that addresses the stimulus.",
+   "failure_mode": "Students confuse effectors with receptors — they think the structure that responds is the same as the structure that detects, particularly in cases where the effector is near the stimulus location (e.g. sweating in response to heat detected in the skin).",
+   "failure_type": "misconception",
+   "why_it_matters": "If effector and receptor are conflated, students cannot trace complete pathways, cannot identify which component fails in a disorder, and cannot explain why damage to effectors produces different consequences from damage to receptors.",
+   "response": "For a named response pathway, ask students to label receptor, command centre and effector separately. Then ask: if the effector is damaged but the receptor works, can the body detect the stimulus? (Yes.) Can it respond? (No.) The asymmetry reveals they are different components.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Nervous system",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The body system that coordinates rapid, short-duration responses using electrical signals transmitted along nerves. The nervous system implements the receptor → command centre → effector pathway via sensory neurons (receptor to brain), the brain or spinal cord (command centre), and motor neurons (command centre to effector). Nervous responses are fast (milliseconds), specific to a target, and short-lived.",
+   "failure_mode": "Students treat the nervous and endocrine systems as entirely separate rather than as two implementations of the same pathway model — they learn each system's features in isolation without recognising the shared receptor → command centre → effector architecture.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor requires students to 'compare the role of body systems.' Comparison requires a common framework — the pathway model — applied to both systems. Students who learn each system separately cannot compare them systematically on signal type, speed, duration and specificity.",
+   "response": "Map the nervous system pathway onto the receptor → command centre → effector template explicitly. Then map the endocrine system onto the same template. The parallel mapping makes comparison structural rather than a list of unconnected facts.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Electrical signal",
+     "definition": "The signal type used by the nervous system — rapid impulses transmitted along nerve cells. Electrical signals are fast (milliseconds), travel along specific neural pathways, and produce short-duration responses."
+    }
+   ]
+  },
+  {
+   "term": "Endocrine system",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The body system that coordinates slower, longer-duration responses using chemical signals (hormones) released into the bloodstream. Glands act as command centres, releasing hormones that travel via blood to target organs (effectors). Endocrine responses are slower (seconds to hours), widespread (hormones reach all tissues via blood), and sustained.",
+   "failure_mode": "Students think the endocrine system is less important because it is slower — they do not recognise that sustained, widespread responses (growth, metabolism, blood glucose regulation) require the endocrine system's characteristics.",
+   "failure_type": "misconception",
+   "why_it_matters": "If slower means less important, students cannot explain why blood glucose regulation uses hormones (sustained response needed), cannot predict which system coordinates a given stimulus, and produce an unbalanced comparison that privileges speed over other dimensions.",
+   "response": "Present a stimulus requiring a sustained response (e.g. blood glucose regulation over hours). Ask: would a fast, short electrical signal be effective here? (No — the response needs to last hours.) The mismatch reveals why the endocrine system's characteristics are adaptive, not inferior.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Hormone",
+     "definition": "A chemical messenger produced by a gland and released into the bloodstream, travelling to target organs where it produces a specific effect. Hormones are the signal type of the endocrine system — slower than electrical signals but longer-lasting and more widespread.",
+     "failure_mode": "Students think hormones act locally at the gland that produces them — they do not understand that hormones travel through the bloodstream to distant target organs. This means they cannot trace endocrine pathways or explain why a gland in the brain can affect organs throughout the body.",
+     "failure_type": "misconception",
+     "response": "Trace insulin's journey: produced in the pancreas, released into the bloodstream, travels to liver and muscle cells throughout the body. Ask: does insulin only affect the pancreas? (No — it affects distant organs.) The journey makes bloodstream transport concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Gland",
+     "definition": "An organ that produces and releases hormones into the bloodstream — the endocrine system's command centre. Examples include the pituitary gland, thyroid, pancreas and adrenal glands."
+    },
+    {
+     "term": "Target organ",
+     "definition": "The organ or tissue that responds to a specific hormone — the endocrine system's effector. Only cells with the correct receptor for a given hormone will respond to it.",
+     "failure_mode": "Students think hormones affect all organs equally once released into the bloodstream — they miss that only cells with the specific receptor for that hormone will respond, making hormone action targeted despite travelling everywhere.",
+     "failure_type": "misconception",
+     "response": "Ask: insulin travels in the blood past your brain, lungs, skin and muscles. Do all of those respond to insulin? (No — mainly liver and muscle cells, because they have insulin receptors.) The selective-response question reveals receptor specificity.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Homeostasis",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 5,
+   "width_tier": "typical",
+   "definition": "The maintenance of a stable internal environment within narrow limits, despite changes in the external environment. Homeostasis is essential for cell function — enzymes, membrane transport and chemical reactions all require conditions within specific ranges. Negative feedback is the primary mechanism by which homeostasis is achieved.",
+   "failure_mode": "Students define homeostasis as 'keeping things the same' rather than 'maintaining conditions within a functional range despite external change' — they miss the dynamic, active regulation and think the body simply stays constant passively.",
+   "failure_type": "misconception",
+   "why_it_matters": "If homeostasis is passive constancy, students cannot understand why negative feedback is necessary (active correction is needed because conditions are constantly being pushed off-set-point), and cannot explain why feedback failure in disorders (N7) produces progressive deterioration rather than a one-off change.",
+   "response": "Present a scenario where external conditions change (exercise raises body temperature). Ask: does body temperature stay exactly the same? (No — it rises slightly.) Does the body respond? (Yes — sweating, vasodilation.) The response to a disturbance makes homeostasis an active process, not passive constancy.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Negative feedback",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "A regulatory mechanism in which a deviation from a set point triggers a corrective response that returns the variable toward the set point. The mechanism has four components: set point (the target value), deviation (change detected by receptor), corrective response (action by effector), and return detection (receptor detects that the variable is returning to set point and reduces the response). It is called 'negative' because the response opposes the deviation — not because the feedback is harmful.",
+   "failure_mode": "Students interpret 'negative' as meaning 'bad' — they think negative feedback is a harmful process rather than understanding that 'negative' means the response opposes (negates) the direction of change.",
+   "failure_type": "misconception",
+   "why_it_matters": "If negative feedback is 'bad,' students look for positive feedback as the 'good' regulatory mechanism and cannot explain why homeostasis depends on opposing deviations. The misunderstanding also prevents students from distinguishing negative from positive feedback based on whether the response opposes or amplifies the change.",
+   "response": "Emphasise the directional meaning: deviation goes UP → response pushes DOWN (opposes). Deviation goes DOWN → response pushes UP (opposes). The response is always in the opposite direction to the deviation — that's what 'negative' means. Compare with positive feedback where the response amplifies the deviation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Set point",
+     "definition": "The target value a negative feedback system maintains — the normal operating level for the regulated variable (e.g. 37°C for body temperature, 5 mmol/L for blood glucose).",
+     "failure_mode": "Students confuse the set point with the corrective response — they identify 'sweating' as the set point for temperature regulation rather than '37°C.' This conflation means they cannot trace the loop's logic: the set point is the target the system aims for, the corrective response is the action taken to return to it.",
+     "failure_type": "misconception",
+     "response": "Ask: what is the body TRYING to maintain? (37°C — that's the set point.) What does the body DO to get back to it? (Sweating — that's the corrective response.) The set point doesn't change; the response does.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Deviation",
+     "definition": "A change in the regulated variable away from the set point, detected by a receptor. Deviation is what triggers the corrective response — without deviation, the feedback system is inactive."
+    },
+    {
+     "term": "Corrective response",
+     "definition": "The action taken by the effector to return the variable toward the set point — e.g. sweating to reduce body temperature, insulin release to lower blood glucose. The response opposes the direction of the deviation."
+    },
+    {
+     "term": "Return detection",
+     "definition": "The receptor's ongoing monitoring that detects when the variable returns to or approaches the set point, triggering a reduction in the corrective response. This prevents overcorrection and completes the loop.",
+     "failure_mode": "Students omit return detection from feedback loops entirely — they draw a three-step loop (detect deviation → send signal → correct) without the step where the receptor checks whether the correction worked and scales back the response. This produces loops that overcorrect indefinitely.",
+     "failure_type": "fragile_skill",
+     "response": "Ask: if you start sweating when you're hot, when do you stop? What detects that you've cooled enough? The receptor re-checks the variable and reduces the corrective response — without this fourth step, you'd sweat until hypothermic.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Positive feedback",
+     "definition": "A regulatory mechanism in which the response amplifies the initial change rather than opposing it — pushing the variable further from the starting point. Used in specific biological contexts (childbirth contractions, blood clotting) where rapid escalation toward completion is needed. Contrasts with negative feedback.",
+     "failure_mode": "Students interpret 'positive' as 'good' and 'negative' as 'bad' — they think positive feedback is the normal, healthy mechanism and negative feedback is a harmful one, reversing the actual relationship (negative feedback maintains homeostasis; positive feedback is rare and context-specific).",
+     "failure_type": "misconception",
+     "response": "Ask: in childbirth, contractions get stronger and stronger — is that 'good' or 'bad'? (Neither — it's amplification toward a specific endpoint.) Then: temperature regulation opposes deviation — is that 'good' or 'bad'? (Neither — it's opposition to maintain stability.) Positive = amplifying; negative = opposing. The words describe direction, not value.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Feedback system disorder",
+   "descriptor_code": "AC9S9U01",
+   "first_waypoint": 7,
+   "width_tier": "minimum",
+   "definition": "A condition in which one or more components of a negative feedback loop fails, disrupting homeostasis. The specific component that fails determines the nature of the disorder: receptor failure means deviation is not detected, command centre failure means no corrective signal is sent, and effector failure means the corrective response cannot be carried out. Type 1 diabetes (effector — pancreatic cells destroyed, no insulin production) and hypothyroidism (gland — insufficient thyroid hormone production) are canonical examples.",
+   "failure_mode": "Students describe disorders as 'the body not working' without locating the failure within the loop architecture — they cannot identify which specific component has failed or explain why the failure produces the particular symptoms observed.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor requires students to 'describe the operation of a negative feedback mechanism' — understanding how failure at different loop components produces different consequences is the analytical application of the model. Students who cannot locate the failure cannot explain why treatments target specific components (e.g. insulin replacement targets the effector gap in type 1 diabetes).",
+   "response": "For a named disorder, ask: which component of the feedback loop has failed — receptor, command centre, effector, or return detection? Then ask: what is the consequence of that specific component failing? The component-identification exercise applies the four-part model diagnostically.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Stimulus",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "A change in your environment — either inside or outside your body — that your body detects and responds to.",
+   "example": "Touching a hot pan is an external stimulus; a drop in blood sugar after skipping lunch is an internal stimulus.",
+   "sub_terms": [
+    {
+     "term": "Internal stimulus",
+     "definition": "A change happening inside your body — like blood sugar dropping or body temperature rising."
+    },
+    {
+     "term": "External stimulus",
+     "definition": "A change happening outside your body — like a loud noise, bright light, or hot surface."
+    }
+   ]
+  },
+  {
+   "term": "Receptor",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "A specialised structure in your body that detects a specific type of change. Each receptor only detects one kind of stimulus — thermoreceptors detect temperature, photoreceptors detect light.",
+   "example": "When you step outside on a cold day, thermoreceptors in your skin detect the temperature drop — that's the first step in your body's response."
+  },
+  {
+   "term": "Command centre",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "The part of the body that receives information from receptors, decides what to do, and sends instructions to the part that carries out the response. Usually the brain or spinal cord (nervous system) or a gland (endocrine system).",
+   "example": "When your skin receptors detect cold, they send a signal to your brain (command centre), which then sends instructions to your muscles to shiver."
+  },
+  {
+   "term": "Effector",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "A muscle or gland that carries out the response your command centre has directed — it's the part that actually does something about the stimulus.",
+   "example": "When you're cold, your muscles (effectors) shiver to generate heat; when you're hot, your sweat glands (effectors) produce sweat to cool you down."
+  },
+  {
+   "term": "Nervous system",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "The body system that sends fast, short electrical signals along nerves to coordinate quick responses. It uses the same receptor → command centre → effector pathway as the endocrine system, but with electrical signals instead of chemical ones.",
+   "example": "Pulling your hand away from a hot stove takes milliseconds — that's the nervous system sending electrical signals from receptor to brain to muscle almost instantly.",
+   "sub_terms": [
+    {
+     "term": "Electrical signal",
+     "definition": "The type of signal the nervous system uses — fast impulses that travel along nerve cells in milliseconds."
+    }
+   ]
+  },
+  {
+   "term": "Endocrine system",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "The body system that uses chemical messengers called hormones, released into your bloodstream, to coordinate slower but longer-lasting responses. The same pathway model applies (receptor → command centre → effector) but using hormones instead of electrical signals.",
+   "example": "When your blood sugar rises after a meal, your pancreas (a gland) releases insulin (a hormone) into your blood, which signals cells throughout your body to absorb glucose — this takes minutes, not milliseconds, but lasts much longer.",
+   "sub_terms": [
+    {
+     "term": "Hormone",
+     "definition": "A chemical messenger made by a gland and carried through the bloodstream to target organs, where it triggers a specific response.",
+     "example": "Insulin is a hormone made by the pancreas — it travels through your blood to tell cells to absorb glucose."
+    },
+    {
+     "term": "Gland",
+     "definition": "An organ that makes and releases hormones — the endocrine system's version of a command centre.",
+     "example": "The thyroid gland in your neck releases hormones that control how fast your body uses energy."
+    },
+    {
+     "term": "Target organ",
+     "definition": "The organ or tissue that a hormone acts on — only cells with the right receptor for that hormone will respond.",
+     "example": "Insulin's target is your liver and muscle cells — they have insulin receptors that tell them to absorb glucose from the blood."
+    }
+   ]
+  },
+  {
+   "term": "Homeostasis",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "typical",
+   "definition": "Your body's ability to keep its internal conditions stable — like temperature, blood sugar and water balance — even when the outside environment changes. It's not passive; your body is constantly making active adjustments.",
+   "example": "On a hot day, your body temperature starts to rise — but sweating and increased blood flow to your skin actively cool you back toward 37°C. That active correction is homeostasis at work."
+  },
+  {
+   "term": "Negative feedback",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "A control system where your body detects a change from normal and responds by pushing things back the other way. 'Negative' doesn't mean 'bad' — it means the response opposes the change. It has four parts: a set point (the target), deviation (the change), corrective response (the fix), and return detection (checking it worked).",
+   "example": "If your body temperature rises above 37°C, you start sweating (corrective response opposing the rise). As your temperature drops back toward 37°C, the sweating slows down (return detection) — that's a complete negative feedback loop.",
+   "sub_terms": [
+    {
+     "term": "Set point",
+     "definition": "The normal target value your body tries to maintain — like 37°C for temperature or about 5 mmol/L for blood sugar."
+    },
+    {
+     "term": "Deviation",
+     "definition": "When a body variable moves away from its set point — a receptor detects this and starts the feedback response."
+    },
+    {
+     "term": "Corrective response",
+     "definition": "The action your body takes to push the variable back toward the set point — like sweating to cool down or shivering to warm up."
+    },
+    {
+     "term": "Return detection",
+     "definition": "When the receptor detects that the variable is heading back to normal and signals the body to ease off the corrective response — this prevents overcorrection."
+    },
+    {
+     "term": "Positive feedback",
+     "definition": "The opposite of negative feedback — the response amplifies the change instead of opposing it. Rare in the body, but used when rapid escalation is needed (like contractions during childbirth getting stronger and stronger)."
+    }
+   ]
+  },
+  {
+   "term": "Feedback system disorder",
+   "descriptor_code": "AC9S9U01",
+   "width_tier": "minimum",
+   "definition": "A condition where part of a negative feedback loop breaks down, so the body can't maintain homeostasis properly. The key question is: which part of the loop failed — the receptor, the command centre, or the effector?",
+   "example": "In type 1 diabetes, the effector has failed — the pancreatic cells that produce insulin are destroyed, so even though the body detects high blood sugar, it can't produce the hormone to fix it."
+  }
+ ]
+}

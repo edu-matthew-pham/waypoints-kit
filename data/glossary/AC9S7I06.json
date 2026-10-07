@@ -1,0 +1,132 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I06",
+ "teacher_glossary": [
+  {
+   "term": "Source of error",
+   "descriptor_code": "AC9S7I06",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A specific factor in an investigation that causes measurements or observations to deviate from the true value. Sources of error include equipment limitations, environmental fluctuations, procedural inconsistencies and measurement technique variations. Identifying sources of error requires specificity — naming the actual factor and explaining how it affected the data, not labelling the error generically.",
+   "failure_mode": "Students name 'human error' as the source of error without specifying what the error actually was — they use the generic label as a substitute for identifying the specific factor that affected their results and explaining how it affected them.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Generic error identification cannot be acted upon — 'human error' does not suggest a specific improvement, whereas 'inconsistent stirring speed' suggests using a stirring plate. If students cannot identify specific errors, they cannot improve their methods (the standard's evaluative demand) or assess the reliability of their results.",
+   "response": "Ban the phrase 'human error' and require students to name what specifically went wrong: what happened, when in the procedure, and how it affected the data. Apply a simple test: 'Could someone fix this error based on your description?' If not, it's not specific enough.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Random error",
+     "definition": "Unpredictable variation in measurements caused by factors that fluctuate between trials — such as slight differences in timing, reading a scale from slightly different angles, or natural variation in biological samples. Random error is reduced by repeating measurements and averaging, not by 'being more careful.'",
+     "failure_mode": "Students think all errors are random and can be eliminated by being more careful — they don't recognise that random error is inherent variation reduced by repeating, not by effort or attention.",
+     "failure_type": "misconception",
+     "response": "Ask students to take the same measurement five times and observe the variation. Discuss: did the variation happen because you were careless, or because measurements naturally vary? The direct experience reveals that repetition reduces random error where care cannot.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Systematic error",
+     "definition": "A consistent error that affects all measurements in the same direction — such as a miscalibrated instrument, a flawed procedure or an incorrect assumption. Systematic error cannot be reduced by repeating the investigation; it requires identifying and removing the cause.",
+     "failure_mode": "Students don't recognise that some errors affect every measurement the same way — they assume repeating the investigation will fix all errors, missing that a zero-error on a balance or a flawed procedure will produce the same bias every time.",
+     "failure_type": "misconception",
+     "response": "Present a scenario where results are very consistent but all shifted from the true value (e.g. a balance reading 2g too high). Ask: 'Would repeating this investigation fix the problem? What would?' The 'no' answer reveals systematic error as a category that repetition cannot solve.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Human error",
+     "definition": "A vague, non-specific label that students commonly use instead of identifying the actual source of error. 'Human error' does not describe what went wrong, how it affected results, or how to fix it. At Year 7, students should replace 'human error' with specific descriptions — such as 'inconsistent stirring speed,' 'starting the stopwatch late,' or 'reading the meniscus from an angle' — that can be acted upon to improve the method."
+    }
+   ]
+  },
+  {
+   "term": "Claim",
+   "descriptor_code": "AC9S7I06",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "An assertion about the natural world that can be evaluated against evidence. A scientific claim is supported, weakened or rejected by examining the quality of evidence behind it, identifying conflicting evidence, and recognising what remains unanswered. Claims are distinct from conclusions (which are drawn by the investigator) — a claim is an assertion that requires external evaluation.",
+   "failure_mode": "Students treat a claim as proven once any supporting evidence exists — they accept claims at face value without weighing conflicting evidence, assessing evidence quality, or identifying what questions remain unanswered.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Uncritical claim acceptance is the opposite of scientific evaluation. If any evidence proves a claim, then evidence quality is irrelevant, conflicting evidence is invisible, and the evaluative skill the standard requires cannot develop. This failure carries directly into AC9S7I07's argument construction.",
+   "response": "Present a claim with both supporting and conflicting evidence. Ask three questions in sequence: 'What evidence supports this claim? What evidence conflicts with it? What would you still need to know?' The three-question structure builds the evaluation habit.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Conflicting evidence",
+     "definition": "Evidence that contradicts or is inconsistent with a claim or conclusion. Conflicting evidence does not automatically disprove a claim — it indicates that the claim may need revision, the evidence may have limitations, or additional investigation is needed.",
+     "failure_mode": "Students ignore or dismiss evidence that contradicts their preferred conclusion — they selectively cite supporting evidence and treat conflicting evidence as 'wrong' rather than weighing both.",
+     "failure_type": "flawed_reasoning",
+     "response": "Require students to address conflicting evidence explicitly in their evaluations: 'What does this evidence suggest about the claim? Is it the evidence or the claim that needs revision?' The forced engagement prevents selective citation.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Unanswered question",
+     "definition": "A question that the available evidence does not resolve — identifying what remains unknown after evaluating a claim. Recognising unanswered questions is a sign of scientific maturity, not a failure of the investigation."
+    },
+    {
+     "term": "Sufficient evidence",
+     "definition": "Enough evidence to support a claim with reasonable confidence — considering the quantity, quality and consistency of the evidence. A single data point or one investigation is rarely sufficient; sufficient evidence typically requires multiple consistent findings."
+    },
+    {
+     "term": "Relevant evidence",
+     "definition": "Evidence that directly addresses the claim being evaluated — as opposed to evidence that is related to the general topic but does not bear on the specific claim. Students must select evidence based on relevance, not just availability."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Source of error",
+   "descriptor_code": "AC9S7I06",
+   "width_tier": "minimum",
+   "definition": "Something specific in your investigation that made your measurements less accurate or reliable. You need to say exactly what went wrong and how it affected your results — 'human error' doesn't count because it doesn't tell you what actually happened.",
+   "example": "Instead of saying 'human error,' say 'I started the stopwatch slightly late each time, which made all my time measurements shorter than the actual dissolving time.' That's specific enough to fix.",
+   "sub_terms": [
+    {
+     "term": "Random error",
+     "definition": "Small, unpredictable differences between measurements that happen naturally — even when you're being careful. You reduce random error by repeating your measurements and averaging them.",
+     "example": "If you time a reaction three times and get 45s, 47s and 44s, the small differences are random error. Averaging (45.3s) gives a more reliable result than any single measurement."
+    },
+    {
+     "term": "Systematic error",
+     "definition": "An error that shifts all your measurements in the same direction by the same amount — like using a scale that's always 5g too high. Repeating the investigation won't fix it because the same error happens every time.",
+     "example": "If your thermometer reads 2°C too high because it wasn't calibrated properly, every single temperature you record will be 2°C too high — doing more trials won't help."
+    },
+    {
+     "term": "Human error",
+     "definition": "A vague label that doesn't actually explain what went wrong. Instead of writing 'human error,' describe the specific mistake — what happened, when it happened, and how it affected your results.",
+     "example": "Don't write: 'There was human error.' Do write: 'I started the stopwatch about half a second late each time, which made my time measurements slightly shorter than the actual dissolving time.'"
+    }
+   ]
+  },
+  {
+   "term": "Claim",
+   "descriptor_code": "AC9S7I06",
+   "width_tier": "minimum",
+   "definition": "A statement about how the natural world works that can be checked against evidence. When you evaluate a claim, you look at what evidence supports it, what evidence contradicts it, and what you still don't know.",
+   "example": "The claim 'plants grow faster in blue light' can be evaluated by looking at experimental evidence. If some experiments support it but others found no difference, you can't just accept the claim — you need to consider all the evidence.",
+   "sub_terms": [
+    {
+     "term": "Conflicting evidence",
+     "definition": "Evidence that disagrees with a claim. It doesn't automatically mean the claim is wrong — it means you need to think carefully about why the evidence conflicts and what it means.",
+     "example": "If one study found that fertiliser increased plant growth but another study found no effect, the second study is conflicting evidence. Maybe the studies used different plants or different amounts — you need to investigate why they disagree."
+    },
+    {
+     "term": "Unanswered question",
+     "definition": "Something that the evidence doesn't answer yet. Identifying what you still don't know is part of good scientific thinking, not a weakness.",
+     "example": "After investigating whether temperature affects dissolving rate, an unanswered question might be: 'Does the type of substance affect how much temperature matters?'"
+    },
+    {
+     "term": "Sufficient evidence",
+     "definition": "Enough evidence to be confident in a claim. One experiment usually isn't enough — you need multiple pieces of evidence that point the same way.",
+     "example": "If one study found that exercise improves memory, that's interesting but not sufficient. If ten studies with different methods all found the same thing, that's much more sufficient."
+    },
+    {
+     "term": "Relevant evidence",
+     "definition": "Evidence that actually relates to the specific claim you're evaluating — not just evidence about the same general topic.",
+     "example": "If the claim is 'fertiliser increases tomato yield,' then data about tomato growth with fertiliser is relevant evidence. Data about fertiliser effects on wheat is related but not directly relevant to this specific claim."
+    }
+   ]
+  }
+ ]
+}

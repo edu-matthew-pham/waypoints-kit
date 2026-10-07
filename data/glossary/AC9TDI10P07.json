@@ -1,0 +1,174 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P07",
+ "teacher_glossary": [
+  {
+   "term": "User experience (UX)",
+   "descriptor_code": "AC9TDI10P07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The complete experience a person has when interacting with a digital system — encompassing aesthetics (how it looks), functionality (what it does), onboarding (first-use experience), emotional response (how it makes users feel), and cultural response (how different users interpret it). UX is broader than user interface design.",
+   "failure_mode": "Students reduce UX to visual design — they think UX is about making things look good, missing the functional, emotional, onboarding, and cultural dimensions entirely.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Students who reduce UX to visual design cannot complete the prototyping checkpoint — designing for aesthetics + functionality + enjoyment simultaneously requires the broader UX conception.",
+   "response": "Compare two apps: one that looks polished but is confusing to use, and one that looks plain but is intuitive. Ask: which has better UX? The comparison breaks the 'UX = pretty' assumption.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Onboarding",
+     "definition": "The first-use experience of a digital system — how a new user learns to use it without prior knowledge. Good onboarding makes assumptions visible and guides without overwhelming.",
+     "failure_mode": "Students assume all users start with the same knowledge — they design systems that make sense to the designer but confuse new users.",
+     "failure_type": "misconception",
+     "response": "Have a peer test the system without any explanation. Every question they ask reveals an onboarding gap.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Emotional response",
+     "definition": "How using a digital system makes a person feel — satisfaction, frustration, delight, anxiety. Emotional response is a UX dimension that affects whether users continue using a system."
+    },
+    {
+     "term": "Cultural response",
+     "definition": "How users from different cultural backgrounds interpret and experience a digital system — including assumptions about layout direction, colour meaning, icon interpretation, and interaction patterns."
+    },
+    {
+     "term": "Functionality",
+     "definition": "What a digital system does — the tasks it enables users to complete. Functionality is a core UX dimension: a beautiful system that doesn't do what users need has poor UX."
+    }
+   ]
+  },
+  {
+   "term": "Aesthetics (design)",
+   "descriptor_code": "AC9TDI10P07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The visual and sensory qualities of a digital system's design — including colour, typography, spacing, imagery, and visual hierarchy. Aesthetics contribute to user experience by creating an emotional response, establishing visual hierarchy, and communicating brand identity. Aesthetics must be balanced with functionality — a beautiful system that is unusable has failed.",
+   "failure_mode": "Students design for aesthetics at the expense of functionality — they focus on visual polish while core tasks are hard to complete, or they design interfaces that look impressive but violate basic usability principles.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without a coherent design intent balancing aesthetics and functionality, the N3 prototype has no basis for its interaction decisions — students prototype arbitrary features rather than a designed experience.",
+   "response": "Require students to state the design intent before making aesthetic choices: what feeling should the user have? what task must they complete? Then check each aesthetic decision against both. The intent-first approach prevents aesthetics from overriding functionality.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Prototype",
+   "descriptor_code": "AC9TDI10P07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "An interactive model of a digital system that simulates user flows without full implementation. Prototypes allow designers to test whether the user experience works before committing to code — users can click through screens and complete tasks to reveal usability issues.",
+   "failure_mode": "Students build prototypes that only show the 'happy path' — the flow when everything goes right — without considering error states, empty states, or what happens when users take unexpected actions.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "A prototype that only shows the happy path cannot reveal the most common usability failures — real users encounter errors, empty screens, and unexpected states constantly.",
+   "response": "Require every prototype to include at least one error state and one empty state alongside the happy path. Ask: what does the user see if there's no data yet? What happens if they enter something wrong? The edge state requirement expands prototyping beyond the ideal flow.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Clickable flow",
+     "definition": "A sequence of linked screens in a prototype where clicking interactive elements navigates to the next screen — simulating the user's journey through the system.",
+     "failure_mode": "Students create screens that exist independently without navigation links — the prototype looks like a set of screenshots rather than a usable system.",
+     "failure_type": "fragile_skill",
+     "response": "Have a peer attempt a specific task using only the prototype's clickable flows. Dead ends reveal missing links.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Edge state",
+     "definition": "A screen state beyond the normal flow — including empty states (no data yet), error states (something went wrong), loading states, and success confirmations.",
+     "failure_mode": "Students only design for the ideal scenario — they never consider what the screen looks like when empty, loading, or in error.",
+     "failure_type": "narrow_repertoire",
+     "response": "For each screen, ask: what does this look like with zero items? With an error? With a success message? Design each variation.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Happy path",
+     "definition": "The ideal flow through a system where everything goes as expected — the user makes no mistakes and the system encounters no errors."
+    },
+    {
+     "term": "Usability testing",
+     "definition": "The process of observing real users attempting to complete tasks with a prototype to identify where they struggle, get confused, or make errors.",
+     "failure_mode": "Students demonstrate the prototype by narrating it rather than observing a user attempt tasks independently.",
+     "failure_type": "fragile_skill",
+     "response": "Set a task, hand the device to a test user, and stay silent. Record where they hesitate, tap the wrong thing, or ask for help. The observation reveals usability issues that narrated demonstrations hide.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "High-fidelity prototype",
+     "definition": "A prototype that closely resembles the final product in visual design and interactivity — as opposed to a low-fidelity wireframe or paper prototype."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "User experience (UX)",
+   "descriptor_code": "AC9TDI10P07",
+   "width_tier": "minimum",
+   "definition": "Everything about how it feels to use a digital system — not just how it looks, but how easy it is to learn, how satisfying it is to use, and whether it works for people from different backgrounds.",
+   "example": "An app might look amazing but be so confusing that nobody can find the main feature — that's bad UX despite good visual design.",
+   "sub_terms": [
+    {
+     "term": "Onboarding",
+     "definition": "The experience of using a system for the first time — how quickly a new user can figure out what to do without help.",
+     "example": "A good onboarding experience might highlight the main button and say 'Start here' — instead of dropping you into a complex dashboard."
+    },
+    {
+     "term": "Emotional response",
+     "definition": "How using the system makes you feel — satisfied, frustrated, delighted, or anxious.",
+     "example": "A loading screen with a fun animation feels better than a blank screen, even though the wait is the same."
+    },
+    {
+     "term": "Cultural response",
+     "definition": "How people from different backgrounds interpret the same design — colours, icons, and layouts can mean different things in different cultures.",
+     "example": "Red means 'danger' in some cultures but 'good luck' in others — so a red button might feel very different to different users."
+    },
+    {
+     "term": "Functionality",
+     "definition": "What the system actually lets you do — the tasks you can complete with it.",
+     "example": "A messaging app's functionality includes sending messages, attaching files, and creating group chats."
+    }
+   ]
+  },
+  {
+   "term": "Aesthetics (design)",
+   "descriptor_code": "AC9TDI10P07",
+   "width_tier": "minimum",
+   "definition": "How a digital system looks and feels visually — colours, fonts, spacing, and imagery. Good aesthetics make a system more pleasant to use, but they need to work together with functionality, not replace it.",
+   "example": "A dark-themed music app with clean typography creates a mood that matches the listening experience — the aesthetics support the function."
+  },
+  {
+   "term": "Prototype",
+   "descriptor_code": "AC9TDI10P07",
+   "width_tier": "minimum",
+   "definition": "A clickable model of your system that lets people try out the flow before you build the real thing. It looks and acts like the real system but doesn't have working code behind it.",
+   "example": "A prototype of a food ordering app might have tappable menu items, a cart screen, and a confirmation screen — all linked together so a user can click through the whole ordering process.",
+   "sub_terms": [
+    {
+     "term": "Clickable flow",
+     "definition": "The path a user follows through a prototype — clicking buttons or links that take them to the next screen.",
+     "example": "Tapping 'Add to cart' takes you to the cart screen, then 'Checkout' takes you to payment — that's the clickable flow."
+    },
+    {
+     "term": "Edge state",
+     "definition": "What a screen looks like in unusual situations — when there's no data yet, when something goes wrong, or when an action succeeds.",
+     "example": "What does the cart look like when it's empty? What message appears if payment fails? Those are edge states."
+    },
+    {
+     "term": "Happy path",
+     "definition": "The ideal flow where everything goes perfectly — the user makes no mistakes and nothing goes wrong.",
+     "example": "User opens app → selects item → adds to cart → pays → gets confirmation. That's the happy path."
+    },
+    {
+     "term": "Usability testing",
+     "definition": "Watching real people try to use your prototype and noting where they get confused or stuck.",
+     "example": "You give someone your prototype and say 'Order a coffee.' If they can't find the menu, that's a usability issue to fix."
+    },
+    {
+     "term": "High-fidelity prototype",
+     "definition": "A prototype that looks very close to the final product — with real colours, fonts, and realistic content.",
+     "example": "A high-fidelity prototype of an app looks like a real app on your phone — you can tap through it as if it were finished."
+    }
+   ]
+  }
+ ]
+}

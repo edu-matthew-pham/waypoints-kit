@@ -1,0 +1,227 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10K02",
+ "teacher_glossary": [
+  {
+   "term": "Content/structure/presentation separation",
+   "descriptor_code": "AC9TDI10K02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The architectural principle that online documents should separate what they say (content — the text), how they are organised (structure — HTML markup), and how they look (presentation — CSS styling). Each layer can be designed, edited and stored independently, enabling consistent styling across pages, accessibility for assistive technologies, and efficient maintenance.",
+   "failure_mode": "Students cannot correctly assign a specific element to its layer — they classify CSS rules as 'structure' or treat HTML tags like <h1> as 'presentation' because the heading looks different from body text.",
+   "failure_type": "misconception",
+   "why_it_matters": "Misidentifying layers directly prevents correct use of HTML for structure and CSS for presentation — students who conflate layers produce documents where styling is embedded in content, defeating the purpose of separation.",
+   "response": "Give students a set of specific items (a paragraph of text, an <h1> tag, a font-size rule) and ask them to sort into three columns. Repeat with varied examples until the discrimination is reliable. The sorting activity builds the classification habit.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Content (text layer)",
+     "definition": "The actual information in a web document — the words, paragraphs, and data that communicate meaning to the reader. Content is what the document says.",
+     "failure_mode": "Students include HTML tags as part of the content, rather than recognising that tags are structure wrapped around content.",
+     "failure_type": "misconception",
+     "response": "Show the same content rendered in plain text versus in HTML. Ask: what changed and what stayed the same? The content is what remains when you strip the tags.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Structure (markup layer)",
+     "definition": "The organisational framework of a web document — HTML tags that define headings, paragraphs, lists, and sections. Structure determines how content is organised and is what assistive technologies like screen readers interpret.",
+     "failure_mode": "Students confuse structure with presentation because changing a tag (e.g. <h1> to <p>) also changes how the text looks by default.",
+     "failure_type": "misconception",
+     "response": "Show a document with CSS disabled — the structural elements (headings, paragraphs, lists) are still distinguishable even without styling. Ask: what is the browser using to organise the page?",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Presentation (styling layer)",
+     "definition": "The visual appearance of a web document — colours, fonts, spacing, and layout defined by CSS rules. Presentation determines how content and structure look to the user, independent of what they say or how they are organised.",
+     "failure_mode": "Students treat HTML structural tags as presentation because they have default visual styles — they think <h1> is a presentation instruction ('make text big') rather than a structural marker ('this is a top-level heading').",
+     "failure_type": "misconception",
+     "response": "Apply two completely different CSS stylesheets to the same HTML document. Ask: what changed and what stayed the same? The structure didn't change — only the presentation did.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Content management system (CMS)",
+     "definition": "Software (e.g. WordPress) that implements content/structure/presentation separation at platform level, allowing users to edit content without touching structure or styling."
+    }
+   ]
+  },
+  {
+   "term": "HTML (HyperText Markup Language)",
+   "descriptor_code": "AC9TDI10K02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The standard markup language for creating web documents. HTML uses tags to define the structure of content — headings, paragraphs, lists, links, and sections. HTML separates content from structure by wrapping content in semantic tags that identify what each piece of content is, not how it should look.",
+   "failure_mode": "Students use HTML tags for visual effect rather than structural meaning — for example, using <h1> to make text large rather than to mark it as a top-level heading, or using <br> tags for spacing instead of CSS margin.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "HTML used for visual effect rather than structure breaks accessibility (screen readers interpret tags as structural markers) and defeats the separation principle — the document's structure becomes meaningless.",
+   "response": "Have students write HTML and then test it with a screen reader or outline view. When tags are used for visual effect, the outline makes no sense — the structural purpose of each tag becomes visible.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "HTML tag",
+     "definition": "A markup element enclosed in angle brackets (e.g. <h1>, <p>, <ul>) that identifies what type of content it wraps — its structural role in the document.",
+     "failure_mode": "Students leave tags unclosed or misplace closing tags, breaking the document structure in ways that may not be visually obvious but cause parsing errors.",
+     "failure_type": "fragile_skill",
+     "response": "Use a validator to check HTML and show students where unclosed tags cause problems. The validator makes invisible structural errors visible.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Heading tag",
+     "definition": "HTML tags (<h1> through <h6>) that identify headings and subheadings in a document hierarchy. <h1> is the top-level heading; <h6> is the lowest."
+    },
+    {
+     "term": "Paragraph tag",
+     "definition": "The HTML <p> tag that wraps a block of text and identifies it as a paragraph — a discrete unit of content."
+    }
+   ]
+  },
+  {
+   "term": "CSS (Cascading Style Sheets)",
+   "descriptor_code": "AC9TDI10K02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The language used to define the visual presentation of HTML documents — colours, fonts, spacing, layout, and responsiveness. CSS rules target HTML elements by tag name, class, or ID and apply styling properties. A single CSS file can style an entire multi-page website, demonstrating the power of separating presentation from structure.",
+   "failure_mode": "Students write CSS rules that don't target correctly — selector errors mean the rule exists but doesn't apply to the intended elements. Alternatively, they embed styling directly in HTML (inline styles) rather than using external CSS, defeating the separation principle.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "CSS selector fluency is prerequisite for demonstrating the separation principle — students who cannot write working CSS rules cannot show that changing presentation leaves structure unchanged.",
+   "response": "Start with simple selectors (tag name), then build to classes. Have students predict what will change before applying each rule — the prediction-observation cycle builds selector fluency.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "CSS rule",
+     "definition": "A CSS declaration consisting of a selector (which HTML elements to target) and one or more property-value pairs (what styling to apply).",
+     "failure_mode": "Students write syntactically incorrect rules — missing colons, semicolons, or braces — that fail silently without visible error messages.",
+     "failure_type": "fragile_skill",
+     "response": "Use browser developer tools to inspect applied styles. When a rule doesn't appear in the inspector, students can identify the syntax error. The feedback loop is faster than guessing.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "CSS class",
+     "definition": "A reusable label (defined with a dot prefix, e.g. .highlight) that can be applied to multiple HTML elements, allowing the same styling to apply across different parts of a document.",
+     "failure_mode": "Students don't understand class reusability — they create a new class for every single element instead of applying one class to many elements.",
+     "failure_type": "narrow_repertoire",
+     "response": "Apply the same CSS class to three different paragraphs and change the class definition once. Ask: what happened to all three? The cascading reuse makes the efficiency visible.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Responsive layout",
+     "definition": "A CSS approach that adjusts the document's presentation based on screen size or device type, demonstrating how presentation can change dramatically while structure remains constant."
+    }
+   ]
+  },
+  {
+   "term": "Accessibility (web documents)",
+   "descriptor_code": "AC9TDI10K02",
+   "first_waypoint": 1,
+   "width_tier": "wider",
+   "definition": "The practice of designing web documents so they can be used by people with diverse abilities, including those using assistive technologies. In the context of content/structure/presentation separation, accessibility depends primarily on correct structure — screen readers interpret HTML structural tags, not visual presentation.",
+   "failure_mode": "Students think accessibility is a visual design concern (large fonts, high contrast) rather than understanding that it depends on correct structural markup — screen readers cannot interpret a visually styled page that lacks structural tags.",
+   "failure_type": "misconception",
+   "why_it_matters": "If accessibility is only about visual design, students produce documents that look accessible but are structurally opaque to assistive technologies — defeating the separation principle's accessibility benefit.",
+   "response": "Test a page with correct HTML structure in a screen reader, then test a page with the same visual appearance achieved entirely through CSS on unsemantic <div> tags. The screen reader experience reveals why structure matters more than presentation for accessibility.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Screen reader (web context)",
+     "definition": "Assistive software that reads web page content aloud, navigating by HTML structural elements (headings, lists, landmarks) rather than visual layout."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Content/structure/presentation separation",
+   "descriptor_code": "AC9TDI10K02",
+   "width_tier": "minimum",
+   "definition": "The idea that web pages are built from three separate layers: what the page says (content), how it's organised (structure with HTML), and how it looks (presentation with CSS). Keeping them separate makes websites easier to update and more accessible.",
+   "example": "If you change a CSS file, every page linked to it gets a new look — but the words and the organisation stay the same, because they're in separate layers.",
+   "sub_terms": [
+    {
+     "term": "Content (text layer)",
+     "definition": "The actual words and information on a web page — what it says, stripped of any formatting or structure.",
+     "example": "The sentence you're reading right now is content — the font, colour, and heading level it appears under are not."
+    },
+    {
+     "term": "Structure (markup layer)",
+     "definition": "How the content is organised using HTML tags — which text is a heading, which is a paragraph, which is a list item.",
+     "example": "An <h1> tag doesn't mean 'big text' — it means 'this is the main heading of the page.' A screen reader uses that tag to tell a user what's most important."
+    },
+    {
+     "term": "Presentation (styling layer)",
+     "definition": "How the page looks — colours, fonts, spacing, and layout, all controlled by CSS.",
+     "example": "A CSS rule like 'color: blue' changes how text looks without changing what it says or where it sits in the page structure."
+    },
+    {
+     "term": "Content management system (CMS)",
+     "definition": "Software like WordPress that separates content from design, so you can write a blog post without touching any code.",
+     "example": "When you change a WordPress theme, all your posts get a new look instantly — because the content was always separate from the presentation."
+    }
+   ]
+  },
+  {
+   "term": "HTML (HyperText Markup Language)",
+   "descriptor_code": "AC9TDI10K02",
+   "width_tier": "minimum",
+   "definition": "The language used to build the structure of web pages. HTML uses tags like <h1> for headings and <p> for paragraphs to organise content — it tells the browser what each piece of text is, not how it should look.",
+   "example": "Writing <h1>Welcome</h1> tells the browser 'this is the main heading' — the CSS decides whether it's big, blue, or bold.",
+   "sub_terms": [
+    {
+     "term": "HTML tag",
+     "definition": "A code label wrapped in angle brackets that tells the browser what type of content something is.",
+     "example": "<p> means 'this is a paragraph' and </p> means 'the paragraph ends here.'"
+    },
+    {
+     "term": "Heading tag",
+     "definition": "Tags like <h1>, <h2>, <h3> that mark headings at different levels — <h1> is the biggest, most important heading.",
+     "example": "A page might use <h1> for the title, <h2> for section headings, and <h3> for sub-sections."
+    },
+    {
+     "term": "Paragraph tag",
+     "definition": "The <p> tag that wraps a block of text and tells the browser it's a paragraph.",
+     "example": "Each paragraph of an article would be wrapped in its own <p> tag."
+    }
+   ]
+  },
+  {
+   "term": "CSS (Cascading Style Sheets)",
+   "descriptor_code": "AC9TDI10K02",
+   "width_tier": "minimum",
+   "definition": "The language that controls how a web page looks — colours, fonts, spacing, and layout. CSS is kept separate from HTML so you can change a page's appearance without touching its content or structure.",
+   "example": "One CSS file can make every heading on a 50-page website blue — and changing that one file to red updates them all instantly.",
+   "sub_terms": [
+    {
+     "term": "CSS rule",
+     "definition": "An instruction that tells the browser 'for these elements, apply this styling.' It has a selector (what to style) and properties (how to style it).",
+     "example": "The rule 'h1 { color: blue; }' means 'make all main headings blue.'"
+    },
+    {
+     "term": "CSS class",
+     "definition": "A reusable label you can apply to any HTML element so it gets the same styling wherever it appears.",
+     "example": "If you create a class called '.highlight' with a yellow background, you can apply it to any paragraph, heading, or list item you want to highlight."
+    },
+    {
+     "term": "Responsive layout",
+     "definition": "CSS that changes how a page looks depending on screen size — so the same page works on a phone and a desktop.",
+     "example": "A website might show three columns on a laptop but stack everything in one column on a phone — same HTML structure, different CSS presentation."
+    }
+   ]
+  },
+  {
+   "term": "Accessibility (web documents)",
+   "descriptor_code": "AC9TDI10K02",
+   "width_tier": "wider",
+   "definition": "Making web pages usable by everyone, including people who use screen readers or other assistive tools. Good accessibility depends more on using the right HTML structure than on how the page looks.",
+   "example": "A screen reader uses heading tags to let a blind user skip through sections — if the page uses <div> tags styled to look like headings instead, the screen reader can't tell what's important.",
+   "sub_terms": [
+    {
+     "term": "Screen reader (web context)",
+     "definition": "Software that reads a web page aloud by following the HTML structure — headings, paragraphs, links — so users who can't see the page can still navigate it.",
+     "example": "A screen reader announces '<h1> Welcome to our site' and lets the user jump to the next heading — but only if the heading is actually marked up with an <h1> tag."
+    }
+   ]
+  }
+ ]
+}

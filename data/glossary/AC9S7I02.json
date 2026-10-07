@@ -1,0 +1,273 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I02",
+ "teacher_glossary": [
+  {
+   "term": "Variable",
+   "descriptor_code": "AC9S7I02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A factor in an investigation that can change or be changed. In a controlled investigation, three types of variable must be identified: the independent variable (changed deliberately), the dependent variable (measured as the outcome) and controlled variables (kept constant so they don't affect results). Correct variable identification is prerequisite for planning a method that tests the hypothesis.",
+   "failure_mode": "Students confuse the three variable types — they misidentify which variable is changed, which is measured and which must be controlled, or they label variables correctly but cannot explain the role of each in the investigation design.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Variable confusion propagates directly into method design — a student who cannot distinguish independent from dependent variables cannot write a method that tests the hypothesis. Every subsequent inquiry skill (data collection, analysis, conclusion) depends on correct variable identification.",
+   "response": "Use a consistent identification routine: 'What am I changing? (independent) What am I measuring? (dependent) What must stay the same? (controlled).' Apply this routine across multiple investigation contexts until the identification becomes automatic.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Independent variable",
+     "definition": "The variable deliberately changed by the investigator to test its effect on the outcome. Only one independent variable should be changed at a time in a fair test.",
+     "failure_mode": "Students change multiple variables simultaneously, believing they are still testing the independent variable — they don't recognise that changing two things at once makes it impossible to determine which caused the observed effect.",
+     "failure_type": "fragile_skill",
+     "response": "Ask students to identify what would happen to their conclusion if two variables changed simultaneously — could they tell which one caused the result? The impossibility reveals why only one variable changes.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Dependent variable",
+     "definition": "The variable measured or observed as the outcome of the investigation — it is expected to change in response to changes in the independent variable.",
+     "failure_mode": "Students measure something other than what the hypothesis predicts, or measure multiple outcomes without connecting each to the specific relationship being tested.",
+     "failure_type": "fragile_skill",
+     "response": "Ask students to trace from their hypothesis to their measurement: 'Your hypothesis predicts X will change — is that what you're measuring?' The trace reveals mismatches between hypothesis and method.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Controlled variable",
+     "definition": "A variable held constant during the investigation so that any observed change in the dependent variable can be attributed to the independent variable. Controlled variables involve assumptions — the investigator assumes these factors remain constant, but the assumption may not always hold.",
+     "failure_mode": "Students list controlled variables as a procedural step without recognising that each involves an assumption — they write 'keep temperature constant' without acknowledging they are assuming temperature actually stays constant and that it matters if it doesn't.",
+     "failure_type": "flawed_reasoning",
+     "response": "For each controlled variable, ask: 'What are you assuming stays the same? What would happen to your results if this assumption were wrong?' The assumption question transforms controlled variables from a checklist into a reasoning exercise.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Control group",
+     "definition": "A baseline condition in an investigation where the independent variable is not applied, used for comparison with the experimental group. A control group is distinct from a controlled variable — the control group is the untreated condition you compare against, while controlled variables are factors held constant across all conditions."
+    }
+   ]
+  },
+  {
+   "term": "Assumption",
+   "descriptor_code": "AC9S7I02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Something taken to be true in an investigation without being directly tested or verified — particularly regarding controlled variables. Every controlled variable involves an assumption that it remains constant, but assumptions can be wrong (e.g. assuming room temperature is constant when it fluctuates, or assuming all samples of a substance are identical). Identifying assumptions is essential for evaluating method quality and interpreting results.",
+   "failure_mode": "Students cannot reason backward from a method to identify what must be true for it to work — they check whether procedural steps are followed correctly rather than examining whether the underlying premises hold.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Hidden assumptions are the most common source of unrecognised error. A method can be followed perfectly and still produce misleading results if an assumption about a controlled variable is wrong. Students who cannot identify assumptions cannot evaluate method quality (AC9S7I06).",
+   "response": "Teach the backward reasoning move explicitly: 'For this method to work, what must be true about the things you're not testing?' Apply to concrete examples where an assumption is obviously wrong (e.g. assuming a 'constant' temperature in a room with windows open on a hot day).",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Reproducible investigation",
+   "descriptor_code": "AC9S7I02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "An investigation designed with sufficient detail that another person could follow the method and obtain comparable results. Reproducibility requires explicit statements of equipment, quantities, procedures and controlled variables — not just a narrative of what the investigator did. It builds on the primary-school concept of a 'fair test' by adding the requirement that the method is followable by someone who wasn't there.",
+   "failure_mode": "Students write methods that are too vague for another person to follow — they describe what they did in narrative form ('first I got the beaker and put some water in it') rather than specifying quantities, equipment and procedures with enough precision for reproduction.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A method that only the original investigator can follow cannot be verified, challenged or built upon. Reproducibility is what makes science cumulative — without it, results are one-off anecdotes rather than reliable findings.",
+   "response": "Have another student attempt to follow the method without asking questions. Any point where they need to ask 'how much?' or 'what size?' or 'for how long?' reveals a gap in the method. The peer-test makes vagueness visible.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Method",
+     "definition": "A structured set of instructions describing how to carry out an investigation — specifying equipment, quantities, procedures and controlled variables in sufficient detail for reproduction.",
+     "failure_mode": "Students write narrative recounts of what they did ('first I got the beaker') rather than structured instructions another person could follow — they confuse telling the story of their investigation with writing a reproducible method.",
+     "failure_type": "fragile_skill",
+     "response": "Distinguish method from recount by asking: 'Could someone who wasn't here follow these instructions exactly?' If the method reads like a story rather than a recipe, it needs restructuring into specific, ordered steps with quantities.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Risk",
+     "definition": "A potential hazard in an investigation that could cause harm to people, organisms or the environment. Risks must be identified and managed through specific actions before the investigation begins.",
+     "failure_mode": "Students name risks as a checklist item ('be careful with chemicals') without reasoning through what specific harm could occur, who or what is affected, and how the management strategy actually addresses the hazard.",
+     "failure_type": "flawed_reasoning",
+     "response": "For each risk, scaffold three questions: 'What specific harm could occur? Who or what is affected? How does your management strategy prevent this specific harm?' The specificity requirement replaces generic caution with genuine risk literacy.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Ethical issue",
+     "definition": "A consideration about the rights, welfare and fair treatment of living things or communities involved in or affected by an investigation — such as minimising harm to organisms, obtaining informed consent, or respecting cultural knowledge protocols."
+    },
+    {
+     "term": "Fair test",
+     "definition": "A primary-school concept describing an investigation where one variable is changed while all others are kept the same. At Year 7, fair testing is refined to reproducible investigation — adding the requirement that the method contains sufficient detail for another person to follow and obtain comparable results."
+    },
+    {
+     "term": "Multiple trials",
+     "definition": "Repeating an investigation more than once under the same conditions to improve reliability. Multiple trials reduce the effect of random error by allowing results to be averaged, giving a more representative value than any single measurement. The number of trials needed depends on the spread of results — more variation requires more trials."
+    }
+   ]
+  },
+  {
+   "term": "Heritage site",
+   "descriptor_code": "AC9S7I02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A place of cultural, historical or spiritual significance — particularly First Nations Australians' heritage sites and artefacts — that is protected by state and territory laws. Investigators have legal and ethical obligations not to harm, disturb or remove artefacts from heritage sites. Investigation planning near or on Country/Place requires recognition of these obligations and, where appropriate, collaboration with First Nations communities following cultural protocols.",
+   "failure_mode": "Students treat heritage site considerations as a tick-box compliance item — they mention 'don't disturb heritage sites' without understanding the legal obligations, cultural significance or the reasoning behind the protocols.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Reducing heritage considerations to a checklist undermines the ethical dimension of scientific investigation. Students who cannot reason through the obligations cannot apply them in novel contexts or understand why collaborative research with First Nations communities requires genuine partnership, not just notification.",
+   "response": "Present a scenario where an investigation site is near a heritage area and ask students to reason through: what obligations apply, what could go wrong if they are ignored, and what would genuine collaboration look like? The scenario forces reasoning beyond the tick-box.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Cultural protocol",
+     "definition": "An established procedure for respectfully engaging with cultural knowledge, places or communities — including seeking permission, acknowledging knowledge sources and ensuring mutually beneficial outcomes when working with or near First Nations Australians' heritage."
+    },
+    {
+     "term": "Artefact",
+     "definition": "A physical object of cultural, historical or spiritual significance — particularly items created or used by First Nations Australians. Artefacts on Country/Place are protected by law and must not be disturbed, removed or damaged during scientific investigations."
+    }
+   ]
+  },
+  {
+   "term": "Reliability",
+   "descriptor_code": "AC9S7I02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "The consistency of results when an investigation is repeated under the same conditions. A reliable investigation produces similar results each time — the spread of repeated measurements is small. Reliability is improved by conducting multiple trials and is distinct from both accuracy (closeness to the true value) and validity (whether the method tests what it claims to).",
+   "failure_mode": "Students confuse reliability with accuracy — they call results 'reliable' because they are close to the textbook answer, rather than because repeated measurements are consistent with each other.",
+   "failure_type": "misconception",
+   "why_it_matters": "The reliability–accuracy confusion means students cannot diagnose investigation quality. Results can be reliable but inaccurate (consistently wrong) or accurate but unreliable (right on average but scattered). Each diagnosis requires a different fix — more trials for reliability, better calibration for accuracy.",
+   "response": "Use a target analogy: reliable = clustered together (even if off-centre); accurate = centred on the bullseye (even if scattered). Present data sets and ask students to classify each as reliable, accurate, both or neither.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Validity",
+   "descriptor_code": "AC9S7I02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "Whether an investigation actually tests what it claims to test. A valid investigation has a method that logically connects to the hypothesis — the independent variable is genuinely changed, the dependent variable genuinely measures the predicted outcome, and controlled variables are genuinely held constant. An investigation can produce reliable results and still be invalid if the method doesn't test the hypothesis.",
+   "failure_mode": "Students confuse validity with reliability — they call an investigation 'valid' because they got consistent results three times, rather than evaluating whether the method actually tested the stated hypothesis.",
+   "failure_type": "misconception",
+   "why_it_matters": "If validity means 'we got the same answer,' students cannot identify investigations where the method is flawed even though the results are consistent. Validity is the quality check on the method; reliability is the quality check on the results — conflating them means neither gets properly evaluated.",
+   "response": "Present an investigation with reliable results but a method that doesn't test the hypothesis (e.g. a method that accidentally changes two variables). Ask: 'Are the results reliable? Is the investigation valid?' The case where the answer differs for each question resolves the conflation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Confounding variable",
+     "definition": "An uncontrolled variable that changes alongside the independent variable, making it impossible to determine which one caused the observed effect on the dependent variable. A confound is the specific threat to validity — it provides an alternative explanation for the results.",
+     "failure_mode": "Students can define validity abstractly ('the method tests the hypothesis') but cannot identify the specific confounding variable that threatens it — they know the method is flawed but cannot name what the 'something else' is that could explain the results.",
+     "failure_type": "fragile_skill",
+     "response": "Present an investigation with a confound (e.g. testing fertiliser on plants but using different soil types) and ask: 'What else could explain the results besides the fertiliser?' Naming the specific confound is the skill — abstract validity definitions don't help without it.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Variable",
+   "descriptor_code": "AC9S7I02",
+   "width_tier": "minimum",
+   "definition": "Something in an investigation that can change or be changed. In a fair test, you need to identify three types: what you're changing, what you're measuring, and what you're keeping the same.",
+   "example": "In an investigation about whether temperature affects how fast sugar dissolves, temperature is the variable you change, dissolving time is the variable you measure, and the amount of water and sugar are variables you keep the same.",
+   "sub_terms": [
+    {
+     "term": "Independent variable",
+     "definition": "The one thing you deliberately change in your investigation to see what effect it has.",
+     "example": "If you're testing whether light affects plant growth, the amount of light is your independent variable — it's the thing you're changing on purpose."
+    },
+    {
+     "term": "Dependent variable",
+     "definition": "The thing you measure to see if it changes as a result of what you did to the independent variable.",
+     "example": "If you're testing whether light affects plant growth, the height of the plant is your dependent variable — it's what you're measuring to see the effect."
+    },
+    {
+     "term": "Controlled variable",
+     "definition": "Everything you keep the same so that any change in your results is caused by the independent variable, not something else. Each controlled variable involves an assumption that it actually stays constant.",
+     "example": "If you're testing whether light affects plant growth, you need to keep the same type of soil, same amount of water and same type of plant — and assume these things really do stay the same throughout."
+    },
+    {
+     "term": "Control group",
+     "definition": "The group in your investigation that doesn't get the treatment — it stays 'normal' so you have something to compare your results against. This is different from a controlled variable, which is something you keep the same.",
+     "example": "If you're testing whether fertiliser helps plants grow, the control group is the plants that get no fertiliser. You compare the fertiliser plants to the control group to see if the fertiliser made a difference."
+    }
+   ]
+  },
+  {
+   "term": "Assumption",
+   "descriptor_code": "AC9S7I02",
+   "width_tier": "minimum",
+   "definition": "Something you take to be true in your investigation without directly testing it. Every controlled variable involves an assumption — you assume it stays constant, but it might not.",
+   "example": "If your method says 'keep room temperature constant,' you're assuming the temperature in the room doesn't change — but if someone opens a window on a hot day, that assumption could be wrong and your results could be affected."
+  },
+  {
+   "term": "Reproducible investigation",
+   "descriptor_code": "AC9S7I02",
+   "width_tier": "minimum",
+   "definition": "An investigation written with enough detail that someone else could follow your method and get similar results. This means specifying exact amounts, equipment and steps — not just describing what you did in general terms.",
+   "example": "Writing 'add some water to the beaker' is not reproducible — someone else wouldn't know how much. Writing 'add 200 mL of water to a 500 mL beaker using a measuring cylinder' is reproducible.",
+   "sub_terms": [
+    {
+     "term": "Method",
+     "definition": "The step-by-step instructions for how to carry out an investigation — clear enough that someone who wasn't there could follow them exactly.",
+     "example": "A good method reads like a recipe: '1. Measure 100 mL of water into a beaker. 2. Record the starting temperature. 3. Add 5 g of salt...' — not 'First I got some water and added salt.'"
+    },
+    {
+     "term": "Risk",
+     "definition": "Something in an investigation that could cause harm. You need to identify what could go wrong and explain how you'll prevent it.",
+     "example": "Using a Bunsen burner is a risk because of burns — you manage it by wearing safety glasses, tying back hair and keeping flammable materials away."
+    },
+    {
+     "term": "Ethical issue",
+     "definition": "A question about whether your investigation treats living things and communities fairly and respectfully.",
+     "example": "If your investigation involves observing animals in a habitat, an ethical issue is making sure you don't disturb them or damage their environment."
+    },
+    {
+     "term": "Fair test",
+     "definition": "What you learned in primary school — changing one thing and keeping everything else the same. In Year 7, you build on this by making your method detailed enough that someone else could follow it and get similar results.",
+     "example": "A fair test says 'keep the water amount the same.' A reproducible method says 'use 200 mL of water measured with a graduated measuring cylinder' — specific enough for someone else to replicate."
+    },
+    {
+     "term": "Multiple trials",
+     "definition": "Doing your investigation more than once to make your results more reliable. By repeating and averaging, you reduce the effect of random variation in individual measurements.",
+     "example": "If you measure dissolving time once and get 45 seconds, you don't know if that's typical. Measuring three times — 45s, 47s, 44s — and averaging (45.3s) gives you more confidence in the result."
+    }
+   ]
+  },
+  {
+   "term": "Heritage site",
+   "descriptor_code": "AC9S7I02",
+   "width_tier": "minimum",
+   "definition": "A place that has special cultural, historical or spiritual importance — especially for First Nations Australians. These places are protected by law, and you have a responsibility not to damage or disturb them during any investigation.",
+   "example": "If you're doing a field investigation near a river, there may be First Nations heritage sites nearby. You need to find out about any obligations before you start, and work with the local community if your investigation involves their Country.",
+   "sub_terms": [
+    {
+     "term": "Cultural protocol",
+     "definition": "The proper way to work respectfully with cultural places, knowledge or communities — including asking permission and making sure the work benefits everyone involved.",
+     "example": "Before studying plants on Country, cultural protocol might include meeting with Elders, explaining your project, and agreeing on how the knowledge will be shared."
+    },
+    {
+     "term": "Artefact",
+     "definition": "An object that has cultural or historical importance — especially items made or used by First Nations Australians. These are protected by law and must not be disturbed.",
+     "example": "Stone tools, rock art, and shell middens found on Country are artefacts — if you find one during a field investigation, you must not move or disturb it."
+    }
+   ]
+  },
+  {
+   "term": "Reliability",
+   "descriptor_code": "AC9S7I02",
+   "width_tier": "typical",
+   "definition": "How consistent your results are when you repeat the investigation. If you get similar results each time, your investigation is reliable. This is different from accuracy, which is about whether your results are close to the true answer.",
+   "example": "If you measure the boiling point of water three times and get 99°C, 100°C and 99°C, your results are reliable (consistent) and accurate (close to the true value of 100°C). If you got 85°C, 84°C and 85°C, your results would be reliable (consistent) but not accurate."
+  },
+  {
+   "term": "Validity",
+   "descriptor_code": "AC9S7I02",
+   "width_tier": "typical",
+   "definition": "Whether your investigation actually tests what you say it tests. Even if your results are consistent, the investigation isn't valid if your method doesn't properly test your hypothesis.",
+   "example": "If your hypothesis is about temperature affecting dissolving rate, but you accidentally use different amounts of water in each trial, your investigation isn't valid — you're testing water amount as well as temperature, so you can't tell which one caused the result.",
+   "sub_terms": [
+    {
+     "term": "Confounding variable",
+     "definition": "Something that changes in your investigation that you didn't mean to change — making it impossible to tell whether your independent variable or this other thing caused the result.",
+     "example": "If you're testing whether fertiliser helps plants grow, but you also give the fertiliser plants more water, the extra water is a confounding variable — you can't tell if the growth was from the fertiliser or the water."
+    }
+   ]
+  }
+ ]
+}

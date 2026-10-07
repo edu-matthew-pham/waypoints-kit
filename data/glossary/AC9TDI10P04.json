@@ -1,0 +1,196 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P04",
+ "teacher_glossary": [
+  {
+   "term": "Stakeholder",
+   "descriptor_code": "AC9TDI10P04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A person or group who has needs, interests, or requirements that a digital solution must address. Stakeholders are the primary source of requirements — their needs, elicited through interviews, drive user stories, problem definition, and design criteria.",
+   "failure_mode": "Students identify stakeholders superficially (only peers or teachers) without considering diverse user groups, conflicting needs, or stakeholders who are affected by but do not directly use the system.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Inadequate stakeholder identification cascades through the entire design process — user stories built on incomplete stakeholder understanding, and design criteria that don't reflect real needs, produce solutions that solve the wrong problem.",
+   "response": "Ask students to list everyone who is affected by the system — not just who uses it. Include people who provide data, who see outputs, who are affected by decisions the system makes. The expanded stakeholder map reveals needs that peer-only identification misses.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Stakeholder interview",
+     "definition": "A structured conversation with a stakeholder to elicit their needs, goals, and constraints. Interview quality depends on question design — open-ended questions reveal underlying goals, while closed questions confirm specific requirements.",
+     "failure_mode": "Students write interview questions that are too narrow (yes/no) or too vague ('what do you want?'), failing to elicit actionable requirements.",
+     "failure_type": "fragile_skill",
+     "response": "Model the difference: ask a closed question ('Do you want a search feature?') then an open question ('How do you currently find what you need?'). The open question reveals the underlying goal; the closed question only confirms an assumed solution.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Cultural protocol",
+     "definition": "The customs, permissions, and respectful practices required when working with specific communities — particularly First Nations Australian communities. Cultural protocols include community consent, appropriate engagement processes, and respect for cultural authority over knowledge and data."
+    }
+   ]
+  },
+  {
+   "term": "User story",
+   "descriptor_code": "AC9TDI10P04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A requirement expressed in the template format: 'As a [user type], I want [goal] so that [reason].' User stories capture who needs something, what they need, and why — grounded in stakeholder interview data rather than developer assumptions. User stories drive design criteria and evaluation.",
+   "failure_mode": "Students omit the 'so that' rationale, write stories from their own perspective rather than the stakeholder's, or write stories that are not grounded in interview data — producing requirements disconnected from actual user needs.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "User stories that don't follow the template or aren't grounded in interview data cannot drive problem definition or design criteria — the criteria become disconnected from actual stakeholder needs.",
+   "response": "After each user story, ask: which interview finding does this come from? If the story cannot be traced to interview data, it is an assumption, not a requirement. The tracing discipline grounds stories in evidence.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "User story template",
+     "definition": "The standard format for expressing requirements: 'As a [user type], I want [goal] so that [reason].' The template ensures every requirement identifies who needs it, what they need, and why.",
+     "failure_mode": "Students write stories that omit the user type or the rationale — producing requirements without context for who benefits or why it matters.",
+     "failure_type": "fragile_skill",
+     "response": "Reject stories missing any of the three parts and ask students to complete them. The template compliance becomes habitual through consistent enforcement.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "MoSCoW prioritisation",
+     "definition": "A technique for ranking requirements as Must have, Should have, Could have, or Won't have — helping teams focus on essential features when time and resources are limited."
+    }
+   ]
+  },
+  {
+   "term": "Problem definition",
+   "descriptor_code": "AC9TDI10P04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A precise statement that names the specific problem being solved, identifies what is and isn't within scope, and connects to the user stories that ground it. A good problem definition is specific enough to evaluate solutions against and narrow enough to be solvable within the project's constraints.",
+   "failure_mode": "Students write problem definitions that are too broad ('make things better') or too solution-focused ('build an app that...') — they define a domain rather than a problem, or jump to a solution before the problem is clear.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "A problem definition without scope boundaries makes design criteria impossible to evaluate — students cannot check whether criteria are met if the problem itself is not precisely defined.",
+   "response": "Scaffold with four questions: What exactly is the problem? For whom? What would count as solving it? What is explicitly out of scope? The question chain prevents premature solution framing.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Scope (project)",
+     "definition": "The boundary of what a project will and will not address. Defining scope prevents feature creep and makes the problem solvable within available time and resources.",
+     "failure_mode": "Students define no scope boundaries — the project attempts everything and delivers nothing complete.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask students to list three things the project will NOT do. Defining exclusions is often easier than defining inclusions, and it forces scope awareness.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Decomposition (problem)",
+     "definition": "Breaking a broad problem into smaller, more manageable sub-problems that can be addressed individually. In digital design, decomposition often identifies which sub-problems are solvable with a digital system and which are not."
+    }
+   ]
+  },
+  {
+   "term": "Design criteria",
+   "descriptor_code": "AC9TDI10P04",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Specific, assessable requirements derived from user stories that will be used to evaluate whether a solution successfully addresses the problem. Design criteria must be checkable against a built solution — vague goals ('easy to use') do not qualify unless operationalised ('a new user can complete the main task within 2 minutes without help').",
+   "failure_mode": "Students write criteria that are too vague to evaluate ('the system should be good') or that are not derived from user stories — producing evaluation standards disconnected from stakeholder needs.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Vague or ungrounded criteria cannot be used to evaluate solutions — evaluation becomes subjective opinion rather than evidence-based assessment, undermining the entire design process.",
+   "response": "For each criterion, apply the assessment test: could two independent evaluators agree on whether this criterion is met? If not, it needs to be more specific. The inter-rater test operationalises clarity.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Functional criteria",
+     "definition": "Design criteria specifying what the system must do — the features and capabilities required. Example: 'the system must allow users to search by date range.'",
+     "failure_mode": "Students write only functional criteria, ignoring non-functional requirements like performance, privacy, and accessibility.",
+     "failure_type": "narrow_repertoire",
+     "response": "After writing functional criteria, ask: how fast should it respond? Who should not be able to see this data? Can someone with a disability use it? The questions surface non-functional requirements.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Non-functional criteria",
+     "definition": "Design criteria specifying how the system must perform — including speed, reliability, security, privacy, and accessibility. Non-functional criteria are often overlooked but are equally important for user satisfaction.",
+     "failure_mode": "Students dismiss non-functional criteria as 'nice to have' rather than recognising them as requirements that determine whether the system is actually usable.",
+     "failure_type": "narrow_repertoire",
+     "response": "Present a system that meets all functional criteria but is unusably slow or inaccessible. Ask: does this system meet the user's needs? The failure reveals why non-functional criteria matter.",
+     "response_type": "context_breadth"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Stakeholder",
+   "descriptor_code": "AC9TDI10P04",
+   "width_tier": "minimum",
+   "definition": "Anyone who has a stake in your project — people who will use the system, provide data to it, or be affected by its outcomes. Understanding their needs is the first step in solving the right problem.",
+   "example": "For a school canteen ordering app, stakeholders include students (who order), canteen staff (who prepare food), and parents (who pay) — each has different needs.",
+   "sub_terms": [
+    {
+     "term": "Stakeholder interview",
+     "definition": "A planned conversation with a stakeholder where you ask questions to find out what they need, what frustrates them, and what would make the system useful for them.",
+     "example": "Interviewing canteen staff might reveal they need orders grouped by pickup time — something students wouldn't have mentioned."
+    },
+    {
+     "term": "Cultural protocol",
+     "definition": "Respectful practices you follow when working with specific communities, especially First Nations communities — including getting proper permission and following community processes.",
+     "example": "Before building an app that uses First Nations language data, you'd need community consent and guidance on what can be shared publicly."
+    }
+   ]
+  },
+  {
+   "term": "User story",
+   "descriptor_code": "AC9TDI10P04",
+   "width_tier": "minimum",
+   "definition": "A short statement that captures what someone needs from your system, written in a specific format: 'As a [who], I want [what] so that [why].' It keeps the focus on real user needs, not just features.",
+   "example": "'As a student, I want to see my order status so that I know when to pick up my lunch' — this tells you the user, the feature, and the reason.",
+   "sub_terms": [
+    {
+     "term": "User story template",
+     "definition": "The three-part format for writing user stories — who needs it, what they want, and why they want it.",
+     "example": "'As a [teacher], I want [to see all submissions in one view] so that [I can mark them efficiently].'"
+    },
+    {
+     "term": "MoSCoW prioritisation",
+     "definition": "A way to sort requirements into Must have, Should have, Could have, and Won't have — so you build the essential stuff first.",
+     "example": "The login system is a Must have. Dark mode is a Could have. A mobile app version is Won't have for this project."
+    }
+   ]
+  },
+  {
+   "term": "Problem definition",
+   "descriptor_code": "AC9TDI10P04",
+   "width_tier": "minimum",
+   "definition": "A clear statement of exactly what problem you're trying to solve, who it's for, and what's in and out of scope. It's not a solution — it's the question your solution needs to answer.",
+   "example": "'Students at our school struggle to find what's available at the canteen before the lunch rush' — this names the problem, the users, and implies the scope (information access, not menu design).",
+   "sub_terms": [
+    {
+     "term": "Scope (project)",
+     "definition": "What your project will and won't try to solve. Setting scope stops you from trying to do everything and ending up finishing nothing.",
+     "example": "In scope: showing today's menu and wait times. Out of scope: online ordering and payment."
+    },
+    {
+     "term": "Decomposition (problem)",
+     "definition": "Breaking a big problem into smaller pieces you can tackle one at a time.",
+     "example": "'Improving the canteen experience' breaks down into: menu visibility, wait time estimation, dietary filtering, and feedback collection."
+    }
+   ]
+  },
+  {
+   "term": "Design criteria",
+   "descriptor_code": "AC9TDI10P04",
+   "width_tier": "minimum",
+   "definition": "Specific requirements that your solution must meet — derived from your user stories so they reflect what stakeholders actually need. Good criteria are clear enough that you can check whether they're met or not.",
+   "example": "'Users can filter the menu by dietary requirement' is a checkable design criterion. 'The app should be nice' is not.",
+   "sub_terms": [
+    {
+     "term": "Functional criteria",
+     "definition": "What the system must do — the features and actions it needs to support.",
+     "example": "'The system must let users submit a review with a star rating and text comment.'"
+    },
+    {
+     "term": "Non-functional criteria",
+     "definition": "How the system must perform — speed, security, accessibility, privacy. These aren't features but they affect whether users can actually use the system.",
+     "example": "'The page must load in under 3 seconds' or 'the system must not store passwords in plain text.'"
+    }
+   ]
+  }
+ ]
+}

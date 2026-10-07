@@ -1,0 +1,78 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P13",
+ "teacher_glossary": [
+  {
+   "term": "Multi-factor authentication",
+   "descriptor_code": "AC9TDI8P13",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A security mechanism that requires two or more independent verification factors to access an account: something you know (password), something you have (phone for SMS code or authenticator app), or something you are (biometric). MFA protects accounts even when the password is compromised — the attacker has one factor but not the second.",
+   "failure_mode": "Students accept 'MFA is more secure' without reasoning through the attack scenario — they cannot explain why a second factor matters when the first is compromised.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If students cannot trace the attack chain (attacker has password → tries to log in → MFA blocks because they lack the second factor), they treat MFA as arbitrary friction rather than a principled security response. They may disable it for convenience without understanding what they're giving up.",
+   "response": "Walk through the scenario: someone has your password. They try to log in. What stops them? The attack-scenario trace makes MFA's value concrete rather than abstract.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Authentication factor"
+    },
+    {
+     "term": "One-time password"
+    },
+    {
+     "term": "Authenticator app"
+    }
+   ]
+  },
+  {
+   "term": "Phishing",
+   "descriptor_code": "AC9TDI8P13",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A social engineering attack where an attacker impersonates a trusted entity (bank, retailer, employer) to trick users into revealing sensitive information like passwords or credit card details. Common techniques include unofficial email domains, urgency language ('your account will be locked'), and links to fake login pages. Phishing exploits human behaviour, not technical vulnerabilities.",
+   "failure_mode": "Students can identify phishing by a single cue (e.g. bad grammar) but miss attacks that don't display that cue — they have one detection heuristic rather than a repertoire.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Sophisticated phishing avoids the obvious markers. Students who rely on one detection cue (grammar errors) are vulnerable to well-crafted attacks that use correct grammar but unofficial domains, urgency tactics or spoofed sender addresses.",
+   "response": "Show multiple phishing examples, each using a different technique. Ask students to identify the specific technique in each case — the variety builds a repertoire of detection patterns.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Social engineering",
+     "definition": "Manipulating people into revealing information or performing actions by exploiting trust, urgency or authority — attacks that target human behaviour rather than technical systems.",
+     "failure_mode": "Students think cyber security is only about technical defences (firewalls, encryption) and don't recognise that humans are the most commonly exploited vulnerability.",
+     "failure_type": "misconception",
+     "response": "Ask: which is easier to hack — a modern encryption algorithm or a person who trusts an email from their 'boss'? The comparison reframes security as a human problem.",
+     "response_type": "context_breadth"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Multi-factor authentication",
+   "descriptor_code": "AC9TDI8P13",
+   "width_tier": "minimum",
+   "definition": "A security system that requires two or more pieces of proof to log in — usually your password plus something else like a code sent to your phone. Even if someone steals your password, they can't get in without the second factor.",
+   "example": "When your bank asks you to enter a one-time code from an SMS after typing your password, that's MFA — the code is the second factor."
+  },
+  {
+   "term": "Phishing",
+   "descriptor_code": "AC9TDI8P13",
+   "width_tier": "minimum",
+   "definition": "A trick where someone pretends to be a trusted company or person to steal your information — usually through fake emails, texts or websites. Phishing works by exploiting how people behave (trust, urgency, fear), not by hacking technology.",
+   "example": "An email that looks like it's from your bank saying 'Your account will be locked — click here immediately' is likely phishing. The urgency is designed to stop you thinking clearly.",
+   "sub_terms": [
+    {
+     "term": "Social engineering",
+     "definition": "Tricking people into giving up information or doing something by exploiting trust, fear or authority — it targets human behaviour, not computer systems.",
+     "example": "Someone calling and pretending to be IT support asking for your password is social engineering — no hacking required."
+    }
+   ]
+  }
+ ]
+}

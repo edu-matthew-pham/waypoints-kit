@@ -1,0 +1,112 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8K04",
+ "teacher_glossary": [
+  {
+   "term": "Binary",
+   "descriptor_code": "AC9TDI8K04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A base-2 number system using only the digits 0 and 1. Each digit position represents a power of 2 (1, 2, 4, 8, 16, …). Digital systems use binary because electronic components have two reliable states (on/off, high/low voltage), making binary the natural encoding for all computation and data storage.",
+   "failure_mode": "Students can mechanically convert numbers but cannot explain binary place value — they follow a procedure without understanding that each position represents a power of 2.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If binary conversion is a memorised procedure rather than understood through place value, students cannot predict the range of values for a given number of bits (Node 2), reason about overflow, or connect binary representation to data encoding (Node 4).",
+   "response": "Label each column with its power of 2. Ask students to predict the largest number 5 bits can represent, then 6 bits. The power-of-2 pattern should make the prediction possible without converting every number.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Bit",
+   "descriptor_code": "AC9TDI8K04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A single binary digit — 0 or 1. The smallest unit of data in a digital system. 8 bits = 1 byte, which can represent 256 different values (0 to 255). The number of bits determines the range of values that can be represented: n bits gives 2^n possible values.",
+   "failure_mode": "Students confuse the number of bits with the values they represent — 'eight bits means the number 8' rather than '8 bits can represent 256 different values.'",
+   "failure_type": "misconception",
+   "why_it_matters": "The bits-to-range relationship (2^n) is the foundation for understanding why RGB uses values 0–255 (one byte per channel), why 16-bit audio has 65,536 amplitude levels, and why more bits means more precision. Confusing bit count with value breaks all downstream calculations.",
+   "response": "Ask: if 1 bit gives 2 values (0 or 1), and 2 bits give 4 values (00, 01, 10, 11), what does 3 bits give? Build the 2^n pattern by counting rather than memorising.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Byte",
+     "definition": "8 bits. The standard unit for measuring data — can represent 256 values (0–255). One RGB colour channel is one byte; one ASCII character is one byte."
+    }
+   ]
+  },
+  {
+   "term": "Logic gate",
+   "descriptor_code": "AC9TDI8K04",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "A circuit component that performs a Boolean operation on binary inputs. AND gate outputs 1 only when both inputs are 1; OR gate outputs 1 when at least one input is 1. Logic gates are why digital systems use binary — two reliable electronic states (on/off) can be combined through Boolean operations to perform all computation.",
+   "failure_mode": "Students can fill in a truth table but cannot connect logic gates to why computers use binary — they treat gates as an isolated topic rather than the answer to 'why binary?'",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Logic gates are the bridge between the physical (electronic on/off states) and the computational (binary arithmetic, data processing). Without this connection, binary appears arbitrary rather than necessary.",
+   "response": "Ask: why don't computers use base-10? Walk the chain: electronic components have two reliable states → those map to 0/1 → gates combine them → therefore binary. Each step must connect.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "AND gate",
+     "definition": "Outputs 1 only when both inputs are 1. All other input combinations produce 0."
+    },
+    {
+     "term": "OR gate",
+     "definition": "Outputs 1 when at least one input is 1. Only produces 0 when both inputs are 0."
+    },
+    {
+     "term": "Truth table"
+    },
+    {
+     "term": "Boolean"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Binary",
+   "descriptor_code": "AC9TDI8K04",
+   "width_tier": "minimum",
+   "definition": "A counting system that only uses 0 and 1. Computers use binary because their electronic components only have two states — on and off. Each position in a binary number represents a power of 2 (1, 2, 4, 8, 16…) instead of a power of 10.",
+   "example": "The binary number 1101 means 8 + 4 + 0 + 1 = 13 in decimal."
+  },
+  {
+   "term": "Bit",
+   "descriptor_code": "AC9TDI8K04",
+   "width_tier": "minimum",
+   "definition": "A single 0 or 1 — the smallest piece of data a computer can store. Eight bits make a byte. The more bits you have, the more different values you can represent.",
+   "example": "With 1 bit you can represent 2 values (0 or 1). With 8 bits (one byte) you can represent 256 values — that's why RGB colours go from 0 to 255.",
+   "sub_terms": [
+    {
+     "term": "Byte",
+     "definition": "Eight bits grouped together. One byte can represent 256 different values (0 to 255).",
+     "example": "Each colour channel in a pixel (red, green, blue) uses one byte — that's why each goes from 0 to 255."
+    }
+   ]
+  },
+  {
+   "term": "Logic gate",
+   "descriptor_code": "AC9TDI8K04",
+   "width_tier": "typical",
+   "definition": "A tiny circuit that takes binary inputs and produces a binary output based on a rule. AND gates only output 1 when both inputs are 1. OR gates output 1 when at least one input is 1. Logic gates are the building blocks that let computers do calculations using just 0s and 1s.",
+   "example": "Think of an AND gate like a door with two locks — both keys (both inputs = 1) are needed to open it (output = 1).",
+   "sub_terms": [
+    {
+     "term": "AND gate"
+    },
+    {
+     "term": "OR gate"
+    },
+    {
+     "term": "Truth table"
+    },
+    {
+     "term": "Boolean"
+    }
+   ]
+  }
+ ]
+}

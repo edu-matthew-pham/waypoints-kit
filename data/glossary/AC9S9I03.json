@@ -1,0 +1,209 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I03",
+ "teacher_glossary": [
+  {
+   "term": "Precision",
+   "descriptor_code": "AC9S9I03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The degree of exactness of a measurement, determined by the smallest increment the instrument can detect. Precision describes how closely repeated measurements agree with each other and how many significant figures the instrument supports. A more precise instrument provides finer detail — a pipette is more precise than a measuring cylinder for volume measurement.",
+   "failure_mode": "Students confuse precision with accuracy — they think a 'precise' measurement is one that is close to the true value. Precision is about the fineness of the measurement and the consistency of repeated values, not about correctness.",
+   "failure_type": "misconception",
+   "why_it_matters": "If precision means 'correct,' students cannot select equipment based on required measurement detail, cannot explain why a more precise instrument is needed for some investigations, and will record data to arbitrary significant figures unrelated to instrument capability.",
+   "response": "Use the target analogy alongside real instrument comparisons: a cluster of arrows tightly grouped but off-centre is precise but not accurate. Then compare a measuring cylinder (±0.5 mL) with a pipette (±0.05 mL) — ask which is more precise and why it matters for the investigation.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Instrument precision",
+     "definition": "The smallest measurement increment an instrument can reliably detect — determines the maximum number of significant figures that can be recorded from that instrument. A ruler marked in millimetres has a precision of ±0.5 mm."
+    },
+    {
+     "term": "Units",
+     "definition": "Standardised labels for measurement quantities (m, g, s, °C, mL). Recording data without correct units makes it uninterpretable — a value of '45' without units could be grams, millilitres or degrees."
+    }
+   ]
+  },
+  {
+   "term": "Accuracy",
+   "descriptor_code": "AC9S9I03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The closeness of a measured value to the true or accepted value. An accurate measurement is one that correctly represents the quantity being measured. Accuracy is distinct from precision — a set of measurements can be precise (tightly clustered) without being accurate (close to the true value), and vice versa.",
+   "failure_mode": "Students use 'accurate' and 'precise' interchangeably, or think both just mean 'good measurement.' They cannot distinguish a set of measurements that are consistent but wrong (precise, not accurate) from ones that are correct on average but scattered (accurate, not precise).",
+   "failure_type": "misconception",
+   "why_it_matters": "The accuracy-precision distinction determines different improvement strategies: inaccuracy suggests systematic error (fix the method or calibrate the equipment); imprecision suggests random error (take more measurements). Conflating the two prevents students from diagnosing and addressing data quality issues.",
+   "response": "Present four data sets mapped to a target diagram: high accuracy + high precision, high accuracy + low precision, low accuracy + high precision, low accuracy + low precision. Ask students to classify each and identify what would fix each problem — calibration or repetition.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Significant figures",
+   "descriptor_code": "AC9S9I03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The number of meaningful digits in a recorded measurement, reflecting the precision of the instrument used. Recording more significant figures than the instrument supports implies false precision; recording fewer loses available information. The number of significant figures in recorded data should match the instrument's capability.",
+   "failure_mode": "Students record data to arbitrary significant figures — either copying all digits from a calculator (implying false precision) or rounding too aggressively (losing information the instrument actually provided). They do not connect the number of recorded digits to the instrument's precision.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Significant figure errors cascade into analysis and conclusions. Data recorded to false precision cannot be retrospectively corrected, and conclusions drawn from over-precise data appear more certain than the evidence supports — undermining the validity of the entire investigation.",
+   "response": "For each instrument used, ask: 'What is the smallest increment this instrument can measure? How many digits should you record?' Build the habit of checking instrument precision before recording any data value.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Sample size",
+   "descriptor_code": "AC9S9I03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The number of data points, measurements or trials collected in an investigation. Larger sample sizes reduce the effect of random variation on results, producing more reliable data. However, appropriate sample size depends on the investigation context — variability in what is being measured, required confidence, and practical constraints all determine what constitutes a useful sample size.",
+   "failure_mode": "Students default to 'more is always better' without considering what sample size is appropriate for the specific investigation — or they choose a sample size of three because that is the classroom convention, without understanding why three may or may not be sufficient.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If sample size decisions are unjustified, students cannot evaluate whether their data is sufficient to support their conclusions or explain why results from a very small sample are less reliable — the connection between sample size and conclusion confidence is absent.",
+   "response": "Ask students to justify their sample size for a specific investigation: 'Why this number? What would change if you had fewer? More? What practical constraints limit you?' The justification practice builds the reasoning habit.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Data table",
+     "definition": "An organised structure with labelled columns (including units), consistent formatting and space for repeated measurements. The data table is the primary recording tool for investigations — it must be constructed before data collection begins.",
+     "failure_mode": "Students record data in running text, unstructured lists or tables without column headers, units or consistent formatting — the data becomes unusable for analysis because structure was not planned before collection.",
+     "failure_type": "fragile_skill",
+     "response": "Require students to construct the data table before starting the investigation — with columns labelled, units included and space for the planned number of trials. Review the table structure before data collection begins.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Replicability",
+     "definition": "Whether another person can conduct the same investigation and obtain consistent results. Related to reproducibility (AC9S9I02) but emphasised here in the context of whether equipment selection and sample size enable consistent data collection."
+    },
+    {
+     "term": "Data logger",
+     "definition": "A digital tool that automatically records measurements at set intervals, enabling higher-frequency data collection and larger sample sizes than manual recording allows. Data logger settings (sampling rate, scale range) require precision decisions matching the investigation needs."
+    }
+   ]
+  },
+  {
+   "term": "Measuring equipment",
+   "descriptor_code": "AC9S9I03",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The instruments selected to generate and record data in an investigation. Equipment selection at Year 9 is based on the precision required — choosing between instruments that measure the same quantity but to different levels of precision (e.g. measuring cylinder vs. pipette, spring balance vs. electronic balance).",
+   "failure_mode": "Students select equipment based on availability or familiarity rather than the precision required by the investigation — they do not match the instrument to the measurement need.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If equipment selection is arbitrary, the data may lack the precision needed to detect the effect being investigated — small differences that matter for the conclusion become invisible because the instrument cannot resolve them.",
+   "response": "Present two instruments for the same measurement (e.g. 100 mL measuring cylinder vs. 10 mL pipette) and ask: 'Which would you choose to measure exactly 7.5 mL? Why?' The choice makes equipment-precision matching concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Thermometer",
+     "definition": "Instrument for measuring temperature. Laboratory thermometers typically read to ±0.5°C or ±1°C; digital thermometers may provide higher precision."
+    },
+    {
+     "term": "Measuring cylinder",
+     "definition": "Instrument for measuring liquid volume. Available in various sizes with different precisions — a 10 mL cylinder is more precise than a 100 mL cylinder for small volumes."
+    },
+    {
+     "term": "Force meter",
+     "definition": "Instrument for measuring force in newtons. Spring-based force meters have a fixed range and precision determined by the spring constant."
+    },
+    {
+     "term": "Balance",
+     "definition": "Instrument for measuring mass. Electronic balances typically provide higher precision (±0.01 g or ±0.1 g) than beam balances."
+    },
+    {
+     "term": "Stopwatch",
+     "definition": "Instrument for measuring time intervals. Instrument precision is high (±0.01 s) but human reaction time (~0.2 s) is the limiting factor — this is a common example of the difference between instrument precision and measurement precision."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Precision",
+   "descriptor_code": "AC9S9I03",
+   "width_tier": "minimum",
+   "definition": "How exact a measurement is — determined by the smallest unit the instrument can detect. A more precise instrument gives you finer detail. Precision is NOT the same as accuracy — you can be precise (consistent) without being accurate (correct).",
+   "example": "A pipette that measures to ±0.05 mL is more precise than a measuring cylinder that measures to ±0.5 mL — if you need to measure exactly 5.25 mL, you need the pipette.",
+   "sub_terms": [
+    {
+     "term": "Instrument precision",
+     "definition": "The smallest measurement an instrument can reliably detect — this limits how many digits you should record.",
+     "example": "A ruler marked in millimetres has a precision of about ±0.5 mm — you shouldn't record measurements from it to the nearest 0.01 mm."
+    },
+    {
+     "term": "Units",
+     "definition": "Standard labels for measurements like metres, grams, seconds or degrees Celsius. Without units, a number is meaningless.",
+     "example": "Writing '45' tells you nothing. Writing '45°C' tells you it's a temperature. Always include units."
+    }
+   ]
+  },
+  {
+   "term": "Accuracy",
+   "descriptor_code": "AC9S9I03",
+   "width_tier": "minimum",
+   "definition": "How close a measurement is to the actual true value. You can be precise without being accurate — imagine hitting the same wrong spot on a target every time. That's precise but not accurate.",
+   "example": "If the real temperature is 25.0°C and your thermometer reads 24.9°C, 25.1°C and 25.0°C, those measurements are accurate. If it reads 27.0°C, 27.1°C and 26.9°C, they're precise (consistent) but not accurate (all too high)."
+  },
+  {
+   "term": "Significant figures",
+   "descriptor_code": "AC9S9I03",
+   "width_tier": "minimum",
+   "definition": "The number of meaningful digits in a measurement, based on how precise your instrument is. Recording more digits than your instrument can actually measure is claiming false precision — like saying you're 172.456 cm tall when you only used a tape measure marked in centimetres.",
+   "example": "If your balance reads to the nearest 0.1 g, you should record 12.3 g — not 12 g (losing information) or 12.300 g (implying your balance is more precise than it actually is)."
+  },
+  {
+   "term": "Sample size",
+   "descriptor_code": "AC9S9I03",
+   "width_tier": "minimum",
+   "definition": "How many measurements or trials you collect in your investigation. More measurements generally give more reliable results because random variation averages out — but the right sample size depends on what you're investigating and what's practical.",
+   "example": "Measuring the bounce height of a ball 3 times might not show a clear pattern, but measuring it 10 times gives you a much more reliable average — the random variation in each bounce evens out.",
+   "sub_terms": [
+    {
+     "term": "Data table",
+     "definition": "An organised table you set up before your experiment, with labelled columns, units, and space for all your measurements.",
+     "example": "Before starting, set up a table with columns for 'Trial number,' 'Temperature (°C),' and 'Time to dissolve (s)' — don't just write numbers on a page as you go."
+    },
+    {
+     "term": "Replicability",
+     "definition": "Whether someone else doing the same experiment with the same equipment would get similar results.",
+     "example": "If your method is clear enough and your equipment is appropriate, another student should be able to replicate your results — that's replicability."
+    },
+    {
+     "term": "Data logger",
+     "definition": "A digital device that records measurements automatically at set time intervals — useful when you need lots of data points or measurements too fast to record by hand.",
+     "example": "A temperature data logger can record every second during a cooling experiment, giving you hundreds of data points that would be impossible to collect manually."
+    }
+   ]
+  },
+  {
+   "term": "Measuring equipment",
+   "descriptor_code": "AC9S9I03",
+   "width_tier": "typical",
+   "definition": "The instruments you choose to collect data in your investigation. At Year 9, you need to select equipment based on the precision your investigation requires — not just what's available.",
+   "example": "If you need to measure exactly 25.0 mL, a 25 mL pipette is a better choice than a 100 mL measuring cylinder — the pipette gives you the precision you need.",
+   "sub_terms": [
+    {
+     "term": "Thermometer",
+     "definition": "Measures temperature, usually to the nearest 0.5°C or 1°C."
+    },
+    {
+     "term": "Measuring cylinder",
+     "definition": "Measures liquid volume. Smaller cylinders give more precise measurements for small volumes."
+    },
+    {
+     "term": "Force meter",
+     "definition": "Measures force in newtons using a spring mechanism."
+    },
+    {
+     "term": "Balance",
+     "definition": "Measures mass. Electronic balances are typically more precise than beam balances."
+    },
+    {
+     "term": "Stopwatch",
+     "definition": "Measures time intervals. The instrument is very precise, but your reaction time limits the actual precision of the measurement.",
+     "example": "A stopwatch displays hundredths of a second, but your finger takes about 0.2 seconds to react — so your timing is really only precise to about ±0.2 s."
+    }
+   ]
+  }
+ ]
+}

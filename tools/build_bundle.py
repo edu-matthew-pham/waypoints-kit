@@ -47,7 +47,7 @@ The files below are part of this kit. Read the ones that fit what the teacher as
 
 # Paste-in mode can't follow links, so a few references are rewritten.
 REPLACEMENTS = [
-    ("fetch that file and filter by `descriptor_code`", "use it, filtering by `descriptor_code`"),
+    ("(it has its own small file in the table): open it.", "(the teacher may paste it): use it."),
     ("Same four rules as `START-HERE.md`.", "Same four rules as above."),
     ("**Do:** look at `index/glossaries.md`.", "**Do:** pre-built glossaries exist in ACARA Progressions for some standards (Science Y7-10, Digital Technologies Y7-10). If the teacher has pasted one, use it; otherwise draft from the node file."),
 ]

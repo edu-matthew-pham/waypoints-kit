@@ -1,0 +1,179 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P08",
+ "teacher_glossary": [
+  {
+   "term": "Ideation",
+   "descriptor_code": "AC9TDI10P08",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of generating multiple design ideas using structured techniques — such as mind mapping, graphic organisers, role-play, or generative AI prompting — before evaluating any of them. The goal is to produce genuinely different approaches to the problem, not variations of the same idea.",
+   "failure_mode": "Students generate variations of their first idea rather than genuinely different approaches — all ideas share the same underlying concept with surface-level differences.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If all ideas share the same concept, evaluation has no real alternatives to compare — the process becomes confirming the first idea rather than genuinely selecting the best approach.",
+   "response": "After generating ideas, ask students to categorise them: if two ideas use the same approach, they count as one. Require at least two approaches, not just two ideas. The categorisation reveals whether ideation produced genuine variety.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Ideation technique",
+     "definition": "A structured method for generating ideas — including mind mapping, graphic organisers, role-play, SCAMPER, and generative AI prompting. Different techniques tend to produce different kinds of ideas.",
+     "failure_mode": "Students use only one technique (typically brainstorming) and produce a narrow range of ideas.",
+     "failure_type": "narrow_repertoire",
+     "response": "Require two different techniques and compare what each produced. The comparison reveals how technique choice shapes the ideas generated.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Generative AI (ideation)",
+     "definition": "Using AI model outputs as inspiration or starting points for design ideation — not as direct solutions. The human creative decision is what to do with the AI's output, not the output itself.",
+     "failure_mode": "Students use AI output as their solution rather than as input for their own creative decisions.",
+     "failure_type": "fragile_skill",
+     "response": "Require students to document what the AI generated and what they changed, added, or rejected. The documentation makes the human creative contribution visible.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Design evaluation",
+   "descriptor_code": "AC9TDI10P08",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The process of critically comparing design ideas against specific design criteria and user stories to determine which ideas best address the problem. Design evaluation uses evidence (does this design meet criterion X?), not preference (do I like this design?).",
+   "failure_mode": "Students evaluate designs by personal preference rather than against criteria — they choose the design they like best rather than the one that best meets the requirements.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Preference-based evaluation produces modifications without design rationale — students cannot justify decisions at communication stage and cannot explain why their chosen design is better for the user.",
+   "response": "For each design, require a criteria-by-criteria assessment: does this design meet criterion 1? Evidence? Criterion 2? Evidence? The structured assessment prevents preference from masquerading as evaluation.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Trade-off (design)",
+     "definition": "A situation where meeting one design criterion weakens another — for example, adding security features (meets privacy criteria) increases complexity (weakens usability criteria). Recognising trade-offs is essential for making informed design decisions.",
+     "failure_mode": "Students don't recognise trade-offs — they assume a good design meets all criteria equally well, and are surprised when improving one aspect weakens another.",
+     "failure_type": "flawed_reasoning",
+     "response": "Present a design change that improves one criterion and worsens another. Ask: is this change worth it? For whom? The trade-off question builds the habit of considering competing requirements.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Design evaluation matrix",
+     "definition": "A structured table comparing design ideas against criteria, often with scores or ratings for each idea–criterion pair. Useful for systematic comparison but can oversimplify by reducing qualitative judgements to numbers."
+    }
+   ]
+  },
+  {
+   "term": "Design iteration",
+   "descriptor_code": "AC9TDI10P08",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The cycle of modifying a design based on evaluation findings, testing the modification, and evaluating again. Each iteration should address specific weaknesses identified in evaluation — modifications without a rationale are not iterations.",
+   "failure_mode": "Students modify designs randomly or based on personal preference rather than connecting each change to a specific evaluation finding — the modification is not grounded in evidence.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Ungrounded modifications cannot be justified — at communication stage, students cannot explain why changes were made or whether they improved the design.",
+   "response": "For each modification, require: what evaluation finding does this address? What specific change was made? Did the change improve performance against the relevant criterion? The three-part documentation grounds iteration in evidence.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Design modification",
+     "definition": "A specific change to a design made to address a weakness identified through evaluation or stakeholder feedback."
+    }
+   ]
+  },
+  {
+   "term": "Design communication",
+   "descriptor_code": "AC9TDI10P08",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Presenting the preferred design and its rationale to stakeholders using appropriate representations — mockups, diagrams, written specifications. Effective design communication explains not just what the design is, but why it was chosen over alternatives and how it meets the design criteria.",
+   "failure_mode": "Students present designs without explaining why they were chosen — they show the final design but cannot articulate what alternatives were considered or why this design best meets the criteria.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Design communication without rationale prevents stakeholder buy-in and makes the design unjustifiable — if challenged, the designer cannot defend their choices.",
+   "response": "Require presentations to include: at least one alternative that was considered, why the chosen design is better against the criteria, and one trade-off that was accepted. The structure ensures communication includes rationale, not just visuals.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Design rationale",
+     "definition": "The reasoning behind design choices — explaining why specific decisions were made, what alternatives were considered, and what criteria drove the selection."
+    },
+    {
+     "term": "Design specification",
+     "definition": "A document describing a design in sufficient detail that another person could implement it without further clarification."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Ideation",
+   "descriptor_code": "AC9TDI10P08",
+   "width_tier": "minimum",
+   "definition": "Coming up with lots of different ideas before picking one. The key is generating genuinely different approaches, not just tweaking the same idea.",
+   "example": "For a school event app, different approaches might be: a social media-style feed, a calendar with push notifications, or a map-based interface. Those are different approaches, not just colour variations.",
+   "sub_terms": [
+    {
+     "term": "Ideation technique",
+     "definition": "A specific method for generating ideas — like mind mapping, role-play, or brainstorming with sticky notes.",
+     "example": "Mind mapping starts with the problem in the centre and branches out into related ideas — different from listing ideas in order."
+    },
+    {
+     "term": "Generative AI (ideation)",
+     "definition": "Using AI tools like ChatGPT to generate starting ideas that you then develop, modify, or reject — the AI is an input, not the solution.",
+     "example": "You might ask an AI for 10 app ideas for school events, then pick the most interesting three and redesign them with your own creative decisions."
+    }
+   ]
+  },
+  {
+   "term": "Design evaluation",
+   "descriptor_code": "AC9TDI10P08",
+   "width_tier": "minimum",
+   "definition": "Comparing your design ideas against your design criteria and user stories to figure out which one actually solves the problem best — based on evidence, not just which one you like more.",
+   "example": "If your criteria include 'accessible to screen readers' and one design uses only images with no alt text, it fails that criterion — no matter how good it looks.",
+   "sub_terms": [
+    {
+     "term": "Trade-off (design)",
+     "definition": "When improving one aspect of a design weakens another — like adding more security steps making the system slower to use.",
+     "example": "Making a password requirement more complex improves security but makes it harder for users to log in — that's a trade-off."
+    },
+    {
+     "term": "Design evaluation matrix",
+     "definition": "A table that scores each design idea against each criterion, helping you compare them systematically.",
+     "example": "A matrix might rate three design ideas on usability, accessibility, and privacy — each scored 1-5 — to see which scores highest overall."
+    }
+   ]
+  },
+  {
+   "term": "Design iteration",
+   "descriptor_code": "AC9TDI10P08",
+   "width_tier": "minimum",
+   "definition": "The cycle of evaluating your design, making targeted improvements based on what you found, and evaluating again. Each change should be connected to a specific problem you identified.",
+   "example": "Evaluation revealed users couldn't find the search button → you moved it to the top of the screen → re-tested and users found it immediately. That's one iteration.",
+   "sub_terms": [
+    {
+     "term": "Design modification",
+     "definition": "A specific change you make to your design to fix a problem found during evaluation.",
+     "example": "Moving the navigation menu from the bottom to the top because testing showed users looked there first."
+    }
+   ]
+  },
+  {
+   "term": "Design communication",
+   "descriptor_code": "AC9TDI10P08",
+   "width_tier": "minimum",
+   "definition": "Presenting your final design to stakeholders — showing not just what it is, but why you chose it over the alternatives and how it meets the design criteria.",
+   "example": "A presentation that shows your app design alongside the two alternatives you rejected, explaining which criteria each met and why yours was the best overall fit.",
+   "sub_terms": [
+    {
+     "term": "Design rationale",
+     "definition": "The reasons behind your design choices — why you made each decision and what you considered.",
+     "example": "'We chose a single-page layout because usability testing showed users got lost across multiple pages.'"
+    },
+    {
+     "term": "Design specification",
+     "definition": "A detailed document describing your design clearly enough that someone else could build it without asking you questions.",
+     "example": "A spec might include screen layouts, data fields, user flows, colour codes, and font choices — everything a developer needs."
+    }
+   ]
+  }
+ ]
+}

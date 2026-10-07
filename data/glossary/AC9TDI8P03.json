@@ -1,0 +1,118 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P03",
+ "teacher_glossary": [
+  {
+   "term": "Structured data",
+   "descriptor_code": "AC9TDI8P03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Data organised into a consistent format where each record has the same defined attributes (fields). Objects or events are modelled as rows in a table, with columns representing attributes. The choice of which attributes to include is driven by what questions the data needs to answer — irrelevant attributes add noise; missing attributes make queries impossible.",
+   "failure_mode": "Students list attributes without connecting them to the purpose of the data — they include every possible attribute rather than selecting those relevant to the question being answered.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Tables with irrelevant attributes cannot be queried meaningfully — students create data models that answer no question because they were designed to answer every question. Purpose-driven attribute selection is the foundation of database design.",
+   "response": "Give students the same object (e.g. a canteen product) modelled for two different purposes (nutritional analysis vs sales tracking). Ask why the attribute lists differ. Purpose must drive selection.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Attribute",
+     "definition": "A defined property of an object or event that is recorded in a data model — a column in a table. Attributes have names and data types (text, number, date)."
+    },
+    {
+     "term": "Record",
+     "definition": "A single instance of an object or event in a structured dataset — one row in a table, containing values for each defined attribute."
+    },
+    {
+     "term": "Database"
+    },
+    {
+     "term": "Spreadsheet"
+    },
+    {
+     "term": "Data type"
+    }
+   ]
+  },
+  {
+   "term": "SQL",
+   "descriptor_code": "AC9TDI8P03",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "Structured Query Language — a formal language for querying and manipulating data in databases. At Year 7–8, students use SELECT (which columns to return), WHERE (which rows to filter) and ORDER BY (how to sort results). SQL queries translate a question into a precise instruction that returns exactly the data needed to answer it.",
+   "failure_mode": "Students write queries by trial and error — trying combinations of keywords until something works — rather than reasoning from the question to the query structure.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Trial-and-error querying produces results without understanding. Students cannot verify whether a query is correct because they don't know what it should return. The translation chain (question → column → condition → sort) must be deliberate.",
+   "response": "Before writing SQL, ask students to state in plain English: what do I want to find? Which column? Which condition? What order? Then translate each answer to SQL. The translation must be explicit.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "SELECT"
+    },
+    {
+     "term": "WHERE"
+    },
+    {
+     "term": "ORDER BY"
+    },
+    {
+     "term": "Query",
+     "definition": "A formal request for specific data from a database. A query defines what data to return and what conditions to apply."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Structured data",
+   "descriptor_code": "AC9TDI8P03",
+   "width_tier": "minimum",
+   "definition": "Data organised into a consistent table format where each row is one item and each column is a specific piece of information about it. The columns you choose depend on what questions you want to answer.",
+   "example": "A canteen product table might have columns for product name, price, quantity sold, and sugar content — each product is one row.",
+   "sub_terms": [
+    {
+     "term": "Attribute",
+     "definition": "A specific piece of information about an item — one column in your table.",
+     "example": "For a product, 'price' is one attribute and 'sugar content' is another."
+    },
+    {
+     "term": "Record",
+     "definition": "One complete item in your table — one row with values for every column.",
+     "example": "One row in the canteen table might be: 'Muffin, $3.50, 45 sold, 22g sugar'."
+    },
+    {
+     "term": "Database"
+    },
+    {
+     "term": "Spreadsheet"
+    }
+   ]
+  },
+  {
+   "term": "SQL",
+   "descriptor_code": "AC9TDI8P03",
+   "width_tier": "typical",
+   "definition": "A language for asking questions about data stored in a database. You tell the database which columns you want (SELECT), which rows to include (WHERE), and what order to show them in (ORDER BY).",
+   "example": "SELECT product_name, price FROM canteen WHERE sugar > 20 ORDER BY price — this finds all high-sugar products sorted by price.",
+   "sub_terms": [
+    {
+     "term": "SELECT"
+    },
+    {
+     "term": "WHERE"
+    },
+    {
+     "term": "ORDER BY"
+    },
+    {
+     "term": "Query",
+     "definition": "A question you ask a database, written in a specific format so the database knows exactly what data to return.",
+     "example": "A query is like a very precise question: not 'what's the cheapest thing?' but 'SELECT product_name FROM canteen WHERE price = (SELECT MIN(price) FROM canteen)'."
+    }
+   ]
+  }
+ ]
+}

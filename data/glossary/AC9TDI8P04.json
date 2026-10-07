@@ -1,0 +1,88 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P04",
+ "teacher_glossary": [
+  {
+   "term": "Problem framing",
+   "descriptor_code": "AC9TDI8P04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Defining a problem in terms of what is known, why it matters, and what a successful outcome looks like — before any solution is proposed. In a Mode B design cycle, the problem frame shapes every downstream phase: decomposition, user stories, design and evaluation. A weak frame produces solutions to the wrong problem.",
+   "failure_mode": "Students jump to solution ideas without first defining the problem — they describe what they want to build rather than what problem exists and why it matters.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Every downstream phase flows from the problem frame. Decompositions that solve the wrong problem, user stories disconnected from defined needs, and designs that cannot be evaluated all trace back to absent or weak framing.",
+   "response": "Before any design discussion, require three written sentences: what is known, why it matters, what success looks like. If students skip any, ask: could you evaluate your final solution against this frame?",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Decomposition",
+   "descriptor_code": "AC9TDI8P04",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Breaking a defined problem into smaller, manageable sub-problems that can be addressed individually. Effective decomposition identifies dependencies — which sub-problems must be solved before others. The decomposition structure shapes both the design process and the final solution.",
+   "failure_mode": "Students list tasks to complete rather than identifying genuine sub-problems — the decomposition reads as a to-do list rather than a problem analysis.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "A to-do list has no dependencies or rationale — it cannot guide design decisions or be evaluated for completeness. Genuine decomposition asks 'what must be solved?' not 'what must be done?'",
+   "response": "Give students a decomposition and a task list for the same problem. Ask which one would help them know if the problem is fully solved.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "User story",
+   "descriptor_code": "AC9TDI8P04",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A short statement that captures a user's need in a standard format: 'As a [user type], I want [goal], so that [reason].' User stories translate sub-problems into user-centred requirements and serve as design criteria — each story defines something the solution must satisfy. Different user types may have conflicting needs, requiring design trade-offs.",
+   "failure_mode": "Students write user stories as a format exercise — filling in the template without connecting stories to the sub-problems they decomposed or using them to drive design decisions.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Disconnected user stories are decorative — they don't guide design. User stories should be the bridge between problem decomposition and design criteria. If the connection is absent, stories and designs drift apart.",
+   "response": "After writing user stories, ask students to trace each story back to a sub-problem. Any story that doesn't connect to a sub-problem is either unnecessary or indicates a gap in the decomposition.",
+   "response_type": "integration"
+  },
+  {
+   "term": "Design criteria",
+   "descriptor_code": "AC9TDI8P04",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Specific, testable requirements that a solution must satisfy. Design criteria derive from the problem frame and user stories — they define what success looks like in measurable terms. Criteria enable systematic evaluation: a solution either meets, partially meets, or fails to meet each criterion.",
+   "failure_mode": "Students state criteria as vague aspirations ('it should be good') rather than testable requirements ('it must load within 3 seconds on a mobile connection').",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Vague criteria cannot be evaluated — 'good' is a judgment, not a test. Without testable criteria, evaluation at P08 and P10 becomes personal preference rather than systematic assessment.",
+   "response": "For each criterion, ask: how would you test whether the solution meets this? If the answer is 'I'd just look at it', the criterion is not testable enough.",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Problem framing",
+   "descriptor_code": "AC9TDI8P04",
+   "width_tier": "minimum",
+   "definition": "Clearly defining a problem before trying to solve it — what do we know, why does it matter, and what would success look like? How you frame the problem shapes what kind of solution you'll build.",
+   "example": "The same canteen issue could be framed as 'students don't like the food' (leading to taste surveys) or 'the food isn't nutritious enough' (leading to nutritional analysis) — different frames, different solutions."
+  },
+  {
+   "term": "Decomposition",
+   "descriptor_code": "AC9TDI8P04",
+   "width_tier": "minimum",
+   "definition": "Breaking a big problem into smaller, manageable parts that can be worked on separately. Good decomposition identifies which parts depend on each other — some things have to be solved before others.",
+   "example": "Building a recipe app could decompose into: search for recipes, filter by dietary needs, display cooking steps, save favourites. Filtering can't work until search does."
+  },
+  {
+   "term": "User story",
+   "descriptor_code": "AC9TDI8P04",
+   "width_tier": "minimum",
+   "definition": "A short sentence that captures what a user needs from your solution: 'As a [type of user], I want [goal], so that [reason].' User stories guide your design — every feature should connect to a user story.",
+   "example": "'As a student with allergies, I want to filter recipes by allergen, so that I can safely choose what to cook.'"
+  },
+  {
+   "term": "Design criteria",
+   "descriptor_code": "AC9TDI8P04",
+   "width_tier": "minimum",
+   "definition": "Specific requirements your solution must meet. Good criteria are testable — you can check whether the solution meets them or not, rather than just saying it's 'good enough.'",
+   "example": "'The app must load in under 3 seconds on a school device' is a testable criterion. 'The app should be fast' is not."
+  }
+ ]
+}

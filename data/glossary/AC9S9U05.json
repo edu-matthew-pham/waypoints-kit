@@ -1,0 +1,126 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U05",
+ "teacher_glossary": [
+  {
+   "term": "Conservation of energy",
+   "descriptor_code": "AC9S9U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The law stating that energy cannot be created or destroyed — only transferred between objects or transformed from one form to another. The total energy in a closed system remains constant. 'Wasted' energy is not lost; it is transferred to the environment, typically as heat or sound, and becomes unavailable for useful work.",
+   "failure_mode": "Students believe energy is 'used up' or 'disappears' during transformations — they think a light bulb 'consumes' energy rather than transforming electrical energy into light and heat, with the total remaining constant.",
+   "failure_type": "misconception",
+   "why_it_matters": "If energy is consumed, efficiency cannot be defined as a ratio (you cannot divide useful output by total input if some input 'vanishes'). Conservation is the law the entire standard applies — every efficiency calculation and Sankey diagram depends on total energy being conserved.",
+   "response": "Present a system where energy appears to vanish (bouncing ball loses height each bounce). Ask: where did the energy go? Trace it to heat and sound. Then ask: is the total energy before the first bounce equal to the total energy after the last bounce? (Yes — if you include the heat and sound.) The accounting exercise makes conservation concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Energy transfer",
+     "definition": "Energy moving from one object or location to another without changing form — e.g. heat flowing from a hot object to a cold one. The particle model (conduction, convection) and wave model (radiation) describe transfer mechanisms."
+    },
+    {
+     "term": "Energy transformation",
+     "definition": "Energy changing from one form to another — e.g. electrical to light in a bulb, chemical to kinetic in muscles. In every transformation, total energy is conserved but some is transformed into less useful forms (typically heat)."
+    },
+    {
+     "term": "Wasted energy",
+     "definition": "Energy transferred to the environment in a form that is not useful for the intended purpose — typically heat and sound. Wasted energy is not destroyed (conservation still holds); it is dissipated into the surroundings and becomes unavailable for useful work.",
+     "failure_mode": "Students think 'wasted' energy is a design flaw that better engineering could eliminate — they do not understand that some energy dissipation as heat is thermodynamically inevitable in any real energy transformation.",
+     "failure_type": "misconception",
+     "response": "Ask: can you design a light bulb with zero heat output? (No — some electrical energy will always become heat.) Even an LED, the most efficient option, still wastes ~60% as heat. The 'even the best' framing reveals inevitability rather than poor design.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Efficiency",
+   "descriptor_code": "AC9S9U05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The proportion of total energy input that is converted to useful output energy, calculated as: efficiency = useful output ÷ total input (expressed as a fraction or percentage). No real system achieves 100% efficiency because some energy is always transferred as heat, sound or other non-useful forms. Efficiency is a measure of how well a system converts input energy into useful output — not a measure of total energy.",
+   "failure_mode": "Students confuse efficiency with total output — they think a system that produces more output is more efficient, regardless of how much input it required. A 100W bulb is not more efficient than a 10W LED just because it produces more total light.",
+   "failure_type": "misconception",
+   "why_it_matters": "If efficiency equals output quantity, students cannot evaluate systems comparatively (the descriptor's 'analyse system efficiency' demand). A coal power station produces more electricity than a solar panel but is less efficient — the ratio, not the quantity, is the analytical tool.",
+   "response": "Present two systems with different total outputs but different efficiencies (e.g. incandescent bulb: 100J in, 5J light, 95J heat = 5% vs LED: 10J in, 4J light, 6J heat = 40%). Ask: which produces more light? (Incandescent.) Which is more efficient? (LED.) Why? The comparison separates output quantity from output proportion.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Useful output",
+     "definition": "The energy a system converts into the form intended for its purpose — light from a lamp, motion from an engine, heat from a heater. All other energy outputs are 'wasted.'",
+     "failure_mode": "Students misidentify which energy output is 'useful' — they count heat from a light bulb as useful because it can be felt, or count sound from a motor as useful because it is noticeable. The useful output depends on the system's PURPOSE, not on whether the output is detectable.",
+     "failure_type": "fragile_skill",
+     "response": "Ask: a light bulb produces light and heat. Which is useful? (Light — that's the purpose.) A heater produces heat and light (the glow). Which is useful NOW? (Heat — the purpose changed.) The same output can be useful or wasted depending on purpose.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Total input",
+     "definition": "All the energy supplied to a system before any transformation — the denominator in the efficiency calculation. By conservation of energy, total input equals total output (useful + wasted)."
+    }
+   ]
+  },
+  {
+   "term": "Sankey diagram",
+   "descriptor_code": "AC9S9U05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A flow diagram that represents energy inputs, useful outputs and wasted energy in a system, using arrow widths proportional to energy quantities. The input arrow on the left splits into a useful output arrow (continuing forward) and wasted energy arrows (branching off, typically downward). Sankey diagrams make conservation of energy visible — the total width of all output arrows equals the input arrow width.",
+   "failure_mode": "Students read arrow direction but not arrow width — they treat Sankey diagrams as qualitative flow charts rather than quantitative representations where width encodes energy amount. They identify where energy goes but not how much goes to each output.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "The Sankey diagram's value is quantitative — it shows efficiency visually (useful arrow width ÷ input arrow width). Students who read it qualitatively cannot read efficiency from the diagram, cannot construct diagrams from data, and lose the tool's analytical power.",
+   "response": "Give students a Sankey diagram and ask: what proportion of the input arrow width becomes useful output? Require them to measure or estimate widths. Then ask them to calculate efficiency from the widths. The width-reading exercise establishes the quantitative convention.",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Conservation of energy",
+   "descriptor_code": "AC9S9U05",
+   "width_tier": "minimum",
+   "definition": "Energy can never be created or destroyed — it can only be transferred from one place to another or transformed from one type to another. When energy seems to 'disappear' (like a ball bouncing lower each time), it has actually been transferred to the environment as heat and sound.",
+   "example": "A bouncing ball loses height each bounce — but the energy hasn't vanished. It's been transferred to heat (the ball and floor warm up slightly) and sound (you hear the bounce). The total energy is the same; it's just spread out.",
+   "sub_terms": [
+    {
+     "term": "Energy transfer",
+     "definition": "Energy moving from one object to another — like heat flowing from a hot mug to your cold hands."
+    },
+    {
+     "term": "Energy transformation",
+     "definition": "Energy changing type — like a battery's chemical energy becoming light energy in a torch.",
+     "example": "When you turn on a light, electrical energy transforms into light energy and heat energy — the total stays the same."
+    },
+    {
+     "term": "Wasted energy",
+     "definition": "Energy that ends up as heat or sound instead of doing the useful job — it's not 'lost,' it's just no longer useful.",
+     "example": "A car engine converts only about 25% of petrol's energy into motion — the other 75% becomes heat. That heat isn't destroyed; it's just wasted."
+    }
+   ]
+  },
+  {
+   "term": "Efficiency",
+   "descriptor_code": "AC9S9U05",
+   "width_tier": "minimum",
+   "definition": "How much of the energy you put into a system actually does the useful job — calculated as useful output ÷ total input. No real system is 100% efficient because some energy always ends up as heat or sound. Efficiency is about proportion, not total amount.",
+   "example": "An LED bulb might be 40% efficient (40% of electrical energy becomes light, 60% becomes heat). An old incandescent bulb is only 5% efficient (95% becomes heat). The LED is more efficient even though an incandescent might produce more total light if given more power.",
+   "sub_terms": [
+    {
+     "term": "Useful output",
+     "definition": "The energy that does what the system is designed to do — light from a lamp, movement from a motor."
+    },
+    {
+     "term": "Total input",
+     "definition": "All the energy going into the system — by conservation of energy, this always equals useful output plus wasted energy."
+    }
+   ]
+  },
+  {
+   "term": "Sankey diagram",
+   "descriptor_code": "AC9S9U05",
+   "width_tier": "minimum",
+   "definition": "A special flow diagram where arrow width shows how much energy goes where. A thick arrow comes in from the left (total input), and it splits into arrows for useful output and wasted energy — the thicker the useful arrow compared to the input, the more efficient the system.",
+   "example": "In a Sankey diagram for a light bulb, a wide input arrow splits into a thin useful-light arrow and a much wider heat arrow — you can see at a glance that most energy is wasted as heat."
+  }
+ ]
+}

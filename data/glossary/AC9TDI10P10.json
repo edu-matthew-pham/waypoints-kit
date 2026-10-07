@@ -1,0 +1,157 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P10",
+ "teacher_glossary": [
+  {
+   "term": "Evidence-based evaluation",
+   "descriptor_code": "AC9TDI10P10",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The process of assessing a digital solution against its design criteria using specific evidence — test results, user feedback, performance measurements — rather than personal opinion. Evaluation findings drive modification decisions and must be traceable to criteria established in the design process.",
+   "failure_mode": "Students evaluate by personal preference rather than against criteria — they describe what they like about the solution without connecting assessments to specific requirements or evidence.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Preference-based evaluation cannot guide systematic improvement — without evidence tied to criteria, modifications are arbitrary and the solution may meet the developer's taste without meeting user needs.",
+   "response": "For each evaluation claim, require: which criterion does this address? What evidence supports the claim? The two-part requirement prevents preference from replacing evidence.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Safety by Design",
+     "definition": "An evaluation framework that treats user safety as a design criterion from the outset — not an afterthought. Safety by Design considers how a system could be misused, what harms could result, and what safeguards should be embedded in the design.",
+     "failure_mode": "Students treat safety as an optional add-on rather than a design requirement — they evaluate functionality and aesthetics but don't consider potential harms.",
+     "failure_type": "narrow_repertoire",
+     "response": "Ask: how could this system be misused? What's the worst that could happen? What safeguards are built in? The harm-first questions surface safety as a design dimension.",
+     "response_type": "repertoire_building"
+    }
+   ]
+  },
+  {
+   "term": "Unintended consequence",
+   "descriptor_code": "AC9TDI10P10",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "An outcome of a digital system that was not planned or anticipated by its designers — which may be positive, negative, or neutral. Evaluating unintended consequences requires considering how the system might be used beyond its intended purpose, how different user groups might be affected, and what data-driven decisions the system enables.",
+   "failure_mode": "Students only consider intended outcomes — they don't think beyond the design's purpose to consider how the system might affect users, communities, or groups it wasn't designed for.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Many significant harms from digital systems are unintended — facial recognition that works poorly for certain demographics, recommendation algorithms that amplify misinformation, data collection that enables surveillance. Students who cannot anticipate unintended consequences cannot evaluate digital systems critically.",
+   "response": "Present a successful digital system and ask: who benefits? Who might be harmed? What could this data be used for beyond its stated purpose? The stakeholder-harm analysis surfaces unintended consequences systematically.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Training data bias (consequence)",
+     "definition": "When biased training data produces a model whose outputs systematically disadvantage certain groups — an unintended consequence of homogeneous or unrepresentative data collection.",
+     "failure_mode": "Students don't connect training data composition to biased outputs — they see the bias as a bug rather than a predictable consequence of the data.",
+     "failure_type": "fragmentation",
+     "response": "Show a model that performs well for one demographic and poorly for another. Ask: what was in the training data? What was missing? The performance gap reveals the training data cause.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Data privacy implication",
+     "definition": "An unintended way that collected data could be used to identify, profile, or harm individuals beyond the system's stated purpose.",
+     "failure_mode": "Students don't consider secondary uses of data — they evaluate privacy only against the stated purpose without imagining how data could be combined or repurposed.",
+     "failure_type": "narrow_repertoire",
+     "response": "Present a dataset and ask: what could you learn about individuals by combining this with other publicly available data? The combination exercise reveals how seemingly harmless data becomes identifying.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Low-probability event",
+     "definition": "An unlikely but high-impact scenario that a digital system should still account for — such as edge cases in autonomous vehicle decision-making."
+    }
+   ]
+  },
+  {
+   "term": "Enterprise (digital)",
+   "descriptor_code": "AC9TDI10P10",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process of adapting a digital solution for use by a new or broader audience beyond its original users. Enterprise involves identifying opportunities to extend a product's value, adapting it for different user groups, and evaluating whether the adaptation addresses genuine needs.",
+   "failure_mode": "Students treat enterprise as 'marketing' — they focus on promoting the existing solution rather than adapting it for a genuinely different user group with different needs.",
+   "failure_type": "misconception",
+   "why_it_matters": "Enterprise without adaptation produces a solution that claims to serve new users but doesn't meet their actual needs — the design criteria for the new audience must be established through the same stakeholder-driven process.",
+   "response": "Identify a new user group and conduct stakeholder interviews with them. Ask: what would need to change for this solution to work for you? The interview data reveals adaptation requirements rather than marketing talking points.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "User group",
+     "definition": "A specific category of users who share similar needs, contexts, or characteristics — such as primary school students, elderly users, or users with visual impairments."
+    }
+   ]
+  },
+  {
+   "term": "Pivot",
+   "descriptor_code": "AC9TDI10P10",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "A significant change in a digital product's purpose, audience, or approach — informed by evaluation evidence that the original direction is not meeting user needs. A pivot is not a minor modification but a fundamental redirection based on evidence.",
+   "failure_mode": "Students treat any design change as a pivot — they don't distinguish between iterative modifications (small adjustments within the same approach) and pivots (fundamental changes in direction).",
+   "failure_type": "misconception",
+   "why_it_matters": "Understanding pivots as evidence-driven fundamental changes helps students recognise when small modifications are insufficient and a larger strategic change is needed.",
+   "response": "Present a case study of a real product pivot (e.g. Slack pivoting from a game to a communication tool). Ask: what evidence drove the change? How is this different from a small update? The real-world case makes the distinction between iteration and pivot concrete.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Evidence-based evaluation",
+   "descriptor_code": "AC9TDI10P10",
+   "width_tier": "minimum",
+   "definition": "Judging how well your solution works by checking it against your design criteria with actual evidence — test results, user feedback, measurements — not just whether you personally like it.",
+   "example": "Instead of saying 'the app looks good,' evidence-based evaluation says 'criterion 3 required page load under 3 seconds — testing showed average load time of 2.1 seconds, so this criterion is met.'",
+   "sub_terms": [
+    {
+     "term": "Safety by Design",
+     "definition": "Building safety into your system from the start — thinking about how it could be misused and adding safeguards before problems happen.",
+     "example": "A social media app designed with Safety by Design might include content filters and reporting tools from day one, not after users are harmed."
+    }
+   ]
+  },
+  {
+   "term": "Unintended consequence",
+   "descriptor_code": "AC9TDI10P10",
+   "width_tier": "minimum",
+   "definition": "Something that happens because of your system that you didn't plan for — it could be helpful, harmful, or just unexpected. Good evaluation thinks about these before they happen.",
+   "example": "A school app that shows assignment completion rates might unintentionally create social pressure or anxiety — even though it was designed to help students track progress.",
+   "sub_terms": [
+    {
+     "term": "Training data bias (consequence)",
+     "definition": "When a machine learning model is unfair because the data it learned from wasn't representative — it works well for some people but poorly for others.",
+     "example": "A hiring AI trained mostly on data from male applicants might unfairly rank female applicants lower — not because it was told to, but because the training data was biased."
+    },
+    {
+     "term": "Data privacy implication",
+     "definition": "Ways your collected data could be used to identify or harm people beyond what you originally intended.",
+     "example": "A fitness app that tracks running routes could reveal users' home addresses if that data were leaked or combined with other information."
+    },
+    {
+     "term": "Low-probability event",
+     "definition": "Something unlikely but serious that your system should still handle — a rare scenario with big consequences.",
+     "example": "A self-driving car might almost never encounter a pedestrian on a highway, but it still needs to handle that scenario safely."
+    }
+   ]
+  },
+  {
+   "term": "Enterprise (digital)",
+   "descriptor_code": "AC9TDI10P10",
+   "width_tier": "minimum",
+   "definition": "Taking a digital solution and adapting it for a new group of users — not just promoting it, but actually changing it to meet their different needs.",
+   "example": "An app built for Year 10 students studying science might be adapted for Year 7 students by simplifying the language, adding more scaffolding, and changing the content level.",
+   "sub_terms": [
+    {
+     "term": "User group",
+     "definition": "A category of people who share similar needs — like 'Year 7 students', 'teachers', or 'users with low vision.'",
+     "example": "The same study app might need completely different designs for its two user groups: students (who need flashcards) and teachers (who need analytics)."
+    }
+   ]
+  },
+  {
+   "term": "Pivot",
+   "descriptor_code": "AC9TDI10P10",
+   "width_tier": "typical",
+   "definition": "A big change in direction for a product — not just tweaking features, but fundamentally changing who it's for or what it does, based on evidence that the original approach isn't working.",
+   "example": "Slack started as a video game, but the team noticed their internal chat tool was more useful than the game itself — so they pivoted to become a communication platform."
+  }
+ ]
+}

@@ -1,0 +1,152 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9S9I07",
+ "teacher_glossary": [
+  {
+   "term": "Evidence-based argument",
+   "descriptor_code": "AC9S9I07",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "An argument in which a claim is supported by evidence from multiple evaluated sources, with the credibility and relevance of each source explicitly assessed. At Year 9, an evidence-based argument must draw on at least two sources and explain how the evidence collectively supports the conclusion — not just list sources alongside a claim.",
+   "failure_mode": "Students construct arguments from a single source or list multiple sources without evaluating their credibility — the argument becomes 'I found this' rather than 'this evidence from these credible sources supports this claim because...' Description of sources replaces argument that uses them.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "An argument from one source or from unevaluated sources cannot distinguish a well-supported claim from an opinion. If students cannot construct multi-source, credibility-evaluated arguments, the capstone inquiry skill collapses — all their investigation, analysis and evaluation work has no vehicle for expression.",
+   "response": "Scaffold the argument structure explicitly: 'Claim → Evidence 1 (credibility basis, how it supports) → Evidence 2 (credibility basis, how it supports) → how they work together to make the case stronger than either alone.' Require students to complete this structure before writing the argument in prose.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Counter-argument",
+     "definition": "An argument that opposes the main claim, drawing on evidence that supports a different conclusion. Addressing counter-arguments strengthens an evidence-based argument by demonstrating that opposing positions have been considered and responded to.",
+     "failure_mode": "Students present counter-arguments as straw men — stating the weakest possible version of the opposing position and dismissing it, rather than engaging with the strongest evidence against their claim.",
+     "failure_type": "flawed_reasoning",
+     "response": "Require students to state the strongest counter-argument they can find — the one most difficult for their claim to survive. Then ask how their evidence addresses it. If they cannot address the strongest counter-argument, they need more evidence or a more qualified claim.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Relevance",
+     "definition": "Whether evidence actually supports the specific claim being made, as opposed to being about the same general topic but not addressing the claim directly. Relevant evidence speaks to the claim; related evidence is about the same topic but does not advance the argument."
+    },
+    {
+     "term": "Claim",
+     "definition": "A statement about the natural world that requires evidence to support it. In scientific argument, a claim is distinct from a fact (established beyond reasonable doubt) and from an opinion (not evidence-dependent). Claims are what arguments are built to support or evaluate."
+    }
+   ]
+  },
+  {
+   "term": "Ethical issues in data use",
+   "descriptor_code": "AC9S9I07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Moral considerations associated with accessing, using and citing secondary data — including data privacy (not using data that could identify individuals), correct attribution (properly citing sources and acknowledging contributions), and relevance (not using data out of context to support claims it was not intended to support). Distinct from ethical issues in investigation design (AC9S9I02).",
+   "failure_mode": "Students treat ethics in data use as limited to plagiarism — they do not recognise data privacy and relevance as separate ethical concerns. Attribution is understood as 'don't copy,' but the broader responsibility of ethical data handling is absent.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If ethics means only 'don't plagiarise,' students will use data containing personal information without recognising the harm, cite data out of its original context to support unintended claims, and miss the broader professional responsibility scientists have when handling others' data.",
+   "response": "Present three scenarios: one involving personal data, one involving incorrect attribution, one involving data used out of context. Ask students to identify the ethical issue in each — the range prevents ethics from collapsing into a single concern.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Citation",
+     "definition": "The formal acknowledgment of the source of data or ideas used in an argument. Correct citation credits the original researchers and allows others to verify the evidence. At Year 9, citation is an ethical obligation, not just an academic convention.",
+     "failure_mode": "Students treat citation as a formatting requirement rather than an ethical obligation — they cite to avoid getting in trouble rather than to credit contributors and enable verification.",
+     "failure_type": "misconception",
+     "response": "Frame citation as answering: 'If someone wanted to check this evidence, could they find the original?' and 'Have the people who did this work been credited?' The verification and credit framing shifts citation from compliance to purpose.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Data privacy",
+     "definition": "The obligation to ensure that secondary data used in an argument does not contain information that could identify individuals or cause them harm — particularly relevant when using survey data, health data or community-level information."
+    }
+   ]
+  },
+  {
+   "term": "Cultural protocols",
+   "descriptor_code": "AC9S9I07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The practices and principles that govern appropriate access to, use of, and engagement with First Nations knowledges. Cultural protocols include acknowledging the source community, obtaining appropriate permission before using knowledge, recognising the co-contributions of Indigenous knowledge and contemporary science, and avoiding misrepresentation or extraction of knowledge without attribution.",
+   "failure_mode": "Students treat First Nations knowledge as contextual decoration — mentioning it as background rather than engaging with it as substantive evidence that requires specific protocols for respectful use.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If Indigenous knowledge is decorative, students both disrespect the knowledge systems involved and miss genuine opportunities to integrate rich evidence into their arguments. Cultural protocols exist to enable genuine engagement, not to restrict it.",
+   "response": "Present a case where First Nations knowledge has been genuinely integrated into a scientific argument (e.g. traditional fire management informing contemporary bushfire research). Ask students to identify what protocols were followed and what made the integration respectful rather than extractive.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Co-contribution",
+     "definition": "The recognition that First Nations knowledges and contemporary science can each contribute to shared understandings — neither is subordinate to the other. In argument construction, co-contribution means presenting Indigenous knowledge as evidence in its own right, not as context for Western science."
+    },
+    {
+     "term": "Misrepresentation",
+     "definition": "Presenting knowledge inaccurately, out of context, or in a way that distorts its meaning or significance. Misrepresentation of First Nations knowledges includes using concepts without understanding their full cultural context or attributing meaning that the knowledge holders would not recognise."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Evidence-based argument",
+   "descriptor_code": "AC9S9I07",
+   "width_tier": "minimum",
+   "definition": "An argument where your claim is backed up by evidence from multiple trustworthy sources. You need to explain why your sources are credible and how the evidence supports your specific claim — not just list what you found.",
+   "example": "Instead of 'vaccines work because I read it online,' a strong argument says: 'Multiple peer-reviewed studies with large sample sizes have found vaccination reduces infection rates by 80–95%. These studies were conducted independently in different countries, making the combined evidence strong.'",
+   "sub_terms": [
+    {
+     "term": "Counter-argument",
+     "definition": "The strongest argument against your claim. Addressing it shows you've considered the other side — but you need to engage with it properly, not just dismiss it.",
+     "example": "If you're arguing that renewable energy should replace coal, a fair counter-argument is that renewable energy is intermittent (the sun doesn't always shine). Address it by discussing battery storage — don't just say 'but coal is bad.'"
+    },
+    {
+     "term": "Relevance",
+     "definition": "Whether your evidence actually supports the specific claim you're making, rather than just being about the same general topic.",
+     "example": "If you're arguing that exercise improves mental health, a study about exercise improving cardiovascular fitness is related but not directly relevant — you need evidence specifically about mental health outcomes."
+    },
+    {
+     "term": "Claim",
+     "definition": "A statement about the world that needs evidence to back it up. In science, a claim is different from a fact (already proven) and an opinion (not based on evidence) — it is something you're arguing is true based on your evidence.",
+     "example": "'Vaccination reduces infection rates' is a scientific claim — it requires evidence to support it. 'Vaccines were developed in the 18th century' is a fact. 'I don't like needles' is an opinion."
+    }
+   ]
+  },
+  {
+   "term": "Ethical issues in data use",
+   "descriptor_code": "AC9S9I07",
+   "width_tier": "minimum",
+   "definition": "Questions about right and wrong when using other people's data — including whether the data contains personal information, whether you've properly credited the source, and whether you're using it in the way it was intended.",
+   "example": "If you use survey data about health in your community, you need to make sure individual people can't be identified from the data, you credit the researchers who collected it, and you don't use it to claim something the data doesn't actually show.",
+   "sub_terms": [
+    {
+     "term": "Citation",
+     "definition": "Formally crediting where your evidence came from. It is not just a formatting rule — it is about giving credit and letting others verify your evidence.",
+     "example": "If you use data from a CSIRO report, cite it so the reader can find the original report and check the data for themselves."
+    },
+    {
+     "term": "Data privacy",
+     "definition": "Making sure the data you use doesn't reveal personal information about individuals that could cause harm.",
+     "example": "If a survey includes people's names, addresses or health conditions, you can't include those details in your argument — the data needs to be anonymised."
+    }
+   ]
+  },
+  {
+   "term": "Cultural protocols",
+   "descriptor_code": "AC9S9I07",
+   "width_tier": "minimum",
+   "definition": "The rules and practices for respectfully using First Nations knowledges in science. This means acknowledging the community the knowledge comes from, getting appropriate permission, and treating the knowledge as valuable evidence — not just background decoration.",
+   "example": "If you're writing about how traditional fire management reduces bushfire risk, you should acknowledge the specific First Nations communities whose knowledge this comes from, and present it as genuine evidence alongside scientific studies — not as a footnote.",
+   "sub_terms": [
+    {
+     "term": "Co-contribution",
+     "definition": "Recognising that First Nations knowledge and Western science can both contribute to understanding — neither one is 'better' than the other.",
+     "example": "Traditional ecological knowledge about seasonal animal behaviour and scientific population studies can both contribute to conservation — co-contribution means using both as evidence."
+    },
+    {
+     "term": "Misrepresentation",
+     "definition": "Presenting someone's knowledge inaccurately or out of context — a particular concern when using First Nations knowledges.",
+     "example": "Taking a specific practice from one community and describing it as 'what all Aboriginal people do' is misrepresentation — it generalises and distorts the knowledge."
+    }
+   ]
+  }
+ ]
+}

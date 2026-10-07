@@ -1,0 +1,250 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U02",
+ "teacher_glossary": [
+  {
+   "term": "Gamete",
+   "descriptor_code": "AC9S9U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A reproductive cell specialised for sexual reproduction — sperm (male) and egg (female) in animals, pollen and ovule in plants. Gametes are structurally adapted for their function: sperm are small, motile and produced in large numbers; eggs are large, nutrient-rich and produced in small numbers. The structure-function principle from AC9S8U01 applies directly — each gamete feature serves a reproductive purpose.",
+   "failure_mode": "Students treat gametes as interchangeable undifferentiated cells — they do not connect the structural differences between sperm and egg to their distinct reproductive functions, and cannot explain why millions of sperm are needed but only one egg.",
+   "failure_type": "misconception",
+   "why_it_matters": "Form-function relationships in gametes are the foundation for understanding reproductive organ systems (N2) and fertilisation success (N3). Students who cannot explain WHY sperm are small and motile while eggs are large and stationary cannot analyse reproductive strategies as survival trade-offs.",
+   "response": "Present sperm and egg side by side with structural features labelled. For each feature, ask: what does this feature enable the gamete to do? The function-from-form reasoning makes each feature purposeful rather than arbitrary.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Sperm",
+     "definition": "The male gamete — small, motile, produced in very large numbers. Structural features (tail for motility, streamlined head, mitochondria for energy) are adaptations for reaching and fusing with the egg.",
+     "failure_mode": "Students know sperm swim but cannot connect structural features (tail, mitochondria, streamlined shape) to the function of reaching the egg — they describe features without explaining their purpose.",
+     "failure_type": "fragmentation",
+     "response": "For each sperm feature (tail, mitochondria, streamlined head), ask: what would happen if this feature were missing? The loss-of-function thought experiment makes each feature's role concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Egg",
+     "definition": "The female gamete — large, immobile, nutrient-rich, produced in small numbers. The large size provides energy and nutrients for early embryo development; immobility means the sperm must travel to it.",
+     "failure_mode": "Students think eggs are large 'because they just are' rather than connecting size to the function of providing nutrients for early development.",
+     "failure_type": "fragmentation",
+     "response": "Ask: why does the egg need to be so much larger than the sperm? What does the extra size contain? (Nutrients and energy stores for early development.) The size difference has a functional explanation.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Pollen",
+     "definition": "The male reproductive structure in plants, containing male gametes. Pollen grains are adapted for dispersal — by wind (small, light, produced in huge quantities) or by insects (sticky, larger, with attractant features).",
+     "failure_mode": "Students know pollen exists but cannot connect pollen form to dispersal function — they do not explain why wind-pollinated pollen (small, light, smooth, produced in vast quantities) differs from insect-pollinated pollen (sticky, spiky, larger, with colour/scent attractants).",
+     "failure_type": "fragmentation",
+     "response": "Show images of wind-pollinated and insect-pollinated pollen grains side by side. Ask: which is designed for wind? How can you tell? The structural comparison applies the same form-function reasoning established for sperm and egg.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Ovule",
+     "definition": "The female reproductive structure in plants, containing the egg cell. After fertilisation, the ovule develops into a seed."
+    }
+   ]
+  },
+  {
+   "term": "Reproductive organ",
+   "descriptor_code": "AC9S9U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A structure that is part of the reproductive system, serving gamete production, gamete transport, or fertilisation. Animal reproductive organs form integrated systems where each structure supports a step in the gamete pathway. Plant reproductive organs (stamen, carpel) are located within the flower and support pollination and fertilisation.",
+   "failure_mode": "Students list reproductive organs as isolated parts rather than understanding them as an integrated system — they name structures but cannot explain how they work together to achieve fertilisation.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor requires students to 'describe the form and function of reproductive organs.' Function means how each organ contributes to the system's purpose. Students who list parts without connecting them to the reproductive sequence cannot meet the 'function' demand.",
+   "response": "Trace the gamete pathway through the system: production → maturation → transport → fertilisation. For each step, ask: which organ performs this step? The pathway-tracing approach gives structure to what would otherwise be a parts list.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Stamen",
+     "definition": "The male reproductive organ of a flower, consisting of the anther (produces pollen) and filament (supports the anther). The stamen's form supports pollen production and dispersal.",
+     "failure_mode": "Students confuse the stamen (male, produces pollen) with the carpel (female, contains ovules) — they cannot reliably assign male and female labels to plant reproductive structures.",
+     "failure_type": "fragile_skill",
+     "response": "Link to the gamete form-function from N1: stamen produces pollen (male gamete carrier) → stamen is male. Carpel contains ovules (female gamete) → carpel is female. The gamete connection makes the assignment logical rather than memorised.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Carpel",
+     "definition": "The female reproductive organ of a flower, consisting of the stigma (receives pollen), style (pollen tube pathway) and ovary (contains ovules). The carpel's form supports pollen capture, fertilisation and seed development."
+    },
+    {
+     "term": "Ovary",
+     "definition": "The structure in plants (within the carpel) or animals that contains and protects the egg cells or ovules. After fertilisation in plants, the ovary develops into the fruit."
+    }
+   ]
+  },
+  {
+   "term": "Sexual reproduction",
+   "descriptor_code": "AC9S9U02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Reproduction involving the fusion of gametes from two parents to produce offspring that are genetically unique. Sexual reproduction is slower, costlier and produces fewer offspring than asexual reproduction, but generates genetic variation — the key survival advantage. Variation means some offspring are likely to survive even if environmental conditions change.",
+   "failure_mode": "Students understand that sexual reproduction produces variation but treat variation as a byproduct rather than as the adaptive advantage — they say 'offspring are different' without connecting this to survival under changing conditions.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "The variation-survival link is the conceptual core of the descriptor's 'analyse how reproduction enables survival' demand. Without it, students cannot compare sexual and asexual strategies in terms of survival trade-offs (N5), and the analysis reduces to listing differences rather than evaluating advantages.",
+   "response": "Present a scenario: a population faces a new disease. Ask: which population is more likely to have some survivors — one where all offspring are identical, or one where every offspring is genetically different? The scenario makes variation's survival value concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Fertilisation",
+     "definition": "The fusion of a male and female gamete to form a new cell (zygote) that will develop into an offspring. Fertilisation combines genetic material from two parents, producing a genetically unique organism. Can be internal (within the body) or external (outside the body, e.g. in water).",
+     "failure_mode": "Students equate fertilisation with sexual reproduction itself — they think 'fertilisation' and 'sexual reproduction' are synonyms, missing that fertilisation is one step (gamete fusion) within a larger process that includes gamete production, transfer and development.",
+     "failure_type": "misconception",
+     "response": "Ask: is pollination the same as fertilisation? (No — pollination is transfer; fertilisation is fusion.) Is fertilisation the same as reproduction? (No — reproduction includes everything from gamete production through to offspring development.) The step-within-a-process framing prevents the conflation.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Genetic variation",
+   "descriptor_code": "AC9S9U02",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Differences in genetic makeup among offspring, arising from the random combination of gametes during sexual reproduction. Genetic variation is the mechanism by which a species hedges against environmental change — in a varied population, some individuals are more likely to have traits suited to new conditions. Genetic variation is the link between sexual reproduction and species survival.",
+   "failure_mode": "Students state that sexual reproduction produces variation but cannot explain WHY variation helps survival — they treat 'different offspring' as an observation rather than a survival mechanism.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Without the variation-survival connection, the comparison between sexual and asexual reproduction in N5 reduces to a feature list rather than a survival analysis. The descriptor says 'analyse how the processes enable survival' — analyse requires a causal mechanism, not just a description.",
+   "response": "Run a simple simulation: 10 identical organisms face a new challenge (only organisms with trait X survive). Zero survive. Repeat with 10 varied organisms — some have trait X and survive. The survival difference makes variation's function visible.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Asexual reproduction",
+   "descriptor_code": "AC9S9U02",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Reproduction involving a single parent, producing offspring that are genetically identical to the parent. Asexual reproduction is faster, less costly and produces more offspring than sexual reproduction, making it advantageous for rapid colonisation in stable environments. The trade-off: genetic uniformity means the entire population is vulnerable if conditions change. Strategies include binary fission (bacteria), budding (yeast, hydra), fragmentation (starfish), and vegetative reproduction (plants).",
+   "failure_mode": "Students think asexual reproduction is 'simpler and worse' than sexual reproduction — they do not recognise that it is an adaptive strategy with genuine advantages (speed, efficiency) in specific environmental contexts.",
+   "failure_type": "misconception",
+   "why_it_matters": "If asexual reproduction is inferior, students cannot analyse it as a survival strategy with context-dependent advantages — the 'analyse' demand requires evaluating each strategy on its merits, not ranking them.",
+   "response": "Present a stable, resource-rich environment and ask: which strategy colonises it faster — producing genetically identical offspring rapidly, or producing varied offspring slowly? The rapid-colonisation scenario reveals asexual reproduction's genuine advantage.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Binary fission",
+     "definition": "Asexual reproduction in single-celled organisms where the cell divides into two genetically identical daughter cells. Extremely rapid — some bacteria can divide every 20 minutes.",
+     "failure_mode": "Students confuse binary fission with mitosis — they treat both as 'cell division' without distinguishing that binary fission is reproduction (producing a new organism) while mitosis is growth or repair within a multicellular organism.",
+     "failure_type": "misconception",
+     "response": "Ask: when a bacterium divides by binary fission, how many organisms exist afterwards? (Two.) When a skin cell divides by mitosis, how many organisms exist? (Still one.) Binary fission produces new organisms; mitosis produces new cells within the same organism.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Budding",
+     "definition": "Asexual reproduction where a new organism grows as an outgrowth of the parent and eventually separates — used by yeast and hydra."
+    },
+    {
+     "term": "Vegetative reproduction",
+     "definition": "Asexual reproduction in plants using non-reproductive structures — runners (strawberries), tubers (potatoes), bulbs (onions). Produces genetically identical plants rapidly.",
+     "failure_mode": "Students do not recognise vegetative reproduction as reproduction — they classify runners, tubers and bulbs as 'just growing' rather than as a reproductive strategy producing genetically identical new organisms.",
+     "failure_type": "misconception",
+     "response": "Ask: if a strawberry plant sends out a runner that roots and grows into a new plant, how many organisms are there now? (Two.) Is the new plant genetically identical to the parent? (Yes.) Then this IS reproduction — a new organism was produced. The organism-count question reframes growth as reproduction.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Fragmentation",
+     "definition": "Asexual reproduction where an organism breaks into pieces and each piece regenerates into a complete organism — used by starfish and some worms."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Gamete",
+   "descriptor_code": "AC9S9U02",
+   "width_tier": "minimum",
+   "definition": "A special cell made for reproduction — sperm (male) and egg (female) in animals, pollen and ovule in plants. Each gamete's shape and features are designed for its specific job in reproduction.",
+   "example": "Sperm cells have tails for swimming and are tiny; egg cells are much larger because they carry nutrients for the developing embryo — each feature has a purpose.",
+   "sub_terms": [
+    {
+     "term": "Sperm",
+     "definition": "The male reproductive cell — small, with a tail for swimming, packed with mitochondria for energy. Produced in millions because most don't reach the egg.",
+     "example": "A sperm cell is about 1/20th the size of an egg — it doesn't need to carry nutrients, just genetic material and enough energy to reach the egg."
+    },
+    {
+     "term": "Egg",
+     "definition": "The female reproductive cell — much larger than sperm because it's packed with nutrients and energy stores that the embryo needs in its first days of development.",
+     "example": "A chicken's egg yolk is actually a single huge cell — the yolk is the nutrient store that feeds the developing chick."
+    },
+    {
+     "term": "Pollen",
+     "definition": "The plant equivalent of sperm — tiny grains that carry male genetic material, designed to be carried by wind or insects to reach the female part of another flower."
+    },
+    {
+     "term": "Ovule",
+     "definition": "The plant equivalent of an egg — found inside the flower's ovary, it develops into a seed after fertilisation."
+    }
+   ]
+  },
+  {
+   "term": "Reproductive organ",
+   "descriptor_code": "AC9S9U02",
+   "width_tier": "minimum",
+   "definition": "A body part that helps produce, transport or protect gametes, or support fertilisation. These organs work together as a system — each one handles a different step in the reproductive process.",
+   "example": "In a flower, the stamen produces pollen, the stigma catches it, the style provides a pathway, and the ovary protects the ovules — each organ does one job in the chain.",
+   "sub_terms": [
+    {
+     "term": "Stamen",
+     "definition": "The male part of a flower that produces pollen grains on the anther at its tip."
+    },
+    {
+     "term": "Carpel",
+     "definition": "The female part of a flower — includes the stigma (catches pollen), style (pollen tube grows through it) and ovary (contains ovules)."
+    },
+    {
+     "term": "Ovary",
+     "definition": "The part of the plant or animal that contains and protects egg cells. In plants, the ovary becomes the fruit after fertilisation."
+    }
+   ]
+  },
+  {
+   "term": "Sexual reproduction",
+   "descriptor_code": "AC9S9U02",
+   "width_tier": "minimum",
+   "definition": "Reproduction that involves two parents combining their genetic material to produce offspring that are genetically unique. It's slower and uses more energy than asexual reproduction, but the payoff is variation — different offspring have different traits, so some are likely to survive even if conditions change.",
+   "example": "Siblings from the same parents look different because each one received a random combination of genes — that variation means the family isn't wiped out if one disease strikes.",
+   "sub_terms": [
+    {
+     "term": "Fertilisation",
+     "definition": "When a sperm and egg (or pollen and ovule) join together, combining genetic material from both parents to make a new, genetically unique organism.",
+     "example": "In fish, fertilisation happens outside the body — the female releases eggs into the water and the male releases sperm over them."
+    }
+   ]
+  },
+  {
+   "term": "Genetic variation",
+   "descriptor_code": "AC9S9U02",
+   "width_tier": "minimum",
+   "definition": "The genetic differences between offspring produced by sexual reproduction. Because each offspring gets a random mix of genes from both parents, every individual is genetically unique. This variation is the reason sexual reproduction helps species survive — when conditions change, some individuals are more likely to have the right traits.",
+   "example": "If a new disease appears, a population of genetically varied individuals might include some who are naturally resistant — a population of identical clones would have no such insurance."
+  },
+  {
+   "term": "Asexual reproduction",
+   "descriptor_code": "AC9S9U02",
+   "width_tier": "minimum",
+   "definition": "Reproduction using only one parent, producing offspring that are genetically identical copies. It's faster and uses less energy than sexual reproduction, which makes it great for quickly filling a stable environment — but the downside is that if conditions change, every individual is equally vulnerable.",
+   "example": "A strawberry plant sends out runners that grow into new plants — each one is a genetic clone, produced quickly without needing pollen from another plant.",
+   "sub_terms": [
+    {
+     "term": "Binary fission",
+     "definition": "How bacteria reproduce — the cell splits into two identical copies. Some bacteria can do this every 20 minutes.",
+     "example": "One bacterium can become over a million in just 10 hours through binary fission — that's the speed advantage of asexual reproduction."
+    },
+    {
+     "term": "Budding",
+     "definition": "A new organism grows as a little bump on the parent and eventually breaks off — like yeast cells growing a mini-me."
+    },
+    {
+     "term": "Vegetative reproduction",
+     "definition": "When plants reproduce without seeds — using runners (strawberries), tubers (potatoes), or bulbs (onions) to make genetically identical new plants."
+    },
+    {
+     "term": "Fragmentation",
+     "definition": "When an organism breaks into pieces and each piece grows into a complete new organism — some starfish can regenerate from a single arm."
+    }
+   ]
+  }
+ ]
+}

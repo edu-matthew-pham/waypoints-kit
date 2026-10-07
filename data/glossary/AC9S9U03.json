@@ -1,0 +1,232 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "9"
+ ],
+ "descriptor_code": "AC9S9U03",
+ "teacher_glossary": [
+  {
+   "term": "Earth's spheres",
+   "descriptor_code": "AC9S9U03",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "The four interacting components of the Earth system: geosphere (solid Earth — rocks, soil, minerals), biosphere (all living organisms), hydrosphere (all water — oceans, rivers, ice), and atmosphere (the layer of gases). The four-sphere framework is the structural scaffold for the carbon cycle — each process in the cycle moves carbon between specific spheres.",
+   "failure_mode": "Students cannot locate processes in specific spheres — they treat photosynthesis, combustion and respiration as events without identifying which spheres are involved, preventing them from representing carbon movement as sphere-to-sphere flows.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The four-sphere framework is the structural scaffold the carbon cycle diagram depends on. Students who cannot assign processes to spheres cannot represent carbon flows as directional arrows between spheres in N3–N5, and cannot explain what 'sphere interaction' means.",
+   "response": "Give students a list of processes (photosynthesis, respiration, combustion, dissolution, volcanic eruption) and ask them to identify which sphere the carbon starts in and which sphere it moves to. The two-sphere identification for each process builds the flow-diagram thinking the carbon cycle requires.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Geosphere",
+     "definition": "The solid Earth — rocks, soil, minerals, fossil fuel deposits, carbonate rock. Carbon is stored in the geosphere as fossil fuels (coal, oil, gas) and carbonate rocks (limestone) over geological timescales."
+    },
+    {
+     "term": "Biosphere",
+     "definition": "All living organisms and organic matter. Carbon enters the biosphere through photosynthesis and leaves through respiration and decomposition.",
+     "failure_mode": "Students include only living organisms in the biosphere and exclude dead organic matter — leaf litter, soil humus, dead wood. This means they underestimate the biosphere's carbon store and cannot explain where decomposition fits in the carbon cycle.",
+     "failure_type": "misconception",
+     "response": "Ask: a fallen tree in a forest — is it in the biosphere? (Yes — it's organic matter, even though it's dead.) What happens to its carbon? (Decomposers respire it back to atmosphere.) The dead-material inclusion reveals the biosphere as a carbon store, not just a collection of living things.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Hydrosphere",
+     "definition": "All water on Earth — oceans, rivers, lakes, ice. The ocean is a major carbon store, absorbing CO₂ from the atmosphere and holding dissolved carbon.",
+     "failure_mode": "Students forget the ocean as a carbon store — they focus on atmospheric CO₂ and fossil fuels but omit dissolved ocean carbon, which is the largest actively cycling store. This produces incomplete carbon cycle diagrams missing a major reservoir.",
+     "failure_type": "fragile_skill",
+     "response": "Ask: where does about a quarter of human CO₂ emissions end up? (Dissolved in the ocean.) Present a carbon cycle diagram without the ocean and ask what's missing. The omission exercise makes the hydrosphere's role visible.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Atmosphere",
+     "definition": "The layer of gases surrounding Earth. Carbon is stored in the atmosphere primarily as CO₂. Atmospheric CO₂ concentration is the variable most directly affected by combustion and deforestation."
+    }
+   ]
+  },
+  {
+   "term": "Carbon cycle",
+   "descriptor_code": "AC9S9U03",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The continuous movement of carbon between Earth's four spheres through biological, chemical and geological processes. Carbon is neither created nor destroyed — it moves between stores (atmosphere, biosphere, hydrosphere, geosphere) at different rates. The carbon cycle diagram is the representation the descriptor explicitly demands.",
+   "failure_mode": "Students think of the carbon cycle as a linear sequence (carbon goes from A to B to C) rather than a cycle with multiple simultaneous pathways — they cannot represent the cycle as a diagram with arrows running in multiple directions between multiple spheres.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the carbon cycle is linear, students cannot explain how carbon returns to stores it left, cannot represent multiple simultaneous flows in a diagram, and cannot analyse how human activity perturbs one flow without understanding what other flows are operating at the same time.",
+   "response": "Build the cycle incrementally: start with one flow (photosynthesis: atmosphere → biosphere). Add its reverse (respiration: biosphere → atmosphere). Then add combustion (geosphere → atmosphere). At each step, ask: does the diagram show carbon flowing in only one direction? (No — multiple arrows, multiple directions.) The incremental build makes the multi-directional nature visible.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Carbon store",
+     "definition": "A location where carbon accumulates and is held — atmospheric CO₂, dissolved ocean carbon, organic matter in living and dead organisms, fossil fuels, and carbonate rocks. Stores differ in size and timescale: atmospheric carbon cycles in years; fossil fuel carbon is stored for millions of years.",
+     "failure_mode": "Students treat all carbon stores as equivalent — they do not distinguish fast-cycling stores (atmospheric CO₂, living organisms) from slow stores (fossil fuels, carbonate rock) and therefore cannot explain why releasing fossil fuel carbon is a net perturbation while burning wood is not.",
+     "failure_type": "misconception",
+     "response": "Compare two stores: CO₂ in the atmosphere (cycles through in years) vs carbon in coal (stored for 300 million years). Ask: if you add carbon from each store to the atmosphere, which one was the atmosphere already cycling? The timescale distinction explains why fossil fuel combustion perturbs the cycle.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Carbon sequestration",
+     "definition": "The process of capturing and storing carbon, removing it from the atmosphere. Natural sequestration occurs through photosynthesis (biosphere) and ocean absorption (hydrosphere). Technological sequestration attempts to accelerate or supplement natural processes.",
+     "failure_mode": "Students think carbon sequestration is only technological — carbon capture machines and underground storage — and miss that natural sequestration (photosynthesis by forests, absorption by oceans) is vastly larger and already operating.",
+     "failure_type": "misconception",
+     "response": "Ask: what is the biggest carbon sequestration system on Earth? (The ocean, absorbing ~25% of CO₂ emissions, and terrestrial photosynthesis.) Then: is planting trees sequestration? (Yes — natural sequestration.) The scale comparison reframes sequestration as primarily natural.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Photosynthesis",
+   "descriptor_code": "AC9S9U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process by which plants use light energy to convert CO₂ and water into glucose and oxygen. In the carbon cycle, photosynthesis moves carbon from the atmosphere to the biosphere — it is the primary biological mechanism that removes CO₂ from the air and stores it as organic carbon in living tissue.",
+   "failure_mode": "Students know photosynthesis as a cellular process but cannot reframe it as a sphere-crossing carbon flow — they describe what happens inside a cell without locating the carbon movement between atmosphere and biosphere.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor requires representing the carbon cycle as sphere interactions. Students who cannot locate photosynthesis as an atmosphere → biosphere flow cannot draw the corresponding arrow on a carbon cycle diagram, and cannot explain why deforestation increases atmospheric CO₂ (removing the biosphere's CO₂-absorption capacity).",
+   "response": "Ask students to trace a carbon atom: where does the carbon start? (CO₂ in the atmosphere.) Where does it end up after photosynthesis? (Glucose in the plant — biosphere.) Draw the arrow. The atom-tracing exercise reframes the cellular process as a sphere flow.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Respiration",
+   "descriptor_code": "AC9S9U03",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process by which organisms release energy from glucose, producing CO₂ and water. In the carbon cycle, respiration moves carbon from the biosphere to the atmosphere — it is the reverse carbon flow to photosynthesis. All living organisms respire — including plants — making respiration a continuous, universal carbon flow.",
+   "failure_mode": "Students confuse respiration with breathing — they think only animals respire and that respiration is the act of inhaling and exhaling rather than a cellular chemical process that releases CO₂.",
+   "failure_type": "misconception",
+   "why_it_matters": "If only animals respire, the carbon cycle is incomplete — plant respiration is a significant biosphere → atmosphere flow. Students who equate respiration with breathing cannot represent the full cycle or explain why ecosystems produce CO₂ even without animals.",
+   "response": "Ask: do plants respire? (Yes — all living cells respire, including plant cells.) Then: if plants photosynthesise AND respire, what determines whether a forest is a net carbon sink or source? The dual-process question forces the distinction between breathing and cellular respiration.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Decomposition",
+     "definition": "The breakdown of dead organic matter by bacteria and fungi, releasing CO₂ to the atmosphere. Decomposition is biologically a form of respiration — microorganisms respire using the dead material as their energy source. In the carbon cycle, decomposition returns carbon from the biosphere to the atmosphere.",
+     "failure_mode": "Students treat decomposition as a fundamentally different process from respiration — they recognise that animals respire but do not classify decomposition as microbial respiration using dead organic matter as the energy source.",
+     "failure_type": "misconception",
+     "response": "Ask: what are decomposers doing with the dead material? (Using it as food — breaking it down for energy.) What process releases energy from food and produces CO₂? (Respiration.) So decomposition IS respiration — just performed by microorganisms on dead matter. The reclassification unifies the two carbon flows.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Combustion",
+   "descriptor_code": "AC9S9U03",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A chemical reaction in which a substance reacts rapidly with oxygen, releasing heat and light, and producing CO₂ and water. In the carbon cycle, combustion of fossil fuels moves carbon from the geosphere to the atmosphere — releasing carbon that was sequestered over millions of years in a matter of hours. Human industrial and transport combustion is the primary perturbation to the natural carbon cycle.",
+   "failure_mode": "Students treat fossil fuel combustion as equivalent to burning wood — they do not recognise that fossil fuel carbon was removed from the cycle millions of years ago, so burning it adds new carbon to the actively cycling pool rather than recycling recently fixed carbon.",
+   "failure_type": "misconception",
+   "why_it_matters": "The timescale distinction is why fossil fuel combustion perturbs the carbon cycle while wood burning does not (in a replanted forest). Students who miss this cannot explain why atmospheric CO₂ is rising — the answer is that carbon stored on geological timescales is being released on human timescales, faster than natural processes can re-absorb it.",
+   "response": "Compare two combustion events: burning a log (carbon fixed by photosynthesis 50 years ago) vs burning coal (carbon fixed 300 million years ago). Ask: which adds 'new' carbon to the atmospheric pool? The timescale comparison reveals why fossil fuel combustion is a net addition while biomass burning can be carbon-neutral.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Fossil fuel",
+     "definition": "A carbon-rich material (coal, oil, natural gas) formed from ancient organisms buried and compressed over millions of years. Fossil fuels represent carbon removed from the active cycle and stored in the geosphere on geological timescales.",
+     "failure_mode": "Students think fossil fuels formed from dinosaurs — the word 'fossil' triggers the association. In fact, coal formed primarily from ancient plant matter (Carboniferous forests) and oil/gas from marine microorganisms. The misconception matters because it obscures the photosynthetic origin of fossil carbon.",
+     "failure_type": "misconception",
+     "response": "Ask: coal is mostly carbon from what kind of ancient organism? (Plants — giant ferns and trees from 300 million years ago.) What process originally captured that carbon from the atmosphere? (Photosynthesis.) The photosynthesis connection ties fossil fuel formation back to the carbon cycle.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Greenhouse effect",
+   "descriptor_code": "AC9S9U03",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The process by which greenhouse gases (primarily CO₂, CH₄, H₂O) in the atmosphere absorb and re-emit infrared radiation emitted by Earth's surface, warming the lower atmosphere. At Year 9, the greenhouse effect is introduced as the mechanism connecting increased atmospheric CO₂ (from combustion) to increased heat retention — the link between carbon cycle perturbation and climate change.",
+   "failure_mode": "Students know 'CO₂ causes global warming' as a fact without understanding the mechanism — they cannot explain how CO₂ traps heat or locate the greenhouse effect within the carbon cycle's sphere interactions.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without the mechanism, students cannot explain why increasing CO₂ concentration increases warming, cannot connect carbon cycle perturbation to climate consequences, and arrive at Year 10 (AC9S10U04) without the foundation for energy balance reasoning.",
+   "response": "Trace the energy flow: sunlight in → absorbed by surface → surface emits infrared → CO₂ absorbs and re-emits some infrared back down → surface receives extra energy. Then ask: what happens to this process if more CO₂ is added? The flow-tracing makes the mechanism visible.",
+   "response_type": "structured_reasoning"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Earth's spheres",
+   "descriptor_code": "AC9S9U03",
+   "width_tier": "minimum",
+   "definition": "The four big parts of the Earth system that interact with each other: the geosphere (rocks and soil), biosphere (living things), hydrosphere (water), and atmosphere (air). Carbon moves between all four of these.",
+   "example": "A tree (biosphere) absorbs CO₂ from the air (atmosphere), and when it dies and is buried, the carbon can end up in rock or coal (geosphere) — carbon doesn't stay in one place.",
+   "sub_terms": [
+    {
+     "term": "Geosphere",
+     "definition": "The solid Earth — rocks, soil, minerals, and fossil fuels buried underground."
+    },
+    {
+     "term": "Biosphere",
+     "definition": "All living things — plants, animals, fungi, bacteria."
+    },
+    {
+     "term": "Hydrosphere",
+     "definition": "All the water on Earth — oceans, rivers, lakes, and ice."
+    },
+    {
+     "term": "Atmosphere",
+     "definition": "The layer of gases around Earth — where CO₂ and other gases are found."
+    }
+   ]
+  },
+  {
+   "term": "Carbon cycle",
+   "descriptor_code": "AC9S9U03",
+   "width_tier": "minimum",
+   "definition": "The continuous movement of carbon between Earth's four spheres through processes like photosynthesis, respiration and combustion. Carbon isn't created or destroyed — it just moves from one store to another.",
+   "example": "A carbon atom might be in CO₂ in the air, get absorbed by a plant through photosynthesis, eaten by an animal, released back to the air through respiration, dissolved in the ocean, and eventually end up in limestone rock — all part of the carbon cycle.",
+   "sub_terms": [
+    {
+     "term": "Carbon store",
+     "definition": "A place where carbon builds up and stays for a while — the atmosphere, ocean, living things, fossil fuels, and rocks are all carbon stores.",
+     "example": "Coal is a carbon store that has held carbon for hundreds of millions of years; CO₂ in the atmosphere is a store that cycles much faster."
+    },
+    {
+     "term": "Carbon sequestration",
+     "definition": "Capturing carbon and locking it away — trees do this naturally through photosynthesis; scientists are developing technologies to do it artificially."
+    }
+   ]
+  },
+  {
+   "term": "Photosynthesis",
+   "descriptor_code": "AC9S9U03",
+   "width_tier": "minimum",
+   "definition": "The process plants use to make food from CO₂ and water using sunlight. In the carbon cycle, it's the main way carbon moves from the atmosphere into living things — every plant that grows is pulling carbon out of the air.",
+   "example": "When a tree grows, it's literally building itself out of carbon from the air — the wood, leaves and roots are all made from CO₂ that was in the atmosphere."
+  },
+  {
+   "term": "Respiration",
+   "descriptor_code": "AC9S9U03",
+   "width_tier": "minimum",
+   "definition": "The process all living things use to release energy from food, producing CO₂ as a waste product. In the carbon cycle, respiration moves carbon from living things back into the atmosphere. Plants respire too — not just animals.",
+   "example": "Every breath you exhale contains CO₂ — that carbon was in your food, which came from plants, which got it from the air. Respiration returns it to the atmosphere.",
+   "sub_terms": [
+    {
+     "term": "Decomposition",
+     "definition": "When bacteria and fungi break down dead organisms, releasing CO₂ — it's basically microorganisms respiring using dead material as food.",
+     "example": "A fallen log in a forest slowly rots — decomposers are breaking it down and releasing the carbon back to the atmosphere as CO₂."
+    }
+   ]
+  },
+  {
+   "term": "Combustion",
+   "descriptor_code": "AC9S9U03",
+   "width_tier": "minimum",
+   "definition": "Burning — a chemical reaction where a substance reacts with oxygen, releasing CO₂, water and energy. When we burn fossil fuels, we're releasing carbon that was stored underground for millions of years, adding it to the atmosphere much faster than natural processes can remove it.",
+   "example": "Burning a tank of petrol releases carbon that was trapped underground as oil for 300 million years — in one car trip, millions of years of stored carbon enter the atmosphere.",
+   "sub_terms": [
+    {
+     "term": "Fossil fuel",
+     "definition": "Coal, oil and natural gas — formed from ancient organisms buried for millions of years. Burning them releases ancient carbon into the atmosphere.",
+     "example": "Coal is made from trees and plants that lived hundreds of millions of years ago — when you burn coal, you're releasing carbon that hasn't been in the atmosphere since before dinosaurs existed."
+    }
+   ]
+  },
+  {
+   "term": "Greenhouse effect",
+   "descriptor_code": "AC9S9U03",
+   "width_tier": "typical",
+   "definition": "The process where CO₂ and other gases in the atmosphere trap heat that Earth's surface is trying to radiate back to space. More CO₂ in the atmosphere means more heat trapped — that's the connection between burning fossil fuels and climate change.",
+   "example": "Without any greenhouse effect, Earth would be frozen at about −18°C. The natural amount of CO₂ keeps us warm — but adding extra CO₂ from fossil fuels traps too much heat."
+  }
+ ]
+}

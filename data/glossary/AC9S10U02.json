@@ -1,0 +1,392 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "10"
+ ],
+ "descriptor_code": "AC9S10U02",
+ "teacher_glossary": [
+  {
+   "term": "Variation",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Differences in characteristics among individuals within a population. Variation may be heritable (genetically based, transmissible to offspring) or non-heritable (caused by environmental factors during the organism's lifetime). Only heritable variation can be acted on by natural selection. At the population level, variation in a trait typically forms a distribution rather than a binary.",
+   "failure_mode": "Students treat all individuals in a population as essentially identical — or treat variation as an occasional anomaly rather than a universal feature of every population that natural selection requires as its raw material.",
+   "failure_type": "misconception",
+   "why_it_matters": "Natural selection cannot operate without heritable variation — it is the raw material the mechanism acts on. Students who treat populations as uniform cannot construct the selection mechanism in N2 or explain why advantageous traits accumulate over generations.",
+   "response": "Present a measurable trait (e.g. beak depth) across a bird population as a distribution graph. Ask: are all individuals the same? (No.) Is this variation always present, or does it appear only when conditions change? (Always present.) The distribution makes variation visible as a population property, not an individual event.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Heritable variation",
+     "definition": "Variation caused by genetic differences (allele combinations from meiosis and mutation) that can be passed to offspring. Only heritable variation is relevant to natural selection.",
+     "failure_mode": "Students cannot distinguish heritable from non-heritable variation — they include acquired characteristics (scars, muscle from exercise) as traits natural selection can act on.",
+     "failure_type": "misconception",
+     "response": "Present pairs: a bodybuilder's muscles (non-heritable) vs naturally longer limbs (heritable); a scar (non-heritable) vs skin pigmentation (heritable). Ask which can be passed to offspring and why — the distinction maps directly to whether meiosis transmits the trait.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Non-heritable variation",
+     "definition": "Variation caused by environmental factors during an organism's lifetime — not encoded in DNA and not transmitted to offspring.",
+     "failure_mode": "Students think acquired characteristics can be inherited — a bodybuilder's children will be muscular, a tanned parent will have darker-skinned children. They do not distinguish variation caused by environment (non-heritable) from variation caused by genes (heritable).",
+     "failure_type": "misconception",
+     "response": "Ask: if you cut a dog's tail, will its puppies be born without tails? (No.) Why not? (The change was to the body, not the DNA.) Only changes in DNA can be passed to offspring — everything else dies with the individual.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Population",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A group of organisms of the same species living in the same area and able to interbreed. The population — not the individual — is the unit that evolves. Natural selection changes the frequency of traits in a population over generations; individuals do not evolve within their lifetimes.",
+   "failure_mode": "Students think evolution happens to individuals — 'the giraffe stretched its neck' — rather than to populations over generations through differential survival and reproduction.",
+   "failure_type": "misconception",
+   "why_it_matters": "If individuals evolve, the entire natural selection mechanism collapses into Lamarckism. Students must understand that selection acts on variation already present in a population, filtering who survives and reproduces, not changing individuals to suit the environment.",
+   "response": "Ask: does a single giraffe's neck get longer during its lifetime because it stretches? (No.) Do giraffes with slightly longer necks survive better and have more offspring? (Yes.) Over many generations, what happens to the average neck length in the population? The population-level framing makes the mechanism visible.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Natural selection",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "The mechanism by which populations change over time: heritable variation exists in a population; a selection pressure favours certain variants; those individuals survive and reproduce at higher rates; their traits become more common in subsequent generations. Natural selection acts on existing variation — it is a filter, not a creator of traits.",
+   "failure_mode": "Students hold the Lamarckian misconception — they believe organisms change during their lifetime to suit the environment and pass those acquired changes to offspring, rather than understanding that selection filters pre-existing variation across generations.",
+   "failure_type": "misconception",
+   "why_it_matters": "The Lamarckian misconception is persistent and well-documented. Students who hold it cannot construct the variation → differential survival → inherited chain, cannot explain why disadvantageous traits persist in populations, and cannot use the theory analytically as the descriptor demands.",
+   "response": "Present a scenario where the Lamarckian prediction differs from the natural selection prediction — e.g. do bacteria become resistant to antibiotics by exposure (Lamarck) or are resistant individuals already present and selected for (Darwin)? The diverging predictions make the models distinguishable.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Differential survival",
+     "definition": "The unequal survival rates among individuals in a population due to differences in heritable traits — individuals with traits better suited to the selection pressure are more likely to survive."
+    },
+    {
+     "term": "Differential reproduction",
+     "definition": "The unequal reproductive success among individuals — those who survive the selection pressure are more likely to reproduce and pass their advantageous alleles to offspring.",
+     "failure_mode": "Students understand 'survival of the fittest' but miss that surviving is not enough — organisms must also reproduce more successfully to pass traits to the next generation. They focus on who lives and who dies rather than who leaves more offspring.",
+     "failure_type": "fragmentation",
+     "response": "Present two organisms: one survives to old age but never reproduces; one dies young but has many offspring. Ask: which one's traits appear in the next generation? (The reproducer.) Survival without reproduction is an evolutionary dead end.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Lamarckism",
+     "definition": "The incorrect model that organisms acquire traits through use or disuse during their lifetime and pass those acquired traits to offspring. Contrasts with natural selection, where traits are pre-existing in the population and filtered by selection pressure.",
+     "failure_mode": "Students default to Lamarckian explanations even after being taught natural selection — they describe organisms 'developing' traits in response to the environment rather than being selected for pre-existing traits.",
+     "failure_type": "misconception",
+     "response": "For each evolutionary explanation a student offers, apply the Lamarck test: does this account require the individual to change during its lifetime? If yes, it is Lamarckian. Reconstruct using natural selection: what variation already existed, and which variants survived?",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Antibiotic resistance",
+     "definition": "The ability of some bacteria to survive antibiotic treatment. Resistance arises by natural selection: resistant individuals already present in the population survive treatment and reproduce, passing resistance alleles to offspring. A key modern example of observable natural selection.",
+     "failure_mode": "Students think bacteria 'develop' or 'learn' resistance in response to antibiotics — Lamarckian reasoning. They miss that resistant individuals already existed in the population before the antibiotic was applied; the antibiotic selected for them by killing the non-resistant majority.",
+     "failure_type": "misconception",
+     "response": "Ask: did the antibiotic teach the bacteria to resist? (No.) Were some bacteria already resistant before the antibiotic was used? (Yes — by random mutation.) What did the antibiotic do? (Killed the non-resistant ones, leaving only resistant survivors to reproduce.) The pre-existing variation is key.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Selection pressure",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "An environmental factor that affects which individuals in a population survive and reproduce — predation, disease, climate, food availability, competition. The selection pressure determines which heritable traits are advantageous and therefore which traits increase in frequency over generations.",
+   "failure_mode": "Students think natural selection always improves organisms in an absolute sense — they miss that selection is relative to a specific pressure, and a trait advantageous under one pressure may be neutral or harmful under another.",
+   "failure_type": "misconception",
+   "why_it_matters": "If selection always improves organisms, students cannot explain extinction (N4 — the selection pressure changed faster than the population could adapt), cannot explain why 'less complex' organisms persist, and cannot analyse specific selection scenarios as the descriptor demands.",
+   "response": "Present the same population under two different selection pressures and ask which traits are advantageous in each case. The reversal (a trait helpful in one context is harmful in another) makes the pressure-relative nature of selection concrete.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Artificial selection",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "Human-directed selection of organisms with desired traits for breeding, applying the same mechanism as natural selection but with humans choosing which individuals reproduce rather than environmental pressures. Artificial selection demonstrates that selection on heritable variation can change populations — the speed of change in domestic breeds shows what selection pressure can achieve.",
+   "failure_mode": "Students think artificial selection is fundamentally different from natural selection — they miss that the mechanism (variation → selection → inheritance) is identical; only the source of the selection pressure differs.",
+   "failure_type": "misconception",
+   "why_it_matters": "Artificial selection is the most accessible demonstration that selection on variation produces population change. Students who see it as unrelated to natural selection miss the strongest available analogy for how the mechanism works.",
+   "response": "Compare a natural selection case (antibiotic resistance) with an artificial selection case (dog breeding). Ask students to identify variation, selection and inheritance in each — the parallel structure reveals the shared mechanism.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Fossil record",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The preserved remains and traces of organisms found in rock layers, providing physical evidence of organisms that lived in the past. The fossil record shows change over time (organisms in older layers differ from those in younger layers), the appearance and extinction of species, and transitional forms that connect major groups. It is one of several independent evidence lines supporting evolution.",
+   "failure_mode": "Students think the fossil record must be complete to be valid evidence — they cite gaps as disproving evolution rather than understanding that fossilisation is rare and gaps are expected.",
+   "failure_type": "misconception",
+   "why_it_matters": "If gaps invalidate the fossil record, students reject one of the strongest evidence lines for evolution. Understanding that fossilisation requires specific conditions (and is therefore incomplete by nature) is part of evaluating evidence quality — the 'analyse' demand of the descriptor.",
+   "response": "Ask students to list the conditions needed for fossilisation (rapid burial, hard body parts, specific mineral conditions). Then ask: given these requirements, would you expect a complete record or a partial one? The expected incompleteness reframes gaps as a feature of the evidence type, not a flaw.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Homologous structures",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "Anatomical structures in different species that share the same underlying bone or tissue arrangement despite serving different functions — e.g. the forelimbs of humans, bats, whales and cats all contain the same bones in the same relative positions. Homologous structures are evidence of common ancestry: the shared plan indicates descent from a common ancestor, with subsequent modification for different environments.",
+   "failure_mode": "Students confuse homologous structures (same structure, different function — evidence of common ancestry) with analogous structures (different structure, similar function — evidence of convergent evolution, not common ancestry).",
+   "failure_type": "misconception",
+   "why_it_matters": "If homologous and analogous structures are conflated, students cannot use anatomical evidence correctly — they might cite wings in birds and insects as evidence of common ancestry when these are analogous (convergent), not homologous.",
+   "response": "Present two structure pairs: human arm and whale flipper (homologous — same bones, different function), and bird wing and insect wing (analogous — different structure, similar function). Ask students to identify which pair shares an ancestor and which does not — the structure-vs-function distinction makes the classification concrete.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Analogous structures",
+     "definition": "Structures in different species that serve similar functions but have different underlying anatomy — evidence of convergent evolution (similar environments selecting for similar solutions), not common ancestry.",
+     "failure_mode": "Students confuse analogous structures (similar function, different origin — bird wing vs insect wing) with homologous structures (same origin, different function — human arm vs whale flipper). They assume similar-looking structures indicate shared ancestry.",
+     "failure_type": "misconception",
+     "response": "Compare a bird wing and a bat wing (homologous — same bone structure) with a bird wing and an insect wing (analogous — completely different internal structure). Ask: which pair shares an ancestor? The internal-structure test distinguishes homology from analogy.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Common ancestry",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The principle that organisms sharing similar features (anatomical, chemical, genetic) descended from a shared ancestor. All lines of evolutionary evidence — fossil record, homologous structures, DNA similarity, geographical distribution — converge on common ancestry as the explanation for biological similarity. The strength of the theory comes from multiple independent lines pointing to the same conclusion.",
+   "failure_mode": "Students think similarity between species is coincidence rather than evidence of shared descent — they accept each evidence type in isolation but do not understand why convergence of independent lines strengthens the conclusion.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor requires students to 'analyse the scientific evidence supporting the theory.' Analysis means evaluating why multiple independent evidence lines converging on the same conclusion is stronger than any single line alone. Fragmented understanding — knowing facts but not connecting them — falls short of this demand.",
+   "response": "Present three pieces of evidence (fossil sequence, homologous bones, DNA similarity) for the same pair of species. Ask: if each line independently points to common ancestry, how likely is it that all three are wrong? The convergence argument makes 'analyse' concrete.",
+   "response_type": "integration",
+   "sub_terms": [
+    {
+     "term": "Cladogram",
+     "definition": "A branching diagram showing hypothesised evolutionary relationships among species based on shared characteristics or DNA sequence data. The branching pattern represents the order in which groups diverged from common ancestors.",
+     "failure_mode": "Students read cladograms as ladders of progress — they place organisms at the top as 'more evolved' and those at the bottom as 'primitive,' missing that all living species are equally evolved and the diagram shows branching ancestry, not a ranking.",
+     "failure_type": "misconception",
+     "response": "Rotate the cladogram 180° — the 'top' species is now at the bottom. Ask: has anything about the evolutionary relationships changed? (No.) The rotation reveals that position on the diagram is arbitrary; only branching points carry information.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Geographical distribution",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "The pattern of where species are found across the Earth. Species on isolated islands often resemble nearby mainland species more than ecologically similar species on distant islands — consistent with descent from nearby ancestors followed by local adaptation, not independent creation. Marsupial concentration in Australia and lemur concentration in Madagascar are key examples.",
+   "failure_mode": "Students see geographical distribution patterns as coincidence or habitat preference rather than as evidence of evolutionary history — they explain species location by where the environment suits them, not by where their ancestors were.",
+   "failure_type": "misconception",
+   "why_it_matters": "If geographical distribution is just habitat matching, students cannot explain why Australia has marsupials but Africa does not, or why island species resemble nearby mainland species. The historical explanation — ancestors were there, and populations diverged after isolation — connects distribution to speciation (N4).",
+   "response": "Present the puzzle: why are there no native placental carnivores in Australia, despite suitable habitats? The habitat-matching explanation predicts they should be there; the evolutionary explanation (marsupials arrived first and diversified before placental competitors) accounts for their absence.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Speciation",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The process by which one species diverges into two or more distinct species over time. Speciation typically requires geographic isolation (separating populations), different selection pressures acting on each population, and accumulated genetic differences over many generations until the populations can no longer interbreed.",
+   "failure_mode": "Students think speciation is a sudden event — one species 'becomes' another — rather than a gradual divergence of populations under different selection pressures over many generations.",
+   "failure_type": "misconception",
+   "why_it_matters": "If speciation is sudden, students cannot connect it to natural selection (a gradual process), cannot explain intermediate stages where populations are diverging but not yet separate species, and cannot use the fossil record's transitional forms as evidence.",
+   "response": "Use a timeline showing two populations gradually diverging: at first they can interbreed if reunited, then with difficulty, then not at all. Ask students to identify when 'speciation' has occurred — the blurred boundary makes gradual divergence visible.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Geographic isolation",
+     "definition": "The physical separation of populations by a barrier (ocean, mountain range, river) that prevents interbreeding. Geographic isolation exposes populations to different selection pressures, enabling independent divergence.",
+     "failure_mode": "Students think geographic isolation alone causes speciation — they miss that isolation only enables speciation by exposing populations to different selection pressures.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask: if two populations are separated but face identical conditions, will they speciate? (Possibly, but slowly — through genetic drift.) If separated and facing different pressures? (More likely and faster.) The comparison isolates selection pressure as the driver.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Adaptive radiation",
+     "definition": "The rapid diversification of a species into many new species, each adapted to a different ecological niche — typically occurring when a population colonises a new environment with many available niches. Darwin's finches are the classic example.",
+     "failure_mode": "Students confuse adaptive radiation (one species diversifying into many to fill different ecological niches) with adaptation (one species becoming better suited to its existing niche). They miss the diversification into multiple species as the defining feature.",
+     "failure_type": "misconception",
+     "response": "Present Darwin's finches: one ancestor species → 13+ species with different beak shapes for different food sources. Ask: did one species get better at one thing, or did one species become many species? The many-from-one framing is adaptive radiation.",
+     "response_type": "context_breadth"
+    }
+   ]
+  },
+  {
+   "term": "Extinction",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The permanent disappearance of a species when no individuals remain. Extinction results when a population cannot adapt (via natural selection) to changed selection pressures quickly enough — the rate of environmental change exceeds the rate at which advantageous variation can be selected. Extinction is not a failure of evolution but a consequence of selection pressure change outpacing variation.",
+   "failure_mode": "Students think extinct species were 'poorly designed' or 'less evolved' rather than understanding that they were well-adapted to conditions that changed — extinction reflects environmental change, not inherent inferiority.",
+   "failure_type": "misconception",
+   "why_it_matters": "If extinction is about inferiority, students cannot explain why highly successful species (e.g. dinosaurs that dominated for 160 million years) went extinct, and they develop a progressive view of evolution — that it moves toward 'better' — which the theory does not support.",
+   "response": "Present a species that was dominant for millions of years then went extinct when conditions changed rapidly (asteroid impact, ice age). Ask: were they poorly adapted? (No — they were well-adapted to conditions that no longer existed.) The time-contrast breaks the inferiority framing.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Mass extinction",
+     "definition": "A large-scale extinction event in which a significant proportion of all species disappear in a geologically short period, typically driven by catastrophic environmental change. Five major mass extinctions are documented in the fossil record."
+    }
+   ]
+  },
+  {
+   "term": "Biodiversity",
+   "descriptor_code": "AC9S10U02",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The variety of living organisms within an ecosystem, region, or the entire planet. At Year 10, biodiversity is reframed as the cumulative product of evolutionary history — the diversity of species alive today results from billions of years of speciation, extinction, and natural selection. Evolution is ongoing, and human activity (habitat destruction, climate change, introduced species) is a current selection pressure affecting biodiversity.",
+   "failure_mode": "Students treat biodiversity as a static inventory of species rather than a dynamic outcome of ongoing evolutionary processes — they can list species but cannot explain current biodiversity as the product of evolutionary history or analyse how current selection pressures are changing it.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The descriptor requires using natural selection to explain 'past and present diversity.' Students who treat biodiversity as a list rather than a product of evolution cannot make the explanatory connection the descriptor demands, and cannot analyse how current pressures (climate change, introduced species) are acting as selection forces.",
+   "response": "Present a specific ecosystem and ask: why are these particular species here? Trace backward — speciation events, geographic history, extinction of competitors. Then ask: what current pressures might change this assemblage in the next century? The backward-then-forward analysis connects biodiversity to evolutionary process.",
+   "response_type": "integration"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Variation",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "The differences between individuals in a population. Some variation is heritable (passed from parents through genes) and some is not (caused by environment or lifestyle). Natural selection can only act on heritable variation.",
+   "example": "In a population of beetles, some are green and some are brown — if colour is genetic, natural selection can favour one colour over the other depending on the environment.",
+   "sub_terms": [
+    {
+     "term": "Heritable variation",
+     "definition": "Differences caused by genes that can be passed to offspring — the only kind of variation that matters for natural selection.",
+     "example": "Your natural hair colour is heritable (genes from your parents), but a suntan is not — your kids won't inherit your tan."
+    },
+    {
+     "term": "Non-heritable variation",
+     "definition": "Differences caused by environment or experience that can't be passed to offspring."
+    }
+   ]
+  },
+  {
+   "term": "Population",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "A group of the same species living in the same area that can breed with each other. Evolution happens to populations over many generations — individual organisms don't evolve during their own lifetime.",
+   "example": "A population of rabbits in a field evolves over generations as those better suited to the environment have more offspring — no single rabbit 'evolves'."
+  },
+  {
+   "term": "Natural selection",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "The process by which organisms with traits better suited to their environment survive and reproduce more than others, so those traits become more common over generations. Natural selection doesn't create new traits — it filters the variation that's already there.",
+   "example": "In a drought, plants with deeper roots survive and reproduce more than shallow-rooted plants — over generations, deeper roots become more common in the population.",
+   "sub_terms": [
+    {
+     "term": "Differential survival",
+     "definition": "Some individuals survive better than others because of their traits."
+    },
+    {
+     "term": "Differential reproduction",
+     "definition": "Survivors have more offspring, passing their advantageous traits to the next generation."
+    },
+    {
+     "term": "Lamarckism",
+     "definition": "The incorrect idea that organisms change during their lifetime to suit their environment and pass those changes to their offspring — like saying giraffes stretched their necks and their babies were born with longer necks.",
+     "example": "Lamarck would say a blacksmith's children inherit stronger arms — Darwin would say families with naturally stronger arms were more successful blacksmiths."
+    },
+    {
+     "term": "Antibiotic resistance",
+     "definition": "When bacteria that happen to be naturally resistant to an antibiotic survive treatment and multiply, making the whole population resistant over time.",
+     "example": "When you take antibiotics, most bacteria die — but if a few already have a resistance gene, they survive and reproduce, and soon the whole population is resistant."
+    }
+   ]
+  },
+  {
+   "term": "Selection pressure",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "An environmental challenge that affects which organisms survive and reproduce — things like predators, disease, drought, or competition for food. The selection pressure determines which traits are helpful and which are not.",
+   "example": "On a dark-coloured tree trunk, being dark-coloured is an advantage (predators can't see you) — the tree colour is the selection pressure that favours darker moths."
+  },
+  {
+   "term": "Artificial selection",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "typical",
+   "definition": "When humans deliberately breed organisms with desired traits — the same mechanism as natural selection, but people choose which individuals reproduce instead of the environment deciding.",
+   "example": "Dog breeds exist because humans selected for specific traits over many generations — speed in greyhounds, herding instinct in border collies, small size in chihuahuas."
+  },
+  {
+   "term": "Fossil record",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "typical",
+   "definition": "All the preserved remains and traces of organisms found in rock layers around the world. Older rocks contain different organisms than newer rocks, showing how life has changed over time.",
+   "example": "Fossils show that horses were once small, multi-toed animals — the record of increasingly larger, single-toed forms across rock layers traces their evolution over millions of years."
+  },
+  {
+   "term": "Homologous structures",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "typical",
+   "definition": "Body parts in different species that have the same bone arrangement but serve different purposes. They look different on the outside but share the same underlying plan — evidence that the species descended from a common ancestor.",
+   "example": "A human arm, a bat wing, a whale flipper and a cat leg all contain the same bones (humerus, radius, ulna) arranged the same way — they inherited this plan from a shared ancestor.",
+   "sub_terms": [
+    {
+     "term": "Analogous structures",
+     "definition": "Body parts that serve similar functions but have completely different internal structure — like bird wings and insect wings. These show similar environments, not shared ancestors."
+    }
+   ]
+  },
+  {
+   "term": "Common ancestry",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "typical",
+   "definition": "The idea that species sharing similar features descended from a shared ancestor in the past. All the evidence for evolution — fossils, similar body structures, similar DNA, where species live — points to the same conclusion: life on Earth shares common ancestors.",
+   "example": "Humans and chimpanzees share about 98% of their DNA — this similarity is best explained by descent from a recent common ancestor.",
+   "sub_terms": [
+    {
+     "term": "Cladogram",
+     "definition": "A branching tree diagram that shows how species are related through evolution — the closer two species are on the tree, the more recently they shared an ancestor."
+    }
+   ]
+  },
+  {
+   "term": "Geographical distribution",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "typical",
+   "definition": "Where species are found around the world. The patterns don't match habitat alone — they match evolutionary history. Species on islands tend to resemble nearby mainland species, not species in similar habitats far away.",
+   "example": "Australia has kangaroos and koalas but Africa doesn't — not because Africa lacks suitable habitat, but because marsupials evolved and diversified in Australia after it separated from other continents."
+  },
+  {
+   "term": "Speciation",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "The process by which one species gradually splits into two or more separate species over many generations, usually when populations are separated and face different selection pressures.",
+   "example": "A river divides a mouse population — over thousands of generations, the two groups face different predators and food sources, accumulate different traits, and eventually can no longer interbreed. Two species now exist where one used to.",
+   "sub_terms": [
+    {
+     "term": "Geographic isolation",
+     "definition": "When a physical barrier (mountain range, ocean, river) separates a population so the groups can't interbreed — a common first step toward speciation.",
+     "example": "When a land bridge floods, island populations can no longer mix with mainland populations — each group then evolves independently."
+    },
+    {
+     "term": "Adaptive radiation",
+     "definition": "When one species rapidly diversifies into many new species, each filling a different ecological role — like Darwin's finches evolving different beak shapes for different food sources on the Galápagos Islands."
+    }
+   ]
+  },
+  {
+   "term": "Extinction",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "When every individual of a species dies and the species is gone permanently. This happens when the environment changes faster than the population can adapt through natural selection.",
+   "example": "Dinosaurs dominated Earth for over 160 million years but went extinct after an asteroid strike rapidly changed conditions — they weren't 'bad at surviving,' the environment just changed too fast for natural selection to keep up.",
+   "sub_terms": [
+    {
+     "term": "Mass extinction",
+     "definition": "A catastrophic event that wipes out a huge proportion of all species in a short time — five major ones have happened in Earth's history.",
+     "example": "The mass extinction 66 million years ago killed about 75% of all species, including the dinosaurs — but mammals survived and diversified into the niches left empty."
+    }
+   ]
+  },
+  {
+   "term": "Biodiversity",
+   "descriptor_code": "AC9S10U02",
+   "width_tier": "minimum",
+   "definition": "The variety of different species in an area or on Earth as a whole. Biodiversity isn't random — it's the result of billions of years of evolution, speciation, and extinction. It's still changing today as species evolve and face new pressures.",
+   "example": "The Amazon rainforest has enormous biodiversity because millions of years of evolution in a stable, resource-rich environment produced many specialised species — but deforestation is now a selection pressure that threatens this diversity."
+  }
+ ]
+}

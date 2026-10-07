@@ -1,0 +1,234 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10P05",
+ "teacher_glossary": [
+  {
+   "term": "Boolean logical operator",
+   "descriptor_code": "AC9TDI10P05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "An operator that combines or modifies Boolean (true/false) values. The three fundamental Boolean operators are AND (true only when both operands are true), OR (true when at least one operand is true), and NOT (inverts true to false and vice versa). Boolean operators are the building blocks of compound conditions in algorithms.",
+   "failure_mode": "Students confuse AND with OR — they think AND means 'either one' (because in everyday English 'and' is additive) and OR means 'one or the other but not both' (exclusive or).",
+   "failure_type": "misconception",
+   "why_it_matters": "Boolean operator confusion propagates directly into compound conditions — every IF statement with a wrong operator produces wrong behaviour, making algorithmic design at N4 unreachable.",
+   "response": "Use truth tables with concrete scenarios: 'You can enter if you are 18 AND have a ticket' vs 'You can enter if you are 18 OR have a ticket.' Ask students to list who gets in under each rule. The people-in/people-out comparison makes the operator difference concrete and memorable.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "AND",
+     "definition": "A Boolean operator that returns true only when both operands are true. In an algorithm, an AND condition requires all parts to be satisfied.",
+     "failure_mode": "Students think AND means 'either of these' — confusing it with OR because everyday English uses 'and' additively.",
+     "failure_type": "misconception",
+     "response": "Present the condition 'age >= 18 AND hasTicket == true' and ask: who gets in? A 17-year-old with a ticket? An 18-year-old without? Only when both are true. The exclusion cases make AND's strictness visible.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "OR",
+     "definition": "A Boolean operator that returns true when at least one operand is true (inclusive or). In an algorithm, an OR condition requires at least one part to be satisfied.",
+     "failure_mode": "Students interpret OR as exclusive ('one or the other, not both') because everyday English often uses 'or' that way.",
+     "failure_type": "misconception",
+     "response": "Test: 'Discount if student OR senior.' Does a senior student get the discount? Yes — OR means at least one, including both. The both-true case reveals inclusive OR.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "NOT",
+     "definition": "A Boolean operator that inverts a value — true becomes false, false becomes true. NOT is often misapplied in compound expressions.",
+     "failure_mode": "Students misapply NOT in compound expressions — particularly when negating a compound condition (NOT (A AND B) ≠ NOT A AND NOT B).",
+     "failure_type": "fragile_skill",
+     "response": "Evaluate NOT(age >= 18 AND hasTicket) step by step with specific values. Track the inner expression's value, then the NOT. The step-by-step trace prevents misapplication.",
+     "response_type": "consolidation"
+    },
+    {
+     "term": "Truth table",
+     "definition": "A table showing all possible combinations of input values and the resulting output for a Boolean expression. Truth tables are the systematic tool for evaluating compound expressions.",
+     "failure_mode": "Students cannot construct truth tables with more than one variable — they miss input combinations or evaluate the expression inconsistently.",
+     "failure_type": "fragile_skill",
+     "response": "Start with a one-variable NOT table, then two-variable AND/OR, then build compound expressions. The progression from simple to compound builds systematic evaluation skill.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Compound Boolean expression",
+   "descriptor_code": "AC9TDI10P05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A Boolean expression that combines multiple conditions using logical operators. For example, (age >= 18) AND (hasTicket == true) combines two simple conditions into one compound expression that is true only when both are satisfied.",
+   "failure_mode": "Students cannot evaluate compound expressions with more than two parts — they lose track of which parts are true/false and apply operators in the wrong order.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Compound expressions are the basis for compound conditions in algorithms — students who cannot evaluate them cannot design or trace algorithms with complex logic.",
+   "response": "Break compound expressions into sub-expressions and evaluate from the inside out. Label each sub-expression's value before combining. The decomposition approach makes evaluation manageable.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Compound condition",
+   "descriptor_code": "AC9TDI10P05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A compound Boolean expression used as the condition in an IF statement or loop. Compound conditions allow algorithms to make decisions based on multiple requirements simultaneously — for example, 'IF age >= 18 AND isRegistered THEN allow_vote.'",
+   "failure_mode": "Students write compound conditions that don't match the intended logic — they use AND when they mean OR, or structure the condition so it's never true (or always true) without realising.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "An incorrect compound condition in an IF statement makes the algorithm behave differently from its design — the representation looks correct but produces wrong output, and the error is subtle enough to pass casual testing.",
+   "response": "Require students to state the intent in plain English before writing the condition: 'I want this to happen when...' Then translate to Boolean. Compare the plain-English intent with the code by tracing with test values.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "IF condition",
+     "definition": "The Boolean expression evaluated in an IF statement to determine which branch of code executes. The condition must be a complete Boolean expression that evaluates to true or false."
+    },
+    {
+     "term": "Evaluation order",
+     "definition": "The sequence in which Boolean operators are applied in a compound expression. NOT is evaluated first, then AND, then OR — unless parentheses override the default order.",
+     "failure_mode": "Students assume left-to-right evaluation and don't use parentheses to control order — producing expressions that evaluate differently from intended.",
+     "failure_type": "fragile_skill",
+     "response": "Present an expression that evaluates differently with and without parentheses. Ask students to evaluate both versions step by step. The different results make operator precedence consequential.",
+     "response_type": "consolidation"
+    }
+   ]
+  },
+  {
+   "term": "Flowchart",
+   "descriptor_code": "AC9TDI10P05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A visual representation of an algorithm using standard shapes — rectangles for processes, diamonds for decisions, arrows for flow direction. Flowcharts make the control flow of an algorithm visible, particularly the branching caused by IF conditions and the loops caused by iteration.",
+   "failure_mode": "Students draw flowcharts with missing arrows, ambiguous branches, or decisions that don't have both yes and no paths — producing representations that cannot be unambiguously followed.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "A flowchart that cannot be followed unambiguously cannot be implemented — it fails its purpose as a communication tool and leaves the algorithm's logic uncertain.",
+   "response": "Give a flowchart to a peer and ask them to trace it for a specific input. If they get stuck or go the wrong way, the flowchart has an ambiguity. The peer-trace test reveals completeness issues.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Pseudocode",
+   "descriptor_code": "AC9TDI10P05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A text-based representation of an algorithm using structured English with programming conventions (IF, THEN, ELSE, WHILE, FOR). Pseudocode is more precise than plain English but not tied to a specific programming language. It uses indentation to show structure and keywords to show control flow.",
+   "failure_mode": "Students write pseudocode that is either too vague (reads like plain English with no structure) or too language-specific (writes Python syntax and calls it pseudocode).",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Pseudocode that is too vague cannot be implemented; pseudocode that is too specific defeats the purpose of language-independent algorithm representation.",
+   "response": "Show the same algorithm in pseudocode and in Python. Ask students to identify what is the same (the logic) and what is different (the syntax). The comparison calibrates the abstraction level.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Algorithm",
+   "descriptor_code": "AC9TDI10P05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A precise, unambiguous sequence of steps that solves a specified problem. An algorithm must handle all valid inputs and produce the correct output for each. In this standard, algorithms involve logical operators to express compound conditions — the design challenge is translating a problem's requirements into correct Boolean logic.",
+   "failure_mode": "Students design algorithms that work for the obvious case but fail at edge cases — boundary inputs, conflicting conditions, or inputs that were not considered during design.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "An algorithm that fails at edge cases is incorrect — it produces wrong output for valid inputs. Students who only test the obvious case cannot validate their algorithms.",
+   "response": "After designing an algorithm, require students to identify at least two edge cases and trace the algorithm with those inputs. If it fails, modify the algorithm to handle them. The edge-case discipline prevents false confidence.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Edge case",
+     "definition": "An input or scenario at the boundary of expected behaviour — where the algorithm's logic is most likely to fail. Edge cases include minimum/maximum values, empty inputs, exact boundary values, and conflicting conditions.",
+     "failure_mode": "Students don't think about edge cases — they test with typical inputs and assume correctness.",
+     "failure_type": "narrow_repertoire",
+     "response": "Ask: what is the smallest valid input? The largest? What if the input is exactly on the boundary? What if the input is empty? Each question surfaces a different edge case category.",
+     "response_type": "repertoire_building"
+    },
+    {
+     "term": "Boundary case",
+     "definition": "A specific type of edge case at the exact boundary of a condition — for example, the value that is exactly equal to a threshold in a comparison."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Boolean logical operator",
+   "descriptor_code": "AC9TDI10P05",
+   "width_tier": "minimum",
+   "definition": "A word (AND, OR, NOT) that combines or flips true/false values. These are the building blocks for writing conditions in programs — like 'if this AND that are both true, then do something.'",
+   "example": "'If temperature > 30 AND humidity > 80' is only true when it's both hot AND humid — not just one or the other.",
+   "sub_terms": [
+    {
+     "term": "AND",
+     "definition": "Only true when BOTH sides are true. If either side is false, the whole thing is false.",
+     "example": "'Is it raining AND is it cold?' — only true when both conditions are met. A warm rainy day returns false."
+    },
+    {
+     "term": "OR",
+     "definition": "True when AT LEAST ONE side is true. Only false when both sides are false.",
+     "example": "'Is it Saturday OR Sunday?' — true on either day (or both, if that were possible)."
+    },
+    {
+     "term": "NOT",
+     "definition": "Flips a value — true becomes false, false becomes true.",
+     "example": "NOT(isLoggedIn) means 'the user is NOT logged in' — it's true when isLoggedIn is false."
+    },
+    {
+     "term": "Truth table",
+     "definition": "A chart showing every possible combination of true/false inputs and what the output is for each one.",
+     "example": "An AND truth table shows that true AND true = true, but every other combination (true AND false, false AND true, false AND false) = false."
+    }
+   ]
+  },
+  {
+   "term": "Compound Boolean expression",
+   "descriptor_code": "AC9TDI10P05",
+   "width_tier": "minimum",
+   "definition": "A condition made of multiple parts joined by AND, OR, or NOT — like checking several things at once before deciding what to do.",
+   "example": "(age >= 13) AND (hasParentConsent == true) OR (age >= 18) — this checks multiple conditions to decide if someone can create an account."
+  },
+  {
+   "term": "Compound condition",
+   "descriptor_code": "AC9TDI10P05",
+   "width_tier": "minimum",
+   "definition": "A condition in an IF statement that checks multiple things at once using AND, OR, or NOT — so your program can make complex decisions.",
+   "example": "IF (password == correct) AND (accountNotLocked) THEN grant access — both must be true for the user to get in.",
+   "sub_terms": [
+    {
+     "term": "IF condition",
+     "definition": "The yes-or-no question your program asks before deciding what to do next.",
+     "example": "IF score >= 50 asks 'is the score at least 50?' — if yes, the program does one thing; if no, it does something else."
+    },
+    {
+     "term": "Evaluation order",
+     "definition": "The order the computer evaluates Boolean operators: NOT first, then AND, then OR. Parentheses can override this.",
+     "example": "A OR B AND C evaluates the AND first — (A OR (B AND C)), not ((A OR B) AND C). Adding parentheses changes the result."
+    }
+   ]
+  },
+  {
+   "term": "Flowchart",
+   "descriptor_code": "AC9TDI10P05",
+   "width_tier": "minimum",
+   "definition": "A diagram that shows the steps of an algorithm using shapes and arrows — rectangles for actions, diamonds for decisions, and arrows showing which step comes next.",
+   "example": "A login flowchart might have a diamond asking 'Is password correct?' with 'Yes' going to 'Grant access' and 'No' going to 'Show error message.'"
+  },
+  {
+   "term": "Pseudocode",
+   "descriptor_code": "AC9TDI10P05",
+   "width_tier": "minimum",
+   "definition": "A way of writing out an algorithm in structured English — more precise than everyday language but not tied to any specific programming language. It uses keywords like IF, THEN, ELSE, and WHILE.",
+   "example": "IF age >= 18 AND isRegistered THEN DISPLAY 'You may vote' ELSE DISPLAY 'Not eligible.'"
+  },
+  {
+   "term": "Algorithm",
+   "descriptor_code": "AC9TDI10P05",
+   "width_tier": "minimum",
+   "definition": "A step-by-step set of instructions that solves a specific problem. A good algorithm handles every valid input correctly — not just the obvious ones.",
+   "example": "An algorithm to check voting eligibility needs to handle not just a typical 25-year-old, but also exactly 18, exactly 17, and people who are registered but under 18.",
+   "sub_terms": [
+    {
+     "term": "Edge case",
+     "definition": "An unusual or extreme input where your algorithm is most likely to break — like the smallest possible value, an empty list, or exactly hitting a boundary.",
+     "example": "If your algorithm checks 'age >= 18', the edge cases are age = 17 (just below), age = 18 (exactly on), and age = 19 (just above)."
+    },
+    {
+     "term": "Boundary case",
+     "definition": "A specific edge case right at the exact boundary of a condition.",
+     "example": "In 'score >= 50 is a pass,' the boundary case is exactly 50 — does it pass or fail?"
+    }
+   ]
+  }
+ ]
+}

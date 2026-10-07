@@ -1,0 +1,467 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "9",
+  "10"
+ ],
+ "descriptor_code": "AC9TDI10K01",
+ "teacher_glossary": [
+  {
+   "term": "Operating system (OS)",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "System software that manages computer hardware and provides an abstraction layer between hardware and applications. The OS hides the complexity of different hardware, allowing applications to treat input from a mouse and touchscreen in the same way, manage different storage types uniformly, and access network interfaces without hardware-specific code.",
+   "failure_mode": "Students think the OS is just a user interface (desktop, icons, menus) rather than the layer that manages hardware on behalf of all applications.",
+   "failure_type": "misconception",
+   "why_it_matters": "If the OS is just a GUI, students cannot explain how applications interact with hardware or why the OS is a security-relevant component in networked systems — both required for the N5 integration.",
+   "response": "Show the same application running on two different OS environments. Ask students to identify what the OS must be doing underneath to make this work — the abstraction becomes visible through the contrast.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Hardware abstraction",
+     "definition": "The process by which the OS hides hardware-specific details from applications, presenting a uniform interface regardless of the underlying hardware.",
+     "failure_mode": "Students describe abstraction as 'hiding' but cannot explain what is hidden or why — they treat it as a synonym for 'simplifying.'",
+     "failure_type": "misconception",
+     "response": "Use a concrete example: show how an application sends the same 'print' command regardless of printer model, and ask students to identify what the OS must translate.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Device driver",
+     "definition": "Software that translates between the OS's uniform interface and a specific piece of hardware, enabling the OS to communicate with that device."
+    },
+    {
+     "term": "Screen reader",
+     "definition": "Assistive technology that interprets on-screen content and reads it aloud. Screen readers rely on the OS's hardware abstraction to work across multiple input types and display configurations."
+    }
+   ]
+  },
+  {
+   "term": "IP address",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A numerical label assigned to each device on a network, used to identify and locate it for data transmission. IP addresses are the machine-readable identifiers that routing infrastructure uses to direct packets — distinct from human-readable domain names.",
+   "failure_mode": "Students conflate IP addresses with domain names, treating them as interchangeable labels rather than understanding that domain names are human-readable aliases that DNS translates into machine-readable IP addresses.",
+   "failure_type": "misconception",
+   "why_it_matters": "This conflation propagates into N4 and N5 — students cannot reason about where cryptographic protection applies or trace a complete data flow without correctly distinguishing addressing from naming.",
+   "response": "Have students trace a DNS lookup: type a domain name, then use a tool like nslookup to see the IP address returned. The two-step process makes the distinction concrete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Public IP address",
+     "definition": "An IP address that is globally routable on the internet, assigned to a device or network by an internet service provider."
+    },
+    {
+     "term": "Private IP address",
+     "definition": "An IP address used within a local network that is not directly reachable from the internet. Devices on a home or school network typically have private addresses."
+    },
+    {
+     "term": "IPv4",
+     "definition": "The fourth version of the Internet Protocol, using 32-bit addresses (e.g. 192.168.1.1). Limited to approximately 4.3 billion unique addresses."
+    },
+    {
+     "term": "IPv6",
+     "definition": "The sixth version of the Internet Protocol, using 128-bit addresses to provide a vastly larger address space than IPv4, addressing the limitation of available addresses as networked device numbers grow."
+    }
+   ]
+  },
+  {
+   "term": "Domain name",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A human-readable label (e.g. www.example.com) that identifies a website or networked service. Domain names are aliases for IP addresses — they exist because humans remember names more easily than numbers. The Domain Name System translates domain names into IP addresses.",
+   "failure_mode": "Students treat domain names as the actual addresses that networks use to route data, rather than understanding they are human-friendly labels that must be translated to IP addresses before any data can be sent.",
+   "failure_type": "misconception",
+   "why_it_matters": "If domain names are 'real' addresses, the entire DNS translation step is invisible — students cannot trace how a web request actually reaches its destination, which is required for the N5 integration.",
+   "response": "Ask students to try accessing a website by typing its IP address directly into the browser. When it works, ask: if the IP address works on its own, what is the domain name actually for?",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "DNS (Domain Name System)",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A distributed system that translates human-readable domain names into machine-readable IP addresses. When a user types a domain name, DNS resolves it to the corresponding IP address so the request can be routed to the correct server.",
+   "failure_mode": "Students describe DNS as a single lookup step rather than understanding it as a distributed system with multiple resolution stages — or they skip DNS entirely and assume the browser 'just knows' where to go.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without understanding DNS as a translation layer, students cannot trace the full path from user request to server response, which is the core of the N5 integration checkpoint.",
+   "response": "Walk through a DNS lookup step by step: browser cache → local DNS resolver → root server → TLD server → authoritative server. Even a simplified version makes the multi-step nature visible.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "DNS lookup",
+     "definition": "The process of querying the Domain Name System to resolve a domain name to its corresponding IP address."
+    }
+   ]
+  },
+  {
+   "term": "Routing table",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A data table stored in a router or networked device that determines where to forward data packets based on their destination IP address. Routing tables enable packets to be directed across multiple network segments toward their final destination.",
+   "failure_mode": "Students think data goes directly from source to destination in one hop, rather than understanding that routers consult routing tables at each hop to determine the next step in the path.",
+   "failure_type": "misconception",
+   "why_it_matters": "The multi-hop routing model is essential for understanding where security mechanisms operate — encryption protects data in transit between hops, and access control applies at specific network boundaries.",
+   "response": "Use a traceroute tool to show the multiple hops a packet takes to reach a website. Ask students to identify each hop as a routing decision made by consulting a routing table.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Data packet",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 2,
+   "width_tier": "typical",
+   "definition": "A small unit of data formatted for transmission across a network. Data is split into packets for transmission; each packet contains the data payload plus header information including source and destination IP addresses. Packets may take different routes and are reassembled at the destination.",
+   "failure_mode": "Students think data travels as one continuous stream rather than being broken into discrete packets that are independently routed.",
+   "failure_type": "misconception",
+   "why_it_matters": "Understanding packets is prerequisite for understanding where encryption applies — TLS encrypts packet payloads, not the routing headers, which is why routers can still direct encrypted traffic.",
+   "response": "Use a packet capture demonstration (e.g. simulated Wireshark) to show individual packets with headers and payloads. Ask students to identify what information is visible to routers versus what is encrypted.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Access control",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The set of mechanisms that determine who can access a system or resource and what actions they are permitted to perform. Access control encompasses authentication (verifying identity), authorisation (granting permissions), and enforcement (blocking unauthorised actions).",
+   "failure_mode": "Students treat access control as synonymous with passwords, missing that it encompasses identity verification, permission assignment, and enforcement as distinct mechanisms that work together.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "Reducing access control to passwords prevents students from analysing how networked systems coordinate multiple security mechanisms — the N5 integration requires understanding access control as a multi-component system.",
+   "response": "Present three scenarios: a user logging in (authentication), a user being denied access to admin settings (authorisation), and a firewall blocking an external request (enforcement). Ask students to classify each — the variety breaks the 'access control = passwords' assumption.",
+   "response_type": "repertoire_building",
+   "sub_terms": [
+    {
+     "term": "Password",
+     "definition": "A secret string used as one form of authentication — proving the user's identity by demonstrating knowledge of a shared secret."
+    },
+    {
+     "term": "RBAC (role-based access control)",
+     "definition": "An authorisation model where permissions are assigned to roles (e.g. administrator, editor, viewer) rather than individual users, making permission management scalable in systems with many users."
+    },
+    {
+     "term": "Data breach",
+     "definition": "An incident in which unauthorised individuals gain access to protected data, typically due to a failure in one or more access control mechanisms."
+    }
+   ]
+  },
+  {
+   "term": "Authentication",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process of verifying a user's identity — confirming that they are who they claim to be. Authentication answers the question 'Who are you?' and is distinct from authorisation, which answers 'What are you allowed to do?'",
+   "failure_mode": "Students conflate authentication with authorisation — they use the terms interchangeably, believing that logging in both proves identity and determines permissions in a single step.",
+   "failure_type": "misconception",
+   "why_it_matters": "Conflation of authentication and authorisation cascades into N5 — students who cannot distinguish 'proving identity' from 'granting access rights' cannot analyse how a networked system's security components coordinate.",
+   "response": "Use the reasoning scaffold: Who are you? (authentication) → What are you allowed to do? (authorisation) → What should the system block? (enforcement). Apply to a concrete scenario like logging into a shared computer.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Authorisation (permissions)",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "The process of determining what an authenticated user is permitted to do within a system — what resources they can access, what actions they can perform, and what is restricted. Authorisation happens after authentication and answers the question 'What are you allowed to do?'",
+   "failure_mode": "Students conflate authorisation with authentication, or assume that being authenticated automatically grants full access to everything in the system.",
+   "failure_type": "misconception",
+   "why_it_matters": "Without distinguishing authorisation from authentication, students cannot explain how the same system gives different users different capabilities — a core requirement for analysing multi-user networked systems.",
+   "response": "Show two users logged into the same system with different permissions (e.g. student vs admin on a school platform). Both are authenticated — ask students to explain why they can do different things.",
+   "response_type": "context_breadth"
+  },
+  {
+   "term": "Encryption",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "The process of transforming data into a form that cannot be read without the correct decryption key. Encryption protects data confidentiality — only authorised parties with the key can read the original data. There are two fundamental types: symmetric (same key for encryption and decryption) and asymmetric (different keys for encryption and decryption).",
+   "failure_mode": "Students conflate encryption with hashing, treating all cryptographic operations as 'encryption' — missing that hashing is a one-way operation that cannot be reversed, while encryption is designed to be reversible with the correct key.",
+   "failure_type": "misconception",
+   "why_it_matters": "Conflating encryption with hashing breaks the N5 integration — students cannot correctly identify which mechanism protects data in transit (encryption) versus data at rest (hashing for integrity/passwords).",
+   "response": "Present two scenarios side by side: sending a secret message (encryption — the receiver needs to read it back) and storing a password (hashing — nobody should ever read the original). Ask: which one needs to be reversible? The functional difference makes the distinction concrete.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Symmetric encryption",
+     "definition": "Encryption where the same key is used to both encrypt and decrypt data. Fast but requires both parties to share the key securely."
+    },
+    {
+     "term": "Asymmetric encryption",
+     "definition": "Encryption using a pair of mathematically related keys — a public key (shared openly) for encryption and a private key (kept secret) for decryption. Slower than symmetric but solves the key-sharing problem."
+    }
+   ]
+  },
+  {
+   "term": "Public key cryptography",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A cryptographic system using asymmetric key pairs to secure communication. In networked systems, public key cryptography (implemented via protocols like TLS) secures data in transit — the server's public key encrypts data that only the server's private key can decrypt, ensuring confidentiality without requiring a pre-shared secret.",
+   "failure_mode": "Students treat the HTTPS padlock as meaning 'the website is safe' rather than understanding it indicates a TLS connection using public key cryptography to encrypt data in transit between browser and server.",
+   "failure_type": "misconception",
+   "why_it_matters": "Misunderstanding what public key cryptography actually protects — data in transit, not website trustworthiness — prevents students from correctly identifying where this security mechanism operates in the N5 integration.",
+   "response": "Show a phishing site with a valid HTTPS padlock. Ask: if the padlock means the site is safe, how can a fake site have one? The distinction between 'encrypted connection' and 'trustworthy site' becomes clear.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "TLS (Transport Layer Security)",
+     "definition": "A protocol that implements public key cryptography to create encrypted connections between a client (e.g. browser) and server. TLS is what makes HTTPS connections secure.",
+     "failure_mode": "Students treat TLS/HTTPS as a binary 'secure or not' property rather than understanding it as a specific protocol that encrypts data in transit using public key cryptography.",
+     "failure_type": "fragile_skill",
+     "response": "Show students a simplified TLS handshake diagram — the exchange of keys, the establishment of the encrypted channel. Even a simplified version reveals that 'secure' means a specific technical process, not a quality label.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Certificate authority",
+     "definition": "A trusted organisation that issues digital certificates verifying that a public key belongs to the entity claiming it. Certificate authorities establish the chain of trust that makes public key cryptography practical at internet scale."
+    }
+   ]
+  },
+  {
+   "term": "Hashing",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "A one-way cryptographic operation that converts data into a fixed-length string (a hash). Unlike encryption, hashing cannot be reversed — the original data cannot be recovered from the hash. Hashing is used to verify data integrity and to securely store passwords (the system stores the hash and compares it to the hash of the entered password, never storing the password itself).",
+   "failure_mode": "Students treat hashing as a type of encryption, assuming hashed data can be 'decrypted' back to the original. This conflation means they cannot explain why hashing is used for password storage (where reversibility would be a security flaw).",
+   "failure_type": "misconception",
+   "why_it_matters": "The irreversibility of hashing is its security feature — if students think hashing is reversible, they cannot explain why it protects stored passwords or why it is used for integrity verification rather than confidentiality.",
+   "response": "Have students hash a password using an online SHA tool, then ask them to 'unhash' it. When they cannot, ask: why would a system deliberately use an operation that can't be reversed? The impossibility of reversal makes the design rationale visible.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "SHA-1",
+     "definition": "A specific hashing algorithm (Secure Hash Algorithm 1) that produces a 160-bit hash value. Used as an example of how hashing algorithms work, though now considered insecure for cryptographic purposes."
+    },
+    {
+     "term": "Integrity verification",
+     "definition": "Using a hash to confirm that data has not been modified — if the hash of received data matches the expected hash, the data is unchanged."
+    }
+   ]
+  },
+  {
+   "term": "Data in transit",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "Data that is actively being transmitted across a network — moving between devices, servers, or network segments. Data in transit is protected by encryption (e.g. TLS) to prevent interception. Distinguished from data at rest, which is stored on a device or server.",
+   "failure_mode": "Students do not distinguish between data that is moving (in transit) and data that is stored (at rest), so they cannot identify which cryptographic mechanism protects data at which point.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "The in-transit/at-rest distinction maps directly to the encryption/hashing distinction — confusing them means students cannot correctly assign security mechanisms to the right stage in a data flow.",
+   "response": "Trace a password submission: the password travels from browser to server (in transit — protected by TLS encryption), then gets stored in a database (at rest — protected by hashing). Label each stage and its protection mechanism.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Data at rest",
+   "descriptor_code": "AC9TDI10K01",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "Data that is stored on a device, server, or database — not currently being transmitted. Data at rest is protected by mechanisms such as hashing (for passwords), file encryption, and access control to prevent unauthorised access to stored information.",
+   "failure_mode": "Students assume that once data reaches its destination, security is no longer needed — they don't recognise that stored data requires its own protection mechanisms.",
+   "failure_type": "misconception",
+   "why_it_matters": "Many high-profile data breaches involve stored data, not intercepted transmissions. Students who ignore data-at-rest security cannot analyse a complete threat model.",
+   "response": "Present a data breach scenario where an attacker accesses a server's stored database. Ask: did TLS protect this data? Why not? The gap reveals that different stages need different protections.",
+   "response_type": "context_breadth"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Operating system (OS)",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "The main software that runs your computer or phone. It sits between the hardware (the physical parts) and your apps, managing everything so apps don't need to know exactly what hardware you have.",
+   "example": "When you plug in a USB mouse or use a touchpad, your apps work the same way — the OS handles the difference for them.",
+   "sub_terms": [
+    {
+     "term": "Hardware abstraction",
+     "definition": "How the OS hides the messy details of different hardware so apps can just work without worrying about what's plugged in.",
+     "example": "Your browser doesn't care if you're using a keyboard or touchscreen — the OS translates both into input the browser understands."
+    },
+    {
+     "term": "Device driver",
+     "definition": "A small piece of software that teaches the OS how to talk to a specific piece of hardware, like a printer or graphics card.",
+     "example": "When you install a new printer, the driver is what lets your computer send documents to it correctly."
+    },
+    {
+     "term": "Screen reader",
+     "definition": "Software that reads out what's on screen for people who can't see it, relying on the OS to access content from different apps.",
+     "example": "A screen reader can read text from a web browser, a Word document, or a menu — because the OS provides access to all of them."
+    }
+   ]
+  },
+  {
+   "term": "IP address",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "A number that identifies a specific device on a network — like a postal address for your computer. Every device connected to a network has one so data knows where to go.",
+   "example": "When you visit a website, your computer's IP address tells the server where to send the web page back to — like a return address on a letter.",
+   "sub_terms": [
+    {
+     "term": "Public IP address",
+     "definition": "An IP address visible to the whole internet, usually assigned to your home router by your internet provider.",
+     "example": "Your home network has one public IP address that the rest of the internet sees."
+    },
+    {
+     "term": "Private IP address",
+     "definition": "An IP address used only inside a local network — not visible to the internet.",
+     "example": "Your phone, laptop and smart TV each have different private IP addresses on your home Wi-Fi."
+    },
+    {
+     "term": "IPv4",
+     "definition": "The older system of IP addresses using four groups of numbers (like 192.168.1.1). There aren't enough for all the devices in the world.",
+     "example": "Most home networks still use IPv4 addresses like 192.168.0.1 for the router."
+    },
+    {
+     "term": "IPv6",
+     "definition": "The newer system of IP addresses with much longer numbers, created because IPv4 was running out of addresses.",
+     "example": "As more smart devices come online, IPv6 provides enough addresses for every device on Earth — and then some."
+    }
+   ]
+  },
+  {
+   "term": "Domain name",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "The human-readable name of a website (like google.com) that gets translated into an IP address so your computer knows where to find it.",
+   "example": "You type 'youtube.com' into your browser — but behind the scenes, that name gets converted to a number (an IP address) before your computer can connect."
+  },
+  {
+   "term": "DNS (Domain Name System)",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "The system that converts website names into IP addresses — like a phonebook for the internet. Without DNS, you'd have to memorise numbers for every website.",
+   "example": "When you type 'wikipedia.org', DNS looks up the IP address (like 208.80.154.224) and sends your browser there.",
+   "sub_terms": [
+    {
+     "term": "DNS lookup",
+     "definition": "The process of your computer asking DNS servers to find the IP address that matches a domain name.",
+     "example": "Every time you visit a new website, a DNS lookup happens in the background — usually in milliseconds."
+    }
+   ]
+  },
+  {
+   "term": "Routing table",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "typical",
+   "definition": "A set of directions stored in network devices (routers) that tells them where to send data packets next based on where the packets are trying to go.",
+   "example": "Like road signs at an intersection — each router checks the destination and sends the packet down the best path toward it."
+  },
+  {
+   "term": "Data packet",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "typical",
+   "definition": "A small chunk of data sent across a network. When you send a file or load a web page, the data gets split into packets, sent separately, and put back together at the other end.",
+   "example": "Loading a YouTube video means your device receives thousands of small packets — each one carrying a piece of the video data."
+  },
+  {
+   "term": "Access control",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "The rules and tools that decide who can use a system and what they're allowed to do. It includes checking who you are, deciding what you can access, and blocking anything you're not supposed to do.",
+   "example": "When you log into a school computer, access control checks your password (identity), then gives you student-level access — you can open files but can't install software.",
+   "sub_terms": [
+    {
+     "term": "Password",
+     "definition": "A secret word or phrase you use to prove your identity when logging in.",
+     "example": "Entering your password is how the system confirms you are who you say you are."
+    },
+    {
+     "term": "RBAC (role-based access control)",
+     "definition": "A system where permissions are given to roles (like 'student' or 'admin') instead of to each person individually.",
+     "example": "In a school system, all teachers get the same permissions because they share the 'teacher' role."
+    },
+    {
+     "term": "Data breach",
+     "definition": "When someone who shouldn't have access gets into a system and sees or steals private data.",
+     "example": "If a hacker gets into a company's database and downloads customer details, that's a data breach."
+    }
+   ]
+  },
+  {
+   "term": "Authentication",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "The process of proving who you are to a system — usually by entering a password, scanning your fingerprint, or using a code sent to your phone.",
+   "example": "When you enter your username and password, the system is authenticating you — checking that you really are that person."
+  },
+  {
+   "term": "Authorisation (permissions)",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "What you're allowed to do after you've proven who you are. Even once the system knows your identity, it still decides what you can and can't access.",
+   "example": "A student and a teacher both log in to the same school platform, but the teacher can see class results and the student can't — that's authorisation in action."
+  },
+  {
+   "term": "Encryption",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "Scrambling data so only someone with the right key can unscramble and read it. Encryption is reversible — it's designed so the right person can get the original data back.",
+   "example": "When you send a message on a secure app, encryption scrambles it so that only the person you sent it to can read it.",
+   "sub_terms": [
+    {
+     "term": "Symmetric encryption",
+     "definition": "Encryption where the same secret key is used to lock and unlock the data.",
+     "example": "Like a lockbox with one key — both the sender and receiver need a copy of the same key."
+    },
+    {
+     "term": "Asymmetric encryption",
+     "definition": "Encryption using two different keys — one to lock (public key) and one to unlock (private key).",
+     "example": "Like a mailbox — anyone can drop a letter in (public key), but only you have the key to open it (private key)."
+    }
+   ]
+  },
+  {
+   "term": "Public key cryptography",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "A security system that uses two linked keys — a public key anyone can see and a private key only the owner has. It's how websites secure the data you send them, even though you've never shared a secret password with the website before.",
+   "example": "When you see the padlock icon in your browser, it means TLS (which uses public key cryptography) is encrypting the data between your browser and the website's server.",
+   "sub_terms": [
+    {
+     "term": "TLS (Transport Layer Security)",
+     "definition": "The protocol that creates an encrypted connection between your browser and a website using public key cryptography.",
+     "example": "Every time you visit a site starting with 'https://', TLS is encrypting the data travelling between you and that site."
+    },
+    {
+     "term": "Certificate authority",
+     "definition": "A trusted organisation that confirms a website's public key is genuine — like a digital ID check.",
+     "example": "When your browser trusts a website's security certificate, it's because a certificate authority vouched for it."
+    }
+   ]
+  },
+  {
+   "term": "Hashing",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "minimum",
+   "definition": "A process that converts data into a fixed-length code (a hash) that can't be converted back. It's a one-way process — you can check if two things match by comparing their hashes, but you can't figure out the original from the hash.",
+   "example": "When you create a password, the system stores a hash of it — not the password itself. When you log in, it hashes what you typed and checks if the hashes match.",
+   "sub_terms": [
+    {
+     "term": "SHA-1",
+     "definition": "A specific hashing method that turns any data into a 40-character code. It's an example of how hashing algorithms work.",
+     "example": "The word 'hello' always produces the same SHA-1 hash — but you can't work backwards from the hash to get 'hello' back."
+    },
+    {
+     "term": "Integrity verification",
+     "definition": "Checking that data hasn't been tampered with by comparing its hash to a known good hash.",
+     "example": "When you download software, the website sometimes shows a hash — you can hash your downloaded file and compare to check nothing was corrupted."
+    }
+   ]
+  },
+  {
+   "term": "Data in transit",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "typical",
+   "definition": "Data that is currently being sent across a network — it's moving from one device to another. While it's moving, it can be intercepted, so it needs encryption to stay private.",
+   "example": "When you submit a form on a website, your data is 'in transit' as it travels from your browser to the website's server."
+  },
+  {
+   "term": "Data at rest",
+   "descriptor_code": "AC9TDI10K01",
+   "width_tier": "typical",
+   "definition": "Data that is stored somewhere — on a hard drive, in a database, or in the cloud. It's not moving, but it still needs protection so nobody can access it without permission.",
+   "example": "Your saved passwords in a website's database are data at rest — they need to be hashed so even if someone breaks into the database, they can't read the actual passwords."
+  }
+ ]
+}

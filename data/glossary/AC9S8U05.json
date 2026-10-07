@@ -1,0 +1,278 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "8"
+ ],
+ "descriptor_code": "AC9S8U05",
+ "teacher_glossary": [
+  {
+   "term": "Kinetic energy",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "Energy associated with active motion or activity — at the level of objects, particles or waves. Kinetic energy unifies energy forms students have encountered in prior years (sound, heat, light, electrical, movement) under one classification category. The shared characteristic is that something is actively happening — particles vibrating, objects moving, waves propagating, charges flowing.",
+   "failure_mode": "Students treat kinetic energy as only movement energy (objects in motion) — miss that thermal, sound, light and electrical energy are all kinetic because they involve active processes at the particle or wave level.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If kinetic energy is only movement, the classification framework collapses — students cannot explain why heat is kinetic (particles vibrating) or why light is kinetic (waves propagating). The unifying principle is activity, not just visible motion.",
+   "response": "For each kinetic type, ask 'What is actively happening?' Movement = object moving. Thermal = particles vibrating. Sound = air molecules vibrating. Light = waves propagating. Electrical = charges flowing. The active-process test makes the category coherent.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Sound energy",
+     "definition": "Kinetic energy carried by vibrating particles — a sound wave is a pressure wave of particle vibration moving through a medium."
+    },
+    {
+     "term": "Light energy",
+     "definition": "Kinetic energy carried by electromagnetic waves. Also called radiant energy."
+    },
+    {
+     "term": "Electrical energy",
+     "definition": "Kinetic energy associated with the flow of electric charges through a conductor."
+    },
+    {
+     "term": "Mechanical energy",
+     "definition": "Kinetic energy of a moving object — the most intuitive kinetic form."
+    }
+   ]
+  },
+  {
+   "term": "Thermal energy",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 1,
+   "width_tier": "typical",
+   "definition": "The kinetic energy of particles vibrating and moving within a substance. Thermal energy is proportional to temperature — faster particle motion means higher temperature. At Year 8, it is critical that students understand thermal energy as kinetic (active particle motion) rather than potential (stored). Thermal energy is also the most common by-product of energy transformations, making it central to N4–N6.",
+   "failure_mode": "Students think heat energy is stored in hot objects like a battery stores energy — they classify thermal energy as potential rather than kinetic.",
+   "failure_type": "misconception",
+   "why_it_matters": "If thermal energy is potential, the entire kinetic/potential classification breaks. More importantly, by-product heat in transformations (N4) cannot be understood as active energy dissipating into the surroundings — it would be treated as stored energy, which prevents correct efficiency analysis in Year 9.",
+   "response": "Ask: 'Is anything actively happening in a hot object?' Yes — particles are vibrating faster. That active vibration IS the thermal energy. Compare to a stretched spring (potential — nothing is happening yet, but it could). The activity test resolves the classification.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Potential energy",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Energy stored in an object due to its position, composition or state of deformation — not currently active, but capable of being released. The three main forms at Year 8 are chemical (energy stored in molecular bonds — food, fuel, batteries), gravitational (energy due to height above a reference point) and elastic (energy stored in stretched or compressed materials). Potential energy becomes kinetic when the stored condition changes.",
+   "failure_mode": "Students cannot identify potential energy because it is invisible — if nothing is visibly happening, they think there is no energy present.",
+   "failure_type": "misconception",
+   "why_it_matters": "If potential energy is invisible and therefore non-existent, students cannot trace the energy present before a transformation begins. A ball at the top of a ramp, food before digestion, a stretched rubber band — all have energy that will convert to kinetic. Missing the 'before' state makes energy tracing in N5 incomplete.",
+   "response": "Present 'before and after' scenarios: ball at top of ramp → ball rolling; food → body moving; stretched rubber band → band snapping. Ask where the kinetic energy came from. The answer forces recognition of the stored energy present before the change.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Chemical potential energy",
+     "definition": "Energy stored in the bonds between atoms in molecules. Released during chemical reactions — combustion, digestion, battery discharge.",
+     "failure_mode": "Students do not recognise food, fuel or batteries as containing energy because nothing is visibly happening — they reserve 'energy' for moving or hot objects.",
+     "failure_type": "misconception",
+     "response": "Ask: 'Where does the energy come from when you run after eating? It was stored in the food — in molecular bonds. Where does torch light come from? Energy stored in the battery.' The before-action source makes chemical PE concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Gravitational potential energy",
+     "definition": "Energy stored due to an object's height above a reference point. The higher the object, the more gravitational potential energy it has.",
+     "failure_mode": "Students think gravitational potential energy only matters at extreme heights — miss that any height above a reference point stores GPE, including a book on a desk.",
+     "failure_type": "narrow_repertoire",
+     "response": "Drop a book from desk height and from hand height. Both had GPE — the desk drop just had more. Ask: 'At what height does GPE become zero?' Only at the reference point — the concept is continuous, not threshold-based.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Elastic potential energy",
+     "definition": "Energy stored in a stretched, compressed or deformed material. Released when the material returns to its original shape."
+    }
+   ]
+  },
+  {
+   "term": "Energy transfer",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Energy moving from one object or location to another without changing type. The energy type is preserved but its location changes — heat flows from a hot object to a cold one (thermal → thermal), a moving ball hits a stationary ball (kinetic → kinetic), sound travels from speaker to ear (sound → sound). Transfer is distinguished from transformation by the preservation of energy type.",
+   "failure_mode": "Students confuse transfer with transformation — they treat any energy change as a transformation, missing that transfer preserves the energy type while only changing location.",
+   "failure_type": "misconception",
+   "why_it_matters": "If transfer and transformation are conflated, students cannot correctly identify which steps in a multi-step system change energy type (transformation) and which merely move it (transfer). This distinction is essential for constructing accurate flow diagrams in N6.",
+   "response": "Present two events: heat flowing from a hot mug to a cold hand (same type, different location = transfer) and striking a match (chemical → thermal + light = transformation). Ask students to identify the difference. The contrast is the teaching tool.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Energy transformation",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Energy changing from one type to another. In every transformation, the input energy type differs from the output energy type — chemical → kinetic (combustion), electrical → light (light bulb), gravitational potential → kinetic (falling object). Almost every transformation produces by-product heat alongside the useful output. Identifying both useful output and by-product is essential for complete energy analysis.",
+   "failure_mode": "Students identify the useful output of a transformation but omit by-product heat — the analysis is systematically incomplete.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "By-product heat is the conceptual foundation of efficiency analysis in AC9S9U05. Students who do not identify heat as a by-product of every transformation produce systematically incomplete energy analyses and cannot construct accurate Sankey diagrams or calculate efficiency.",
+   "response": "For every transformation, require students to identify ALL outputs — useful AND by-product. Use the sentence frame: '___ energy → ___ energy (useful) + ___ energy (by-product).' The frame forces completeness.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Combustion",
+     "definition": "A chemical reaction in which a fuel reacts with oxygen, releasing thermal and light energy. A common example of chemical potential energy transforming to kinetic energy."
+    }
+   ]
+  },
+  {
+   "term": "By-product heat",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 4,
+   "width_tier": "minimum",
+   "definition": "Thermal energy produced as an unwanted output in almost every energy transformation. By-product heat is not lost — energy is conserved — but it is not the useful output and typically dissipates into the surroundings. The proportion of energy that becomes by-product heat rather than useful output is what efficiency measures. Sound and friction heat are also common by-products.",
+   "failure_mode": "Students think by-product heat means energy is destroyed or lost — miss that it is conserved but not useful.",
+   "failure_type": "misconception",
+   "why_it_matters": "If by-product heat is 'lost,' energy conservation appears violated. Understanding that the energy still exists but is no longer useful is the conceptual prerequisite for efficiency: efficiency measures how much energy ended up as useful output versus how much became unusable by-product.",
+   "response": "Ask: 'When a light bulb gets hot, where did the heat energy come from? Did any energy disappear?' The answer — electrical energy became light (useful) AND heat (by-product), nothing disappeared — makes conservation and by-product concrete simultaneously.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Useful output",
+     "definition": "The energy form that the system is designed to produce — light from a lamp, movement from a motor, sound from a speaker. Distinguished from by-product energy that is produced but not intended."
+    }
+   ]
+  },
+  {
+   "term": "Energy conservation",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 4,
+   "width_tier": "typical",
+   "definition": "The principle that energy cannot be created or destroyed — only transferred or transformed. In any energy event, the total energy after equals the total energy before. Energy that appears to be 'lost' has been transformed into by-product heat or other forms that dissipate into the environment. At Year 8, conservation is introduced qualitatively through by-product identification; quantitative efficiency calculations are developed in AC9S9U05.",
+   "failure_mode": "Students accept energy conservation as a rule but apply it inconsistently — they say 'energy is conserved' while also saying by-product heat is 'wasted' or 'lost,' revealing a surface-level understanding.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "If conservation is a stated rule rather than a deeply held principle, students will produce analyses that violate it without noticing — missing by-product outputs, or claiming energy disappears. Robust conservation understanding is the foundation of all energy analysis.",
+   "response": "Present a transformation where the useful output seems less than the input (e.g. a car engine). Ask: 'Where did the rest go?' Students must account for ALL output energy to match the input. The accounting exercise makes conservation operational rather than declarative.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Energy tracing",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 5,
+   "width_tier": "minimum",
+   "definition": "The analytical skill of following energy through a multi-step system, naming the energy type at each stage and identifying all transfers, transformations and by-product outputs along the way. Energy tracing is the prerequisite skill for flow diagram construction (N6) and efficiency analysis (AC9S9U05). A complete trace accounts for all energy at every stage — no energy appears from nowhere or disappears.",
+   "failure_mode": "Students can identify the start and end energy types but skip intermediate steps — the trace jumps from input to output without accounting for the stages between.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "If intermediate steps are skipped, by-product outputs at each stage are missed. A roller coaster trace that goes 'gravitational → kinetic' misses the heat and sound by-products at every conversion. Incomplete traces produce incomplete flow diagrams and inaccurate efficiency calculations.",
+   "response": "Require stage-by-stage tracing: 'At this point, what type of energy is present? What happens next? What type is it now? What by-products were produced?' The step-by-step method prevents skipping.",
+   "response_type": "consolidation"
+  },
+  {
+   "term": "Flow diagram",
+   "descriptor_code": "AC9S8U05",
+   "first_waypoint": 6,
+   "width_tier": "minimum",
+   "definition": "A visual representation of energy moving through a system, using arrows and labels to show the energy type at each stage, all transfers and transformations, and all by-product outputs. Flow diagrams must account for all energy at every transformation — missing by-product arrows is the most common error. Flow diagrams are the representational foundation for Sankey diagrams and efficiency analysis in AC9S9U05.",
+   "failure_mode": "Students construct flow diagrams that show only the useful output pathway — by-product heat arrows are missing from transformation stages, producing an incomplete diagram that appears to violate energy conservation.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Flow diagrams with missing by-products are systematically wrong — they imply energy disappears at each transformation. This error propagates directly into AC9S9U05's Sankey diagrams and efficiency calculations, where every output must be accounted for.",
+   "response": "After students construct a flow diagram, ask: 'Does the total energy leaving each stage equal the energy entering it?' If not, find the missing arrows. By-product heat at each transformation stage is the most commonly missing component.",
+   "response_type": "consolidation"
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Kinetic energy",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "Energy that involves something actively happening — objects moving, particles vibrating, waves travelling or charges flowing. If something is in action, its energy is kinetic.",
+   "example": "A moving car has kinetic energy, but so does a hot cup of tea — the water particles are vibrating rapidly, and that vibration IS the thermal (kinetic) energy.",
+   "sub_terms": [
+    {
+     "term": "Sound energy",
+     "definition": "Energy carried by vibrating particles — when a speaker plays music, it vibrates the air, and that vibration travels to your ears."
+    },
+    {
+     "term": "Light energy",
+     "definition": "Energy carried by light waves travelling through space."
+    },
+    {
+     "term": "Electrical energy",
+     "definition": "Energy from electric charges flowing through a wire or circuit."
+    },
+    {
+     "term": "Mechanical energy",
+     "definition": "The energy of a moving object — a rolling ball, a swinging bat, a spinning wheel."
+    }
+   ]
+  },
+  {
+   "term": "Thermal energy",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "typical",
+   "definition": "The energy of particles vibrating inside a substance. The faster the particles move, the hotter the substance feels. Thermal energy is kinetic because the particles are actively moving — it is not stored energy.",
+   "example": "A hot drink feels warm because its water particles are vibrating fast. As it cools, those particles slow down — the thermal energy transfers to the cooler surroundings."
+  },
+  {
+   "term": "Potential energy",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "Stored energy that is not doing anything yet, but could be released. It depends on position (height), composition (chemical bonds) or shape (stretched/compressed).",
+   "example": "A ball at the top of a ramp has gravitational potential energy — nothing is happening yet, but when it rolls, that stored energy converts to kinetic energy.",
+   "sub_terms": [
+    {
+     "term": "Chemical potential energy",
+     "definition": "Energy stored in the bonds of molecules — food, fuel and batteries all store chemical potential energy that is released in reactions."
+    },
+    {
+     "term": "Gravitational potential energy",
+     "definition": "Energy stored because of height — the higher up something is, the more energy it has stored."
+    },
+    {
+     "term": "Elastic potential energy",
+     "definition": "Energy stored in something that has been stretched or squashed — a rubber band, a spring, a compressed ball."
+    }
+   ]
+  },
+  {
+   "term": "Energy transfer",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "When energy moves from one place to another but stays the same type. The energy type does not change — only its location does.",
+   "example": "When you hold a hot mug, heat moves from the mug to your hand — it is thermal energy before and thermal energy after, just in a different place."
+  },
+  {
+   "term": "Energy transformation",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "When energy changes from one type to a different type. Almost every transformation produces some by-product heat alongside the useful output.",
+   "example": "A light bulb transforms electrical energy into light energy (useful) and heat energy (by-product) — that is why light bulbs get hot.",
+   "sub_terms": [
+    {
+     "term": "Combustion",
+     "definition": "A chemical reaction in which a fuel reacts with oxygen, releasing thermal and light energy. A common example of chemical potential energy transforming to kinetic energy."
+    }
+   ]
+  },
+  {
+   "term": "By-product heat",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "Unwanted thermal energy produced during almost every energy transformation. The energy is not lost or destroyed — it just ends up as heat that spreads into the surroundings instead of doing something useful.",
+   "example": "Your phone gets warm when you use it because some of the electrical energy is transformed into heat instead of screen light or sound — that warmth is by-product heat.",
+   "sub_terms": [
+    {
+     "term": "Useful output",
+     "definition": "The type of energy a device is designed to produce — light from a lamp, movement from a motor."
+    }
+   ]
+  },
+  {
+   "term": "Energy conservation",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "typical",
+   "definition": "The rule that energy can never be created or destroyed — it can only change type or move to a different place. When energy seems to disappear, it has actually become by-product heat spreading into the surroundings.",
+   "example": "When a ball bouncing on the floor gradually bounces lower, the energy is not disappearing — each bounce converts some kinetic energy into heat and sound, which spread into the surroundings."
+  },
+  {
+   "term": "Energy tracing",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "Following energy step by step through a system, naming the energy type at each stage and identifying all the transfers, transformations and by-products along the way.",
+   "example": "Tracing a torch: chemical energy (battery) → electrical energy (circuit) → light energy (useful output) + heat energy (by-product). Every stage is accounted for."
+  },
+  {
+   "term": "Flow diagram",
+   "descriptor_code": "AC9S8U05",
+   "width_tier": "minimum",
+   "definition": "A diagram that shows energy moving through a system using arrows and labels. Every transformation stage needs arrows for both the useful output AND the by-product — if arrows are missing, the diagram does not add up.",
+   "example": "A flow diagram for a car engine shows: chemical energy → kinetic energy (useful) + heat energy (by-product) + sound energy (by-product). All the arrows leaving a stage must add up to the energy entering it."
+  }
+ ]
+}

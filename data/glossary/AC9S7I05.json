@@ -1,0 +1,172 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I05",
+ "teacher_glossary": [
+  {
+   "term": "Pattern",
+   "descriptor_code": "AC9S7I05",
+   "first_waypoint": 1,
+   "width_tier": "minimum",
+   "definition": "A regularity or repeated feature in data that can be described and used to make predictions. Patterns may be trends (directional change), cycles (repeating sequences), clusters (groupings) or other regularities. Describing patterns requires precise scientific language — naming the variables involved and specifying the nature of the regularity rather than using vague directional language.",
+   "failure_mode": "Students use imprecise language to describe patterns — they say 'it goes up' or 'it changes' without specifying which variables are involved, the direction of change, or the nature of the regularity.",
+   "failure_type": "fragile_skill",
+   "why_it_matters": "Imprecise pattern description prevents meaningful analysis. 'It goes up' could mean many things — which variable goes up, in response to what, by how much? Without precise language, students cannot communicate findings or connect patterns to scientific explanations (AC9S7I07).",
+   "response": "Require the sentence structure: 'As [variable A] increases/decreases, [variable B] increases/decreases/stays the same.' Reject descriptions that don't name both variables. Practise with multiple data sets until the structure becomes automatic.",
+   "response_type": "consolidation",
+   "sub_terms": [
+    {
+     "term": "Trend",
+     "definition": "A pattern of directional change in data over a continuous variable, typically time — such as a steady increase, decrease or acceleration. A trend describes the overall direction, which may include short-term variation around the long-term direction.",
+     "failure_mode": "Students use 'trend' and 'pattern' interchangeably — they call any regularity a 'trend' even when the data shows cycles, clusters or other non-directional patterns. A trend is specifically directional change, not any regularity.",
+     "failure_type": "misconception",
+     "response": "Present a cyclical data set (e.g. tidal heights) and a directional data set (e.g. increasing population). Ask which shows a trend and which shows a pattern that is not a trend. The cycle example breaks the trend = pattern conflation.",
+     "response_type": "context_breadth"
+    },
+    {
+     "term": "Data point",
+     "definition": "A single measurement or observation within a data set. A single data point does not establish a pattern — patterns require multiple data points showing regularity.",
+     "failure_mode": "Students treat a single data point as evidence of a pattern or relationship — they draw conclusions from one measurement rather than recognising that patterns require multiple consistent observations.",
+     "failure_type": "flawed_reasoning",
+     "response": "Present one data point and ask if it proves a pattern. Then add more data points one at a time and ask when the student becomes confident a pattern exists. The progression reveals that single points are insufficient.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Relationship",
+   "descriptor_code": "AC9S7I05",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A connection between two variables in which changes in one variable are associated with changes in the other. At Year 7, relationships are classified as positive (both variables increase or decrease together), negative (one increases as the other decreases) or non-linear (the connection exists but is not a simple straight-line pattern). Identifying a relationship requires naming both variables and specifying how they are connected.",
+   "failure_mode": "Students describe the direction of change in one variable ('it increases') without linking the independent and dependent variables — they spot the pattern visually but cannot articulate the relationship between variables that produces it.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "A relationship is between two variables — describing one variable's behaviour is pattern-spotting, not relationship identification. The relationship is what connects the observation to the scientific explanation and enables prediction.",
+   "response": "When students describe a pattern, ask: 'Which variable changes, and which variable responds?' Require the response to name both variables explicitly. Practice across multiple data sets where the variable pairing is different each time.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Positive relationship",
+     "definition": "A relationship where both variables change in the same direction — as one increases, the other also increases, or as one decreases, the other also decreases."
+    },
+    {
+     "term": "Negative relationship",
+     "definition": "A relationship where the variables change in opposite directions — as one increases, the other decreases."
+    },
+    {
+     "term": "Non-linear relationship",
+     "definition": "A relationship where the connection between variables exists but does not follow a straight-line pattern — the rate of change is not constant. Examples include exponential growth or cyclic relationships."
+    },
+    {
+     "term": "Correlation",
+     "definition": "A statistical association between two variables — they change together in a consistent pattern. A correlation can be positive (both increase together), negative (one increases as the other decreases) or absent. Critically, correlation does not establish causation — two variables may be correlated because a third factor drives both, not because one causes the other.",
+     "failure_mode": "Students treat correlation as proof of causation — they see two variables changing together and conclude that one must cause the other, without considering alternative explanations or third factors.",
+     "failure_type": "misconception",
+     "response": "Present classic spurious correlations (e.g. ice cream sales and drowning rates) and ask: 'Do you think one causes the other? What else could explain both?' Then ask what investigation would be needed to test causation. The third-factor question is the key reasoning move.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Causation",
+     "definition": "A relationship where a change in one variable directly produces a change in another — the independent variable is the cause and the dependent variable is the effect. Causation is distinct from correlation, where two variables change together but one does not necessarily cause the other. Establishing causation requires controlled investigation, not just observed association.",
+     "failure_mode": "Students assume that because two variables change together (correlation), one must cause the other — they say 'ice cream sales cause drowning' because both increase in summer, rather than recognising that a third factor (hot weather) drives both.",
+     "failure_type": "misconception",
+     "response": "Present a clear correlation (e.g. ice cream sales and drowning rates both rise in summer) and ask: 'Does one cause the other, or could something else explain both?' Then ask what investigation you would need to prove causation. The third-factor question breaks the automatic correlation-to-causation leap.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  },
+  {
+   "term": "Anomaly",
+   "descriptor_code": "AC9S7I05",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "A data point or observation that does not fit the overall pattern in a data set. Anomalies may result from measurement error, equipment malfunction or recording mistakes — or they may represent genuine phenomena that the expected pattern does not account for. The critical skill is reasoning through which explanation is more likely before deciding whether to exclude, investigate or report the anomaly.",
+   "failure_mode": "Students either automatically discard anomalies ('it must be wrong') or ignore them entirely — they do not reason through whether the anomaly represents error or a genuine phenomenon, and they do not consider the effect of inclusion or exclusion on their conclusions.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Reflexive exclusion discards potentially important data; reflexive retention distorts patterns. Both responses avoid the reasoning the standard requires — evaluating what caused the anomaly and what its effect on the conclusion would be. Anomaly handling is a genuine analytical skill, not a binary keep/discard decision.",
+   "response": "When students identify an anomaly, scaffold three questions: 'Is there a measurement or recording explanation for this point? If I remove it, does my conclusion change? If I keep it, what would it mean for my explanation?' The questions force reasoning before any decision.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Outlier",
+     "definition": "A data point that falls significantly outside the range of other values in the data set. At Year 7, outlier is often used as a synonym for anomaly, though technically an outlier is identified by its statistical distance from the rest of the data.",
+     "failure_mode": "Students use 'outlier' as a label to justify removing any result they don't like — the term becomes a licence to discard inconvenient data rather than a prompt to investigate.",
+     "failure_type": "flawed_reasoning",
+     "response": "Require students to explain what makes a data point an outlier before allowing removal: 'How far is it from the pattern? Is there a reason it might be wrong? What happens to your conclusion if you keep it?' The justification requirement prevents reflexive exclusion.",
+     "response_type": "structured_reasoning"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Pattern",
+   "descriptor_code": "AC9S7I05",
+   "width_tier": "minimum",
+   "definition": "A regularity in your data — something that repeats or changes in a consistent way. When describing a pattern, always name both variables: don't just say 'it goes up,' say 'as temperature increases, dissolving rate increases.'",
+   "example": "If you measured plant growth each week and the plant grew taller every week, the pattern is: 'As time increases, plant height increases.'",
+   "sub_terms": [
+    {
+     "term": "Trend",
+     "definition": "A pattern that shows a clear direction — things are steadily going up, going down, or staying flat. Not all patterns are trends — tides go up and down in a cycle, which is a pattern but not a trend.",
+     "example": "Average global temperatures have shown an upward trend over the past century — the overall direction is increasing, even though individual years vary."
+    },
+    {
+     "term": "Data point",
+     "definition": "A single measurement in your data set. One data point on its own doesn't prove a pattern — you need multiple measurements to see if there's a regularity.",
+     "example": "Measuring the temperature once and getting 25°C is one data point. You can't say 'the temperature is always 25°C' from one measurement."
+    }
+   ]
+  },
+  {
+   "term": "Relationship",
+   "descriptor_code": "AC9S7I05",
+   "width_tier": "minimum",
+   "definition": "A connection between two variables where a change in one is linked to a change in the other. Relationships can be positive (both go up together), negative (one goes up as the other goes down) or non-linear (connected but not in a straight-line way).",
+   "example": "There's a positive relationship between the temperature of water and how fast sugar dissolves — as temperature increases, dissolving rate increases.",
+   "sub_terms": [
+    {
+     "term": "Positive relationship",
+     "definition": "When both variables change in the same direction — as one goes up, the other goes up too.",
+     "example": "As the mass of an object increases, the force needed to move it increases — that's a positive relationship."
+    },
+    {
+     "term": "Negative relationship",
+     "definition": "When the variables change in opposite directions — as one goes up, the other goes down.",
+     "example": "As altitude increases, air temperature generally decreases — that's a negative relationship."
+    },
+    {
+     "term": "Non-linear relationship",
+     "definition": "A relationship where the variables are connected but the change isn't at a steady rate — the graph curves rather than being a straight line.",
+     "example": "Predator and prey populations rise and fall in cycles — they're connected, but not in a simple straight-line way."
+    },
+    {
+     "term": "Correlation",
+     "definition": "When two variables change together in a pattern — but that doesn't mean one causes the other. Two things can be correlated because something else is causing both.",
+     "example": "There's a correlation between the number of ice creams sold and the number of people who drown — both go up in summer. But ice cream doesn't cause drowning. Hot weather causes both. That's why 'correlation does not equal causation.'"
+    },
+    {
+     "term": "Causation",
+     "definition": "When one thing actually causes another to happen — not just that they happen at the same time. Just because two things change together (correlation) doesn't mean one causes the other.",
+     "example": "Ice cream sales and drowning rates both go up in summer — but eating ice cream doesn't cause drowning. Hot weather causes both. That's correlation without causation."
+    }
+   ]
+  },
+  {
+   "term": "Anomaly",
+   "descriptor_code": "AC9S7I05",
+   "width_tier": "minimum",
+   "definition": "A result that doesn't fit the pattern in your data. Before deciding what to do with it, think about why it might have happened — was it a mistake, or is it telling you something real that your pattern doesn't explain?",
+   "example": "If you measured dissolving times of 30s, 28s, 31s, 55s, 29s, the 55s result is an anomaly. Maybe you forgot to stir that time (error), or maybe something genuinely different happened — you need to think about which before you decide to keep or remove it.",
+   "sub_terms": [
+    {
+     "term": "Outlier",
+     "definition": "A measurement that's much further from the others than expected. It's not just 'a result you don't like' — it's a data point that's genuinely far from the pattern, and you need a reason before you remove it.",
+     "example": "If everyone in your class measured the boiling point of water and got values between 99°C and 101°C, but one person got 85°C, that's an outlier — and it probably means something went wrong with their measurement."
+    }
+   ]
+  }
+ ]
+}

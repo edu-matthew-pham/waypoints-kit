@@ -1,0 +1,145 @@
+{
+ "subject": "Science",
+ "year_levels": [
+  "7"
+ ],
+ "descriptor_code": "AC9S7I07",
+ "teacher_glossary": [
+  {
+   "term": "Evidence-based argument",
+   "descriptor_code": "AC9S7I07",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "A structured case that links evidence to a conclusion through explicit reasoning — stating what the evidence shows, why it supports the conclusion, and how the reasoning connects the two. An evidence-based argument goes beyond listing evidence alongside a conclusion by providing the 'because' that explains the logical connection. At Year 7, the standard also requires consideration of ethical issues and cultural protocols when using secondary evidence.",
+   "failure_mode": "Students list evidence alongside a conclusion but do not connect them through reasoning — they present the evidence and state the conclusion as separate items rather than building a logical chain that explains why the evidence supports the conclusion.",
+   "failure_type": "fragmentation",
+   "why_it_matters": "Without reasoning, an argument is just evidence and conclusion side by side. The reasoning is what makes the argument persuasive and evaluable — it exposes the logic for scrutiny, which is how science builds knowledge. Students who cannot construct evidence-based arguments cannot participate in scientific discourse or evaluate others' claims (AC9S7I06).",
+   "response": "Provide sentence starters that make the reasoning link explicit: 'The evidence shows [X]. This supports the conclusion because [Y]. This matters because [Z].' Evaluate the reasoning component separately from the evidence and conclusion — all three must be present and connected.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Conclusion",
+     "definition": "A statement drawn from evidence that supports or rejects a hypothesis. A conclusion must be consistent with the evidence — it should not over-reach beyond what the data shows or ignore limitations in the evidence quality.",
+     "failure_mode": "Students state conclusions without identifying the specific evidence that supports them, or over-reach beyond what the evidence shows — they make broad claims from narrow data or state results without connecting them back to the hypothesis.",
+     "failure_type": "flawed_reasoning",
+     "response": "After students write a conclusion, ask: 'Which specific evidence supports this? Does all your evidence point to this conclusion, or does some of it conflict?' The specificity check prevents over-reach and forces evidence connection.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Reasoning",
+     "definition": "The logical explanation connecting evidence to a conclusion — the 'because' that explains why the evidence supports the claim. Reasoning draws on scientific principles, models or prior knowledge to make the connection explicit.",
+     "failure_mode": "Students fill the 'because' slot by restating the evidence rather than explaining why the evidence supports the conclusion — the reasoning is circular ('the dissolving rate increased because the data shows it increased') rather than explanatory ('because higher temperatures give particles more kinetic energy, increasing collision frequency').",
+     "failure_type": "flawed_reasoning",
+     "response": "Show students the difference between restating evidence and explaining it: 'Your reasoning should use a scientific idea to explain WHY the evidence makes sense.' If the reasoning would still be true without doing the investigation, it's an explanation, not a restatement.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Credibility",
+     "definition": "The trustworthiness and reliability of an evidence source — determined by factors such as the author's expertise, the method of data collection, whether the work has been peer-reviewed, and whether the source has potential conflicts of interest."
+    },
+    {
+     "term": "Counter-argument",
+     "definition": "An argument that opposes or challenges the main claim, presenting alternative evidence or reasoning. Addressing counter-arguments strengthens an evidence-based argument by showing that alternative interpretations have been considered and addressed.",
+     "failure_mode": "Students present counter-arguments as straw men — weak versions of the opposing position set up to be easily dismissed — rather than engaging with the strongest evidence and reasoning the opposition would offer.",
+     "failure_type": "flawed_reasoning",
+     "response": "Ask students to state the counter-argument in a way the opposing side would agree with before attempting to address it. If the opposing side would say 'that's not what we're arguing,' the counter-argument is a straw man.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "CER",
+     "definition": "Claim-Evidence-Reasoning — a framework for structuring scientific arguments. The Claim states the position, the Evidence presents the data or observations that support it, and the Reasoning explains why the evidence supports the claim using scientific principles."
+    }
+   ]
+  },
+  {
+   "term": "Secondary data",
+   "descriptor_code": "AC9S7I07",
+   "first_waypoint": 3,
+   "width_tier": "minimum",
+   "definition": "Data or information collected by someone other than the current investigator — including published research, datasets, historical records, government statistics and cultural knowledge. Using secondary data requires evaluating its credibility and, when the data comes from culturally sensitive sources such as First Nations Australians' traditional knowledge, following appropriate cultural protocols for use and citation.",
+   "failure_mode": "Students use secondary data without considering its source, credibility or the ethical implications of citing it — particularly when the data derives from culturally sensitive knowledge systems where specific protocols for use, citation and benefit-sharing may apply.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Uncritical use of secondary data undermines argument quality and, when cultural knowledge is involved, can constitute misappropriation. Students need to evaluate secondary sources and recognise that not all data is freely available for use — some carries ethical and cultural obligations.",
+   "response": "For each secondary source, require students to answer: 'Who collected this data? Is the source credible? Are there ethical considerations about using it? Do I need permission or should I follow specific protocols?' The checklist builds ethical evaluation as a habit rather than an afterthought.",
+   "response_type": "structured_reasoning",
+   "sub_terms": [
+    {
+     "term": "Primary data",
+     "definition": "Data collected directly by the investigator through their own observations, measurements or experiments — as distinct from secondary data collected by others."
+    },
+    {
+     "term": "Biopiracy",
+     "definition": "The appropriation of traditional or Indigenous knowledge — particularly about biological resources such as medicinal plants — by commercial or research entities without permission, acknowledgement or benefit-sharing with the originating community.",
+     "failure_mode": "Students name biopiracy as a concept without explaining the specific harm — who is affected, what is taken without consent, and what rights are violated. The term is used as an abstract label rather than a concrete ethical analysis.",
+     "failure_type": "flawed_reasoning",
+     "response": "Present a specific case of biopiracy (e.g. a commercial product derived from traditional plant knowledge) and scaffold: 'Whose knowledge was used? Was permission given? Who benefits financially? What should have happened instead?' The case-based analysis makes the harm concrete.",
+     "response_type": "structured_reasoning"
+    },
+    {
+     "term": "Intellectual property",
+     "definition": "The legal rights that protect creations of the mind — including inventions, designs and traditional knowledge. In the context of secondary data, intellectual property rights mean that knowledge developed by a community or individual cannot be freely used, reproduced or commercialised without appropriate permission and acknowledgement."
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Evidence-based argument",
+   "descriptor_code": "AC9S7I07",
+   "width_tier": "minimum",
+   "definition": "A case you build by connecting your evidence to your conclusion through reasoning. It's not enough to have evidence and a conclusion — you need the 'because' that explains why the evidence supports what you're claiming.",
+   "example": "Instead of: 'Sugar dissolved faster in hot water. Therefore temperature affects dissolving rate.' Say: 'Sugar dissolved faster in hot water BECAUSE higher temperatures give water particles more energy to break apart the sugar — therefore temperature affects dissolving rate.' The 'because' is what makes it an argument.",
+   "sub_terms": [
+    {
+     "term": "Conclusion",
+     "definition": "A statement about what your evidence shows — whether it supports or rejects your hypothesis. A good conclusion sticks to what the evidence actually proves and doesn't claim more than the data shows.",
+     "example": "'The data shows that plants in sunlight grew taller than plants in shade' is a conclusion supported by evidence. 'All plants need sunlight to survive' goes beyond what the investigation actually tested."
+    },
+    {
+     "term": "Reasoning",
+     "definition": "The scientific explanation that connects your evidence to your conclusion — the 'because' part. Good reasoning uses a scientific idea to explain WHY the evidence makes sense, rather than just repeating what the data showed.",
+     "example": "Bad reasoning: 'The ice melted because the data shows it melted.' Good reasoning: 'The ice melted because heat energy transferred from the warm water to the ice, increasing the kinetic energy of ice particles until they changed state.'"
+    },
+    {
+     "term": "Credibility",
+     "definition": "How trustworthy and reliable a source of evidence is — based on who collected it, how they collected it, and whether other experts have checked it.",
+     "example": "A peer-reviewed scientific journal is generally more credible than a random social media post because the research has been checked by other scientists before publication."
+    },
+    {
+     "term": "Counter-argument",
+     "definition": "An argument that challenges your claim by presenting different evidence or reasoning. Addressing counter-arguments fairly makes your own argument stronger because it shows you've considered other viewpoints.",
+     "example": "If you argue that renewable energy should replace fossil fuels, a counter-argument might be that renewable energy is intermittent and needs storage solutions. Addressing this seriously is more convincing than pretending the problem doesn't exist."
+    },
+    {
+     "term": "CER",
+     "definition": "Short for Claim-Evidence-Reasoning — a structure for building scientific arguments. C = what you're claiming, E = what evidence supports it, R = why the evidence supports the claim.",
+     "example": "Claim: temperature affects dissolving rate. Evidence: sugar dissolved in 30s at 60°C but 120s at 20°C. Reasoning: higher temperatures give water particles more kinetic energy, so they break apart sugar faster."
+    }
+   ]
+  },
+  {
+   "term": "Secondary data",
+   "descriptor_code": "AC9S7I07",
+   "width_tier": "minimum",
+   "definition": "Data or information that someone else collected — like published research, government statistics or traditional knowledge. You can use secondary data in your arguments, but you need to check its quality and think about whether there are ethical rules about using it.",
+   "example": "Using published data about fish populations to support an argument about overfishing is using secondary data. You didn't collect it yourself, so you need to check who did and whether their method was reliable.",
+   "sub_terms": [
+    {
+     "term": "Primary data",
+     "definition": "Data you collected yourself through your own investigation.",
+     "example": "If you measured the temperature of water samples yourself in a lab, that's primary data."
+    },
+    {
+     "term": "Biopiracy",
+     "definition": "When someone takes traditional or Indigenous knowledge — like knowledge about medicinal plants — and uses it commercially without permission from or benefit to the community that developed it.",
+     "example": "If a company discovered that a plant used in First Nations medicine could treat a disease, then patented a drug based on it without involving or compensating the community — that's biopiracy."
+    },
+    {
+     "term": "Intellectual property",
+     "definition": "The idea that knowledge and creations belong to the people who developed them. Traditional knowledge developed by a community over thousands of years can't just be taken and used by others without permission.",
+     "example": "A community's traditional knowledge about which plants have healing properties is their intellectual property — a researcher can't just publish it without permission and appropriate acknowledgement."
+    }
+   ]
+  }
+ ]
+}

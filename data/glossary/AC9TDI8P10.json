@@ -1,0 +1,79 @@
+{
+ "subject": "Digital Technologies",
+ "year_levels": [
+  "7",
+  "8"
+ ],
+ "descriptor_code": "AC9TDI8P10",
+ "teacher_glossary": [
+  {
+   "term": "Impact analysis",
+   "descriptor_code": "AC9TDI8P10",
+   "first_waypoint": 2,
+   "width_tier": "minimum",
+   "definition": "Evaluating the possible future consequences of a digital solution across three dimensions: economic (cost, employment, market effects), environmental (energy use, e-waste, sustainability), and social (equity, access, behaviour change). Impact analysis requires identifying both positive and negative effects — most solutions have trade-offs across dimensions.",
+   "failure_mode": "Students label solutions as simply 'good' or 'bad' rather than identifying co-existing positive and negative impacts across different dimensions.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Binary good/bad judgments miss the trade-offs that define real technology decisions. Cloud computing reduces data loss (positive) but consumes vast electricity (negative). Students who cannot hold both impacts simultaneously cannot make or evaluate nuanced design decisions.",
+   "response": "For every identified impact, ask: is there a trade-off in another dimension? If students say 'it's all positive', point to a specific cost (energy, privacy, equity) and ask them to evaluate it.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Safety by Design",
+   "descriptor_code": "AC9TDI8P10",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "A framework requiring digital products to build user safety into the design from the start, not as an afterthought. For young people, this includes privacy settings that are comprehensive, easy to use, and set to maximum protection by default. Safety by Design evaluates whether users can control their safety and experience online.",
+   "failure_mode": "Students treat safety features as optional extras rather than design requirements — they add privacy settings at the end rather than designing around user protection from the start.",
+   "failure_type": "flawed_reasoning",
+   "why_it_matters": "Retrofitted safety is consistently weaker than designed-in safety. If students learn to add privacy settings as an afterthought, they produce solutions where the default experience is unsafe and users must actively protect themselves.",
+   "response": "Ask: what happens to a user who never changes any settings? If the default is unsafe, the design has failed Safety by Design regardless of what options are available in the settings menu.",
+   "response_type": "structured_reasoning"
+  },
+  {
+   "term": "Misinformation",
+   "descriptor_code": "AC9TDI8P10",
+   "first_waypoint": 3,
+   "width_tier": "typical",
+   "definition": "False or misleading content that spreads through digital platforms, whether created intentionally (disinformation) or shared unknowingly. AI-generated content amplifies misinformation risks — high volumes of automatically generated misleading content can be created and distributed rapidly. Recommendation algorithms can further amplify misleading content by optimising for engagement.",
+   "failure_mode": "Students think misinformation is only about obviously fake news articles and don't recognise how AI generation and algorithmic amplification create systemic risks at scale.",
+   "failure_type": "narrow_repertoire",
+   "why_it_matters": "If misinformation is just 'fake news', students cannot evaluate the systemic risks of AI-generated content or recommendation algorithms in their own designs. The scale and automation dimension is what makes contemporary misinformation qualitatively different.",
+   "response": "Compare a single fake article (easy to spot) with thousands of AI-generated variations (hard to contain). Ask: what makes the second scenario harder to address? The scale dimension reframes the problem.",
+   "response_type": "context_breadth",
+   "sub_terms": [
+    {
+     "term": "Disinformation"
+    }
+   ]
+  }
+ ],
+ "student_glossary": [
+  {
+   "term": "Impact analysis",
+   "descriptor_code": "AC9TDI8P10",
+   "width_tier": "minimum",
+   "definition": "Thinking about how a digital solution could affect people, the environment, and the economy in the future — both positively and negatively. Most solutions have trade-offs: they help in one area but create problems in another.",
+   "example": "Cloud storage means you never lose files (positive), but the data centres use huge amounts of electricity (negative). Both impacts are real."
+  },
+  {
+   "term": "Safety by Design",
+   "descriptor_code": "AC9TDI8P10",
+   "width_tier": "typical",
+   "definition": "Building user safety into a product from the start, not adding it later. For apps used by young people, this means privacy settings should be easy to use, comprehensive, and set to maximum protection by default.",
+   "example": "If a new user's profile is public by default, that's a Safety by Design failure — the safe option should be the default, not something you have to find and turn on."
+  },
+  {
+   "term": "Misinformation",
+   "descriptor_code": "AC9TDI8P10",
+   "width_tier": "typical",
+   "definition": "False or misleading content that spreads online. AI can now generate huge amounts of fake content very quickly, and recommendation algorithms can amplify it by showing it to more people.",
+   "example": "One fake article is easy to spot. But thousands of AI-generated variations of the same false claim, each slightly different, are much harder to contain.",
+   "sub_terms": [
+    {
+     "term": "Disinformation"
+    }
+   ]
+  }
+ ]
+}
