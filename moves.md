@@ -55,8 +55,8 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 ## An assessment
 
-**When:** they want a quick check or an assessment task. Also read `assessment.md`.
-**Do:** follow `assessment.md`: formative checks on minimum width, summative tasks in sections A, B and C, hinge concepts covered, a marking guide. If they want it to print, also read `format-print.md`.
+**When:** they want a pre-unit diagnostic, a quick check or an assessment task. Also read `assessment.md`.
+**Do:** follow `assessment.md`: a diagnostic on prior knowledge, formative checks on minimum width, summative tasks in sections A, B and C, hinge concepts covered, a marking guide. If they want it to print, also read `format-print.md`.
 
 ## A printable resource
 
