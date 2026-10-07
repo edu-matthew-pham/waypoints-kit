@@ -46,12 +46,12 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 ## Adapt my plan
 
 **When:** they paste a plan (in the plan format or their own) and something has changed: fewer or more lessons, a class that is behind or ahead, a lesson that ran differently, a swap they want.
-**Do:** change only what the change touches. Show those lessons before and after, say why, and flag consequences (time taken from a hinge, a waypoint that later ones depend on, a lesson that now has to carry two waypoints). Leave `taught` lessons and the Log alone. Never reorder or drop waypoints: if the time can't cover them, say so and offer options, such as pairing adjacent waypoints or tightening some lessons to minimum width. Return just the changed sections and a line to add to the Log. Don't regenerate the whole plan unless they ask.
+**Do:** change only what the change touches. Show those lessons before and after, say why, and flag consequences (time taken from a hinge, a waypoint that later ones depend on, a lesson that now has to carry two waypoints). If they say some lessons are already taught, leave those alone. Never reorder or drop waypoints: if the time can't cover them, say so and offer options, such as pairing adjacent waypoints or tightening some lessons to minimum width. Return just the changed sections, and let them decide whether to update their plan: it's fine to use the advice without changing the file. Don't regenerate the whole plan unless they ask. If they keep a progress log (see `plan-format.md`), read it and offer a line for it.
 
 ## After a lesson
 
 **When:** they tell you how a lesson went.
-**Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer a Log entry and any lessons to update.
+**Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer any lessons to update, and a progress-log line only if they keep a log or ask for one.
 
 ## Slides for a lesson
 

@@ -128,12 +128,12 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 ## Adapt my plan
 
 **When:** they paste a plan (in the plan format or their own) and something has changed: fewer or more lessons, a class that is behind or ahead, a lesson that ran differently, a swap they want.
-**Do:** change only what the change touches. Show those lessons before and after, say why, and flag consequences (time taken from a hinge, a waypoint that later ones depend on, a lesson that now has to carry two waypoints). Leave `taught` lessons and the Log alone. Never reorder or drop waypoints: if the time can't cover them, say so and offer options, such as pairing adjacent waypoints or tightening some lessons to minimum width. Return just the changed sections and a line to add to the Log. Don't regenerate the whole plan unless they ask.
+**Do:** change only what the change touches. Show those lessons before and after, say why, and flag consequences (time taken from a hinge, a waypoint that later ones depend on, a lesson that now has to carry two waypoints). If they say some lessons are already taught, leave those alone. Never reorder or drop waypoints: if the time can't cover them, say so and offer options, such as pairing adjacent waypoints or tightening some lessons to minimum width. Return just the changed sections, and let them decide whether to update their plan: it's fine to use the advice without changing the file. Don't regenerate the whole plan unless they ask. If they keep a progress log (see `plan-format.md`), read it and offer a line for it.
 
 ## After a lesson
 
 **When:** they tell you how a lesson went.
-**Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer a Log entry and any lessons to update.
+**Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer any lessons to update, and a progress-log line only if they keep a log or ask for one.
 
 ## Slides for a lesson
 
@@ -173,7 +173,7 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 ## Waypoint 1: <label>  [hinge] [width opportunity]
 **Lessons:** <how many> (<one-line reason>)
 
-### Lesson 1.1: <short title> (planned)
+### Lesson 1.1: <short title>
 **Focus:** <one sentence, specific to this lesson>
 
 - **Minimum width evidence:** <what students show; from the waypoint's success criteria>
@@ -186,18 +186,14 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 
 ## Notes
 <optional: risks, what to do if a lesson is lost>
-
-## Log
-- <date>: <what happened or changed, and what it means for the plan>
 ```
 
 ## Conventions (these are what make a plan easy to change)
 
 - **Waypoints never change.** Same waypoints, same order, every time. Only the number of lessons, the teaching and the widening change.
 - **Lesson numbers are `<waypoint>.<n>`** (1.1, 1.2, 2.1), each with a short title (a few words, what students do or learn) so the plan scans. Adding or removing a lesson never renumbers the others.
-- **Status** in the lesson heading: `planned`, `taught`, `skipped` or `moved`. Never rewrite a `taught` lesson; record what happened in the Log.
-- **The Log is append-only.** It carries what only the teacher knows: how it went, what students did, what changed. Later suggestions should read it.
-- **Keep lessons short.** Focus as a bold lead line, then the other four as bold-labelled bullets, one or two lines each. Use headings for the sections (Assumptions, Overview, Notes, Log) and the waypoints and lessons, not for individual fields. The summary table at the top is the only table; keep lesson text out of tables. If the teacher wants more on a lesson, expand that lesson only.
+- **The plan is general.** It describes the unit, not how any lesson went. Nothing in it needs the teacher to maintain it. Progress and changes can live in an optional separate log (below), and updating the plan is the teacher's choice.
+- **Keep lessons short.** Focus as a bold lead line, then the other four as bold-labelled bullets, one or two lines each. Use headings for the sections (Assumptions, Overview, Notes) and the waypoints and lessons, not for individual fields. The summary table at the top is the only table; keep lesson text out of tables. If the teacher wants more on a lesson, expand that lesson only.
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
 - **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
 - **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
@@ -210,12 +206,23 @@ For a plan they'll print or paste into Docs via Waypoints Print. Same content, s
 - Tables, each with a `{{columns ...}}` line directly above it (percentages that add to 100; without it columns come out equal width):
   - The **allocation table** is already in the plan; give it `{{columns 24% 20% 10% 46%}}` (Waypoint, Flags, Lessons, Why).
   - **Summary**, two columns, `{{columns 25% 75%}}`: Standard, Year, Pace profile, Lessons, Progression endpoint, Assumed prior, Equipment and room.
-  - **Lesson overview**, `{{columns 9% 15% 56% 20%}}`: `| Lesson | Waypoint | Focus | Status |`, one row per lesson.
+  - **Lesson overview**, `{{columns 10% 20% 70%}}`: `| Lesson | Waypoint | Focus |`, one row per lesson.
 - Keep each lesson's fields as a list (long text in table cells prints badly). Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
 - Put `{{break}}` on its own line before each waypoint after the first.
-- Leave the Log as a plain list at the end.
 - **Pace grid (only if they ask for it).** Under a lesson, one table: `| Minimum width | Consolidating | Steady | Advancing |` with `{{columns 22% 26% 26% 26%}}`, one row per piece of minimum-width evidence for that lesson. Minimum is the floor from the node file. The other three say how this class might reach it or go wider, drawn from the node file's widths and response modes. One short line per cell, and the same waypoint in every column: pace changes how width is managed, never what is taught. If a pace grid is present, drop the "If the class needs more support / ready for more" lines it repeats.
 - If the teacher brings this version back later to adapt, treat the directives and tables as layout: keep the content, and keep or drop the layout as they prefer.
+
+## Progress log (optional, separate file)
+
+A teacher who wants to track how the unit is going can keep a small separate Markdown file. The kit never requires one, and the plan doesn't change unless they ask. Format:
+
+```
+# Progress log: <code> <title>
+
+- <date> · Lesson 2.1 · <what happened, what students showed, anything to change>
+```
+
+If they paste a log with their plan, read it as what has happened so far and let it inform suggestions. If they don't have one, don't ask for one. When they describe a lesson, give the suggestion first; offer a log line they can paste only if they already keep a log or ask for one.
 
 ---
 
