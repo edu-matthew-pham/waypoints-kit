@@ -18,7 +18,7 @@ Keep it short: the terms a student needs to meet at each waypoint, not every wor
 ## Resource plan
 
 **When:** they want to know what each lesson needs.
-**Do:** for each lesson, list what has to be found, made or booked: equipment, texts, images, a task or sheet. Name the kind of thing (e.g. "a fill-in table", "a reference card", "a rubric") and what it's for in that lesson. Don't invent specific resources, and don't assume what the school has. Mark every gap `[teacher: ...]` and ask for their context (equipment, existing materials, texts they already use, time and room constraints) if it would change the list. What the teacher says always overrides what you'd suggest. If they want one of the items made, make that one.
+**Do:** for each lesson, list what has to be found, made or booked: equipment, texts, images, a task or sheet. Name the kind of thing (e.g. "a fill-in table", "a reference card", "a rubric") and what it's for in that lesson. Don't invent specific resources, and don't assume what the school has. Mark every gap `[teacher: ...]` and ask for their context (equipment, existing materials, texts they already use, time and room constraints) if it would change the list. What the teacher says always overrides what you'd suggest. If they want one of the items made, make that one: a printable worksheet, card set, reference sheet or recording table follows `format-print.md`.
 
 ## Student view
 

@@ -29,6 +29,9 @@ Save the plan it gives you. When things change, paste it back with the link:
 **Glossary, resource plan or student view**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read follow-ups.md. Give me a glossary for students.
 
+**A worksheet or handout**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read format-print.md. Make a worksheet for the lesson where students sort organisms into kingdoms.
+
 **Slides in a style**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md, format-prepare-explicit.md and format-prepare-blue-banner.md. Make slides in the Blue Banner style with an explicit-teaching structure.
 
@@ -51,6 +54,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 - `moves.md`: the suggestions the AI can offer.
 - `plan-format.md`: a plan layout that's easy to save and change.
 - `follow-ups.md`: optional extras: glossary, resource plan, student view.
+- `format-print.md`: the exact Markdown for printable resources (worksheets, handouts) in Waypoints Print.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `format-prepare-explicit.md`, `format-prepare-blue-banner.md`: optional slide styles (explicit-teaching structure; Blue Banner theme), copied from Prepare.
 - `REVIEW.md`: review sheet for checking the framework summary.

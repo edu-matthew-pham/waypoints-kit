@@ -31,7 +31,7 @@ Nothing beyond a standard is required. If the teacher has also given you a plan,
 3. Widening enriches the current waypoint. It never teaches a later one early.
 4. Only the teacher knows their class. Ask or placeholder.
 
-The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `follow-ups.md` only when asked.
+The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `format-print.md` only if they want a printable resource, `follow-ups.md` only when asked.
 
 ---
 
@@ -134,6 +134,11 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 **When:** they tell you how a lesson went.
 **Do:** read it against the waypoint's success criteria: did students reach minimum width? If not, suggest coming back to it at greater width in a later lesson (varied contexts, worked reasoning), never repeating the same task and never moving back in the sequence; give extra weight to a hinge. If they're ahead, widen at the current waypoint rather than moving on early. If a pattern is building across lessons, suggest revising the pace assumption and say why. Offer any lessons to update, and a progress-log line only if they keep a log or ask for one.
+
+## A printable resource
+
+**When:** they want a worksheet, handout, reference sheet, checklist or template for a lesson. Also read `format-print.md`.
+**Do:** make just that one resource, from the lesson's waypoint in the node file (and their plan or resource plan if they have one). Minimum width is the unmarked content; typical and wider go in their blocks. Leave `[teacher: ...]` placeholders for anything that depends on their class. Follow `format-print.md` exactly and give it as a `.md` file (or a four-backtick code block). Don't make a resource they haven't asked for.
 
 ## Slides for a lesson
 
@@ -274,7 +279,7 @@ Keep it short: the terms a student needs to meet at each waypoint, not every wor
 ## Resource plan
 
 **When:** they want to know what each lesson needs.
-**Do:** for each lesson, list what has to be found, made or booked: equipment, texts, images, a task or sheet. Name the kind of thing (e.g. "a fill-in table", "a reference card", "a rubric") and what it's for in that lesson. Don't invent specific resources, and don't assume what the school has. Mark every gap `[teacher: ...]` and ask for their context (equipment, existing materials, texts they already use, time and room constraints) if it would change the list. What the teacher says always overrides what you'd suggest. If they want one of the items made, make that one.
+**Do:** for each lesson, list what has to be found, made or booked: equipment, texts, images, a task or sheet. Name the kind of thing (e.g. "a fill-in table", "a reference card", "a rubric") and what it's for in that lesson. Don't invent specific resources, and don't assume what the school has. Mark every gap `[teacher: ...]` and ask for their context (equipment, existing materials, texts they already use, time and room constraints) if it would change the list. What the teacher says always overrides what you'd suggest. If they want one of the items made, make that one: a printable worksheet, card set, reference sheet or recording table follows `format-print.md`.
 
 ## Student view
 
@@ -284,6 +289,85 @@ Keep it short: the terms a student needs to meet at each waypoint, not every wor
 ## Anything else
 
 Worked examples, tutorials, a common assessment: treat as "Anything else" in `moves.md`. Do one lesson or one waypoint at a time, grounded in the node file and the plan.
+
+---
+
+<!-- file: format-print.md -->
+
+# Print resources
+
+For a worksheet, handout, reference sheet, checklist or template the teacher will print or paste into Docs via Waypoints Print. This is the exact Markdown Print understands. Copied from Prepare's resource generator (as of Oct 2026) with neutral wording; if the two differ, Prepare's is the source.
+
+## What a resource is
+
+A single printed artifact a student uses during or after one segment of a lesson: a worksheet with response spaces, a reference sheet, a checklist, or a structured template. It is not a lesson plan, a slide deck or a unit.
+
+**Match the resource to what the teacher asked for and stop.** A 15-minute sorting activity is a sorting worksheet, not a multi-page booklet. Don't try to put discussion, demonstration or digital work on paper.
+
+Ground it in the node file for the waypoint and, if there is one, the teacher's plan: the success criteria and widths decide what goes in. Use the plan's items for the lesson (for example from the resource plan) rather than inventing a new task. If something depends on the class or school (the organisms, the numbers, a local source), leave a visible placeholder `[teacher: ...]`.
+
+## Output
+
+Give the whole resource as Markdown, starting with front matter. Save it as a `.md` file and offer it as a download if you can: the teacher imports it into Print as it is. If you can't produce a file, put the complete resource in a four-backtick code fence, because copying rendered chat output destroys the syntax (`:::keep-together` loses its name, tables turn into tab-separated text).
+
+```
+---
+title: Resource Title
+subtitle: Brief descriptor
+---
+```
+
+Right after the first heading, a student header with writing blanks (the teacher can edit the labels):
+
+```
+**Name:** {{field-24}} **Date:** {{field-15}} **Class:** {{field-15}}
+```
+
+## Block directives
+
+`:::name` opens and `:::` closes. **A blank line is required above and below each marker.** Without it the content isn't parsed and the `:::` prints as text.
+
+- **`:::keep-together`**: stops the content splitting across a page. Use for a heading and its table, or a question and its answer space. Don't wrap everything, or pages fill with whitespace.
+- **`:::teacher-note`**: visible only in Teacher edition; hidden on the student copy. Use for expected answers, marking guides, misconceptions, differentiation.
+- **`:::typical` and `:::wider`**: width tiers (below).
+
+## Width tiers
+
+Width is **breadth, never depth**: more contexts, cases or representations of the same idea. The teacher picks a tier when printing, so the tiers must be separable.
+
+- **Minimum: unmarked.** The floor every student must do, from the node file's `minimum_width` and success criteria. It must stand alone as a complete resource.
+- **`:::typical`**: the rest of the standard scope, from `typical_width` (a second case, the usual range).
+- **`:::wider`**: enrichment from the node's `wider` tier: different settings or connections. It adds terrain, not difficulty.
+
+Tiers are cumulative: choosing wider prints all three. Don't differentiate tiers by command term (identify, then explain, then evaluate): all three sit at the same demand. Wider isn't "for advanced students". If width is thin for this content, don't pad: leave `:::wider` out and say so in a `:::teacher-note`.
+
+## Leaf tokens
+
+Each goes on its own line with a blank line above and below (except `{{field-N}}`, which is inline).
+
+- `{{lines-N}}`: ruled writing lines (2 to 6).
+- `{{blank-N}}`: open space for drawing or notes.
+- `{{box-N}}`: a bordered area; never splits across a page.
+- `{{field-N}}`: an inline blank in a sentence, about 15 to 20 characters where a sentence has two.
+- `{{break}}`: **don't use in a resource.** The teacher places page breaks after seeing the preview.
+
+## Table tokens
+
+On the line directly above a table:
+
+- `{{columns P% P% ...}}`: column widths (adding to 100). Without it columns are equal.
+- `{{rows N}}`: height of empty rows, N writing lines (about 8 mm each). Default is 2.
+
+Fill-in tables: use a Markdown table with empty cells, one completed example row, and the rest empty. A blockquote (`>`) renders as a highlighted panel: use it for the key question or a sentence-starter prompt.
+
+## Design
+
+- One clear purpose per resource: a worksheet practises, a reference sheet informs, a checklist verifies. Don't mix them.
+- Open with a blockquote stating the key question or task so students know what and why.
+- Scaffold with structure, not volume: a three-row table beats twelve short questions. Vary response types (lines, tables, fill-in sentences, boxes).
+- Use headings to chunk: each `##` is a coherent task.
+- Types: **worksheet** (questions and response spaces), **reference sheet** (information, minimal response space), **checklist** (`☐` items), **template** (a frame to fill in). If the source is a set of definitions, make a reference sheet; don't invent questions.
+- Teacher notes are precise: expected answers, misconceptions, differentiation. Not lesson choreography.
 
 ---
 
