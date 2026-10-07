@@ -2,7 +2,7 @@
 
 > **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
 
-A small set of plain files that let any AI chat give you suggestions grounded in the Learning Waypoints framework: where a class is likely to stall, how to widen a lesson without racing ahead, a quick check that catches a misconception, a lesson sequence, slides. You keep your own planning; the kit is a lens on it.
+A small set of plain files that let any AI chat give you suggestions grounded in the Learning Waypoints framework: where a class is likely to stall, how to widen a lesson without racing ahead, a quick check that catches a misconception, a lesson sequence, slides. You keep your own planning; the kit is a lens on it. Want the reasoning? See [how it works](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md).
 
 No account, no install. Everything here is Markdown and JSON. The kit is part of the free [Learning Waypoints](https://learningwaypoints.com) suite.
 
@@ -98,6 +98,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 
 | File | What it does |
 |---|---|
+| [`HOW-IT-WORKS.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md) | The logic and rules behind the prompts, and why |
 | [`REVIEW.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/REVIEW.md) | A short review sheet and the open questions |
 | [`core.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/core.md) | The framework on one page: the part that most needs checking |
 | [`SOURCES.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/SOURCES.md) | Where each file comes from |
