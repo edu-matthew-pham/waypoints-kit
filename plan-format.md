@@ -44,9 +44,12 @@ Lessons: <how many> (<one-line reason>)
 For a plan they'll print or paste into Docs via Waypoints Print. Same content, same fields; only the layout changes. Don't use this in an ordinary chat reply, because the directives below show as raw text anywhere but Print.
 
 - Start with front matter: `---`, `title: <code> <title>: unit plan`, `---`.
-- After the header line, a **Lesson overview table**: `| Lesson | Waypoint | Focus | Status |`, one row per lesson. Keep cells short.
-- An **Allocation table**: `| Waypoint | Flags | Lessons | Reason |`, one row per waypoint.
+- Tables, each with a `{{columns ...}}` line directly above it (percentages that add to 100; without it columns come out equal width):
+  - **Summary**, two columns, `{{columns 25% 75%}}`: Standard, Year, Pace profile, Lessons, Progression endpoint, Assumed prior, Equipment and room.
+  - **Lesson overview**, `{{columns 9% 15% 56% 20%}}`: `| Lesson | Waypoint | Focus | Status |`, one row per lesson.
+  - **Allocation**, `{{columns 24% 20% 10% 46%}}`: `| Waypoint | Flags | Lessons | Reason |`, one row per waypoint.
 - Keep each lesson's fields as a list (long text in table cells prints badly). Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
 - Put `{{break}}` on its own line before each waypoint after the first.
 - Leave the Log as a plain list at the end.
+- **Pace grid (only if they ask for it).** Under a lesson, one table: `| Minimum width | Consolidating | Steady | Advancing |` with `{{columns 22% 26% 26% 26%}}`, one row per piece of minimum-width evidence for that lesson. Minimum is the floor from the node file. The other three say how this class might reach it or go wider, drawn from the node file's widths and response modes. One short line per cell, and the same waypoint in every column: pace changes how width is managed, never what is taught. If a pace grid is present, drop the "If the class needs more support / ready for more" lines it repeats.
 - If the teacher brings this version back later to adapt, treat the directives and tables as layout: keep the content, and keep or drop the layout as they prefer.
