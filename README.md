@@ -15,33 +15,33 @@ No account, no install. Everything here is Markdown and JSON.
 ## Starter prompts
 
 **Look at my plan**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
 
 **Where will my class stall?**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
 
 **Make a plan I can change later**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Also read plan-format.md. Make me a plan.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Also read plan-format.md. Make me a plan.
 
 Save the plan it gives you. When things change, paste it back with the link:
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read plan-format.md. I've lost two lessons. What should change?
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read plan-format.md. I've lost two lessons. What should change?
 
 **Glossary, resource plan or student view**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read follow-ups.md. Give me a glossary for students.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read follow-ups.md. Give me a glossary for students.
 
 **A printable resource (worksheet, handout) for a lesson**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read format-print.md. Make a worksheet for Lesson 2.1, where students sort organisms into kingdoms.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read format-print.md. Make a worksheet for Lesson 2.1, where students sort organisms into kingdoms.
 
 No plan yet? Replace the plan with "I teach Year 7 Science, standard AC9S7U01" and describe the lesson. It still works from the standard, but a plan gives it the lesson's focus and widths.
 
 **A diagnostic, quick check or assessment**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read assessment.md. Make a pre-unit diagnostic, or an end-of-unit summative task.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read assessment.md. Make a pre-unit diagnostic, or an end-of-unit summative task.
 
 **Slides in a style**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md, format-prepare-explicit.md and format-prepare-blue-banner.md. Make slides in the Blue Banner style with an explicit-teaching structure.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md, format-prepare-explicit.md and format-prepare-blue-banner.md. Make slides in the Blue Banner style with an explicit-teaching structure.
 
 **Slides for a lesson**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md. Make slides I can paste into Waypoints Prepare.
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md. Make slides I can paste into Waypoints Prepare.
 
 ## If your AI can't open links
 
@@ -57,32 +57,32 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 
 | File | What it does |
 |---|---|
-| [`START-HERE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/START-HERE.md) | The file the AI reads first; tells it what to open and how to respond |
-| [`moves.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/moves.md) | The suggestions the AI can offer |
-| [`plan-format.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/plan-format.md) | The unit plan layout, plus the print-ready layout and optional progress log |
-| [`assessment.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/assessment.md) | Pre-unit diagnostics, formative checks and summative tasks |
-| [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/follow-ups.md) | Optional extras: glossary, resource plan, student view |
-| [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
-| [`format-prepare.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare.md) | Slides for Waypoints Prepare |
-| [`format-prepare-explicit.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare-explicit.md), [`format-prepare-blue-banner.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare-blue-banner.md) | Optional slide styles |
-| [`waypoints-kit-all.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/waypoints-kit-all.md) | The whole kit in one file, for assistants that can't open links |
+| [`START-HERE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/START-HERE.md) | The file the AI reads first; tells it what to open and how to respond |
+| [`moves.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/moves.md) | The suggestions the AI can offer |
+| [`plan-format.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/plan-format.md) | The unit plan layout, plus the print-ready layout and optional progress log |
+| [`assessment.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/assessment.md) | Pre-unit diagnostics, formative checks and summative tasks |
+| [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/follow-ups.md) | Optional extras: glossary, resource plan, student view |
+| [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
+| [`format-prepare.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/format-prepare.md) | Slides for Waypoints Prepare |
+| [`format-prepare-explicit.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/format-prepare-explicit.md), [`format-prepare-blue-banner.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/format-prepare-blue-banner.md) | Optional slide styles |
+| [`waypoints-kit-all.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/waypoints-kit-all.md) | The whole kit in one file, for assistants that can't open links |
 
 **For reviewers**
 
 | File | What it does |
 |---|---|
-| [`REVIEW.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/REVIEW.md) | A short review sheet and the open questions |
-| [`core.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/core.md) | The framework on one page: the part that most needs checking |
-| [`SOURCES.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/SOURCES.md) | Where each file comes from |
-| [`examples/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/examples) | Sample plan, worksheet and deck from test runs |
+| [`REVIEW.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/REVIEW.md) | A short review sheet and the open questions |
+| [`core.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/core.md) | The framework on one page: the part that most needs checking |
+| [`SOURCES.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/SOURCES.md) | Where each file comes from |
+| [`examples/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/examples) | Sample plan, worksheet and deck from test runs |
 
 **For builders**
 
 | File | What it does |
 |---|---|
-| [`index/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/index) | Every standard with a node file, by subject |
-| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/data) | The node files and glossaries, copied from Progressions |
-| [`tools/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/tools) | `build_index.py` regenerates `index/`; `build_bundle.py` regenerates the one-file kit |
-| [`NOTICE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/NOTICE.md), [`LICENSE`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/LICENSE) | ACARA attribution and the licence (CC BY-NC-SA 4.0) |
+| [`index/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/index) | Every standard with a node file, by subject |
+| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/data) | The node files and glossaries, copied from Progressions |
+| [`tools/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/tools) | `build_index.py` regenerates `index/`; `build_bundle.py` regenerates the one-file kit |
+| [`NOTICE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/NOTICE.md), [`LICENSE`](https://github.com/edu-matthew-pham/waypoints-kit/blob/v0.2/LICENSE) | ACARA attribution and the licence (CC BY-NC-SA 4.0) |
 
 This is a proof of concept. Expect it to change. A frozen copy of this version is on the `v0.2` branch. If you want a copy that won't change under you, use the `v0.1` branch (replace `main` with `v0.1` in the links above); it is the first version, without plan adaptation.

@@ -13,7 +13,7 @@ import os
 import sys
 from collections import defaultdict
 
-BASE_URL = "https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/"
+BASE_URL = "https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/v0.2/data/"
 KIT_DATA_BASE = BASE_URL
 
 
