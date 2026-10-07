@@ -73,3 +73,8 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 ## Anything else
 
 If the teacher asks for something not listed, help in the same spirit: grounded in the node file, a few options, theirs to choose.
+
+## Coach a student, or run it with the class
+
+**When:** they want students to practise, be questioned or learn a waypoint interactively. Also read `coach.md`.
+**Do:** follow `coach.md`: ask who it's for and which waypoint and mode, then run one question at a time. All modes (discover, practise, teach it back, spot the flaw, check) are always available.

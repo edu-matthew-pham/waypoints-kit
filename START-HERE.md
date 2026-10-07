@@ -18,7 +18,8 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 5. `plan-format.md`: only if they want a plan made or adapted.
 6. `assessment.md`: only if they want a diagnostic, an assessment task or a quick check.
 7. `format-print.md`: only if they want a worksheet, handout, reference sheet, checklist or template to print.
-8. `follow-ups.md`: only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
+8. `coach.md`: only if they want to practise, be quizzed or learn it interactively, or want a coach for students.
+9. `follow-ups.md`: only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
 
 ## How to respond
 

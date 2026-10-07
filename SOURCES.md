@@ -7,6 +7,7 @@ Snapshot as of Oct 2026. "Copied" means the wording is taken from the source wit
 | `core.md` | Learning Waypoints framework; pace profile wording from Planner | Reconstructed (needs review: see `REVIEW.md`) |
 | `plan-format.md` | Planner unit plan: lesson fields, pace grid, pace key | Reconstructed; Overview table, Notes, print-ready layout and progress log are the kit's own |
 | `assessment.md` | Planner assessment and diagnostic prompts | Reconstructed, same rules and 60/30/10 default |
+| `coach.md` | Topic Explorer coach prompts; UTS report on AI cognitive offloading | Reconstructed; the kit's own modes |
 | `follow-ups.md` | Progressions glossaries; Planner resource plan and student view | Glossary data copied; resource plan and student view reconstructed |
 | `moves.md`, `START-HERE.md` | None | The kit's own |
 | `format-prepare.md`, `format-prepare-explicit.md`, `format-prepare-blue-banner.md` | Prepare slide generator | Copied |

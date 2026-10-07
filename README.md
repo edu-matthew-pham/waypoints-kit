@@ -45,6 +45,11 @@ No plan yet? Replace the plan with "I teach Year 7 Science, standard AC9S7U01" a
 **A diagnostic, quick check or assessment**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read assessment.md. Make a pre-unit diagnostic, or an end-of-unit summative task.
 
+### Practise with a coach
+
+**Interactive practice, for a student or for the class**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Also read coach.md. Coach my students on waypoint 2. I'll run it with the class on the projector.
+
 ### Slides
 
 **Slides in a style**
@@ -80,6 +85,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 | [`moves.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/moves.md) | The suggestions the AI can offer |
 | [`plan-format.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/plan-format.md) | The unit plan layout, plus the print-ready layout and optional progress log |
 | [`assessment.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/assessment.md) | Pre-unit diagnostics, formative checks and summative tasks |
+| [`coach.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/coach.md) | Interactive coach: discover, practise, teach it back, spot the flaw, check |
 | [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/follow-ups.md) | Optional extras: glossary, resource plan, student view |
 | [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
 | [`format-prepare.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare.md) | Slides for Waypoints Prepare |
