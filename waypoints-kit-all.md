@@ -218,7 +218,7 @@ If it's a hinge, state the cascade risk from `hinge_reason` here, **once**. Late
 
 - **Shape:** an ordered sketch of the lesson's phases in a few words each, e.g. predict → confront → resolve. Starting vocabulary: orient, predict, anchor, review, teach, demonstrate, confront, resolve, apply, practise, build, investigate, draft, consolidate, check, reflect, evaluate. Use as many or as few as the lesson needs; a two-phase lesson is fine. No timings. Suggestions, not a template.
 - **If the class needs more support:** 2 to 4 concrete moves: a named scaffold, a worked example with its context, a named misconception and how to repair it. At a hinge, tie these to the specific concept at risk, not general advice like "provide worked examples".
-- **If the class is ready for more:** 2 to 4 directions drawn from the node's `wider` tier and `width_opportunity_reason`. Width, not speed: a student who does these understands *this* waypoint more deeply; none should reach the next waypoint's checkpoint.
+- **If the class is ready for more:** 2 to 4 directions drawn from the node's `wider` tier and `width_opportunity_reason`. In a fuller plan this replaces the `Widening` line from `plan-format.md`: write one or the other, not both. Width, not speed: a student who does these understands *this* waypoint more deeply; none should reach the next waypoint's checkpoint.
 - **Cliff notes:** what a teacher or relief teacher needs to know to run this lesson: the likely stall, the thing to say or not say, what to do if it isn't landing.
 - **Assumed before this lesson:** what students must already have. Mark `[teacher: check]` where only the teacher can know.
 
