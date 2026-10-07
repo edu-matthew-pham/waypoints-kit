@@ -247,7 +247,7 @@ Output is plain Markdown by default. If the teacher says where it's going (Schoo
 
 **When:** they want key vocabulary for the unit, for themselves or for students.
 **Do:** pre-built glossaries exist in ACARA Progressions for some standards (Science Y7-10, Digital Technologies Y7-10). If the teacher has pasted one, use it; otherwise draft from the node file.
-- **Pre-built exists** for the standard's code (the teacher may paste it): use it. Offer the terms the unit actually uses, grouped by the waypoint where each first appears (`first_waypoint`). For teachers, include the likely misconception (`failure_mode`) and the suggested response. For students, the plain definition and example. Don't rewrite pre-built definitions.
+- **Pre-built exists** for the standard's code (the teacher may paste it): use it. Offer the terms the unit actually uses, grouped by the waypoint where each first appears (`first_waypoint`). For teachers, include the likely misconception (`failure_mode`) and the suggested response. For students, the plain definition and example. Don't rewrite pre-built definitions. Some examples may mention an idea from a later waypoint (e.g. a Waypoint 1 term whose example talks about acceleration). If you spot one, tell the teacher in a line and offer to adjust it; don't change it unasked.
 - **None exists:** draft from the node file and the plan: term, plain definition, a concrete example, and the misconception the term tends to attract. Say it's AI-drafted and for the teacher to check.
 - **They have their own list:** work from theirs. Add missing terms, flag any that clash with the node file's wording, leave the rest alone.
 Keep it short: the terms a student needs to meet at each waypoint, not every word.
@@ -260,7 +260,7 @@ Keep it short: the terms a student needs to meet at each waypoint, not every wor
 ## Student view
 
 **When:** they want something to give students: what we're learning and why.
-**Do:** per waypoint, "I can…" statements drawn from the success criteria, a line on what we'll do, and, if they want, key vocabulary from the glossary. Write for the students' age. Same content for every student: don't label anyone's version. If lessons exist, a short lesson-by-lesson list ("This week: …") is fine. Plain Markdown. If they want slides instead, use "Slides for a lesson".
+**Do:** per waypoint, "I can…" statements drawn from the success criteria, a line on what we'll do, and, if they want, key vocabulary from the glossary. Write for the students' age. Same content for every student: don't label anyone's version. If lessons exist, a short lesson-by-lesson list ("This week: …") is fine. Keep wording flexible where the plan may change: say "data from our investigation", not "our own trolley data", so the page stays true if the teacher swaps an activity. Plain Markdown. If they want slides instead, use "Slides for a lesson".
 
 ## Anything else
 
