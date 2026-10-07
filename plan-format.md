@@ -9,17 +9,22 @@ For plans the teacher will keep and change. The plan is a Markdown file the teac
 
 Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Advancing> (a hypothesis) · Updated: <date>
 
-Assumptions: <one or two lines: what you assumed, what the teacher should check>
+**Assumptions:** <one or two lines: what you assumed, what the teacher should check>
+
+| Waypoint | Flags | Lessons | Why |
+|---|---|---|---|
+| 1 <label> | Hinge | 2 | <one-line reason> |
+| 2 <label> | Hinge · Width opportunity | 2 | <one-line reason> |
 
 ## Waypoint 1: <label>  [hinge] [width opportunity]
-Lessons: <how many> (<one-line reason>)
+**Lessons:** <how many> (<one-line reason>)
 
-### Lesson 1.1 (planned)
-- Focus: <one sentence, specific to this lesson>
-- Minimum width evidence: <what students show; from the waypoint's success criteria>
-- Teaching for this class: <concrete moves; name the scaffold, example or misconception>
-- Widening: <one or two directions that enrich this waypoint>
-- Watch-out: <one sentence for a relief teacher>
+### Lesson 1.1: <short title> (planned)
+- **Focus:** <one sentence, specific to this lesson>
+- **Minimum width evidence:** <what students show; from the waypoint's success criteria>
+- **Teaching for this class:** <concrete moves; name the scaffold, example or misconception>
+- **Widening:** <one or two directions that enrich this waypoint>
+- **Watch-out:** <one sentence for a relief teacher>
 
 ## Waypoint 2: <label>
 ...
@@ -31,10 +36,10 @@ Lessons: <how many> (<one-line reason>)
 ## Conventions (these are what make a plan easy to change)
 
 - **Waypoints never change.** Same waypoints, same order, every time. Only the number of lessons, the teaching and the widening change.
-- **Lesson numbers are `<waypoint>.<n>`** (1.1, 1.2, 2.1). Adding or removing a lesson never renumbers the others.
+- **Lesson numbers are `<waypoint>.<n>`** (1.1, 1.2, 2.1), each with a short title (a few words, what students do or learn) so the plan scans. Adding or removing a lesson never renumbers the others.
 - **Status** in the lesson heading: `planned`, `taught`, `skipped` or `moved`. Never rewrite a `taught` lesson; record what happened in the Log.
 - **The Log is append-only.** It carries what only the teacher knows: how it went, what students did, what changed. Later suggestions should read it.
-- **Keep lessons short.** The five fields, one or two lines each. If the teacher wants more on a lesson, expand that lesson only.
+- **Keep lessons short.** The five fields, bold labels, one or two lines each. The summary table at the top is the only table; keep lesson text out of tables. If the teacher wants more on a lesson, expand that lesson only.
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
 - **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
 - **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
@@ -45,9 +50,9 @@ For a plan they'll print or paste into Docs via Waypoints Print. Same content, s
 
 - Start with front matter: `---`, `title: <code> <title>: unit plan`, `---`.
 - Tables, each with a `{{columns ...}}` line directly above it (percentages that add to 100; without it columns come out equal width):
+  - The **allocation table** is already in the plan; give it `{{columns 24% 20% 10% 46%}}` (Waypoint, Flags, Lessons, Why).
   - **Summary**, two columns, `{{columns 25% 75%}}`: Standard, Year, Pace profile, Lessons, Progression endpoint, Assumed prior, Equipment and room.
   - **Lesson overview**, `{{columns 9% 15% 56% 20%}}`: `| Lesson | Waypoint | Focus | Status |`, one row per lesson.
-  - **Allocation**, `{{columns 24% 20% 10% 46%}}`: `| Waypoint | Flags | Lessons | Reason |`, one row per waypoint.
 - Keep each lesson's fields as a list (long text in table cells prints badly). Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
 - Put `{{break}}` on its own line before each waypoint after the first.
 - Leave the Log as a plain list at the end.
