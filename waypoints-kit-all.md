@@ -164,6 +164,11 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 ## Assumptions
 <one or two lines: what you assumed, what the teacher should check>
 
+## Pace key
+| All students: minimum width | Consolidating | Steady | Advancing |
+|---|---|---|---|
+| The minimum construction every student must reach before moving to the next waypoint. Non-negotiable. | Reaches minimum width with structured support: worked examples, scaffolded templates, misconception repair, reduced procedural load. | Reaches minimum width with standard instruction and selective enrichment at hinge waypoints. Typical pace of progression. | Reaches minimum width quickly; construction is significantly widened with richer contexts, investigation and synthesis tasks. |
+
 ## Overview
 | Waypoint | Flags | Lessons | Why |
 |---|---|---|---|
@@ -205,6 +210,7 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 
 - **Focus:** one specific sentence. **Shape:** the lesson's phases in a few words each, e.g. predict → confront → resolve. Starting vocabulary: orient, predict, anchor, review, teach, demonstrate, confront, resolve, apply, practise, build, investigate, draft, consolidate, check, reflect, evaluate. Use as many as the lesson needs. No timings. Suggestions, not a template.
 - **Cliff notes:** always as a short bulleted list with bold labels (Likely stall, What to say, If it isn't landing, Watch-out); drop a bullet that has nothing specific to say. Name the actual misconception, not "students may struggle".
+- **Pace key:** copy the table in the skeleton as it is, wording unchanged. It defines the grid's column headings.
 - **Pace grid:** one row per piece of minimum-width evidence for that lesson, from the waypoint's success criteria and `minimum_width`. The other three columns say how this class might reach it or go wider, drawn from the node file's widths and response modes. One short line per cell. Same waypoint in every column: pace changes how width is managed, never what is taught. No student should reach the next waypoint's checkpoint.
 - **Assumed before this lesson** (optional, one line): add where a lesson needs something from earlier. Mark `[teacher: check]` where only the teacher can know.
 
@@ -225,6 +231,7 @@ For a plan they'll print or paste into Docs via Waypoints Print. Same content, s
 - Start with front matter: `---`, `title: <code> <title>: unit plan`, `---`.
 - Put a `{{columns ...}}` line directly above each table (percentages that add to 100; without it columns come out equal width):
   - **Summary**, two columns, `{{columns 25% 75%}}`: Standard, Year, Pace profile, Lessons, Progression endpoint, Assumed prior, Equipment and room.
+  - **Pace key**, `{{columns 22% 26% 26% 26%}}`.
   - **Overview**, `{{columns 24% 20% 10% 46%}}`.
   - **Pace grid** under each lesson, `{{columns 22% 26% 26% 26%}}`.
 - Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages. Put the opening and closing `:::` each on its own line with a blank line before and after. A `:::` directly after a line of text isn't recognised and prints as raw text.
