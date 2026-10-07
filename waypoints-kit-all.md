@@ -331,6 +331,8 @@ Right after the first heading, a student header with writing blanks (the teacher
 - **`:::teacher-note`**: visible only in Teacher edition; hidden on the student copy. Use for expected answers, marking guides, misconceptions, differentiation.
 - **`:::typical` and `:::wider`**: width tiers (below).
 
+Directives can nest: a `:::keep-together` inside `:::typical` or `:::wider` works (Print pairs them depth-aware). Keep each marker on its own line with blank lines around it.
+
 ## Width tiers
 
 Width is **breadth, never depth**: more contexts, cases or representations of the same idea. The teacher picks a tier when printing, so the tiers must be separable.
