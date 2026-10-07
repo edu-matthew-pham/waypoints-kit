@@ -16,3 +16,4 @@ Every standard with a node file, by subject. Each table row ends in the link to 
 - [technologies](technologies.md): 124 standards
 
 - [glossaries](glossaries.md): pre-built vocabulary files (some subjects only)
+- [library](library.md): ready-made slide decks, one lesson per deck (draft, not yet reviewed; pilot: Year 7 Science AC9S7U01)

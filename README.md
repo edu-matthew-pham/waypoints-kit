@@ -1,6 +1,6 @@
 # Waypoints Kit
 
-> **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
+> **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. The slide library (`library/`) is a pilot and is **Draft, not yet reviewed**. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
 
 A small set of plain files that let any AI chat give you suggestions grounded in the Learning Waypoints framework: where a class is likely to stall, how to widen a lesson without racing ahead, a quick check that catches a misconception, a lesson sequence, slides. You keep your own planning; the kit is a lens on it. Want the reasoning? See [how it works](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md).
 
@@ -91,6 +91,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 | [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/follow-ups.md) | Optional extras: glossary, resource plan, student view |
 | [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
 | [`format-prepare.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare.md) | Slides for Waypoints Prepare |
+| [`index/library.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/index/library.md), [`library/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/library) | **Draft, not yet reviewed.** Ready-made Prepare decks, one lesson per deck (pilot: Year 7 Science AC9S7U01) |
 | [`format-prepare-explicit.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare-explicit.md), [`format-prepare-blue-banner.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-prepare-blue-banner.md) | Optional slide styles |
 | [`waypoints-kit-all.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/waypoints-kit-all.md) | The whole kit in one file, for assistants that can't open links |
 
@@ -100,6 +101,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 |---|---|
 | [`HOW-IT-WORKS.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md) | The logic and rules behind the prompts, and why |
 | [`REVIEW.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/REVIEW.md) | A short review sheet and the open questions |
+| [`library/REVIEW.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/library/REVIEW.md) | Reviewer checklist for the slide library (draft, not yet reviewed) |
 | [`core.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/core.md) | The framework on one page: the part that most needs checking |
 | [`SOURCES.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/SOURCES.md) | Where each file comes from |
 | [`examples/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/examples) | Sample plan, worksheet and deck from test runs |
