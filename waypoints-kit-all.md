@@ -31,7 +31,7 @@ Nothing beyond a standard is required. If the teacher has also given you a plan,
 3. Widening enriches the current waypoint. It never teaches a later one early.
 4. Only the teacher knows their class. Ask or placeholder.
 
-The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `unit-plan-extended.md` and `follow-ups.md` only when asked.
+The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `follow-ups.md` only when asked.
 
 ---
 
@@ -113,12 +113,12 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 
 **When:** they want a lesson-by-lesson plan, not just a rough split. Also read `plan-format.md`.
 **Needs:** the standard and how many lessons. Pace is optional: if they don't say, assume Steady and say so, and ask only if it would change your plan.
-**Offer:** the allocation of lessons to waypoints with a one-line reason each (hinges first, then width opportunities; every waypoint gets at least one lesson; if there are fewer lessons than waypoints, pair adjacent waypoints in one lesson rather than dropping any), then the lessons in the plan format, kept short. Derive each lesson from its waypoint's data. Before finishing, check that no lesson's text could sit unchanged on another lesson; if it could, make it specific. Where hinge detail applies, state it once and refer back. Finish by telling them they can save the plan and bring it back with the link to adapt it, and that a fuller version and a print-ready layout, with an optional pace grid (see `plan-format.md`), are available.
+**Offer:** the Overview first (lessons per waypoint with a one-line reason each: hinges first, then width opportunities; every waypoint gets at least one lesson; if there are fewer lessons than waypoints, pair adjacent waypoints in one lesson rather than dropping any), with the assumptions, so they can change the shape. Then the lessons in the plan format, one waypoint per reply unless they ask for everything. Derive each lesson from its waypoint's data and run the one check in `plan-format.md`. If they only want a rough outline, give the Overview and a Focus line per lesson. Finish by telling them they can save the plan and bring it back with the link to adapt it, and that a print-ready layout is available.
 
-## Fuller unit plan, or go deeper on a lesson
+## Go deeper on a lesson
 
-**When:** they want more depth than the short plan, or ask for a lesson to be expanded. Also read `plan-format.md` and `unit-plan-extended.md`.
-**Do:** follow `unit-plan-extended.md`: a preamble per waypoint, optional extra fields per lesson, one waypoint per reply. After any short plan, mention in a line that this is available.
+**When:** they want more on one lesson than the plan gives. Also read `plan-format.md`.
+**Do:** expand only that lesson (a sequence of tasks, example questions, a worked example) and leave the rest of the plan alone. Same framework rules.
 
 ## Glossary, resource plan, student view
 
@@ -152,7 +152,7 @@ If the teacher asks for something not listed, help in the same spirit: grounded 
 
 # Plan format
 
-For plans the teacher will keep and change. The plan is a Markdown file the teacher owns: they can save it anywhere (a doc, a Project file, their drive), paste it back into a chat later, and edit it by hand. Keep it light.
+For plans the teacher will keep. The plan is a Markdown file the teacher owns: they can save it anywhere (a doc, a Project file, their drive), paste it back into a chat later, and edit it by hand. It describes the unit in general; nothing in it needs maintaining.
 
 ## Skeleton
 
@@ -171,15 +171,18 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 | 2 <label> | Hinge · Width opportunity | 2 | <one-line reason> |
 
 ## Waypoint 1: <label>  [hinge] [width opportunity]
-**Lessons:** <how many> (<one-line reason>)
+<Preamble, 2 to 4 sentences: what this builds on, what students can do after it, what the next waypoint needs from it. If a hinge, the cascade risk from `hinge_reason`, stated once here.>
 
 ### Lesson 1.1: <short title>
 **Focus:** <one sentence, specific to this lesson>
 
-- **Minimum width evidence:** <what students show; from the waypoint's success criteria>
-- **Teaching for this class:** <concrete moves; name the scaffold, example or misconception>
-- **Widening:** <one or two directions that enrich this waypoint>
-- **Watch-out:** <one sentence for a relief teacher>
+**Shape:** <orient → teach → practise → check>
+
+**Cliff notes:** <the likely stall, what to say or not say, what to do if it isn't landing; enough for a relief teacher>
+
+| Minimum width | Consolidating | Steady | Advancing |
+|---|---|---|---|
+| <one piece of evidence from the success criteria> | <how this class might reach it with support> | <standard approach> | <a way to widen, same waypoint> |
 
 ## Waypoint 2: <label>
 ...
@@ -188,28 +191,40 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 <optional: risks, what to do if a lesson is lost>
 ```
 
-## Conventions (these are what make a plan easy to change)
+## Delivering it
+
+- Start with the Assumptions and the Overview table, so the teacher can change the shape before you write detail. Then give the lessons **one waypoint per reply** and ask if they want the next, unless they ask for everything at once.
+- If they just want a rough outline, give the Overview table and one Focus line per lesson, and offer the rest.
+- To go deeper on one lesson, expand only that lesson and leave the rest alone.
+
+## Fields
+
+- **Focus:** one specific sentence. **Shape:** the lesson's phases in a few words each, e.g. predict → confront → resolve. Starting vocabulary: orient, predict, anchor, review, teach, demonstrate, confront, resolve, apply, practise, build, investigate, draft, consolidate, check, reflect, evaluate. Use as many as the lesson needs. No timings. Suggestions, not a template.
+- **Cliff notes:** the likely stall, the thing to say or not say, what to do if it isn't landing, and the watch-out. At a hinge, tie it to the actual misconception, not "students may struggle".
+- **Pace grid:** one row per piece of minimum-width evidence for that lesson, from the waypoint's success criteria and `minimum_width`. The other three columns say how this class might reach it or go wider, drawn from the node file's widths and response modes. One short line per cell. Same waypoint in every column: pace changes how width is managed, never what is taught. No student should reach the next waypoint's checkpoint.
+- **Assumed before this lesson** (optional, one line): add where a lesson needs something from earlier. Mark `[teacher: check]` where only the teacher can know.
+
+## Conventions
 
 - **Waypoints never change.** Same waypoints, same order, every time. Only the number of lessons, the teaching and the widening change.
-- **Lesson numbers are `<waypoint>.<n>`** (1.1, 1.2, 2.1), each with a short title (a few words, what students do or learn) so the plan scans. Adding or removing a lesson never renumbers the others.
-- **The plan is general.** It describes the unit, not how any lesson went. Nothing in it needs the teacher to maintain it. Progress and changes can live in an optional separate log (below), and updating the plan is the teacher's choice.
-- **Keep lessons short.** Focus as a bold lead line, then the other four as bold-labelled bullets, one or two lines each. Use headings for the sections (Assumptions, Overview, Notes) and the waypoints and lessons, not for individual fields. The summary table at the top is the only table; keep lesson text out of tables. If the teacher wants more on a lesson, expand that lesson only.
+- **Lesson numbers are `<waypoint>.<n>`** (1.1, 1.2, 2.1), each with a short title (a few words, what students do or learn). Adding or removing a lesson never renumbers the others.
+- **The plan is general.** It describes the unit, not how any lesson went. Progress and changes can live in an optional separate log (below), and updating the plan is the teacher's choice.
 - **Mark class-specific gaps** with `[teacher: ...]` rather than inventing them.
-- **Specific, not templated.** If a lesson's text could sit unchanged on another lesson, rewrite it. State a hinge's cascade risk once at the waypoint, not in every lesson.
-- **Want more depth?** `unit-plan-extended.md` adds optional fields without changing this layout.
+- **Headings are for sections, waypoints and lessons**, not individual fields. The Overview and the pace grids are the only tables; keep other lesson text out of tables.
+- **The one check.** Before you finish each lesson: could any of its text appear unchanged on a different lesson? If so, it's a template, not a derivation. Rewrite it with something specific to this waypoint and lesson: a named example, a concrete context, the actual misconception. Each lesson at the same waypoint should do a distinct, nameable job; if two would read the same, merge them or give them different jobs. State a hinge's cascade risk once at the waypoint, not in every lesson.
+- **Keep to the framework.** Same rules as `START-HERE.md`.
 
 ## Print-ready layout (only when the teacher asks)
 
 For a plan they'll print or paste into Docs via Waypoints Print. Same content, same fields; only the layout changes. Don't use this in an ordinary chat reply, because the directives below show as raw text anywhere but Print.
 
 - Start with front matter: `---`, `title: <code> <title>: unit plan`, `---`.
-- Tables, each with a `{{columns ...}}` line directly above it (percentages that add to 100; without it columns come out equal width):
-  - The **allocation table** is already in the plan; give it `{{columns 24% 20% 10% 46%}}` (Waypoint, Flags, Lessons, Why).
+- Put a `{{columns ...}}` line directly above each table (percentages that add to 100; without it columns come out equal width):
   - **Summary**, two columns, `{{columns 25% 75%}}`: Standard, Year, Pace profile, Lessons, Progression endpoint, Assumed prior, Equipment and room.
-  - **Lesson overview**, `{{columns 10% 20% 70%}}`: `| Lesson | Waypoint | Focus |`, one row per lesson.
-- Keep each lesson's fields as a list (long text in table cells prints badly). Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
+  - **Overview**, `{{columns 24% 20% 10% 46%}}`.
+  - **Pace grid** under each lesson, `{{columns 22% 26% 26% 26%}}`.
+- Wrap each lesson in `:::keep-together` … `:::` so it doesn't split across pages.
 - Put `{{break}}` on its own line before each waypoint after the first.
-- **Pace grid (only if they ask for it).** Under a lesson, one table: `| Minimum width | Consolidating | Steady | Advancing |` with `{{columns 22% 26% 26% 26%}}`, one row per piece of minimum-width evidence for that lesson. Minimum is the floor from the node file. The other three say how this class might reach it or go wider, drawn from the node file's widths and response modes. One short line per cell, and the same waypoint in every column: pace changes how width is managed, never what is taught. If a pace grid is present, drop the "If the class needs more support / ready for more" lines it repeats.
 - If the teacher brings this version back later to adapt, treat the directives and tables as layout: keep the content, and keep or drop the layout as they prefer.
 
 ## Progress log (optional, separate file)
@@ -223,46 +238,6 @@ A teacher who wants to track how the unit is going can keep a small separate Mar
 ```
 
 If they paste a log with their plan, read it as what has happened so far and let it inform suggestions. If they don't have one, don't ask for one. When they describe a lesson, give the suggestion first; offer a log line they can paste only if they already keep a log or ask for one.
-
----
-
-<!-- file: unit-plan-extended.md -->
-
-# Fuller unit plan
-
-For when the teacher wants more than the short plan: a fuller plan for the whole unit, or more depth on one lesson. Offer it, don't impose it. Read `plan-format.md` first; this builds on it and the result is still the same Markdown plan, so "Adapt my plan" works on it unchanged.
-
-## How to deliver it
-
-- Fuller plans are long. Give **one waypoint per reply** (its preamble and all its lessons), then ask if they want the next. Don't compress to fit one reply.
-- To go deeper on a single lesson, expand only that lesson and leave the rest alone.
-- Start the first reply with the Assumptions line and the allocation (lessons per waypoint, with reasons), so the teacher can change the shape before you write detail.
-
-## Waypoint preamble
-
-Add under each waypoint heading, 2 to 4 sentences for the teacher:
-
-1. What this waypoint builds on, named specifically (the previous waypoint or assumed prior knowledge).
-2. What students can do after it that they couldn't before.
-3. What the next waypoint needs from this one.
-
-If it's a hinge, state the cascade risk from `hinge_reason` here, **once**. Later lessons at this waypoint refer back ("see the hinge note above") instead of repeating it. If the node data names a misconception, name the actual error, not "students may struggle".
-
-## Extra lesson fields (all optional, add what helps)
-
-- **Shape:** an ordered sketch of the lesson's phases in a few words each, e.g. predict → confront → resolve. Starting vocabulary: orient, predict, anchor, review, teach, demonstrate, confront, resolve, apply, practise, build, investigate, draft, consolidate, check, reflect, evaluate. Use as many or as few as the lesson needs; a two-phase lesson is fine. No timings. Suggestions, not a template.
-- **If the class needs more support:** 2 to 4 concrete moves: a named scaffold, a worked example with its context, a named misconception and how to repair it. At a hinge, tie these to the specific concept at risk, not general advice like "provide worked examples".
-- **If the class is ready for more:** 2 to 4 directions drawn from the node's `wider` tier and `width_opportunity_reason`. In a fuller plan this replaces the `Widening` line from `plan-format.md`: write one or the other, not both. Width, not speed: a student who does these understands *this* waypoint more deeply; none should reach the next waypoint's checkpoint.
-- **Cliff notes:** what a teacher or relief teacher needs to know to run this lesson: the likely stall, the thing to say or not say, what to do if it isn't landing.
-- **Assumed before this lesson:** what students must already have. Mark `[teacher: check]` where only the teacher can know.
-
-## The one check
-
-Before you finish each lesson: **could any of its text appear unchanged on a different lesson?** If so, it's a template, not a derivation. Rewrite it with something specific to this waypoint and this lesson: a named example, a concrete context, the actual misconception. Each lesson at the same waypoint should do a distinct, nameable thing; if two lessons would read the same, merge them or give them different jobs.
-
-## Keep to the framework
-
-Same four rules as above. In particular: the support and ready-for-more versions are about *how* a lesson is taught, not *what* is taught. Every student still gets the same waypoint.
 
 ---
 

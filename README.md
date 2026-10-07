@@ -26,9 +26,6 @@ No account, no install. Everything here is Markdown and JSON.
 Save the plan it gives you. When things change, paste it back with the link:
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read plan-format.md. I've lost two lessons. What should change?
 
-**A fuller unit plan**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, with 8 lessons. Also read plan-format.md and unit-plan-extended.md. Make me a fuller unit plan.
-
 **Glossary, resource plan or student view**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. Here is my plan: [paste]. Also read follow-ups.md. Give me a glossary for students.
 
@@ -53,7 +50,6 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 - `core.md`: the framework on one page.
 - `moves.md`: the suggestions the AI can offer.
 - `plan-format.md`: a plan layout that's easy to save and change.
-- `unit-plan-extended.md`: optional extra depth for a plan (preambles, support and extension versions, cliff notes).
 - `follow-ups.md`: optional extras: glossary, resource plan, student view.
 - `format-prepare.md`: the exact slide format Waypoints Prepare accepts.
 - `format-prepare-explicit.md`, `format-prepare-blue-banner.md`: optional slide styles (explicit-teaching structure; Blue Banner theme), copied from Prepare.
