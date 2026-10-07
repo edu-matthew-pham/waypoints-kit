@@ -4,7 +4,7 @@
 
 A small set of plain files that let any AI chat give you suggestions grounded in the Learning Waypoints framework: where a class is likely to stall, how to widen a lesson without racing ahead, a quick check that catches a misconception, a lesson sequence, slides. You keep your own planning; the kit is a lens on it.
 
-No account, no install. Everything here is Markdown and JSON.
+No account, no install. Everything here is Markdown and JSON. The kit is part of the free [Learning Waypoints](https://learningwaypoints.com) suite.
 
 ## Use it
 
@@ -52,6 +52,15 @@ No plan yet? Replace the plan with "I teach Year 7 Science, standard AC9S7U01" a
 
 **Slides for a lesson**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, waypoint 2. Also read format-prepare.md. Make slides I can paste into Waypoints Prepare.
+
+## Optional tools
+
+The kit works on its own. If you want an app for a step, these are part of the same suite and free:
+
+- [Waypoints Prepare](https://prepare.learningwaypoints.com): turns slides and resources from the kit into formatted decks and printable pages (Print is inside Prepare). Paste the AI's output straight in.
+- [ACARA Progressions](https://acara.learningwaypoints.com): browse the learning progressions behind the node files.
+- [Topic Explorer](https://topic.learningwaypoints.com): explore, quiz and coach on a topic.
+- [Learning Waypoints](https://learningwaypoints.com): the rest of the suite, including Planner.
 
 ## If your AI can't open links
 
