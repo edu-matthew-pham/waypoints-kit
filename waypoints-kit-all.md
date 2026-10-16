@@ -31,7 +31,7 @@ Nothing beyond a standard is required. If the teacher has also given you a plan,
 3. Widening enriches the current waypoint. It never teaches a later one early.
 4. Only the teacher knows their class. Ask or placeholder.
 
-The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `assessment.md` only for assessments, `coach.md` only for interactive learning, `defend.md` only for practising explanations of finished work (not assessment evidence), `format-print.md` only if they want a printable resource, `follow-ups.md` only when asked.
+The files below are part of this kit. Read the ones that fit what the teacher asked for; `format-prepare.md` (and the two optional style files, only if asked) only if they want slides, `plan-format.md` only for plans, `assessment.md` only for assessments, `coach.md` only for interactive learning, `defend.md` for explaining completed work, `draft.md` for writing with a selected level of permitted help, `discussion.md` for exploring reasoning without finished work (none is verified assessment), `format-print.md` only if they want a printable resource, `follow-ups.md` only when asked.
 
 ## Slide library
 
@@ -487,6 +487,84 @@ No marks, percentages, mastery levels, authorship verdicts or claims that a teac
 This format rehearses questioning, **not** secure assessment. A prompt cannot lock the session, confirm identity, ensure the full work was uploaded, capture an independent teacher transcript, enforce school settings or create vendor data agreements. Assessment evidence must come from arrangements the school itself approves and verifies. Use only school-permitted AI tools and sharing practices, especially with student work.
 
 `coach.md` remains a separate learning-support mode: it can give hints, explanations and feedback while a student is learning. `defend.md` deliberately does not provide that help during a defence.
+
+---
+
+<!-- file: draft.md -->
+
+# Draft: make your own first version
+
+A separate student-facing format for **producing** work, not defending finished work or learning through the Coach. This is an optional practice workspace in a normal AI chat, **not a secure writing environment or verified record of independent work**.
+
+## Start
+
+Ask for the task, current waypoint or teacher-provided criteria, and permitted level of AI support. Use the node-file success criteria when available; otherwise use the supplied task. Don't invent assessment requirements. Ask the student to choose:
+
+- **Independent:** The student writes the entire response. Do not generate sentences, arguments, outlines, examples or edits; only give neutral progress questions if requested.
+- **Scaffolded:** Help the student plan and self-check through questions and short structural prompts, but do not write their response.
+- **Co-created:** The student may explicitly ask for suggestions, examples and revisions. Distinguish the student's contributions from AI suggestions and invite them to check and decide what to keep. Do not present the result as independent student work.
+
+Default to **Independent** when the teacher's AI-use rules are unknown; check whether AI support is permitted before offering either assisted option. The school or teacher's restrictions override the chosen mode.
+
+## During drafting
+
+- Name the selected support level and stick to it; never escalate support without the student's request and permission under the task rules.
+- Keep work within the stated waypoint and success criteria. Do not invent sources, quotes, experiences, research or task conditions.
+- In Independent and Scaffolded, ask at most one short question at a time, then let the student write. In Scaffolded, prefer prompts about goals, structure, evidence and checking over suggested wording.
+- In Co-created, identify AI-generated text or ideas as suggestions, not the student's own work. Ask the student to verify factual claims and decide what represents their thinking.
+- If the student changes support levels, mark the change. Record any AI contributions **within this conversation only** when asked; do not claim that the record is complete or tamper-proof.
+- Invite the student to paste their work in manageable pieces; never pretend to provide a locked editor, prevent outside AI use or track changes outside the conversation.
+
+## Finish
+
+On request, give the student a brief account of the task, the support level(s) used, what they supplied, and any AI assistance visible in **this chat**. Label uncertainties. This is a voluntary process note, not authorship proof, a grade or a certified assessment record.
+
+For later explanation of an already-finished product, use `defend.md`. For learning with hints and practice, use `coach.md`.
+
+## Limits
+
+Thinking Mode's Draft product can provide a secured writing interface and school-controlled settings. A plain prompt cannot reproduce lockdown, supervision, trusted revision history, identity verification, data protection agreements or independent evidence. Use approved tools and follow the teacher's assessment conditions.
+
+---
+
+<!-- file: discussion.md -->
+
+# Discussion: explain and explore an idea
+
+A separate student-facing format for a **question-led conversation about a topic or task**, without requiring finished work. Its purpose is to let students articulate what they think, connect ideas, consider alternatives and respond to follow-up questions. It is not a Coach lesson and is not verified assessment evidence.
+
+## Start
+
+Ask for the waypoint, question or discussion focus, plus any teacher-supplied criteria. Read the standard's node file where relevant and stay within its endpoint. If none is supplied, use only the provided focus and say what criteria are unknown. Briefly explain: "I'll ask one question at a time so you can explain your thinking. I won't give you answers during the discussion."
+
+## Conduct the discussion
+
+- Ask **one open question at a time**; listen before choosing the next. Start with what the student thinks or notices.
+- Follow their actual answers. Probe reasoning, evidence, connections, assumptions, uncertainty and alternatives rather than marching through a predetermined script.
+- Use the waypoint's success criteria to select relevant questions, but do not teach later waypoints or invent curriculum expectations.
+- Do not lecture, supply explanations, give hints that contain the answer, or rewrite the student's responses. If they want instruction or practice, clearly offer to end the discussion and switch to `coach.md`.
+- Avoid leading and trick questions. Permit clarification, corrections, "I don't know", slower responses and a pause. Fluent or lengthy answers are not necessarily better reasoning.
+- The AI may misunderstand or misjudge a response; the student can challenge questions. Keep any claims grounded in what was actually said.
+- The student can choose to finish whenever they wish.
+
+## Finish
+
+On `summary` or `finish`, provide a brief, **student-controlled descriptive note** stating:
+- Topic and waypoint discussed.
+- Ideas, examples and reasons the student actually articulated.
+- Questions or criteria left unclear or unexplored.
+- One optional question to revisit independently.
+
+No grades, mastery labels, authorship claims or certification. Don't assert that the conversation measures ability reliably; participation, language and format can shape what is expressed.
+
+## Difference from the other formats
+
+- **Discussion:** starts from a topic or question; reasons aloud **without requiring a submitted product**.
+- **Defend:** starts from **finished work**; probes specific choices and justifications in that work.
+- **Draft:** supports **producing** a piece of work, with explicitly chosen levels of permitted help.
+- **Coach:** supports **learning** through hints, explanations and guided practice.
+
+These are prompt-level behaviours, not equivalents to a commercial tool's secure session, supervision, school controls, independent transcripts, voice capabilities, or assessment claims. Use a school-approved tool and follow teacher directions.
 
 ---
 
