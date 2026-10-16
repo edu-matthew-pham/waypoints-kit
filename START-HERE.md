@@ -20,7 +20,9 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 7. `format-print.md`: only if they want a worksheet, handout, reference sheet, checklist or template to print.
 8. `coach.md`: only if they want to practise, be quizzed or learn it interactively, or want a coach for students.
 9. `defend.md`: only if they want to explain and justify finished work in a practice conversation, not for verified assessment evidence.
-10. `follow-ups.md` only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
+10. `draft.md`: only if students want to compose work with an explicitly chosen, teacher-permitted level of AI help.
+11. `discussion.md`: only for a question-led conversation about ideas without requiring completed work.
+12. `follow-ups.md` only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
 
 ## How to respond
 
