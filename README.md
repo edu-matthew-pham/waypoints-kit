@@ -52,6 +52,11 @@ No plan yet? Replace the plan with "I teach Year 7 Science, standard AC9S7U01" a
 
 You can also project it from a student seat, or ask for class mode (see `coach.md`).
 
+### Defend finished work
+
+**Practise explaining finished work** (separate from Coach)
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it, including opening my standard's node file. I am a Year 7 Science student working on standard AC9S7U01, waypoint 2. Also read defend.md. Here is my finished work: [paste]. Ask about my reasoning one question at a time without rewriting or giving answers. This is practice, not verified assessment.
+
 ### Slides
 
 **Slides in a style**
@@ -87,6 +92,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 | [`moves.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/moves.md) | The suggestions the AI can offer |
 | [`plan-format.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/plan-format.md) | The unit plan layout, plus the print-ready layout and optional progress log |
 | [`assessment.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/assessment.md) | Pre-unit diagnostics, formative checks and summative tasks |
+| [`defend.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/defend.md) | Practise explaining finished work without hints or assessment claims |
 | [`coach.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/coach.md) | Interactive coach: discover, practise, teach it back, spot the flaw, check |
 | [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/follow-ups.md) | Optional extras: glossary, resource plan, student view |
 | [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
