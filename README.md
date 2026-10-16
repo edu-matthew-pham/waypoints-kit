@@ -57,6 +57,14 @@ You can also project it from a student seat, or ask for class mode (see `coach.m
 **Practise explaining finished work** (separate from Coach)
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it, including opening my standard's node file. I am a Year 7 Science student working on standard AC9S7U01, waypoint 2. Also read defend.md. Here is my finished work: [paste]. Ask about my reasoning one question at a time without rewriting or giving answers. This is practice, not verified assessment.
 
+### Draft and discussion
+
+**Draft your own work**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it, including opening my standard's node file. Also read draft.md. I'm working on standard AC9S7U01, waypoint 2. My task is: [paste]. Help me draft using only the level of AI support my teacher permits.
+
+**Discuss an idea**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and follow it, including opening my standard's node file. Also read discussion.md. I'm working on standard AC9S7U01, waypoint 2. Ask me questions one at a time about [topic] without giving answers. This is practice, not verified assessment.
+
 ### Slides
 
 **Slides in a style**
@@ -93,6 +101,8 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 | [`plan-format.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/plan-format.md) | The unit plan layout, plus the print-ready layout and optional progress log |
 | [`assessment.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/assessment.md) | Pre-unit diagnostics, formative checks and summative tasks |
 | [`defend.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/defend.md) | Practise explaining finished work without hints or assessment claims |
+| [`draft.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/draft.md) | Draft with explicit levels of permitted AI support |
+| [`discussion.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/discussion.md) | Explore a topic through one-question-at-a-time dialogue |
 | [`coach.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/coach.md) | Interactive coach: discover, practise, teach it back, spot the flaw, check |
 | [`follow-ups.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/follow-ups.md) | Optional extras: glossary, resource plan, student view |
 | [`format-print.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/format-print.md) | Printable resources (worksheets, handouts) for Waypoints Print |
