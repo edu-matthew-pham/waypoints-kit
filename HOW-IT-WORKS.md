@@ -7,7 +7,7 @@ The logic and rules behind the prompts, in one place. For reviewers, curious tea
 1. Your prompt points the AI at `START-HERE.md` and says to treat it as instructions. The prompt, not the fetched file, carries the key rules, because AI assistants give less weight to instructions found inside a fetched page than to what you type.
 2. The AI reads `core.md` (the framework on one page) and `moves.md` (the suggestions it can offer).
 3. It opens the **node file** for your standard, found through `index/<subject>.md`. This is the source of truth for the waypoint sequence and what each waypoint covers. The AI must say which files it opened, so you can see whether the answer rests on the node file.
-4. If your request needs a format, it also reads that file: `plan-format.md`, `assessment.md`, `coach.md`, `format-print.md`, `format-prepare*.md` or `follow-ups.md`.
+4. If your request needs a format, it also reads that file: `plan-format.md`, `assessment.md`, `coach.md`, `defend.md`, `format-print.md`, `format-prepare*.md` or `follow-ups.md`.
 5. It answers with options and reasons, says what it assumed, and leaves the decision to you.
 
 If an assistant can't open links, `waypoints-kit-all.md` is the same kit in one file, and you paste the node file yourself.
@@ -38,7 +38,8 @@ These are the only hard rules. Everything else is a suggestion.
 | `moves.md` | What to offer and when; two or three options, not a procedure |
 | `plan-format.md` | Overview first, then one waypoint per reply; every waypoint gets at least one lesson; hinges get time; the pace grid and pace key; one check at the end; a general plan with no status; print-ready layout and a separate progress log are opt-in |
 | `assessment.md` | Diagnostic probes prior knowledge and isn't a test; formative checks are at minimum width; summative has sections A, B, C at about 60/30/10; hinge concepts are covered |
-| `coach.md` | Student does the thinking: ask first, no giveaways, a reflective question after help, gentle misconceptions, width sets the push, five modes, a descriptive summary for the teacher |
+| `coach.md` | Five learning-support modes with hints and reflection; unchanged |
+| `defend.md` | Separate questions about finished work, one at a time, without hints or rewriting; student-controlled descriptive practice summary, not assessment evidence |
 | `format-print.md`, `format-prepare*.md` | Exact output formats for Waypoints Print and Prepare; width tiers map to `typical` and `wider` blocks |
 | `follow-ups.md` | Glossary, resource plan and student view; flag a pre-built example that mentions a later waypoint's idea, and let the teacher decide |
 
