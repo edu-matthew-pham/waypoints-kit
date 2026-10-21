@@ -23,8 +23,8 @@ These are examples, not steps. Each one is the same opening (read the kit, open 
 **Look at my plan**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
 
-**Where will my class stall?**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where is this class most likely to get stuck, and what should I do about it?
+**Where could a misunderstanding cause trouble?**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where could a misunderstanding cause trouble later, in this unit or the standards that build on it, and what should I do about it?
 
 **Make a plan I can change later**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Also read plan-format.md. Make me a plan.
