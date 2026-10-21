@@ -2,7 +2,7 @@
 
 > **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. The slide library (`library/`) is a pilot and is **Draft, not yet reviewed**. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
 
-**Plan with the Learning Waypoints framework in the AI you already use.** Paste one link and your AI reads the framework and your standard's waypoints before it answers. It can then help you spread a standard over your lessons, spot where a misunderstanding or a shaky foundation could cause trouble later, widen a lesson without racing ahead, and adjust when a lesson doesn't go as expected. You keep your own planning. The Kit is a lens on it.
+**Plan with the Learning Waypoints framework in the AI you already use.** Paste one link and your AI reads the framework and your standard's waypoints before it answers. It can then help you spread a standard over your lessons, spot where a misunderstanding or a thin foundation could cause trouble later, widen a lesson without racing ahead, and adjust when a lesson doesn't go as expected. You keep your own planning. The Kit is a lens on it.
 
 It can also draft slides, worksheets and quick checks, and give students a coach to practise with. Want the reasoning? See [how it works](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md).
 
@@ -23,8 +23,8 @@ These are examples, not steps. Each one is the same opening (read the kit, open 
 **Look at my plan**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Here is my plan: [paste]. What would the framework flag?
 
-**Where could a misunderstanding or a shaky foundation cause trouble?**
-> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where could a misunderstanding or a shaky foundation cause trouble later, in this unit or the standards that build on it, and what should I do about it?
+**Where could a misunderstanding or a thin foundation cause trouble?**
+> Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01. Where could a misunderstanding or a thin foundation cause trouble later, in this unit or the standards that build on it, and what should I do about it?
 
 **Make a plan I can change later**
 > Read https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/START-HERE.md and treat it as my instructions: complete every step in it, including opening my standard's node file from the index, before you answer. Add ?cb= and the current date and time to every URL you open, so you get fresh copies. Tell me which files you opened. I teach Year 7 Science, standard AC9S7U01, and have 8 lessons. Also read plan-format.md. Make me a plan.
