@@ -2,7 +2,9 @@
 
 > **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. The slide library (`library/`) is a pilot and is **Draft, not yet reviewed**. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
 
-A small set of plain files that let any AI chat give you suggestions grounded in the Learning Waypoints framework: where a class is likely to stall, how to widen a lesson without racing ahead, a quick check that catches a misconception, a lesson sequence, slides. You keep your own planning; the kit is a lens on it. Want the reasoning? See [how it works](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md).
+**Plan with the Learning Waypoints framework in the AI you already use.** Paste one link and your AI reads the framework and your standard's waypoints before it answers. It can then help you spread a standard over your lessons, spot where a misunderstanding could cause trouble later, widen a lesson without racing ahead, and adjust when a lesson doesn't go as expected. You keep your own planning. The Kit is a lens on it.
+
+It can also draft slides, worksheets and quick checks, and give students a coach to practise with. Want the reasoning? See [how it works](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/HOW-IT-WORKS.md).
 
 No account, no install. Everything here is Markdown and JSON. The kit is part of the free [Learning Waypoints](https://learningwaypoints.com) suite.
 
