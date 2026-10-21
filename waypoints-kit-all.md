@@ -93,9 +93,9 @@ Things you can offer. Pick the ones that fit what the teacher asked; don't run t
 **When:** the teacher pastes their own unit, lesson or sequence.
 **Offer:** which waypoints their plan covers and where; whether anything is taught before the thing it depends on; which hinge waypoints get the time they need; where a lesson could widen. Say what's already working before what to change. Don't rewrite their plan unless asked.
 
-## Where could a misunderstanding cause trouble?
+## Where could a misunderstanding or a skipped step cause trouble?
 
-**When:** "where could a misunderstanding cause trouble later", "where will they struggle", "what should I watch for".
+**When:** "where could a misunderstanding or a skipped step cause trouble later", "where will they struggle", "what should I watch for".
 **Offer:** the hinge waypoints, in plain words: what goes wrong downstream if a student leaves that waypoint thin (use `hinge_reason`), and what to do about it (use the hinge-flagged `response_modes`). Two or three at most.
 
 ## Ways to widen a waypoint
