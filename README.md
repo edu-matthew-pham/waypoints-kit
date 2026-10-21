@@ -1,6 +1,6 @@
 # Waypoints Kit
 
-> **Draft for review (v0.2).** A proof of concept. The framework summary in `core.md` is one person's reading and is being checked by a colleague; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. The slide library (`library/`) is a pilot and is **Draft, not yet reviewed**. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
+> **Beta (v0.2).** Ready to use, and we'd like teachers to try it and tell us whether it helps. The framework summary in `core.md` is one person's reading and hasn't been reviewed yet; see `REVIEW.md`. Treat everything as a starting suggestion, not a finished product. The slide library (`library/`) is a pilot and is **Draft, not yet reviewed**. Curriculum data is derived from ACARA material: see `NOTICE.md`. Text licensed CC BY-NC-SA 4.0 (`LICENSE`).
 
 **Plan with the Learning Waypoints framework in the AI you already use.** Paste one link and your AI reads the framework and your standard's waypoints before it answers. It can then help you spread a standard over your lessons, spot where a misunderstanding or a thin foundation could cause trouble later, widen a lesson without racing ahead, and adjust when a lesson doesn't go as expected. You keep your own planning. The Kit is a lens on it.
 
