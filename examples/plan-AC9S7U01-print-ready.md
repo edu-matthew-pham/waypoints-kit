@@ -53,7 +53,7 @@ Students start knowing familiar animals and plants and can sort them into broad 
 **Shape:** orient → anchor → build → check
 
 **Cliff notes:**
-- **Likely stall:** Students say classification is "putting things in groups" or "sorting by colour", which describes the action but not the reason.
+- **Likely trouble spot:** Students say classification is "putting things in groups" or "sorting by colour", which describes the action but not the reason.
 - **What to say:** Ask "What can you do with a classified list that you can't do with an alphabetical one?" Steer towards identifying an unknown thing and sharing a name everyone understands. Don't name kingdoms yet.
 - **If it isn't landing:** Give two different sorts of the same ten animals (by habitat, by body features) and ask which one would help a stranger work out what an unknown animal is.
 - **Watch-out:** The wider ideas (First Nations classification, microscopy, biosecurity) enrich this lesson only; don't use them to teach keys or reclassification early.
@@ -80,7 +80,7 @@ This builds on the idea that classification has a purpose. After it, students ca
 **Shape:** review → teach → practise → check
 
 **Cliff notes:**
-- **Likely stall:** Students sort by habitat or use rather than features, for example "a mushroom is a plant because it grows in soil" or "a whale is a fish because it lives in the sea".
+- **Likely trouble spot:** Students sort by habitat or use rather than features, for example "a mushroom is a plant because it grows in soil" or "a whale is a fish because it lives in the sea".
 - **What to say:** Ask "What can you see that tells you?" rather than "What is it?". Push for features such as how it gets food, whether it has leaves or spores, and how it moves.
 - **If it isn't landing:** Give a one-line feature card per kingdom and have students match each organism to the card before naming the kingdom.
 - **Watch-out:** Confirm which kingdom list your school uses before the lesson. [teacher: confirm five or six kingdoms]
@@ -101,7 +101,7 @@ This builds on the idea that classification has a purpose. After it, students ca
 **Shape:** practise → confront → resolve → check
 
 **Cliff notes:**
-- **Likely stall:** Students think a hard-to-place organism means they've made a mistake, rather than seeing that the difficulty is real information about the organism.
+- **Likely trouble spot:** Students think a hard-to-place organism means they've made a mistake, rather than seeing that the difficulty is real information about the organism.
 - **What to say:** Name the difficulty as a feature of the organism: "Euglena photosynthesises like a plant but moves like an animal. What does that tell us about the groups?"
 - **If it isn't landing:** Work one boundary case through together on the board, listing features that fit each kingdom, before students pick their own.
 - **Watch-out:** Include organisms from every kingdom, including fungi and protists, so students can't rely on animal and plant guesses. Keep keys out of this lesson; that is waypoint 3.
@@ -128,7 +128,7 @@ This builds on students' ability to describe organisms by observable features. A
 **Shape:** demonstrate → practise → check
 
 **Cliff notes:**
-- **Likely stall:** Students follow the arrows without reading the feature, or choose whichever of the two options "sounds closer" instead of testing the organism against both.
+- **Likely trouble spot:** Students follow the arrows without reading the feature, or choose whichever of the two options "sounds closer" instead of testing the organism against both.
 - **What to say:** Model the question before each decision point: "What am I checking, and what are the two possible answers?" Have students point to the feature on the organism before they choose.
 - **If it isn't landing:** Run the first two organisms as a guided think-aloud with the key on the board, then have pairs take turns playing "the key" and "the identifier".
 - **Watch-out:** Don't ask students to write a key yet. Vague terms such as "large" in a key are worth pausing on, but only as a point about reading the decision.
@@ -149,7 +149,7 @@ This builds on students' ability to describe organisms by observable features. A
 **Shape:** practise → confront → resolve → check
 
 **Cliff notes:**
-- **Likely stall:** When a key gives a wrong result, students assume they misjudged the organism rather than considering that the key's question might be flawed.
+- **Likely trouble spot:** When a key gives a wrong result, students assume they misjudged the organism rather than considering that the key's question might be flawed.
 - **What to say:** Ask "Is the problem the organism or the question?" and have students trace the path that led to the wrong answer.
 - **If it isn't landing:** Give a faulty key with the error already flagged by a coloured arrow, and ask only for the consequence and a proposed fix.
 - **Watch-out:** Keep the correction to the faulty key to one decision point. Rewriting a whole key edges into waypoint 4.
@@ -176,7 +176,7 @@ This builds on kingdom-level features (waypoint 2), binary decision logic (waypo
 **Shape:** demonstrate → build → draft → check
 
 **Cliff notes:**
-- **Likely stall:** Students pick features that don't separate the group (all six have legs), use a three-way split (colour: red, green or brown), or write questions that need the organism's name ("Is it a spider?").
+- **Likely trouble spot:** Students pick features that don't separate the group (all six have legs), use a three-way split (colour: red, green or brown), or write questions that need the organism's name ("Is it a spider?").
 - **What to say:** Ask "Can anyone check this by looking, without knowing the name?" and "Does this split the group roughly in half?" Use a feature table of the six organisms to spot the splits first.
 - **If it isn't landing:** Provide the feature table with two features pre-filled and ask students to find the split before drawing the key.
 - **Watch-out:** Peer testing belongs in 4.2. In this lesson students should test their own key against each organism but won't yet have it checked by someone else.
@@ -197,7 +197,7 @@ This builds on kingdom-level features (waypoint 2), binary decision logic (waypo
 **Shape:** investigate → evaluate → draft → reflect
 
 **Cliff notes:**
-- **Likely stall:** When the peer reaches a wrong answer, students defend the key ("you used it wrong") instead of seeing which decision point failed.
+- **Likely trouble spot:** When the peer reaches a wrong answer, students defend the key ("you used it wrong") instead of seeing which decision point failed.
 - **What to say:** Treat the tester's result as data: "Which question sent them the wrong way, and why?" Ask the tester to say aloud what they were checking at each step.
 - **If it isn't landing:** Give the tester a recording sheet that logs each decision and answer, so the failing point is visible on paper.
 - **Watch-out:** The tester must not be told the organism names in advance, or the test proves nothing.
@@ -224,7 +224,7 @@ This builds on all earlier waypoints: students have now seen that classification
 **Shape:** orient → teach → build → reflect → check
 
 **Cliff notes:**
-- **Likely stall:** Students describe what moved without saying what evidence caused it, or conclude that reclassification means "scientists got it wrong" without weighing that against science correcting itself.
+- **Likely trouble spot:** Students describe what moved without saying what evidence caused it, or conclude that reclassification means "scientists got it wrong" without weighing that against science correcting itself.
 - **What to say:** Use the chain "old grouping → new evidence → what changed → what this shows about science" and ask students to fill each link in their own words.
 - **If it isn't landing:** Provide a one-paragraph case card for a single reclassification and have students underline the evidence.
 - **Watch-out:** Keep the evidence at a level students can follow (such as features seen under a microscope), and don't introduce DNA analysis as new content beyond the checkpoint. [teacher: choose and check your example]

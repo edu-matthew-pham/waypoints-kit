@@ -203,7 +203,7 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 **Shape:** <orient → teach → practise → check>
 
 **Cliff notes:**
-- **Likely stall:** <the specific misconception or sticking point>
+- **Likely trouble spot:** <the specific misunderstanding, or where the foundation is likely to be thin>
 - **What to say:** <the move, example or question that helps; and what not to say, if it matters>
 - **If it isn't landing:** <what to try next>
 - **Watch-out:** <one line for a relief teacher>
@@ -228,7 +228,7 @@ Class: <label, optional> · Lessons: <N> · Pace: <Consolidating | Steady | Adva
 ## Fields
 
 - **Focus:** one specific sentence. **Shape:** the lesson's phases in a few words each, e.g. predict → confront → resolve. Starting vocabulary: orient, predict, anchor, review, teach, demonstrate, confront, resolve, apply, practise, build, investigate, draft, consolidate, check, reflect, evaluate. Use as many as the lesson needs. No timings. Suggestions, not a template.
-- **Cliff notes:** always as a short bulleted list with bold labels (Likely stall, What to say, If it isn't landing, Watch-out); drop a bullet that has nothing specific to say. Name the actual misconception, not "students may struggle".
+- **Cliff notes:** always as a short bulleted list with bold labels (Likely trouble spot, What to say, If it isn't landing, Watch-out); drop a bullet that has nothing specific to say. Name the actual misconception, not "students may struggle".
 - **Pace key:** copy the table in the skeleton as it is, wording unchanged. It defines the grid's column headings.
 - **Pace grid:** one row per piece of minimum-width evidence for that lesson, from the waypoint's success criteria and `minimum_width`. The Minimum column states the node file's floor only; standard-instruction detail and typical-width content go in Steady. The other three columns say how this class might reach it or go wider, drawn from the node file's widths and response modes. One short line per cell. Same waypoint in every column: pace changes how width is managed, never what is taught. No student should reach the next waypoint's checkpoint.
 - **Assumed before this lesson** (optional, one line): add where a lesson needs something from earlier. Mark `[teacher: check]` where only the teacher can know.
