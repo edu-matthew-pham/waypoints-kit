@@ -8,7 +8,7 @@
     "description": "investigate the transfer and transformation of energy in electrical circuits, including the role of circuit components, insulators and conductors",
     "strand": "Physical Sciences",
     "mode": "A",
-    "prior_knowledge": "Students understand that heat transfers from warm to cool objects and can classify materials as conductors or insulators of heat (AC9S3U03). They have classified energy types as kinetic and potential (AC9S8U05 — later band). They have not yet examined electrical circuits, circuit components or electrical conductors and insulators.",
+    "prior_knowledge": "Students know that heat energy moves from warmer to cooler objects and can sort materials into conductors and insulators of heat (AC9S3U03). They have met sound as energy that makes objects vibrate (AC9S2U02) and explored light from different sources (AC9S5U03). They have not yet examined electrical circuits, circuit components or electrical conductors and insulators.",
     "progression_endpoint": "Students investigate the requirements for a working electrical circuit, identify the role of each component, distinguish electrical conductors from insulators, construct and represent circuits using standard conventions, and explain how electrical energy is transferred and transformed within a circuit.",
     "nodes": [
       {
