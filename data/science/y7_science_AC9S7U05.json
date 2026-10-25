@@ -8,7 +8,7 @@
     "description": "use particle theory to describe the arrangement of particles in a substance, including the motion of and attraction between particles, and relate this to the properties of the substance",
     "strand": "Understanding",
     "mode": "A",
-    "prior_knowledge": "Students know that matter exists as solids, liquids and gases and can describe observable properties. They have not used particle theory to explain properties or modelled particle behaviour at a submicroscopic level.",
+    "prior_knowledge": "Students know that matter exists as solids, liquids and gases, can describe observable properties, and know that adding or removing heat energy changes state (AC9S3U04) and changes temperature (AC9S3U03). They have used a simple particle model of motion and arrangement to explain the properties of solids, liquids and gases (AC9S5U04). They have not included attraction between particles, or used the model to explain a wider range of properties such as compressibility, density and diffusion, or energy in changes of state.",
     "progression_endpoint": "Students use particle theory to describe the arrangement, motion and attraction of particles in substances and relate this to observable physical properties, including changes of state.",
     "nodes": [
       {

@@ -8,7 +8,7 @@
     "description": "use a particle model to describe differences between pure substances and mixtures and apply understanding of properties of substances to separate mixtures",
     "strand": "Understanding",
     "mode": "A",
-    "prior_knowledge": "Students can classify materials as solids, liquids or gases and have an introductory particle model from AC9S7U05. They have not formally distinguished pure substances from mixtures at the particle level or applied separation techniques systematically.",
+    "prior_knowledge": "Students know how the properties of materials influence their use (AC9S4U04), have compared reversible changes including dissolving and changes of state (AC9S6U04), and have an introductory particle model from AC9S7U05. They have not formally distinguished pure substances from mixtures at the particle level or applied separation techniques systematically.",
     "progression_endpoint": "Students use a particle model to describe the difference between pure substances and mixtures, and select and apply appropriate separation techniques based on properties of substances.",
     "nodes": [
       {

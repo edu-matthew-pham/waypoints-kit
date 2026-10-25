@@ -129,7 +129,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 | File | What it does |
 |---|---|
 | [`index/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/index) | Every standard with a node file, by subject |
-| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/data) | The node files and glossaries, copied from Progressions |
+| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/data) | The node files, glossaries and progression maps, copied from Progressions |
 | [`tools/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/tools) | `build_index.py` regenerates `index/`; `build_bundle.py` regenerates the one-file kit |
 | [`NOTICE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/NOTICE.md), [`LICENSE`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/LICENSE) | ACARA attribution and the licence (CC BY-NC-SA 4.0) |
 
