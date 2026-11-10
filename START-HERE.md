@@ -23,6 +23,7 @@ Base URL for every file below: https://raw.githubusercontent.com/edu-matthew-pha
 10. `draft.md`: only if students want to compose work with an explicitly chosen, teacher-permitted level of AI help.
 11. `discussion.md`: only for a question-led conversation about ideas without requiring completed work.
 12. `follow-ups.md` only if they ask for a glossary, resource plan or student view. Glossaries are listed in `index/glossaries.md`.
+13. `index/cross-subject.md`: only if they ask what a standard relies on from, or shares with, another subject (for example the maths a science lesson needs). Find the standard by code; a number in the Other subjects column of `index/<subject>.md` means it has an entry.
 
 ## How to respond
 

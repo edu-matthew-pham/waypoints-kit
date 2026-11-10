@@ -1,0 +1,1465 @@
+{
+ "description": "Links from a standard to a related standard in another subject. Separate from each node file's prior_knowledge, which names prior knowledge in the standard's own subject. Each link is recorded on the later (dependent) standard; 'used by' lists are derived. See HOW-IT-WORKS.md, 'Cross-subject links'.",
+ "curriculum": "ACARA v9",
+ "source": "Learning Waypoints prior-knowledge node pass, 10 Nov 2026 (from Kit node files: descriptors, prior knowledge and checkpoints).",
+ "links": [
+  {
+   "standard": "AC9S10U01",
+   "nodes": [
+    4,
+    6
+   ],
+   "links_to": "AC9M7P01",
+   "relationship": "application",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "note": "A Punnett square is a two-way table of equally likely outcomes."
+  },
+  {
+   "standard": "AC9S10U01",
+   "nodes": [
+    4,
+    6
+   ],
+   "links_to": "AC9M8P02",
+   "relationship": "application",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "note": "A Punnett square is a two-way table of equally likely outcomes."
+  },
+  {
+   "standard": "AC9S10U01",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N08",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Ratios such as 3:1."
+  },
+  {
+   "standard": "AC9S10U02",
+   "nodes": [
+    1,
+    5
+   ],
+   "links_to": "AC9M7ST02",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Describing distributions."
+  },
+  {
+   "standard": "AC9S10U02",
+   "nodes": [
+    1,
+    5
+   ],
+   "links_to": "AC9M9ST03",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Describing distributions."
+  },
+  {
+   "standard": "AC9S10U02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9HH7S04",
+   "links_to_nodes": [
+    1
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Corroboration: several independent lines of evidence support a claim."
+  },
+  {
+   "standard": "AC9S10U03",
+   "nodes": [
+    5
+   ],
+   "links_to": "AC9HH7S04",
+   "links_to_nodes": [
+    1
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Corroboration: several independent lines of evidence support a claim."
+  },
+  {
+   "standard": "AC9S8U03",
+   "nodes": [
+    6
+   ],
+   "links_to": "AC9HH7S04",
+   "links_to_nodes": [
+    1
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Corroboration: several independent lines of evidence support a claim."
+  },
+  {
+   "standard": "AC9S10U03",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9M7N03",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Powers of 10 for the scale of the universe and its timescales."
+  },
+  {
+   "standard": "AC9S10U03",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9M9M02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Scientific notation."
+  },
+  {
+   "standard": "AC9S10U03",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N06",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Percentages for matter proportions."
+  },
+  {
+   "standard": "AC9S10U04",
+   "nodes": [
+    5
+   ],
+   "links_to": "AC9M5ST02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Reading change over time in line graphs."
+  },
+  {
+   "standard": "AC9S10U04",
+   "nodes": [
+    5
+   ],
+   "links_to": "AC9M10ST03",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Association in scatterplots."
+  },
+  {
+   "standard": "AC9S10U04",
+   "nodes": [
+    6
+   ],
+   "links_to": "AC9M10ST01",
+   "relationship": "background",
+   "timing": "same_year",
+   "thread": "evidence-and-claims",
+   "note": "Analysing claims in media reports."
+  },
+  {
+   "standard": "AC9S10U04",
+   "links_to": "AC9HG10K01",
+   "overlap": "open",
+   "timing": "same_year",
+   "note": "Same topic in the same year (human-induced environmental change); whether to reinforce or share is open."
+  },
+  {
+   "standard": "AC9S10U04",
+   "links_to": "AC9HG10K04",
+   "overlap": "open",
+   "timing": "same_year",
+   "note": "Same topic in the same year (causes and management of environmental change); whether to reinforce or share is open."
+  },
+  {
+   "standard": "AC9S10U05",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N07",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Net force along a line is integer addition with direction."
+  },
+  {
+   "standard": "AC9S10U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M8M05",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Acceleration is a rate: change in velocity per second."
+  },
+  {
+   "standard": "AC9S10U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M8A04",
+   "relationship": "application",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "note": "Gradient as a rate over time."
+  },
+  {
+   "standard": "AC9S10U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M9A03",
+   "relationship": "application",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "note": "Gradient as a rate over time."
+  },
+  {
+   "standard": "AC9S10U05",
+   "nodes": [
+    4,
+    7
+   ],
+   "links_to": "AC9M8A01",
+   "relationship": "prerequisite",
+   "overlap": "share",
+   "timing": "earlier",
+   "note": "Changing the subject of F = ma: one rearranging method shared with maths."
+  },
+  {
+   "standard": "AC9S10U05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M9M05",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Direct proportion: doubling and halving."
+  },
+  {
+   "standard": "AC9S10U07",
+   "nodes": [
+    5,
+    6
+   ],
+   "links_to": "AC9M8M05",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Reaction rate is a rate."
+  },
+  {
+   "standard": "AC9S10U07",
+   "nodes": [
+    6
+   ],
+   "links_to": "AC9M7A04",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Reading rate curves."
+  },
+  {
+   "standard": "AC9S7U01",
+   "nodes": [
+    3,
+    4
+   ],
+   "links_to": "AC9TDI6P02",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "A dichotomous key is a branching algorithm."
+  },
+  {
+   "standard": "AC9S7U01",
+   "nodes": [
+    3,
+    4
+   ],
+   "links_to": "AC9M7SP04",
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "classification",
+   "note": "Binary sorting decisions in both."
+  },
+  {
+   "standard": "AC9S7U01",
+   "nodes": [
+    1,
+    5
+   ],
+   "links_to": "AC9HG7K01",
+   "links_to_nodes": [
+    1
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "classification",
+   "note": "Classification as useful sorting, with trade-offs."
+  },
+  {
+   "standard": "AC9S7U02",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9M6N07",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "About 10% of energy passes to the next level."
+  },
+  {
+   "standard": "AC9S7U02",
+   "nodes": [
+    3,
+    4
+   ],
+   "links_to": "AC9M5ST02",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Population change on a line graph over time."
+  },
+  {
+   "standard": "AC9S7U03",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M5M04",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Solar angle in degrees."
+  },
+  {
+   "standard": "AC9S7U04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N07",
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "Signed numbers for direction; teach in the lesson."
+  },
+  {
+   "standard": "AC9S7U04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N06",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Multiplying decimals to get weight from mass."
+  },
+  {
+   "standard": "AC9S7U04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M6M01",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Units in weight from mass."
+  },
+  {
+   "standard": "AC9S7U04",
+   "nodes": [
+    5
+   ],
+   "links_to": "AC9M7A04",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Describing relationships in graphs of investigation data."
+  },
+  {
+   "standard": "AC9S7U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M8M05",
+   "relationship": "application",
+   "timing": "later",
+   "note": "Density is a rate (mass per unit volume). Maths teaches rates later: teach it in the lesson, never link forward."
+  },
+  {
+   "standard": "AC9S7U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M7M02",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Volume in cm3."
+  },
+  {
+   "standard": "AC9S7U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M6M01",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Metric units for volume."
+  },
+  {
+   "standard": "AC9S7U05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M5ST02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "A heating curve is a line graph over time."
+  },
+  {
+   "standard": "AC9S7U05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9HG7K01",
+   "links_to_nodes": [
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "note": "Evaporation and condensation in the water cycle."
+  },
+  {
+   "standard": "AC9S8U01",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M6N06",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Multiplying by powers of 10 for cell scale and magnification."
+  },
+  {
+   "standard": "AC9S8U01",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M6M01",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Metric conversion for cell scale."
+  },
+  {
+   "standard": "AC9S8U01",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N03",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Powers of 10."
+  },
+  {
+   "standard": "AC9S8U01",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M9M02",
+   "relationship": "background",
+   "timing": "later",
+   "note": "Scientific notation comes later in maths: don't link."
+  },
+  {
+   "standard": "AC9S8U03",
+   "nodes": [
+    2,
+    3,
+    4,
+    5
+   ],
+   "links_to": "AC9HG8K01",
+   "links_to_nodes": [
+    2
+   ],
+   "overlap": "open",
+   "timing": "same_year",
+   "note": "Endogenic processes in Geography's landforms; whether to reinforce or share is open."
+  },
+  {
+   "standard": "AC9S8U03",
+   "nodes": [
+    3,
+    4,
+    5
+   ],
+   "links_to": "AC9HG8K05",
+   "links_to_nodes": [
+    1
+   ],
+   "overlap": "open",
+   "timing": "same_year",
+   "note": "Volcanoes and earthquakes as hazards in Geography; whether to reinforce or share is open."
+  },
+  {
+   "standard": "AC9S8U04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HG7K01",
+   "links_to_nodes": [
+    4
+   ],
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "note": "Geography teaches erosion and deposition a year before the rock cycle."
+  },
+  {
+   "standard": "AC9S8U04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N03",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Very large numbers for geological time."
+  },
+  {
+   "standard": "AC9S8U04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M9M02",
+   "relationship": "background",
+   "timing": "later",
+   "note": "Scientific notation comes later in maths: don't link."
+  },
+  {
+   "standard": "AC9S8U06",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M7N08",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Atoms in fixed ratios in formulas."
+  },
+  {
+   "standard": "AC9S8U06",
+   "nodes": [
+    5
+   ],
+   "links_to": "AC9M7SP01",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "The same move: judging what a representation shows and hides."
+  },
+  {
+   "standard": "AC9S9U04",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9TDI8K03",
+   "links_to_nodes": [
+    4
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "note": "Sound as amplitudes; audio as sampled amplitudes."
+  },
+  {
+   "standard": "AC9S9U04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M9M02",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Very large and very small numbers for the EM spectrum; teach in the lesson."
+  },
+  {
+   "standard": "AC9S9U04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9TDI8K03",
+   "links_to_nodes": [
+    3
+   ],
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "RGB colour."
+  },
+  {
+   "standard": "AC9S9U05",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9M6N07",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Efficiency as a percentage."
+  },
+  {
+   "standard": "AC9S9U05",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9M7N06",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Efficiency as a percentage."
+  },
+  {
+   "standard": "AC9S9U05",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M7N08",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Sankey widths are proportional."
+  },
+  {
+   "standard": "AC9S9U06",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N07",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Charges such as +11 and -10 are integers."
+  },
+  {
+   "standard": "AC9S9U06",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7P02",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Random events over many trials; half-life also uses repeated halving (fractions, Years 5 to 7)."
+  },
+  {
+   "standard": "AC9S9U07",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7A03",
+   "relationship": "background",
+   "wording_watch": "balance",
+   "timing": "earlier",
+   "note": "Balancing equations in chemistry versus the balance method for solving equations in maths."
+  },
+  {
+   "standard": "AC9TDI8K01",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9M7N03",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Prefixes and powers of 10 (GB, GHz, Mbps)."
+  },
+  {
+   "standard": "AC9TDI8K01",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9M8M05",
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "Bandwidth is a rate."
+  },
+  {
+   "standard": "AC9TDI8K02",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M8M05",
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "Bandwidth and latency."
+  },
+  {
+   "standard": "AC9TDI8K03",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M6SP02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "A pixel grid uses Cartesian coordinates."
+  },
+  {
+   "standard": "AC9TDI8K03",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M8M05",
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "Sampling rate is a rate."
+  },
+  {
+   "standard": "AC9TDI8K04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N03",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Binary is place value in base 2."
+  },
+  {
+   "standard": "AC9TDI8K04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N02",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Exponent notation for place values."
+  },
+  {
+   "standard": "AC9TDI8K04",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9M7N02",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "Range with n bits is 2 to the power n."
+  },
+  {
+   "standard": "AC9TDI8K04",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M8P02",
+   "links_to_nodes": [
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "logic",
+   "note": "AND, OR and NOT: the same logic in two subjects in the same year."
+  },
+  {
+   "standard": "AC9TDI10K01",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N02",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Prime numbers and factors."
+  },
+  {
+   "standard": "AC9TDI10K01",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M6N02",
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "Prime numbers."
+  },
+  {
+   "standard": "AC9TDI10K03",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N08",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "How much compression saves, as a ratio."
+  },
+  {
+   "standard": "AC9TDI10K03",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N06",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "How much compression saves, as a percentage."
+  },
+  {
+   "standard": "AC9TDI10P14",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9HC8K03",
+   "links_to_nodes": [
+    1
+   ],
+   "relationship": "background",
+   "timing": "earlier",
+   "note": "What laws are and how they are made; the Australian Privacy Principles sit under the Privacy Act."
+  },
+  {
+   "standard": "AC9HC7K04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M5ST02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Trends in data over time."
+  },
+  {
+   "standard": "AC9HC7K04",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N06",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "note": "Percentages of a population."
+  },
+  {
+   "standard": "AC9HC7S01",
+   "links_to": "AC9S7I01",
+   "links_to_nodes": [
+    1,
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "inquiry-questions",
+   "note": "Investigable questions in science."
+  },
+  {
+   "standard": "AC9HE7S01",
+   "links_to": "AC9S7I01",
+   "links_to_nodes": [
+    1,
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "inquiry-questions",
+   "note": "Investigable questions in science."
+  },
+  {
+   "standard": "AC9HG7S01",
+   "links_to": "AC9S7I01",
+   "links_to_nodes": [
+    1,
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "inquiry-questions",
+   "note": "Investigable questions in science."
+  },
+  {
+   "standard": "AC9HH7S01",
+   "links_to": "AC9S7I01",
+   "links_to_nodes": [
+    1,
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "inquiry-questions",
+   "note": "Investigable questions in science."
+  },
+  {
+   "standard": "AC9HE7S02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M6ST01",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "thread": "searching-and-organising",
+   "note": "Data displays."
+  },
+  {
+   "standard": "AC9HE7S02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M7ST02",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "thread": "searching-and-organising",
+   "note": "Data displays."
+  },
+  {
+   "standard": "AC9HE7S02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M9ST04",
+   "relationship": "background",
+   "timing": "later",
+   "thread": "searching-and-organising",
+   "note": "Choosing a display comes later in maths: don't link."
+  },
+  {
+   "standard": "AC9HG7S02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M6ST01",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "thread": "searching-and-organising",
+   "note": "Data displays."
+  },
+  {
+   "standard": "AC9HG7S02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M7ST02",
+   "relationship": "prerequisite",
+   "timing": "same_year",
+   "thread": "searching-and-organising",
+   "note": "Data displays."
+  },
+  {
+   "standard": "AC9HG7S02",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M9ST04",
+   "relationship": "background",
+   "timing": "later",
+   "thread": "searching-and-organising",
+   "note": "Choosing a display comes later in maths: don't link."
+  },
+  {
+   "standard": "AC9HC7S03",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9E6LA02",
+   "links_to_nodes": [
+    3
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "perspective-and-bias",
+   "note": "Identifying bias; perspective in texts."
+  },
+  {
+   "standard": "AC9HH7S06",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9E6LA02",
+   "links_to_nodes": [
+    3
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "perspective-and-bias",
+   "note": "Identifying bias; perspective in texts."
+  },
+  {
+   "standard": "AC9HE7K01",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9HG7K02",
+   "links_to_nodes": [
+    2
+   ],
+   "shared_foundation": true,
+   "wording_watch": "scarcity",
+   "timing": "same_year",
+   "note": "Economics: limited resources for unlimited wants. Geography: not enough water."
+  },
+  {
+   "standard": "AC9HE7K01",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9HG7K02",
+   "links_to_nodes": [
+    4
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "note": "Sustainability of water."
+  },
+  {
+   "standard": "AC9HE7K05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M6N09",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Money arithmetic, Years 3 to 6 (AC9M3N06 to AC9M6N09)."
+  },
+  {
+   "standard": "AC9HE7K05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M7N09",
+   "overlap": "reinforce",
+   "timing": "same_year",
+   "note": "Financial modelling with percentages."
+  },
+  {
+   "standard": "AC9HE7K05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M9A05",
+   "relationship": "background",
+   "timing": "later",
+   "note": "Interest and growth come later in maths (buy now, pay later): don't link."
+  },
+  {
+   "standard": "AC9HE7K05",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9M10A04",
+   "relationship": "background",
+   "timing": "later",
+   "note": "Interest and growth come later in maths: don't link."
+  },
+  {
+   "standard": "AC9HE7S03",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9M5ST02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Trends over time on line graphs."
+  },
+  {
+   "standard": "AC9HE7S03",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9M10ST03",
+   "relationship": "application",
+   "timing": "later",
+   "note": "Association in scatterplots comes later in maths: teach in the lesson, with the caution that a link between two variables isn't always a cause."
+  },
+  {
+   "standard": "AC9HE7S03",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M6ST02",
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Inference beyond the data; claims in media reports."
+  },
+  {
+   "standard": "AC9HE7S03",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M10ST01",
+   "shared_foundation": true,
+   "timing": "later",
+   "thread": "evidence-and-claims",
+   "note": "Claims in media reports, later in maths: don't link."
+  },
+  {
+   "standard": "AC9HE7S04",
+   "nodes": [
+    1,
+    2
+   ],
+   "links_to": "AC9HG7K02",
+   "links_to_nodes": [
+    4
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "note": "Trade-offs in water management."
+  },
+  {
+   "standard": "AC9HG7K01",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9S7U01",
+   "links_to_nodes": [
+    1
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "classification",
+   "note": "Purpose of classification."
+  },
+  {
+   "standard": "AC9HG7K01",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9S4U02",
+   "relationship": "application",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "note": "The water cycle."
+  },
+  {
+   "standard": "AC9HG7K01",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9S5U02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Weathering, erosion and deposition."
+  },
+  {
+   "standard": "AC9HG7K01",
+   "nodes": [
+    4
+   ],
+   "links_to": "AC9S8U04",
+   "links_to_nodes": [
+    1
+   ],
+   "overlap": "reinforce",
+   "timing": "later",
+   "note": "Geography teaches it a year before science's rock cycle."
+  },
+  {
+   "standard": "AC9HG7K02",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M4SP02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Grid references."
+  },
+  {
+   "standard": "AC9HG7K02",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M5SP02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Grid coordinates."
+  },
+  {
+   "standard": "AC9HG7K02",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N08",
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "Map scale as a ratio."
+  },
+  {
+   "standard": "AC9HG7K02",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9M5ST02",
+   "relationship": "prerequisite",
+   "timing": "earlier",
+   "note": "Climate graphs are line graphs over time."
+  },
+  {
+   "standard": "AC9HG7S02",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HH7S02",
+   "links_to_nodes": [
+    1
+   ],
+   "wording_watch": "primary",
+   "timing": "same_year",
+   "note": "Geography and maths statistics: data you collect yourself. History: from the time of the event."
+  },
+  {
+   "standard": "AC9HH7K01",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9S10U02",
+   "overlap": "reinforce",
+   "timing": "later",
+   "note": "History comes first: teach what's needed, never link forward. Science can look back to History."
+  },
+  {
+   "standard": "AC9HH7K01",
+   "nodes": [
+    3
+   ],
+   "links_to": "AC9S9U06",
+   "links_to_nodes": [
+    4
+   ],
+   "relationship": "application",
+   "timing": "later",
+   "note": "Radiocarbon dating before half-life: History comes first; science can look back to History."
+  },
+  {
+   "standard": "AC9HH7K08",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9S9U06",
+   "links_to_nodes": [
+    4
+   ],
+   "relationship": "application",
+   "timing": "later",
+   "note": "Radiocarbon dating before half-life: History comes first; science can look back to History."
+  },
+  {
+   "standard": "AC9HH7K08",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9S8U04",
+   "links_to_nodes": [
+    1
+   ],
+   "relationship": "application",
+   "timing": "later",
+   "note": "Layers laid down in order."
+  },
+  {
+   "standard": "AC9HH7K08",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HG7K01",
+   "links_to_nodes": [
+    4
+   ],
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "Layers laid down in order."
+  },
+  {
+   "standard": "AC9HH7K08",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9S10U01",
+   "links_to_nodes": [
+    1
+   ],
+   "relationship": "background",
+   "timing": "later",
+   "note": "DNA."
+  },
+  {
+   "standard": "AC9HH7K09",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HG7K01",
+   "shared_foundation": true,
+   "timing": "same_year",
+   "note": "Water and landforms."
+  },
+  {
+   "standard": "AC9HH7S05",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M6N01",
+   "relationship": "application",
+   "timing": "earlier",
+   "note": "A timeline is a number line with no year zero."
+  },
+  {
+   "standard": "AC9HH7S05",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9M7N07",
+   "relationship": "application",
+   "timing": "same_year",
+   "note": "A timeline is a number line with no year zero."
+  },
+  {
+   "standard": "AC9HH7S04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9E4LA02",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Fact and opinion."
+  },
+  {
+   "standard": "AC9HH7S07",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9S7U05",
+   "links_to_nodes": [
+    5
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "evidence-and-claims",
+   "note": "Fact versus interpretation; models and theories in science."
+  },
+  {
+   "standard": "AC9HH7S07",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9E7LA02",
+   "links_to_nodes": [
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "evidence-and-claims",
+   "note": "Argument: substantiating a judgement."
+  },
+  {
+   "standard": "AC9E7LA02",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9HH7S04",
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "evidence-and-claims",
+   "note": "Substantiating evaluations with sources."
+  },
+  {
+   "standard": "AC9E7LA02",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9HE7S03",
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "evidence-and-claims",
+   "note": "Substantiating evaluations with sources."
+  },
+  {
+   "standard": "AC9E7LY04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9S7U01",
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "idea-structures",
+   "note": "Taxonomies."
+  },
+  {
+   "standard": "AC9E7LY04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HH7S05",
+   "links_to_nodes": [
+    1,
+    2
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "idea-structures",
+   "note": "Chronology; cause and effect."
+  },
+  {
+   "standard": "AC9E7LY04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HE7S03",
+   "links_to_nodes": [
+    3
+   ],
+   "shared_foundation": true,
+   "timing": "same_year",
+   "thread": "idea-structures",
+   "note": "Cause and effect."
+  },
+  {
+   "standard": "AC9E8LY04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HE7S04",
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "idea-structures",
+   "note": "Problem and solution: responding to an issue."
+  },
+  {
+   "standard": "AC9E8LY04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HG7K02",
+   "links_to_nodes": [
+    4
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "idea-structures",
+   "note": "Problem and solution: water management strategies."
+  },
+  {
+   "standard": "AC9E8LA04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9HH7S07",
+   "links_to_nodes": [
+    3
+   ],
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Claim, evidence and explanation: historical argument."
+  },
+  {
+   "standard": "AC9E8LA04",
+   "nodes": [
+    1
+   ],
+   "links_to": "AC9S7I06",
+   "shared_foundation": true,
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Claim, evidence and explanation: conclusions from evidence in science."
+  },
+  {
+   "standard": "AC9E8LY03",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9HH7S03",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Source origin and purpose."
+  },
+  {
+   "standard": "AC9E8LY03",
+   "nodes": [
+    2
+   ],
+   "links_to": "AC9HH7S04",
+   "overlap": "reinforce",
+   "timing": "earlier",
+   "thread": "evidence-and-claims",
+   "note": "Source accuracy."
+  }
+ ]
+}

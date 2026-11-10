@@ -1,0 +1,99 @@
+{
+ "description": "Shared threads: one idea or skill that several subjects teach in their own way. Each thread lists its member standards (and nodes) with one line on how that subject frames the idea. This file is the only place membership is recorded; a link in links.json may name a thread when it is one instance of it. See HOW-IT-WORKS.md, 'Cross-subject links'.",
+ "curriculum": "ACARA v9",
+ "source": "Learning Waypoints prior-knowledge node pass, 10 Nov 2026. Evidence and claims frames are from the node pass; the other threads' frames are drafted from the member nodes' labels and checkpoints.",
+ "threads": [
+  {
+   "id": "evidence-and-claims",
+   "title": "Evidence and claims",
+   "description": "Telling a claim from evidence for it: fact or opinion, who says so and how they know, how far the evidence goes, and whether several independent lines support it. The biggest overlap across subjects; fact versus opinion alone is taught in four places.",
+   "outside_kit": "The ACARA Digital Literacy general capability (investigating information) teaches it too; Kit has no node files for general capabilities.",
+   "members": [
+    {"standard": "AC9HH7S04", "nodes": [1], "frame": "History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness."},
+    {"standard": "AC9HH7S03", "nodes": [], "frame": "History: who made the source, when and why."},
+    {"standard": "AC9HH7S07", "nodes": [1, 3], "frame": "History: fact versus interpretation; building an argument from evidence."},
+    {"standard": "AC9E4LA02", "nodes": [1, 2], "frame": "English: fact or feeling? The language of opinion versus factual reporting."},
+    {"standard": "AC9E7LA02", "nodes": [2], "frame": "English: substantiate an evaluation with the text and other sources."},
+    {"standard": "AC9E8LA04", "nodes": [1], "frame": "English: a paragraph that makes a claim and backs it with an example, evidence and explanation."},
+    {"standard": "AC9E8LY03", "nodes": [2], "frame": "English: evaluate how a text uses sources and quotations."},
+    {"standard": "AC9HE7S03", "nodes": [1], "frame": "Economics: what the data shows, a reasonable inference, or a claim that goes too far."},
+    {"standard": "AC9HC7K03", "nodes": [2], "frame": "Civics: burden of proof and evidence in court."},
+    {"standard": "AC9S7I06", "nodes": [3], "frame": "Science inquiry: analyse claims for assumptions and conflicting evidence."},
+    {"standard": "AC9S8U03", "nodes": [6], "frame": "Science: several independent lines of evidence support plate tectonics."},
+    {"standard": "AC9S10U02", "nodes": [3], "frame": "Science: several independent lines of evidence support evolution."},
+    {"standard": "AC9S10U03", "nodes": [5], "frame": "Science: several independent lines of evidence support the big bang theory."},
+    {"standard": "AC9M6ST02", "nodes": [], "frame": "Maths statistics: critique statistical arguments in the media."},
+    {"standard": "AC9M10ST01", "nodes": [], "frame": "Maths statistics: critique statistical reports in the media."}
+   ]
+  },
+  {
+   "id": "perspective-and-bias",
+   "title": "Perspective and bias",
+   "description": "Whose view a source or text gives, and how that view shapes what it says.",
+   "members": [
+    {"standard": "AC9E6LA02", "nodes": [3], "frame": "English: identify bias in the language of a text."},
+    {"standard": "AC9HC7S03", "nodes": [1, 2], "frame": "Civics: identify perspectives in civic sources and explain why they differ."},
+    {"standard": "AC9HH7S06", "nodes": [1, 2, 3], "frame": "History: the perspective in a historical source, the values behind it, and who is missing."}
+   ]
+  },
+  {
+   "id": "idea-structures",
+   "title": "Idea structures",
+   "description": "Common ways of organising ideas: taxonomies, cause and effect, chronology, problem and solution, compare and contrast. English names the structures; other subjects use them.",
+   "members": [
+    {"standard": "AC9E7LY04", "nodes": [1], "frame": "English: name taxonomies, cause and effect, and chronology as idea structures in texts."},
+    {"standard": "AC9E8LY04", "nodes": [1], "frame": "English: add problem and solution, and compare and contrast."},
+    {"standard": "AC9S7U01", "nodes": [1, 2], "frame": "Science: classify living things into a taxonomy."},
+    {"standard": "AC9HH7S05", "nodes": [1, 2], "frame": "History: chronology, and causes and effects of events."},
+    {"standard": "AC9HE7S03", "nodes": [3], "frame": "Economics: cause-and-effect relationships in economic data."},
+    {"standard": "AC9HE7S04", "nodes": [], "frame": "Economics: respond to an issue by weighing costs and benefits (problem and solution)."},
+    {"standard": "AC9HG7K02", "nodes": [4], "frame": "Geography: strategies for water sustainability (problem and solution)."}
+   ]
+  },
+  {
+   "id": "inquiry-questions",
+   "title": "Inquiry questions",
+   "description": "Asking a question that can actually be investigated. The four humanities subjects share one framing; science asks for investigable questions separately.",
+   "members": [
+    {"standard": "AC9HC7S01", "nodes": [], "frame": "Civics: develop a civic inquiry question, often from current events."},
+    {"standard": "AC9HE7S01", "nodes": [], "frame": "Economics: what makes a question investigable, using economics concepts."},
+    {"standard": "AC9HG7S01", "nodes": [], "frame": "Geography: a geographical question rather than a general one, and plan an investigation."},
+    {"standard": "AC9HH7S01", "nodes": [], "frame": "History: what makes a question historical, and its scope."},
+    {"standard": "AC9S7I01", "nodes": [1, 2], "frame": "Science: investigable versus non-investigable questions."}
+   ]
+  },
+  {
+   "id": "searching-and-organising",
+   "title": "Searching and organising information",
+   "description": "Finding sources with a search strategy, choosing what's relevant, and organising it, including choosing a table or graph.",
+   "outside_kit": "The ACARA Digital Literacy general capability teaches search and choosing a chart too; Kit has no node files for general capabilities.",
+   "members": [
+    {"standard": "AC9HC7S02", "nodes": [2, 3], "frame": "Civics: locate information with search strategies, then select and organise it."},
+    {"standard": "AC9HE7S02", "nodes": [1, 2, 3], "frame": "Economics: targeted search, select relevant information, organise data in a suitable format."},
+    {"standard": "AC9HG7S02", "nodes": [2, 3], "frame": "Geography: find secondary materials and represent data in geographical formats."},
+    {"standard": "AC9HH7S02", "nodes": [2, 3], "frame": "History: locate sources in repositories with search strategies, then sort them for the inquiry."},
+    {"standard": "AC9M7ST02", "nodes": [], "frame": "Maths: data displays and what they show about a distribution."},
+    {"standard": "AC9M9ST04", "nodes": [], "frame": "Maths: choose a data display for the data and the purpose."}
+   ]
+  },
+  {
+   "id": "classification",
+   "title": "Classification",
+   "description": "Sorting things into groups by their features: useful, with trade-offs, and open to change. All three members are in Year 7.",
+   "members": [
+    {"standard": "AC9S7U01", "nodes": [1, 3, 4, 5], "frame": "Science: why we classify living things, dichotomous keys, and systems that change over time."},
+    {"standard": "AC9HG7K01", "nodes": [1], "frame": "Geography: classify resources as renewable, non-renewable or continuous."},
+    {"standard": "AC9M7SP04", "nodes": [], "frame": "Maths: algorithms that sort and classify shapes with yes/no decisions."}
+   ]
+  },
+  {
+   "id": "logic",
+   "title": "Logic: and, or, not",
+   "description": "The same three logical operations, taught in two subjects in the same year.",
+   "members": [
+    {"standard": "AC9TDI8K04", "nodes": [3], "frame": "Digital Technologies: logic gates (AND, OR, NOT) and why computers use binary."},
+    {"standard": "AC9M8P02", "nodes": [2], "frame": "Maths: \"and\", \"or\" and \"not\" for combined events in probability."}
+   ]
+  }
+ ]
+}

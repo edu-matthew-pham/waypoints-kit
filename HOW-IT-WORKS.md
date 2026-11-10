@@ -49,6 +49,30 @@ These are the only hard rules. Everything else is a suggestion.
 
 A lighter, plain-file version of Planner's core logic. No saved plans, no merging several standards, no class data or pace index, no review screens or tutorials. Teachers can do those themselves if they need to.
 
+## Cross-subject links
+
+A node file's `prior_knowledge` names what a standard builds on **in its own subject**, with codes in the text (Years 7 to 10 History, Geography, Civics and Economics count Foundation to Year 6 HASS as their own subject). What a standard relies on or shares with **another subject** lives in two separate files in `data/cross-subject/`, not in the node files. They are written in the kit, unlike the node files, which are copied from ACARA Progressions, so a fresh copy doesn't overwrite them.
+
+**`links.json`**: one record per link, kept on the later (dependent) standard. "Used by" lists are worked out from the same records, not stored twice.
+
+| Field | Meaning |
+|---|---|
+| `standard`, `nodes` | The standard that relies on the other idea, and which of its nodes (left out = the whole standard) |
+| `links_to`, `links_to_nodes` | The other subject's standard, and its nodes if the link is that specific |
+| `relationship` | `prerequisite` (needed first), `application` (the same idea used in a new place) or `background` (helpful, not needed). Left out when the link is only an overlap or a shared foundation |
+| `overlap` | Both teach the same thing: `reinforce` (let each strengthen the other), `share` (use one method or wording) or `open` (not yet decided) |
+| `shared_foundation` | `true` when both rest on the same underlying idea, taught in each subject's own way |
+| `wording_watch` | A word that means different things in the two subjects, such as "scarcity" |
+| `timing` | The other standard against this one: `earlier`, `same_year` or `later`. Something taught later can't be assumed: teach the small piece in the lesson |
+| `thread` | The shared thread this link is an instance of (see below) |
+| `note` | A short plain-language note |
+
+The relationship types follow the Learning Waypoints framework's prior-knowledge extension.
+
+**`threads.json`**: an idea several subjects teach in their own way, such as evidence and claims. Each thread lists its member standards and nodes, with one line on how each subject frames the idea. Membership is recorded only here.
+
+`tools/check_links.py` checks both files against the node files (codes and nodes exist, allowed values, timing agrees with the years, two different subjects, no duplicates). `python3 tools/build_index.py --cross-subject` then writes `index/cross-subject.md` and the Other subjects column in each `index/<subject>.md`.
+
 ## Known limits
 
 - The framework summary in `core.md` is one person's reading and is being reviewed (see `REVIEW.md`).
