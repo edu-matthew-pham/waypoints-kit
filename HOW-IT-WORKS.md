@@ -82,6 +82,13 @@ The relationship types follow the Learning Waypoints framework's prior-knowledge
 - `note`: optional, plain language.
 - Timing isn't stored: both standards are in the same subject, so it comes from their years (earlier or same year; never later).
 
+**Writing prior knowledge (rule, 10 Nov 2026).** When writing or fixing a standard's `prior_knowledge`:
+
+- Name a code only for something this standard really builds on. Don't chain topics just because ACARA lists them in order ("From K01 they understand…, from K02…"): most of those turned out to be background.
+- Every idea you name gets its code, never a description in words alone.
+- If a code you name isn't needed first, add it to `prior_relationships` as an application or background, in the same edit.
+- Ideas from another subject go in `data/cross-subject/links.json`, never in `prior_knowledge`.
+
 What it means for anything that checks lesson order: a **prerequisite** must come first. From an earlier year it's taught in class; from the same year it needs an earlier lesson. Applications and background are never demanded: they're notes for planning and lesson writing. Labelled 10 Nov 2026: every same-year code in Years 7 to 10 (156), plus 13 earlier-year codes from another strand of the same subject. Earlier-year codes elsewhere were left as prerequisites (nothing that checks lesson order treats them as missing), and so was Foundation to Year 6.
 
 `tools/check_links.py` checks both files against the node files (codes and nodes exist, allowed values, timing agrees with the years, two different subjects, no duplicates), and checks each `prior_relationships` code is named in `prior_knowledge`, isn't from a later year and is listed once. `python3 tools/build_index.py --cross-subject` then writes `index/cross-subject.md` and the Other subjects column in each `index/<subject>.md`.
