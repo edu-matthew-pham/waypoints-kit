@@ -14,12 +14,12 @@ Timing compares the other standard's year with this one's: earlier, same year or
 - AC9HH7S03 Identify source origin and purpose (history, Year 7): History: who made the source, when and why.
 - AC9HH7S07 node 1, 3 Explain historical interpretations (history, Year 7): History: fact versus interpretation; building an argument from evidence.
 - AC9E4LA02 node 1, 2 Subjective and objective language (english, Year 4): English: fact or feeling? The language of opinion versus factual reporting.
-- AC9E7LA02 node 2 Evaluative language and substantiation (english, Year 7): English: substantiate an evaluation with the text and other sources.
+- AC9E7LA02 node 2 Evaluative language and substantiation (english, Year 7): English: back up a judgement with evidence from the text and other sources.
 - AC9E8LA04 node 1 Cohesion through paragraph structure (english, Year 8): English: a paragraph that makes a claim and backs it with an example, evidence and explanation.
 - AC9E8LY03 node 2 Analyse and evaluate language features and sources (english, Year 8): English: evaluate how a text uses sources and quotations.
 - AC9HE7S03 node 1 Interpret Information and Data (economics, Year 7): Economics: what the data shows, a reasonable inference, or a claim that goes too far.
 - AC9HC7K03 node 2 The Australian Legal System (civics, Year 7): Civics: burden of proof and evidence in court.
-- AC9S7I06 node 3 Analyse methods and claims (science, Year 7-8): Science inquiry: analyse claims for assumptions and conflicting evidence.
+- AC9S7I06 node 3 Analyse methods and claims (science, Year 7-8): Science inquiry: check a claim for hidden assumptions and evidence that disagrees.
 - AC9S8U03 node 6 Plate Tectonics (science, Year 8): Science: several independent lines of evidence support plate tectonics.
 - AC9S10U02 node 3 Evolution by Natural Selection (science, Year 10): Science: several independent lines of evidence support evolution.
 - AC9S10U03 node 5 Big Bang Theory (science, Year 10): Science: several independent lines of evidence support the big bang theory.
@@ -38,36 +38,36 @@ The ACARA Digital Literacy general capability (investigating information) teache
 
 ### Idea structures
 
-<a id="idea-structures"></a>Common ways of organising ideas: taxonomies, cause and effect, chronology, problem and solution, compare and contrast. English names the structures; other subjects use them.
+<a id="idea-structures"></a>Common ways of organising ideas: sorting into groups and subgroups, cause and effect, time order, problem and solution, compare and contrast. English names the structures; other subjects use them.
 
-- AC9E7LY04 node 1 Explain idea structures in texts (english, Year 7): English: name taxonomies, cause and effect, and chronology as idea structures in texts.
+- AC9E7LY04 node 1 Explain idea structures in texts (english, Year 7): English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology).
 - AC9E8LY04 node 1 How authors organise ideas (english, Year 8): English: add problem and solution, and compare and contrast.
-- AC9S7U01 node 1, 2 Classification and Biodiversity (science, Year 7): Science: classify living things into a taxonomy.
-- AC9HH7S05 node 1, 2 Describe cause and continuity (history, Year 7): History: chronology, and causes and effects of events.
+- AC9S7U01 node 1, 2 Classification and Biodiversity (science, Year 7): Science: sort living things into groups and subgroups (a taxonomy).
+- AC9HH7S05 node 1, 2 Describe cause and continuity (history, Year 7): History: putting events in time order (chronology), and their causes and effects.
 - AC9HE7S03 node 3 Interpret Information and Data (economics, Year 7): Economics: cause-and-effect relationships in economic data.
 - AC9HE7S04 Develop a Response to an Economic Issue (economics, Year 7): Economics: respond to an issue by weighing costs and benefits (problem and solution).
 - AC9HG7K02 node 4 Water distribution and sustainability (geography, Year 7): Geography: strategies for water sustainability (problem and solution).
 
 ### Inquiry questions
 
-<a id="inquiry-questions"></a>Asking a question that can actually be investigated. The four humanities subjects share one framing; science asks for investigable questions separately.
+<a id="inquiry-questions"></a>Asking a question you can actually answer by testing or researching. The four humanities subjects share one framing; science asks for investigable questions separately.
 
 - AC9HC7S01 Developing Inquiry Questions (civics, Year 7): Civics: develop a civic inquiry question, often from current events.
-- AC9HE7S01 Develop Inquiry Questions (economics, Year 7): Economics: what makes a question investigable, using economics concepts.
-- AC9HG7S01 Develop geographical inquiry questions (geography, Year 7): Geography: a geographical question rather than a general one, and plan an investigation.
+- AC9HE7S01 Develop Inquiry Questions (economics, Year 7): Economics: what makes a question one you can research, using economics ideas.
+- AC9HG7S01 Develop geographical inquiry questions (geography, Year 7): Geography: ask a geographical question rather than a general one, and plan how to investigate it.
 - AC9HH7S01 Develop historical questions (history, Year 7): History: what makes a question historical, and its scope.
-- AC9S7I01 node 1, 2 Explore models and test relationships (science, Year 7-8): Science: investigable versus non-investigable questions.
+- AC9S7I01 node 1, 2 Explore models and test relationships (science, Year 7-8): Science: questions you can answer by testing (investigable) versus ones you can't.
 
 ### Searching and organising information
 
 <a id="searching-and-organising"></a>Finding sources with a search strategy, choosing what's relevant, and organising it, including choosing a table or graph.
 
 - AC9HC7S02 node 2, 3 Locating and Organising Information (civics, Year 7): Civics: locate information with search strategies, then select and organise it.
-- AC9HE7S02 node 1, 2, 3 Locate and Organise Information (economics, Year 7): Economics: targeted search, select relevant information, organise data in a suitable format.
+- AC9HE7S02 node 1, 2, 3 Locate and Organise Information (economics, Year 7): Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format.
 - AC9HG7S02 node 2, 3 Collect, organise and represent geographical data (geography, Year 7): Geography: find secondary materials and represent data in geographical formats.
-- AC9HH7S02 node 2, 3 Locate primary and secondary sources (history, Year 7): History: locate sources in repositories with search strategies, then sort them for the inquiry.
-- AC9M7ST02 Data Displays and Distribution (maths, Year 7): Maths: data displays and what they show about a distribution.
-- AC9M9ST04 Choosing Data Displays (maths, Year 9): Maths: choose a data display for the data and the purpose.
+- AC9HH7S02 node 2, 3 Locate primary and secondary sources (history, Year 7): History: find sources in archives and collections with search strategies, then sort them for the inquiry.
+- AC9M7ST02 Data Displays and Distribution (maths, Year 7): Maths: tables and graphs, and what they show about how data is spread.
+- AC9M9ST04 Choosing Data Displays (maths, Year 9): Maths: choose the right table or graph for the data and the purpose.
 
 The ACARA Digital Literacy general capability teaches search and choosing a chart too; Kit has no node files for general capabilities.
 
@@ -75,15 +75,15 @@ The ACARA Digital Literacy general capability teaches search and choosing a char
 
 <a id="classification"></a>Sorting things into groups by their features: useful, with trade-offs, and open to change. All three members are in Year 7.
 
-- AC9S7U01 node 1, 3, 4, 5 Classification and Biodiversity (science, Year 7): Science: why we classify living things, dichotomous keys, and systems that change over time.
+- AC9S7U01 node 1, 3, 4, 5 Classification and Biodiversity (science, Year 7): Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time.
 - AC9HG7K01 node 1 Water as an environmental resource (geography, Year 7): Geography: classify resources as renewable, non-renewable or continuous.
-- AC9M7SP04 Algorithms for Classifying Shapes (maths, Year 7): Maths: algorithms that sort and classify shapes with yes/no decisions.
+- AC9M7SP04 Algorithms for Classifying Shapes (maths, Year 7): Maths: step-by-step yes/no rules (algorithms) that sort shapes.
 
 ### Logic: and, or, not
 
 <a id="logic"></a>The same three logical operations, taught in two subjects in the same year.
 
-- AC9TDI8K04 node 3 Integer representation in binary (technologies, Year 7-8): Digital Technologies: logic gates (AND, OR, NOT) and why computers use binary.
+- AC9TDI8K04 node 3 Integer representation in binary (technologies, Year 7-8): Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary.
 - AC9M8P02 node 2 Combinations for Two Events (maths, Year 8): Maths: "and", "or" and "not" for combined events in probability.
 
 ## By standard
@@ -166,7 +166,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Economics: what makes a question investigable, using economics concepts.
+- [Inquiry questions](#inquiry-questions): Economics: what makes a question one you can research, using economics ideas.
 
 ### AC9HE7S02 Locate and Organise Information (economics, Year 7)
 
@@ -179,7 +179,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Economics: targeted search, select relevant information, organise data in a suitable format.
+- [Searching and organising information](#searching-and-organising): Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format.
 
 ### AC9HE7S03 Interpret Information and Data (economics, Year 7)
 
@@ -253,7 +253,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): English: substantiate an evaluation with the text and other sources.
+- [Evidence and claims](#evidence-and-claims): English: back up a judgement with evidence from the text and other sources.
 
 ### AC9E7LY04 Explain idea structures in texts (english, Year 7)
 
@@ -266,7 +266,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Idea structures](#idea-structures): English: name taxonomies, cause and effect, and chronology as idea structures in texts.
+- [Idea structures](#idea-structures): English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology).
 
 ### AC9E8LA04 Cohesion through paragraph structure (english, Year 8)
 
@@ -356,7 +356,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Geography: a geographical question rather than a general one, and plan an investigation.
+- [Inquiry questions](#inquiry-questions): Geography: ask a geographical question rather than a general one, and plan how to investigate it.
 
 ### AC9HG7S02 Collect, organise and represent geographical data (geography, Year 7)
 
@@ -445,7 +445,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): History: locate sources in repositories with search strategies, then sort them for the inquiry.
+- [Searching and organising information](#searching-and-organising): History: find sources in archives and collections with search strategies, then sort them for the inquiry.
 
 ### AC9HH7S03 Identify source origin and purpose (history, Year 7)
 
@@ -491,7 +491,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Idea structures](#idea-structures): History: chronology, and causes and effects of events.
+- [Idea structures](#idea-structures): History: putting events in time order (chronology), and their causes and effects.
 
 ### AC9HH7S06 Identify past perspectives (history, Year 7)
 
@@ -735,7 +735,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Classification](#classification): Maths: algorithms that sort and classify shapes with yes/no decisions.
+- [Classification](#classification): Maths: step-by-step yes/no rules (algorithms) that sort shapes.
 
 ### AC9M7ST02 Data Displays and Distribution (maths, Year 7)
 
@@ -748,7 +748,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Maths: data displays and what they show about a distribution.
+- [Searching and organising information](#searching-and-organising): Maths: tables and graphs, and what they show about how data is spread.
 
 ### AC9M8A01 Linear Expressions (maths, Year 8)
 
@@ -836,7 +836,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Maths: choose a data display for the data and the purpose.
+- [Searching and organising information](#searching-and-organising): Maths: choose the right table or graph for the data and the purpose.
 
 ### AC9M10A04 Model growth and decay (maths, Year 10)
 
@@ -895,8 +895,8 @@ Used in other subjects by:
 
 Threads:
 
-- [Idea structures](#idea-structures): Science: classify living things into a taxonomy.
-- [Classification](#classification): Science: why we classify living things, dichotomous keys, and systems that change over time.
+- [Idea structures](#idea-structures): Science: sort living things into groups and subgroups (a taxonomy).
+- [Classification](#classification): Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time.
 
 ### AC9S7U02 Food Webs and Ecosystems (science, Year 7)
 
@@ -1108,7 +1108,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Science: investigable versus non-investigable questions.
+- [Inquiry questions](#inquiry-questions): Science: questions you can answer by testing (investigable) versus ones you can't.
 
 ### AC9S7I06 Analyse methods and claims (science, Year 7-8)
 
@@ -1119,7 +1119,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Science inquiry: analyse claims for assumptions and conflicting evidence.
+- [Evidence and claims](#evidence-and-claims): Science inquiry: check a claim for hidden assumptions and evidence that disagrees.
 
 ### AC9TDI6P02 Design algorithms with branching and iteration (technologies, Year 5-6)
 
@@ -1168,7 +1168,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Logic: and, or, not](#logic): Digital Technologies: logic gates (AND, OR, NOT) and why computers use binary.
+- [Logic: and, or, not](#logic): Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary.
 
 ### AC9TDI10K01 Managing and securing networked systems (technologies, Year 9-10)
 
