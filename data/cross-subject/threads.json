@@ -1,7 +1,7 @@
 {
- "description": "Shared threads: one idea or skill that several subjects teach in their own way. Each thread lists its member standards (and nodes) with one line on how that subject frames the idea. This file is the only place membership is recorded; a link in links.json may name a thread when it is one instance of it. See HOW-IT-WORKS.md, 'Cross-subject links'.",
+ "description": "Shared threads: an idea several subjects teach. A skill thread is a way of thinking each subject uses in its own way (evidence and claims); a topic thread is content taught in more than one place (the water cycle). Each member gives a role: first (where students first meet it), builds_on (goes deeper), applies (uses it in its own context) or repeats (teaches it again at about the same level, often the same year: the overlaps worth coordinating). Membership is recorded only here. See HOW-IT-WORKS.md, 'Cross-subject links'.",
  "curriculum": "ACARA v9",
- "source": "Learning Waypoints prior-knowledge node pass, 10 Nov 2026. Evidence and claims frames are from the node pass; the other threads' frames are drafted from the member nodes' labels and checkpoints.",
+ "source": "Learning Waypoints prior-knowledge node pass, 10 Nov 2026. Skill-thread frames for evidence and claims are from the node pass; the rest, the topic threads and all roles were drafted from the members' node labels and checkpoints (10 Nov 2026).",
  "threads": [
   {
    "id": "evidence-and-claims",
@@ -9,58 +9,273 @@
    "description": "Telling a claim from evidence for it: fact or opinion, who says so and how they know, how far the evidence goes, and whether several independent lines support it. The biggest overlap across subjects; fact versus opinion alone is taught in four places.",
    "outside_kit": "The ACARA Digital Literacy general capability (investigating information) teaches it too; Kit has no node files for general capabilities.",
    "members": [
-    {"standard": "AC9HH7S04", "nodes": [1], "frame": "History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness."},
-    {"standard": "AC9HH7S03", "nodes": [], "frame": "History: who made the source, when and why."},
-    {"standard": "AC9HH7S07", "nodes": [1, 3], "frame": "History: fact versus interpretation; building an argument from evidence."},
-    {"standard": "AC9E4LA02", "nodes": [1, 2], "frame": "English: fact or feeling? The language of opinion versus factual reporting."},
-    {"standard": "AC9E7LA02", "nodes": [2], "frame": "English: back up a judgement with evidence from the text and other sources."},
-    {"standard": "AC9E8LA04", "nodes": [1], "frame": "English: a paragraph that makes a claim and backs it with an example, evidence and explanation."},
-    {"standard": "AC9E8LY03", "nodes": [2], "frame": "English: evaluate how a text uses sources and quotations."},
-    {"standard": "AC9HE7S03", "nodes": [1], "frame": "Economics: what the data shows, a reasonable inference, or a claim that goes too far."},
-    {"standard": "AC9HC7K03", "nodes": [2], "frame": "Civics: burden of proof and evidence in court."},
-    {"standard": "AC9S7I06", "nodes": [3], "frame": "Science inquiry: check a claim for hidden assumptions and evidence that disagrees."},
-    {"standard": "AC9S8U03", "nodes": [6], "frame": "Science: several independent lines of evidence support plate tectonics."},
-    {"standard": "AC9S10U02", "nodes": [3], "frame": "Science: several independent lines of evidence support evolution."},
-    {"standard": "AC9S10U03", "nodes": [5], "frame": "Science: several independent lines of evidence support the big bang theory."},
-    {"standard": "AC9M6ST02", "nodes": [], "frame": "Maths statistics: critique statistical arguments in the media."},
-    {"standard": "AC9M10ST01", "nodes": [], "frame": "Maths statistics: critique statistical reports in the media."}
-   ]
+    {
+     "standard": "AC9HH7S04",
+     "nodes": [
+      1
+     ],
+     "role": "repeats",
+     "frame": "History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness."
+    },
+    {
+     "standard": "AC9HH7S03",
+     "nodes": [],
+     "role": "builds_on",
+     "frame": "History: who made the source, when and why."
+    },
+    {
+     "standard": "AC9HH7S07",
+     "nodes": [
+      1,
+      3
+     ],
+     "role": "builds_on",
+     "frame": "History: fact versus interpretation; building an argument from evidence."
+    },
+    {
+     "standard": "AC9E4LA02",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "first",
+     "frame": "English: fact or feeling? The language of opinion versus factual reporting."
+    },
+    {
+     "standard": "AC9E7LA02",
+     "nodes": [
+      2
+     ],
+     "role": "builds_on",
+     "frame": "English: back up a judgement with evidence from the text and other sources."
+    },
+    {
+     "standard": "AC9E8LA04",
+     "nodes": [
+      1
+     ],
+     "role": "builds_on",
+     "frame": "English: a paragraph that makes a claim and backs it with an example, evidence and explanation."
+    },
+    {
+     "standard": "AC9E8LY03",
+     "nodes": [
+      2
+     ],
+     "role": "repeats",
+     "frame": "English: evaluate how a text uses sources and quotations."
+    },
+    {
+     "standard": "AC9HE7S03",
+     "nodes": [
+      1
+     ],
+     "role": "applies",
+     "frame": "Economics: what the data shows, a reasonable inference, or a claim that goes too far."
+    },
+    {
+     "standard": "AC9HC7K03",
+     "nodes": [
+      2
+     ],
+     "role": "applies",
+     "frame": "Civics: burden of proof and evidence in court."
+    },
+    {
+     "standard": "AC9S7I06",
+     "nodes": [
+      3
+     ],
+     "role": "applies",
+     "frame": "Science inquiry: check a claim for hidden assumptions and evidence that disagrees."
+    },
+    {
+     "standard": "AC9S8U03",
+     "nodes": [
+      6
+     ],
+     "role": "applies",
+     "frame": "Science: several independent lines of evidence support plate tectonics."
+    },
+    {
+     "standard": "AC9S10U02",
+     "nodes": [
+      3
+     ],
+     "role": "applies",
+     "frame": "Science: several independent lines of evidence support evolution."
+    },
+    {
+     "standard": "AC9S10U03",
+     "nodes": [
+      5
+     ],
+     "role": "applies",
+     "frame": "Science: several independent lines of evidence support the big bang theory."
+    },
+    {
+     "standard": "AC9M6ST02",
+     "nodes": [],
+     "role": "builds_on",
+     "frame": "Maths statistics: critique statistical arguments in the media."
+    },
+    {
+     "standard": "AC9M10ST01",
+     "nodes": [],
+     "role": "builds_on",
+     "frame": "Maths statistics: critique statistical reports in the media."
+    }
+   ],
+   "kind": "skill"
   },
   {
    "id": "perspective-and-bias",
    "title": "Perspective and bias",
    "description": "Whose view a source or text gives, and how that view shapes what it says.",
    "members": [
-    {"standard": "AC9E6LA02", "nodes": [3], "frame": "English: identify bias in the language of a text."},
-    {"standard": "AC9HC7S03", "nodes": [1, 2], "frame": "Civics: identify perspectives in civic sources and explain why they differ."},
-    {"standard": "AC9HH7S06", "nodes": [1, 2, 3], "frame": "History: the perspective in a historical source, the values behind it, and who is missing."}
-   ]
+    {
+     "standard": "AC9E6LA02",
+     "nodes": [
+      3
+     ],
+     "role": "first",
+     "frame": "English: identify bias in the language of a text."
+    },
+    {
+     "standard": "AC9HC7S03",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "applies",
+     "frame": "Civics: identify perspectives in civic sources and explain why they differ."
+    },
+    {
+     "standard": "AC9HH7S06",
+     "nodes": [
+      1,
+      2,
+      3
+     ],
+     "role": "applies",
+     "frame": "History: the perspective in a historical source, the values behind it, and who is missing."
+    }
+   ],
+   "kind": "skill"
   },
   {
    "id": "idea-structures",
    "title": "Idea structures",
    "description": "Common ways of organising ideas: sorting into groups and subgroups, cause and effect, time order, problem and solution, compare and contrast. English names the structures; other subjects use them.",
    "members": [
-    {"standard": "AC9E7LY04", "nodes": [1], "frame": "English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology)."},
-    {"standard": "AC9E8LY04", "nodes": [1], "frame": "English: add problem and solution, and compare and contrast."},
-    {"standard": "AC9S7U01", "nodes": [1, 2], "frame": "Science: sort living things into groups and subgroups (a taxonomy)."},
-    {"standard": "AC9HH7S05", "nodes": [1, 2], "frame": "History: putting events in time order (chronology), and their causes and effects."},
-    {"standard": "AC9HE7S03", "nodes": [3], "frame": "Economics: cause-and-effect relationships in economic data."},
-    {"standard": "AC9HE7S04", "nodes": [], "frame": "Economics: respond to an issue by weighing costs and benefits (problem and solution)."},
-    {"standard": "AC9HG7K02", "nodes": [4], "frame": "Geography: strategies for water sustainability (problem and solution)."}
-   ]
+    {
+     "standard": "AC9E7LY04",
+     "nodes": [
+      1
+     ],
+     "role": "first",
+     "frame": "English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology)."
+    },
+    {
+     "standard": "AC9E8LY04",
+     "nodes": [
+      1
+     ],
+     "role": "builds_on",
+     "frame": "English: add problem and solution, and compare and contrast."
+    },
+    {
+     "standard": "AC9S7U01",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "applies",
+     "frame": "Science: sort living things into groups and subgroups (a taxonomy)."
+    },
+    {
+     "standard": "AC9HH7S05",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "applies",
+     "frame": "History: putting events in time order (chronology), and their causes and effects."
+    },
+    {
+     "standard": "AC9HE7S03",
+     "nodes": [
+      3
+     ],
+     "role": "applies",
+     "frame": "Economics: cause-and-effect relationships in economic data."
+    },
+    {
+     "standard": "AC9HE7S04",
+     "nodes": [],
+     "role": "applies",
+     "frame": "Economics: respond to an issue by weighing costs and benefits (problem and solution)."
+    },
+    {
+     "standard": "AC9HG7K02",
+     "nodes": [
+      4
+     ],
+     "role": "applies",
+     "frame": "Geography: strategies for water sustainability (problem and solution)."
+    }
+   ],
+   "kind": "skill"
   },
   {
    "id": "inquiry-questions",
    "title": "Inquiry questions",
    "description": "Asking a question you can actually answer by testing or researching. The four humanities subjects share one framing; science asks for investigable questions separately.",
    "members": [
-    {"standard": "AC9HC7S01", "nodes": [], "frame": "Civics: develop a civic inquiry question, often from current events."},
-    {"standard": "AC9HE7S01", "nodes": [], "frame": "Economics: what makes a question one you can research, using economics ideas."},
-    {"standard": "AC9HG7S01", "nodes": [], "frame": "Geography: ask a geographical question rather than a general one, and plan how to investigate it."},
-    {"standard": "AC9HH7S01", "nodes": [], "frame": "History: what makes a question historical, and its scope."},
-    {"standard": "AC9S7I01", "nodes": [1, 2], "frame": "Science: questions you can answer by testing (investigable) versus ones you can't."}
-   ]
+    {
+     "standard": "AC9HS6S01",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "first",
+     "frame": "HASS Year 6: develop questions that guide every stage of an inquiry."
+    },
+    {
+     "standard": "AC9HC7S01",
+     "nodes": [],
+     "role": "repeats",
+     "frame": "Civics: develop a civic inquiry question, often from current events."
+    },
+    {
+     "standard": "AC9HE7S01",
+     "nodes": [],
+     "role": "repeats",
+     "frame": "Economics: what makes a question one you can research, using economics ideas."
+    },
+    {
+     "standard": "AC9HG7S01",
+     "nodes": [],
+     "role": "repeats",
+     "frame": "Geography: ask a geographical question rather than a general one, and plan how to investigate it."
+    },
+    {
+     "standard": "AC9HH7S01",
+     "nodes": [],
+     "role": "repeats",
+     "frame": "History: what makes a question historical, and its scope."
+    },
+    {
+     "standard": "AC9S7I01",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "repeats",
+     "frame": "Science: questions you can answer by testing (investigable) versus ones you can't."
+    }
+   ],
+   "kind": "skill"
   },
   {
    "id": "searching-and-organising",
@@ -68,31 +283,568 @@
    "description": "Finding sources with a search strategy, choosing what's relevant, and organising it, including choosing a table or graph.",
    "outside_kit": "The ACARA Digital Literacy general capability teaches search and choosing a chart too; Kit has no node files for general capabilities.",
    "members": [
-    {"standard": "AC9HC7S02", "nodes": [2, 3], "frame": "Civics: locate information with search strategies, then select and organise it."},
-    {"standard": "AC9HE7S02", "nodes": [1, 2, 3], "frame": "Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format."},
-    {"standard": "AC9HG7S02", "nodes": [2, 3], "frame": "Geography: find secondary materials and represent data in geographical formats."},
-    {"standard": "AC9HH7S02", "nodes": [2, 3], "frame": "History: find sources in archives and collections with search strategies, then sort them for the inquiry."},
-    {"standard": "AC9M7ST02", "nodes": [], "frame": "Maths: tables and graphs, and what they show about how data is spread."},
-    {"standard": "AC9M9ST04", "nodes": [], "frame": "Maths: choose the right table or graph for the data and the purpose."}
-   ]
+    {
+     "standard": "AC9HS6S02",
+     "nodes": [
+      1,
+      2,
+      4
+     ],
+     "role": "first",
+     "frame": "HASS Year 6: choose ways to collect information, judge sources, and organise it."
+    },
+    {
+     "standard": "AC9HC7S02",
+     "nodes": [
+      2,
+      3
+     ],
+     "role": "repeats",
+     "frame": "Civics: locate information with search strategies, then select and organise it."
+    },
+    {
+     "standard": "AC9HE7S02",
+     "nodes": [
+      1,
+      2,
+      3
+     ],
+     "role": "repeats",
+     "frame": "Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format."
+    },
+    {
+     "standard": "AC9HG7S02",
+     "nodes": [
+      2,
+      3
+     ],
+     "role": "repeats",
+     "frame": "Geography: find secondary materials and represent data in geographical formats."
+    },
+    {
+     "standard": "AC9HH7S02",
+     "nodes": [
+      2,
+      3
+     ],
+     "role": "repeats",
+     "frame": "History: find sources in archives and collections with search strategies, then sort them for the inquiry."
+    },
+    {
+     "standard": "AC9M7ST02",
+     "nodes": [],
+     "role": "builds_on",
+     "frame": "Maths: tables and graphs, and what they show about how data is spread."
+    },
+    {
+     "standard": "AC9M9ST04",
+     "nodes": [],
+     "role": "builds_on",
+     "frame": "Maths: choose the right table or graph for the data and the purpose."
+    }
+   ],
+   "kind": "skill"
   },
   {
    "id": "classification",
    "title": "Classification",
    "description": "Sorting things into groups by their features: useful, with trade-offs, and open to change. All three members are in Year 7.",
    "members": [
-    {"standard": "AC9S7U01", "nodes": [1, 3, 4, 5], "frame": "Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time."},
-    {"standard": "AC9HG7K01", "nodes": [1], "frame": "Geography: classify resources as renewable, non-renewable or continuous."},
-    {"standard": "AC9M7SP04", "nodes": [], "frame": "Maths: step-by-step yes/no rules (algorithms) that sort shapes."}
-   ]
+    {
+     "standard": "AC9S7U01",
+     "nodes": [
+      1,
+      3,
+      4,
+      5
+     ],
+     "role": "first",
+     "frame": "Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time."
+    },
+    {
+     "standard": "AC9HG7K01",
+     "nodes": [
+      1
+     ],
+     "role": "applies",
+     "frame": "Geography: classify resources as renewable, non-renewable or continuous."
+    },
+    {
+     "standard": "AC9M7SP04",
+     "nodes": [],
+     "role": "applies",
+     "frame": "Maths: step-by-step yes/no rules (algorithms) that sort shapes."
+    }
+   ],
+   "kind": "skill"
   },
   {
    "id": "logic",
    "title": "Logic: and, or, not",
    "description": "The same three logical operations, taught in two subjects in the same year.",
    "members": [
-    {"standard": "AC9TDI8K04", "nodes": [3], "frame": "Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary."},
-    {"standard": "AC9M8P02", "nodes": [2], "frame": "Maths: \"and\", \"or\" and \"not\" for combined events in probability."}
+    {
+     "standard": "AC9TDI8K04",
+     "nodes": [
+      3
+     ],
+     "role": "repeats",
+     "frame": "Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary."
+    },
+    {
+     "standard": "AC9M8P02",
+     "nodes": [
+      2
+     ],
+     "role": "repeats",
+     "frame": "Maths: \"and\", \"or\" and \"not\" for combined events in probability."
+    }
+   ],
+   "kind": "skill"
+  },
+  {
+   "id": "water-cycle",
+   "title": "Water cycle",
+   "kind": "topic",
+   "description": "Evaporation, condensation and precipitation moving water around Earth. Taught in Year 4 science, then met again twice in Year 7.",
+   "members": [
+    {
+     "standard": "AC9S4U02",
+     "nodes": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "role": "first",
+     "frame": "Science: evaporation, condensation and precipitation as one continuous cycle."
+    },
+    {
+     "standard": "AC9S7U05",
+     "nodes": [
+      4
+     ],
+     "role": "builds_on",
+     "frame": "Science: explains evaporation and condensation with the particle model."
+    },
+    {
+     "standard": "AC9S7U06",
+     "nodes": [
+      3
+     ],
+     "role": "applies",
+     "frame": "Science: evaporation used to separate a mixture."
+    },
+    {
+     "standard": "AC9HG7K01",
+     "nodes": [
+      2
+     ],
+     "role": "repeats",
+     "frame": "Geography: how moving water connects places, re-teaching the cycle in the same year as science."
+    }
+   ]
+  },
+  {
+   "id": "erosion-and-deposition",
+   "title": "Weathering, erosion and deposition",
+   "kind": "topic",
+   "description": "Rock broken down, moved and laid down somewhere else. Science and Geography each teach it, Geography twice.",
+   "members": [
+    {
+     "standard": "AC9S5U02",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "first",
+     "frame": "Science: weathering breaks rock down; erosion, transport and deposition move it."
+    },
+    {
+     "standard": "AC9HG7K01",
+     "nodes": [
+      4
+     ],
+     "role": "repeats",
+     "frame": "Geography: moving water as a force that changes the landscape."
+    },
+    {
+     "standard": "AC9HH7K08",
+     "nodes": [
+      1
+     ],
+     "role": "applies",
+     "frame": "History: stratigraphy, layers laid down in order, used to date finds."
+    },
+    {
+     "standard": "AC9HG8K01",
+     "nodes": [
+      3,
+      4
+     ],
+     "role": "repeats",
+     "frame": "Geography: weathering, erosion, transport and deposition again, as landform processes."
+    },
+    {
+     "standard": "AC9S8U04",
+     "nodes": [
+      1
+     ],
+     "role": "builds_on",
+     "frame": "Science: deposited layers turn into sedimentary rock (lithification)."
+    }
+   ]
+  },
+  {
+   "id": "dating-and-deep-time",
+   "title": "Dating and deep time",
+   "kind": "topic",
+   "description": "How we know how old things are, and how long Earth's history is. History uses radiocarbon dating two years before science explains half-life.",
+   "members": [
+    {
+     "standard": "AC9HH7K01",
+     "nodes": [
+      3
+     ],
+     "role": "first",
+     "frame": "History: radiocarbon dating and other evidence for early human migration."
+    },
+    {
+     "standard": "AC9HH7K08",
+     "nodes": [
+      2
+     ],
+     "role": "repeats",
+     "frame": "History: dating techniques again, among the scientific methods historians use."
+    },
+    {
+     "standard": "AC9S8U04",
+     "nodes": [
+      4
+     ],
+     "role": "builds_on",
+     "frame": "Science: geological time, over millions of years."
+    },
+    {
+     "standard": "AC9S9U06",
+     "nodes": [
+      4
+     ],
+     "role": "builds_on",
+     "frame": "Science: half-life, the science behind radiocarbon dating."
+    }
+   ]
+  },
+  {
+   "id": "human-evolution",
+   "title": "Human evolution",
+   "kind": "topic",
+   "description": "Where humans came from. History meets the theories in Year 7; science explains the mechanism in Year 10.",
+   "members": [
+    {
+     "standard": "AC9HH7K01",
+     "nodes": [
+      1
+     ],
+     "role": "first",
+     "frame": "History: theories of human evolution and the evidence for them."
+    },
+    {
+     "standard": "AC9S10U02",
+     "nodes": [
+      2,
+      3,
+      4
+     ],
+     "role": "builds_on",
+     "frame": "Science: natural selection as the mechanism, with several lines of evidence."
+    }
+   ]
+  },
+  {
+   "id": "rates",
+   "title": "Rates",
+   "kind": "topic",
+   "description": "One quantity per unit of another. Maths teaches it in Year 8, but science uses it in Year 7 (density).",
+   "members": [
+    {
+     "standard": "AC9S7U05",
+     "nodes": [
+      3
+     ],
+     "role": "first",
+     "frame": "Science: density, mass per unit of volume, a year before maths teaches rates."
+    },
+    {
+     "standard": "AC9M8M05",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "builds_on",
+     "frame": "Maths: rates as comparisons of different units, in practical problems."
+    },
+    {
+     "standard": "AC9TDI8K01",
+     "nodes": [
+      2
+     ],
+     "role": "applies",
+     "frame": "Digital Technologies: speeds in hardware specifications (GHz, Mbps)."
+    },
+    {
+     "standard": "AC9TDI8K02",
+     "nodes": [
+      1
+     ],
+     "role": "applies",
+     "frame": "Digital Technologies: bandwidth, data per second."
+    },
+    {
+     "standard": "AC9TDI8K03",
+     "nodes": [
+      4
+     ],
+     "role": "applies",
+     "frame": "Digital Technologies: sampling rate, samples per second."
+    },
+    {
+     "standard": "AC9S10U05",
+     "nodes": [
+      3
+     ],
+     "role": "applies",
+     "frame": "Science: acceleration, change in velocity per second."
+    },
+    {
+     "standard": "AC9S10U07",
+     "nodes": [
+      5,
+      6
+     ],
+     "role": "applies",
+     "frame": "Science: reaction rate."
+    }
+   ]
+  },
+  {
+   "id": "line-graphs-over-time",
+   "title": "Line graphs over time",
+   "kind": "topic",
+   "description": "Reading how something changes over time on a line graph. Maths teaches it in Year 5; six standards in other subjects use it.",
+   "members": [
+    {
+     "standard": "AC9M5ST02",
+     "nodes": [
+      1,
+      2,
+      3
+     ],
+     "role": "first",
+     "frame": "Maths: read and interpret line graphs, including change over time."
+    },
+    {
+     "standard": "AC9M7A04",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "builds_on",
+     "frame": "Maths: relationships shown in graphs of real data."
+    },
+    {
+     "standard": "AC9S7U02",
+     "nodes": [
+      3,
+      4
+     ],
+     "role": "applies",
+     "frame": "Science: population changes in a food web."
+    },
+    {
+     "standard": "AC9S7U05",
+     "nodes": [
+      4
+     ],
+     "role": "applies",
+     "frame": "Science: a heating curve."
+    },
+    {
+     "standard": "AC9HG7K02",
+     "nodes": [
+      2
+     ],
+     "role": "applies",
+     "frame": "Geography: rainfall over time on climate graphs."
+    },
+    {
+     "standard": "AC9HE7S03",
+     "nodes": [
+      2
+     ],
+     "role": "applies",
+     "frame": "Economics: trends in economic data."
+    },
+    {
+     "standard": "AC9HC7K04",
+     "nodes": [
+      4
+     ],
+     "role": "applies",
+     "frame": "Civics: trends in Australia's diversity data."
+    },
+    {
+     "standard": "AC9S10U04",
+     "nodes": [
+      5
+     ],
+     "role": "applies",
+     "frame": "Science: indicators of climate change."
+    }
+   ]
+  },
+  {
+   "id": "percentages",
+   "title": "Percentages",
+   "kind": "topic",
+   "description": "A percentage of a quantity. Maths teaches it in Years 6 to 8; most other subjects use it.",
+   "members": [
+    {
+     "standard": "AC9M6N07",
+     "nodes": [
+      2
+     ],
+     "role": "first",
+     "frame": "Maths: find a percentage of a quantity."
+    },
+    {
+     "standard": "AC9M7N06",
+     "nodes": [
+      3
+     ],
+     "role": "builds_on",
+     "frame": "Maths: calculations with percentages."
+    },
+    {
+     "standard": "AC9M8N05",
+     "nodes": [
+      1,
+      2
+     ],
+     "role": "builds_on",
+     "frame": "Maths: percentage increase and decrease in real contexts."
+    },
+    {
+     "standard": "AC9S7U02",
+     "nodes": [
+      2
+     ],
+     "role": "applies",
+     "frame": "Science: about 10% of energy passes to the next level of a food web."
+    },
+    {
+     "standard": "AC9HC7K04",
+     "nodes": [
+      4
+     ],
+     "role": "applies",
+     "frame": "Civics: percentages of the population in diversity data."
+    },
+    {
+     "standard": "AC9HE7K05",
+     "nodes": [
+      4
+     ],
+     "role": "applies",
+     "frame": "Economics: budgeting."
+    },
+    {
+     "standard": "AC9S9U05",
+     "nodes": [
+      2
+     ],
+     "role": "applies",
+     "frame": "Science: efficiency as a percentage."
+    },
+    {
+     "standard": "AC9TDI10K03",
+     "nodes": [
+      1
+     ],
+     "role": "applies",
+     "frame": "Digital Technologies: how much compression saves."
+    }
+   ]
+  },
+  {
+   "id": "plate-tectonics-and-landforms",
+   "title": "Plate tectonics and landforms",
+   "kind": "topic",
+   "description": "Forces inside Earth that build landforms and cause hazards. Science and Geography both teach it in Year 8.",
+   "members": [
+    {
+     "standard": "AC9S8U03",
+     "nodes": [
+      1,
+      2,
+      3,
+      4,
+      5
+     ],
+     "role": "first",
+     "frame": "Science: Earth's layers, plates and what happens at their boundaries."
+    },
+    {
+     "standard": "AC9HG8K01",
+     "nodes": [
+      2
+     ],
+     "role": "repeats",
+     "frame": "Geography: endogenic processes (forces from inside Earth) that build landforms, in the same year as science."
+    },
+    {
+     "standard": "AC9HG8K05",
+     "nodes": [
+      1
+     ],
+     "role": "applies",
+     "frame": "Geography: volcanoes and earthquakes as hazards for people."
+    }
+   ]
+  },
+  {
+   "id": "environmental-change",
+   "title": "Climate and environmental change",
+   "kind": "topic",
+   "description": "How human activity changes environments, and what to do about it. Science and Geography both teach it in Year 10.",
+   "members": [
+    {
+     "standard": "AC9S10U04",
+     "nodes": [
+      4,
+      5,
+      6
+     ],
+     "role": "first",
+     "frame": "Science: how greenhouse gases change Earth's energy balance, the evidence, and responses."
+    },
+    {
+     "standard": "AC9HG10K01",
+     "nodes": [
+      1
+     ],
+     "role": "repeats",
+     "frame": "Geography: types of human-induced environmental change, in the same year as science."
+    },
+    {
+     "standard": "AC9HG10K04",
+     "nodes": [
+      1,
+      3
+     ],
+     "role": "applies",
+     "frame": "Geography: causes of an environmental change and strategies to manage it."
+    }
    ]
   }
  ]

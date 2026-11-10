@@ -21,6 +21,7 @@ DATA = os.path.join(ROOT, "data")
 RELATIONSHIPS = {"prerequisite", "application", "background"}
 OVERLAPS = {"reinforce", "share", "open"}
 TIMINGS = {"earlier", "same_year", "later"}
+ROLES = {"first", "builds_on", "applies", "repeats"}
 LINK_FIELDS = {"standard", "nodes", "links_to", "links_to_nodes", "relationship", "overlap",
                "shared_foundation", "wording_watch", "timing", "thread", "note"}
 
@@ -106,6 +107,11 @@ def main():
 
     ids = set()
     for th in threads:
+        if th.get("kind") not in {"skill", "topic"}:
+            problems.append(f"thread {th['id']}: kind must be 'skill' or 'topic'")
+        for m in th["members"]:
+            if m.get("role") not in ROLES:
+                problems.append(f"thread {th['id']} {m['standard']}: role must be one of {sorted(ROLES)}")
         if th["id"] in ids:
             problems.append(f"thread {th['id']}: listed twice")
         ids.add(th["id"])

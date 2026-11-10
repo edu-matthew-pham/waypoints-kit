@@ -84,9 +84,9 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 7-8 | AC9TDE8P03 | Justify production choices | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_design_AC9TDE8P03.json |
 | 7-8 | AC9TDE8P04 | Develop criteria collaboratively | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_design_AC9TDE8P04.json |
 | 7-8 | AC9TDE8P05 | Manage time, cost and production | 6 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_design_AC9TDE8P05.json |
-| 7-8 | AC9TDI8K01 | Hardware specifications and performance | 3 | [2](cross-subject.md#ac9tdi8k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K01.json |
-| 7-8 | AC9TDI8K02 | Wired and wireless networks | 5 | [1](cross-subject.md#ac9tdi8k02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K02.json |
-| 7-8 | AC9TDI8K03 | Representing text, image and audio | 4 | [4](cross-subject.md#ac9tdi8k03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K03.json |
+| 7-8 | AC9TDI8K01 | Hardware specifications and performance | 3 | [3](cross-subject.md#ac9tdi8k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K01.json |
+| 7-8 | AC9TDI8K02 | Wired and wireless networks | 5 | [2](cross-subject.md#ac9tdi8k02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K02.json |
+| 7-8 | AC9TDI8K03 | Representing text, image and audio | 4 | [5](cross-subject.md#ac9tdi8k03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K03.json |
 | 7-8 | AC9TDI8K04 | Integer representation in binary | 4 | [5](cross-subject.md#ac9tdi8k04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8K04.json |
 | 7-8 | AC9TDI8P01 | Acquire and validate data | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8P01.json |
 | 7-8 | AC9TDI8P02 | Analyse and visualise data | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y78_dt_AC9TDI8P02.json |
@@ -115,7 +115,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 9-10 | AC9TDE10P05 | Develop project plans for time, cost, risk and production | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_design_AC9TDE10P05.json |
 | 9-10 | AC9TDI10K01 | Managing and securing networked systems | 5 | [2](cross-subject.md#ac9tdi10k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10K01.json |
 | 9-10 | AC9TDI10K02 | Content, structure and presentation separation | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10K02.json |
-| 9-10 | AC9TDI10K03 | Data compression techniques | 3 | [2](cross-subject.md#ac9tdi10k03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10K03.json |
+| 9-10 | AC9TDI10K03 | Data compression techniques | 3 | [3](cross-subject.md#ac9tdi10k03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10K03.json |
 | 9-10 | AC9TDI10P01 | Acquire, store and validate data | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10P01.json |
 | 9-10 | AC9TDI10P02 | Analyse and visualise data | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10P02.json |
 | 9-10 | AC9TDI10P03 | Model and query entities and relationships | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/technologies/y910_dt_AC9TDI10P03.json |

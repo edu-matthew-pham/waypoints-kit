@@ -119,7 +119,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 5 | AC9M5SP02 | Grid coordinate system | 3 | [1](cross-subject.md#ac9m5sp02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y5_maths_AC9M5SP02.json |
 | 5 | AC9M5SP03 | Transformations of shapes | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y5_maths_AC9M5SP03.json |
 | 5 | AC9M5ST01 | Nominal and ordinal data | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y5_maths_AC9M5ST01.json |
-| 5 | AC9M5ST02 | Interpret line graphs | 3 | [6](cross-subject.md#ac9m5st02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y5_maths_AC9M5ST02.json |
+| 5 | AC9M5ST02 | Interpret line graphs | 3 | [7](cross-subject.md#ac9m5st02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y5_maths_AC9M5ST02.json |
 | 5 | AC9M5ST03 | Plan statistical investigations | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y5_maths_AC9M5ST03.json |
 | 6 | AC9M6A01 | Growing patterns with rational numbers | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6a01.json |
 | 6 | AC9M6A02 | Unknown values with brackets | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6a02.json |
@@ -134,7 +134,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 6 | AC9M6N04 | Add and subtract decimals | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n04.json |
 | 6 | AC9M6N05 | Add and subtract fractions | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n05.json |
 | 6 | AC9M6N06 | Multiply and divide decimals | 3 | [1](cross-subject.md#ac9m6n06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n06.json |
-| 6 | AC9M6N07 | Fractions, decimals and percentages | 3 | [2](cross-subject.md#ac9m6n07) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n07.json |
+| 6 | AC9M6N07 | Fractions, decimals and percentages | 3 | [3](cross-subject.md#ac9m6n07) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n07.json |
 | 6 | AC9M6N08 | Approximate with rational numbers | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n08.json |
 | 6 | AC9M6N09 | Model with rational numbers | 3 | [1](cross-subject.md#ac9m6n09) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6n09.json |
 | 6 | AC9M6P01 | Probability scale 0 to 1 | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y6_maths_ac9m6p01.json |
@@ -148,7 +148,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 7 | AC9M7A01 | Variables and Formulas | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A01.json |
 | 7 | AC9M7A02 | Formulating Algebraic Expressions | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A02.json |
 | 7 | AC9M7A03 | Solving One-Variable Linear Equations | 3 | [1](cross-subject.md#ac9m7a03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A03.json |
-| 7 | AC9M7A04 | Relationships in Graphs | 2 | [2](cross-subject.md#ac9m7a04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A04.json |
+| 7 | AC9M7A04 | Relationships in Graphs | 2 | [3](cross-subject.md#ac9m7a04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A04.json |
 | 7 | AC9M7A05 | Tables of Values and Graphing | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A05.json |
 | 7 | AC9M7A06 | Manipulating Formulas with Digital Tools | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7A06.json |
 | 7 | AC9M7M01 | Area of Triangles and Parallelograms | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7M01.json |
@@ -162,7 +162,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 7 | AC9M7N03 | Expanded Notation and Powers of 10 | 2 | [5](cross-subject.md#ac9m7n03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N03.json |
 | 7 | AC9M7N04 | Equivalent Representations of Rational Numbers | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N04.json |
 | 7 | AC9M7N05 | Rounding and Estimation | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N05.json |
-| 7 | AC9M7N06 | Four Operations with Rational Numbers | 4 | [5](cross-subject.md#ac9m7n06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N06.json |
+| 7 | AC9M7N06 | Four Operations with Rational Numbers | 4 | [6](cross-subject.md#ac9m7n06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N06.json |
 | 7 | AC9M7N07 | Integers: Compare, Order, Add and Subtract | 2 | [4](cross-subject.md#ac9m7n07) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N07.json |
 | 7 | AC9M7N08 | Ratios | 3 | [5](cross-subject.md#ac9m7n08) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N08.json |
 | 7 | AC9M7N09 | Mathematical Modelling with Rational Numbers | 3 | [1](cross-subject.md#ac9m7n09) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y7_mathematics_AC9M7N09.json |
@@ -183,14 +183,14 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 8 | AC9M8M02 | Volume and Capacity of Right Prisms | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M02.json |
 | 8 | AC9M8M03 | Circumference and Area of Circles | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M03.json |
 | 8 | AC9M8M04 | Duration and Time Zones | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M04.json |
-| 8 | AC9M8M05 | Rates | 2 | [6](cross-subject.md#ac9m8m05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M05.json |
+| 8 | AC9M8M05 | Rates | 2 | [7](cross-subject.md#ac9m8m05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M05.json |
 | 8 | AC9M8M06 | Pythagoras' Theorem | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M06.json |
 | 8 | AC9M8M07 | Modelling with Ratios and Rates | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8M07.json |
 | 8 | AC9M8N01 | Irrational Numbers | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8N01.json |
 | 8 | AC9M8N02 | Exponent Laws | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8N02.json |
 | 8 | AC9M8N03 | Terminating and Recurring Decimals | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8N03.json |
 | 8 | AC9M8N04 | Four Operations with Integers and Rationals | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8N04.json |
-| 8 | AC9M8N05 | Mathematical Modelling with Percentages | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8N05.json |
+| 8 | AC9M8N05 | Mathematical Modelling with Percentages | 2 | [1](cross-subject.md#ac9m8n05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8N05.json |
 | 8 | AC9M8P01 | Complementary Events | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8P01.json |
 | 8 | AC9M8P02 | Combinations for Two Events | 2 | [3](cross-subject.md#ac9m8p02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8P02.json |
 | 8 | AC9M8P03 | Simulations of Compound Events | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/maths/y8_mathematics_AC9M8P03.json |

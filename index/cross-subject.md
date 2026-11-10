@@ -6,85 +6,178 @@ Timing compares the other standard's year with this one's: earlier, same year or
 
 ## Threads
 
-### Evidence and claims
+Skill threads are ways of thinking each subject uses its own way; topic threads are content taught in more than one place. Roles: First (where students first meet it), Builds on (goes deeper), Applies (uses it in its own context), Repeats (teaches it again at about the same level, often the same year: worth coordinating).
+
+### Water cycle (topic)
+
+<a id="water-cycle"></a>Evaporation, condensation and precipitation moving water around Earth. Taught in Year 4 science, then met again twice in Year 7.
+
+- First: AC9S4U02 node 2, 3, 4, 5 Water Cycle (science, Year 4). Science: evaporation, condensation and precipitation as one continuous cycle.
+- Builds on: AC9S7U05 node 4 Particle Theory and Properties (science, Year 7). Science: explains evaporation and condensation with the particle model.
+- Applies: AC9S7U06 node 3 Pure Substances and Mixtures (science, Year 7). Science: evaporation used to separate a mixture.
+- Repeats: AC9HG7K01 node 2 Water as an environmental resource (geography, Year 7). Geography: how moving water connects places, re-teaching the cycle in the same year as science.
+
+### Weathering, erosion and deposition (topic)
+
+<a id="erosion-and-deposition"></a>Rock broken down, moved and laid down somewhere else. Science and Geography each teach it, Geography twice.
+
+- First: AC9S5U02 node 1, 2 Weathering, Erosion, Transportation and Deposition (science, Year 5). Science: weathering breaks rock down; erosion, transport and deposition move it.
+- Repeats: AC9HG7K01 node 4 Water as an environmental resource (geography, Year 7). Geography: moving water as a force that changes the landscape.
+- Applies: AC9HH7K08 node 1 Historical and archaeological evidence (history, Year 7). History: stratigraphy, layers laid down in order, used to date finds.
+- Repeats: AC9HG8K01 node 3, 4 Geomorphological processes (geography, Year 8). Geography: weathering, erosion, transport and deposition again, as landform processes.
+- Builds on: AC9S8U04 node 1 Rock Cycle (science, Year 8). Science: deposited layers turn into sedimentary rock (lithification).
+
+### Dating and deep time (topic)
+
+<a id="dating-and-deep-time"></a>How we know how old things are, and how long Earth's history is. History uses radiocarbon dating two years before science explains half-life.
+
+- First: AC9HH7K01 node 3 Early human migration (history, Year 7). History: radiocarbon dating and other evidence for early human migration.
+- Repeats: AC9HH7K08 node 2 Historical and archaeological evidence (history, Year 7). History: dating techniques again, among the scientific methods historians use.
+- Builds on: AC9S8U04 node 4 Rock Cycle (science, Year 8). Science: geological time, over millions of years.
+- Builds on: AC9S9U06 node 4 Atomic Model and Radioactive Decay (science, Year 9). Science: half-life, the science behind radiocarbon dating.
+
+### Human evolution (topic)
+
+<a id="human-evolution"></a>Where humans came from. History meets the theories in Year 7; science explains the mechanism in Year 10.
+
+- First: AC9HH7K01 node 1 Early human migration (history, Year 7). History: theories of human evolution and the evidence for them.
+- Builds on: AC9S10U02 node 2, 3, 4 Evolution by Natural Selection (science, Year 10). Science: natural selection as the mechanism, with several lines of evidence.
+
+### Rates (topic)
+
+<a id="rates"></a>One quantity per unit of another. Maths teaches it in Year 8, but science uses it in Year 7 (density).
+
+- First: AC9S7U05 node 3 Particle Theory and Properties (science, Year 7). Science: density, mass per unit of volume, a year before maths teaches rates.
+- Builds on: AC9M8M05 node 1, 2 Rates (maths, Year 8). Maths: rates as comparisons of different units, in practical problems.
+- Applies: AC9TDI8K01 node 2 Hardware specifications and performance (technologies, Year 7-8). Digital Technologies: speeds in hardware specifications (GHz, Mbps).
+- Applies: AC9TDI8K02 node 1 Wired and wireless networks (technologies, Year 7-8). Digital Technologies: bandwidth, data per second.
+- Applies: AC9TDI8K03 node 4 Representing text, image and audio (technologies, Year 7-8). Digital Technologies: sampling rate, samples per second.
+- Applies: AC9S10U05 node 3 Newton's Laws of Motion (science, Year 10). Science: acceleration, change in velocity per second.
+- Applies: AC9S10U07 node 5, 6 Reaction Types and Rates (science, Year 10). Science: reaction rate.
+
+### Line graphs over time (topic)
+
+<a id="line-graphs-over-time"></a>Reading how something changes over time on a line graph. Maths teaches it in Year 5; six standards in other subjects use it.
+
+- First: AC9M5ST02 node 1, 2, 3 Interpret line graphs (maths, Year 5). Maths: read and interpret line graphs, including change over time.
+- Builds on: AC9M7A04 node 1, 2 Relationships in Graphs (maths, Year 7). Maths: relationships shown in graphs of real data.
+- Applies: AC9S7U02 node 3, 4 Food Webs and Ecosystems (science, Year 7). Science: population changes in a food web.
+- Applies: AC9S7U05 node 4 Particle Theory and Properties (science, Year 7). Science: a heating curve.
+- Applies: AC9HG7K02 node 2 Water distribution and sustainability (geography, Year 7). Geography: rainfall over time on climate graphs.
+- Applies: AC9HE7S03 node 2 Interpret Information and Data (economics, Year 7). Economics: trends in economic data.
+- Applies: AC9HC7K04 node 4 Secular Democracy and Pluralist Society (civics, Year 7). Civics: trends in Australia's diversity data.
+- Applies: AC9S10U04 node 5 Global Climate Change (science, Year 10). Science: indicators of climate change.
+
+### Percentages (topic)
+
+<a id="percentages"></a>A percentage of a quantity. Maths teaches it in Years 6 to 8; most other subjects use it.
+
+- First: AC9M6N07 node 2 Fractions, decimals and percentages (maths, Year 6). Maths: find a percentage of a quantity.
+- Builds on: AC9M7N06 node 3 Four Operations with Rational Numbers (maths, Year 7). Maths: calculations with percentages.
+- Builds on: AC9M8N05 node 1, 2 Mathematical Modelling with Percentages (maths, Year 8). Maths: percentage increase and decrease in real contexts.
+- Applies: AC9S7U02 node 2 Food Webs and Ecosystems (science, Year 7). Science: about 10% of energy passes to the next level of a food web.
+- Applies: AC9HC7K04 node 4 Secular Democracy and Pluralist Society (civics, Year 7). Civics: percentages of the population in diversity data.
+- Applies: AC9HE7K05 node 4 Consumer and Financial Rights and Responsibilities (economics, Year 7). Economics: budgeting.
+- Applies: AC9S9U05 node 2 Conservation of Energy and Efficiency (science, Year 9). Science: efficiency as a percentage.
+- Applies: AC9TDI10K03 node 1 Data compression techniques (technologies, Year 9-10). Digital Technologies: how much compression saves.
+
+### Plate tectonics and landforms (topic)
+
+<a id="plate-tectonics-and-landforms"></a>Forces inside Earth that build landforms and cause hazards. Science and Geography both teach it in Year 8.
+
+- First: AC9S8U03 node 1, 2, 3, 4, 5 Plate Tectonics (science, Year 8). Science: Earth's layers, plates and what happens at their boundaries.
+- Repeats: AC9HG8K01 node 2 Geomorphological processes (geography, Year 8). Geography: endogenic processes (forces from inside Earth) that build landforms, in the same year as science.
+- Applies: AC9HG8K05 node 1 Geomorphological hazards (geography, Year 8). Geography: volcanoes and earthquakes as hazards for people.
+
+### Climate and environmental change (topic)
+
+<a id="environmental-change"></a>How human activity changes environments, and what to do about it. Science and Geography both teach it in Year 10.
+
+- First: AC9S10U04 node 4, 5, 6 Global Climate Change (science, Year 10). Science: how greenhouse gases change Earth's energy balance, the evidence, and responses.
+- Repeats: AC9HG10K01 node 1 Human-induced changes and sustainability (geography, Year 10). Geography: types of human-induced environmental change, in the same year as science.
+- Applies: AC9HG10K04 node 1, 3 Environmental change: causes, effects and management strategies (geography, Year 10). Geography: causes of an environmental change and strategies to manage it.
+
+### Evidence and claims (skill)
 
 <a id="evidence-and-claims"></a>Telling a claim from evidence for it: fact or opinion, who says so and how they know, how far the evidence goes, and whether several independent lines support it. The biggest overlap across subjects; fact versus opinion alone is taught in four places.
 
-- AC9HH7S04 node 1 Describe source usefulness (history, Year 7): History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness.
-- AC9HH7S03 Identify source origin and purpose (history, Year 7): History: who made the source, when and why.
-- AC9HH7S07 node 1, 3 Explain historical interpretations (history, Year 7): History: fact versus interpretation; building an argument from evidence.
-- AC9E4LA02 node 1, 2 Subjective and objective language (english, Year 4): English: fact or feeling? The language of opinion versus factual reporting.
-- AC9E7LA02 node 2 Evaluative language and substantiation (english, Year 7): English: back up a judgement with evidence from the text and other sources.
-- AC9E8LA04 node 1 Cohesion through paragraph structure (english, Year 8): English: a paragraph that makes a claim and backs it with an example, evidence and explanation.
-- AC9E8LY03 node 2 Analyse and evaluate language features and sources (english, Year 8): English: evaluate how a text uses sources and quotations.
-- AC9HE7S03 node 1 Interpret Information and Data (economics, Year 7): Economics: what the data shows, a reasonable inference, or a claim that goes too far.
-- AC9HC7K03 node 2 The Australian Legal System (civics, Year 7): Civics: burden of proof and evidence in court.
-- AC9S7I06 node 3 Analyse methods and claims (science, Year 7-8): Science inquiry: check a claim for hidden assumptions and evidence that disagrees.
-- AC9S8U03 node 6 Plate Tectonics (science, Year 8): Science: several independent lines of evidence support plate tectonics.
-- AC9S10U02 node 3 Evolution by Natural Selection (science, Year 10): Science: several independent lines of evidence support evolution.
-- AC9S10U03 node 5 Big Bang Theory (science, Year 10): Science: several independent lines of evidence support the big bang theory.
-- AC9M6ST02 Critique statistical arguments (maths, Year 6): Maths statistics: critique statistical arguments in the media.
-- AC9M10ST01 Critique statistical reports (maths, Year 10): Maths statistics: critique statistical reports in the media.
+- Repeats: AC9HH7S04 node 1 Describe source usefulness (history, Year 7). History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness.
+- Builds on: AC9HH7S03 Identify source origin and purpose (history, Year 7). History: who made the source, when and why.
+- Builds on: AC9HH7S07 node 1, 3 Explain historical interpretations (history, Year 7). History: fact versus interpretation; building an argument from evidence.
+- First: AC9E4LA02 node 1, 2 Subjective and objective language (english, Year 4). English: fact or feeling? The language of opinion versus factual reporting.
+- Builds on: AC9E7LA02 node 2 Evaluative language and substantiation (english, Year 7). English: back up a judgement with evidence from the text and other sources.
+- Builds on: AC9E8LA04 node 1 Cohesion through paragraph structure (english, Year 8). English: a paragraph that makes a claim and backs it with an example, evidence and explanation.
+- Repeats: AC9E8LY03 node 2 Analyse and evaluate language features and sources (english, Year 8). English: evaluate how a text uses sources and quotations.
+- Applies: AC9HE7S03 node 1 Interpret Information and Data (economics, Year 7). Economics: what the data shows, a reasonable inference, or a claim that goes too far.
+- Applies: AC9HC7K03 node 2 The Australian Legal System (civics, Year 7). Civics: burden of proof and evidence in court.
+- Applies: AC9S7I06 node 3 Analyse methods and claims (science, Year 7-8). Science inquiry: check a claim for hidden assumptions and evidence that disagrees.
+- Applies: AC9S8U03 node 6 Plate Tectonics (science, Year 8). Science: several independent lines of evidence support plate tectonics.
+- Applies: AC9S10U02 node 3 Evolution by Natural Selection (science, Year 10). Science: several independent lines of evidence support evolution.
+- Applies: AC9S10U03 node 5 Big Bang Theory (science, Year 10). Science: several independent lines of evidence support the big bang theory.
+- Builds on: AC9M6ST02 Critique statistical arguments (maths, Year 6). Maths statistics: critique statistical arguments in the media.
+- Builds on: AC9M10ST01 Critique statistical reports (maths, Year 10). Maths statistics: critique statistical reports in the media.
 
 The ACARA Digital Literacy general capability (investigating information) teaches it too; Kit has no node files for general capabilities.
 
-### Perspective and bias
+### Perspective and bias (skill)
 
 <a id="perspective-and-bias"></a>Whose view a source or text gives, and how that view shapes what it says.
 
-- AC9E6LA02 node 3 Objective and subjective language; bias (english, Year 6): English: identify bias in the language of a text.
-- AC9HC7S03 node 1, 2 Analysing Information and Perspectives (civics, Year 7): Civics: identify perspectives in civic sources and explain why they differ.
-- AC9HH7S06 node 1, 2, 3 Identify past perspectives (history, Year 7): History: the perspective in a historical source, the values behind it, and who is missing.
+- First: AC9E6LA02 node 3 Objective and subjective language; bias (english, Year 6). English: identify bias in the language of a text.
+- Applies: AC9HC7S03 node 1, 2 Analysing Information and Perspectives (civics, Year 7). Civics: identify perspectives in civic sources and explain why they differ.
+- Applies: AC9HH7S06 node 1, 2, 3 Identify past perspectives (history, Year 7). History: the perspective in a historical source, the values behind it, and who is missing.
 
-### Idea structures
+### Idea structures (skill)
 
 <a id="idea-structures"></a>Common ways of organising ideas: sorting into groups and subgroups, cause and effect, time order, problem and solution, compare and contrast. English names the structures; other subjects use them.
 
-- AC9E7LY04 node 1 Explain idea structures in texts (english, Year 7): English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology).
-- AC9E8LY04 node 1 How authors organise ideas (english, Year 8): English: add problem and solution, and compare and contrast.
-- AC9S7U01 node 1, 2 Classification and Biodiversity (science, Year 7): Science: sort living things into groups and subgroups (a taxonomy).
-- AC9HH7S05 node 1, 2 Describe cause and continuity (history, Year 7): History: putting events in time order (chronology), and their causes and effects.
-- AC9HE7S03 node 3 Interpret Information and Data (economics, Year 7): Economics: cause-and-effect relationships in economic data.
-- AC9HE7S04 Develop a Response to an Economic Issue (economics, Year 7): Economics: respond to an issue by weighing costs and benefits (problem and solution).
-- AC9HG7K02 node 4 Water distribution and sustainability (geography, Year 7): Geography: strategies for water sustainability (problem and solution).
+- First: AC9E7LY04 node 1 Explain idea structures in texts (english, Year 7). English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology).
+- Builds on: AC9E8LY04 node 1 How authors organise ideas (english, Year 8). English: add problem and solution, and compare and contrast.
+- Applies: AC9S7U01 node 1, 2 Classification and Biodiversity (science, Year 7). Science: sort living things into groups and subgroups (a taxonomy).
+- Applies: AC9HH7S05 node 1, 2 Describe cause and continuity (history, Year 7). History: putting events in time order (chronology), and their causes and effects.
+- Applies: AC9HE7S03 node 3 Interpret Information and Data (economics, Year 7). Economics: cause-and-effect relationships in economic data.
+- Applies: AC9HE7S04 Develop a Response to an Economic Issue (economics, Year 7). Economics: respond to an issue by weighing costs and benefits (problem and solution).
+- Applies: AC9HG7K02 node 4 Water distribution and sustainability (geography, Year 7). Geography: strategies for water sustainability (problem and solution).
 
-### Inquiry questions
+### Inquiry questions (skill)
 
 <a id="inquiry-questions"></a>Asking a question you can actually answer by testing or researching. The four humanities subjects share one framing; science asks for investigable questions separately.
 
-- AC9HC7S01 Developing Inquiry Questions (civics, Year 7): Civics: develop a civic inquiry question, often from current events.
-- AC9HE7S01 Develop Inquiry Questions (economics, Year 7): Economics: what makes a question one you can research, using economics ideas.
-- AC9HG7S01 Develop geographical inquiry questions (geography, Year 7): Geography: ask a geographical question rather than a general one, and plan how to investigate it.
-- AC9HH7S01 Develop historical questions (history, Year 7): History: what makes a question historical, and its scope.
-- AC9S7I01 node 1, 2 Explore models and test relationships (science, Year 7-8): Science: questions you can answer by testing (investigable) versus ones you can't.
+- First: AC9HS6S01 node 1, 2 Develop questions about systems (hass, Year 6). HASS Year 6: develop questions that guide every stage of an inquiry.
+- Repeats: AC9HC7S01 Developing Inquiry Questions (civics, Year 7). Civics: develop a civic inquiry question, often from current events.
+- Repeats: AC9HE7S01 Develop Inquiry Questions (economics, Year 7). Economics: what makes a question one you can research, using economics ideas.
+- Repeats: AC9HG7S01 Develop geographical inquiry questions (geography, Year 7). Geography: ask a geographical question rather than a general one, and plan how to investigate it.
+- Repeats: AC9HH7S01 Develop historical questions (history, Year 7). History: what makes a question historical, and its scope.
+- Repeats: AC9S7I01 node 1, 2 Explore models and test relationships (science, Year 7-8). Science: questions you can answer by testing (investigable) versus ones you can't.
 
-### Searching and organising information
+### Searching and organising information (skill)
 
 <a id="searching-and-organising"></a>Finding sources with a search strategy, choosing what's relevant, and organising it, including choosing a table or graph.
 
-- AC9HC7S02 node 2, 3 Locating and Organising Information (civics, Year 7): Civics: locate information with search strategies, then select and organise it.
-- AC9HE7S02 node 1, 2, 3 Locate and Organise Information (economics, Year 7): Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format.
-- AC9HG7S02 node 2, 3 Collect, organise and represent geographical data (geography, Year 7): Geography: find secondary materials and represent data in geographical formats.
-- AC9HH7S02 node 2, 3 Locate primary and secondary sources (history, Year 7): History: find sources in archives and collections with search strategies, then sort them for the inquiry.
-- AC9M7ST02 Data Displays and Distribution (maths, Year 7): Maths: tables and graphs, and what they show about how data is spread.
-- AC9M9ST04 Choosing Data Displays (maths, Year 9): Maths: choose the right table or graph for the data and the purpose.
+- First: AC9HS6S02 node 1, 2, 4 Organise information and data (hass, Year 6). HASS Year 6: choose ways to collect information, judge sources, and organise it.
+- Repeats: AC9HC7S02 node 2, 3 Locating and Organising Information (civics, Year 7). Civics: locate information with search strategies, then select and organise it.
+- Repeats: AC9HE7S02 node 1, 2, 3 Locate and Organise Information (economics, Year 7). Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format.
+- Repeats: AC9HG7S02 node 2, 3 Collect, organise and represent geographical data (geography, Year 7). Geography: find secondary materials and represent data in geographical formats.
+- Repeats: AC9HH7S02 node 2, 3 Locate primary and secondary sources (history, Year 7). History: find sources in archives and collections with search strategies, then sort them for the inquiry.
+- Builds on: AC9M7ST02 Data Displays and Distribution (maths, Year 7). Maths: tables and graphs, and what they show about how data is spread.
+- Builds on: AC9M9ST04 Choosing Data Displays (maths, Year 9). Maths: choose the right table or graph for the data and the purpose.
 
 The ACARA Digital Literacy general capability teaches search and choosing a chart too; Kit has no node files for general capabilities.
 
-### Classification
+### Classification (skill)
 
 <a id="classification"></a>Sorting things into groups by their features: useful, with trade-offs, and open to change. All three members are in Year 7.
 
-- AC9S7U01 node 1, 3, 4, 5 Classification and Biodiversity (science, Year 7): Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time.
-- AC9HG7K01 node 1 Water as an environmental resource (geography, Year 7): Geography: classify resources as renewable, non-renewable or continuous.
-- AC9M7SP04 Algorithms for Classifying Shapes (maths, Year 7): Maths: step-by-step yes/no rules (algorithms) that sort shapes.
+- First: AC9S7U01 node 1, 3, 4, 5 Classification and Biodiversity (science, Year 7). Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time.
+- Applies: AC9HG7K01 node 1 Water as an environmental resource (geography, Year 7). Geography: classify resources as renewable, non-renewable or continuous.
+- Applies: AC9M7SP04 Algorithms for Classifying Shapes (maths, Year 7). Maths: step-by-step yes/no rules (algorithms) that sort shapes.
 
-### Logic: and, or, not
+### Logic: and, or, not (skill)
 
 <a id="logic"></a>The same three logical operations, taught in two subjects in the same year.
 
-- AC9TDI8K04 node 3 Integer representation in binary (technologies, Year 7-8): Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary.
-- AC9M8P02 node 2 Combinations for Two Events (maths, Year 8): Maths: "and", "or" and "not" for combined events in probability.
+- Repeats: AC9TDI8K04 node 3 Integer representation in binary (technologies, Year 7-8). Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary.
+- Repeats: AC9M8P02 node 2 Combinations for Two Events (maths, Year 8). Maths: "and", "or" and "not" for combined events in probability.
 
 ## By standard
 
@@ -93,7 +186,7 @@ The ACARA Digital Literacy general capability teaches search and choosing a char
 <a id="ac9hc7k03"></a>
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Civics: burden of proof and evidence in court.
+- [Evidence and claims](#evidence-and-claims) (Applies): Civics: burden of proof and evidence in court.
 
 ### AC9HC7K04 Secular Democracy and Pluralist Society (civics, Year 7)
 
@@ -102,6 +195,11 @@ Builds on, from other subjects:
 
 - node 4: AC9M5ST02 Interpret line graphs (maths, Year 5). prerequisite, earlier. Trends in data over time.
 - node 4: AC9M7N06 Four Operations with Rational Numbers (maths, Year 7). prerequisite, same year. Percentages of a population.
+
+Threads:
+
+- [Line graphs over time](#line-graphs-over-time) (Applies): Civics: trends in Australia's diversity data.
+- [Percentages](#percentages) (Applies): Civics: percentages of the population in diversity data.
 
 ### AC9HC7S01 Developing Inquiry Questions (civics, Year 7)
 
@@ -112,14 +210,14 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Civics: develop a civic inquiry question, often from current events.
+- [Inquiry questions](#inquiry-questions) (Repeats): Civics: develop a civic inquiry question, often from current events.
 
 ### AC9HC7S02 Locating and Organising Information (civics, Year 7)
 
 <a id="ac9hc7s02"></a>
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Civics: locate information with search strategies, then select and organise it.
+- [Searching and organising information](#searching-and-organising) (Repeats): Civics: locate information with search strategies, then select and organise it.
 
 ### AC9HC7S03 Analysing Information and Perspectives (civics, Year 7)
 
@@ -130,7 +228,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Perspective and bias](#perspective-and-bias): Civics: identify perspectives in civic sources and explain why they differ.
+- [Perspective and bias](#perspective-and-bias) (Applies): Civics: identify perspectives in civic sources and explain why they differ.
 
 ### AC9HC8K03 Law-making processes (civics, Year 8)
 
@@ -157,6 +255,10 @@ Builds on, from other subjects:
 - node 4: AC9M9A05 Mathematical Modelling — Change (maths, Year 9). background, later. Interest and growth come later in maths (buy now, pay later): don't link.
 - node 4: AC9M10A04 Model growth and decay (maths, Year 10). background, later. Interest and growth come later in maths: don't link.
 
+Threads:
+
+- [Percentages](#percentages) (Applies): Economics: budgeting.
+
 ### AC9HE7S01 Develop Inquiry Questions (economics, Year 7)
 
 <a id="ac9he7s01"></a>
@@ -166,7 +268,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Economics: what makes a question one you can research, using economics ideas.
+- [Inquiry questions](#inquiry-questions) (Repeats): Economics: what makes a question one you can research, using economics ideas.
 
 ### AC9HE7S02 Locate and Organise Information (economics, Year 7)
 
@@ -179,7 +281,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format.
+- [Searching and organising information](#searching-and-organising) (Repeats): Economics: search with a clear aim, pick what's relevant, and organise data in a suitable format.
 
 ### AC9HE7S03 Interpret Information and Data (economics, Year 7)
 
@@ -198,8 +300,9 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Economics: what the data shows, a reasonable inference, or a claim that goes too far.
-- [Idea structures](#idea-structures): Economics: cause-and-effect relationships in economic data.
+- [Evidence and claims](#evidence-and-claims) (Applies): Economics: what the data shows, a reasonable inference, or a claim that goes too far.
+- [Idea structures](#idea-structures) (Applies): Economics: cause-and-effect relationships in economic data.
+- [Line graphs over time](#line-graphs-over-time) (Applies): Economics: trends in economic data.
 
 ### AC9HE7S04 Develop a Response to an Economic Issue (economics, Year 7)
 
@@ -214,7 +317,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Idea structures](#idea-structures): Economics: respond to an issue by weighing costs and benefits (problem and solution).
+- [Idea structures](#idea-structures) (Applies): Economics: respond to an issue by weighing costs and benefits (problem and solution).
 
 ### AC9E4LA02 Subjective and objective language (english, Year 4)
 
@@ -225,7 +328,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): English: fact or feeling? The language of opinion versus factual reporting.
+- [Evidence and claims](#evidence-and-claims) (First): English: fact or feeling? The language of opinion versus factual reporting.
 
 ### AC9E6LA02 Objective and subjective language; bias (english, Year 6)
 
@@ -237,7 +340,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Perspective and bias](#perspective-and-bias): English: identify bias in the language of a text.
+- [Perspective and bias](#perspective-and-bias) (First): English: identify bias in the language of a text.
 
 ### AC9E7LA02 Evaluative language and substantiation (english, Year 7)
 
@@ -253,7 +356,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): English: back up a judgement with evidence from the text and other sources.
+- [Evidence and claims](#evidence-and-claims) (Builds on): English: back up a judgement with evidence from the text and other sources.
 
 ### AC9E7LY04 Explain idea structures in texts (english, Year 7)
 
@@ -266,7 +369,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Idea structures](#idea-structures): English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology).
+- [Idea structures](#idea-structures) (First): English: name the ways texts organise ideas: groups and subgroups (taxonomies), cause and effect, and time order (chronology).
 
 ### AC9E8LA04 Cohesion through paragraph structure (english, Year 8)
 
@@ -278,7 +381,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): English: a paragraph that makes a claim and backs it with an example, evidence and explanation.
+- [Evidence and claims](#evidence-and-claims) (Builds on): English: a paragraph that makes a claim and backs it with an example, evidence and explanation.
 
 ### AC9E8LY03 Analyse and evaluate language features and sources (english, Year 8)
 
@@ -290,7 +393,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): English: evaluate how a text uses sources and quotations.
+- [Evidence and claims](#evidence-and-claims) (Repeats): English: evaluate how a text uses sources and quotations.
 
 ### AC9E8LY04 How authors organise ideas (english, Year 8)
 
@@ -302,7 +405,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Idea structures](#idea-structures): English: add problem and solution, and compare and contrast.
+- [Idea structures](#idea-structures) (Builds on): English: add problem and solution, and compare and contrast.
 
 ### AC9HG7K01 Water as an environmental resource (geography, Year 7)
 
@@ -324,7 +427,9 @@ Used in other subjects by:
 
 Threads:
 
-- [Classification](#classification): Geography: classify resources as renewable, non-renewable or continuous.
+- [Classification](#classification) (Applies): Geography: classify resources as renewable, non-renewable or continuous.
+- [Water cycle](#water-cycle) (Repeats): Geography: how moving water connects places, re-teaching the cycle in the same year as science.
+- [Weathering, erosion and deposition](#erosion-and-deposition) (Repeats): Geography: moving water as a force that changes the landscape.
 
 ### AC9HG7K02 Water distribution and sustainability (geography, Year 7)
 
@@ -345,7 +450,8 @@ Used in other subjects by:
 
 Threads:
 
-- [Idea structures](#idea-structures): Geography: strategies for water sustainability (problem and solution).
+- [Idea structures](#idea-structures) (Applies): Geography: strategies for water sustainability (problem and solution).
+- [Line graphs over time](#line-graphs-over-time) (Applies): Geography: rainfall over time on climate graphs.
 
 ### AC9HG7S01 Develop geographical inquiry questions (geography, Year 7)
 
@@ -356,7 +462,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Geography: ask a geographical question rather than a general one, and plan how to investigate it.
+- [Inquiry questions](#inquiry-questions) (Repeats): Geography: ask a geographical question rather than a general one, and plan how to investigate it.
 
 ### AC9HG7S02 Collect, organise and represent geographical data (geography, Year 7)
 
@@ -370,7 +476,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Geography: find secondary materials and represent data in geographical formats.
+- [Searching and organising information](#searching-and-organising) (Repeats): Geography: find secondary materials and represent data in geographical formats.
 
 ### AC9HG8K01 Geomorphological processes (geography, Year 8)
 
@@ -379,12 +485,21 @@ Used in other subjects by:
 
 - node 2: AC9S8U03 node 2, 3, 4, 5 Plate Tectonics (science, Year 8). overlap: open, same year. Endogenic processes in Geography's landforms; whether to reinforce or share is open.
 
+Threads:
+
+- [Weathering, erosion and deposition](#erosion-and-deposition) (Repeats): Geography: weathering, erosion, transport and deposition again, as landform processes.
+- [Plate tectonics and landforms](#plate-tectonics-and-landforms) (Repeats): Geography: endogenic processes (forces from inside Earth) that build landforms, in the same year as science.
+
 ### AC9HG8K05 Geomorphological hazards (geography, Year 8)
 
 <a id="ac9hg8k05"></a>
 Used in other subjects by:
 
 - node 1: AC9S8U03 node 3, 4, 5 Plate Tectonics (science, Year 8). overlap: open, same year. Volcanoes and earthquakes as hazards in Geography; whether to reinforce or share is open.
+
+Threads:
+
+- [Plate tectonics and landforms](#plate-tectonics-and-landforms) (Applies): Geography: volcanoes and earthquakes as hazards for people.
 
 ### AC9HG10K01 Human-induced changes and sustainability (geography, Year 10)
 
@@ -393,12 +508,34 @@ Used in other subjects by:
 
 - AC9S10U04 Global Climate Change (science, Year 10). overlap: open, same year. Same topic in the same year (human-induced environmental change); whether to reinforce or share is open.
 
+Threads:
+
+- [Climate and environmental change](#environmental-change) (Repeats): Geography: types of human-induced environmental change, in the same year as science.
+
 ### AC9HG10K04 Environmental change: causes, effects and management strategies (geography, Year 10)
 
 <a id="ac9hg10k04"></a>
 Used in other subjects by:
 
 - AC9S10U04 Global Climate Change (science, Year 10). overlap: open, same year. Same topic in the same year (causes and management of environmental change); whether to reinforce or share is open.
+
+Threads:
+
+- [Climate and environmental change](#environmental-change) (Applies): Geography: causes of an environmental change and strategies to manage it.
+
+### AC9HS6S01 Develop questions about systems (hass, Year 6)
+
+<a id="ac9hs6s01"></a>
+Threads:
+
+- [Inquiry questions](#inquiry-questions) (First): HASS Year 6: develop questions that guide every stage of an inquiry.
+
+### AC9HS6S02 Organise information and data (hass, Year 6)
+
+<a id="ac9hs6s02"></a>
+Threads:
+
+- [Searching and organising information](#searching-and-organising) (First): HASS Year 6: choose ways to collect information, judge sources, and organise it.
 
 ### AC9HH7K01 Early human migration (history, Year 7)
 
@@ -407,6 +544,11 @@ Builds on, from other subjects:
 
 - node 1: AC9S10U02 Evolution by Natural Selection (science, Year 10). overlap: reinforce, later. History comes first: teach what's needed, never link forward. Science can look back to History.
 - node 3: AC9S9U06 node 4 Atomic Model and Radioactive Decay (science, Year 9). application, later. Radiocarbon dating before half-life: History comes first; science can look back to History.
+
+Threads:
+
+- [Dating and deep time](#dating-and-deep-time) (First): History: radiocarbon dating and other evidence for early human migration.
+- [Human evolution](#human-evolution) (First): History: theories of human evolution and the evidence for them.
 
 ### AC9HH7K08 Historical and archaeological evidence (history, Year 7)
 
@@ -417,6 +559,11 @@ Builds on, from other subjects:
 - node 1: AC9S8U04 node 1 Rock Cycle (science, Year 8). application, later. Layers laid down in order.
 - node 1: AC9HG7K01 node 4 Water as an environmental resource (geography, Year 7). application, same year. Layers laid down in order.
 - node 2: AC9S10U01 node 1 Genetics and Inheritance (science, Year 10). background, later. DNA.
+
+Threads:
+
+- [Weathering, erosion and deposition](#erosion-and-deposition) (Applies): History: stratigraphy, layers laid down in order, used to date finds.
+- [Dating and deep time](#dating-and-deep-time) (Repeats): History: dating techniques again, among the scientific methods historians use.
 
 ### AC9HH7K09 Environment and ancient development (history, Year 7)
 
@@ -434,7 +581,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): History: what makes a question historical, and its scope.
+- [Inquiry questions](#inquiry-questions) (Repeats): History: what makes a question historical, and its scope.
 
 ### AC9HH7S02 Locate primary and secondary sources (history, Year 7)
 
@@ -445,7 +592,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): History: find sources in archives and collections with search strategies, then sort them for the inquiry.
+- [Searching and organising information](#searching-and-organising) (Repeats): History: find sources in archives and collections with search strategies, then sort them for the inquiry.
 
 ### AC9HH7S03 Identify source origin and purpose (history, Year 7)
 
@@ -456,7 +603,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): History: who made the source, when and why.
+- [Evidence and claims](#evidence-and-claims) (Builds on): History: who made the source, when and why.
 
 ### AC9HH7S04 Describe source usefulness (history, Year 7)
 
@@ -475,7 +622,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness.
+- [Evidence and claims](#evidence-and-claims) (Repeats): History: is it a factual claim or an opinion? Check it against other sources; accuracy versus usefulness.
 
 ### AC9HH7S05 Describe cause and continuity (history, Year 7)
 
@@ -491,7 +638,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Idea structures](#idea-structures): History: putting events in time order (chronology), and their causes and effects.
+- [Idea structures](#idea-structures) (Applies): History: putting events in time order (chronology), and their causes and effects.
 
 ### AC9HH7S06 Identify past perspectives (history, Year 7)
 
@@ -502,7 +649,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Perspective and bias](#perspective-and-bias): History: the perspective in a historical source, the values behind it, and who is missing.
+- [Perspective and bias](#perspective-and-bias) (Applies): History: the perspective in a historical source, the values behind it, and who is missing.
 
 ### AC9HH7S07 Explain historical interpretations (history, Year 7)
 
@@ -518,7 +665,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): History: fact versus interpretation; building an argument from evidence.
+- [Evidence and claims](#evidence-and-claims) (Builds on): History: fact versus interpretation; building an argument from evidence.
 
 ### AC9M4SP02 Grid reference systems (maths, Year 4)
 
@@ -552,6 +699,10 @@ Used in other subjects by:
 - AC9HC7K04 node 4 Secular Democracy and Pluralist Society (civics, Year 7). prerequisite, earlier. Trends in data over time.
 - AC9HE7S03 node 2 Interpret Information and Data (economics, Year 7). prerequisite, earlier. Trends over time on line graphs.
 - AC9HG7K02 node 2 Water distribution and sustainability (geography, Year 7). prerequisite, earlier. Climate graphs are line graphs over time.
+
+Threads:
+
+- [Line graphs over time](#line-graphs-over-time) (First): Maths: read and interpret line graphs, including change over time.
 
 ### AC9M6M01 Convert metric units (maths, Year 6)
 
@@ -591,6 +742,10 @@ Used in other subjects by:
 - AC9S7U02 node 2 Food Webs and Ecosystems (science, Year 7). prerequisite, earlier. About 10% of energy passes to the next level.
 - AC9S9U05 node 2 Conservation of Energy and Efficiency (science, Year 9). application, earlier. Efficiency as a percentage.
 
+Threads:
+
+- [Percentages](#percentages) (First): Maths: find a percentage of a quantity.
+
 ### AC9M6N09 Model with rational numbers (maths, Year 6)
 
 <a id="ac9m6n09"></a>
@@ -622,7 +777,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Maths statistics: critique statistical arguments in the media.
+- [Evidence and claims](#evidence-and-claims) (Builds on): Maths statistics: critique statistical arguments in the media.
 
 ### AC9M7A03 Solving One-Variable Linear Equations (maths, Year 7)
 
@@ -638,6 +793,10 @@ Used in other subjects by:
 
 - AC9S10U07 node 6 Reaction Types and Rates (science, Year 10). prerequisite, earlier. Reading rate curves.
 - AC9S7U04 node 5 Forces and Motion (science, Year 7). prerequisite, same year. Describing relationships in graphs of investigation data.
+
+Threads:
+
+- [Line graphs over time](#line-graphs-over-time) (Builds on): Maths: relationships shown in graphs of real data.
 
 ### AC9M7M02 Volume of Right Prisms (maths, Year 7)
 
@@ -676,6 +835,10 @@ Used in other subjects by:
 - AC9S9U05 node 2 Conservation of Energy and Efficiency (science, Year 9). application, earlier. Efficiency as a percentage.
 - AC9TDI10K03 node 1 Data compression techniques (technologies, Year 9-10). prerequisite, earlier. How much compression saves, as a percentage.
 - AC9HC7K04 node 4 Secular Democracy and Pluralist Society (civics, Year 7). prerequisite, same year. Percentages of a population.
+
+Threads:
+
+- [Percentages](#percentages) (Builds on): Maths: calculations with percentages.
 
 ### AC9M7N07 Integers: Compare, Order, Add and Subtract (maths, Year 7)
 
@@ -735,7 +898,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Classification](#classification): Maths: step-by-step yes/no rules (algorithms) that sort shapes.
+- [Classification](#classification) (Applies): Maths: step-by-step yes/no rules (algorithms) that sort shapes.
 
 ### AC9M7ST02 Data Displays and Distribution (maths, Year 7)
 
@@ -748,7 +911,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Maths: tables and graphs, and what they show about how data is spread.
+- [Searching and organising information](#searching-and-organising) (Builds on): Maths: tables and graphs, and what they show about how data is spread.
 
 ### AC9M8A01 Linear Expressions (maths, Year 8)
 
@@ -776,6 +939,17 @@ Used in other subjects by:
 - AC9TDI8K02 node 1 Wired and wireless networks (technologies, Year 7-8). application, same year. Bandwidth and latency.
 - AC9TDI8K03 node 4 Representing text, image and audio (technologies, Year 7-8). application, same year. Sampling rate is a rate.
 
+Threads:
+
+- [Rates](#rates) (Builds on): Maths: rates as comparisons of different units, in practical problems.
+
+### AC9M8N05 Mathematical Modelling with Percentages (maths, Year 8)
+
+<a id="ac9m8n05"></a>
+Threads:
+
+- [Percentages](#percentages) (Builds on): Maths: percentage increase and decrease in real contexts.
+
 ### AC9M8P02 Combinations for Two Events (maths, Year 8)
 
 <a id="ac9m8p02"></a>
@@ -786,7 +960,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Logic: and, or, not](#logic): Maths: "and", "or" and "not" for combined events in probability.
+- [Logic: and, or, not](#logic) (Repeats): Maths: "and", "or" and "not" for combined events in probability.
 
 ### AC9M9A03 Gradient, Midpoint and Distance (maths, Year 9)
 
@@ -836,7 +1010,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Searching and organising information](#searching-and-organising): Maths: choose the right table or graph for the data and the purpose.
+- [Searching and organising information](#searching-and-organising) (Builds on): Maths: choose the right table or graph for the data and the purpose.
 
 ### AC9M10A04 Model growth and decay (maths, Year 10)
 
@@ -855,7 +1029,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Maths statistics: critique statistical reports in the media.
+- [Evidence and claims](#evidence-and-claims) (Builds on): Maths statistics: critique statistical reports in the media.
 
 ### AC9M10ST03 Scatterplots and association (maths, Year 10)
 
@@ -872,12 +1046,20 @@ Used in other subjects by:
 
 - AC9HG7K01 node 2 Water as an environmental resource (geography, Year 7). application, overlap: reinforce, earlier. The water cycle.
 
+Threads:
+
+- [Water cycle](#water-cycle) (First): Science: evaporation, condensation and precipitation as one continuous cycle.
+
 ### AC9S5U02 Weathering, Erosion, Transportation and Deposition (science, Year 5)
 
 <a id="ac9s5u02"></a>
 Used in other subjects by:
 
 - AC9HG7K01 node 4 Water as an environmental resource (geography, Year 7). prerequisite, earlier. Weathering, erosion and deposition.
+
+Threads:
+
+- [Weathering, erosion and deposition](#erosion-and-deposition) (First): Science: weathering breaks rock down; erosion, transport and deposition move it.
 
 ### AC9S7U01 Classification and Biodiversity (science, Year 7)
 
@@ -895,8 +1077,8 @@ Used in other subjects by:
 
 Threads:
 
-- [Idea structures](#idea-structures): Science: sort living things into groups and subgroups (a taxonomy).
-- [Classification](#classification): Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time.
+- [Idea structures](#idea-structures) (Applies): Science: sort living things into groups and subgroups (a taxonomy).
+- [Classification](#classification) (First): Science: why we sort living things into groups, using yes/no keys (dichotomous keys), and how the groups change over time.
 
 ### AC9S7U02 Food Webs and Ecosystems (science, Year 7)
 
@@ -905,6 +1087,11 @@ Builds on, from other subjects:
 
 - node 2: AC9M6N07 Fractions, decimals and percentages (maths, Year 6). prerequisite, earlier. About 10% of energy passes to the next level.
 - node 3, 4: AC9M5ST02 Interpret line graphs (maths, Year 5). background, earlier. Population change on a line graph over time.
+
+Threads:
+
+- [Line graphs over time](#line-graphs-over-time) (Applies): Science: population changes in a food web.
+- [Percentages](#percentages) (Applies): Science: about 10% of energy passes to the next level of a food web.
 
 ### AC9S7U03 Earth-Sun-Moon System (science, Year 7)
 
@@ -938,6 +1125,19 @@ Used in other subjects by:
 
 - node 5: AC9HH7S07 node 1 Explain historical interpretations (history, Year 7). shared foundation, same year. Fact versus interpretation; models and theories in science.
 
+Threads:
+
+- [Water cycle](#water-cycle) (Builds on): Science: explains evaporation and condensation with the particle model.
+- [Rates](#rates) (First): Science: density, mass per unit of volume, a year before maths teaches rates.
+- [Line graphs over time](#line-graphs-over-time) (Applies): Science: a heating curve.
+
+### AC9S7U06 Pure Substances and Mixtures (science, Year 7)
+
+<a id="ac9s7u06"></a>
+Threads:
+
+- [Water cycle](#water-cycle) (Applies): Science: evaporation used to separate a mixture.
+
 ### AC9S8U01 Cells as Basic Units (science, Year 8)
 
 <a id="ac9s8u01"></a>
@@ -959,7 +1159,8 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Science: several independent lines of evidence support plate tectonics.
+- [Evidence and claims](#evidence-and-claims) (Applies): Science: several independent lines of evidence support plate tectonics.
+- [Plate tectonics and landforms](#plate-tectonics-and-landforms) (First): Science: Earth's layers, plates and what happens at their boundaries.
 
 ### AC9S8U04 Rock Cycle (science, Year 8)
 
@@ -974,6 +1175,11 @@ Used in other subjects by:
 
 - node 1: AC9HG7K01 node 4 Water as an environmental resource (geography, Year 7). overlap: reinforce, later. Geography teaches it a year before science's rock cycle.
 - node 1: AC9HH7K08 node 1 Historical and archaeological evidence (history, Year 7). application, later. Layers laid down in order.
+
+Threads:
+
+- [Weathering, erosion and deposition](#erosion-and-deposition) (Builds on): Science: deposited layers turn into sedimentary rock (lithification).
+- [Dating and deep time](#dating-and-deep-time) (Builds on): Science: geological time, over millions of years.
 
 ### AC9S8U06 Elements, Compounds and Mixtures (science, Year 8)
 
@@ -1001,6 +1207,10 @@ Builds on, from other subjects:
 - node 2: AC9M7N06 Four Operations with Rational Numbers (maths, Year 7). application, earlier. Efficiency as a percentage.
 - node 3: AC9M7N08 Ratios (maths, Year 7). application, earlier. Sankey widths are proportional.
 
+Threads:
+
+- [Percentages](#percentages) (Applies): Science: efficiency as a percentage.
+
 ### AC9S9U06 Atomic Model and Radioactive Decay (science, Year 9)
 
 <a id="ac9s9u06"></a>
@@ -1013,6 +1223,10 @@ Used in other subjects by:
 
 - node 4: AC9HH7K01 node 3 Early human migration (history, Year 7). application, later. Radiocarbon dating before half-life: History comes first; science can look back to History.
 - node 4: AC9HH7K08 node 2 Historical and archaeological evidence (history, Year 7). application, later. Radiocarbon dating before half-life: History comes first; science can look back to History.
+
+Threads:
+
+- [Dating and deep time](#dating-and-deep-time) (Builds on): Science: half-life, the science behind radiocarbon dating.
 
 ### AC9S9U07 Chemical Equations and Conservation of Mass (science, Year 9)
 
@@ -1049,7 +1263,8 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Science: several independent lines of evidence support evolution.
+- [Evidence and claims](#evidence-and-claims) (Applies): Science: several independent lines of evidence support evolution.
+- [Human evolution](#human-evolution) (Builds on): Science: natural selection as the mechanism, with several lines of evidence.
 
 ### AC9S10U03 Big Bang Theory (science, Year 10)
 
@@ -1063,7 +1278,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Science: several independent lines of evidence support the big bang theory.
+- [Evidence and claims](#evidence-and-claims) (Applies): Science: several independent lines of evidence support the big bang theory.
 
 ### AC9S10U04 Global Climate Change (science, Year 10)
 
@@ -1075,6 +1290,11 @@ Builds on, from other subjects:
 - node 6: AC9M10ST01 Critique statistical reports (maths, Year 10). background, same year. Analysing claims in media reports.
 - AC9HG10K01 Human-induced changes and sustainability (geography, Year 10). overlap: open, same year. Same topic in the same year (human-induced environmental change); whether to reinforce or share is open.
 - AC9HG10K04 Environmental change: causes, effects and management strategies (geography, Year 10). overlap: open, same year. Same topic in the same year (causes and management of environmental change); whether to reinforce or share is open.
+
+Threads:
+
+- [Line graphs over time](#line-graphs-over-time) (Applies): Science: indicators of climate change.
+- [Climate and environmental change](#environmental-change) (First): Science: how greenhouse gases change Earth's energy balance, the evidence, and responses.
 
 ### AC9S10U05 Newton's Laws of Motion (science, Year 10)
 
@@ -1088,6 +1308,10 @@ Builds on, from other subjects:
 - node 4, 7: AC9M8A01 Linear Expressions (maths, Year 8). prerequisite, overlap: share, earlier. Changing the subject of F = ma: one rearranging method shared with maths.
 - node 4: AC9M9M05 Mathematical Modelling — Proportion, Rates and Ratio (maths, Year 9). application, earlier. Direct proportion: doubling and halving.
 
+Threads:
+
+- [Rates](#rates) (Applies): Science: acceleration, change in velocity per second.
+
 ### AC9S10U07 Reaction Types and Rates (science, Year 10)
 
 <a id="ac9s10u07"></a>
@@ -1095,6 +1319,10 @@ Builds on, from other subjects:
 
 - node 5, 6: AC9M8M05 Rates (maths, Year 8). application, earlier. Reaction rate is a rate.
 - node 6: AC9M7A04 Relationships in Graphs (maths, Year 7). prerequisite, earlier. Reading rate curves.
+
+Threads:
+
+- [Rates](#rates) (Applies): Science: reaction rate.
 
 ### AC9S7I01 Explore models and test relationships (science, Year 7-8)
 
@@ -1108,7 +1336,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Inquiry questions](#inquiry-questions): Science: questions you can answer by testing (investigable) versus ones you can't.
+- [Inquiry questions](#inquiry-questions) (Repeats): Science: questions you can answer by testing (investigable) versus ones you can't.
 
 ### AC9S7I06 Analyse methods and claims (science, Year 7-8)
 
@@ -1119,7 +1347,7 @@ Used in other subjects by:
 
 Threads:
 
-- [Evidence and claims](#evidence-and-claims): Science inquiry: check a claim for hidden assumptions and evidence that disagrees.
+- [Evidence and claims](#evidence-and-claims) (Applies): Science inquiry: check a claim for hidden assumptions and evidence that disagrees.
 
 ### AC9TDI6P02 Design algorithms with branching and iteration (technologies, Year 5-6)
 
@@ -1136,12 +1364,20 @@ Builds on, from other subjects:
 - node 1, 2: AC9M7N03 Expanded Notation and Powers of 10 (maths, Year 7). prerequisite, same year. Prefixes and powers of 10 (GB, GHz, Mbps).
 - node 1, 2: AC9M8M05 Rates (maths, Year 8). application, same year. Bandwidth is a rate.
 
+Threads:
+
+- [Rates](#rates) (Applies): Digital Technologies: speeds in hardware specifications (GHz, Mbps).
+
 ### AC9TDI8K02 Wired and wireless networks (technologies, Year 7-8)
 
 <a id="ac9tdi8k02"></a>
 Builds on, from other subjects:
 
 - node 1: AC9M8M05 Rates (maths, Year 8). application, same year. Bandwidth and latency.
+
+Threads:
+
+- [Rates](#rates) (Applies): Digital Technologies: bandwidth, data per second.
 
 ### AC9TDI8K03 Representing text, image and audio (technologies, Year 7-8)
 
@@ -1156,6 +1392,10 @@ Used in other subjects by:
 - node 4: AC9S9U04 node 2 Wave and Particle Models (science, Year 9). shared foundation, earlier. Sound as amplitudes; audio as sampled amplitudes.
 - node 3: AC9S9U04 node 4 Wave and Particle Models (science, Year 9). background, earlier. RGB colour.
 
+Threads:
+
+- [Rates](#rates) (Applies): Digital Technologies: sampling rate, samples per second.
+
 ### AC9TDI8K04 Integer representation in binary (technologies, Year 7-8)
 
 <a id="ac9tdi8k04"></a>
@@ -1168,7 +1408,7 @@ Builds on, from other subjects:
 
 Threads:
 
-- [Logic: and, or, not](#logic): Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary.
+- [Logic: and, or, not](#logic) (Repeats): Digital Technologies: logic gates (circuits that do AND, OR, NOT) and why computers use binary.
 
 ### AC9TDI10K01 Managing and securing networked systems (technologies, Year 9-10)
 
@@ -1185,6 +1425,10 @@ Builds on, from other subjects:
 
 - node 1: AC9M7N08 Ratios (maths, Year 7). prerequisite, earlier. How much compression saves, as a ratio.
 - node 1: AC9M7N06 Four Operations with Rational Numbers (maths, Year 7). prerequisite, earlier. How much compression saves, as a percentage.
+
+Threads:
+
+- [Percentages](#percentages) (Applies): Digital Technologies: how much compression saves.
 
 ### AC9TDI10P14 Apply Australian Privacy Principles (technologies, Year 9-10)
 

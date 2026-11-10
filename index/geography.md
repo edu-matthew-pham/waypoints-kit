@@ -6,8 +6,8 @@ The Other subjects column counts a standard's links to other subjects and the sh
 
 | Year | Code | Title | Waypoints | Other subjects | Node file |
 |---|---|---|---|---|---|
-| 7 | AC9HG7K01 | Water as an environmental resource | 5 | [10](cross-subject.md#ac9hg7k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K01.json |
-| 7 | AC9HG7K02 | Water distribution and sustainability | 5 | [9](cross-subject.md#ac9hg7k02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K02.json |
+| 7 | AC9HG7K01 | Water as an environmental resource | 5 | [12](cross-subject.md#ac9hg7k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K01.json |
+| 7 | AC9HG7K02 | Water distribution and sustainability | 5 | [10](cross-subject.md#ac9hg7k02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K02.json |
 | 7 | AC9HG7K03 | Values of water | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K03.json |
 | 7 | AC9HG7K04 | Hydrological and atmospheric hazards | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K04.json |
 | 7 | AC9HG7K05 | Liveability decisions | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7K05.json |
@@ -20,11 +20,11 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 7 | AC9HG7S04 | Draw geographical conclusions | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7S04.json |
 | 7 | AC9HG7S05 | Identify strategies for geographical action | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7S05.json |
 | 7 | AC9HG7S06 | Create geographical descriptions and explanations | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y7_geography_AC9HG7S06.json |
-| 8 | AC9HG8K01 | Geomorphological processes | 5 | [1](cross-subject.md#ac9hg8k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K01.json |
+| 8 | AC9HG8K01 | Geomorphological processes | 5 | [3](cross-subject.md#ac9hg8k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K01.json |
 | 8 | AC9HG8K02 | Landscape distribution | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K02.json |
 | 8 | AC9HG8K03 | Values of landscapes | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K03.json |
 | 8 | AC9HG8K04 | Human activity and landscapes | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K04.json |
-| 8 | AC9HG8K05 | Geomorphological hazards | 3 | [1](cross-subject.md#ac9hg8k05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K05.json |
+| 8 | AC9HG8K05 | Geomorphological hazards | 3 | [2](cross-subject.md#ac9hg8k05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K05.json |
 | 8 | AC9HG8K06 | Urbanisation and its impacts | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K06.json |
 | 8 | AC9HG8K07 | Urban distribution | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K07.json |
 | 8 | AC9HG8K08 | Migration and changing nations | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y8_geography_AC9HG8K08.json |
@@ -49,10 +49,10 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 9 | AC9HG9S04 | Justifying Conclusions | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y9_geography_AC9HG9S04.json |
 | 9 | AC9HG9S05 | Developing and Evaluating Strategies | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y9_geography_AC9HG9S05.json |
 | 9 | AC9HG9S06 | Creating Geographical Descriptions and Explanations | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y9_geography_AC9HG9S06.json |
-| 10 | AC9HG10K01 | Human-induced changes and sustainability | 3 | [1](cross-subject.md#ac9hg10k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K01.json |
+| 10 | AC9HG10K01 | Human-induced changes and sustainability | 3 | [2](cross-subject.md#ac9hg10k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K01.json |
 | 10 | AC9HG10K02 | Environmental world views | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K02.json |
 | 10 | AC9HG10K03 | First Nations custodial responsibility and environmental management | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K03.json |
-| 10 | AC9HG10K04 | Environmental change: causes, effects and management strategies | 3 | [1](cross-subject.md#ac9hg10k04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K04.json |
+| 10 | AC9HG10K04 | Environmental change: causes, effects and management strategies | 3 | [2](cross-subject.md#ac9hg10k04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K04.json |
 | 10 | AC9HG10K05 | Measuring human wellbeing and development | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K05.json |
 | 10 | AC9HG10K06 | Spatial variations in wellbeing: regional and national scale | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K06.json |
 | 10 | AC9HG10K07 | Spatial variations in wellbeing in Australia | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/geography/y10_geography_AC9HG10K07.json |

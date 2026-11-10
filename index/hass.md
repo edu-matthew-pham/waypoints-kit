@@ -88,8 +88,8 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 6 | AC9HS6K06 | Government institutions and democracy | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6K06.json |
 | 6 | AC9HS6K07 | Roles of government | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6K07.json |
 | 6 | AC9HS6K08 | Consumer and financial choices | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6K08.json |
-| 6 | AC9HS6S01 | Develop questions about systems | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S01.json |
-| 6 | AC9HS6S02 | Organise information and data | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S02.json |
+| 6 | AC9HS6S01 | Develop questions about systems | 3 | [1](cross-subject.md#ac9hs6s01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S01.json |
+| 6 | AC9HS6S02 | Organise information and data | 4 | [1](cross-subject.md#ac9hs6s02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S02.json |
 | 6 | AC9HS6S03 | Identify patterns and relationships | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S03.json |
 | 6 | AC9HS6S04 | Evaluate sources and perspectives | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S04.json |
 | 6 | AC9HS6S05 | Develop evidence-based conclusions | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/hass/y6_hass_AC9HS6S05.json |

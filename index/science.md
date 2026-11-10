@@ -41,7 +41,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 3 | AC9S3U03 | Heat Energy and Transfer | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y3_science_AC9S3U03.json |
 | 3 | AC9S3U04 | Solids, Liquids and Change of State | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y3_science_AC9S3U04.json |
 | 4 | AC9S4U01 | Food Chains and Habitats | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y4_science_AC9S4U01.json |
-| 4 | AC9S4U02 | Water Cycle | 5 | [1](cross-subject.md#ac9s4u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y4_science_AC9S4U02.json |
+| 4 | AC9S4U02 | Water Cycle | 5 | [2](cross-subject.md#ac9s4u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y4_science_AC9S4U02.json |
 | 4 | AC9S4U03 | Forces and Motion | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y4_science_AC9S4U03.json |
 | 4 | AC9S4U04 | Properties of Materials | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y4_science_AC9S4U04.json |
 | 5 | AC9S5H01 | Science Collaboration and Building on Others' Work | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5H01.json |
@@ -53,7 +53,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 5 | AC9S5I05 | Evaluating | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5I05.json |
 | 5 | AC9S5I06 | Communicating | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5I06.json |
 | 5 | AC9S5U01 | Structural Features and Survival | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5U01.json |
-| 5 | AC9S5U02 | Weathering, Erosion, Transportation and Deposition | 3 | [1](cross-subject.md#ac9s5u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5U02.json |
+| 5 | AC9S5U02 | Weathering, Erosion, Transportation and Deposition | 3 | [2](cross-subject.md#ac9s5u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5U02.json |
 | 5 | AC9S5U03 | Light | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5U03.json |
 | 5 | AC9S5U04 | Particle Model of Matter | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y5_science_AC9S5U04.json |
 | 6 | AC9S6U01 | Physical Conditions and Survival | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y6_science_AC9S6U01.json |
@@ -61,15 +61,15 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 6 | AC9S6U03 | Electrical Circuits | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y6_science_AC9S6U03.json |
 | 6 | AC9S6U04 | Reversible and Irreversible Changes | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y6_science_AC9S6U04.json |
 | 7 | AC9S7U01 | Classification and Biodiversity | 5 | [7](cross-subject.md#ac9s7u01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U01.json |
-| 7 | AC9S7U02 | Food Webs and Ecosystems | 5 | [2](cross-subject.md#ac9s7u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U02.json |
+| 7 | AC9S7U02 | Food Webs and Ecosystems | 5 | [4](cross-subject.md#ac9s7u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U02.json |
 | 7 | AC9S7U03 | Earth-Sun-Moon System | 5 | [1](cross-subject.md#ac9s7u03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U03.json |
 | 7 | AC9S7U04 | Forces and Motion | 5 | [4](cross-subject.md#ac9s7u04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U04.json |
-| 7 | AC9S7U05 | Particle Theory and Properties | 5 | [6](cross-subject.md#ac9s7u05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U05.json |
-| 7 | AC9S7U06 | Pure Substances and Mixtures | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U06.json |
+| 7 | AC9S7U05 | Particle Theory and Properties | 5 | [9](cross-subject.md#ac9s7u05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U05.json |
+| 7 | AC9S7U06 | Pure Substances and Mixtures | 5 | [1](cross-subject.md#ac9s7u06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7U06.json |
 | 8 | AC9S8U01 | Cells as Basic Units | 5 | [4](cross-subject.md#ac9s8u01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U01.json |
 | 8 | AC9S8U02 | Structure, Function and Organ Systems | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U02.json |
-| 8 | AC9S8U03 | Plate Tectonics | 6 | [4](cross-subject.md#ac9s8u03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U03.json |
-| 8 | AC9S8U04 | Rock Cycle | 5 | [5](cross-subject.md#ac9s8u04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U04.json |
+| 8 | AC9S8U03 | Plate Tectonics | 6 | [5](cross-subject.md#ac9s8u03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U03.json |
+| 8 | AC9S8U04 | Rock Cycle | 5 | [7](cross-subject.md#ac9s8u04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U04.json |
 | 8 | AC9S8U05 | Energy Transfer and Transformation | 6 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U05.json |
 | 8 | AC9S8U06 | Elements, Compounds and Mixtures | 5 | [2](cross-subject.md#ac9s8u06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U06.json |
 | 8 | AC9S8U07 | Physical and Chemical Changes | 6 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y8_science_AC9S8U07.json |
@@ -77,16 +77,16 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 9 | AC9S9U02 | Reproduction and Species Survival | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U02.json |
 | 9 | AC9S9U03 | Carbon Cycle and Earth's Spheres | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U03.json |
 | 9 | AC9S9U04 | Wave and Particle Models | 5 | [3](cross-subject.md#ac9s9u04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U04.json |
-| 9 | AC9S9U05 | Conservation of Energy and Efficiency | 4 | [3](cross-subject.md#ac9s9u05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U05.json |
-| 9 | AC9S9U06 | Atomic Model and Radioactive Decay | 5 | [4](cross-subject.md#ac9s9u06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U06.json |
+| 9 | AC9S9U05 | Conservation of Energy and Efficiency | 4 | [4](cross-subject.md#ac9s9u05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U05.json |
+| 9 | AC9S9U06 | Atomic Model and Radioactive Decay | 5 | [5](cross-subject.md#ac9s9u06) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U06.json |
 | 9 | AC9S9U07 | Chemical Equations and Conservation of Mass | 5 | [1](cross-subject.md#ac9s9u07) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y9_science_AC9S9U07.json |
 | 10 | AC9S10U01 | Genetics and Inheritance | 6 | [4](cross-subject.md#ac9s10u01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U01.json |
-| 10 | AC9S10U02 | Evolution by Natural Selection | 5 | [5](cross-subject.md#ac9s10u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U02.json |
+| 10 | AC9S10U02 | Evolution by Natural Selection | 5 | [6](cross-subject.md#ac9s10u02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U02.json |
 | 10 | AC9S10U03 | Big Bang Theory | 5 | [5](cross-subject.md#ac9s10u03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U03.json |
-| 10 | AC9S10U04 | Global Climate Change | 6 | [5](cross-subject.md#ac9s10u04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U04.json |
-| 10 | AC9S10U05 | Newton's Laws of Motion | 8 | [6](cross-subject.md#ac9s10u05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U05.json |
+| 10 | AC9S10U04 | Global Climate Change | 6 | [7](cross-subject.md#ac9s10u04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U04.json |
+| 10 | AC9S10U05 | Newton's Laws of Motion | 8 | [7](cross-subject.md#ac9s10u05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U05.json |
 | 10 | AC9S10U06 | Periodic Table and Atomic Structure | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U06.json |
-| 10 | AC9S10U07 | Reaction Types and Rates | 6 | [2](cross-subject.md#ac9s10u07) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U07.json |
+| 10 | AC9S10U07 | Reaction Types and Rates | 6 | [3](cross-subject.md#ac9s10u07) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y10_science_AC9S10U07.json |
 | 11 | BSSS-SCI-BIO-T-U1-S1 | Describing biodiversity | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/BSSS-SCI-BIO-T-U1-S1.json |
 | 7-8 | AC9S7H01 | Evidence changes knowledge | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7H01.json |
 | 7-8 | AC9S7H02 | Culture shapes scientific knowledge | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/science/y7_science_AC9S7H02.json |

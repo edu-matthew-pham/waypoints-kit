@@ -6,14 +6,14 @@ The Other subjects column counts a standard's links to other subjects and the sh
 
 | Year | Code | Title | Waypoints | Other subjects | Node file |
 |---|---|---|---|---|---|
-| 7 | AC9HH7K01 | Early human migration | 3 | [2](cross-subject.md#ac9hh7k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K01.json |
+| 7 | AC9HH7K01 | Early human migration | 3 | [4](cross-subject.md#ac9hh7k01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K01.json |
 | 7 | AC9HH7K02 | Arrival on the Australian continent | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K02.json |
 | 7 | AC9HH7K03 | Continuity over deep time | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K03.json |
 | 7 | AC9HH7K04 | Environmental response over time | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K04.json |
 | 7 | AC9HH7K05 | Early technological achievements | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K05.json |
 | 7 | AC9HH7K06 | Social organisation and cultural practice | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K06.json |
 | 7 | AC9HH7K07 | Cultural preservation and heritage | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K07.json |
-| 7 | AC9HH7K08 | Historical and archaeological evidence | 4 | [4](cross-subject.md#ac9hh7k08) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K08.json |
+| 7 | AC9HH7K08 | Historical and archaeological evidence | 4 | [6](cross-subject.md#ac9hh7k08) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K08.json |
 | 7 | AC9HH7K09 | Environment and ancient development | 3 | [1](cross-subject.md#ac9hh7k09) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K09.json |
 | 7 | AC9HH7K10 | Roles and groups in ancient society | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K10.json |
 | 7 | AC9HH7K11 | Beliefs, values and practices | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/history/y7_history_AC9HH7K11.json |

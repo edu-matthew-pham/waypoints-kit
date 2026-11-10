@@ -9,7 +9,7 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 7 | AC9HC7K01 | Australia's System of Government | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7K01.json |
 | 7 | AC9HC7K02 | Characteristics of Australia's Democracy | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7K02.json |
 | 7 | AC9HC7K03 | The Australian Legal System | 4 | [1](cross-subject.md#ac9hc7k03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7K03.json |
-| 7 | AC9HC7K04 | Secular Democracy and Pluralist Society | 4 | [2](cross-subject.md#ac9hc7k04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7K04.json |
+| 7 | AC9HC7K04 | Secular Democracy and Pluralist Society | 4 | [4](cross-subject.md#ac9hc7k04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7K04.json |
 | 7 | AC9HC7K05 | Values, Social Cohesion and Democracy | 4 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7K05.json |
 | 7 | AC9HC7S01 | Developing Inquiry Questions | 3 | [2](cross-subject.md#ac9hc7s01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7S01.json |
 | 7 | AC9HC7S02 | Locating and Organising Information | 3 | [1](cross-subject.md#ac9hc7s02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/civics/y7_civics_AC9HC7S02.json |

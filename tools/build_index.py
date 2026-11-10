@@ -156,6 +156,7 @@ def build_cross_subject(out_dir, info):
         bits.append(l["timing"].replace("_", " "))
         return ", ".join(bits)
 
+    ROLE = {"first": "First", "builds_on": "Builds on", "applies": "Applies", "repeats": "Repeats"}
     entries = defaultdict(lambda: {"on": [], "by": [], "threads": []})
     for l in links:
         a, b = l["standard"].upper(), l["links_to"].upper()
@@ -166,7 +167,7 @@ def build_cross_subject(out_dir, info):
         entries[b]["by"].append(f"- {theirs}{name(a, l.get('nodes'))}. {kind(l)}.{note}")
     for th in threads:
         for m in th["members"]:
-            entries[m["standard"].upper()]["threads"].append(f"- [{th['title']}](#{th['id']}): {m['frame']}")
+            entries[m["standard"].upper()]["threads"].append(f"- [{th['title']}](#{th['id']}) ({ROLE[m['role']]}): {m['frame']}")
 
     out = [
         "# Cross-subject links",
@@ -178,9 +179,10 @@ def build_cross_subject(out_dir, info):
         "## Threads",
         "",
     ]
-    for th in threads:
-        out += [f"### {th['title']}", "", f'<a id="{th["id"]}"></a>{th["description"]}', ""]
-        out += [f"- {name(m['standard'], m.get('nodes'))}: {m['frame']}" for m in th["members"]]
+    out += ["Skill threads are ways of thinking each subject uses its own way; topic threads are content taught in more than one place. Roles: First (where students first meet it), Builds on (goes deeper), Applies (uses it in its own context), Repeats (teaches it again at about the same level, often the same year: worth coordinating).", ""]
+    for th in sorted(threads, key=lambda t: t["kind"] != "topic"):
+        out += [f"### {th['title']} ({th['kind']})", "", f'<a id="{th["id"]}"></a>{th["description"]}', ""]
+        out += [f"- {ROLE[m['role']]}: {name(m['standard'], m.get('nodes'))}. {m['frame']}" for m in th["members"]]
         if th.get("outside_kit"):
             out += ["", th["outside_kit"]]
         out.append("")

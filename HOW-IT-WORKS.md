@@ -69,7 +69,16 @@ A node file's `prior_knowledge` names what a standard builds on **in its own sub
 
 The relationship types follow the Learning Waypoints framework's prior-knowledge extension.
 
-**`threads.json`**: an idea several subjects teach in their own way, such as evidence and claims. Each thread lists its member standards and nodes, with one line on how each subject frames the idea. Membership is recorded only here.
+**`threads.json`**: an idea taught in more than one place. Each thread has a `kind`: **skill** (a way of thinking each subject uses in its own way, such as evidence and claims) or **topic** (content taught in more than one place, such as the water cycle). Each member is a standard and its nodes, a one-line `frame` on how that subject treats the idea, and a `role`:
+
+| Role | Meaning |
+|---|---|
+| `first` | Where students first meet it |
+| `builds_on` | Goes deeper than before |
+| `applies` | Uses it in this subject's own context |
+| `repeats` | Teaches it again at about the same level, often in the same year. These are the overlaps worth coordinating: one subject teaches it, the other recalls and builds on it |
+
+Membership and roles are recorded only here. Roles were drafted 10 Nov 2026 from node labels and checkpoints; a subject specialist may see some differently.
 
 **Types for same-subject prior knowledge: `prior_relationships`.** Each code in `prior_knowledge` counts as a **prerequisite** (needed first) unless the node file says otherwise. `prior_relationships`, beside `prior_knowledge`, lists only the exceptions:
 

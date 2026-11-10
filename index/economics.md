@@ -10,10 +10,10 @@ The Other subjects column counts a standard's links to other subjects and the sh
 | 7 | AC9HE7K02 | Types of Businesses | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7K02.json |
 | 7 | AC9HE7K03 | Entrepreneurial Characteristics | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7K03.json |
 | 7 | AC9HE7K04 | Work, Income and Identity | 3 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7K04.json |
-| 7 | AC9HE7K05 | Consumer and Financial Rights and Responsibilities | 4 | [4](cross-subject.md#ac9he7k05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7K05.json |
+| 7 | AC9HE7K05 | Consumer and Financial Rights and Responsibilities | 4 | [5](cross-subject.md#ac9he7k05) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7K05.json |
 | 7 | AC9HE7S01 | Develop Inquiry Questions | 2 | [2](cross-subject.md#ac9he7s01) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7S01.json |
 | 7 | AC9HE7S02 | Locate and Organise Information | 3 | [4](cross-subject.md#ac9he7s02) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7S02.json |
-| 7 | AC9HE7S03 | Interpret Information and Data | 3 | [8](cross-subject.md#ac9he7s03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7S03.json |
+| 7 | AC9HE7S03 | Interpret Information and Data | 3 | [9](cross-subject.md#ac9he7s03) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7S03.json |
 | 7 | AC9HE7S04 | Develop a Response to an Economic Issue | 2 | [3](cross-subject.md#ac9he7s04) | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7S04.json |
 | 7 | AC9HE7S05 | Create Descriptions and Explanations | 2 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y7_economics_AC9HE7S05.json |
 | 8 | AC9HE8K01 | Markets and price signals | 5 |  | https://raw.githubusercontent.com/edu-matthew-pham/waypoints-kit/main/data/economics/y8_economics_AC9HE8K01.json |
