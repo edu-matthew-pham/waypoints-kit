@@ -9,6 +9,7 @@
     "description": "recognise irrational numbers in applied contexts, including square roots and π",
     "mode": "A",
     "prior_knowledge": "Students can locate non-perfect square roots between consecutive integers and understand π as the constant ratio C/d (from AC9M7N01, AC9M7M03). Students understand the real number line and rational number representation.",
+    "prior_relationships": [{"code": "AC9M7M03", "relationship": "application", "note": "Pi is an example of an irrational number."}],
     "progression_endpoint": "Students recognise irrational numbers in applied contexts, understand that they cannot be expressed as exact fractions, and approximately locate them on the real number line.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand the reasons businesses exist and characteristics of entrepreneurs (AC9HE7K02, AC9HE7K03). They have context from AC9HE8K02 on how businesses identify market opportunities and adapt.",
+    "prior_relationships": [{"code": "AC9HE8K02", "relationship": "background"}],
     "progression_endpoint": "Students investigate how First Nations Australian businesses and entrepreneurs develop opportunities in the market.",
     "nodes": [
       {

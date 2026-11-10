@@ -9,6 +9,7 @@
     "strand": "Statistics",
     "mode": "A",
     "prior_knowledge": "Students can analyse how sampling methods affect survey results and how representation choices support a point of view (AC9M9ST02). They have not yet formally described and compared distributions across multiple data sets using shape, centre, spread and outlier effects simultaneously.",
+    "prior_relationships": [{"code": "AC9M9ST02", "relationship": "background"}],
     "progression_endpoint": "Students represent and compare multiple data distributions considering centre, spread, shape and the effect of outliers.",
     "nodes": [
       {

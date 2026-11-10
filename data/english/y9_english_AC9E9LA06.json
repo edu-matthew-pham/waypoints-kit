@@ -9,6 +9,7 @@
     "strand": "Language — Expressing Ideas",
     "mode": "A",
     "prior_knowledge": "Students understand how complex and compound-complex sentences elaborate, extend and explain ideas (AC9E7LA05). They have encountered nominalisation as a cohesive device (AC9E9LA04). They have not yet focused specifically on how abstract nouns and nominalisation function to summarise and carry forward prior ideas within a text.",
+    "prior_relationships": [{"code": "AC9E9LA04", "relationship": "background", "note": "Nominalisation for cohesion is close, but this standard can introduce it."}],
     "progression_endpoint": "Students understand how abstract nouns and nominalisation summarise ideas, structure arguments and allow texts to treat prior content as an established premise.",
     "nodes": [
       {

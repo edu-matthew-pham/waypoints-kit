@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "identify the impact of measurement errors on the accuracy of results in practical contexts",
     "prior_knowledge": "Students can interpret and use logarithmic scales in applied contexts (AC9M10M02). They have not yet systematically identified sources of measurement error or analysed how errors compound and propagate through calculations to affect accuracy.",
+    "prior_relationships": [{"code": "AC9M10M02", "relationship": "background", "note": "Logarithmic scales aren't needed for measurement error."}],
     "progression_endpoint": "Students identify sources of measurement error and describe their impact on the accuracy of results across practical contexts, including how compounding errors affect repeated or multi-step calculations.",
     "nodes": [
       {

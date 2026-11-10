@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have examined post-war reconstruction and Australia's strategic reorientation in AC9HH10K05, including the 'populate or perish' migration drive and the Colombo Plan. They understand push and pull factors in migration from general geographic study. They have not yet examined the specific waves of post-war migration in detail, the policy mechanisms governing migration, or the push factors driving each wave.",
+    "prior_relationships": [{"code": "AC9HH10K05", "relationship": "application", "note": "The post-war migration drive ('populate or perish') is the policy behind these waves."}],
     "progression_endpoint": "Students analyse the effects of significant post-war world events and developments on Australian society, including the causes and nature of successive waves of migration and the government policies that shaped them.",
     "nodes": [
       {

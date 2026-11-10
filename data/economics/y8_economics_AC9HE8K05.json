@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand consumer rights and financial responsibilities (AC9HE7K05). They understand income sources and the reasons individuals work (AC9HE7K04). They have context from AC9HE8K04 on how the taxation system affects individual financial decisions.",
+    "prior_relationships": [{"code": "AC9HE8K04", "relationship": "background"}],
     "progression_endpoint": "Students explain processes that individuals and/or businesses use to plan and budget to achieve short-term and long-term financial objectives.",
     "nodes": [
       {

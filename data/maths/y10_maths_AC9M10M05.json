@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "use mathematical modelling to solve practical problems involving proportion and scaling of objects; formulate problems and interpret solutions in terms of the situation; evaluate and modify models as necessary, and report assumptions, methods and findings",
     "prior_knowledge": "Students can identify how measurement errors affect accuracy of results in practical contexts (AC9M10M04). They have not yet used mathematical modelling as a full cycle (formulate, solve, interpret, evaluate, modify) specifically for proportion and scaling problems.",
+    "prior_relationships": [{"code": "AC9M10M04", "relationship": "background"}],
     "progression_endpoint": "Students use mathematical modelling to solve practical problems involving proportion and scaling, interpreting and evaluating results in context and reporting assumptions, methods and findings.",
     "nodes": [
       {

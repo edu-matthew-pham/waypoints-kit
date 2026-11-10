@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the key features of the chosen Asian society (AC9HH9K19) and describe the effects of European imperial expansion (AC9HH9K01). They have not yet examined how European contact specifically transformed the chosen Asian society — what changed, what persisted, and what the society's internal dynamics brought to the encounter.",
+    "prior_relationships": [{"code": "AC9HH9K01", "relationship": "background"}],
     "progression_endpoint": "Students identify aspects of the chosen Asian society that remained the same or changed during the period of European contact; and describe the causes and effects of European contact — including British opium trade with China, British Raj in India, or Dutch trade and colonisation in Indonesia.",
     "nodes": [
       {

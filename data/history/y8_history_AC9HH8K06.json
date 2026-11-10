@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students explain historical interpretations about significant events, individuals and groups in ancient contexts (AC9HH7K — implicit from prior band) and have developed skills in source analysis (AC9HH7S07). They have not yet examined how and why historians construct different interpretations of the same medieval or early modern subject, including how myths, misconceptions and changing access to sources shape historical understanding.",
+    "prior_relationships": [{"code": "AC9HH7S07", "relationship": "application", "note": "Interpretation skills from Year 7 applied to Medieval Europe."}],
     "progression_endpoint": "Students explain how and why historians have developed different interpretations about events, individuals, groups, institutions or movements in Medieval, Renaissance or pre-modern Europe — including what evidence those interpretations rest on, why they differ, and how interpretations have changed over time.",
     "nodes": [
       {

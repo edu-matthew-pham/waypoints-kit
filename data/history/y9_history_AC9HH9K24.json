@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the development of the chosen Asian society, the effects of European contact, and the role of significant individuals and movements (AC9HH9K19–K23). They have not yet synthesised this knowledge into an account of where the chosen society stood in the world by 1914, or examined how nationalism and self-determination as ideas were reshaping Asian societies' relationships with European powers.",
+    "prior_relationships": [{"code": "AC9HH9K19", "relationship": "background"}],
     "progression_endpoint": "Students investigate the confrontation between the chosen Asian society and Western powers — such as the Sino-French war, the Russo-Japanese war, or the growing demand for Indian or Indonesian independence — explaining the effects of nationalism and self-determination on the society's development by 1914.",
     "nodes": [
       {

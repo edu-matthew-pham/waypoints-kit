@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand why individuals work and how income is derived (AC9HE7K04). They understand consumer rights and financial responsibilities (AC9HE7K05). They have foundational knowledge of how market prices affect decision-making (AC9HE8K01).",
+    "prior_relationships": [{"code": "AC9HE8K01", "relationship": "background"}],
     "progression_endpoint": "Students explain the importance of Australia's system of taxation and how this system affects decision-making by individuals and businesses.",
     "nodes": [
       {

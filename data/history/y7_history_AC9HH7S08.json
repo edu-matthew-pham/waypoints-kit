@@ -9,6 +9,7 @@
     "strand": "Historical Skills — Communicating",
     "mode": "B",
     "prior_knowledge": "Students can explain historical interpretations about significant events, individuals, and groups, and develop reasoned arguments about why interpretations differ (AC9HH7S07). Students can identify and describe the accuracy and usefulness of sources, identify perspectives, and explain causes, effects, continuities, and changes (AC9HH7S03–S07). They have not yet produced formal historical descriptions, explanations, and arguments — texts that integrate historical knowledge, disciplinary concepts and terms, and source references into coherent historical communication.",
+    "prior_relationships": [{"code": "AC9HH7S07", "relationship": "background"}, {"code": "AC9HH7S03", "relationship": "application", "note": "Arguments use the source skills from S03."}],
     "progression_endpoint": "Students create historical descriptions, explanations, and arguments that use historical knowledge, concepts, and terms, and that reference evidence from sources — producing texts that demonstrate command of historical communication conventions at Year 7 level.",
     "nodes": [
       {

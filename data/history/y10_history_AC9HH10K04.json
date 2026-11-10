@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have examined the effects of WW1 on the Australian home front including conscription debates, women's roles, and the treatment of returned soldiers (AC9HH9K11). They can apply continuity-and-change analysis. From AC9HH10K01 they understand the political context of Australia's entry into WW2 and the National Security Act 1939. They have not yet examined the specific home front changes of WW2, the distinct position of First Nations Australians in WW2, or the nature of wartime government controls.",
+    "prior_relationships": [{"code": "AC9HH10K01", "relationship": "background"}],
     "progression_endpoint": "Students explain the continuities and changes on the Australian home front during WW2, including the changing roles of women and First Nations Australians, and evaluate the effects of wartime government controls on individual rights and freedoms.",
     "nodes": [
       {

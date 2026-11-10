@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can identify that historical interpretations differ and explain why (AC9HH8K06, AC9HH8K11). They have studied the Gallipoli campaign, the Western Front experience, and the effects of the war on Australian society (AC9HH9K09, AC9HH9K11). They have not yet examined what the 'Anzac legend' claims as a set of values and ideals, how commemoration functions as a cultural practice, or how historians have debated and contested the legend's nature and significance over time.",
+    "prior_relationships": [{"code": "AC9HH9K11", "relationship": "background"}],
     "progression_endpoint": "Students investigate the ideals associated with the Anzac tradition and how and why WW1 is commemorated in Australian society; discuss similarities and differences in historians' views of the Anzac legend over time; identify differences between commemoration and glorification; and evaluate the fairness of post-war treaties on the defeated powers, including the Treaty of Versailles on Germany.",
     "nodes": [
       {

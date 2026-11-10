@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe Australia's relationship with Britain and Empire identity by 1914 (AC9HH9K08) and the nature of warfare and the war's major turning points (AC9HH9K09, AC9HH9K10). They have not yet examined how the war reshaped Australian domestic society — including the political crisis over conscription, the changed role of women, the experience of returned soldiers, and what the war revealed about the changing relationship with Britain.",
+    "prior_relationships": [{"code": "AC9HH9K08", "relationship": "application", "note": "Uses Australia's pre-war relationship with Britain from K08."}, {"code": "AC9HH9K09", "relationship": "background"}, {"code": "AC9HH9K10", "relationship": "background"}],
     "progression_endpoint": "Students investigate examples of the war's effects on Australian society — including changes to women's roles, the conscription referenda debates, continuities and changes in Australia's relationship with the British Empire, and the physical, psychological, economic and social experiences of returned soldiers including First Nations Australian soldiers.",
     "nodes": [
       {

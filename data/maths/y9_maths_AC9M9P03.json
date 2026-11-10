@@ -9,6 +9,7 @@
     "strand": "Probability",
     "mode": "B",
     "prior_knowledge": "Students can calculate relative frequencies from data to estimate probabilities of compound events involving 'and', inclusive 'or' and exclusive 'or' (AC9M9P02). They have not yet designed and conducted their own simulations using digital tools to compare simple and compound event probabilities.",
+    "prior_relationships": [{"code": "AC9M9P02", "relationship": "application", "note": "Relative frequencies from P02 are compared with simulation results."}],
     "progression_endpoint": "Students design and conduct repeated chance experiments and simulations using digital tools, comparing simple and compound event probabilities and describing results.",
     "nodes": [
       {

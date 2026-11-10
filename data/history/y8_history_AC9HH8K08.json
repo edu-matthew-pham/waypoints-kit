@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students explain the causes and effects of contacts and conflicts within and between ancient societies (AC9HH7K12) and understand the concept of turning points from prior study (AC9HH8K03). They understand the social and cultural features of the chosen empire (AC9HH8K07). They have not yet applied turning point analysis to the specific context of empire and expansion.",
+    "prior_relationships": [{"code": "AC9HH8K03", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K07", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain a significant event, development, turning point or challenge that contributed to continuity and change in the context of empire and/or expansion — describing its causes, effects on different groups, and what it changed or preserved in the trajectory of the empire or expansion.",
     "nodes": [
       {

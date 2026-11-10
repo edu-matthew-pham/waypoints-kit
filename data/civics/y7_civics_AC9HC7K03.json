@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "the key principles and features of the Australian legal system, including the Australian Constitution, the rule of law and the court system",
     "prior_knowledge": "Students understand that Australia's Constitution established the framework of government (AC9HC7K01). They know about democratic values including fairness and equality from primary HASS (AC9HS6K06). This is the first systematic treatment of Australia's legal system as a distinct institution.",
+    "prior_relationships": [{"code": "AC9HC7K01", "relationship": "background"}],
     "progression_endpoint": "Students explain the key principles and features of the Australian legal system, including the Constitution, the rule of law, principles of justice and the court hierarchy.",
     "nodes": [
       {

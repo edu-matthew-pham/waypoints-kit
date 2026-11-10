@@ -9,6 +9,7 @@
     "strand": "Algebra",
     "mode": "A",
     "prior_knowledge": "Students can apply exponent laws to numerical and algebraic expressions (AC9M9A01) and manipulate linear expressions using algebraic properties (AC9M8A01). They have not yet expanded products of two binomials or factorised monic quadratic expressions.",
+    "prior_relationships": [{"code": "AC9M9A01", "relationship": "background", "note": "Only the simplest exponent law (x times x is x squared) is needed."}],
     "progression_endpoint": "Students expand binomial products and factorise monic quadratic expressions with integer coefficients, recognising expansion and factorisation as inverse operations.",
     "nodes": [
       {

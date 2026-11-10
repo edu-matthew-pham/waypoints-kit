@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students explain the causes of urbanisation and its impacts (AC9HG8K06) and urban distribution patterns and concentration (AC9HG8K07). They now bring these together to evaluate management strategies for sustainable urban futures.",
+    "prior_relationships": [{"code": "AC9HG8K06", "relationship": "application", "note": "Strategies respond to the impacts of urbanisation from K06."}, {"code": "AC9HG8K07", "relationship": "background"}],
     "progression_endpoint": "Students explain strategies used to manage the sustainability of Australia's changing urban places, examining environmental, economic and social implications.",
     "nodes": [
       {

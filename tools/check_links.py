@@ -1,12 +1,16 @@
 #!/usr/bin/env python3
-"""Check data/cross-subject/links.json and threads.json against the node files.
+"""Check the kit's prior-knowledge links: data/cross-subject/links.json, threads.json, and each node file's
+prior_relationships (the types of same-subject prior knowledge).
 
 Usage:  python3 tools/check_links.py
-Exits with status 1 and lists the problems if any check fails. Run it after editing either file.
+Exits with status 1 and lists the problems if any check fails. Run it after editing any of them.
 
 Checks: every standard and node exists; field values are allowed; timing agrees with the two standards'
 years; a link joins two different subjects; no link is listed twice; every thread named in a link exists.
+For prior_relationships: each code is named in the standard's prior_knowledge text, is not from a later
+year, and is listed once.
 """
+import re
 import glob
 import json
 import os
@@ -38,6 +42,9 @@ def load_standards():
         if not s or "nodes" not in s:
             continue
         std[s["code"].upper()] = {
+            "file": os.path.relpath(f, ROOT),
+            "prior_knowledge": s.get("prior_knowledge") or "",
+            "prior_relationships": s.get("prior_relationships"),
             "subject": os.path.basename(os.path.dirname(f)),
             "years": years(d["year_level"]),
             "nodes": {int(n["id"]) for n in s["nodes"] if str(n.get("id", "")).isdigit()},
@@ -107,10 +114,37 @@ def main():
         if len({std.get(m['standard'].upper(), {}).get('subject') for m in th["members"]}) < 2:
             problems.append(f"thread {th['id']}: members are all one subject")
 
+    typed = 0
+    for code, s in std.items():
+        pr = s["prior_relationships"]
+        if pr is None:
+            continue
+        where = f"{s['file']} prior_relationships"
+        if not isinstance(pr, list):
+            problems.append(f"{where}: must be a list")
+            continue
+        named = {c.upper() for c in re.findall(r"AC9[A-Z]+\d+[A-Z]+\d+", s["prior_knowledge"], re.I)}
+        seen_codes = set()
+        for e in pr:
+            c = str(e.get("code", "")).upper()
+            extra = set(e) - {"code", "nodes", "relationship", "note"}
+            if extra:
+                problems.append(f"{where} {c}: unknown field(s) {sorted(extra)}")
+            if e.get("relationship") not in RELATIONSHIPS:
+                problems.append(f"{where} {c}: relationship must be one of {sorted(RELATIONSHIPS)}")
+            if c not in named:
+                problems.append(f"{where} {c}: not named in prior_knowledge")
+            if c in seen_codes:
+                problems.append(f"{where} {c}: listed twice")
+            seen_codes.add(c)
+            if check_nodes(c, e.get("nodes"), where) and std[c]["years"][0] > s["years"][1]:
+                problems.append(f"{where} {c}: from a later year")
+            typed += 1
+
     if problems:
         print("\n".join(problems))
         sys.exit(1)
-    print(f"OK: {len(links)} links, {len(threads)} threads")
+    print(f"OK: {len(links)} links, {len(threads)} threads, {typed} typed prior-knowledge codes")
 
 
 if __name__ == "__main__":

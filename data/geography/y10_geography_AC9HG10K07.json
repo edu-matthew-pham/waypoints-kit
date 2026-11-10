@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand spatial wellbeing variations at the regional/national scale using international cases (AC9HG10K06) and are familiar with wellbeing measurement tools (AC9HG10K05). They have engaged with First Nations custodial approaches (AC9HG10K03) and Australia's internal migration and urban/rural dynamics (AC9HG8K06, AC9HG8K08).",
+    "prior_relationships": [{"code": "AC9HG10K06", "relationship": "background"}, {"code": "AC9HG10K03", "relationship": "background"}],
     "progression_endpoint": "Students explain the reasons for and consequences of spatial variations in human wellbeing in Australia, including identifying causes for First Nations Australians' wellbeing data and explaining how a person's wellbeing is influenced by where they live, with reference to interconnections of environmental, economic, social and technological factors in at least two different places.",
     "nodes": [
       {

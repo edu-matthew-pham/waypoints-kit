@@ -9,6 +9,7 @@
     "strand": "Work, Income and Finance",
     "mode": "A",
     "prior_knowledge": "Students have explored consumer choices and strategies for making informed financial decisions (AC9HS6K08) and are developing understanding of work and income (AC9HE7K04). They are familiar with making purchases but have not formally examined the legal and ethical framework of rights and responsibilities that governs consumer and financial transactions.",
+    "prior_relationships": [{"code": "AC9HE7K04", "relationship": "background"}],
     "progression_endpoint": "Students explain the rights and responsibilities of individuals and businesses in relation to consumer and financial products and services.",
     "nodes": [
       {

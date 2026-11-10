@@ -9,6 +9,7 @@
     "description": "use mathematical modelling to solve practical problems, involving rational numbers and percentages, including financial contexts; formulate problems, choosing representations and efficient calculation strategies, using digital tools as appropriate; interpret and communicate solutions in terms of the situation, justifying choices made about the representation",
     "mode": "A",
     "prior_knowledge": "Students can apply the four operations to rational numbers, work with percentages, and solve ratio problems (from AC9M7N06, AC9M7N08). Students have experience with mathematical modelling in prior years (from AC9M6N09).",
+    "prior_relationships": [{"code": "AC9M7N08", "relationship": "application", "note": "Ratios are one of the tools used in modelling."}],
     "progression_endpoint": "Students formulate, solve and interpret mathematical models involving rational numbers and percentages in practical contexts, justifying representation choices and communicating solutions in terms of the situation.",
     "nodes": [
       {

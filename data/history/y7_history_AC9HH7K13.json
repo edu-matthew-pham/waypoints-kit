@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the causes and effects of contacts and conflicts within ancient societies and explain how they drove historical change (AC9HH7K12). They have accumulated understanding of the ancient society's environment (K09), social structure (K10), beliefs and practices (K11), and dynamics of change (K12). They have not yet examined how a specific individual's role and achievements reflect, shaped, and were shaped by the historical context built across K09–K12.",
+    "prior_relationships": [{"code": "AC9HH7K12", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students describe the role and achievements of a significant individual in the ancient society, explain how the individual's actions influenced the society, and connect the individual's story to the broader historical context of the society's environment, structure, beliefs, and dynamics of change.",
     "nodes": [
       {

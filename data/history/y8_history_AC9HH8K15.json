@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students explain the role and achievements of significant individuals in ancient and imperial contexts (AC9HH7K13, AC9HH8K05, AC9HH8K10). They understand the social and cultural features of the chosen Asia-Pacific society (AC9HH8K12). They have not yet applied significance analysis to individuals specifically connected to Asia-Pacific societies — Khmer rulers, Japanese shoguns, or Polynesian groups.",
+    "prior_relationships": [{"code": "AC9HH8K05", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K10", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K12", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain the role and achievements of a significant individual or group in the chosen Asia-Pacific society — describing what they did, the conditions that enabled their actions, and the impact and legacy of their achievements.",
     "nodes": [
       {

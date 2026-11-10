@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand how historians construct and evaluate interpretations (AC9HH8K06) and the events, individuals and society of the chosen empire (AC9HH8K07–K10). They have not yet applied interpretive analysis specifically to the contested historiography of medieval empires and expansion — including how oral traditions, primary sources, death tolls and post-colonial perspectives shape historical understanding.",
+    "prior_relationships": [{"code": "AC9HH8K06", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K07", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain how and why historians have developed different interpretations of the chosen empire or expansion — including the evidence on which interpretations rest, the factors that have shaped historical understanding, and how interpretations have been contested or revised over time.",
     "nodes": [
       {

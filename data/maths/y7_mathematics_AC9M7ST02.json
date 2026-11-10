@@ -9,6 +9,7 @@
     "description": "create different types of numerical data displays including stem-and-leaf plots using software where appropriate; describe and compare the distribution of data, commenting on the shape, centre and spread including outliers and determining the range, median, mean and mode",
     "mode": "A",
     "prior_knowledge": "Students can calculate range, median, mean and mode (from AC9M7ST01). Students can interpret distributions using mode and range (from AC9M6ST01).",
+    "prior_relationships": [{"code": "AC9M7ST01", "relationship": "application", "note": "Measures of centre are used to describe distributions."}],
     "progression_endpoint": "Students create and interpret stem-and-leaf plots and other numerical data displays, describing and comparing distributions in terms of shape, centre, spread and outliers.",
     "nodes": [
       {

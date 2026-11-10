@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "how values based on freedom, respect, fairness and equality of opportunity can support social cohesion and democracy within Australian society",
     "prior_knowledge": "Students understand Australia's democratic freedoms and the characteristics of active and formal citizenship (AC9HC7K02). They have explored Australia's pluralist, multi-faith society and diverse cultural origins (AC9HC7K04). This descriptor extends that to examine how shared values can hold a diverse society together.",
+    "prior_relationships": [{"code": "AC9HC7K02", "relationship": "background"}, {"code": "AC9HC7K04", "relationship": "background"}],
     "progression_endpoint": "Students explain how values based on freedom, respect, fairness and equality of opportunity can support social cohesion and democracy, evaluating the extent to which these values are reflected in Australian society.",
     "nodes": [
       {

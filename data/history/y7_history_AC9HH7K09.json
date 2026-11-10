@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the methods and sources of evidence used by historians and archaeologists to investigate early societies, and explain the importance of conservation (AC9HH7K08). They have not yet examined how the physical environment and geography specifically shaped the development of an ancient society — the cause-and-effect relationship between landscape and civilisation.",
+    "prior_relationships": [{"code": "AC9HH7K08", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students describe how the physical environment and geographical features of an ancient society's location influenced its development — including how landforms, waterways, climate, and resources shaped settlement patterns, agriculture, trade, and cultural development.",
     "nodes": [
       {

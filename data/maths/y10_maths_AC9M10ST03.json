@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "construct scatterplots and comment on the association between the 2 numerical variables in terms of strength, direction and linearity",
     "prior_knowledge": "Students can compare continuous distributions using boxplots discussing centre, spread, shape and outliers (AC9M10ST02). They have not yet constructed scatterplots or described association between two numerical variables in terms of strength, direction and linearity.",
+    "prior_relationships": [{"code": "AC9M10ST02", "relationship": "background"}],
     "progression_endpoint": "Students construct scatterplots and comment on the association between two numerical variables in terms of strength, direction and linearity.",
     "nodes": [
       {

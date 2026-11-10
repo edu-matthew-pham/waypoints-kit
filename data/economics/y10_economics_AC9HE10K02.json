@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand how economic decision-making involves the interdependence of consumers, businesses, the financial sector and government (AC9HE9K02). They have explored how Australia trades with other nations and its patterns with Asia (AC9HE9K03). They can explain how different actors in the economy interact and how decisions ripple across the system. Students have also begun working with AC9HE10K01 — how economic indicators signal the need for government response.",
+    "prior_relationships": [{"code": "AC9HE10K01", "relationship": "background"}],
     "progression_endpoint": "Students explain the ways that the Australian Government intervenes in the economy through fiscal policy, income redistribution and regulation to improve economic performance and living standards.",
     "nodes": [
       {

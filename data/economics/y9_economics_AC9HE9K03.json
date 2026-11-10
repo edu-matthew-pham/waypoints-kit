@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "From AC9HE9K02 (direct predecessor): how economic decision-making involves interdependence of consumers, businesses, financial sector and government, including globalisation and supply chains. From AC9HE9K01: Australia's financial sector and its global role. Students understand economic interdependence but have not yet specifically investigated why countries trade or analysed Australia's trade relationship with Asia.",
+    "prior_relationships": [{"code": "AC9HE9K02", "relationship": "background"}, {"code": "AC9HE9K01", "relationship": "background"}],
     "progression_endpoint": "Students explain the reasons Australia trades with other nations and the patterns of trade between Australia and Asia.",
     "nodes": [
       {

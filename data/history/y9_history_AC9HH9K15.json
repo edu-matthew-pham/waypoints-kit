@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the movement of peoples and the growth of industrial cities (AC9HH9K014, AC9HH9K13). They have not yet applied a short/medium/long-term temporal framework to evaluate effects, or examined how population movements produced effects across multiple timescales simultaneously.",
+    "prior_relationships": [{"code": "AC9HH9K13", "relationship": "background"}],
     "progression_endpoint": "Students describe the short-, medium- and long-term effects of population movements and changing settlement patterns — including the impact of factories, mines and cities on the environment; the impact of the steam engine on transport, manufacturing and trade; and how social and political reforms resulted in higher living standards.",
     "nodes": [
       {

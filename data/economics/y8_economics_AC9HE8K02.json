@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand the reasons businesses exist and how different types of businesses provide goods and services (AC9HE7K02). They understand entrepreneur characteristics and how these influence business success (AC9HE7K03). They understand how markets allocate resources through price signals (AC9HE8K01).",
+    "prior_relationships": [{"code": "AC9HE8K01", "relationship": "application", "note": "Businesses adapt to changes that markets signal through prices."}],
     "progression_endpoint": "Students discuss different ways that businesses adapt to opportunities in the market and respond to the changing nature of work.",
     "nodes": [
       {

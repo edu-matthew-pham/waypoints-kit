@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students explain the organisation and roles of key groups in ancient society (AC9HH7K10) and understand the feudal hierarchy from AC9HH8K02. They have not yet examined how power and authority were experienced differently by rulers and subject peoples, or how those relationships were contested and changed across the medieval and early modern period.",
+    "prior_relationships": [{"code": "AC9HH8K02", "relationship": "application", "note": "Uses the feudal hierarchy from K02."}],
     "progression_endpoint": "Students explain the experiences and perspectives of rulers and subject peoples in Medieval, Renaissance or pre-modern Europe — including how power was exercised, justified and contested — and describe how interactions between power and authority shaped political change from feudalism through to early modern political systems.",
     "nodes": [
       {

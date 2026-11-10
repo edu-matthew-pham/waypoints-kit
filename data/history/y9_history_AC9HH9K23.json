@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can examine perspectives and experiences of different groups in colonial contexts (AC9HH9K06, AC9HH8K04, AC9HH8K09). They have not yet applied this skill to Asian colonial contexts, or examined how historians have interpreted the significance of Western colonial influences on Asian societies.",
+    "prior_relationships": [{"code": "AC9HH9K06", "relationship": "application", "note": "Perspectives in colonial contexts, applied to Asian societies."}],
     "progression_endpoint": "Students compare and contrast different perspectives about the effect of European colonisation on Asian countries — including colonisers and Asian peoples — and compare the similarities and differences in historians' views about the significance of Western colonial influences.",
     "nodes": [
       {

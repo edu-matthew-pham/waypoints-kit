@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand the concept of turning points and continuity and change from AC9HH8K03. They understand the social, cultural and economic features of the chosen Asia-Pacific society (AC9HH8K12). They have not yet applied turning point analysis to the specific context of Asia-Pacific societies — the decline of the Khmer Empire, changes in Shogunate power, Polynesian expansion, or environmental challenges.",
+    "prior_relationships": [{"code": "AC9HH8K03", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K12", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain a significant development, event, turning point or challenge that contributed to continuity and change in the chosen Asia-Pacific society — describing its causes, its effects on different groups, and what it changed or preserved in the trajectory of the society.",
     "nodes": [
       {

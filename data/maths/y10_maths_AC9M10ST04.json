@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "construct two-way tables and discuss possible relationship between categorical variables",
     "prior_knowledge": "Students can construct scatterplots and describe association in terms of strength, direction and linearity (AC9M10ST03). They have not yet used two-way tables specifically to investigate relationships between categorical variables \u2014 this extends bivariate analysis from numerical to categorical data.",
+    "prior_relationships": [{"code": "AC9M10ST03", "relationship": "background"}],
     "progression_endpoint": "Students construct two-way tables from categorical data sets and discuss possible relationships between categorical variables using frequencies and proportions.",
     "nodes": [
       {

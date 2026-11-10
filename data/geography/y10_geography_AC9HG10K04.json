@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand human-induced environmental changes and sustainability (AC9HG10K01), environmental world views (AC9HG10K02), and First Nations custodial approaches (AC9HG10K03). They have engaged with sustainability strategies for biomes (AC9HG9K04) and urban places (AC9HG8K09), providing a prior framework for evaluating management strategies.",
+    "prior_relationships": [{"code": "AC9HG10K01", "relationship": "application", "note": "Management strategies respond to the human-induced changes from K01."}, {"code": "AC9HG10K02", "relationship": "background"}, {"code": "AC9HG10K03", "relationship": "background"}],
     "progression_endpoint": "Students explain the causes and effects of a change in an identified environment and propose and compare strategies to manage sustainability, drawing on environmental, economic and social criteria and considering trade-offs and the perspectives of different stakeholders.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "strand": "Statistics",
     "mode": "A",
     "prior_knowledge": "Students can analyse survey reports for information on how data was obtained and evaluate claims about population means and medians (AC9M9ST01). They have not yet systematically compared how different sampling methods affect results, or examined how visualisation choices support a particular viewpoint.",
+    "prior_relationships": [{"code": "AC9M9ST01", "relationship": "background"}],
     "progression_endpoint": "Students analyse how sampling methods affect survey results and how representation choices can be used to support a particular point of view.",
     "nodes": [
       {

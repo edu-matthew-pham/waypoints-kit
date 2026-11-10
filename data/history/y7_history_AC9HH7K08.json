@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can explain the cultural obligations of First Nations Australians regarding heritage sites and ancestral remains, and describe how collaboration between Traditional Owners and researchers supports cultural preservation (AC9HH7K07). Students also bring prior understanding of evidence types from AC9HH7K01 (stratigraphy, radiocarbon dating, oral history as evidence for early human migration). They have not yet examined the full range of methods used to investigate early (ancient) societies, nor the specific roles of archaeology and heritage conservation in that investigation.",
+    "prior_relationships": [{"code": "AC9HH7K07", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}, {"code": "AC9HH7K01", "relationship": "background", "note": "K01 introduced some evidence methods; this standard covers the full range."}],
     "progression_endpoint": "Students describe the different methods and sources of evidence used by historians and archaeologists to investigate early societies — including stratigraphy, DNA testing, and written sources — evaluate their value for understanding the past, and explain why archaeology and the conservation of remains, material culture, and heritage sites matter.",
     "nodes": [
       {

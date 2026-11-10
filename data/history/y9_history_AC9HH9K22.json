@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can apply the continuity-and-change framework (AC9HH9K05) and describe the effects of European contact (AC9HH9K20). They have not yet applied this framework systematically to their chosen Asian society across multiple domains simultaneously.",
+    "prior_relationships": [{"code": "AC9HH9K05", "relationship": "application", "note": "The continuity-and-change framework from K05, applied to the chosen Asian society."}, {"code": "AC9HH9K20", "relationship": "background"}],
     "progression_endpoint": "Students explain the position of the chosen Asian society in relation to other nations around 1900; describe how foreign influence and imperialism challenged and changed Asian societies; investigate what remained the same or changed as a result of contact with European powers; and compare relevant policy systems (e.g. Cultivation System and Ethical System in the Dutch East Indies).",
     "nodes": [
       {

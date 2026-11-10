@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "From AC9HE9K01 (direct predecessor): Australia's financial sector — its structure, functions, products and global role. From Y8: market mechanisms and price signals (AC9HE8K01), business adaptation (AC9HE8K02). Students understand how individual actors operate in markets but have not yet analysed how their decisions are mutually dependent within local, national and global economic systems.",
+    "prior_relationships": [{"code": "AC9HE9K01", "relationship": "application", "note": "The financial sector is one of the groups whose decisions depend on each other."}],
     "progression_endpoint": "Students explain how economic decision-making involves the interdependence of consumers, businesses, the financial sector and government.",
     "nodes": [
       {

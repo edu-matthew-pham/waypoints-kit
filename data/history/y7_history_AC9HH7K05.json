@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe how First Nations Australians responded to environmental processes and changes over time, including specific adaptive strategies involving water management and seasonal movement (AC9HH7K04). They have not yet examined the technological achievements of early First Nations Australians as a category in their own right, including the development and sophistication of stone tools, food production systems, and land and water management technologies.",
+    "prior_relationships": [{"code": "AC9HH7K04", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students describe specific technological achievements of early First Nations Australians — including stone tools and stone-knapping techniques, food production and procurement systems, and land and water management technologies — explain how these developed differently across different places, and describe how they contributed to daily life and resource management.",
     "nodes": [
       {

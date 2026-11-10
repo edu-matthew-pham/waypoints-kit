@@ -9,6 +9,7 @@
     "strand": "Space",
     "mode": "B",
     "prior_knowledge": "Students can apply the enlargement transformation and identify invariant properties of similar shapes (AC9M9SP02). They have not yet designed and iteratively refined algorithms grounded in geometric constructions and theorems.",
+    "prior_relationships": [{"code": "AC9M9SP02", "relationship": "background"}],
     "progression_endpoint": "Students design, test and refine algorithms based on geometric constructions and theorems, representing them using pseudocode or flowcharts and evaluating refinements.",
     "nodes": [
       {

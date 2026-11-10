@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand how power and authority operated in medieval European and imperial contexts (AC9HH8K04, AC9HH8K09) and the social hierarchy of the chosen Asia-Pacific society (AC9HH8K12). They have not yet analysed how power and authority specifically operated in Asia-Pacific contexts — including the Khmer god-king, the Tokugawa feudal system, or chiefly authority in Polynesian societies.",
+    "prior_relationships": [{"code": "AC9HH8K04", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K09", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K12", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain the experiences and perspectives of rulers and subject peoples in the chosen Asia-Pacific society — describing how power was exercised and legitimised, how subject peoples experienced authority, and how interactions between rulers and subjects shaped the society's development.",
     "nodes": [
       {

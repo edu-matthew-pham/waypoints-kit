@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand causes and consequences of wellbeing variation at global scale (AC9HG10K05), within a country in Asia (AC9HG10K06), and within Australia including for First Nations Australians (AC9HG10K07). They are positioned to evaluate organisational responses against the causes identified in those earlier standards.",
+    "prior_relationships": [{"code": "AC9HG10K06", "relationship": "background"}, {"code": "AC9HG10K07", "relationship": "background"}],
     "progression_endpoint": "Students identify and explain responses of government and non-government organisations to improve human wellbeing in Australia, India and a Pacific country, evaluating programs against their objectives and outcomes.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can identify competing theories of early human evolution and migration, describe how environmental changes drove movement out of Africa, and identify how different evidence types inform interpretations (AC9HH7K01). They have not yet studied the specific causes, routes, or effects of the arrival of early peoples on the Australian continent.",
+    "prior_relationships": [{"code": "AC9HH7K01", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students identify and describe theories about why and how early First Nations Australians arrived on the Australian continent, explain likely migration routes across the continent using geographical and chronological evidence, and describe the effects of that arrival on the continent.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have examined the places where Australians fought in WW1 and the experiences of soldiers on the Western Front and at Gallipoli (AC9HH9K09). They understand the Anzac legend and its commemorative significance (AC9HH9K12). From AC9HH10K01 they understand Australia's political decision to enter WW2, the strategic context of the Pacific theatre, and the Curtin pivot. They have not yet examined the specific theatres and campaigns of WW2, the fall of Singapore as a distinct event with its own significance, or the range of Australian POW experiences.",
+    "prior_relationships": [{"code": "AC9HH10K01", "relationship": "background"}],
     "progression_endpoint": "Students identify the significant places where Australians fought in WW2, explain the perspectives and experiences of Australian service personnel including POWs, and evaluate the significance of at least one major campaign.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can use a range of digital tools to create and communicate content (AC9TDI8P11, AC9TDI8P12). They have not yet formally encountered the three-layer model of web documents or the rationale for separating content, structure and presentation.",
+    "prior_relationships": [{"code": "AC9TDI8P11", "relationship": "background"}, {"code": "AC9TDI8P12", "relationship": "background"}],
     "progression_endpoint": "Students represent online documents by separating content (text), structure (HTML markup) and presentation (CSS styling), and explain why this separation is important for design, maintenance and accessibility.",
     "nodes": [
       {

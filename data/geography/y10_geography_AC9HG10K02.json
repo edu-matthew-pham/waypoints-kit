@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can explain conflicting stakeholder perspectives on sustainability (AC9HG10K01) and understand human-induced environmental change types. They have engaged with interconnections between human activity and environments (AC9HG9K02, AC9HG9K08) and understand that different people have different relationships to place.",
+    "prior_relationships": [{"code": "AC9HG10K01", "relationship": "background"}],
     "progression_endpoint": "Students discuss the influence of people's environmental world views (human-centred and earth-centred) regarding environmental management and explain how world views shape choices of management methods.",
     "nodes": [
       {

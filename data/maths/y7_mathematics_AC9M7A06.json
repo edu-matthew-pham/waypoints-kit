@@ -9,6 +9,7 @@
     "description": "manipulate formulas involving several variables using digital tools, and describe the effect of systematic variation in the values of the variables",
     "mode": "A",
     "prior_knowledge": "Students can substitute values into formulas and generate tables of values (from AC9M7A01, AC9M7A05). Students have used digital tools for calculation.",
+    "prior_relationships": [{"code": "AC9M7A05", "relationship": "application", "note": "Uses tables of values from A05."}],
     "progression_endpoint": "Students use digital tools to systematically vary values in multi-variable formulas, and describe the effect of each variable's change on the output.",
     "nodes": [
       {

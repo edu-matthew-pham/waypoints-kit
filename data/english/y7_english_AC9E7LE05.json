@@ -9,6 +9,7 @@
     "strand": "Literature — Examining literature",
     "mode": "B",
     "prior_knowledge": "Students can identify and explain how images, figures and visual elements contribute to meaning (AC9E6LA07) and identify characteristics of an author's individual style (AC9E6LE03). They have not yet examined how narrative elements — characters, settings and events — combine to create meaning, rather than each contributing independently.",
+    "prior_relationships": [{"code": "AC9E6LA07", "relationship": "background"}],
     "progression_endpoint": "Students identify and explain how characters, settings and events combine to create meaning in narratives.",
     "nodes": [
       {

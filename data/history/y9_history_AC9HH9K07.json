@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the development of the new Federal Parliament and its social legislation (AC9HH9K04, AC9HH9K05). They have not yet examined how Australian Federal social legislation compared internationally, how women's roles and rights developed in the new federation, or how Australia's position in the world — as a British dominion, as a Pacific nation — shaped its identity by 1914.",
+    "prior_relationships": [{"code": "AC9HH9K05", "relationship": "background"}],
     "progression_endpoint": "Students investigate how the major social legislation of the new Federal Government affected living and working conditions, and explain the continuities and changes in the role of women by 1914, including advocacy for women's rights, suffrage, political representation and pacificism.",
     "nodes": [
       {

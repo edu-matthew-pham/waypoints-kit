@@ -9,6 +9,7 @@
     "strand": "Historical Skills — Historical Interpretation",
     "mode": "A",
     "prior_knowledge": "Students can identify perspectives, attitudes, and values of the past in sources (AC9HH7S06). They have not yet applied the concept of historical interpretation — understanding that historians construct different interpretations of the same events, that interpretations are argument-based rather than simply 'what happened', and that explaining why different interpretations exist is a distinct historical skill.",
+    "prior_relationships": [{"code": "AC9HH7S06", "relationship": "application", "note": "Interpretations apply the idea of perspective to historians."}],
     "progression_endpoint": "Students explain historical interpretations about significant events, individuals, and groups — demonstrating understanding that interpretations are constructed from evidence and argument, that different interpretations of the same event can coexist, and that developing a historical argument about why something is interpreted in different ways is a key historical skill.",
     "nodes": [
       {

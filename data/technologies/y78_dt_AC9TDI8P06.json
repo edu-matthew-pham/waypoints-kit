@@ -9,6 +9,7 @@
     "strand": "Processes and Production Skills",
     "mode": "A",
     "prior_knowledge": "Students can design algorithms with nested control structures and represent them in flowcharts and pseudocode (AC9TDI8P05). They can follow simple algorithms but have not yet systematically traced algorithms using desk checks, specified test cases with expected outputs, or identified errors through tracing.",
+    "prior_relationships": [{"code": "AC9TDI8P05", "relationship": "application", "note": "Tracing works on any algorithm; nested ones from P05 make it richer."}],
     "progression_endpoint": "Students trace algorithms step by step to predict output for given inputs, specify test cases with expected and actual outputs, and identify and explain errors found through systematic tracing.",
     "nodes": [
       {

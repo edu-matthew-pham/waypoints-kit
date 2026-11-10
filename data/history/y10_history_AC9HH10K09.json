@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have examined First Nations Australians' wartime service and the contradiction between service and denied citizenship (AC9HH10K04). From Y9 they have studied colonisation and its effects on First Nations peoples (AC9HH9K03, K06). They have not yet examined the specific legislative and policy framework that governed First Nations Australians' lives in the 20th century, the early organised campaigns for rights, or the Stolen Generations as a distinct historical phenomenon.",
+    "prior_relationships": [{"code": "AC9HH10K04", "relationship": "background"}],
     "progression_endpoint": "Students explain the causes of First Nations Australians' campaigns for rights and freedoms before 1965, including the discriminatory legislative and policy framework, the significance of the 1938 Day of Mourning, and the impact of the Stolen Generations on the civil rights movement.",
     "nodes": [
       {

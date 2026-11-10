@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand the spiritual and aesthetic value of landscapes for First Nations Australians (AC9HG8K03) and have engaged with environmental world views including distinctions between anthropocentric and other frameworks (AC9HG10K02). They have developed awareness of Country/Place as a concept in earlier years.",
+    "prior_relationships": [{"code": "AC9HG10K02", "relationship": "background"}],
     "progression_endpoint": "Students explain First Nations Australians' approaches to custodial responsibility and environmental management in different regions of Australia, including the influence of cultural values, the role of First Nations Park Rangers, and First Nations models of sustainability.",
     "nodes": [
       {

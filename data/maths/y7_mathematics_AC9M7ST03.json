@@ -9,6 +9,7 @@
     "description": "plan and conduct statistical investigations involving data for discrete and continuous numerical variables; analyse and interpret distributions of data and report findings in terms of shape and summary statistics",
     "mode": "A",
     "prior_knowledge": "Students have planned and conducted statistical investigations and communicated findings (from AC9M6ST03). Students can create displays and describe distributions (from AC9M7ST01, AC9M7ST02).",
+    "prior_relationships": [{"code": "AC9M7ST01", "relationship": "application", "note": "Measures of centre are used in the investigation."}, {"code": "AC9M7ST02", "relationship": "application", "note": "Data displays are used in the investigation."}],
     "progression_endpoint": "Students plan and conduct statistical investigations with discrete and continuous numerical variables, and report findings in terms of distribution shape and summary statistics.",
     "nodes": [
       {

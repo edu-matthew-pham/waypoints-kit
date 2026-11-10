@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "examine how the values and needs of society influence the focus of scientific research",
     "prior_knowledge": "Students can examine how scientific communication shapes policy and societal responses (AC9S7H04), and have analysed adoption factors (AC9S9H03). They have not yet examined the reverse direction — how societal values and needs shape what research is funded and pursued in the first place.",
+    "prior_relationships": [{"code": "AC9S9H03", "relationship": "background"}],
     "progression_endpoint": "Students examine how the values and needs of society influence which scientific research questions are funded, pursued and developed — identifying factors such as government priorities, economic incentives, health needs, environmental concerns, and cultural values as shapers of research focus. Students can examine cases where societal needs have directly driven scientific and technological advances, including examples where government, industry and community priorities have shaped research directions.",
     "nodes": [
       {

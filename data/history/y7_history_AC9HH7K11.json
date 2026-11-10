@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the organisation and roles of key groups in the ancient society, including how groups influenced and changed society (AC9HH7K10). They have not yet examined the beliefs, values, and practices that shaped how the society understood the world and organised cultural life — the religious, ideological, and practical dimensions of daily existence.",
+    "prior_relationships": [{"code": "AC9HH7K10", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students describe the key beliefs, values, and practices of the ancient society with particular emphasis on one focus area (everyday life, warfare, or death and funerary customs), explain how these beliefs and values shaped the society's practices, and use evidence from sources to support their descriptions.",
     "nodes": [
       {

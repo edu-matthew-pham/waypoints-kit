@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "the characteristics of Australia's democracy, including freedom of speech, association, assembly, religion and movement",
     "prior_knowledge": "Students know key values and beliefs of Western democracies (AC9HS6K06) and can identify roles and responsibilities of different levels of government (AC9HS6K07). They understand that Australia's government emerged from Federation and is grounded in constitutional arrangements (AC9HS6K01, AC9HC7K01).",
+    "prior_relationships": [{"code": "AC9HC7K01", "relationship": "background"}],
     "progression_endpoint": "Students explain the characteristics of Australia's democracy, including democratic freedoms and how they support active participation, and identify limits on these freedoms.",
     "nodes": [
       {

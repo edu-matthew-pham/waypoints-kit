@@ -9,6 +9,7 @@
     "strand": "Measurement",
     "mode": "A",
     "prior_knowledge": "Students can represent and operate with very large and very small values in scientific notation (AC9M9M02). They have not yet formally distinguished between absolute error, relative error and percentage error, or applied these to interpret measurement accuracy.",
+    "prior_relationships": [{"code": "AC9M9M02", "relationship": "background"}],
     "progression_endpoint": "Students calculate and interpret absolute, relative and percentage errors in measurements, recognising that all measurements are estimates.",
     "nodes": [
       {

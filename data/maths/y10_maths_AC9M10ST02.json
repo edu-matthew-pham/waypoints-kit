@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "compare data distributions for continuous numerical variables using appropriate data displays including boxplots; discuss the shapes of these distributions in terms of centre, spread, shape and outliers in the context of the data",
     "prior_knowledge": "Students can analyse statistical claims in media including ethical considerations and sources of bias (AC9M10ST01). They have not yet constructed or interpreted boxplots, calculated five-number summaries, or compared continuous distributions by shape.",
+    "prior_relationships": [{"code": "AC9M10ST01", "relationship": "background"}],
     "progression_endpoint": "Students compare data distributions for continuous numerical variables using boxplots and other displays, discussing centre, spread, shape and outliers in context.",
     "nodes": [
       {

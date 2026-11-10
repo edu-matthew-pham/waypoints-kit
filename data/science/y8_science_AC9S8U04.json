@@ -9,6 +9,7 @@
     "strand": "Earth and Space Sciences",
     "mode": "A",
     "prior_knowledge": "Students can compare observable properties of rocks and minerals (AC9S3U02) and describe weathering, erosion, transportation and deposition as surface processes (AC9S5U02). Plate tectonics provides heat, pressure and uplift mechanisms (AC9S8U03). Prior learning covers surface rock identification and surface processes only — rock formation processes (igneous crystallisation, metamorphism, lithification) and the rock cycle as a system are entirely new.",
+    "prior_relationships": [{"code": "AC9S8U03", "relationship": "application", "note": "Plate tectonics supplies the heat, pressure and uplift in the rock cycle."}],
     "progression_endpoint": "Students describe the rock cycle as an interconnected system linking sedimentary, igneous and metamorphic formation, explain the geological timescales involved, and examine how each rock type's properties reflect its formation history and determine appropriate use.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can explain how data is represented using binary through off and on states (AC9TDI6K04) and how digital systems use integers to represent text, image and audio data (AC9TDI8K03). They understand the concept of binary as on/off, but have not yet explained binary place value, the relationship between bits and representable range, or how circuits perform binary operations.",
+    "prior_relationships": [{"code": "AC9TDI8K03", "relationship": "background"}],
     "progression_endpoint": "Students explain how integers are represented in binary using place value (powers of 2), the relationship between bits, bytes and representable range, and why digital systems use binary — connecting electronic on/off states to logic gates and data encoding.",
     "nodes": [
       {

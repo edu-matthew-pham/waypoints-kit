@@ -9,6 +9,7 @@
     "strand": "Processes and Production Skills",
     "mode": "B",
     "prior_knowledge": "Students can acquire, store and validate data from a range of sources (AC9TDI8P01). They have worked with data in spreadsheets but have not yet selected visualisation types, summarised data by attributes to identify trends, or drawn evidence-based conclusions and predictions.",
+    "prior_relationships": [{"code": "AC9TDI8P01", "relationship": "application", "note": "Visualises data acquired and validated as in P01."}],
     "progression_endpoint": "Students analyse and visualise data by choosing appropriate graph types and representations, summarise data by attributes to identify trends and patterns, and draw conclusions and make predictions supported by evidence from the data.",
     "nodes": [
       {

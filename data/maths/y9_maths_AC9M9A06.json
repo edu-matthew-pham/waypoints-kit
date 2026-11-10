@@ -9,6 +9,7 @@
     "strand": "Algebra",
     "mode": "A",
     "prior_knowledge": "Students can formulate and use linear and quadratic models in applied contexts (AC9M9A05). They have not yet systematically varied parameters across function families to generalise the effect of each parameter on graphical form, nor explored function families beyond linear and quadratic.",
+    "prior_relationships": [{"code": "AC9M9A05", "relationship": "background"}],
     "progression_endpoint": "Students generalise the effects of parameter variation on the graphs of linear, quadratic and related function families, connecting graphical transformations to algebraic representations.",
     "nodes": [
       {

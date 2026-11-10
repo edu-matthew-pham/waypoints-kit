@@ -9,6 +9,7 @@
     "strand": "Statistics",
     "mode": "A",
     "prior_knowledge": "Students can represent and compare multiple data distributions using comparative representations (AC9M9ST03). They have not yet systematically matched display type to data type and purpose, or justified visualisation choices for a given audience and context.",
+    "prior_relationships": [{"code": "AC9M9ST03", "relationship": "application", "note": "Comparative displays from ST03 are among the displays to choose from."}],
     "progression_endpoint": "Students choose appropriate data displays for given data types, justify their selections, and interpret displays in context.",
     "nodes": [
       {

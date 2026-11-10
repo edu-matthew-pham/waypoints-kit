@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand factors that influence major consumer and financial decisions and their short- and long-term consequences (AC9HE10K03). They can analyse how financial commitments accumulate over time and consider the role of savings. Students have also explored how governments redistribute income through transfers and services (AC9HE10K02).",
+    "prior_relationships": [{"code": "AC9HE10K03", "relationship": "background"}, {"code": "AC9HE10K02", "relationship": "background"}],
     "progression_endpoint": "Students explain the importance of Australia's superannuation system for individual retirement wellbeing and government fiscal sustainability, and explain how the system shapes consumer and financial decision-making.",
     "nodes": [
       {

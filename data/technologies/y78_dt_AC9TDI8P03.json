@@ -9,6 +9,7 @@
     "strand": "Processes and Production Skills",
     "mode": "A",
     "prior_knowledge": "This is the first standard in the Modelling Data sub-strand (begins at 7-8). Students have used spreadsheets to store and organise data (AC9TDI8P01) but have not yet modelled objects and events as structured data with defined attributes, nor queried data using filtering, sorting or SQL.",
+    "prior_relationships": [{"code": "AC9TDI8P01", "relationship": "background"}],
     "progression_endpoint": "Students model objects and events as structured data by identifying relevant attributes and appropriate formats, and query the data using filtering, sorting and simple SQL (SELECT, WHERE, ORDER BY) to answer questions.",
     "nodes": [
       {

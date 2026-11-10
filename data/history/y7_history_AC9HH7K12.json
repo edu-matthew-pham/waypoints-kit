@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the key beliefs, values, and practices of the ancient society and explain how they shaped the society's organisation (AC9HH7K11). They have not yet examined how contacts and conflicts — within or with other societies — produced specific historical developments and changes.",
+    "prior_relationships": [{"code": "AC9HH7K11", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students describe the causes and effects of significant contacts and conflicts within ancient societies and/or with other societies, and explain how these contacts and conflicts resulted in specific developments — including conquest, expansion of trade, and peace treaties.",
     "nodes": [
       {

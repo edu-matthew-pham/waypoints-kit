@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand how historians construct and evaluate interpretations (AC9HH8K06, AC9HH8K11). They understand the events, individuals and society of the chosen Asia-Pacific context (AC9HH8K12–K15). They have not yet applied interpretive analysis to Asia-Pacific historiography — including the specific challenges posed by limited written sources, oral traditions, and post-colonial perspectives on Pacific history.",
+    "prior_relationships": [{"code": "AC9HH8K06", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K11", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K12", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain how and why historians have developed different interpretations of the chosen Asia-Pacific society — including the challenges posed by source availability, the role of oral traditions and archaeology, and how interpretations have changed as new evidence emerges.",
     "nodes": [
       {

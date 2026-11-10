@@ -9,6 +9,7 @@
     "strand": "Processes and Production Skills",
     "mode": "B",
     "prior_knowledge": "Students can explain how multi-factor authentication protects accounts and manage basic security settings (AC9TDI8P13). They understand access control concepts from AC9TDI10K01. They have not yet modelled how data moves through a system, constructed a threat model, or explored how specific vulnerabilities can be exploited.",
+    "prior_relationships": [{"code": "AC9TDI10K01", "relationship": "application", "note": "Uses the access-control ideas from K01."}],
     "progression_endpoint": "Students develop cyber security threat models to identify where data is at risk in a system, and explore a specific software, user or software supply chain vulnerability.",
     "nodes": [
       {

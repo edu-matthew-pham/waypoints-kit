@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students understand how power and authority operated in medieval Europe (AC9HH8K04) and the social and cultural features of the chosen empire (AC9HH8K07). They have not yet analysed the specific power structures and relationships between rulers and subject peoples in the context of empire and expansion.",
+    "prior_relationships": [{"code": "AC9HH8K04", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K07", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain the experiences and perspectives of rulers and subject peoples in the context of the chosen empire or expansion — describing how power was exercised, how authority was legitimised, how subject peoples experienced conquest or rule, and how these interactions shaped the empire's development.",
     "nodes": [
       {

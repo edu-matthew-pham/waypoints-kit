@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can explain how the physical environment shaped the development of the ancient society, including agricultural foundations and social complexity (AC9HH7K09). They have not yet examined the internal social organisation of the ancient society — the specific groups, their roles, their relationships, and how power was distributed and contested.",
+    "prior_relationships": [{"code": "AC9HH7K09", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students describe the organisation and roles of key social groups in the ancient society — including the nobility, bureaucracy, women, and slaves — explain how these groups influenced the society, and describe how the relationships between groups changed over time.",
     "nodes": [
       {

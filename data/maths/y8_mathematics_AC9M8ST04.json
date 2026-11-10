@@ -9,6 +9,7 @@
     "description": "plan and conduct statistical investigations involving samples of a population; use ethical and fair methods to make inferences about the population and report findings, acknowledging uncertainty",
     "mode": "A",
     "prior_knowledge": "Students can plan and conduct statistical investigations (from AC9M7ST03). Students understand sampling methods and variation (from AC9M8ST02, AC9M8ST03).",
+    "prior_relationships": [{"code": "AC9M8ST02", "relationship": "application", "note": "Sampling methods are used in the investigation."}, {"code": "AC9M8ST03", "relationship": "application", "note": "Sample size and variation are used in the investigation."}],
     "progression_endpoint": "Students plan and conduct investigations using ethical and fair sampling methods, make inferences about the population, and report findings while explicitly acknowledging uncertainty.",
     "nodes": [
       {

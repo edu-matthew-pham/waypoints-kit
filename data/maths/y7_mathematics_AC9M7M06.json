@@ -9,6 +9,7 @@
     "description": "use mathematical modelling to solve practical problems involving ratios; formulate problems, interpret and communicate solutions in terms of the situation, justifying choices made about the representation",
     "mode": "A",
     "prior_knowledge": "Students can recognise, represent and solve ratio problems (from AC9M7N08). Students have used mathematical modelling in numerical contexts (from AC9M7N09).",
+    "prior_relationships": [{"code": "AC9M7N09", "relationship": "background"}],
     "progression_endpoint": "Students use mathematical modelling to formulate and solve practical problems involving ratios of measurement quantities, communicating and justifying solutions in context.",
     "nodes": [
       {

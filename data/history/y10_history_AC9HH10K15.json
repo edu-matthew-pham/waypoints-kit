@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have examined the Holocaust's scale and significance and its role in motivating international human rights frameworks (AC9HH10K03, N5). They have examined Australia's role in founding the United Nations (K05, N3). They have studied international human rights frameworks in K13. They have not yet examined the UDHR's specific content, drafting history, or present significance in detail.",
+    "prior_relationships": [{"code": "AC9HH10K03", "relationship": "background"}],
     "progression_endpoint": "Students explain the origins and significance of the Universal Declaration of Human Rights, including Australia's involvement in its development and its present significance.",
     "nodes": [
       {

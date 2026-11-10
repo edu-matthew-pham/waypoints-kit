@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "how Australia's secular democracy and pluralist, multi-faith society draws upon diverse cultural origins, including Christian and Western heritage, distinct First Nations Australian histories and cultures, and migrant communities",
     "prior_knowledge": "Students understand Australia's system of government and democratic freedoms (AC9HC7K01, AC9HC7K02). From primary HASS they know about migration and Australian society (AC9HS6K03) and diversity in communities. This descriptor extends that to the concept of secular democracy and the religious and cultural dimensions of Australian identity.",
+    "prior_relationships": [{"code": "AC9HC7K01", "relationship": "background"}, {"code": "AC9HC7K02", "relationship": "background"}],
     "progression_endpoint": "Students explain how Australia's secular democracy and pluralist, multi-faith society draws upon diverse cultural origins including Christian and Western heritage, distinct First Nations histories and cultures, and migrant communities.",
     "nodes": [
       {

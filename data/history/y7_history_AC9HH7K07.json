@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the social organisation and cultural practices of early First Nations Australians, including funerary customs, and explain how cultural knowledge has been transmitted through oral traditions and expressive arts (AC9HH7K06). They have not yet examined cultural obligations about heritage sites specifically, or the role of collaboration and institutional frameworks in cultural preservation.",
+    "prior_relationships": [{"code": "AC9HH7K06", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain the cultural obligations of First Nations Australians regarding significant heritage sites, ancestral remains, and material culture; describe how the Lake Mungo case illustrates issues of ownership, cultural protocols, and repatriation; and explain the role of collaboration between Traditional Owners, researchers, and institutions in cultural preservation, including world heritage frameworks.",
     "nodes": [
       {

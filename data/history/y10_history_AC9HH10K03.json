@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have examined turning points of WW1 (AC9HH9K10) and can apply the concept of historical significance. From AC9HH10K01 they understand the course of the war at a structural level. From AC9HH10K02 they have examined specific Australian campaigns. They have studied the rise of fascism and Nazi ideology (AC9HH10K01, N2), giving them the ideological context for the Holocaust. They have not yet examined the Holocaust as a conceptually distinct historical phenomenon requiring its own analytical framework, nor analysed the atomic bomb decision as an ethical and strategic problem.",
+    "prior_relationships": [{"code": "AC9HH10K02", "relationship": "background"}],
     "progression_endpoint": "Students explain why particular events were significant turning points in both the European and Asia-Pacific theatres, examine the historical context and scale of the Holocaust, and analyse the decision to use atomic weapons including their short- and long-term effects.",
     "nodes": [
       {

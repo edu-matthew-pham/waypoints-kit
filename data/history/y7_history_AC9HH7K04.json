@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can explain that First Nations Australians' cultures display both continuity and change over deep time, and describe evidence of cultural adaptation including responses to environmental change (AC9HH7K03). They have not yet examined specific environmental processes in detail — rising sea levels, aridification, megafauna — or how particular communities responded to each.",
+    "prior_relationships": [{"code": "AC9HH7K03", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain how First Nations Australians responded to specific environmental processes and changes over time, including rising sea levels, aridification, and the presence and extinction of megafauna, and describe how evidence of these responses — including oral traditions, archaeological evidence, and water management techniques — demonstrates adaptation, resilience, and cultural sophistication.",
     "nodes": [
       {

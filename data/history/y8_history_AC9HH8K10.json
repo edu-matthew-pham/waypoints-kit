@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students explain the role and achievements of a significant individual in an ancient society (AC9HH7K13) and understand significance as a historical concept (AC9HH8K05). They understand the social and cultural features of the chosen empire (AC9HH8K07) and its turning points (AC9HH8K08). They have not yet applied significance analysis to individuals specifically connected to medieval empire and expansion.",
+    "prior_relationships": [{"code": "AC9HH8K05", "relationship": "application", "note": "The same concept applied to a different depth study; schools may not teach both."}, {"code": "AC9HH8K07", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}, {"code": "AC9HH8K08", "relationship": "background", "note": "An earlier topic in the same depth study: useful context, but this one can be taught on its own."}],
     "progression_endpoint": "Students explain the role and achievements of a significant individual or group connected to the chosen empire or expansion — describing what they did, the conditions that enabled their actions, and the impact and legacy of their achievements on the empire and beyond.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "mode": "A",
     "description": "experiment with functions and relations using digital tools, making and testing conjectures and generalising emerging patterns",
     "prior_knowledge": "Students can use mathematical modelling with linear, quadratic or exponential models to solve growth and decay problems (AC9M10A04). They have not yet experimented systematically across the range of function and relation types at this year band \u2014 including circles, intersections of different function types, and bisection methods \u2014 using conjecture and generalisation as the primary inquiry mode.",
+    "prior_relationships": [{"code": "AC9M10A04", "relationship": "background"}],
     "progression_endpoint": "Students experiment with functions and relations using digital tools, making and testing conjectures, and generalising emerging patterns across linear, quadratic, exponential and circular representations.",
     "nodes": [
       {

@@ -71,7 +71,20 @@ The relationship types follow the Learning Waypoints framework's prior-knowledge
 
 **`threads.json`**: an idea several subjects teach in their own way, such as evidence and claims. Each thread lists its member standards and nodes, with one line on how each subject frames the idea. Membership is recorded only here.
 
-`tools/check_links.py` checks both files against the node files (codes and nodes exist, allowed values, timing agrees with the years, two different subjects, no duplicates). `python3 tools/build_index.py --cross-subject` then writes `index/cross-subject.md` and the Other subjects column in each `index/<subject>.md`.
+**Types for same-subject prior knowledge: `prior_relationships`.** Each code in `prior_knowledge` counts as a **prerequisite** (needed first) unless the node file says otherwise. `prior_relationships`, beside `prior_knowledge`, lists only the exceptions:
+
+```json
+"prior_relationships": [{"code": "AC9HE7K01", "relationship": "application", "note": "Weighing costs and benefits is opportunity cost used on an issue."}]
+```
+
+- `code` (and optional `nodes`): a code named in the `prior_knowledge` text.
+- `relationship`: `application` or `background`, the same meanings as in `links.json`. The test: without the earlier idea, does this standard still make sense? If not, it's a prerequisite. If it does, it's an application when this standard uses the idea directly, and background when the idea is only context.
+- `note`: optional, plain language.
+- Timing isn't stored: both standards are in the same subject, so it comes from their years (earlier or same year; never later).
+
+What it means for anything that checks lesson order: a **prerequisite** must come first. From an earlier year it's taught in class; from the same year it needs an earlier lesson. Applications and background are never demanded: they're notes for planning and lesson writing. Labelled 10 Nov 2026: every same-year code in Years 7 to 10 (156), plus 13 earlier-year codes from another strand of the same subject. Earlier-year codes elsewhere were left as prerequisites (nothing that checks lesson order treats them as missing), and so was Foundation to Year 6.
+
+`tools/check_links.py` checks both files against the node files (codes and nodes exist, allowed values, timing agrees with the years, two different subjects, no duplicates), and checks each `prior_relationships` code is named in `prior_knowledge`, isn't from a later year and is listed once. `python3 tools/build_index.py --cross-subject` then writes `index/cross-subject.md` and the Other subjects column in each `index/<subject>.md`.
 
 ## Known limits
 

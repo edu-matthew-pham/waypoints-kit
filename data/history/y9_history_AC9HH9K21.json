@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe how individuals and groups promote ideas and how significant events shape historical change (AC9HH9K18, AC9HH8K05, AC9HH8K10). They have not yet applied this analytical framework to the specific development of the chosen Asian society under European contact pressure.",
+    "prior_relationships": [{"code": "AC9HH9K18", "relationship": "application", "note": "The idea of individuals promoting ideas, applied to the chosen Asian society."}],
     "progression_endpoint": "Students describe and explain significant events, ideas, people and movements in the development of the chosen Asian society — drawing from: the Boxer Rebellion and Chinese modernisation; Japan's Meiji Restoration period; or the Indian independence movement and key figures.",
     "nodes": [
       {

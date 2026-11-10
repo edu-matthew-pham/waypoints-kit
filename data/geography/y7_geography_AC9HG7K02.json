@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students have completed AC9HG7K01 — they can classify water as a renewable/continuous/non-renewable resource, trace water movement connecting places, and explain environmental, economic and social effects. They can locate Australia broadly but have not previously examined the spatial distribution of Australia's water resources or the concept of sustainability applied specifically to water.",
+    "prior_relationships": [{"code": "AC9HG7K01", "relationship": "application", "note": "Uses the resource types (renewable, non-renewable, continuous) from K01."}],
     "progression_endpoint": "Students explain the location and distribution of water resources in Australia, their implications for people, and strategies to manage water sustainability.",
     "nodes": [
       {

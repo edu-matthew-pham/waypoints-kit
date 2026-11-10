@@ -9,6 +9,7 @@
     "description": "describe the relationship between π and the features of circles including the circumference, radius and diameter",
     "mode": "A",
     "prior_knowledge": "Students are familiar with circle vocabulary (centre, radius, diameter) from informal prior experience. Students can measure length and calculate with decimals (from AC9M6M01, AC9M7N06).",
+    "prior_relationships": [{"code": "AC9M7N06", "relationship": "application", "note": "Calculating with decimals, used to work with pi."}],
     "progression_endpoint": "Students describe π as the constant ratio of circumference to diameter and use this relationship to calculate circumference and diameter.",
     "nodes": [
       {

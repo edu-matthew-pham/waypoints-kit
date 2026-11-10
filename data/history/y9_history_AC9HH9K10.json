@@ -9,6 +9,7 @@
     "strand": "Knowledge and Understanding",
     "mode": "A",
     "prior_knowledge": "Students can describe the theatres where Australians fought, the conditions of trench warfare, and the development of military technology (AC9HH9K09). They have not yet examined the concept of a military turning point, evaluated the significance of strategic-level events (Russian Revolution, American entry, Armistice), or worked with opposing-perspective sources to construct historical understanding of specific battles.",
+    "prior_relationships": [{"code": "AC9HH9K09", "relationship": "background"}],
     "progression_endpoint": "Students investigate a major battle (including its location, techniques and the nature of warfare), examine the perspectives of those who fought on both sides using primary sources, and evaluate the significance of the Russian Revolution, American entry into the war and the Armistice of November 1918 in ending the war.",
     "nodes": [
       {

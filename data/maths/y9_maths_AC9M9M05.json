@@ -9,6 +9,7 @@
     "strand": "Measurement",
     "mode": "B",
     "prior_knowledge": "Students can calculate and interpret absolute, relative and percentage errors in measurements (AC9M9M04). They have not yet applied the full mathematical modelling cycle to applied problems involving direct proportion, rates, ratio and scale across diverse real-world contexts.",
+    "prior_relationships": [{"code": "AC9M9M04", "relationship": "background"}],
     "progression_endpoint": "Students apply the mathematical modelling cycle to solve practical problems involving direct proportion, rates, ratio and scale, interpreting solutions in context and evaluating the model.",
     "nodes": [
       {

@@ -9,6 +9,7 @@
     "mode": "B",
     "description": "explain the methods or strategies related to making decisions about civic participation",
     "prior_knowledge": "Students have examined ways citizens can participate in democracy (AC9HC7K02) and can assess possible effects of actions and evaluate perspectives (AC9HS6S06). The Y7 capability shift is to explain the methods and strategies of civic participation — understanding how and why particular participation strategies are chosen, not just what they are.",
+    "prior_relationships": [{"code": "AC9HC7K02", "relationship": "application", "note": "Uses what students know about how citizens participate."}],
     "progression_endpoint": "Students explain the methods and strategies of civic participation, identifying how these contribute to democratic and just outcomes.",
     "nodes": [
       {

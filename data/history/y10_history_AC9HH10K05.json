@@ -9,6 +9,7 @@
     "strand": "History (Knowledge and Understanding)",
     "mode": "A",
     "prior_knowledge": "Students have established in AC9HH10K01 that the war accelerated Australia's strategic pivot from Britain to the USA and that this was a political choice. From K04 they have examined the home front effects. They understand Australia's pre-war relationship with Britain from WW1 study (AC9HH9K11). They have not yet examined post-war reconstruction, ANZUS, Australia's role in the UN, or the mechanisms of Australia's post-war engagement with Asia.",
+    "prior_relationships": [{"code": "AC9HH10K01", "relationship": "background"}],
     "progression_endpoint": "Students evaluate the significance of WW2 to Australia's post-war development — economic, political, and social — and to Australia's international relationships, including the shift from Britain to the USA and the deepening engagement with Asia.",
     "nodes": [
       {

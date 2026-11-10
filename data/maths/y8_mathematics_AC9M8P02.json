@@ -9,6 +9,7 @@
     "description": "determine all possible combinations for 2 events, using two-way tables, tree diagrams and Venn diagrams, and use these to determine probabilities of specific outcomes in practical situations",
     "mode": "A",
     "prior_knowledge": "Students can list sample spaces and assign probabilities for single-stage events (from AC9M7P01). Students understand complementary events (from AC9M8P01).",
+    "prior_relationships": [{"code": "AC9M8P01", "relationship": "background"}],
     "progression_endpoint": "Students represent all combinations for two events using two-way tables, tree diagrams and Venn diagrams, and calculate probabilities of compound events.",
     "nodes": [
       {
