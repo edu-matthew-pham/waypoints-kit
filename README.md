@@ -90,7 +90,7 @@ Download [`waypoints-kit-all.md`](waypoints-kit-all.md) (the whole kit in one fi
 
 ## Standards
 
-Node files for the ACARA F–10 standards (about 1,500 across all learning areas) live in `data/`, copied from [ACARA Progressions](https://acara.learningwaypoints.com), which is where they are authored and browsed. The AI finds the right one through the [index](index/README.md), so you only need to give it the standard code or topic. If it can't open the file, open the standard in Progressions, use "Copy markdown", and paste it into the chat.
+Node files for the ACARA F–10 standards (about 1,500 across all learning areas) live in `data/`. They were first copied from [ACARA Progressions](https://acara.learningwaypoints.com), where you can browse them; since 10 Nov 2026 the kit's copy is the master, so corrections are made here. The AI finds the right one through the [index](index/README.md), so you only need to give it the standard code or topic. If it can't open the file, open the standard in Progressions, use "Copy markdown", and paste it into the chat.
 
 ## The files
 
@@ -129,7 +129,7 @@ Node files for the ACARA F–10 standards (about 1,500 across all learning areas
 | File | What it does |
 |---|---|
 | [`index/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/index) | Every standard with a node file, by subject |
-| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/data) | The node files, glossaries and progression maps, copied from Progressions |
+| [`data/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/data) | The node files, glossaries and progression maps, first copied from Progressions; the kit's node files are now the master copy |
 | [`tools/`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/tools) | `build_index.py` regenerates `index/`; `build_bundle.py` regenerates the one-file kit |
 | [`NOTICE.md`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/NOTICE.md), [`LICENSE`](https://github.com/edu-matthew-pham/waypoints-kit/blob/main/LICENSE) | ACARA attribution and the licence (CC BY-NC-SA 4.0) |
 

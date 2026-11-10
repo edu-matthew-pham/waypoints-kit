@@ -51,7 +51,7 @@ A lighter, plain-file version of Planner's core logic. No saved plans, no mergin
 
 ## Cross-subject links
 
-A node file's `prior_knowledge` names what a standard builds on **in its own subject**, with codes in the text (Years 7 to 10 History, Geography, Civics and Economics count Foundation to Year 6 HASS as their own subject). What a standard relies on or shares with **another subject** lives in two separate files in `data/cross-subject/`, not in the node files. They are written in the kit, unlike the node files, which are copied from ACARA Progressions, so a fresh copy doesn't overwrite them.
+A node file's `prior_knowledge` names what a standard builds on **in its own subject**, with codes in the text (Years 7 to 10 History, Geography, Civics and Economics count Foundation to Year 6 HASS as their own subject). What a standard relies on or shares with **another subject** lives in two separate files in `data/cross-subject/`, not in the node files. Keeping them separate keeps each node file about its own subject, and lets one link or thread be reviewed in one place.
 
 **`links.json`**: one record per link, kept on the later (dependent) standard. "Used by" lists are worked out from the same records, not stored twice.
 
