@@ -70,7 +70,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Corroboration: several independent lines of evidence support a claim."
   },
   {
@@ -84,7 +84,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Corroboration: several independent lines of evidence support a claim."
   },
   {
@@ -98,7 +98,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Corroboration: several independent lines of evidence support a claim."
   },
   {
@@ -161,7 +161,7 @@
    "links_to": "AC9M10ST01",
    "relationship": "background",
    "timing": "same_year",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Analysing claims in media reports."
   },
   {
@@ -283,7 +283,7 @@
    "links_to": "AC9M7SP04",
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "classification",
+   "shared_idea": "classification",
    "note": "Binary sorting decisions in both."
   },
   {
@@ -298,7 +298,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "classification",
+   "shared_idea": "classification",
    "note": "Classification as useful sorting, with trade-offs."
   },
   {
@@ -739,7 +739,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "logic",
+   "shared_idea": "logic",
    "note": "AND, OR and NOT: the same logic in two subjects in the same year."
   },
   {
@@ -825,7 +825,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "inquiry-questions",
+   "shared_idea": "inquiry-questions",
    "note": "Investigable questions in science."
   },
   {
@@ -837,7 +837,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "inquiry-questions",
+   "shared_idea": "inquiry-questions",
    "note": "Investigable questions in science."
   },
   {
@@ -849,7 +849,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "inquiry-questions",
+   "shared_idea": "inquiry-questions",
    "note": "Investigable questions in science."
   },
   {
@@ -861,7 +861,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "inquiry-questions",
+   "shared_idea": "inquiry-questions",
    "note": "Investigable questions in science."
   },
   {
@@ -872,7 +872,7 @@
    "links_to": "AC9M6ST01",
    "relationship": "prerequisite",
    "timing": "earlier",
-   "thread": "searching-and-organising",
+   "shared_idea": "searching-and-organising",
    "note": "Data displays."
   },
   {
@@ -883,7 +883,7 @@
    "links_to": "AC9M7ST02",
    "relationship": "prerequisite",
    "timing": "same_year",
-   "thread": "searching-and-organising",
+   "shared_idea": "searching-and-organising",
    "note": "Data displays."
   },
   {
@@ -894,7 +894,7 @@
    "links_to": "AC9M9ST04",
    "relationship": "background",
    "timing": "later",
-   "thread": "searching-and-organising",
+   "shared_idea": "searching-and-organising",
    "note": "Choosing a display comes later in maths: don't link."
   },
   {
@@ -905,7 +905,7 @@
    "links_to": "AC9M6ST01",
    "relationship": "prerequisite",
    "timing": "earlier",
-   "thread": "searching-and-organising",
+   "shared_idea": "searching-and-organising",
    "note": "Data displays."
   },
   {
@@ -916,7 +916,7 @@
    "links_to": "AC9M7ST02",
    "relationship": "prerequisite",
    "timing": "same_year",
-   "thread": "searching-and-organising",
+   "shared_idea": "searching-and-organising",
    "note": "Data displays."
   },
   {
@@ -927,7 +927,7 @@
    "links_to": "AC9M9ST04",
    "relationship": "background",
    "timing": "later",
-   "thread": "searching-and-organising",
+   "shared_idea": "searching-and-organising",
    "note": "Choosing a display comes later in maths: don't link."
   },
   {
@@ -942,7 +942,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "perspective-and-bias",
+   "shared_idea": "perspective-and-bias",
    "note": "Identifying bias; perspective in texts."
   },
   {
@@ -956,7 +956,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "perspective-and-bias",
+   "shared_idea": "perspective-and-bias",
    "note": "Identifying bias; perspective in texts."
   },
   {
@@ -1054,7 +1054,7 @@
    "links_to": "AC9M6ST02",
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Inference beyond the data; claims in media reports."
   },
   {
@@ -1065,7 +1065,7 @@
    "links_to": "AC9M10ST01",
    "shared_foundation": true,
    "timing": "later",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Claims in media reports, later in maths: don't link."
   },
   {
@@ -1093,7 +1093,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "classification",
+   "shared_idea": "classification",
    "note": "Purpose of classification."
   },
   {
@@ -1296,7 +1296,7 @@
    "links_to": "AC9E4LA02",
    "overlap": "reinforce",
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Fact and opinion."
   },
   {
@@ -1310,7 +1310,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Fact versus interpretation; models and theories in science."
   },
   {
@@ -1324,7 +1324,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Argument: substantiating a judgement."
   },
   {
@@ -1335,7 +1335,7 @@
    "links_to": "AC9HH7S04",
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Substantiating evaluations with sources."
   },
   {
@@ -1346,7 +1346,7 @@
    "links_to": "AC9HE7S03",
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Substantiating evaluations with sources."
   },
   {
@@ -1357,7 +1357,7 @@
    "links_to": "AC9S7U01",
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "idea-structures",
+   "shared_idea": "idea-structures",
    "note": "Taxonomies."
   },
   {
@@ -1372,7 +1372,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "idea-structures",
+   "shared_idea": "idea-structures",
    "note": "Chronology; cause and effect."
   },
   {
@@ -1386,7 +1386,7 @@
    ],
    "shared_foundation": true,
    "timing": "same_year",
-   "thread": "idea-structures",
+   "shared_idea": "idea-structures",
    "note": "Cause and effect."
   },
   {
@@ -1397,7 +1397,7 @@
    "links_to": "AC9HE7S04",
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "idea-structures",
+   "shared_idea": "idea-structures",
    "note": "Problem and solution: responding to an issue."
   },
   {
@@ -1411,7 +1411,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "idea-structures",
+   "shared_idea": "idea-structures",
    "note": "Problem and solution: water management strategies."
   },
   {
@@ -1425,7 +1425,7 @@
    ],
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Claim, evidence and explanation: historical argument."
   },
   {
@@ -1436,7 +1436,7 @@
    "links_to": "AC9S7I06",
    "shared_foundation": true,
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Claim, evidence and explanation: conclusions from evidence in science."
   },
   {
@@ -1447,7 +1447,7 @@
    "links_to": "AC9HH7S03",
    "overlap": "reinforce",
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Source origin and purpose."
   },
   {
@@ -1458,7 +1458,7 @@
    "links_to": "AC9HH7S04",
    "overlap": "reinforce",
    "timing": "earlier",
-   "thread": "evidence-and-claims",
+   "shared_idea": "evidence-and-claims",
    "note": "Source accuracy."
   }
  ]

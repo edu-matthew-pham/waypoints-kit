@@ -64,12 +64,12 @@ A node file's `prior_knowledge` names what a standard builds on **in its own sub
 | `shared_foundation` | `true` when both rest on the same underlying idea, taught in each subject's own way |
 | `wording_watch` | A word that means different things in the two subjects, such as "scarcity" |
 | `timing` | The other standard against this one: `earlier`, `same_year` or `later`. Something taught later can't be assumed: teach the small piece in the lesson |
-| `thread` | The shared thread this link is an instance of (see below) |
+| `shared_idea` | The shared idea this link is an instance of (see below) |
 | `note` | A short plain-language note |
 
 The relationship types follow the Learning Waypoints framework's prior-knowledge extension.
 
-**`threads.json`**: an idea taught in more than one place. Each thread has a `kind`: **skill** (a way of thinking each subject uses in its own way, such as evidence and claims) or **topic** (content taught in more than one place, such as the water cycle). Each member is a standard and its nodes, a one-line `frame` on how that subject treats the idea, and a `role`:
+**`shared-ideas.json`**: an idea taught in more than one place (called "threads" until 11 Nov 2026; renamed because the Learning Waypoints framework uses "thread" for the strands that come together inside one unit). Each shared idea has a `kind`: **skill** (a way of thinking each subject uses in its own way, such as evidence and claims) or **topic** (content taught in more than one place, such as the water cycle). Each member is a standard and its nodes, a one-line `frame` on how that subject treats the idea, and a `role`:
 
 | Role | Meaning |
 |---|---|

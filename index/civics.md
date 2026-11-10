@@ -2,7 +2,7 @@
 
 Open the link in the last column for the standard you need.
 
-The Other subjects column counts a standard's links to other subjects and the shared threads it belongs to; the number links to its entry in [cross-subject.md](cross-subject.md).
+The Other subjects column counts a standard's links to other subjects and the shared ideas it belongs to; the number links to its entry in [cross-subject.md](cross-subject.md).
 
 | Year | Code | Title | Waypoints | Other subjects | Node file |
 |---|---|---|---|---|---|

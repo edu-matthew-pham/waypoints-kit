@@ -1,8 +1,8 @@
 {
- "description": "Shared threads: an idea several subjects teach. A skill thread is a way of thinking each subject uses in its own way (evidence and claims); a topic thread is content taught in more than one place (the water cycle). Each member gives a role: first (where students first meet it), builds_on (goes deeper), applies (uses it in its own context) or repeats (teaches it again at about the same level, often the same year: the overlaps worth coordinating). Membership is recorded only here. See HOW-IT-WORKS.md, 'Cross-subject links'.",
+ "description": "Shared ideas: an idea taught in more than one place. A skill idea is a way of thinking each subject uses in its own way (evidence and claims); a topic idea is content taught in more than one place (the water cycle). Each member gives a role: first (where students first meet it), builds_on (goes deeper), applies (uses it in its own context) or repeats (teaches it again at about the same level, often the same year: the overlaps worth coordinating). Membership is recorded only here. See HOW-IT-WORKS.md, 'Cross-subject links'. Called 'threads' until 11 Nov 2026; renamed because the framework uses 'thread' for the strands inside one unit.",
  "curriculum": "ACARA v9",
  "source": "Learning Waypoints prior-knowledge node pass, 10 Nov 2026. Skill-thread frames for evidence and claims are from the node pass; the rest, the topic threads and all roles were drafted from the members' node labels and checkpoints (10 Nov 2026).",
- "threads": [
+ "shared_ideas": [
   {
    "id": "evidence-and-claims",
    "title": "Evidence and claims",

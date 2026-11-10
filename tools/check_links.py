@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Check the kit's prior-knowledge links: data/cross-subject/links.json, threads.json, and each node file's
+"""Check the kit's prior-knowledge links: data/cross-subject/links.json, shared-ideas.json, and each node file's
 prior_relationships (the types of same-subject prior knowledge).
 
 Usage:  python3 tools/check_links.py
 Exits with status 1 and lists the problems if any check fails. Run it after editing any of them.
 
 Checks: every standard and node exists; field values are allowed; timing agrees with the two standards'
-years; a link joins two different subjects; no link is listed twice; every thread named in a link exists.
+years; a link joins two different subjects; no link is listed twice; every shared idea named in a link exists.
 For prior_relationships: each code is named in the standard's prior_knowledge text, is not from a later
 year, and is listed once.
 """
@@ -23,7 +23,7 @@ OVERLAPS = {"reinforce", "share", "open"}
 TIMINGS = {"earlier", "same_year", "later"}
 ROLES = {"first", "builds_on", "applies", "repeats"}
 LINK_FIELDS = {"standard", "nodes", "links_to", "links_to_nodes", "relationship", "overlap",
-               "shared_foundation", "wording_watch", "timing", "thread", "note"}
+               "shared_foundation", "wording_watch", "timing", "shared_idea", "note"}
 
 
 def years(y):
@@ -56,7 +56,7 @@ def load_standards():
 def main():
     std = load_standards()
     links = json.load(open(os.path.join(DATA, "cross-subject", "links.json"), encoding="utf-8"))["links"]
-    threads = json.load(open(os.path.join(DATA, "cross-subject", "threads.json"), encoding="utf-8"))["threads"]
+    ideas = json.load(open(os.path.join(DATA, "cross-subject", "shared-ideas.json"), encoding="utf-8"))["shared_ideas"]
     problems = []
 
     def check_nodes(code, nodes, where):
@@ -85,8 +85,8 @@ def main():
         t = l.get("timing")
         if t not in TIMINGS:
             problems.append(f"{where}: timing must be one of {sorted(TIMINGS)}")
-        if l.get("thread") and l["thread"] not in {th["id"] for th in threads}:
-            problems.append(f"{where}: no thread '{l['thread']}'")
+        if l.get("shared_idea") and l["shared_idea"] not in {th["id"] for th in ideas}:
+            problems.append(f"{where}: no shared idea '{l['shared_idea']}'")
         key = (a.upper(), tuple(l.get("nodes") or []), b.upper(), tuple(l.get("links_to_nodes") or []))
         if key in seen:
             problems.append(f"{where}: listed twice")
@@ -106,19 +106,19 @@ def main():
             problems.append(f"{where}: timing 'same_year' but the years don't overlap")
 
     ids = set()
-    for th in threads:
+    for th in ideas:
         if th.get("kind") not in {"skill", "topic"}:
-            problems.append(f"thread {th['id']}: kind must be 'skill' or 'topic'")
+            problems.append(f"shared idea {th['id']}: kind must be 'skill' or 'topic'")
         for m in th["members"]:
             if m.get("role") not in ROLES:
-                problems.append(f"thread {th['id']} {m['standard']}: role must be one of {sorted(ROLES)}")
+                problems.append(f"shared idea {th['id']} {m['standard']}: role must be one of {sorted(ROLES)}")
         if th["id"] in ids:
-            problems.append(f"thread {th['id']}: listed twice")
+            problems.append(f"shared idea {th['id']}: listed twice")
         ids.add(th["id"])
         for m in th["members"]:
-            check_nodes(m["standard"], m.get("nodes"), f"thread {th['id']}")
+            check_nodes(m["standard"], m.get("nodes"), f"shared idea {th['id']}")
         if len({std.get(m['standard'].upper(), {}).get('subject') for m in th["members"]}) < 2:
-            problems.append(f"thread {th['id']}: members are all one subject")
+            problems.append(f"shared idea {th['id']}: members are all one subject")
 
     typed = 0
     for code, s in std.items():
@@ -150,7 +150,7 @@ def main():
     if problems:
         print("\n".join(problems))
         sys.exit(1)
-    print(f"OK: {len(links)} links, {len(threads)} threads, {typed} typed prior-knowledge codes")
+    print(f"OK: {len(links)} links, {len(ideas)} shared ideas, {typed} typed prior-knowledge codes")
 
 
 if __name__ == "__main__":

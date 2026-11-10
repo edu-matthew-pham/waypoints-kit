@@ -9,7 +9,7 @@ and writes index/<subject>.md plus index/README.md into the kit root.
 Re-run whenever the Progressions data changes.
 
 --cross-subject only rebuilds index/cross-subject.md from data/cross-subject/ and refreshes the Other subjects
-column in the existing index/<subject>.md tables. Run it after editing links.json or threads.json (and
+column in the existing index/<subject>.md tables. Run it after editing links.json or shared-ideas.json (and
 tools/check_links.py first).
 """
 import glob
@@ -58,7 +58,7 @@ def main(src):
             "",
             "Open the link in the last column for the standard you need.",
             "",
-            "The Other subjects column counts a standard's links to other subjects and the shared threads it belongs to; the number links to its entry in [cross-subject.md](cross-subject.md).",
+            "The Other subjects column counts a standard's links to other subjects and the shared ideas it belongs to; the number links to its entry in [cross-subject.md](cross-subject.md).",
             "",
             "| Year | Code | Title | Waypoints | Other subjects | Node file |",
             "|---|---|---|---|---|---|",
@@ -121,22 +121,22 @@ def main(src):
         readme.append(f"- [{subject}]({subject}.md): {len(rows)} standards")
     readme.append("")
     readme.append("- [glossaries](glossaries.md): pre-built vocabulary files (some subjects only)")
-    readme.append("- [cross-subject](cross-subject.md): links between standards in different subjects, and shared threads")
+    readme.append("- [cross-subject](cross-subject.md): links between standards in different subjects, and shared ideas")
     with open(os.path.join(out_dir, "README.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(readme) + "\n")
     print({s: len(r) for s, r in sorted(by_subject.items())})
 
 
 def build_cross_subject(out_dir, info):
-    """Write index/cross-subject.md from data/cross-subject/links.json and threads.json.
+    """Write index/cross-subject.md from data/cross-subject/links.json and shared-ideas.json.
 
     Each standard gets one entry: what it builds on from other subjects, what uses it in other
-    subjects (derived from the same links), and the threads it belongs to. Returns link counts by code.
+    subjects (derived from the same links), and the shared ideas it belongs to. Returns link counts by code.
     """
     cs_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "cross-subject")
     try:
         links = json.load(open(os.path.join(cs_dir, "links.json"), encoding="utf-8"))["links"]
-        threads = json.load(open(os.path.join(cs_dir, "threads.json"), encoding="utf-8"))["threads"]
+        threads = json.load(open(os.path.join(cs_dir, "shared-ideas.json"), encoding="utf-8"))["shared_ideas"]
     except FileNotFoundError:
         return {}
 
@@ -172,14 +172,14 @@ def build_cross_subject(out_dir, info):
     out = [
         "# Cross-subject links",
         "",
-        "Links between standards in different subjects, and threads several subjects share. A standard's prior knowledge in its own subject is in its node file (`prior_knowledge`); this page covers the rest. Made by `tools/build_index.py` from `data/cross-subject/links.json` and `threads.json`; edit those, not this page.",
+        "Links between standards in different subjects, and ideas taught in more than one place. A standard's prior knowledge in its own subject is in its node file (`prior_knowledge`); this page covers the rest. Made by `tools/build_index.py` from `data/cross-subject/links.json` and `shared-ideas.json`; edit those, not this page.",
         "",
         "Timing compares the other standard's year with this one's: earlier, same year or later. Something taught later can't be assumed: teach the small piece in the lesson.",
         "",
-        "## Threads",
+        "## Shared ideas",
         "",
     ]
-    out += ["Skill threads are ways of thinking each subject uses its own way; topic threads are content taught in more than one place. Roles: First (where students first meet it), Builds on (goes deeper), Applies (uses it in its own context), Repeats (teaches it again at about the same level, often the same year: worth coordinating).", ""]
+    out += ["Skill ideas are ways of thinking each subject uses its own way; topic ideas are content taught in more than one place. Roles: First (where students first meet it), Builds on (goes deeper), Applies (uses it in its own context), Repeats (teaches it again at about the same level, often the same year: worth coordinating).", ""]
     for th in sorted(threads, key=lambda t: t["kind"] != "topic"):
         out += [f"### {th['title']} ({th['kind']})", "", f'<a id="{th["id"]}"></a>{th["description"]}', ""]
         out += [f"- {ROLE[m['role']]}: {name(m['standard'], m.get('nodes'))}. {m['frame']}" for m in th["members"]]
@@ -195,7 +195,7 @@ def build_cross_subject(out_dir, info):
         if e["by"]:
             out += ["Used in other subjects by:", ""] + e["by"] + [""]
         if e["threads"]:
-            out += ["Threads:", ""] + e["threads"] + [""]
+            out += ["Shared ideas:", ""] + e["threads"] + [""]
     with open(os.path.join(out_dir, "cross-subject.md"), "w", encoding="utf-8") as fh:
         fh.write("\n".join(out))
     return {c: len(e["on"]) + len(e["by"]) + len(e["threads"]) for c, e in entries.items()}
@@ -215,7 +215,7 @@ def cross_only():
         if isinstance(std, dict) and "nodes" in std:
             info[std["code"].upper()] = (os.path.basename(os.path.dirname(path)), d.get("year_level", ""), std.get("title", ""))
     counts = build_cross_subject(out_dir, info)
-    note = "The Other subjects column counts a standard's links to other subjects and the shared threads it belongs to; the number links to its entry in [cross-subject.md](cross-subject.md)."
+    note = "The Other subjects column counts a standard's links to other subjects and the shared ideas it belongs to; the number links to its entry in [cross-subject.md](cross-subject.md)."
     for path in glob.glob(os.path.join(out_dir, "*.md")):
         lines = open(path, encoding="utf-8").read().split("\n")
         try:
@@ -249,7 +249,7 @@ def cross_only():
             fh.write("\n".join(lines))
     readme = os.path.join(out_dir, "README.md")
     text = open(readme, encoding="utf-8").read()
-    line = "- [cross-subject](cross-subject.md): links between standards in different subjects, and shared threads"
+    line = "- [cross-subject](cross-subject.md): links between standards in different subjects, and shared ideas"
     if line not in text:
         with open(readme, "w", encoding="utf-8") as fh:
             fh.write(text.rstrip("\n") + "\n" + line + "\n")
